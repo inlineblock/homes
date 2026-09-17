@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.blend[0-9]
+*.blend@
+.cache/
+scratch/
+**/renders/work/
+**/exports/work/
+.venv/
+*.log

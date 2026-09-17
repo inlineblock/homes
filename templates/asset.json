@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "category/asset-name",
+  "version": "v001",
+  "name": "Asset name",
+  "units": "meters",
+  "dimensions_m": null,
+  "source": {"kind": "original", "author": "", "url": null},
+  "rights": "No redistribution license assigned",
+  "files": {},
+  "dependencies": []
+}

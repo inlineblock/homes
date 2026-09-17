@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "garage-loft-03",
+  "name": "Garage Loft 03",
+  "project_type": "garage-with-game-room",
+  "status": "architectural concept",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "bedrooms": 0,
+  "bathrooms": 0,
+  "parking_spaces": 4,
+  "garage_bays": 2,
+  "gross_enclosed_area_sqft": 1903.5,
+  "footprint_sqft": 1008.0,
+  "upper_floor_projected_slab_sqft": 895.5,
+  "area_basis": "36 x 28 ft ground footprint including parking pit projection, plus upper slab minus 7.5 x 15 ft stair opening; excludes overhangs and exterior paving; not habitable/appraised area",
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "storeys": [
+    {
+      "name": "Parking pit",
+      "elevation_m": -1.85166
+    },
+    {
+      "name": "Ground floor",
+      "elevation_m": 0
+    },
+    {
+      "name": "Game room",
+      "elevation_m": 4.1148
+    }
+  ],
+  "lift": {
+    "planning_reference": "KLAUS MultiBase 2072i-180 DP",
+    "manufacturer_geometry": false,
+    "platform_clear_width_m": 5.4,
+    "pit_depth_front_inches": 72.9,
+    "pit_depth_rear_inches": 70.9,
+    "garage_clear_height_ft": 12,
+    "car_proxy_ft": [
+      6.3,
+      15.2,
+      4.65
+    ],
+    "operation": "Two pairs on a common moving double-width carriage; access either level without removing the other level; unoccupied during operation",
+    "limitations": "Final layout, support positions, actual vehicles, loads, doors, anchorage, drainage, and safeguards require KLAUS and site engineering."
+  },
+  "hvac": {
+    "scope": "Separate upstairs heating/cooling heat pump",
+    "capacity": "Not sized; requires climate/envelope load calculation",
+    "garage": "No shared supply/return with game room; garage ventilation unresolved"
+  },
+  "asset_dependencies": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v001",
+      "path": "../../library/materials/warm-vertical-cedar/v001/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-standing-seam/v001/"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/"
+    },
+    {
+      "id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-counter-stool/v001/"
+    },
+    {
+      "id": "fixtures/double-pit-parking-carriage",
+      "version": "v001",
+      "path": "../../library/fixtures/double-pit-parking-carriage/v001/"
+    },
+    {
+      "id": "furniture/walnut-eight-foot-pool-table",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-eight-foot-pool-table/v001/"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/garage-loft-03.blend",
+    "architectural_model": "model/garage-loft-03.ifc",
+    "primary_render": "outputs/images/01-exterior.png",
+    "concept_book": "outputs/plans/garage-loft.pdf",
+    "ground_plan": "outputs/plans/ground-plan.svg",
+    "upper_plan": "outputs/plans/upper-plan.svg",
+    "lift_section": "outputs/plans/lift-section.svg"
+  }
+}

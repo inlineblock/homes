@@ -2,7 +2,15 @@
 
 Editable homes, measured drawings, beautiful renders, and a shared asset library.
 
-## Browse the homes
+## Browse the projects
+
+### Garage Loft 03
+
+Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 x 28 ft footprint · 8 ft pool table · separate stair entrance.
+
+[![Garage Loft exterior](homes/garage-loft-03/outputs/images/01-exterior.png)](homes/garage-loft-03/outputs/README.md)
+
+[All images and plans](homes/garage-loft-03/outputs/README.md) · [Concept book PDF](homes/garage-loft-03/outputs/plans/garage-loft.pdf) · [Project and editable models](homes/garage-loft-03/README.md)
 
 ### Timber Courtyard 02
 

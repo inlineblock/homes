@@ -1,0 +1,11 @@
+# Planning sources and assumptions
+
+Accessed 2026-09-17. These are manufacturer references for planning, not installation approval. No third-party CAD, product photographs, or manuals are redistributed in this repository.
+
+- [KLAUS MultiBase 2072i, US product page](https://us.multiparking.com/products/99/multibase-2072i/): pit-based independent parking; double platform accommodates four cars. Use the 2072i-180 DP as the conceptual reference, with wide 5.4 m clear platform option. This differs from the pit-free SingleVario initially considered before the user clarified the underground arrangement.
+- [KLAUS product data 590.00.280-002, June 2025](https://us.multiparking.com/downloads/?cHash=577dcc540eaf9473af38d8c51a7cdae2&tx_wwmultiparkingproducts_dow%5Baction%5D=download&tx_wwmultiparkingproducts_dow%5Bcontroller%5D=DownloadItem&tx_wwmultiparkingproducts_dow%5Bnumber%5D=59000280): pages 2-6 cover operation and space envelopes. The 180 variant's pit is 70.9 inches at the rear and 72.9 inches at the front; its lower-car limit is 65 inches. The table requires 131.9 inches building clearance for a 59.1-inch upper vehicle. This concept reserves 144 inches below the upper floor; actual services and door hardware require coordination. Pit plan allowance is 22 x 19 feet and is deliberately larger than the nominal double platform. This is not a final equipment pit drawing.
+- [Brunswick room-size guidance](https://www.brunswickbilliards.com/blogs/buying-guides-inspiration/room-size-requirements): eight-foot home tables use a 44 x 88 inch playing area. This concept explicitly adds a 58-inch cue to each edge, yielding a 13 ft 4 in x 17 ft clear rectangle. It uses an original pool table, not a Brunswick product model.
+
+The cars are original schematic silhouettes: approximately 15.2 ft long, 6.3 ft wide, and 4.65 ft tall. Actual vehicle dimensions, opening doors, wheel loads, approach angles, and low ground clearance need checking with the selected lift supplier. No capacity certification is assigned to the modeled proxy.
+
+The native scene includes simplified moving decks and fixed guides. Locks, hydraulics, connection details, guarding, pit-edge covers, sensors, emergency controls, and maintenance clearances are unresolved. Do not fabricate or install from this geometry.

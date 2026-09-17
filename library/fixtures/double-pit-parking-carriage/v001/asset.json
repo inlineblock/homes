@@ -1,0 +1,27 @@
+{
+  "name": "Double pit parking carriage | schematic",
+  "dimensions_m": [
+    5.40004,
+    5.199380000000001,
+    1.8745200000000002
+  ],
+  "planning_reference": "KLAUS MultiBase 2072i DP, original simplified proxy; not manufacturer geometry",
+  "clear_platform_width_m": 5.4,
+  "platform_spacing_m": 1.72212,
+  "limitations": "No certified mechanism, anchors, rated loads, or fabricated details. Fixed guide columns are separate building placeholders.",
+  "schema_version": 1,
+  "id": "fixtures/double-pit-parking-carriage",
+  "version": "v001",
+  "units": "meters",
+  "origin": "Floor/driveway level at plan center",
+  "license": "CC-BY-4.0",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/garage03/assets.py"
+  },
+  "files": {
+    "blender": "double-pit-parking-carriage.blend"
+  },
+  "dependencies": []
+}

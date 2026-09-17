@@ -15,3 +15,8 @@ Open or link the `.blend` file next to each manifest. Tile and fixture assets ar
 The procedural planting helpers in `tools/common/landscape.py` are another reusable source artifact. They generate trees, shrubs, grasses, and boulders at explicit physical sizes with deterministic seeds.
 
 Read [asset conventions](../docs/assets.md) before adding or changing an asset. Preserve local coordinates when linking collections, especially curve-based objects.
+
+## Garage Loft additions
+
+- [Double pit parking carriage](fixtures/double-pit-parking-carriage/v001/asset.json): original two-level, double-width schematic equipment proxy. References KLAUS planning dimensions; not manufacturer CAD or installation documentation.
+- [Walnut eight-foot pool table](furniture/walnut-eight-foot-pool-table/v001/asset.json): original furniture with a 44 x 88 inch playing area.

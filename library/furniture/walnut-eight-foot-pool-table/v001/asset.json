@@ -1,0 +1,29 @@
+{
+  "name": "Walnut eight-foot pool table",
+  "dimensions_m": [
+    1.43256,
+    2.54508,
+    0.896112
+  ],
+  "playing_surface_m": [
+    1.1176,
+    2.2352
+  ],
+  "cue_length_m": 1.4731999999999998,
+  "dimensions_basis": "Original visualization design; 44 x 88 inch playing surface; not a purchasable product",
+  "schema_version": 1,
+  "id": "furniture/walnut-eight-foot-pool-table",
+  "version": "v001",
+  "units": "meters",
+  "origin": "Floor/driveway level at plan center",
+  "license": "CC-BY-4.0",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/garage03/assets.py"
+  },
+  "files": {
+    "blender": "walnut-eight-foot-pool-table.blend"
+  },
+  "dependencies": []
+}

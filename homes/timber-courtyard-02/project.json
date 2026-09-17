@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "timber-courtyard-02",
+  "name": "Timber Courtyard 02",
+  "status": "exterior-led concept",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 2400,
+  "gross_enclosed_area_sqft": 2400,
+  "area_basis": "62 x 48 ft outer footprint minus 24 x 24 ft courtyard; includes walls",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "reference_scope": "Exterior appearance only; interior may change",
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "materials/sage-fluted-tile",
+      "version": "v001",
+      "path": "../../library/materials/sage-fluted-tile/v001/"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/"
+    },
+    {
+      "id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-counter-stool/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v001",
+      "path": "../../library/materials/warm-vertical-cedar/v001/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-standing-seam/v001/"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/timber-courtyard-02.blend",
+    "architectural_model": "model/timber-courtyard-02.ifc",
+    "primary_render": "renders/01-exterior.png",
+    "floor_plan": "drawings/floor-plan.svg",
+    "presentation_sheet": "drawings/design-board.pdf"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/opal-globe-pendant",
+  "version": "v001",
+  "name": "Opal globe pendant",
+  "units": "meters",
+  "dimensions_m": [
+    0.3048,
+    0.3048,
+    1.0668
+  ],
+  "origin": "Ceiling mount",
+  "source": {
+    "kind": "original",
+    "home": "atrium-01",
+    "generator": "tools/library/publish_from_atrium.py"
+  },
+  "rights": "Original project asset; no redistribution license assigned",
+  "files": {
+    "blender": "opal-globe-pendant.blend"
+  }
+}

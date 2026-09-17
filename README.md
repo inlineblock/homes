@@ -2,9 +2,11 @@
 
 Editable homes, measured drawings, beautiful renders, and a shared asset library.
 
-## Open the first home
+## Open a home
 
 [Atrium 01 — a modern Eichler-inspired home](homes/atrium-01/README.md)
+
+[Timber Courtyard 02 — timber wings and a glazed gable](homes/timber-courtyard-02/README.md)
 
 Each home lives in `homes/<home-name>/`. Shared materials and objects live in `library/`, independent of any one house. Project-specific experiments stay with their home until they are useful elsewhere.
 

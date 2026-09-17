@@ -1,0 +1,15 @@
+{
+  "reopened_model": true,
+  "scene_objects": 1702,
+  "measured_floor_area_sqft": 2400.0,
+  "modeled_bedrooms": 3,
+  "modeled_bathrooms": 3,
+  "relative_libraries": [
+    "//../../../library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend",
+    "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
+    "//../../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend",
+    "//../../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
+    "//../../../library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend"
+  ],
+  "status": "Concept geometry verified; architectural engineering unverified"
+}

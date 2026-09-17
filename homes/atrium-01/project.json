@@ -25,6 +25,6 @@
     "presentation_model": "model/atrium-01.blend",
     "architectural_model": "model/atrium-01.ifc",
     "floor_plan": "drawings/floor-plan.svg",
-    "kitchen_render": "renders/01-kitchen.png"
+    "primary_render": "renders/01-kitchen.png"
   }
 }

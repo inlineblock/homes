@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "furniture/walnut-counter-stool",
+  "version": "v001",
+  "name": "Walnut counter stool",
+  "units": "meters",
+  "dimensions_m": [
+    0.45720000000000005,
+    0.45720000000000005,
+    0.9144000000000001
+  ],
+  "origin": "Floor beneath seat center",
+  "source": {
+    "kind": "original",
+    "home": "atrium-01",
+    "generator": "tools/library/publish_from_atrium.py"
+  },
+  "rights": "Original project asset; no redistribution license assigned",
+  "files": {
+    "blender": "walnut-counter-stool.blend"
+  }
+}

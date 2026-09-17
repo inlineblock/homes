@@ -99,7 +99,7 @@ r(38,39.3,49,42.7,'#ccc3ad','#978b76',1)
 r(41,35.35,47,38.25,'#b99b70','#86775b',1)
 r(28.3,34.4,29.9,42.4,'#d3cbbb','#978b76',.8)
 # Labels placed away from furniture and circulation.
-for x,y,t,d in [(9,10.4,'BEDROOM 02',"18' x 12' zone"),(13.5,16.1,'BATH 02',"10' x 8'"),(4,16,'STORAGE',"8' x 8'"),(9,28.7,'BEDROOM 03',"18' x 10' zone"),(9,42.7,'PRIMARY',"18' x 14' zone"),(23,40.3,'PRIMARY BATH',"10' x 10'"),(25,31.5,'DRESSING',"6' x 6'"),(26.4,5.65,'BATH 03',"8' x 8'"),(34,6,'ENTRY',''),(41,7,'PANTRY /','LAUNDRY'),(50,19.4,'KITCHEN',''),(48.5,30.1,'DINING',''),(44,33.2,'LIVING',''),(30,23.2,'OPEN ATRIUM',"16' x 15'")]:
+for x,y,t,d in [(9,10.4,'BEDROOM 02',"18' x 12' zone"),(13.5,16.1,'BATH 02',"10' x 8'"),(4,16,'STORAGE',"8' x 8'"),(9,28.7,'BEDROOM 03',"18' x 10' zone"),(9,42.7,'PRIMARY',"18' x 14' zone"),(23,40.3,'PRIMARY BATH',"10' x 10'"),(25,31.5,'DRESSING',"6' x 6'"),(26,5.1,'BATH 03',"8' x 8'"),(34,6,'ENTRY',''),(41,7,'PANTRY /','LAUNDRY'),(50,19.4,'KITCHEN',''),(48.5,30.1,'DINING',''),(44,33.2,'LIVING',''),(30,23.2,'OPEN ATRIUM',"16' x 15'")]:
     label(x,y,t,11.8,True)
     if d:label(x,y-1.0,d,10.5)
 label(20,19,'G',11);label(20,18,'A',11);label(20,17,'L',11);label(20,16,'L',11);label(20,15,'E',11);label(20,14,'R',11);label(20,13,'Y',11)

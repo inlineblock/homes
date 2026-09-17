@@ -1,0 +1,18 @@
+{
+  "name": "Charcoal standing-seam metal",
+  "seam_spacing_m": 0.3048,
+  "raised_seam_height_m": 0.03048,
+  "description": "Original procedural coated-metal shader; roof meshes use twelve-inch seam spacing.",
+  "schema_version": 1,
+  "id": "materials/charcoal-standing-seam",
+  "version": "v001",
+  "units": "meters",
+  "source": {
+    "kind": "original",
+    "generator": "tools/timber02/build.py"
+  },
+  "rights": "Original project asset; no redistribution license assigned",
+  "files": {
+    "blender": "charcoal-standing-seam.blend"
+  }
+}

@@ -9,3 +9,4 @@ scratch/
 **/exports/work/
 .venv/
 *.log
+**/references/local/

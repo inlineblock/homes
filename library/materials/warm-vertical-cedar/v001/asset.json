@@ -1,0 +1,19 @@
+{
+  "name": "Warm vertical cedar",
+  "board_module_m": 0.1524,
+  "nominal_board_width_inches": 6,
+  "gap_m": 0.004,
+  "description": "Original procedural timber shader; pair with six-inch board geometry.",
+  "schema_version": 1,
+  "id": "materials/warm-vertical-cedar",
+  "version": "v001",
+  "units": "meters",
+  "source": {
+    "kind": "original",
+    "generator": "tools/timber02/build.py"
+  },
+  "rights": "Original project asset; no redistribution license assigned",
+  "files": {
+    "blender": "warm-vertical-cedar.blend"
+  }
+}

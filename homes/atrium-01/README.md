@@ -39,6 +39,8 @@ The drawing tool requires `reportlab`. On this Mac the Blender executable is `/A
 
 The presentation scene reopens with relative library links. The exported IFC passes an IFC4 schema check; validation summaries are saved in `model/`. Rendered views and the PDF plan were visually reviewed.
 
+The IFC was also imported successfully using the installed Bonsai extension, yielding 251 mesh objects. That receipt is in `model/bonsai-validation.json`.
+
 This is an architectural **concept**, not a permit or construction set. Structure, drainage, foundations, insulation assemblies, mechanical systems, electrical/plumbing routes, local code, and site conditions are unresolved. The landscape is illustrative. Appliances and fixtures are schematic, with no manufacturer specification.
 
 The IFC is a classified geometric architectural export, not a fully parametric authoring model: wall segments represent the apertures geometrically, planning spaces are labeled zones without calculated boundaries, and most furniture and detailed materials remain in Blender. It is separate from the presentation scene; edits do not synchronize automatically.

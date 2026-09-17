@@ -9,6 +9,8 @@
 
 Check a fresh clone before handing a project off. A downloaded ZIP may not include LFS content depending on host settings; cloning with LFS is the supported workflow. Hosting providers may charge for LFS storage and bandwidth.
 
+To verify portability from a clone, run `blender --background --python-exit-code 1 --python tools/common/verify_repository.py`. It reopens each native home, checks that library paths stay inside the clone, and measures the enclosed slabs. This verifies local file portability; it does not verify a remote hosting account or its LFS quota.
+
 When publishing, choose a repository host and visibility deliberately. No remote is created automatically by this starter. Do not commit precise client addresses, surveys, or client reference photos without deciding who should receive them.
 
 Reference: https://docs.github.com/en/repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage

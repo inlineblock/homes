@@ -1,10 +1,10 @@
 """Exterior presentation board and measured schematic plan."""
-import sys,math,random
+import sys,math,random,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'tools'))
 from common.drawing import Drawing
 from design import *
-HOME=ROOT/'homes/timber-courtyard-02';OUT=HOME/'drawings'
+HOME=ROOT/'homes/timber-courtyard-02';OUT=HOME/'outputs/plans';OUT.mkdir(parents=True,exist_ok=True)
 def plan(c,ox,oy,s=20):
     def xy(x,y):return ox+x*s,oy-y*s
     def r(a,b,d,e,fill,stroke='none',sw=1):c.rect(*xy(a,e),(d-a)*s,(e-b)*s,fill,stroke,sw)
@@ -60,11 +60,11 @@ def plan(c,ox,oy,s=20):
     xx,yy=xy(65,24);c.rect(xx-30,yy-16,60,32,'#faf8f2');c.text(xx,yy+6,"48'-0\"",17,anchor='middle')
     for i in range(3):r(27.25,-3-i*3,34.75,-1-i*3,'#e3dfd2','#bfbdac',.7)
 
-d=Drawing(1800,1450,'/private/tmp/timber-floor-plan.pdf',OUT/'floor-plan.svg','Timber Courtyard 02 | Schematic plan')
+d=Drawing(1800,1450,Path(tempfile.gettempdir())/'timber-floor-plan.pdf',OUT/'floor-plan.svg','Timber Courtyard 02 | Schematic plan')
 d.rect(0,0,1800,1450,'#faf8f2');d.text(100,69,'TIMBER COURTYARD 02 / SCHEMATIC PLAN',30,bold=True)
 d.text(100,109,'3 bedrooms / 3 baths / 2,400 sq ft gross enclosed / Interior layout is flexible',18,'#647563')
 plan(d,220,1160,20);d.text(100,1415,'Concept only. Includes walls; excludes courtyard, garden and roof overhangs. Dimensions govern; do not scale.',15,'#647563');d.save()
-render=HOME/'renders/01-exterior.png'
+render=HOME/'outputs/images/01-exterior.png'
 if render.exists():
     board=Drawing(1800,2700,OUT/'design-board.pdf',title='Timber Courtyard 02 | Exterior and plan')
     board.rect(0,0,1800,2700,'#faf8f2');board.text(900,74,'02 / T I M B E R   C O U R T Y A R D',36,anchor='middle')

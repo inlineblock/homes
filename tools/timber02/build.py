@@ -188,10 +188,12 @@ s['home_id']='timber-courtyard-02';s['gross_enclosed_area_sqft']=AREA;s['bedroom
 for screen in bpy.data.screens:
     for ar in screen.areas:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
+(HOME/'outputs/images').mkdir(parents=True,exist_ok=True)
+s.render.filepath='//../outputs/images/01-exterior.png'
 path=HOME/'model/timber-courtyard-02.blend';bpy.ops.wm.save_as_mainfile(filepath=str(path));bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(path))
 deps=['materials/sage-fluted-tile','fixtures/opal-globe-pendant','furniture/walnut-counter-stool','materials/warm-vertical-cedar','materials/charcoal-standing-seam']
-manifest={'schema_version':1,'id':'timber-courtyard-02','name':'Timber Courtyard 02','status':'exterior-led concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':AREA,'area_basis':'62 x 48 ft outer footprint minus 24 x 24 ft courtyard; includes walls','bedrooms':3,'bathrooms':3,'reference_scope':'Exterior appearance only; interior may change','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps],'deliverables':{'presentation_model':'model/timber-courtyard-02.blend','architectural_model':'model/timber-courtyard-02.ifc','primary_render':'renders/01-exterior.png','floor_plan':'drawings/floor-plan.svg','presentation_sheet':'drawings/design-board.pdf'}}
+manifest={'schema_version':1,'id':'timber-courtyard-02','name':'Timber Courtyard 02','status':'exterior-led concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':AREA,'area_basis':'62 x 48 ft outer footprint minus 24 x 24 ft courtyard; includes walls','bedrooms':3,'bathrooms':3,'reference_scope':'Exterior appearance only; interior may change','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps],'deliverables':{'presentation_model':'model/timber-courtyard-02.blend','architectural_model':'model/timber-courtyard-02.ifc','primary_render':'outputs/images/01-exterior.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
 (HOME/'project.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('TIMBER_MODEL_SAVED',len(s.objects),'objects',AREA,'sqft',flush=True)
 if '--render' in sys.argv:
-    s.render.filepath=str(HOME/'renders/01-exterior.png');bpy.ops.render.render(write_still=True)
+    s.render.filepath=str(HOME/'outputs/images/01-exterior.png');bpy.ops.render.render(write_still=True)

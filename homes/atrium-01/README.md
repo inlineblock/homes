@@ -2,14 +2,16 @@
 
 A kitchen-led, modern Eichler-inspired concept: three bedrooms, three bathrooms, exposed fir beams, walnut cabinetry, pale stone, and a planted central atrium.
 
-![Kitchen](renders/01-kitchen.png)
+![Kitchen](outputs/images/01-kitchen.png)
+
+**[Browse all current images and plans](outputs/README.md)** — one current set; previous revisions live in Git.
 
 ## Open and review
 
 - `model/atrium-01.blend`: furnished, editable presentation scene, with four named cameras and a separately switchable roof collection.
 - `model/atrium-01.ifc`: IFC4 architectural export for Bonsai, with walls, glazing, structure, slabs, roof, selected kitchen elements, and labeled planning zones.
-- `drawings/floor-plan.pdf`: dimensioned concept plan; SVG and PNG versions sit alongside it.
-- `renders/`: kitchen, kitchen-to-courtyard, exterior, and whole-home cutaway views, rendered directly from the model.
+- `outputs/plans/floor-plan.pdf`: dimensioned concept plan; SVG and PNG versions sit alongside it.
+- `outputs/images/`: kitchen, kitchen-to-courtyard, exterior, and whole-home cutaway views, rendered directly from the model.
 
 The 60 × 44 ft outer footprint encloses 2,640 sq ft before subtracting the 16 × 15 ft atrium. The resulting **2,400 sq ft is gross enclosed area including wall thickness**, excluding the open courtyard and exterior terraces. There is no garage. Room dimensions on the plan describe planning zones, not finished clear dimensions or an appraised area schedule.
 

@@ -5,8 +5,13 @@
   "name": "Asset name",
   "units": "meters",
   "dimensions_m": null,
-  "source": {"kind": "original", "author": "", "url": null},
-  "rights": "No redistribution license assigned",
+  "source": {
+    "kind": "original",
+    "author": "",
+    "url": null
+  },
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
   "files": {},
-  "dependencies": []
+  "dependencies": [],
+  "license": "CC-BY-4.0"
 }

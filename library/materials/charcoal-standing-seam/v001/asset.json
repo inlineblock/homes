@@ -11,8 +11,9 @@
     "kind": "original",
     "generator": "tools/timber02/build.py"
   },
-  "rights": "Original project asset; no redistribution license assigned",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
   "files": {
     "blender": "charcoal-standing-seam.blend"
-  }
+  },
+  "license": "CC-BY-4.0"
 }

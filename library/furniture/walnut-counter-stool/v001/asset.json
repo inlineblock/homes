@@ -15,8 +15,9 @@
     "home": "atrium-01",
     "generator": "tools/library/publish_from_atrium.py"
   },
-  "rights": "Original project asset; no redistribution license assigned",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
   "files": {
     "blender": "walnut-counter-stool.blend"
-  }
+  },
+  "license": "CC-BY-4.0"
 }

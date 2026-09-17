@@ -2,6 +2,7 @@
 import bpy,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HOME=ROOT/'homes/atrium-01';s=bpy.context.scene
+(HOME/'outputs/images').mkdir(parents=True,exist_ok=True)
 try:
     p=bpy.context.preferences.addons['cycles'].preferences;p.compute_device_type='METAL';p.get_devices()
     for d in p.devices:d.use=d.type=='METAL'
@@ -13,5 +14,5 @@ for name,file,cutaway in views:
     s.camera=bpy.data.objects[name]
     bpy.data.collections['09 Roof | hide for cutaway'].hide_render=cutaway
     bpy.data.collections['08 Structure | exposed fir'].hide_render=cutaway
-    s.render.filepath=str(HOME/'renders'/f'{file}.png');bpy.ops.render.render(write_still=True)
+    s.render.filepath=str(HOME/'outputs/images'/f'{file}.png');bpy.ops.render.render(write_still=True)
     print('RENDER_SAVED',file,flush=True)

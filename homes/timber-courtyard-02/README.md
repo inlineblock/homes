@@ -2,7 +2,9 @@
 
 An exterior-led concept inspired by the user-supplied reference: paired timber-clad wings, dark pitched standing-seam roofs, a transparent central gable, a low entrance canopy, and layered courtyard planting.
 
-![Exterior](renders/01-exterior.png)
+![Exterior](outputs/images/01-exterior.png)
+
+**[Browse all current images and plans](outputs/README.md)** — one current set; previous revisions live in Git.
 
 The user clarified that **the reference's exterior is the priority and the interior may change**. This design retains the original three-bedroom, three-bath, approximately 2,400-square-foot brief, with a new internal arrangement rather than copying the image's plan.
 
@@ -10,9 +12,9 @@ The user clarified that **the reference's exterior is the priority and the inter
 
 - `model/timber-courtyard-02.blend`: editable furnished scene with four named cameras, geometry-based cladding and roof seams, and five relative shared-library links.
 - `model/timber-courtyard-02.ifc`: classified IFC4 architectural geometry for Bonsai.
-- `drawings/design-board.pdf`: exterior render and a schematic dimensioned floor plan on one presentation sheet; PNG preview alongside it.
-- `drawings/floor-plan.svg`: editable vector plan, with a PNG preview.
-- `renders/`: front exterior, elevated courtyard view, garden entry, and roof-off model plan.
+- `outputs/plans/design-board.pdf`: exterior render and a schematic dimensioned floor plan on one presentation sheet; PNG preview alongside it.
+- `outputs/plans/floor-plan.svg`: editable vector plan, with a PNG preview.
+- `outputs/images/`: front exterior, elevated courtyard view, garden entry, and roof-off model plan.
 
 The 62 × 48 ft floor footprint minus the 24 × 24 ft open courtyard equals **2,400 sq ft gross enclosed**. This includes wall zones and excludes courtyard, overhangs, entry canopy projection, garden, and approach paving. The actual floor slab geometry is checked during validation. No garage is included.
 

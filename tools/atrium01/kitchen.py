@@ -16,7 +16,7 @@ def tile_library(root,M):
     bpy.data.collections.remove(c)
     with bpy.data.libraries.load(str(path),link=True) as (src,dst):dst.collections=[src.collections[0]]
     # Library links are made repository-relative when the house is saved.
-    data={'schema_version':1,'id':'materials/sage-fluted-tile','version':'v001','name':'Sage fluted ceramic','units':'meters','dimensions_m':[.073152,.0181356,.301752],'nominal_module_inches':[3,12],'grout_inches':.12,'source':{'kind':'original','author':'Homes project','generator':'tools/atrium01/kitchen.py:tile_library'},'rights':'Original project asset; no redistribution license assigned','files':{'blender':'sage-fluted-tile.blend'},'dependencies':[]}
+    data={'schema_version':1,'id':'materials/sage-fluted-tile','version':'v001','name':'Sage fluted ceramic','units':'meters','dimensions_m':[.073152,.0181356,.301752],'nominal_module_inches':[3,12],'grout_inches':.12,'source':{'kind':'original','author':'Homes project','generator':'tools/atrium01/kitchen.py:tile_library'},'license':'CC-BY-4.0','rights':'Original project asset; CC BY 4.0; attribution: Homes project contributors','files':{'blender':'sage-fluted-tile.blend'},'dependencies':[]}
     (folder/'asset.json').write_text(json.dumps(data,indent=2)+'\n')
     return dst.collections[0]
 

@@ -1,6 +1,7 @@
 import bpy,json,math,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HOME=ROOT/'homes/timber-courtyard-02';s=bpy.context.scene
+(HOME/'outputs/images').mkdir(parents=True,exist_ok=True)
 links=[]
 for lib in bpy.data.libraries:
     assert lib.filepath.startswith('//'),lib.filepath
@@ -23,4 +24,4 @@ for camera,file,cutaway in [('02 Elevated courtyard','02-elevated',False),('03 G
     bpy.data.collections['09 Roof | hide for cutaway'].hide_render=cutaway;bpy.data.collections['08 Structure | cedar'].hide_render=cutaway
     if cutaway:
         s.camera.data.type='ORTHO';s.camera.data.ortho_scale=74*.3048;s.render.resolution_x=1600;s.render.resolution_y=1400
-    s.render.filepath=str(HOME/'renders'/f'{file}.png');bpy.ops.render.render(write_still=True);print('RENDER_SAVED',file,flush=True)
+    s.render.filepath=str(HOME/'outputs/images'/f'{file}.png');bpy.ops.render.render(write_still=True);print('RENDER_SAVED',file,flush=True)

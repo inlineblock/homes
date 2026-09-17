@@ -5,7 +5,7 @@ import math
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor
 from design import *
-ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'homes/atrium-01/drawings';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'homes/atrium-01/outputs/plans';OUT.mkdir(parents=True,exist_ok=True)
 W,H=1600,1200;S=16.3;OX,OY=125,974
 pdf=canvas.Canvas(str(OUT/'floor-plan.pdf'),pagesize=(1152,864));pdf.scale(.72,.72);pdf.setTitle('Atrium 01 | Dimensioned concept plan')
 svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">']

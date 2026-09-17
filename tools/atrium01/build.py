@@ -168,11 +168,13 @@ scene['area_formula']='60 x 44 - 16 x 15 = 2400 sqft; includes walls, excludes a
 for screen in bpy.data.screens:
     for ar in screen.areas:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
+(HOME/'outputs/images').mkdir(parents=True,exist_ok=True)
+scene.render.filepath='//../outputs/images/01-kitchen.png'
 bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/atrium-01.blend'))
 bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/atrium-01.blend'))
 # Text manifest is generated from the same measured design.
-manifest={'schema_version':1,'id':'atrium-01','name':'Atrium 01','status':'concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':GROSS_AREA,'area_basis':scene['area_formula'],'bedrooms':3,'bathrooms':3,'software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':'materials/sage-fluted-tile','version':'v001','path':'../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend'}],'deliverables':{'presentation_model':'model/atrium-01.blend','architectural_model':'model/atrium-01.ifc','floor_plan':'drawings/floor-plan.svg','primary_render':'renders/01-kitchen.png'}}
+manifest={'schema_version':1,'id':'atrium-01','name':'Atrium 01','status':'concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':GROSS_AREA,'area_basis':scene['area_formula'],'bedrooms':3,'bathrooms':3,'software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':'materials/sage-fluted-tile','version':'v001','path':'../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend'}],'deliverables':{'presentation_model':'model/atrium-01.blend','architectural_model':'model/atrium-01.ifc','floor_plan':'outputs/plans/floor-plan.svg','primary_render':'outputs/images/01-kitchen.png'}}
 (HOME/'project.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('MODEL_SAVED',len(scene.objects),'objects',GROSS_AREA,'sqft')
 if '--render' in sys.argv:
-    scene.render.filepath=str(HOME/'renders/01-kitchen.png');bpy.ops.render.render(write_still=True)
+    scene.render.filepath=str(HOME/'outputs/images/01-kitchen.png');bpy.ops.render.render(write_still=True)

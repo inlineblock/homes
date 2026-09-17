@@ -5,8 +5,19 @@ __pycache__/
 *.blend@
 .cache/
 scratch/
-**/renders/work/
 **/exports/work/
 .venv/
 *.log
 **/references/local/
+**/outputs/work/
+
+# Local authoring state and private configuration
+.env
+.env.*
+!.env.example
+*.tmp
+*.bak
+*.swp
+# Downloaded installers and archives are not project assets
+*.dmg
+*.pkg

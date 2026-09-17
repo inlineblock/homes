@@ -15,7 +15,7 @@
     "author": "Homes project",
     "generator": "tools/atrium01/kitchen.py:tile_library"
   },
-  "rights": "Original project asset; no redistribution license assigned",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
   "files": {
     "blender": "sage-fluted-tile.blend"
   },
@@ -23,5 +23,6 @@
   "nominal_module_inches": [
     3,
     12
-  ]
+  ],
+  "license": "CC-BY-4.0"
 }

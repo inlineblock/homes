@@ -13,3 +13,5 @@ The first original asset is `materials/sage-fluted-tile/v001`: a 3 × 12 inch gl
 Timber Courtyard 02 reuses that tile, the `fixtures/opal-globe-pendant/v001` and `furniture/walnut-counter-stool/v001` collections promoted from Atrium 01, and adds `materials/warm-vertical-cedar/v001` and `materials/charcoal-standing-seam/v001`. The new shaders accompany real board and seam geometry in the home's generator. The shared planting helpers create original geometry without external texture downloads.
 
 For purchased or downloaded assets, record the original URL and actual redistribution terms. Where sharing the source is not allowed, store acquisition instructions and a placeholder rather than the restricted file.
+
+Original library assets use CC BY 4.0 with attribution to Homes project contributors; see [licensing](../LICENSE.md). Authoring code uses MIT.

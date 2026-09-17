@@ -24,7 +24,7 @@
   "deliverables": {
     "presentation_model": "model/atrium-01.blend",
     "architectural_model": "model/atrium-01.ifc",
-    "floor_plan": "drawings/floor-plan.svg",
-    "primary_render": "renders/01-kitchen.png"
+    "floor_plan": "outputs/plans/floor-plan.svg",
+    "primary_render": "outputs/images/01-kitchen.png"
   }
 }

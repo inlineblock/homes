@@ -45,8 +45,8 @@
   "deliverables": {
     "presentation_model": "model/timber-courtyard-02.blend",
     "architectural_model": "model/timber-courtyard-02.ifc",
-    "primary_render": "renders/01-exterior.png",
-    "floor_plan": "drawings/floor-plan.svg",
-    "presentation_sheet": "drawings/design-board.pdf"
+    "primary_render": "outputs/images/01-exterior.png",
+    "floor_plan": "outputs/plans/floor-plan.svg",
+    "presentation_sheet": "outputs/plans/design-board.pdf"
   }
 }

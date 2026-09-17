@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "materials/warm-vertical-cedar",
+  "version": "v002",
+  "name": "Warm cedar with physically scaled fine grain",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original asset; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/garage03/finishes.py"
+  },
+  "files": {
+    "blender": "warm-vertical-cedar.blend"
+  },
+  "dependencies": [],
+  "change_from_v001": "Subtle physical-scale grain and restrained color/roughness; no coarse generated-coordinate mottling."
+}

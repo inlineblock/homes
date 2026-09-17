@@ -9,3 +9,9 @@ Accessed 2026-09-17. These are manufacturer references for planning, not install
 The cars are original schematic silhouettes: approximately 15.2 ft long, 6.3 ft wide, and 4.65 ft tall. Actual vehicle dimensions, opening doors, wheel loads, approach angles, and low ground clearance need checking with the selected lift supplier. No capacity certification is assigned to the modeled proxy.
 
 The native scene includes simplified moving decks and fixed guides. Locks, hydraulics, connection details, guarding, pit-edge covers, sensors, emergency controls, and maintenance clearances are unresolved. Do not fabricate or install from this geometry.
+
+## Circulation revision
+
+The linked KLAUS data sheet, pages 11-13, describes customer-provided barriers where traffic routes adjoin the system, an operating element normally in front of the support or on the door jamb, and key operation with emergency stop. Those requirements prompted explicit front/side access-protection reservations and a fixed-floor operator bay. The 3 x 3 ft bay and 7 ft 6 in apron are this project's planning choices, not KLAUS-approved dimensions. Final control sightlines, reach protection, gate opening/storage and interlocks remain unresolved.
+
+The current concept uses a 36 x 34 ft footprint. Drivers approach forward and exit left; passengers unload before parking. Actual sports-car widths and long door arcs must be checked against the selected platform and supplier's layout. A schematic walk-off arrow does not prove vehicle-door clearance or accessibility.

@@ -1,6 +1,6 @@
 # Garage Loft 03 — current outputs
 
-[Project and editable models](../README.md) · [Browse all projects](../../../README.md) · **[Three-page concept book (PDF)](plans/garage-loft.pdf)**
+[Project and editable models](../README.md) · [Browse all projects](../../../README.md) · **[Four-page concept book (PDF)](plans/garage-loft.pdf)**
 
 Current concept deliverables. One current file per view/document; Git retains previous revisions. Cars and KLAUS-style lift are original schematic proxies.
 
@@ -27,6 +27,14 @@ Walls and roof are selectively hidden to expose the parking pit, stair, and upst
 The entire carriage rises; lower cars reach driveway level while the upper cars stay aboard. Door omitted to show the mechanism.
 
 [![Lift raised with both parking levels visible](images/05-raised-retrieval.png)](images/05-raised-retrieval.png)
+
+## Walking route and operator position
+
+The ground-floor cutaway shows the fixed apron, separate operator bay, and internal stair doorway. Upper construction and the front enclosure panels are omitted here to reveal the route when the lift is stopped and aligned. The side wall is cut to three feet. The concept book's fourth page explains the sequence and unresolved supplier protection.
+
+[![Operator on fixed floor beside the direct internal stair route](images/06-circulation.png)](images/06-circulation.png)
+
+[![Human-access plan and operating sequence](plans/circulation.png)](plans/garage-loft.pdf)
 
 ## Floor plans
 

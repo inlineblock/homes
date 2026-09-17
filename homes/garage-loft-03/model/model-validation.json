@@ -3,23 +3,32 @@
   "relative_library_count": 6,
   "relative_libraries": [
     "//../../../library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend",
-    "//../../../library/fixtures/double-pit-parking-carriage/v001/double-pit-parking-carriage.blend",
+    "//../../../library/fixtures/double-pit-parking-carriage/v002/double-pit-parking-carriage.blend",
     "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
     "//../../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
-    "//../../../library/furniture/walnut-eight-foot-pool-table/v001/walnut-eight-foot-pool-table.blend",
-    "//../../../library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend"
+    "//../../../library/furniture/walnut-eight-foot-pool-table/v002/walnut-eight-foot-pool-table.blend",
+    "//../../../library/materials/warm-vertical-cedar/v002/warm-vertical-cedar.blend"
   ],
   "car_proxies": 4,
-  "projected_floor_area_sqft": 1903.5,
-  "upper_slab_sqft": 895.5,
+  "projected_floor_area_sqft": 2335.5,
+  "upper_slab_sqft": 1111.5,
   "cue_envelope_ft": [
     13.333,
     17.0
   ],
-  "max_raised_car_top_ft": 10.3,
+  "max_raised_car_top_ft": 9.765,
   "garage_clear_height_ft": 12.0,
   "pit_front_depth_in": 72.9,
   "pit_rear_depth_in": 70.9,
   "stair_opening_clear": true,
+  "circulation": {
+    "fixed_floor_route_width_ft": 3,
+    "both_lift_positions_checked": true,
+    "exterior_lobby_route_checked": true,
+    "open_door_sweep_route_clear": true,
+    "deck_front_aligned_to_apron": true,
+    "operator_bay_on_fixed_floor": true,
+    "limits": "No car door articulation, certified safeguards, dynamic interlocks or complete operator sightline validation"
+  },
   "status": "Concept geometry checks only; engineering and manufacturer coordination unresolved"
 }

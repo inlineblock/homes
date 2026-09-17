@@ -1,0 +1,50 @@
+{
+  "render_engine": "Blender Cycles",
+  "samples": 192,
+  "views": [
+    {
+      "path": "outputs/images/01-exterior.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    },
+    {
+      "path": "outputs/images/02-game-room.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    },
+    {
+      "path": "outputs/images/03-garage-stored.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    },
+    {
+      "path": "outputs/images/04-pit-section.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    },
+    {
+      "path": "outputs/images/05-raised-retrieval.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    },
+    {
+      "path": "outputs/images/06-circulation.png",
+      "pixels": [
+        2560,
+        1850
+      ]
+    }
+  ],
+  "visual_review": "All six images inspected; circulation shown separately from presentation views. Four PDF pages inspected.",
+  "review_limits": "Architectural concept; not a photorealism certification, manufacturer approval, or construction validation."
+}

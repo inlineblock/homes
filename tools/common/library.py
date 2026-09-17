@@ -2,8 +2,8 @@ import bpy,json
 from pathlib import Path
 from . import geometry as g
 from .geometry import F
-def linked_collection(root,category,slug):
-    path=Path(root)/'library'/category/slug/'v001'/f'{slug}.blend'
+def linked_collection(root,category,slug,version="v001"):
+    path=Path(root)/'library'/category/slug/version/f'{slug}.blend'
     with bpy.data.libraries.load(str(path),link=True) as (src,dst):dst.collections=[src.collections[0]]
     return dst.collections[0]
 def instance(name,coll,loc,rotation=0,scale=1):

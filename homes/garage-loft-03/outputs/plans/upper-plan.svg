@@ -3,77 +3,80 @@
 <text x="80" y="65" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#657671" text-anchor="start" font-weight="400">GARAGE LOFT 03</text>
 <text x="80" y="120" font-family="Helvetica,Arial,sans-serif" font-size="43" fill="#253b38" text-anchor="start" font-weight="700">Upper / game room</text>
 <text x="80" y="163" font-family="Helvetica,Arial,sans-serif" font-size="21" fill="#657671" text-anchor="start" font-weight="400">Dimensioned concept / not for construction</text>
-<rect x="150" y="316" width="828" height="644" fill="#e8e6dd" stroke="#253b38" stroke-width="2"/>
-<rect x="150" y="316" width="11.5" height="644" fill="#253b38" stroke="none" stroke-width="1"/>
-<rect x="966.5" y="316" width="11.5" height="644" fill="#253b38" stroke="none" stroke-width="1"/>
-<rect x="161.5" y="316" width="805.0" height="11.5" fill="#253b38" stroke="none" stroke-width="1"/>
-<line x1="150" y1="270" x2="978" y2="270" stroke="#657671" stroke-width="1"/>
-<line x1="150" y1="276.9" x2="150" y2="263.1" stroke="#657671" stroke-width="1"/>
-<line x1="978" y1="276.9" x2="978" y2="263.1" stroke="#657671" stroke-width="1"/>
-<text x="564" y="257.35" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#253b38" text-anchor="middle" font-weight="700">36&#x27;-0&quot;</text>
-<line x1="117.80000000000001" y1="960" x2="117.80000000000001" y2="316" stroke="#657671" stroke-width="1"/>
-<text x="94.80000000000001" y="638" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#253b38" text-anchor="middle" font-weight="400">28&#x27;</text>
-<rect x="794" y="534.5" width="172.5" height="345.0" fill="#ebe3d4" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="879.5" x2="876.8000000000001" y2="879.5" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="879.5" x2="959.6" y2="879.5" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="858.4166666666666" x2="876.8000000000001" y2="858.4166666666666" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="858.4166666666666" x2="959.6" y2="858.4166666666666" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="837.3333333333334" x2="876.8000000000001" y2="837.3333333333334" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="837.3333333333334" x2="959.6" y2="837.3333333333334" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="816.25" x2="876.8000000000001" y2="816.25" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="816.25" x2="959.6" y2="816.25" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="795.1666666666667" x2="876.8000000000001" y2="795.1666666666667" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="795.1666666666667" x2="959.6" y2="795.1666666666667" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="774.0833333333334" x2="876.8000000000001" y2="774.0833333333334" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="774.0833333333334" x2="959.6" y2="774.0833333333334" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="753.0" x2="876.8000000000001" y2="753.0" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="753.0" x2="959.6" y2="753.0" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="731.9166666666667" x2="876.8000000000001" y2="731.9166666666667" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="731.9166666666667" x2="959.6" y2="731.9166666666667" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="710.8333333333334" x2="876.8000000000001" y2="710.8333333333334" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="710.8333333333334" x2="959.6" y2="710.8333333333334" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="689.75" x2="876.8000000000001" y2="689.75" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="689.75" x2="959.6" y2="689.75" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="668.6666666666667" x2="876.8000000000001" y2="668.6666666666667" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="668.6666666666667" x2="959.6" y2="668.6666666666667" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="647.5833333333334" x2="876.8000000000001" y2="647.5833333333334" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="647.5833333333334" x2="959.6" y2="647.5833333333334" stroke="#657671" stroke-width="1"/>
-<line x1="803.1999999999999" y1="626.5" x2="876.8000000000001" y2="626.5" stroke="#657671" stroke-width="1"/>
-<line x1="886" y1="626.5" x2="959.6" y2="626.5" stroke="#657671" stroke-width="1"/>
-<rect x="794" y="534.5" width="172.5" height="92.0" fill="#d9c5a9" stroke="none" stroke-width="1"/>
-<line x1="840" y1="845" x2="840" y2="661" stroke="#285b56" stroke-width="2"/>
-<line x1="840" y1="661" x2="830.8000000000001" y2="674.8" stroke="#285b56" stroke-width="2"/>
-<line x1="840" y1="661" x2="849.1999999999999" y2="674.8" stroke="#285b56" stroke-width="2"/>
-<text x="881.4" y="500" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b38" text-anchor="middle" font-weight="700">ENCLOSED STAIR</text>
-<text x="881.4" y="525.3" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#253b38" text-anchor="middle" font-weight="400">26 equal risers</text>
-<line x1="173" y1="954.25" x2="771" y2="954.25" stroke="#639995" stroke-width="5"/>
-<line x1="155.75" y1="948.5" x2="155.75" y2="477" stroke="#639995" stroke-width="5"/>
-<rect x="794" y="948.5" width="172.5" height="11.5" fill="#253b38" stroke="none" stroke-width="1"/>
-<rect x="238.16666666666669" y="477.0" width="306.6666666666666" height="391.0" fill="#d5e4db" stroke="#689388" stroke-width="1.5"/>
-<rect x="337.45000000000005" y="576.4749999999999" width="108.09999999999998" height="192.05000000000004" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<rect x="349.3333333333333" y="588.1666666666666" width="84.33333333333336" height="168.66666666666669" fill="#285b56" stroke="none" stroke-width="1"/>
-<circle cx="349.3333333333333" cy="756.8333333333333" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<circle cx="349.3333333333333" cy="672.5" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<circle cx="349.3333333333333" cy="588.1666666666666" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<circle cx="433.6666666666667" cy="756.8333333333333" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<circle cx="433.6666666666667" cy="672.5" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<circle cx="433.6666666666667" cy="588.1666666666666" r="2.99" fill="#253b38" stroke="none" stroke-width="1"/>
-<text x="391.5" y="451.7" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b38" text-anchor="middle" font-weight="700">13&#x27;-4&quot; x 17&#x27;-0&quot; CUE ZONE</text>
-<text x="391.5" y="905.95" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#253b38" text-anchor="middle" font-weight="700">8 FT POOL TABLE / 58 IN CUES</text>
-<rect x="566.3" y="546" width="197.79999999999995" height="236.9" fill="#ded7c9" stroke="none" stroke-width="1"/>
-<rect x="715.8000000000001" y="585.0999999999999" width="64.39999999999993" height="173.65" fill="#c4c0ac" stroke="#657671" stroke-width="1"/>
-<rect x="622.6500000000001" y="620.75" width="82.79999999999995" height="103.5" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<text x="658.3" y="506.90000000000003" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#253b38" text-anchor="middle" font-weight="700">LOUNGE</text>
-<rect x="228.2" y="329.80000000000007" width="174.79999999999998" height="52.899999999999935" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<text x="315.6" y="405.69999999999993" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#253b38" text-anchor="middle" font-weight="700">REFRESHMENTS</text>
-<circle cx="253.5" cy="419.5" r="15.41" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<circle cx="315.6" cy="419.5" r="15.41" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<circle cx="377.70000000000005" cy="419.5" r="15.41" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
-<rect x="545.5999999999999" y="332.1" width="211.6" height="41.40000000000002" fill="#bfa083" stroke="none" stroke-width="1"/>
-<text x="651.4000000000001" y="403.4" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#253b38" text-anchor="middle" font-weight="700">MEDIA</text>
-<rect x="520.3" y="327.5" width="87.39999999999993" height="9.199999999999967" fill="#ffffff" stroke="#285b56" stroke-width="1"/>
-<text x="564" y="293" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#285b56" text-anchor="middle" font-weight="400">HEAT PUMP HEAD</text>
-<rect x="842.3000000000001" y="337.85" width="110.39999999999993" height="57.5" fill="#bfa083" stroke="none" stroke-width="1"/>
-<text x="897.5" y="421.80000000000007" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#253b38" text-anchor="middle" font-weight="700">GAMING DESK</text>
-<line x1="795.15" y1="879.5" x2="795.15" y2="534.5" stroke="#253b38" stroke-width="3"/>
+<rect x="150" y="319" width="684" height="646" fill="#e8e6dd" stroke="#253b38" stroke-width="2"/>
+<rect x="150" y="319" width="9.5" height="646" fill="#253b38" stroke="none" stroke-width="1"/>
+<rect x="824.5" y="319" width="9.5" height="646" fill="#253b38" stroke="none" stroke-width="1"/>
+<rect x="159.5" y="319" width="665.0" height="9.5" fill="#253b38" stroke="none" stroke-width="1"/>
+<line x1="150" y1="281" x2="834" y2="281" stroke="#657671" stroke-width="1"/>
+<line x1="150" y1="286.69999999999993" x2="150" y2="275.30000000000007" stroke="#657671" stroke-width="1"/>
+<line x1="834" y1="286.69999999999993" x2="834" y2="275.30000000000007" stroke="#657671" stroke-width="1"/>
+<text x="492" y="270.55000000000007" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#253b38" text-anchor="middle" font-weight="700">36&#x27;-0&quot;</text>
+<line x1="123.4" y1="965" x2="123.4" y2="319" stroke="#657671" stroke-width="1"/>
+<text x="104.4" y="642" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#253b38" text-anchor="middle" font-weight="400">34&#x27;</text>
+<rect x="682" y="547" width="142.5" height="285" fill="#ebe3d4" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="832.0" x2="750.4" y2="832.0" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="832.0" x2="818.8000000000001" y2="832.0" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="814.5833333333333" x2="750.4" y2="814.5833333333333" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="814.5833333333333" x2="818.8000000000001" y2="814.5833333333333" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="797.1666666666666" x2="750.4" y2="797.1666666666666" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="797.1666666666666" x2="818.8000000000001" y2="797.1666666666666" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="779.75" x2="750.4" y2="779.75" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="779.75" x2="818.8000000000001" y2="779.75" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="762.3333333333334" x2="750.4" y2="762.3333333333334" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="762.3333333333334" x2="818.8000000000001" y2="762.3333333333334" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="744.9166666666667" x2="750.4" y2="744.9166666666667" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="744.9166666666667" x2="818.8000000000001" y2="744.9166666666667" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="727.5" x2="750.4" y2="727.5" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="727.5" x2="818.8000000000001" y2="727.5" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="710.0833333333334" x2="750.4" y2="710.0833333333334" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="710.0833333333334" x2="818.8000000000001" y2="710.0833333333334" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="692.6666666666667" x2="750.4" y2="692.6666666666667" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="692.6666666666667" x2="818.8000000000001" y2="692.6666666666667" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="675.25" x2="750.4" y2="675.25" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="675.25" x2="818.8000000000001" y2="675.25" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="657.8333333333334" x2="750.4" y2="657.8333333333334" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="657.8333333333334" x2="818.8000000000001" y2="657.8333333333334" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="640.4166666666667" x2="750.4" y2="640.4166666666667" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="640.4166666666667" x2="818.8000000000001" y2="640.4166666666667" stroke="#657671" stroke-width="1"/>
+<line x1="689.6" y1="623.0" x2="750.4" y2="623.0" stroke="#657671" stroke-width="1"/>
+<line x1="758" y1="623.0" x2="818.8000000000001" y2="623.0" stroke="#657671" stroke-width="1"/>
+<rect x="682" y="547" width="142.5" height="76" fill="#d9c5a9" stroke="none" stroke-width="1"/>
+<line x1="789.35" y1="803.5" x2="789.35" y2="651.5" stroke="#285b56" stroke-width="2"/>
+<line x1="789.35" y1="651.5" x2="781.75" y2="662.9" stroke="#285b56" stroke-width="2"/>
+<line x1="789.35" y1="651.5" x2="796.9499999999999" y2="662.9" stroke="#285b56" stroke-width="2"/>
+<text x="789.35" y="818.7" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#253b38" text-anchor="middle" font-weight="700">DN</text>
+<text x="754.2" y="518.5" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#253b38" text-anchor="middle" font-weight="700">ENCLOSED STAIR</text>
+<text x="754.2" y="539.4000000000001" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#253b38" text-anchor="middle" font-weight="400">26 equal risers</text>
+<line x1="169" y1="960.25" x2="663" y2="960.25" stroke="#639995" stroke-width="5"/>
+<line x1="154.75" y1="955.5" x2="154.75" y2="566" stroke="#639995" stroke-width="5"/>
+<rect x="682" y="955.5" width="142.5" height="9.5" fill="#253b38" stroke="none" stroke-width="1"/>
+<rect x="222.83333333333334" y="566.0" width="253.3333333333333" height="323.0" fill="#d5e4db" stroke="#689388" stroke-width="1.5"/>
+<rect x="304.85" y="648.175" width="89.29999999999998" height="158.65000000000003" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<rect x="314.66666666666663" y="657.8333333333333" width="69.66666666666669" height="139.33333333333334" fill="#285b56" stroke="none" stroke-width="1"/>
+<circle cx="314.66666666666663" cy="797.1666666666666" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<circle cx="314.66666666666663" cy="727.5" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<circle cx="314.66666666666663" cy="657.8333333333333" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<circle cx="384.33333333333337" cy="797.1666666666666" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<circle cx="384.33333333333337" cy="727.5" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<circle cx="384.33333333333337" cy="657.8333333333333" r="2.47" fill="#253b38" stroke="none" stroke-width="1"/>
+<text x="349.5" y="545.0999999999999" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b38" text-anchor="middle" font-weight="700">13&#x27;-4&quot; x 17&#x27;-0&quot; CUE ZONE</text>
+<text x="349.5" y="920.35" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#253b38" text-anchor="middle" font-weight="700">8 FT POOL TABLE / 58 IN CUES</text>
+<rect x="493.90000000000003" y="623" width="163.39999999999995" height="195.70000000000002" fill="#ded7c9" stroke="none" stroke-width="1"/>
+<rect x="617.4000000000001" y="655.3" width="53.199999999999946" height="143.45000000000002" fill="#c4c0ac" stroke="#657671" stroke-width="1"/>
+<rect x="540.45" y="684.75" width="68.39999999999996" height="85.5" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<text x="569.9000000000001" y="590.7" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#253b38" text-anchor="middle" font-weight="700">LOUNGE</text>
+<rect x="214.6" y="330.4" width="144.4" height="43.699999999999946" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<text x="286.8" y="393.1" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#253b38" text-anchor="middle" font-weight="700">REFRESHMENTS</text>
+<circle cx="235.5" cy="404.5" r="12.73" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<circle cx="286.8" cy="404.5" r="12.73" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<circle cx="338.1" cy="404.5" r="12.73" fill="#bfa083" stroke="#253b38" stroke-width="1"/>
+<rect x="476.8" y="332.30000000000007" width="174.79999999999998" height="34.199999999999946" fill="#bfa083" stroke="none" stroke-width="1"/>
+<text x="564.2" y="391.20000000000005" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#253b38" text-anchor="middle" font-weight="700">MEDIA</text>
+<rect x="455.90000000000003" y="328.5" width="72.19999999999995" height="7.599999999999973" fill="#ffffff" stroke="#285b56" stroke-width="1"/>
+<text x="492" y="300" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#285b56" text-anchor="middle" font-weight="400">HEAT PUMP HEAD</text>
+<rect x="721.9" y="337.05000000000007" width="91.19999999999995" height="47.49999999999993" fill="#bfa083" stroke="none" stroke-width="1"/>
+<text x="767.5" y="406.4" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#253b38" text-anchor="middle" font-weight="700">GAMING DESK</text>
+<line x1="682.95" y1="832" x2="682.95" y2="547" stroke="#253b38" stroke-width="3"/>
+<line x1="682" y1="547" x2="824.5" y2="547" stroke="#253b38" stroke-width="3"/>
+<line x1="682" y1="832" x2="751.35" y2="832" stroke="#253b38" stroke-width="3"/>
 </svg>

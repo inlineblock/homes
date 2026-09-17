@@ -10,10 +10,10 @@
   "bathrooms": 0,
   "parking_spaces": 4,
   "garage_bays": 2,
-  "gross_enclosed_area_sqft": 1903.5,
-  "footprint_sqft": 1008.0,
-  "upper_floor_projected_slab_sqft": 895.5,
-  "area_basis": "36 x 28 ft ground footprint including parking pit projection, plus upper slab minus 7.5 x 15 ft stair opening; excludes overhangs and exterior paving; not habitable/appraised area",
+  "gross_enclosed_area_sqft": 2335.5,
+  "footprint_sqft": 1224.0,
+  "upper_floor_projected_slab_sqft": 1111.5,
+  "area_basis": "36 x 34 ft ground footprint including pit projection, plus upper slab minus 7.5 x 15 ft stair opening; excludes exterior paving and overhangs; not living area",
   "software": {
     "blender": "4.5.14 LTS",
     "bonsai": "0.8.5"
@@ -38,11 +38,11 @@
     "platform_clear_width_m": 5.4,
     "pit_depth_front_inches": 72.9,
     "pit_depth_rear_inches": 70.9,
-    "garage_clear_height_ft": 12,
+    "garage_clear_height_ft": 12.0,
     "car_proxy_ft": [
       6.3,
       15.2,
-      4.65
+      4.2
     ],
     "operation": "Two pairs on a common moving double-width carriage; access either level without removing the other level; unoccupied during operation",
     "limitations": "Final layout, support positions, actual vehicles, loads, doors, anchorage, drainage, and safeguards require KLAUS and site engineering."
@@ -55,8 +55,8 @@
   "asset_dependencies": [
     {
       "id": "materials/warm-vertical-cedar",
-      "version": "v001",
-      "path": "../../library/materials/warm-vertical-cedar/v001/"
+      "version": "v002",
+      "path": "../../library/materials/warm-vertical-cedar/v002/"
     },
     {
       "id": "materials/charcoal-standing-seam",
@@ -75,13 +75,13 @@
     },
     {
       "id": "fixtures/double-pit-parking-carriage",
-      "version": "v001",
-      "path": "../../library/fixtures/double-pit-parking-carriage/v001/"
+      "version": "v002",
+      "path": "../../library/fixtures/double-pit-parking-carriage/v002/"
     },
     {
       "id": "furniture/walnut-eight-foot-pool-table",
-      "version": "v001",
-      "path": "../../library/furniture/walnut-eight-foot-pool-table/v001/"
+      "version": "v002",
+      "path": "../../library/furniture/walnut-eight-foot-pool-table/v002/"
     }
   ],
   "deliverables": {
@@ -91,6 +91,30 @@
     "concept_book": "outputs/plans/garage-loft.pdf",
     "ground_plan": "outputs/plans/ground-plan.svg",
     "upper_plan": "outputs/plans/upper-plan.svg",
-    "lift_section": "outputs/plans/lift-section.svg"
+    "lift_section": "outputs/plans/lift-section.svg",
+    "circulation_render": "outputs/images/06-circulation.png",
+    "circulation_plan": "outputs/plans/circulation.png"
+  },
+  "circulation": {
+    "front_apron_clear_depth_ft": 7.5,
+    "cross_aisle_width_ft": 3.5,
+    "operator_bay_ft": [
+      3,
+      3
+    ],
+    "internal_door_rough_width_ft": 3.5,
+    "stair_lobby_depth_ft": 6.5,
+    "status": "Spatial reservations; access protection, sightlines with actual vehicles and door ratings require supplier/design coordination"
+  },
+  "visualization": {
+    "renderer": "Blender Cycles",
+    "samples": 192,
+    "resolution": [
+      2560,
+      1850
+    ],
+    "original_car_geometry": "../../tools/garage03/cars.py",
+    "finishes_and_detail": "../../tools/garage03/finishes.py",
+    "limits": "Cars, lift equipment and site are illustrative; no manufacturer geometry or site survey."
   }
 }

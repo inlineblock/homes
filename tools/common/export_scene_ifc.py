@@ -36,6 +36,7 @@ for obj in bpy.context.scene.objects:
         elif any(c.startswith('07 Cladding') for c in groups):cls='IfcCovering'
         elif any(c.startswith('10 Stairs') for c in groups):cls='IfcRailing' if any(k in name for k in ['rail','guard','baluster']) else 'IfcSlab' if 'landing' in name else 'IfcStairFlight'
         elif any(c.startswith('14 Comfort') for c in groups):cls='IfcBuildingElementProxy'
+    if obj.get('ifc_class'):cls=obj['ifc_class']
     if not cls:continue
     e=api('root.create_entity',f,ifc_class=cls,name=obj.name)
     verts=[tuple(obj.matrix_world@v.co) for v in obj.data.vertices];faces=[tuple(p.vertices) for p in obj.data.polygons]

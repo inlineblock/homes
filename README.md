@@ -6,7 +6,7 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 ### Garage Loft 03
 
-Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 x 28 ft footprint · 8 ft pool table · separate stair entrance.
+Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 x 34 ft footprint · 8 ft pool table · internal stair access and fixed-floor operator bay.
 
 [![Garage Loft exterior](homes/garage-loft-03/outputs/images/01-exterior.png)](homes/garage-loft-03/outputs/README.md)
 

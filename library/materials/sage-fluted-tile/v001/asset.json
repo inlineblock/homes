@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "materials/sage-fluted-tile",
+  "version": "v001",
+  "name": "Sage fluted ceramic",
+  "units": "meters",
+  "dimensions_m": [
+    0.073152,
+    0.0181356,
+    0.301752
+  ],
+  "grout_inches": 0.12,
+  "source": {
+    "kind": "original",
+    "author": "Homes project",
+    "generator": "tools/atrium01/kitchen.py:tile_library"
+  },
+  "rights": "Original project asset; no redistribution license assigned",
+  "files": {
+    "blender": "sage-fluted-tile.blend"
+  },
+  "dependencies": [],
+  "nominal_module_inches": [
+    3,
+    12
+  ]
+}

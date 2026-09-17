@@ -13,7 +13,7 @@ def palette():
     out={
       'plaster':noise_material('Warm chalk plaster',(.72,.68,.59),(.9,.86,.77),55,bump=.001),
       'concrete':noise_material('Honed warm concrete',(.39,.36,.30),(.62,.59,.52),22,.6,.002),
-      'walnut':noise_material('Oiled walnut | vertical grain',(.085,.035,.016),(.34,.17,.075),3,.35,.002,(7,7,.35)),
+      'walnut':noise_material('Oiled walnut | vertical grain',(.035,.012,.006),(.17,.065,.025),3,.42,.0005,(7,7,.35)),
       'fir':noise_material('Douglas fir | exposed structure',(.23,.12,.055),(.51,.31,.14),4,.5,.001,(.25,5,5)),
       'stone':noise_material('Warm ivory limestone',(.7,.67,.58),(.92,.89,.8),7,.28,.001),
       'black':material('Blackened bronze',(.025,.03,.026),.3,.7),

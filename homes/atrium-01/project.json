@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "atrium-01",
+  "name": "Atrium 01",
+  "status": "concept",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 2400,
+  "gross_enclosed_area_sqft": 2400,
+  "area_basis": "60 x 44 - 16 x 15 = 2400 sqft; includes walls, excludes atrium",
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "materials/sage-fluted-tile",
+      "version": "v001",
+      "path": "../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/atrium-01.blend",
+    "architectural_model": "model/atrium-01.ifc",
+    "floor_plan": "drawings/floor-plan.svg",
+    "kitchen_render": "renders/01-kitchen.png"
+  }
+}

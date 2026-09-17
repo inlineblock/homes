@@ -46,7 +46,9 @@ def curve(name,points,r,mat):
 def area(name,loc,target,power,size,color=(1,.84,.66),shape='DISK',size_y=None):
     d=bpy.data.lights.new(name,'AREA');d.energy=power;d.color=color;d.shape=shape;d.size=size*F
     if size_y and shape=='RECTANGLE':d.size_y=size_y*F
-    o=bpy.data.objects.new(name,d);ACTIVE.objects.link(o);o.location=Vector(loc)*F;o.rotation_euler=(Vector(target)-Vector(loc)).to_track_quat('-Z','Y').to_euler();return o
+    o=bpy.data.objects.new(name,d);ACTIVE.objects.link(o);o.location=Vector(loc)*F;o.rotation_euler=(Vector(target)-Vector(loc)).to_track_quat('-Z','Y').to_euler()
+    o.visible_glossy=False;o.visible_transmission=False
+    return o
 def camera(name,loc,target,lens):
     d=bpy.data.cameras.new(name);d.lens=lens;d.clip_end=500
     o=bpy.data.objects.new(name,d);ACTIVE.objects.link(o);o.location=Vector(loc)*F;o.rotation_euler=(Vector(target)-Vector(loc)).to_track_quat('-Z','Y').to_euler();return o

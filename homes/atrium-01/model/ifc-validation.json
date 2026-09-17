@@ -1,0 +1,17 @@
+{
+  "schema": "IFC4",
+  "counts": {
+    "IfcWall": 67,
+    "IfcMember": 97,
+    "IfcWindow": 50,
+    "IfcDoor": 9,
+    "IfcSlab": 4,
+    "IfcRoof": 4,
+    "IfcBeam": 11,
+    "IfcColumn": 4,
+    "IfcFurnishingElement": 5
+  },
+  "spaces": 14,
+  "schema_errors": 0,
+  "details": []
+}

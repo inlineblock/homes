@@ -1,0 +1,19 @@
+{
+  "blender": "4.5.14 LTS",
+  "reopened_scene_objects": 1128,
+  "gross_enclosed_area_sqft": 2400,
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "asset_links": [
+    {
+      "relative_path": "//../../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend",
+      "resolved": true
+    }
+  ],
+  "camera": "01 Kitchen hero",
+  "roof_present": true,
+  "render_dimensions": [
+    1600,
+    1100
+  ]
+}

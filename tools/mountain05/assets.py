@@ -9,14 +9,11 @@ from common.finish_palette import palette as coastal_palette,textured
 
 def mats(root):
     M=coastal_palette(root)
-    for slug,version,key in [('warm-vertical-cedar','v002','cedar'),('charcoal-standing-seam','v001','roof')]:
+    for slug,version,key in [('warm-vertical-cedar','v003','cedar'),('charcoal-standing-seam','v001','roof')]:
         p=root/'library/materials'/slug/version/(slug+'.blend')
         with bpy.data.libraries.load(str(p),link=True) as (a,b):b.materials=[a.materials[0]]
         M[key]=b.materials[0]
-    slug='mountain-thermo-ash';folder=root/'library/materials'/slug/'v001';p=folder/(slug+'.blend')
-    if not p.exists():
-        folder.mkdir(parents=True,exist_ok=True);m=textured('Thermally toned ash deck',(.085,.042,.018),(.18,.103,.044),5,.52,.0004,(1,35,35));bpy.data.libraries.write(str(p),{m},fake_user=True)
-        (folder/'asset.json').write_text(json.dumps({'schema_version':1,'id':'materials/'+slug,'version':'v001','name':'Mountain thermo ash decking','units':'meters','license':'CC-BY-4.0','rights':'Original; attribution Homes project contributors','source':{'kind':'original','generator':'tools/mountain05/assets.py'},'files':{'blender':p.name},'description':'Fine longitudinal grain in physical meter coordinates; pair with spaced deck board geometry.','dependencies':[]},indent=2)+'\n')
+    slug='mountain-thermo-ash';folder=root/'library/materials'/slug/'v002';p=folder/(slug+'.blend')
     with bpy.data.libraries.load(str(p),link=True) as (a,b):b.materials=[a.materials[0]]
     M['deck']=b.materials[0]
     M['bark']=textured('Rough conifer bark',(.025,.017,.010),(.09,.064,.034),22,.96,.003,(5,5,.4))

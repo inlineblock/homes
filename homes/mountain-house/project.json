@@ -104,8 +104,8 @@
     },
     {
       "id": "materials/mountain-thermo-ash",
-      "version": "v001",
-      "path": "../../library/materials/mountain-thermo-ash/v001/"
+      "version": "v002",
+      "path": "../../library/materials/mountain-thermo-ash/v002/"
     },
     {
       "id": "cabinetry/oak-drawer-base-2ft",
@@ -144,8 +144,8 @@
     },
     {
       "id": "materials/warm-vertical-cedar",
-      "version": "v002",
-      "path": "../../library/materials/warm-vertical-cedar/v002/"
+      "version": "v003",
+      "path": "../../library/materials/warm-vertical-cedar/v003/"
     }
   ],
   "site_concept": {

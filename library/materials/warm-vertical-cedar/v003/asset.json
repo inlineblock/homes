@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "materials/warm-vertical-cedar",
+  "version": "v003",
+  "name": "Cedar | smoked umber | physical grain",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original procedural material; attribution Homes project contributors",
+  "derived_from": {
+    "id": "materials/warm-vertical-cedar",
+    "version": "v002"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_timber.py",
+    "shader": "tools/common/timber_materials.py"
+  },
+  "files": {
+    "blender": "warm-vertical-cedar.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "texture_scale": {
+    "uv_map": "Timber meters",
+    "U": "meters across grain",
+    "V": "meters along grain",
+    "growth_width_m": 0.025,
+    "fiber_width_m": 0.003,
+    "bump_distance_m": 0.00065
+  },
+  "placement": {
+    "mapping": "Run common.timber_materials.grain_uv on applied local meshes; longest local axis defines grain.",
+    "allowed_variation": "Seeded per-object growth grain and 0.72\u20131.24 tonal multiplier; keep meter UV scale.",
+    "limitations": "Original finish visualization; no species, coating durability or fire/performance certification. End faces use transverse grain rather than a product-specific growth-ring scan."
+  },
+  "change_from_parent": "Neutral deeper brown, unique growth sample and tone per board, two grain scales, varied matte roughness and length-aligned physical UVs.",
+  "preview_command": "Blender --background --python-exit-code 1 --python tools/library/publish_timber.py -- --previews"
+}

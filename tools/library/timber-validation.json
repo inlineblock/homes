@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-09-18T15:04:53.642723+00:00",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "status": "passed",
+  "materials": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "parent": "v002",
+      "fresh_linked_material_load": true,
+      "uv_map": "Timber meters",
+      "noise_coordinate_scales_per_meter": [
+        [
+          40.0,
+          1.25,
+          1.0
+        ],
+        [
+          330.0,
+          4.0,
+          1.0
+        ],
+        [
+          7.0,
+          1.7,
+          1.0
+        ],
+        [
+          600.0,
+          24.0,
+          1.0
+        ]
+      ],
+      "all_four_noise_seed_links_from_object_random": true,
+      "object_tone_range": [
+        0.72,
+        1.24
+      ],
+      "external_image_dependencies": 0,
+      "display_rgb": [
+        0.06300000101327896,
+        0.0430000014603138,
+        0.023000000044703484
+      ],
+      "material_name": "Cedar | smoked umber | physical grain",
+      "native_sha256": "3e4563ecc55a891119e5eb62bbf8dcfe7183a48876bfd8619e446c20e6eef49c"
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "version": "v002",
+      "parent": "v001",
+      "fresh_linked_material_load": true,
+      "uv_map": "Timber meters",
+      "noise_coordinate_scales_per_meter": [
+        [
+          40.0,
+          1.25,
+          1.0
+        ],
+        [
+          330.0,
+          4.0,
+          1.0
+        ],
+        [
+          7.0,
+          1.7,
+          1.0
+        ],
+        [
+          600.0,
+          24.0,
+          1.0
+        ]
+      ],
+      "all_four_noise_seed_links_from_object_random": true,
+      "object_tone_range": [
+        0.72,
+        1.24
+      ],
+      "external_image_dependencies": 0,
+      "display_rgb": [
+        0.04800000041723251,
+        0.032999999821186066,
+        0.017999999225139618
+      ],
+      "material_name": "Thermo ash | deep natural brown | physical grain",
+      "native_sha256": "5a2bdd22ecd86120a17e9751b760af121d26a48edc71c197502655bfd616de14"
+    }
+  ],
+  "host": {
+    "home": "mountain-house",
+    "physical_meter_uv_meshes": 2153,
+    "uv_loops_checked": 51652,
+    "grain_longest_local_axes": {
+      "Z": 1974,
+      "X": 159,
+      "Y": 20
+    },
+    "finish_assignments": {
+      "warm-vertical-cedar@v003": 2025,
+      "mountain-thermo-ash@v002": 128
+    },
+    "max_uv_coordinate_error_m": 0,
+    "max_world_axis_scale_error": 1.490116130486996e-08,
+    "mapping": "U and V are actual local projected coordinates in meters. V follows the longest local axis on long faces; end faces use the two transverse axes.",
+    "verified_geometry_hash": "e961ac2844d32dfcbe99d01a27633afb41708117ece3f27edfd2744ea365d8bb",
+    "matches_pre_material_change_geometry_baseline": true
+  },
+  "scope": "Fresh native material links, actual shader seed/UV graph wiring, physical UV coordinates and direction on every adopting host mesh, and independent unchanged geometry digest. No GPU rendering or canonical native writes performed. Existing neutral preview images were inspected separately; final host rendering review is owned by the main task.",
+  "neutral_preview_review": {
+    "inspected": [
+      "library/materials/warm-vertical-cedar/v003/preview.png",
+      "library/materials/mountain-thermo-ash/v002/preview.png"
+    ],
+    "observations": "Visible grain follows the vertical sample boards and turns along the horizontal beam. Adjacent boards show restrained phase/tone variation. Images were inspected without running an additional render.",
+    "host_render_review": "Owned separately by the main task; this validator did not generate or approve final house renders."
+  }
+}

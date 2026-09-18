@@ -76,8 +76,13 @@ The shared elongated toilet has a continuous floor-mounted ceramic pedestal, a h
 
 ## Mountain materials and planting
 
-- [Mountain thermo-ash v001](materials/mountain-thermo-ash/v001/asset.json): original warm timber shader shared independently of the house geometry.
+- [Neutral brown cedar v003](materials/warm-vertical-cedar/v003/asset.json): per-board tone and growth grain, physical-meter mapping along each member, matte finish. Explicitly adopted by Mountain House; earlier cedar pins remain unchanged.
+- [Mountain thermo-ash v002](materials/mountain-thermo-ash/v002/asset.json): deeper brown decking with fine fibers and irregular growth lines, shared independently of the house geometry.
 - [Mountain conifer v002](landscape/mountain-conifer/v002/asset.json): original fir collection with trunk-base placement origin, suitable for instanced forest compositions.
+
+| Neutral brown cedar | Deeper thermo-ash |
+| --- | --- |
+| [![Cedar grain sample](materials/warm-vertical-cedar/v003/preview.png)](materials/warm-vertical-cedar/v003/asset.json) | [![Thermo-ash grain sample](materials/mountain-thermo-ash/v002/preview.png)](materials/mountain-thermo-ash/v002/asset.json) |
 
 ## Hardware and lighting options
 

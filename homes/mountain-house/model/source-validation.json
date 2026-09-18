@@ -1,7 +1,7 @@
 {
   "home": "mountain-house",
   "status": "passed_with_nonvisual_collection_differences",
-  "checked_at_utc": "2026-09-18T07:26:51.289735+00:00",
+  "checked_at_utc": "2026-09-18T15:11:32.574553+00:00",
   "software": {
     "blender": "4.5.14 LTS"
   },
@@ -9,23 +9,28 @@
   "isolated_execution": {
     "entry_point": "tools/mountain05/build.py",
     "output_home": "homes/mountain-house/outputs/work/rebuild-check",
-    "method": "Executed source with only its HOME assignment overridden in memory; original __file__, ROOT and imports preserved. Fresh Blender process reopened the resulting native model.",
+    "method": "Full current source rebuild with only HOME overridden in memory; original __file__, ROOT and imports retained. Separate process freshly reopened canonical and rebuilt files. No post-build patches.",
     "gpu_rendered": false,
     "canonical_model_written_by_check": false,
+    "canonical_native_unchanged": true,
     "canonical_project_unchanged": true
   },
   "native_source_comparison": {
     "canonical_objects": 3942,
     "rebuilt_objects": 3942,
     "missing_or_extra_objects": 0,
-    "mesh_geometry_and_object_transforms_match": true,
-    "camera_and_light_properties_match": true,
-    "sky_and_render_settings_match": true,
-    "exact_library_versions": 24,
-    "library_versions_match": true,
-    "actual_asset_placement_counts_match": true,
+    "exact_mesh_geometry_and_transforms_match": true,
     "curve_control_points_and_bevel_properties_match": true,
-    "curve_objects_checked": 26
+    "camera_light_sky_render_settings_match": true,
+    "material_assignments_and_face_indices_match": true,
+    "local_material_shader_graphs_match": true,
+    "all_uv_layer_coordinates_match": true,
+    "physical_meter_uv_meshes": 2153,
+    "exact_library_versions": 24,
+    "library_versions_match_manifest": true,
+    "actual_asset_placement_counts_match": true,
+    "geometry_digest": "e961ac2844d32dfcbe99d01a27633afb41708117ece3f27edfd2744ea365d8bb",
+    "matches_pre_material_change_geometry_baseline": true
   },
   "nonvisual_differences": {
     "Lower shared bathroom WC": {
@@ -59,51 +64,35 @@
       }
     }
   },
-  "measured_checks": {
-    "gross_enclosed_area_sqft": 4104.0,
-    "modeled_beds": 3,
-    "bedroom_storage_widths_ft": {
-      "Primary walk-in": 8,
-      "Bedroom02": 6,
-      "Bedroom03": 6
-    },
-    "actual_stair_tread_sequence_and_aperture_passed": true,
-    "sampled_circulation_routes_passed": 13,
-    "asset_adoption_audit_passed": true
-  },
   "actual_shared_asset_placements": {
     "cabinetry/oak-wardrobe-2ft@v001": 19,
+    "landscape/mountain-conifer@v002": 108,
+    "hardware/door-lever-matte-black@v001": 26,
     "cabinetry/oak-drawer-base-2ft@v001": 11,
-    "appliances/dishwasher-24in@v001": 1,
+    "fixtures/toilet-elongated@v001": 3,
     "appliances/built-in-oven-30in@v001": 1,
     "appliances/induction-cooktop-36in@v001": 1,
-    "appliances/wall-hood-36in@v001": 1,
     "appliances/panel-ready-fridge-48in@v001": 1,
-    "fixtures/closed-glass-fireplace-48in@v001": 1,
-    "fixtures/freestanding-tub-72in@v001": 1,
-    "fixtures/lighting-recessed-downlight-3in@v001": 26,
-    "fixtures/lighting-linear-pendant-4ft@v001": 1,
-    "fixtures/lighting-undercabinet-bar-4ft@v001": 1,
-    "hardware/door-lever-matte-black@v001": 26,
-    "hardware/bar-pull-matte-black@v001": 9,
     "surfaces/honed-limestone-paver-4ft@v001": 32,
-    "landscape/mountain-conifer@v002": 108,
+    "fixtures/closed-glass-fireplace-48in@v001": 1,
+    "fixtures/lighting-linear-pendant-4ft@v001": 1,
     "landscape/ornamental-grass-clump@v002": 554,
     "landscape/sage-shrub@v002": 237,
-    "fixtures/toilet-elongated@v001": 3
+    "fixtures/freestanding-tub-72in@v001": 1,
+    "appliances/wall-hood-36in@v001": 1,
+    "appliances/dishwasher-24in@v001": 1,
+    "hardware/bar-pull-matte-black@v001": 9,
+    "fixtures/lighting-undercabinet-bar-4ft@v001": 1,
+    "fixtures/lighting-recessed-downlight-3in@v001": 26
   },
-  "coordinated_late_fixes": {
-    "chaise_supports_present_in_initial_rebuild": 8,
-    "refrigerator_center_x_ft_in_initial_rebuild": 56.75,
-    "canonical_hash_change_expected": "Root saved coordinated chaise-support and refrigerator-clearance fixes during the isolated build. The isolated checker did not write the canonical native file; canonical project.json remained unchanged.",
-    "post_build_chaise_or_fridge_patches_required": false
-  },
-  "details_location": "outputs/work/rebuild-check/comparison.json (ignored local review artifact)",
-  "limits": "This verifies source/native consistency and the home-specific concept checks, not product selection, engineering, jurisdictional code, accessibility or permit approval.",
-  "source_alignment_after_initial_build": {
-    "intentional_faucet_outlets": "Four refined faucet ends remain open, matching canonical. Source final cap loop now preserves these exact prefixes; other local curves remain capped.",
-    "isolated_followup": "Set use_fill_caps=False for those four curves in the isolated copy, saved and reopened; exact curve comparison passed.",
-    "canonical_geometry_changed": false,
-    "full_second_rebuild_run": false
-  }
+  "shared_material_pins": [
+    "materials/charcoal-standing-seam@v001",
+    "materials/coastal-honed-limestone@v001",
+    "materials/coastal-white-oak@v001",
+    "materials/mountain-thermo-ash@v002",
+    "materials/warm-vertical-cedar@v003"
+  ],
+  "timber_validation": "../../../tools/library/timber-validation.json",
+  "details_location": "outputs/work/rebuild-check/timber-source-comparison.json (ignored local review artifact)",
+  "limits": "This verifies current source/native consistency, materials and physical grain mapping. Existing home-model/program checks were not repeated. No engineering, product, local-code or permit approval is implied."
 }

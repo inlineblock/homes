@@ -1,6 +1,6 @@
 {
   "home": "mountain-house",
-  "reviewed_at_utc": "2026-09-18T07:55:27.806748+00:00",
+  "reviewed_at_utc": "2026-09-18T15:20:38.704561+00:00",
   "software": {
     "blender": "4.5.14 LTS",
     "renderer": "Cycles, Metal GPU, adaptive sampling and denoising"
@@ -14,7 +14,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "1cf8d1276b8224660bfd3315848722ae83b8c4273269a6c40758a7f3787e0ea4"
+      "sha256": "bda723b8013393bec1f4e1db49a8430be83957501fc52e8002dc9f4ead1e7403",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/02-road-arrival.png",
@@ -22,9 +23,10 @@
         3200,
         2000
       ],
-      "cycles_max_samples": 512,
+      "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "3001d27c78cdb6f0d6961cb7cb497df0660163b4026abe14bc549dcd4f0edde9"
+      "sha256": "bfd6448331e4da3f59dc8bfd637f9ee84d32ec9c9760931f119572fc7fb07429",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/03-deck-living.png",
@@ -32,9 +34,10 @@
         3200,
         2000
       ],
-      "cycles_max_samples": 512,
+      "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "503440b85c38f6cdcf316f12ec95bb8a0d4e756a4ed0acaba380b71ef7e137de"
+      "sha256": "82a15dd9c3f4eed4ed418cd5e76dd3807b0b39fcb67291a391d34bd9f5c7d54f",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/04-walkout-patio.png",
@@ -44,7 +47,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "9af46278badd540d6dcc2fa52527eb51ab33127029644e8fe948db794fff6f4c"
+      "sha256": "80b216cd697d22d5ec699fe5169f26dce0fb755c52b2014db54e88a9c54d08ac",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/05-hillside-section.png",
@@ -54,7 +58,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "4fd367105da563aabd39f4c6d5a878deccc5db8f04c5bed0932a4e9543cc7e5e"
+      "sha256": "e7b844527b447c31373dcb54e00eda366d13038670a0859ec625f09aab8253c5",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/06-kitchen.png",
@@ -64,7 +69,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "97be6cf419dd1c5031e1a515cade90cb83bbe6d1c867aaebbe68a7359da154c8"
+      "sha256": "9c18390019d6240e2b81c133fa475ff07466288915b4ede79fb1a2918607d4f4",
+      "revision": "Timber correction: rerendered and reviewed"
     },
     {
       "file": "outputs/images/07-primary-bath.png",
@@ -74,7 +80,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "91dddf7973cf4fb7846b4a98b2a7bccbeace413537fd2f0177554b81c26138fb"
+      "sha256": "91dddf7973cf4fb7846b4a98b2a7bccbeace413537fd2f0177554b81c26138fb",
+      "revision": "Unchanged bathroom view retained from prior review; visible fixtures/layout unchanged"
     },
     {
       "file": "outputs/images/08-kitchen-appliances.png",
@@ -84,14 +91,15 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "a0f1f46601eda08b07968215f438fcf0ef96cadc0c1f708301d767ef3bf8c243"
+      "sha256": "44178f0db958b40418fb3be40dd6017ed45faf8de255474155d4cf3bb4461a99",
+      "revision": "Timber correction: rerendered and reviewed"
     }
   ],
   "pdf": {
     "file": "outputs/plans/design-board.pdf",
     "pages": 10,
     "all_pages_visually_reviewed": true,
-    "sha256": "19c0af0887836257120923cd178eae57c789440844c8c277f75c1e9fe2e0fd7d"
+    "sha256": "0a0ebca18edb22d767f5292ad959904fe8f6902a130795dd82c388fef682679c"
   },
   "plan_outputs": [
     {
@@ -124,14 +132,16 @@
     "asset-adoption.json",
     "ifc-validation.json",
     "bonsai-validation.json",
-    "source-validation.json"
+    "source-validation.json",
+    "material-validation.json"
   ],
   "review_notes": [
-    "Eight actual native camera views inspected; five replacement images independently inspected after final chaise-support and refrigerator-clearance fixes.",
-    "All ten final booklet pages rendered and inspected; plan furniture labels corrected and important equipment shown.",
-    "Bath image is a vanity and soaking-tub detail. Separate shower and enclosed WC are documented in the furnished plan, not fully demonstrated by that camera.",
-    "The rear deck is not specified as a waterproof roof; lower terrace is described as shaded.",
-    "Two levels total: road-level main/garage and downhill walkout. Terrain and forest are illustrative."
+    "All seven affected full-resolution images visually inspected, including independent review; five exterior views256maximum Cycles samples and two kitchen views512.",
+    "Unchanged primary bathroom view retained; floor-plan/section geometry and layout unchanged.",
+    "All ten refreshed booklet pages inspected after image replacement.",
+    "Original cedarv003/thermo-ashv002 now read neutral brown with physical-meter length-aligned grain and distinct per-board growth/tone.",
+    "Lighting and exposure are unchanged from the prior gallery.",
+    "The deck is not specified as a waterproof roof; terrain and forest remain illustrative."
   ],
   "limitations": "Architectural concept and editable visualization. Full operating/service clearances depend on selected products. Site, structural loads, waterproofing, snow/drainage, utilities, egress, accessibility and jurisdiction approval remain unresolved."
 }

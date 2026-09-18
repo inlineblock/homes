@@ -2,6 +2,8 @@
 
 A wood-clad hillside home with two levels total: road-level living and an integrated two-car garage above a downhill walkout level. A 14-foot-deep rear deck wraps around one side, with a partial timber pergola and a shaded patio below.
 
+The timber finish uses neutral brown cedar and deeper thermo-ash, with physical-scale grain following each board and beam, individual grain/tone variation and a matte surface. These shared material revisions replace the earlier pale peach appearance without changing the house geometry or lighting.
+
 ![Mountain House forest elevation](outputs/images/01-forest-rear.png)
 
 [Current images and plans](outputs/README.md) · [Concept booklet](outputs/plans/design-board.pdf) · [Editable Blender model](model/mountain-house.blend) · [Classified IFC concept](model/mountain-house.ifc)

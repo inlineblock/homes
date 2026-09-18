@@ -2,7 +2,7 @@
 
 This schedule records actual linked collections and materials in the native Mountain House model. The exact pins are in [project.json](../project.json); [asset-adoption.json](../model/asset-adoption.json) records the native audit, example object names and direct use counts. That receipt reports **24 adopted versions** and agreement between the native library pins and the project manifest. Counts below are placements for collections and local object assignments for materials; they are not unique mesh counts, purchase quantities or operating-clearance approvals.
 
-**Existing** means the version was already in the repository before the Mountain House / Coastal House expansion. **New** means it was contributed during this effort, then linked into Mountain House. There are four existing material versions and 20 newly contributed asset versions. All listed assets are original Homes project content licensed CC BY 4.0; authoring code is MIT. These are generic concept assets, not manufacturer-selected equipment.
+**Existing** means the version preceded the Mountain House / Coastal House expansion. **New** means it was contributed during that expansion. **Revised shared material** identifies the later timber finish correction: cedar v003 and thermo-ash v002 replace their earlier pins explicitly. All listed assets are original Homes project content licensed CC BY 4.0; authoring code is MIT. These are generic concept assets, not manufacturer-selected equipment.
 
 ## Linked geometry
 
@@ -32,17 +32,17 @@ This schedule records actual linked collections and materials in the native Moun
 
 | Exact asset and version | Origin | Direct assignments | Actual host use |
 |---|---|---:|---|
-| [materials/warm-vertical-cedar · v002](../../../library/materials/warm-vertical-cedar/v002/asset.json) | Existing | 2,025 | Individually modeled exterior cedar boards and backing, timber envelope/soffit and exposed wood details. Geometry remains fitted to this house. |
+| [materials/warm-vertical-cedar · v003](../../../library/materials/warm-vertical-cedar/v003/asset.json) | Revised shared material | 2,025 | Neutral brown timber, physical-meter grain aligned along each board/beam, per-object tone/phase and matte roughness. Individually modeled envelope, soffit and exposed details remain fitted to this house. |
 | [materials/charcoal-standing-seam · v001](../../../library/materials/charcoal-standing-seam/v001/asset.json) | Existing | 66 | Mono-pitch roof plate and raised seams. Shader reuse is separate from the bespoke roof assembly. |
 | [materials/coastal-white-oak · v001](../../../library/materials/coastal-white-oak/v001/asset.json) | Existing | 162 | Doors, fitted joinery, interior furniture and details; also a pinned dependency of the shared storage/refrigerator collections. |
 | [materials/coastal-honed-limestone · v001](../../../library/materials/coastal-honed-limestone/v001/asset.json) | Existing | 26 | Enclosed slabs, local stone surfaces and tables; also the shared paving collection's pinned material. |
-| [materials/mountain-thermo-ash · v001](../../../library/materials/mountain-thermo-ash/v001/asset.json) | New | 128 | Spaced deck boards and outdoor timber furnishings. Original procedural timber material contributed for reuse. |
+| [materials/mountain-thermo-ash · v002](../../../library/materials/mountain-thermo-ash/v002/asset.json) | Revised shared material | 128 | Deeper brown deck and outdoor timber with physical-meter lengthwise grain, fine growth lines, varied tone and matte roughness. |
 
 ## Dependencies and authoring
 
 The paver links `materials/coastal-honed-limestone/v001`; the drawer-base, wardrobe and panel-ready refrigerator link `materials/coastal-white-oak/v001`. These nested dependencies are explicitly present in the home manifest as well. Other listed collection manifests declare no external library dependencies. Relative native links, rather than copies from a download directory, provide portability.
 
-Placement sources are [site_model.py](../../../tools/mountain05/site_model.py) for planting/paving, [interior.py](../../../tools/mountain05/interior.py) for storage and room furnishings, [premium.py](../../../tools/mountain05/premium.py) for kitchen/bath/fireplace, and [details.py](../../../tools/mountain05/details.py) for lighting/hardware. The library manifests identify each asset's source and generation command. [assets.py](../../../tools/mountain05/assets.py) provides the original Mountain conifer and thermo-ash material generators.
+Placement sources are [site_model.py](../../../tools/mountain05/site_model.py) for planting/paving, [interior.py](../../../tools/mountain05/interior.py) for storage and room furnishings, [premium.py](../../../tools/mountain05/premium.py) for kitchen/bath/fireplace, and [details.py](../../../tools/mountain05/details.py) for lighting/hardware. The library manifests identify each asset's source and generation command. [assets.py](../../../tools/mountain05/assets.py) provides the original Mountain conifer generator and loads the pinned finishes. [publish_timber.py](../../../tools/library/publish_timber.py) publishes the timber revisions independently of the home; [timber_materials.py](../../../tools/common/timber_materials.py) supplies the shader and physical UV mapping. Earlier adopted material versions remain unchanged for other projects.
 
 ## Deliberately local geometry and remaining candidates
 

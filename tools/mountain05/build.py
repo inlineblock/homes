@@ -192,6 +192,8 @@ views={'01 Forest rear':((109,114,24),(30,29,1),43),'02 Road arrival':((89,-94,2
 for name,args in views.items():camera(name,*args)
 from refinements import polish
 polish(ROOT,M,clad,glazing)
+from common.timber_materials import apply_grain
+apply_grain([M['cedar'],M['deck']])
 for o in bpy.context.scene.objects:
     if o.type=='CURVE' and not o.library:
         # Keep the four refined faucet outlets open; other curved solids are capped.

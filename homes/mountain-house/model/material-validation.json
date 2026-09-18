@@ -1,0 +1,33 @@
+{
+  "before_geometry_hash": "e961ac2844d32dfcbe99d01a27633afb41708117ece3f27edfd2744ea365d8bb",
+  "after_geometry_hash": "e961ac2844d32dfcbe99d01a27633afb41708117ece3f27edfd2744ea365d8bb",
+  "geometry_unchanged": true,
+  "mapped_objects": 2153,
+  "material_changes": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "from": "v002",
+      "to": "v003"
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "from": "v001",
+      "to": "v002"
+    }
+  ],
+  "home": "mountain-house",
+  "baseline_commit": "c587b5cf0d26a5169fd359b7719e98802d7a7f05",
+  "scope": "Shared material assignments and physical-meter UVs only; geometry, transforms, layout, lighting, camera and exposure are preserved.",
+  "review": "Native material samples and same-camera host studies inspected in bright sun and shade. Final render/PDF review is recorded separately in output-validation.json.",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "lighting_and_color": {
+    "world": "Original Nishita sky,31degree sun elevation,0.35strength",
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": -0.35
+  },
+  "texture_design": "Per-object tone/phase, grain aligned to longest local mesh axis, fine wandering growth lines, elongated pores and matte roughness.",
+  "ifc_representation": "IFC stores matching flat display colors; the detailed procedural grain and roughness are in the editable Blender materials."
+}

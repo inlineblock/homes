@@ -35,3 +35,9 @@ Actual native drafts were inspected for front arrival, rear/deck/patio relations
 - Wet-room waterproofing, drains, non-slip materials, exact fixture rough-ins and service access; countertop/window threshold weather details; lighting photometry and controls.
 
 The native scene, classified IFC and dimensioned plans must not be represented as construction documents or permit approval. Schema validation and a successful render do not resolve these items.
+
+## Timber appearance correction
+
+The earlier sunlit exterior rendered pale peach, with repeated soft grain and incorrect grain direction on several horizontal members. Mountain now explicitly adopts cedar v003 and thermo-ash v002. The revised original shaders use neutral brown colors, per-object growth samples and tone, fine irregular lines/pores, varied matte roughness and physical-meter UVs aligned along each member's longest local axis. The earlier shared versions remain immutable.
+
+Two rounds of same-camera host studies and neutral material samples were inspected, including an independent reviewer. Bright and shaded wood now retain a brown identity; the second round added fine growth detail after the first still read as broad blurred stripes. Scene lighting, exposure and architectural geometry were preserved. `model/material-validation.json` records identical before/after geometry hashes and 2,153 mapped timber objects; the native reopen and exact 24-pin adoption check passed. Current final image/PDF evidence is in `model/output-validation.json`.

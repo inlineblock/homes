@@ -24,7 +24,7 @@
     "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
     "//../../../library/fixtures/lighting-undercabinet-bar-4ft/v001/lighting-undercabinet-bar-4ft.blend",
     "//../../../library/landscape/mountain-conifer/v002/mountain-conifer.blend",
-    "//../../../library/materials/mountain-thermo-ash/v001/mountain-thermo-ash.blend",
+    "//../../../library/materials/mountain-thermo-ash/v002/mountain-thermo-ash.blend",
     "//../../../library/cabinetry/oak-drawer-base-2ft/v001/oak-drawer-base-2ft.blend",
     "//../../../library/cabinetry/oak-wardrobe-2ft/v001/oak-wardrobe-2ft.blend",
     "//../../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
@@ -32,7 +32,7 @@
     "//../../../library/landscape/sage-shrub/v002/sage-shrub.blend",
     "//../../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
     "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
-    "//../../../library/materials/warm-vertical-cedar/v002/warm-vertical-cedar.blend"
+    "//../../../library/materials/warm-vertical-cedar/v003/warm-vertical-cedar.blend"
   ],
   "stair": {
     "risers": 20,

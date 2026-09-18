@@ -18,5 +18,18 @@
     "Walkout basement"
   ],
   "schema_errors": 0,
-  "errors": []
+  "errors": [],
+  "timber_display_colors_verified": {
+    "materials/warm-vertical-cedar@v003": [
+      0.06300000101327896,
+      0.0430000014603138,
+      0.023000000044703484
+    ],
+    "materials/mountain-thermo-ash@v002": [
+      0.04800000041723251,
+      0.032999999821186066,
+      0.017999999225139618
+    ]
+  },
+  "timber_texture_scope": "IFC carries display colors only; procedural grain and physical UVs remain in the native Blender model."
 }

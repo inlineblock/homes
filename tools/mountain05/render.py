@@ -10,7 +10,7 @@ out=Path(__file__).resolve().parents[2]/'homes/mountain-house/outputs/work';out.
 requested=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 for cam,name in VIEWS:
     if requested and name not in requested:continue
-    s.cycles.samples=int(sample_override) if sample_override else (256 if name in {'01-forest-rear','04-walkout-patio','05-hillside-section'} else 512)
+    s.cycles.samples=int(sample_override) if sample_override else (256 if name[:2] in {'01','02','03','04','05'} else 512)
     for n in s.world.node_tree.nodes:
         if n.type=='TEX_SKY':n.sun_rotation=__import__('math').radians(205 if name=='02-road-arrival' else 65)
     s.camera=bpy.data.objects[cam];s.render.filepath=str(out/(name+'.png'));bpy.ops.render.render(write_still=True);print('MOUNTAIN_RENDERED',name,flush=True)

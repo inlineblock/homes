@@ -273,7 +273,7 @@
     },
     {
       "id": "materials/mountain-thermo-ash",
-      "version": "v001",
+      "version": "v002",
       "direct_placements_or_material_assignments": 128,
       "examples": [
         "Thermo ash spaced deck board (material)",
@@ -289,7 +289,7 @@
     },
     {
       "id": "materials/warm-vertical-cedar",
-      "version": "v002",
+      "version": "v003",
       "direct_placements_or_material_assignments": 2025,
       "examples": [
         "Front timber wall backing (material)",

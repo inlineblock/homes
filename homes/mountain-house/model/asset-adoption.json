@@ -1,0 +1,323 @@
+{
+  "home": "mountain-house",
+  "native_library_pins_match_manifest": true,
+  "asset_versions": 24,
+  "assets": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared 30 inch oven"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared integrated dishwasher"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared 36 inch induction cooktop"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared 48 inch panel ready refrigerator"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared induction extraction hood"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 11,
+      "examples": [
+        "Rear shared drawer module",
+        "Rear shared drawer module.001",
+        "Rear shared drawer module.002",
+        "Rear shared drawer module.003",
+        "Island shared drawer module",
+        "Island shared drawer module.001",
+        "Primary double vanity shared module",
+        "Primary double vanity shared module.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 19,
+      "examples": [
+        "Primary walk-in shared wardrobe",
+        "Primary walk-in shared wardrobe.001",
+        "Primary walk-in shared wardrobe.002",
+        "Primary walk-in shared wardrobe.003",
+        "Bedroom02 shared wardrobe",
+        "Bedroom02 shared wardrobe.001",
+        "Bedroom02 shared wardrobe.002",
+        "Bedroom03 shared wardrobe"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared closed glass fireplace"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared freestanding soaking tub"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared dining linear focal light"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 26,
+      "examples": [
+        "Shared recessed main downlight",
+        "Shared recessed main downlight.001",
+        "Shared recessed main downlight.002",
+        "Shared recessed main downlight.003",
+        "Shared recessed main downlight.004",
+        "Shared recessed main downlight.005",
+        "Shared recessed main downlight.006",
+        "Shared recessed main downlight.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared kitchen task bar"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 3,
+      "examples": [
+        "Primary enclosed shared WC",
+        "Powder shared WC",
+        "Lower shared bathroom WC"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 9,
+      "examples": [
+        "Shared sink cabinet pull",
+        "Shared sink cabinet pull.001",
+        "Shared waste pullout pull",
+        "Shared island drawer pull",
+        "Shared island drawer pull.001",
+        "Shared island drawer pull.002",
+        "Shared island drawer pull.003",
+        "Shared island drawer pull.004"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/door-lever-matte-black",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 26,
+      "examples": [
+        "Garage east open door inside lever",
+        "Garage east open door outside lever",
+        "Mudroom east open door inside lever",
+        "Mudroom east open door outside lever",
+        "Mudroom east open door.001 inside lever",
+        "Mudroom east open door.001 outside lever",
+        "Primary bath rear open door inside lever",
+        "Primary bath rear open door outside lever"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 108,
+      "examples": [
+        "Shared mountain conifer v002",
+        "Shared mountain conifer v002.001",
+        "Shared mountain conifer v002.002",
+        "Shared mountain conifer v002.003",
+        "Shared mountain conifer v002.004",
+        "Shared mountain conifer v002.005",
+        "Shared mountain conifer v002.006",
+        "Shared mountain conifer v002.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 554,
+      "examples": [
+        "Shared understory meadow grass v002",
+        "Shared understory meadow grass v002.001",
+        "Shared understory meadow grass v002.002",
+        "Shared understory meadow grass v002.003",
+        "Shared understory meadow grass v002.004",
+        "Shared understory meadow grass v002.005",
+        "Shared understory meadow grass v002.006",
+        "Shared understory meadow grass v002.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 237,
+      "examples": [
+        "Shared forest shrub v002",
+        "Shared forest shrub v002.001",
+        "Shared forest shrub v002.002",
+        "Shared forest shrub v002.003",
+        "Shared forest shrub v002.004",
+        "Shared forest shrub v002.005",
+        "Shared forest shrub v002.006",
+        "Shared forest shrub v002.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 66,
+      "examples": [
+        "Standing seam roof plate (material)",
+        "Roof raised standing seam (material)",
+        "Roof raised standing seam.001 (material)",
+        "Roof raised standing seam.002 (material)",
+        "Roof raised standing seam.003 (material)",
+        "Roof raised standing seam.004 (material)",
+        "Roof raised standing seam.005 (material)",
+        "Roof raised standing seam.006 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 26,
+      "examples": [
+        "Main floor (material)",
+        "Main floor.001 (material)",
+        "Main floor.002 (material)",
+        "Main floor.003 (material)",
+        "Walkout floor (material)",
+        "Walkout floor.001 (material)",
+        "Living low stone table (material)",
+        "Stone table foot (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 162,
+      "examples": [
+        "Open oak front door (material)",
+        "Garage east open door (material)",
+        "Mudroom east open door (material)",
+        "Mudroom east open door.001 (material)",
+        "Primary bath rear open door (material)",
+        "Primary WC rear open door (material)",
+        "Primary west open door (material)",
+        "Primary west open door.001 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 128,
+      "examples": [
+        "Thermo ash spaced deck board (material)",
+        "Thermo ash spaced deck board.001 (material)",
+        "Thermo ash spaced deck board.002 (material)",
+        "Thermo ash spaced deck board.003 (material)",
+        "Thermo ash spaced deck board.004 (material)",
+        "Thermo ash spaced deck board.005 (material)",
+        "Thermo ash spaced deck board.006 (material)",
+        "Thermo ash spaced deck board.007 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 2025,
+      "examples": [
+        "Front timber wall backing (material)",
+        "Front timber wall cedar board (material)",
+        "Front timber wall cedar board.001 (material)",
+        "Front timber wall cedar board.002 (material)",
+        "Front timber wall cedar board.003 (material)",
+        "Front timber wall cedar board.004 (material)",
+        "Front timber wall cedar board.005 (material)",
+        "Front timber wall cedar board.006 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 32,
+      "examples": [
+        "Shared arrival paving module",
+        "Shared arrival paving module.001",
+        "Shared arrival paving module.002",
+        "Shared arrival paving module.003",
+        "Shared arrival paving module.004",
+        "Shared walkout limestone module",
+        "Shared walkout limestone module.001",
+        "Shared walkout limestone module.002"
+      ],
+      "adopted_parent_dependencies": []
+    }
+  ]
+}

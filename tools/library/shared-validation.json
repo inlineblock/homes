@@ -1,0 +1,157 @@
+{
+  "blender": "4.5.14 LTS",
+  "assets": [
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "objects": 1,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "objects": 2,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "objects": 16,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "objects": 1,
+      "relative_dependencies": 1,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "objects": 16,
+      "relative_dependencies": 1,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "objects": 20,
+      "relative_dependencies": 1,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "objects": 62,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "objects": 11,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "objects": 22,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "objects": 25,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "objects": 20,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "objects": 18,
+      "relative_dependencies": 1,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "objects": 2,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "objects": 12,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true,
+      "geometry_checks": {
+        "floor_contact": true,
+        "hollow_bowl": true,
+        "open_seat": true,
+        "lid_sweep_degrees": [
+          0,
+          90
+        ],
+        "lid_sweep_step_degrees": 5,
+        "swept_plan_within_inches": [
+          16,
+          30
+        ],
+        "host_integration_checked": false
+      }
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "objects": 9,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "objects": 4,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "objects": 8,
+      "relative_dependencies": 0,
+      "native_reopened": true,
+      "dimensions_verified": true
+    }
+  ],
+  "all_native_reopens_and_dimensions_passed": true
+}

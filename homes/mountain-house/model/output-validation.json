@@ -1,0 +1,137 @@
+{
+  "home": "mountain-house",
+  "reviewed_at_utc": "2026-09-18T07:55:27.806748+00:00",
+  "software": {
+    "blender": "4.5.14 LTS",
+    "renderer": "Cycles, Metal GPU, adaptive sampling and denoising"
+  },
+  "reviewed_images": [
+    {
+      "file": "outputs/images/01-forest-rear.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 256,
+      "reviewed": true,
+      "sha256": "1cf8d1276b8224660bfd3315848722ae83b8c4273269a6c40758a7f3787e0ea4"
+    },
+    {
+      "file": "outputs/images/02-road-arrival.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "3001d27c78cdb6f0d6961cb7cb497df0660163b4026abe14bc549dcd4f0edde9"
+    },
+    {
+      "file": "outputs/images/03-deck-living.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "503440b85c38f6cdcf316f12ec95bb8a0d4e756a4ed0acaba380b71ef7e137de"
+    },
+    {
+      "file": "outputs/images/04-walkout-patio.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 256,
+      "reviewed": true,
+      "sha256": "9af46278badd540d6dcc2fa52527eb51ab33127029644e8fe948db794fff6f4c"
+    },
+    {
+      "file": "outputs/images/05-hillside-section.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 256,
+      "reviewed": true,
+      "sha256": "4fd367105da563aabd39f4c6d5a878deccc5db8f04c5bed0932a4e9543cc7e5e"
+    },
+    {
+      "file": "outputs/images/06-kitchen.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "97be6cf419dd1c5031e1a515cade90cb83bbe6d1c867aaebbe68a7359da154c8"
+    },
+    {
+      "file": "outputs/images/07-primary-bath.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "91dddf7973cf4fb7846b4a98b2a7bccbeace413537fd2f0177554b81c26138fb"
+    },
+    {
+      "file": "outputs/images/08-kitchen-appliances.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "a0f1f46601eda08b07968215f438fcf0ef96cadc0c1f708301d767ef3bf8c243"
+    }
+  ],
+  "pdf": {
+    "file": "outputs/plans/design-board.pdf",
+    "pages": 10,
+    "all_pages_visually_reviewed": true,
+    "sha256": "19c0af0887836257120923cd178eae57c789440844c8c277f75c1e9fe2e0fd7d"
+  },
+  "plan_outputs": [
+    {
+      "file": "outputs/plans/main-floor.png",
+      "sha256": "b7427002a2346a1b8dd17199e9000edcd66c387c44704bbe589f32ff376efb29"
+    },
+    {
+      "file": "outputs/plans/main-floor.svg",
+      "sha256": "046ce697f919b6537593204a576e3fe42e2f6465f1852b69aacdc212ace49673"
+    },
+    {
+      "file": "outputs/plans/walkout-floor.png",
+      "sha256": "2877e9cce4c4ec0cc8e04fa3f6fac69aaf1e1757e531bc524c0b7dd2c7a63f5d"
+    },
+    {
+      "file": "outputs/plans/walkout-floor.svg",
+      "sha256": "3140bbaf322d689706e0e745e9cbc3fd70429a89b7eb829e30ac0f16a59a73c5"
+    },
+    {
+      "file": "outputs/plans/hillside-section.png",
+      "sha256": "10e601f7c5887591654f768c95cd493d1b171ee8b350fab46c0486d230e2f20e"
+    },
+    {
+      "file": "outputs/plans/hillside-section.svg",
+      "sha256": "7234a9578fa102cf77af9f190d7a4753b43dab21079ae1b8174f2a70a4d49381"
+    }
+  ],
+  "native_geometry_evidence": [
+    "model-validation.json",
+    "asset-adoption.json",
+    "ifc-validation.json",
+    "bonsai-validation.json",
+    "source-validation.json"
+  ],
+  "review_notes": [
+    "Eight actual native camera views inspected; five replacement images independently inspected after final chaise-support and refrigerator-clearance fixes.",
+    "All ten final booklet pages rendered and inspected; plan furniture labels corrected and important equipment shown.",
+    "Bath image is a vanity and soaking-tub detail. Separate shower and enclosed WC are documented in the furnished plan, not fully demonstrated by that camera.",
+    "The rear deck is not specified as a waterproof roof; lower terrace is described as shaded.",
+    "Two levels total: road-level main/garage and downhill walkout. Terrain and forest are illustrative."
+  ],
+  "limitations": "Architectural concept and editable visualization. Full operating/service clearances depend on selected products. Site, structural loads, waterproofing, snow/drainage, utilities, egress, accessibility and jurisdiction approval remain unresolved."
+}

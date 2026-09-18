@@ -1,0 +1,8 @@
+{
+  "fresh_reopen": true,
+  "mesh_objects": 2,
+  "mesh_faces": 867197,
+  "dependencies": [],
+  "blender": "4.5.14 LTS",
+  "ground_origin_m": 0
+}

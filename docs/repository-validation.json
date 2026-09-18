@@ -1,0 +1,40 @@
+{
+  "scope": "Fresh local native reopen, area, bed count and relative library files; not design, engineering or remote-download approval.",
+  "homes": [
+    {
+      "home": "atrium-01",
+      "native_model_reopened": true,
+      "measured_enclosed_floor_sqft": 2400.0,
+      "modeled_beds": 3,
+      "relative_libraries": 1
+    },
+    {
+      "home": "coastal-house",
+      "native_model_reopened": true,
+      "measured_enclosed_floor_sqft": 2720.0,
+      "modeled_beds": 3,
+      "relative_libraries": 20
+    },
+    {
+      "home": "garage-loft-03",
+      "native_model_reopened": true,
+      "measured_enclosed_floor_sqft": 2335.5,
+      "modeled_beds": 0,
+      "relative_libraries": 6
+    },
+    {
+      "home": "mountain-house",
+      "native_model_reopened": true,
+      "measured_enclosed_floor_sqft": 4104.0,
+      "modeled_beds": 3,
+      "relative_libraries": 24
+    },
+    {
+      "home": "timber-courtyard-02",
+      "native_model_reopened": true,
+      "measured_enclosed_floor_sqft": 2400.0,
+      "modeled_beds": 3,
+      "relative_libraries": 5
+    }
+  ]
+}

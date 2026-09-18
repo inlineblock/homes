@@ -1,0 +1,55 @@
+{
+  "software": "4.5.14 LTS",
+  "assets": [
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "fresh_link": true,
+      "mesh_objects": 9,
+      "measured_dimensions_m": [
+        0.09143999963998795,
+        0.09143999963998795,
+        0.0954023995436728
+      ],
+      "dimensions_match": true,
+      "external_images": 0,
+      "host_light_placement_dimming_verified": true,
+      "preview": "library/fixtures/lighting-recessed-downlight-3in/v001/preview.png"
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "fresh_link": true,
+      "mesh_objects": 4,
+      "measured_dimensions_m": [
+        1.2192000150680542,
+        0.028041599318385124,
+        0.016764000058174133
+      ],
+      "dimensions_match": true,
+      "external_images": 0,
+      "host_light_placement_dimming_verified": true,
+      "preview": "library/fixtures/lighting-undercabinet-bar-4ft/v001/preview.png"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "fresh_link": true,
+      "mesh_objects": 8,
+      "measured_dimensions_m": [
+        1.2192000150680542,
+        0.09143999963998795,
+        0.8089392186591887
+      ],
+      "dimensions_match": true,
+      "external_images": 0,
+      "host_light_placement_dimming_verified": true,
+      "preview": "library/fixtures/lighting-linear-pendant-4ft/v001/preview.png"
+    }
+  ],
+  "visual_review": {
+    "status": "reviewed",
+    "method": "Inspected all three native CPU Cycles preview PNGs after final generation",
+    "findings": "Complete fixtures framed; recessed baffle and lens visible; task-bar diffuser and housing visible; pendant has two ceiling anchors, suspension wires and central power cable."
+  }
+}

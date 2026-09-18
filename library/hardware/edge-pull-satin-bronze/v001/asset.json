@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "hardware/edge-pull-satin-bronze",
+  "version": "v001",
+  "name": "Cabinet top-edge pull \u2014 satin bronze",
+  "units": "meters",
+  "dimensions_m": [
+    0.1016,
+    0.045085,
+    0.010668
+  ],
+  "bounds_m": {
+    "min": [
+      -0.05079999938607216,
+      -0.028574999421834946,
+      -0.01066800020635128
+    ],
+    "max": [
+      0.05079999938607216,
+      0.016510000452399254,
+      0.0
+    ]
+  },
+  "placement": "Origin at host mounting face center, front -Y, Z-up. 4 in width; 1.125 in front projection; .65 in top return. Origin at front top edge. Grip lip drops .42 in below top edge. Requires a .12 in recessed top mounting rebate for a flush front.",
+  "variation": "Keep scale 1. Choose the explicit pinned finish asset. Uniform scaling changes fixing centers and is not appropriate for specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/hardware_assets.py",
+    "command": "Blender --background --python tools/library/publish_hardware.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "edge-pull-satin-bronze.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Generic design component, not a manufacturer SKU or installation approval. Host is responsible for panel drilling/rebates, latch clearances and mounting height."
+}

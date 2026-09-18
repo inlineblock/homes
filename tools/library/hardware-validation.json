@@ -1,0 +1,206 @@
+{
+  "blender": "4.5.14 LTS",
+  "asset_count": 15,
+  "validation": [
+    {
+      "id": "hardware/round-knob-satin-bronze",
+      "version": "v001",
+      "dimensions_m": [
+        0.028574999421834946,
+        0.02794000168290378,
+        0.028574999421834946
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/round-knob-matte-black",
+      "version": "v001",
+      "dimensions_m": [
+        0.028574999421834946,
+        0.02794000168290378,
+        0.028574999421834946
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/round-knob-brushed-steel",
+      "version": "v001",
+      "dimensions_m": [
+        0.028574999421834946,
+        0.02794000168290378,
+        0.028574999421834946
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "dimensions_m": [
+        0.1630679965019226,
+        0.03175000124643551,
+        0.01066800020635128
+      ],
+      "mesh_count": 5,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "dimensions_m": [
+        0.1630679965019226,
+        0.03175000124643551,
+        0.01066800020635128
+      ],
+      "mesh_count": 5,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/bar-pull-brushed-steel",
+      "version": "v001",
+      "dimensions_m": [
+        0.1630679965019226,
+        0.03175000124643551,
+        0.01066800020635128
+      ],
+      "mesh_count": 5,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/edge-pull-satin-bronze",
+      "version": "v001",
+      "dimensions_m": [
+        0.10159999877214432,
+        0.0450849998742342,
+        0.01066800020635128
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/edge-pull-matte-black",
+      "version": "v001",
+      "dimensions_m": [
+        0.10159999877214432,
+        0.0450849998742342,
+        0.01066800020635128
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/edge-pull-brushed-steel",
+      "version": "v001",
+      "dimensions_m": [
+        0.10159999877214432,
+        0.0450849998742342,
+        0.01066800020635128
+      ],
+      "mesh_count": 3,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/door-lever-satin-bronze",
+      "version": "v001",
+      "dimensions_m": [
+        0.15240000374615192,
+        0.0571499999539391,
+        0.05079999938607216
+      ],
+      "mesh_count": 4,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/door-lever-matte-black",
+      "version": "v001",
+      "dimensions_m": [
+        0.15240000374615192,
+        0.0571499999539391,
+        0.05079999938607216
+      ],
+      "mesh_count": 4,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/door-lever-brushed-steel",
+      "version": "v001",
+      "dimensions_m": [
+        0.15240000374615192,
+        0.0571499999539391,
+        0.05079999938607216
+      ],
+      "mesh_count": 4,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/flush-pull-satin-bronze",
+      "version": "v001",
+      "dimensions_m": [
+        0.044449999928474426,
+        0.017017999896779656,
+        0.12700000405311584
+      ],
+      "mesh_count": 9,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/flush-pull-matte-black",
+      "version": "v001",
+      "dimensions_m": [
+        0.044449999928474426,
+        0.017017999896779656,
+        0.12700000405311584
+      ],
+      "mesh_count": 9,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    },
+    {
+      "id": "hardware/flush-pull-brushed-steel",
+      "version": "v001",
+      "dimensions_m": [
+        0.044449999928474426,
+        0.017017999896779656,
+        0.12700000405311584
+      ],
+      "mesh_count": 9,
+      "closed_positive_volume_meshes": true,
+      "fresh_link_verified": true,
+      "preview_exists": true
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "scope": "All 15 actual 640px CPU Cycles previews inspected as a contact sheet. Geometry readable, three finishes distinct, no clipped objects. The initial close-up camera clipping was corrected before this review.",
+    "preview_count": 15
+  }
+}

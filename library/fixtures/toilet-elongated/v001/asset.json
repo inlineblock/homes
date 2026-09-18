@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/toilet-elongated",
+  "version": "v001",
+  "name": "Original elongated floor-mounted toilet",
+  "units": "meters",
+  "dimensions_m": [
+    0.399288,
+    0.757428,
+    0.98999
+  ],
+  "bounds_m": {
+    "min": [
+      -0.19964399933815002,
+      -0.3764280080795288,
+      0.0
+    ],
+    "max": [
+      0.19964399933815002,
+      0.38100001215934753,
+      0.9899904727935791
+    ]
+  },
+  "placement": {
+    "origin": "Floor center of nominal 16 x30 inch plan envelope",
+    "front": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Scale1 only; rigid placement/rotation. Publish another dimensional asset instead of stretching."
+  },
+  "description": "Floor-center origin, front -Y. Nominal 16W x30D inches maximum plan envelope, 30-inch tank height. Raised lid modeled at90degrees, increasing overall height to approximately39inches. Continuous ceramic pedestal and hollow bowl, separate open seat, raised lid, tank cover and flush button. Original visualization concept; plumbing and installation requirements are not manufacturer-approved.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/bath_fixtures.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "toilet-elongated.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "nominal_dimensions_inches": {
+    "width": 16,
+    "depth": 30,
+    "tank_height": 30
+  },
+  "installation": {
+    "mounting_requirements": [
+      "Floor mounted on continuous level support. Waste outlet, rear wall connection and water supply are conceptual allowances, not a selected rough-in."
+    ],
+    "operating_envelope": {
+      "basis": "Measured original lid geometry rotated about its hinge; no manufacturer data",
+      "modeled_state": "Horizontal open seat with lid raised90degrees",
+      "lid_angle_degrees": 90,
+      "lid_travel_degrees": [
+        0,
+        90
+      ],
+      "plan_envelope_inches": [
+        16,
+        30
+      ],
+      "host_open_state_checked": false,
+      "notes": "Closed-to-raised lid swept geometry stays inside this plan envelope; host must verify vertical space and surrounding installation/standing space."
+    },
+    "service_requirements": [
+      "Access to tank lid and water shutoff; exact service/rear clearances unresolved until product selection.",
+      "Provide a deliberately dimensioned clear standing area in front; no jurisdiction-specific compliance claim."
+    ]
+  },
+  "derived_from": null
+}

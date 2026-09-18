@@ -1,0 +1,65 @@
+{
+  "native_model_reopened": true,
+  "gross_enclosed_area_sqft": 4104.0,
+  "conditioned_gross_area_sqft": 3528,
+  "modeled_beds": 3,
+  "clothes_storage_widths_ft": {
+    "Primary walk-in": 8,
+    "Bedroom02": 6,
+    "Bedroom03": 6
+  },
+  "relative_libraries": [
+    "//../../../library/hardware/bar-pull-matte-black/v001/bar-pull-matte-black.blend",
+    "//../../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+    "//../../../library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend",
+    "//../../../library/fixtures/closed-glass-fireplace-48in/v001/closed-glass-fireplace-48in.blend",
+    "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
+    "//../../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
+    "//../../../library/appliances/dishwasher-24in/v001/dishwasher-24in.blend",
+    "//../../../library/hardware/door-lever-matte-black/v001/door-lever-matte-black.blend",
+    "//../../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend",
+    "//../../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend",
+    "//../../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+    "//../../../library/fixtures/lighting-linear-pendant-4ft/v001/lighting-linear-pendant-4ft.blend",
+    "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
+    "//../../../library/fixtures/lighting-undercabinet-bar-4ft/v001/lighting-undercabinet-bar-4ft.blend",
+    "//../../../library/landscape/mountain-conifer/v002/mountain-conifer.blend",
+    "//../../../library/materials/mountain-thermo-ash/v001/mountain-thermo-ash.blend",
+    "//../../../library/cabinetry/oak-drawer-base-2ft/v001/oak-drawer-base-2ft.blend",
+    "//../../../library/cabinetry/oak-wardrobe-2ft/v001/oak-wardrobe-2ft.blend",
+    "//../../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
+    "//../../../library/appliances/panel-ready-fridge-48in/v001/panel-ready-fridge-48in.blend",
+    "//../../../library/landscape/sage-shrub/v002/sage-shrub.blend",
+    "//../../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
+    "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
+    "//../../../library/materials/warm-vertical-cedar/v002/warm-vertical-cedar.blend"
+  ],
+  "stair": {
+    "risers": 20,
+    "rise_inches": 6.6000000000000005,
+    "tread_inches": 11.0,
+    "actual_tread_elevations_checked": true,
+    "main_aperture_clear": true
+  },
+  "circulation": {
+    "swept_diameter_inches": 30,
+    "routes": [
+      "front entry to dining",
+      "garage to mudroom",
+      "primary bedroom",
+      "primary dressing",
+      "primary bathroom",
+      "primary shower",
+      "primary toilet room",
+      "living to deck",
+      "lower stair arrival to lounge",
+      "lower bedroom02",
+      "lower bedroom02 wardrobe",
+      "lower bedroom03",
+      "kitchen working aisle"
+    ],
+    "scope": "Concept paths against modeled obstacles; no accessibility/code approval."
+  },
+  "plants_placed_on_actual_grade": 267,
+  "limits": "Illustrative slope and engineering only. No survey, structural, local code, egress opening product or drainage certification."
+}

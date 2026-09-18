@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-recessed-downlight-3in",
+  "version": "v001",
+  "name": "Recessed 3 inch downlight",
+  "units": "meters",
+  "dimensions_m": [
+    0.09144,
+    0.09144,
+    0.0954024
+  ],
+  "nominal_dimensions_inches": [
+    3.6,
+    3.6,
+    3.756
+  ],
+  "origin": "Mounting ceiling plane center Z=0; white trim below plane, housing above; emits -Z",
+  "front_direction": "Emission -Z; linear long axis +X",
+  "allowed_variation": "Rigid Z rotation and placement only. Change light power per host instance. No nonuniform scaling.",
+  "host_requirements": "Provide a 3.4 inch ceiling cutout for the 3.336 inch housing (3 inch visible light aperture) and a reserved service space above for the 3.6 inch housing. Do not intersect an opaque slab. Illustrative geometry, not an IC/fire/wet-location rated fixture.",
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_lighting.py",
+    "geometry": "tools/common/lighting_assets.py",
+    "software": "Blender 4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
+  "files": {
+    "blender": "lighting-recessed-downlight-3in.blend",
+    "preview": "preview.png"
+  },
+  "illumination": "Low emission diffuser mesh; optional host-owned light via common.lighting_assets.place. Artistic Blender watts, not verified photometry."
+}

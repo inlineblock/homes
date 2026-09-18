@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/closed-glass-fireplace-48in",
+  "version": "v001",
+  "name": "Original 48-inch closed-glass fireplace insert",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.493166,
+    0.85852
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.2645663917064667,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.22859999537467957,
+      0.858519971370697
+    ]
+  },
+  "placement": "Bottom-center origin, front -Y. Nominal 48W x 18D x 32H inches plus top flue collar and handle projection. Glass enclosure and original log bed; no active flame. Host supplies noncombustible surround, hearth, continuous conceptual flue and local engineering review. Fuel, listed product and clearances unselected.",
+  "description": "Bottom-center origin, front -Y. Nominal 48W x 18D x 32H inches plus top flue collar and handle projection. Glass enclosure and original log bed; no active flame. Host supplies noncombustible surround, hearth, continuous conceptual flue and local engineering review. Fuel, listed product and clearances unselected.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "closed-glass-fireplace-48in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

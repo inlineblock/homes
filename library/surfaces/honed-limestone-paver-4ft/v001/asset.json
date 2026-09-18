@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "surfaces/honed-limestone-paver-4ft",
+  "version": "v001",
+  "name": "Four-foot honed limestone paver",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    1.2192,
+    0.03048
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.6096000075340271,
+      -0.030479999259114265
+    ],
+    "max": [
+      0.6096000075340271,
+      0.6096000075340271,
+      0.0
+    ]
+  },
+  "placement": "Top face Z=0, centered XY. Exactly 4 x 4 feet, 1.2 inches thick. Use 4.02-foot placement pitch for a 0.24-inch joint; perimeter pieces may be project-specific cuts.",
+  "description": "Top face Z=0, centered XY. Exactly 4 x 4 feet, 1.2 inches thick. Use 4.02-foot placement pitch for a 0.24-inch joint; perimeter pieces may be project-specific cuts.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/shared_assets.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "honed-limestone-paver-4ft.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../../materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend"
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

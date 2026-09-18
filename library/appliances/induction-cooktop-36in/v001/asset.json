@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "appliances/induction-cooktop-36in",
+  "version": "v001",
+  "name": "Original 36-inch induction cooktop",
+  "units": "meters",
+  "dimensions_m": [
+    0.9144,
+    0.5334,
+    0.051511
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.26669999957084656,
+      -0.049377597868442535
+    ],
+    "max": [
+      0.45719999074935913,
+      0.26669999957084656,
+      0.002133601810783148
+    ]
+  },
+  "placement": "Top face at Z=0, centered XY, controls toward -Y. Nominal 36W x 21D inches, five induction zones. Host worktop opening and electrical services remain project-specific.",
+  "description": "Top face at Z=0, centered XY, controls toward -Y. Nominal 36W x 21D inches, five induction zones. Host worktop opening and electrical services remain project-specific.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "induction-cooktop-36in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

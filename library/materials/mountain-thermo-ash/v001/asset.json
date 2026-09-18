@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "materials/mountain-thermo-ash",
+  "version": "v001",
+  "name": "Mountain thermo ash decking",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/mountain05/assets.py"
+  },
+  "files": {
+    "blender": "mountain-thermo-ash.blend"
+  },
+  "description": "Fine longitudinal grain in physical meter coordinates; pair with spaced deck board geometry.",
+  "dependencies": []
+}

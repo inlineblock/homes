@@ -13,5 +13,21 @@
   "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
   "files": {},
   "dependencies": [],
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "placement": {
+    "origin": "Describe real installation/ground contact point",
+    "front": "-Y unless explicitly stated otherwise",
+    "up": "Z",
+    "allowed_scaling": "State permitted variation; dimensional equipment remains scale 1"
+  },
+  "installation": {
+    "mounting_requirements": [],
+    "operating_envelope": {
+      "basis": "unresolved",
+      "modeled_state": "unresolved",
+      "host_open_state_checked": false
+    },
+    "service_requirements": []
+  },
+  "derived_from": null
 }

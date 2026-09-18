@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-linear-pendant-4ft",
+  "version": "v001",
+  "name": "Four foot slim linear pendant",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.09144,
+    0.8089392
+  ],
+  "nominal_dimensions_inches": [
+    48,
+    3.6,
+    31.848
+  ],
+  "origin": "Ceiling canopy top Z=0; long axis X; bottom lens 31.848 inches below; emits -Z",
+  "front_direction": "Emission -Z; linear long axis +X",
+  "allowed_variation": "Rigid Z rotation and placement only. Change light power per host instance. No nonuniform scaling.",
+  "host_requirements": "Showpiece over an island or dining table. Check finished-floor head clearance at the chosen mounting elevation and keep general lighting separate.",
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_lighting.py",
+    "geometry": "tools/common/lighting_assets.py",
+    "software": "Blender 4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
+  "files": {
+    "blender": "lighting-linear-pendant-4ft.blend",
+    "preview": "preview.png"
+  },
+  "illumination": "Low emission diffuser mesh; optional host-owned light via common.lighting_assets.place. Artistic Blender watts, not verified photometry."
+}

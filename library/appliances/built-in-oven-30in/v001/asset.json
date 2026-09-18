@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "appliances/built-in-oven-30in",
+  "version": "v001",
+  "name": "Original 30-inch built-in oven",
+  "units": "meters",
+  "dimensions_m": [
+    0.762,
+    0.672389,
+    0.7112
+  ],
+  "bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.3675888180732727,
+      0.0
+    ],
+    "max": [
+      0.38100001215934753,
+      0.30480000376701355,
+      0.7111999988555908
+    ]
+  },
+  "placement": "Bottom-center origin, front -Y. Nominal 30W x 24D x 28H inches; handle extends about two inches beyond front. Glass door, inner cavity, two racks and control fascia. Host cabinetry must provide the actual clear appliance opening; no solid carcass or drawer behind the face.",
+  "description": "Bottom-center origin, front -Y. Nominal 30W x 24D x 28H inches; handle extends about two inches beyond front. Glass door, inner cavity, two racks and control fascia. Host cabinetry must provide the actual clear appliance opening; no solid carcass or drawer behind the face.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "built-in-oven-30in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

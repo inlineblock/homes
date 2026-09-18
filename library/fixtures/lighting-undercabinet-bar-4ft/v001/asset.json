@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-undercabinet-bar-4ft",
+  "version": "v001",
+  "name": "Four foot undercabinet task bar",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.0280416,
+    0.016764
+  ],
+  "nominal_dimensions_inches": [
+    48,
+    1.104,
+    0.66
+  ],
+  "origin": "Top mounting plane center Z=0; long axis X, body below, emits -Z",
+  "front_direction": "Emission -Z; linear long axis +X",
+  "allowed_variation": "Rigid Z rotation and placement only. Change light power per host instance. No nonuniform scaling.",
+  "host_requirements": "Mount to cabinet underside near front, with a separate power/cable route. Do not scale length: use repeated bars or a new version for other lengths.",
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_lighting.py",
+    "geometry": "tools/common/lighting_assets.py",
+    "software": "Blender 4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project asset; CC BY 4.0; attribution: Homes project contributors",
+  "files": {
+    "blender": "lighting-undercabinet-bar-4ft.blend",
+    "preview": "preview.png"
+  },
+  "illumination": "Low emission diffuser mesh; optional host-owned light via common.lighting_assets.place. Artistic Blender watts, not verified photometry."
+}

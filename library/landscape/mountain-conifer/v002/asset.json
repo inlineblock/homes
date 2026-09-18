@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "landscape/mountain-conifer",
+  "version": "v002",
+  "name": "Irregular mountain conifer with attached needle sprays",
+  "units": "meters",
+  "dimensions_m": [
+    5.496833,
+    5.743916,
+    14.024499
+  ],
+  "bounds_m": {
+    "min": [
+      -2.5495543479919434,
+      -3.02595591545105,
+      -0.0036485474556684494
+    ],
+    "max": [
+      2.9472787380218506,
+      2.7179603576660156,
+      14.02085018157959
+    ]
+  },
+  "placement": {
+    "origin": "Trunk ground-contact base at Z=0, centered XY",
+    "front": "Radial crown; Z up",
+    "allowed_variation": "Uniform scale 0.78 to 1.4 and arbitrary rotation about Z; no nonuniform scale"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/mountain05/assets.py:conifer",
+    "entry_point": "conifer(root, M), with M from mats(root)",
+    "seed": 55202
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "mountain-conifer.blend",
+    "preview": "preview.png",
+    "preview_renderer": "render_preview.py",
+    "validation": "validation.json"
+  },
+  "dependencies": [],
+  "preview_command": "Blender --background --python library/landscape/mountain-conifer/v002/render_preview.py",
+  "description": "Original generic 46-foot mountain fir silhouette, with irregular three-dimensional boughs, modeled branchlets and individually attached radial needles. Local original bark and needle shaders are embedded. Illustrative vegetation, not a botanical or planting suitability specification."
+}

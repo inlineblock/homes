@@ -3,10 +3,26 @@
   "gross_enclosed_area_sqft": 2720.0,
   "modeled_beds": 3,
   "relative_libraries": [
+    "//../../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+    "//../../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
     "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
     "//../../../library/furniture/coastal-oak-counter-stool/v001/coastal-oak-counter-stool.blend",
     "//../../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
-    "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend"
+    "//../../../library/appliances/dishwasher-24in/v001/dishwasher-24in.blend",
+    "//../../../library/hardware/door-lever-satin-bronze/v001/door-lever-satin-bronze.blend",
+    "//../../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend",
+    "//../../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend",
+    "//../../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+    "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
+    "//../../../library/fixtures/lighting-undercabinet-bar-4ft/v001/lighting-undercabinet-bar-4ft.blend",
+    "//../../../library/cabinetry/oak-wardrobe-2ft/v001/oak-wardrobe-2ft.blend",
+    "//../../../library/landscape/olive-tree/v001/olive-tree.blend",
+    "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
+    "//../../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
+    "//../../../library/appliances/panel-ready-fridge-48in/v001/panel-ready-fridge-48in.blend",
+    "//../../../library/landscape/sage-shrub/v002/sage-shrub.blend",
+    "//../../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
+    "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend"
   ],
   "opening_travel": {
     "sampled_frames": [
@@ -22,17 +38,35 @@
     "no_panel_wall_collisions": true,
     "both_clear_openings_unobstructed_by_panels": true
   },
+  "entry": {
+    "clear_width_ft": 7.65,
+    "east_enclosure_length_ft": 12,
+    "guest_wardrobe_bays": 6,
+    "wardrobe_bay_width_ft": 2,
+    "wardrobe_depth_ft": 2
+  },
   "circulation": {
     "swept_diameter_inches": 30,
     "routes": [
       "entry to dining terrace",
       "primary bedroom",
       "primary bath",
+      "primary dressing",
+      "primary shower",
+      "primary WC",
       "bedroom 02",
+      "bedroom 02 closet",
+      "bedroom 03 closet",
       "bedroom 03",
       "guest bath",
+      "guest WC",
+      "guest shower",
+      "guest vanity",
       "laundry",
-      "kitchen work aisle"
+      "kitchen work aisle",
+      "coat storage",
+      "linen storage",
+      "mechanical service"
     ],
     "actual_geometry_checked": true
   },
@@ -40,7 +74,32 @@
     "stone_top_ft": 3.1,
     "closed_window_bottom_ft": 3.18,
     "no_glass_stone_intersection": true,
-    "outdoor_knee_overhang_inches": 15.06
+    "outdoor_knee_overhang_inches": 15.02
+  },
+  "arrival": {
+    "carport_ft": [
+      26,
+      24
+    ],
+    "cars": 2,
+    "routes": [
+      "parking to front entry",
+      "road to front entry"
+    ],
+    "swept_route_diameter_inches": 36,
+    "driver_approach_diameter_inches": 30,
+    "driver_routes": [
+      "left car driver to crosswalk",
+      "right car driver to crosswalk"
+    ],
+    "actual_geometry_checked": true,
+    "limits": "Parked envelope and walking path only; no turning simulation or full car-door sweep."
+  },
+  "roof": {
+    "house_pitch": "2:12",
+    "carport_pitch": "1:12",
+    "modeled_house_downpipes": 4,
+    "drainage_sizing_verified": false
   },
   "limits": "Concept geometry only. No weatherproofing, thermal, structural, impact/flood or accessibility approval."
 }

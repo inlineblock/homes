@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "landscape/mountain-conifer",
+  "version": "v001",
+  "name": "Original mountain conifer",
+  "units": "meters",
+  "nominal_height_m": 14.020800000000001,
+  "origin": "base of trunk, Z up",
+  "license": "CC-BY-4.0",
+  "rights": "Original; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/mountain05/assets.py"
+  },
+  "files": {
+    "blender": "mountain-conifer.blend"
+  },
+  "dependencies": [],
+  "description": "Branched trunk and individual procedural needle sprays; use instancing and varied rotation/scale for forest stands."
+}

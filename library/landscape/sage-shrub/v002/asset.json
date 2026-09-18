@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "landscape/sage-shrub",
+  "version": "v002",
+  "name": "Fine-leaved sage shrub",
+  "units": "meters",
+  "dimensions_m": [
+    0.820253,
+    0.82284,
+    0.799992
+  ],
+  "bounds_m": {
+    "min": [
+      -0.40556246042251587,
+      -0.40311792492866516,
+      0.0
+    ],
+    "max": [
+      0.41469094157218933,
+      0.4197216331958771,
+      0.7999919056892395
+    ]
+  },
+  "placement": "Grade at Z=0, centered XY. Nominal three-foot shrub; illustrative planting, not a botanical specification.",
+  "description": "Grade at Z=0, centered XY. Nominal three-foot shrub; illustrative planting, not a botanical specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/shared_assets.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "sage-shrub.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

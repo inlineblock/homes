@@ -4,11 +4,22 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 ## Browse the projects
 
+### Mountain House
+
+A timber-clad home on a wooded downhill site: road-level garage and living, a walkout below, and a broad rear deck with a side return. Two levels total · 3 bedrooms · 2.5 baths · 3,528 sq ft conditioned gross.
+
+[![Mountain House forest elevation](homes/mountain-house/outputs/images/01-forest-rear.png)](homes/mountain-house/outputs/README.md)
+
+[All images and plans](homes/mountain-house/outputs/README.md) · [Project and editable models](homes/mountain-house/README.md)
+
+
 ### Coastal House
 
-Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot kitchen serving window. Counters and cabinetry face both indoors and outdoors. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
+Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot kitchen serving window. Counters and cabinetry face both indoors and outdoors. A low pitched roof, two-car carport, generous foyer, bedroom storage and a full primary bathing suite complete the revision. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
 
 [![Coastal House terrace](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/README.md)
+
+[![Coastal House front arrival and parking](homes/coastal-house/outputs/images/06-front-arrival.png)](homes/coastal-house/outputs/README.md)
 
 [All images and plans](homes/coastal-house/outputs/README.md) · [Project and editable models](homes/coastal-house/README.md)
 
@@ -37,6 +48,11 @@ Modern Eichler-inspired home with a walnut-and-sage kitchen and central atrium. 
 [All images and plans](homes/atrium-01/outputs/README.md) · [Project and editable models](homes/atrium-01/README.md)
 
 ### Plan previews
+
+[![Mountain House main floor](homes/mountain-house/outputs/plans/main-floor.png)](homes/mountain-house/outputs/plans/design-board.pdf)
+
+[Mountain House main and walkout plans, sections and views](homes/mountain-house/outputs/plans/design-board.pdf)
+
 
 [![Coastal House concept floor plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/design-board.pdf)
 
@@ -67,10 +83,14 @@ homes/<home-name>/
   assets/            Assets unique to this home
 library/
   materials/         Tile, wood, stone, plaster, fabric, metal
-  components/        Windows, doors, cabinetry, handles
+  components/        Window and door assemblies
+  cabinetry/         Reusable cabinet and wardrobe modules
+  hardware/          Cabinet pulls, knobs and door hardware
   furniture/         Chairs, sofas, tables, stools
-  fixtures/          Sinks, faucets, appliances, lighting
-  landscape/         Plants, planters, paving
+  appliances/        Cooking, refrigeration and dishwashers
+  fixtures/          Bath fixtures, fireplaces and lighting
+  landscape/         Plants and trees
+  surfaces/          Pavers and repeatable surface modules
   environments/      Lighting rigs, skies, backdrops
   assemblies/        Reusable combinations such as a kitchen island
 templates/           Starting point for another home or asset
@@ -95,8 +115,24 @@ Keep the folder structure intact: Blender links use relative paths. Open the hom
 
 Repository: [inlineblock/homes](https://github.com/inlineblock/homes). Use Git LFS to retrieve the actual models and media.
 
+## Design decisions and reusable assets
+
+Start with the [home program checklist](docs/home-program-checklist.md), then use the [design and building handbook](docs/design-guide/README.md). The handbook covers feature tiers, kitchens and baths, climate/material choices, storage/access, enclosure, building systems, site/outdoor living and buildability. Each home records its actual selections and unresolved decisions in `program.md` and `design-review.md`.
+
+The [visual asset catalog](library/README.md) includes materials, plants, paving, cabinetry, appliances, baths, lights and [15 hardware options](library/hardware/README.md). Choose an existing version, adapt it when necessary, and [contribute a reviewed reusable variation](docs/assets.md) without changing adopted versions underneath other homes.
+
+| Shared integrated refrigeration | Shared cabinetry | Shared planting |
+| --- | --- | --- |
+| [![Cabinet-matched refrigerator](library/appliances/panel-ready-fridge-48in/v001/preview.png)](library/README.md) | [![Wardrobe bay](library/cabinetry/oak-wardrobe-2ft/v001/preview.png)](library/README.md) | [![Mountain conifer](library/landscape/mountain-conifer/v002/preview.png)](library/README.md) |
+
+Repository-local skills capture the recurring workflows:
+
+- [Home program and review](.agents/skills/home-program-review/SKILL.md)
+- [Asset selection, adaptation and contribution](.agents/skills/home-asset-contribution/SKILL.md)
+- [Model, IFC, render and plan QA](.agents/skills/home-model-output-qa/SKILL.md)
+
 ## Start another home
 
-Copy `templates/home` to `homes/<new-name>`, update `project.json` and its README, then add your models. Use lowercase hyphenated names. See [collaboration](docs/collaboration.md) and [shared assets](docs/assets.md).
+Copy `templates/home` to `homes/<new-name>`, fill its program, update `project.json` and README, select shared assets, then create the model and coordinated outputs. Use lowercase hyphenated names. See [collaboration](docs/collaboration.md) and [shared assets](docs/assets.md).
 
 Code is licensed under MIT; original home designs, models, drawings, renders, and reusable assets are licensed under CC BY 4.0. See [licensing and attribution](LICENSE.md). Third-party reference images are excluded; third-party content retains its own terms.

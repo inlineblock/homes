@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "mountain-house",
+  "name": "Mountain House",
+  "status": "Detailed visualization and dimensioned architectural concept",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 3528,
+  "gross_enclosed_area_sqft": 4104,
+  "conditioned_gross_area_sqft": 3528,
+  "area_basis": "Main 2280 sqft net of 120 sqft stair opening, plus lower L-shaped 1824 sqft = 4104 sqft gross including walls and 576 sqft garage; conditioned gross 3528 sqft. Deck 1128 sqft, patio, eaves and landscape excluded.",
+  "bedrooms": 3,
+  "bathrooms": 2.5,
+  "storeys": [
+    {
+      "name": "Ground floor",
+      "elevation_m": 0
+    },
+    {
+      "name": "Walkout basement",
+      "elevation_m": -3.3528000000000002
+    }
+  ],
+  "assumptions": "Two levels total as requested. Three bedrooms and 2.5 baths chosen for concept; illustrative forest slope and front road, no actual parcel.",
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-matte-black/v001/"
+    },
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-standing-seam/v001/"
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "path": "../../library/fixtures/closed-glass-fireplace-48in/v001/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/dishwasher-24in/v001/"
+    },
+    {
+      "id": "hardware/door-lever-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/door-lever-matte-black/v001/"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-undercabinet-bar-4ft/v001/"
+    },
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002",
+      "path": "../../library/landscape/mountain-conifer/v002/"
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "version": "v001",
+      "path": "../../library/materials/mountain-thermo-ash/v001/"
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/"
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v002",
+      "path": "../../library/materials/warm-vertical-cedar/v002/"
+    }
+  ],
+  "site_concept": {
+    "road": "Front, at main/garage level",
+    "terrain": "Falls through building depth to lower rear walkout; local patio grading bench",
+    "parking": "24 x 24 ft integrated garage with 20 ft door and 27 ft approach",
+    "deck": "14 ft deep full rear deck, 8 ft east return; partial pergola and shaded walkout patio",
+    "roof": "Low mono-pitch; concept gutter/downpipes; product, snow load, drainage and waterproofing unverified"
+  },
+  "deliverables": {
+    "presentation_model": "model/mountain-house.blend",
+    "architectural_model": "model/mountain-house.ifc",
+    "primary_render": "outputs/images/01-forest-rear.png",
+    "floor_plan": "outputs/plans/main-floor.svg",
+    "presentation_sheet": "outputs/plans/design-board.pdf"
+  }
+}

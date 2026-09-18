@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "landscape/ornamental-grass-clump",
+  "version": "v001",
+  "name": "Ornamental meadow grass clump",
+  "units": "meters",
+  "dimensions_m": [
+    0.945136,
+    0.962587,
+    0.642322
+  ],
+  "bounds_m": {
+    "min": [
+      -0.4837646186351776,
+      -0.48676350712776184,
+      0.006095999851822853
+    ],
+    "max": [
+      0.4613717496395111,
+      0.4758230745792389,
+      0.648418128490448
+    ]
+  },
+  "placement": "Grade at Z=0, centered XY. Nominal two-foot ornamental clump; illustrative planting, species not specified.",
+  "description": "Grade at Z=0, centered XY. Nominal two-foot ornamental clump; illustrative planting, species not specified.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/shared_assets.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "ornamental-grass-clump.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

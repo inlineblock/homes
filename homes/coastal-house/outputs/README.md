@@ -24,12 +24,41 @@ Same camera, actual modeled panel movement. The stone bridge remains beneath the
 
 ![Terrace closed](images/05-terrace-closed.png)
 
+## Front arrival and covered parking
+
+![Front arrival](images/06-front-arrival.png)
+
+Two covered parking spaces connect to the front road; the entry has a separate walk.
+
+## Roof and site overview
+
+![Roof and parking](images/07-roof-and-parking.png)
+
+The 2:12 house gable and 1:12 carport are actual modeled slopes, with gutter/downpipe concepts.
+
+## West garden
+
+![West garden](images/08-west-garden.png)
+
+## Daylit entry
+
+![Daylit widened entry](images/09-entry-hall.png)
+
+The entry is 8 ft wide, opens after 12 ft, and has a full-height sidelight. All bedrooms have usable storage.
+
+## Primary bathroom
+
+![Complete primary bathroom](images/10-primary-bath.png)
+
+Separate soaking tub and shower, double vanity and enclosed toilet room, with a private dressing room adjacent.
+
 ## Plans and model
 
 ![Dimensioned concept floor plan](plans/floor-plan.png)
 
-- [Four-page design booklet](plans/design-board.pdf)
+- [Seven-page design booklet](plans/design-board.pdf)
 - [Vector floor plan](plans/floor-plan.svg)
+- [Vector arrival and roof site plan](plans/site-plan.svg)
 - [Blender model](../model/coastal-house.blend): frame 1 closed, frame 120 open
 - [IFC4 architectural concept](../model/coastal-house.ifc): closed envelope
 - [Project brief, reproduction and limitations](../README.md)

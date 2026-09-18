@@ -1,0 +1,54 @@
+# Mountain House asset-use schedule
+
+This schedule records actual linked collections and materials in the native Mountain House model. The exact pins are in [project.json](../project.json); [asset-adoption.json](../model/asset-adoption.json) records the native audit, example object names and direct use counts. That receipt reports **24 adopted versions** and agreement between the native library pins and the project manifest. Counts below are placements for collections and local object assignments for materials; they are not unique mesh counts, purchase quantities or operating-clearance approvals.
+
+**Existing** means the version was already in the repository before the Mountain House / Coastal House expansion. **New** means it was contributed during this effort, then linked into Mountain House. There are four existing material versions and 20 newly contributed asset versions. All listed assets are original Homes project content licensed CC BY 4.0; authoring code is MIT. These are generic concept assets, not manufacturer-selected equipment.
+
+## Linked geometry
+
+| Exact asset and version | Origin | Native uses | Placement and purpose |
+|---|---|---:|---|
+| [landscape/mountain-conifer · v002](../../../library/landscape/mountain-conifer/v002/asset.json) | New | 108 | Forest backdrop and framing trees (including 22 distant forest instances), instanced with varied rotation/scale and trunk bases at the illustrative terrain grade. The adopted refinement is v002; v001 is retained. |
+| [landscape/ornamental-grass-clump · v002](../../../library/landscape/ornamental-grass-clump/v002/asset.json) | New | 554 | Forest understory and front arrival drifts; placement follows terrain with circulation exclusions. |
+| [landscape/sage-shrub · v002](../../../library/landscape/sage-shrub/v002/asset.json) | New | 237 | Understory and entry planting, rooted at the terrain surface. Planting is visual illustration, not a regionally verified ecological specification. |
+| [surfaces/honed-limestone-paver-4ft · v001](../../../library/surfaces/honed-limestone-paver-4ft/v001/asset.json) | New | 32 | Five front approach modules and 27 walkout patio modules. Cut perimeter pieces and supporting slabs remain fitted host geometry. |
+| [cabinetry/oak-wardrobe-2ft · v001](../../../library/cabinetry/oak-wardrobe-2ft/v001/asset.json) | New | 19 | Four primary dressing bays; three in each lower bedroom; two mudroom, two pantry, two laundry/linen and three garage storage bays. Pantry and utility use adapts the same generic tall storage collection; specialized internal fittings remain unresolved. |
+| [cabinetry/oak-drawer-base-2ft · v001](../../../library/cabinetry/oak-drawer-base-2ft/v001/asset.json) | New | 11 | Four rear kitchen units, two island units, three primary vanity units, one lower bath unit and one powder unit. Host tops and basin cutouts are separate geometry. |
+| [appliances/induction-cooktop-36in · v001](../../../library/appliances/induction-cooktop-36in/v001/asset.json) | New | 1 | Kitchen island, coordinated with oven and extraction hood. |
+| [appliances/built-in-oven-30in · v001](../../../library/appliances/built-in-oven-30in/v001/asset.json) | New | 1 | Dedicated island appliance cavity; drawer carcasses do not occupy the oven bay. |
+| [appliances/wall-hood-36in · v001](../../../library/appliances/wall-hood-36in/v001/asset.json) | New | 1 | Hood geometry above the island cooktop, with host duct/chase and roof outlet. The source is a generic wall-hood form; island mounting, rear finish and suspension suitability require product selection. |
+| [appliances/dishwasher-24in · v001](../../../library/appliances/dishwasher-24in/v001/asset.json) | New | 1 | Rear counter beside the sink; opening and services remain host coordination responsibilities. |
+| [appliances/panel-ready-fridge-48in · v001](../../../library/appliances/panel-ready-fridge-48in/v001/asset.json) | New | 1 | Wide cabinet-front refrigerator at the kitchen's south side. Door swing, ventilation, panel mass and replacement clearances require the selected product. |
+| [fixtures/freestanding-tub-72in · v001](../../../library/fixtures/freestanding-tub-72in/v001/asset.json) | New | 1 | Primary bathroom, separate from shower; host floor-mounted filler. |
+| [fixtures/toilet-elongated · v001](../../../library/fixtures/toilet-elongated/v001/asset.json) | New | 3 | Primary enclosed WC, main powder room and lower shared bathroom. Fixed-scale floor-mounted collection with an open seat and 90-degree raised lid; exact rough-in, service access and selected-product installation requirements remain unresolved. |
+| [fixtures/closed-glass-fireplace-48in · v001](../../../library/fixtures/closed-glass-fireplace-48in/v001/asset.json) | New | 1 | Main living room's west wall with fitted stone chase/hearth and conceptual flue. Fuel/system, listed clearances and vent termination are not specified. |
+| [hardware/bar-pull-matte-black · v001](../../../library/hardware/bar-pull-matte-black/v001/asset.json) | New | 9 | Two sink-front pulls, one waste pullout pull and six island drawer pulls. Other cabinet handles embedded in their collections are not additional instances of this pin. |
+| [hardware/door-lever-matte-black · v001](../../../library/hardware/door-lever-matte-black/v001/asset.json) | New | 26 | Paired levers on 13 modeled door leaves; host supplies latch bodies. This count does not establish lockset, privacy or fire-rating compliance. |
+| [fixtures/lighting-recessed-downlight-3in · v001](../../../library/fixtures/lighting-recessed-downlight-3in/v001/asset.json) | New | 26 | Main-level ceiling layout, including garage, arrival, suite and public rooms, with actual host ceiling apertures. This is not a complete whole-home electrical/photometric design. |
+| [fixtures/lighting-linear-pendant-4ft · v001](../../../library/fixtures/lighting-linear-pendant-4ft/v001/asset.json) | New | 1 | Deliberate focal fixture above the main dining table. |
+| [fixtures/lighting-undercabinet-bar-4ft · v001](../../../library/fixtures/lighting-undercabinet-bar-4ft/v001/asset.json) | New | 1 | Task light under the kitchen's shallow side shelf, rotated along the shelf. |
+
+## Linked materials
+
+| Exact asset and version | Origin | Direct assignments | Actual host use |
+|---|---|---:|---|
+| [materials/warm-vertical-cedar · v002](../../../library/materials/warm-vertical-cedar/v002/asset.json) | Existing | 2,025 | Individually modeled exterior cedar boards and backing, timber envelope/soffit and exposed wood details. Geometry remains fitted to this house. |
+| [materials/charcoal-standing-seam · v001](../../../library/materials/charcoal-standing-seam/v001/asset.json) | Existing | 66 | Mono-pitch roof plate and raised seams. Shader reuse is separate from the bespoke roof assembly. |
+| [materials/coastal-white-oak · v001](../../../library/materials/coastal-white-oak/v001/asset.json) | Existing | 162 | Doors, fitted joinery, interior furniture and details; also a pinned dependency of the shared storage/refrigerator collections. |
+| [materials/coastal-honed-limestone · v001](../../../library/materials/coastal-honed-limestone/v001/asset.json) | Existing | 26 | Enclosed slabs, local stone surfaces and tables; also the shared paving collection's pinned material. |
+| [materials/mountain-thermo-ash · v001](../../../library/materials/mountain-thermo-ash/v001/asset.json) | New | 128 | Spaced deck boards and outdoor timber furnishings. Original procedural timber material contributed for reuse. |
+
+## Dependencies and authoring
+
+The paver links `materials/coastal-honed-limestone/v001`; the drawer-base, wardrobe and panel-ready refrigerator link `materials/coastal-white-oak/v001`. These nested dependencies are explicitly present in the home manifest as well. Other listed collection manifests declare no external library dependencies. Relative native links, rather than copies from a download directory, provide portability.
+
+Placement sources are [site_model.py](../../../tools/mountain05/site_model.py) for planting/paving, [interior.py](../../../tools/mountain05/interior.py) for storage and room furnishings, [premium.py](../../../tools/mountain05/premium.py) for kitchen/bath/fireplace, and [details.py](../../../tools/mountain05/details.py) for lighting/hardware. The library manifests identify each asset's source and generation command. [assets.py](../../../tools/mountain05/assets.py) provides the original Mountain conifer and thermo-ash material generators.
+
+## Deliberately local geometry and remaining candidates
+
+- **Site and fitted building:** illustrative terrain/grade bench, road and drive, retaining edge, foundation/slabs, room partitions, roof/eaves/drainage, cedar board layout, glazing, stairs, deck/pergola/guards and their supports are fitted to this two-level hillside concept. Shared materials do not make these assemblies shared library objects.
+- **Fitted joinery and plumbing interfaces:** island/rear worktops, sink carcass, appliance fillers, waste pullout/bins, cut paving edges, vanity tops with actual basin openings, shower trays/screens, faucets, duct/flue chases and fireplace hearth are custom to this layout. Generic sink, faucet, shower and waste-module options are future library contribution candidates; they are not claimed as existing pinned assets.
+- **Loose furniture and small props:** sofas, beds, chairs, tables, benches, patio chaises, ceramic bowls and cutting board are still local generated geometry. Common helper functions improve reproducibility but are **not** linked asset reuse. Room-specific table/bench dimensions explain fitted pieces; generic chairs, beds and sofas remain a library promotion gap rather than an exemption for future houses.
+- **Services and visual materials:** laundry machines and mechanical/service boxes remain concept representations or space allowances. Local wool, glass, metal, porcelain, countertop and site duff/moss/granite shaders are not additional published material pins. Shared conifer bark/needles are packaged with that collection.
+
+The native adoption receipt proves pinned use, not suitability of every installation. Final appliance selections, operational envelopes, lighting output, wet-area assemblies, roof/drainage performance, fire/structural requirements and landscape suitability require their stated later evidence. Consult the home's program and design review for actual geometric checks and unresolved conditions; do not infer approval from this schedule.

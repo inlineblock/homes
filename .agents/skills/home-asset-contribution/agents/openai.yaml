@@ -1,0 +1,4 @@
+interface:
+  display_name: "Home Asset Contribution"
+  short_description: "Reuse, adapt, and publish shared building assets"
+  default_prompt: "Use $home-asset-contribution to choose or create a reusable home component, verify its library package, and record its adoption."

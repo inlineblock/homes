@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "appliances/panel-ready-fridge-48in",
+  "version": "v001",
+  "name": "Original 48-inch panel-ready refrigerator",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.804062,
+    2.1336
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.42306241393089294,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.38100001215934753,
+      2.1335999965667725
+    ]
+  },
+  "placement": "Floor-center origin, front -Y. Nominal 48W x 30D x 84H inches; handles project about 1.7 inches beyond front. Two original white-oak door panels with narrow reveals, discreet handles and recessed lower ventilation grille. Generic refrigeration envelope; compartment arrangement, selected product, vent area and installation clearances remain unverified.",
+  "description": "Floor-center origin, front -Y. Nominal 48W x 30D x 84H inches; handles project about 1.7 inches beyond front. Two original white-oak door panels with narrow reveals, discreet handles and recessed lower ventilation grille. Generic refrigeration envelope; compartment arrangement, selected product, vent area and installation clearances remain unverified.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "panel-ready-fridge-48in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

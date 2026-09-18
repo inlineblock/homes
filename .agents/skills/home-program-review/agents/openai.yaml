@@ -1,0 +1,4 @@
+interface:
+  display_name: "Home Program Review"
+  short_description: "Resolve home layouts and verify daily living needs"
+  default_prompt: "Use $home-program-review to review this home brief, layout, equipment, and circulation against the repository design standards."

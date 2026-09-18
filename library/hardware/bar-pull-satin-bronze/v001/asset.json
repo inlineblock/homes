@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "hardware/bar-pull-satin-bronze",
+  "version": "v001",
+  "name": "Slender cabinet bar pull \u2014 satin bronze",
+  "units": "meters",
+  "dimensions_m": [
+    0.163068,
+    0.03175,
+    0.010668
+  ],
+  "bounds_m": {
+    "min": [
+      -0.0815339982509613,
+      -0.03175000101327896,
+      -0.00533400010317564
+    ],
+    "max": [
+      0.0815339982509613,
+      2.3315654962274834e-10,
+      0.00533400010317564
+    ]
+  },
+  "placement": "Origin at host mounting face center, front -Y, Z-up. 6 in mounting centers; 6.4 in overall width; 1.25 in projection. Horizontal by default. Rotate local Y 90 degrees for vertical orientation.",
+  "variation": "Keep scale 1. Choose the explicit pinned finish asset. Uniform scaling changes fixing centers and is not appropriate for specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/hardware_assets.py",
+    "command": "Blender --background --python tools/library/publish_hardware.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "bar-pull-satin-bronze.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Generic design component, not a manufacturer SKU or installation approval. Host is responsible for panel drilling/rebates, latch clearances and mounting height."
+}

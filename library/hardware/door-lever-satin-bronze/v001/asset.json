@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "hardware/door-lever-satin-bronze",
+  "version": "v001",
+  "name": "Interior door lever on rose \u2014 satin bronze",
+  "units": "meters",
+  "dimensions_m": [
+    0.1524,
+    0.05715,
+    0.0508
+  ],
+  "bounds_m": {
+    "min": [
+      -0.02539999969303608,
+      -0.05714999884366989,
+      -0.02539999969303608
+    ],
+    "max": [
+      0.12700000405311584,
+      1.110269209902981e-09,
+      0.02539999969303608
+    ]
+  },
+  "placement": "Origin at host mounting face center, front -Y, Z-up. 2 in diameter rose; lever extends 5 in toward +X from spindle; 2.25 in front projection. Origin at spindle on door face. Single side only; host supplies opposite handle, latch and door.",
+  "variation": "Keep scale 1. Choose the explicit pinned finish asset. Uniform scaling changes fixing centers and is not appropriate for specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/hardware_assets.py",
+    "command": "Blender --background --python tools/library/publish_hardware.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "door-lever-satin-bronze.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Generic design component, not a manufacturer SKU or installation approval. Host is responsible for panel drilling/rebates, latch clearances and mounting height."
+}

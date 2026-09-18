@@ -7,10 +7,10 @@
   "display_units": "feet-inches",
   "target_area_sqft": 2720,
   "gross_enclosed_area_sqft": 2720,
-  "area_basis": "68 x 40 ft exterior floor plate, including walls; excludes terrace, eaves, landscaping and illustrative shore",
+  "area_basis": "68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore",
   "bedrooms": 3,
   "bathrooms": 2,
-  "assumptions": "Single story, 3 bedrooms and 2 baths chosen for first concept; no actual parcel or orientation supplied.",
+  "assumptions": "Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.",
   "software": {
     "blender": "4.5.14 LTS",
     "bonsai": "0.8.5"
@@ -35,9 +35,96 @@
       "id": "fixtures/opal-globe-pendant",
       "version": "v001",
       "path": "../../library/fixtures/opal-globe-pendant/v001/"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/"
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "path": "../../library/landscape/olive-tree/v001/"
+    },
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/dishwasher-24in/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-satin-bronze/v001/"
+    },
+    {
+      "id": "hardware/door-lever-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/door-lever-satin-bronze/v001/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-undercabinet-bar-4ft/v001/"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
     }
   ],
+  "site_concept": {
+    "road": "front/south illustration only",
+    "parking": "Detached 26 x 24 ft two-car carport, east side; 26 ft driveway",
+    "entry": "6 ft front path plus 4 ft crosswalk behind parked cars",
+    "roof": "House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval"
+  },
   "openings": {
+    "dimension_units": "feet",
     "great_room": {
       "start": 10.0,
       "end": 40.0,
@@ -58,8 +145,7 @@
       "track_y": 40.0,
       "pitch": 0.13
     },
-    "animation": "Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.",
-    "dimension_units": "feet"
+    "animation": "Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification."
   },
   "deliverables": {
     "presentation_model": "model/coastal-house.blend",

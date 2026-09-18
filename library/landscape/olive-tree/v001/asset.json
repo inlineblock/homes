@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "landscape/olive-tree",
+  "version": "v001",
+  "name": "Original olive tree",
+  "units": "meters",
+  "dimensions_m": [
+    3.311361,
+    3.379647,
+    4.247247
+  ],
+  "bounds_m": {
+    "min": [
+      -1.4297584295272827,
+      -1.9201284646987915,
+      -0.003019925905391574
+    ],
+    "max": [
+      1.8816022872924805,
+      1.4595189094543457,
+      4.244227409362793
+    ]
+  },
+  "placement": "Trunk base at Z=0, centered XY. Nominal fourteen-foot ornamental tree with original branches and leaf geometry.",
+  "description": "Trunk base at Z=0, centered XY. Nominal fourteen-foot ornamental tree with original branches and leaf geometry.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/shared_assets.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "olive-tree.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

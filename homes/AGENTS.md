@@ -5,6 +5,10 @@
 - Store reusable content in the library and pin its version in `project.json`. Use relative links so a clone on another computer works.
 - A layout change must update both the model and its outputs/plans/area schedule. Explain whether area includes walls, atria, porches, or garages.
 - Keep rooms accessible, model door/window openings, and check circulation and furniture clearances. Do not count furniture placement as a resolved architectural layout.
+- Apply `docs/home-design-standard.md` before rendering and again against the finished native model and plan. Every bedroom requires modeled usable clothes storage as a repository design requirement. Do not imply this is a universal legal definition of a bedroom.
+- Draw the arrival sequence from road/parking to entry to public living space. Provide coat/drop storage, a generous arrival space, daylight where practical, and a clear sightline; reject unnecessarily long narrow entrance tunnels even when minimum circulation checks pass.
+- List each repeated asset family in `assets/README.md`: pinned library ID/version, placements/use, and new-versus-reused status. Model, plan, project manifest and this schedule must agree. Bespoke exceptions require a concrete geometric/design reason; plants and standard pavers are not automatically bespoke because their placement differs.
+- New and substantially revised homes must include front/arrival, rear/outdoor living, and a side or elevated view that explains roof, parking and site relationship, plus plans showing closets and circulation. Check these views against one another.
 - Preserve approved versions through Git; make reviewed changes on branches when collaboration is active. Coordinate edits to binary files.
 
 ## Required output organization

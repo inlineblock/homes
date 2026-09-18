@@ -1,0 +1,22 @@
+{
+  "schema": "IFC4",
+  "counts": {
+    "IfcSlab": 9,
+    "IfcWall": 113,
+    "IfcCovering": 2021,
+    "IfcWindow": 130,
+    "IfcDoor": 14,
+    "IfcMember": 70,
+    "IfcColumn": 16,
+    "IfcBeam": 57,
+    "IfcRailing": 80,
+    "IfcStairFlight": 18,
+    "IfcRoof": 7
+  },
+  "storeys": [
+    "Ground floor",
+    "Walkout basement"
+  ],
+  "schema_errors": 0,
+  "errors": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "appliances/wall-hood-36in",
+  "version": "v001",
+  "name": "Original 36-inch wall hood",
+  "units": "meters",
+  "dimensions_m": [
+    0.9144,
+    0.562915,
+    0.772211
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.2835147976875305,
+      -0.010210799984633923
+    ],
+    "max": [
+      0.45719999074935913,
+      0.2793999910354614,
+      0.7619999647140503
+    ]
+  },
+  "placement": "Bottom-center origin, front -Y, rear +Y toward wall. Nominal 36W x 22D x 30H inches. Filters, task lights and chimney cover included. Host supplies a continuous exhaust route and product-specific installation height.",
+  "description": "Bottom-center origin, front -Y, rear +Y toward wall. Nominal 36W x 22D x 30H inches. Filters, task lights and chimney cover included. Host supplies a continuous exhaust route and product-specific installation height.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "wall-hood-36in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "home": "coastal-house",
+  "native_library_pins_match_manifest": true,
+  "asset_versions": 20,
+  "assets": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared built-in oven"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared dishwasher beside sink"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared induction cooktop"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared wide panel-ready fridge"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared concealed hood"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 13,
+      "examples": [
+        "Bedroom 02 oak wardrobe",
+        "Bedroom 02 oak wardrobe.001",
+        "Bedroom 02 oak wardrobe.002",
+        "Bedroom 03 oak wardrobe",
+        "Bedroom 03 oak wardrobe.001",
+        "Bedroom 03 oak wardrobe.002",
+        "Entry coat storage",
+        "Laundry linen storage"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Primary separate soaking tub"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 25,
+      "examples": [
+        "Shared recessed downlight",
+        "Shared recessed downlight.001",
+        "Shared recessed downlight.002",
+        "Shared recessed downlight.003",
+        "Shared recessed downlight.004",
+        "Shared recessed downlight.005",
+        "Shared recessed downlight.006",
+        "Shared recessed downlight.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared preparation task strip"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared entry opal pendant"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Primary enclosed shared toilet",
+        "Guest shared toilet"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 6,
+      "examples": [
+        "Shared outdoor counter stool",
+        "Shared outdoor counter stool.001",
+        "Shared outdoor counter stool.002",
+        "Shared island counter stool",
+        "Shared island counter stool.001",
+        "Shared island counter stool.002"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 48,
+      "examples": [
+        "Interior serving drawer front shared pull",
+        "Interior serving drawer front.001 shared pull",
+        "Interior serving drawer front.002 shared pull",
+        "Interior serving drawer front.003 shared pull",
+        "Interior serving drawer front.004 shared pull",
+        "Interior serving drawer front.005 shared pull",
+        "Interior serving drawer front.006 shared pull",
+        "Interior serving drawer front.007 shared pull"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/door-lever-satin-bronze",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 16,
+      "examples": [
+        "Entry east open oak door leaf lever",
+        "Entry east open oak door leaf lever.001",
+        "Guest bedrooms hall open oak door leaf lever",
+        "Guest bedrooms hall open oak door leaf lever.001",
+        "Guest service west open oak door leaf lever",
+        "Guest service west open oak door leaf lever.001",
+        "Guest service west open oak door leaf.001 lever",
+        "Guest service west open oak door leaf.001 lever.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 8,
+      "examples": [
+        "Shared wind-shaped olive",
+        "Shared wind-shaped olive.001",
+        "Shared wind-shaped olive.002",
+        "Shared wind-shaped olive.003",
+        "Shared coastal background olive",
+        "Shared coastal background olive.001",
+        "Shared coastal background olive.002",
+        "Shared coastal background olive.003"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 232,
+      "examples": [
+        "Shared dune grass drift",
+        "Shared dune grass drift.001",
+        "Shared dune grass drift.002",
+        "Shared dune grass drift.003",
+        "Shared dune grass drift.004",
+        "Shared dune grass drift.005",
+        "Shared dune grass drift.006",
+        "Shared dune grass drift.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 51,
+      "examples": [
+        "Shared low coastal planting",
+        "Shared low coastal planting.001",
+        "Shared low coastal planting.002",
+        "Shared low coastal planting.003",
+        "Shared low coastal planting.004",
+        "Shared low coastal planting.005",
+        "Shared low coastal planting.006",
+        "Shared low coastal planting.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 391,
+      "examples": [
+        "Gross enclosed floor (material)",
+        "Limestone facade ashlar (material)",
+        "Limestone facade ashlar.001 (material)",
+        "Limestone facade ashlar.002 (material)",
+        "Limestone facade ashlar.003 (material)",
+        "Limestone facade ashlar.004 (material)",
+        "Limestone facade ashlar.005 (material)",
+        "Limestone facade ashlar.006 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 381,
+      "examples": [
+        "Front pivot entry leaf (material)",
+        "Pocket removable cladding skin (material)",
+        "Pocket removable cladding skin.001 (material)",
+        "Pocket removable cladding skin.002 (material)",
+        "Pocket removable cladding skin.003 (material)",
+        "Entry east open oak door leaf (material)",
+        "Guest bedrooms hall open oak door leaf (material)",
+        "Guest service west open oak door leaf (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 72,
+      "examples": [
+        "Shared limestone terrace paver",
+        "Shared limestone terrace paver.001",
+        "Shared limestone terrace paver.002",
+        "Shared limestone terrace paver.003",
+        "Shared limestone terrace paver.004",
+        "Shared limestone terrace paver.005",
+        "Shared limestone terrace paver.006",
+        "Shared limestone terrace paver.007"
+      ],
+      "adopted_parent_dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/freestanding-tub-72in",
+  "version": "v001",
+  "name": "Original 72-inch freestanding bathtub",
+  "units": "meters",
+  "dimensions_m": [
+    1.8288,
+    0.9144,
+    0.6096
+  ],
+  "bounds_m": {
+    "min": [
+      -0.9143999814987183,
+      -0.45719999074935913,
+      0.0
+    ],
+    "max": [
+      0.9143999814987183,
+      0.45719999074935913,
+      0.6096000075340271
+    ]
+  },
+  "placement": "Floor-center origin; length along X, width along Y. Nominal 72L x 36W x 24H inches. Smooth hollow shell with actual basin, rolled rim and drain. Host supplies freestanding or wall-mounted filler, access and plumbing. Original visualization envelope, not a manufacturer product or installation specification.",
+  "description": "Floor-center origin; length along X, width along Y. Nominal 72L x 36W x 24H inches. Smooth hollow shell with actual basin, rolled rim and drain. Host supplies freestanding or wall-mounted filler, access and plumbing. Original visualization envelope, not a manufacturer product or installation specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/bath_fixtures.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "freestanding-tub-72in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

@@ -6,3 +6,12 @@
 - The 30-foot great-room opening and 12-foot counter opening are separate systems. Preserve actual side-pocket cavities, track continuity and open/closed states; never hide the glazing to simulate opening.
 - Follow `../AGENTS.md` for current outputs and galleries. Keep only reviewed images in `outputs/images/`, drawings/PDFs in `outputs/plans/`, and drafts in ignored `outputs/work/`. Git stores prior revisions.
 - This is a concept on an illustrative coastal backdrop. Site orientation, flood exposure, structure, weather seals, corrosion specification, screens and exact commercial opening systems remain unverified.
+
+- Retain a complete front arrival: two sheltered parking spaces, driveway to an illustrative front road, a separate 6 ft pedestrian walk and 4 ft crosswalk behind cars. Keep parked vehicles/posts clear of pedestrian routes. Verify actual linked wardrobe geometry and walking access, not only room labels.
+- All bedrooms require usable storage. Preserve the 8 ft wide, 12 ft long daylight entry; do not restore the original narrow corridor. Bedroom 02 storage is on the east wall; bedroom 03 storage is at the rear.
+- Preserve visible low roof pitches (house 2:12, carport 1:12), gutter fall and downpipes. Product eligibility, water sizing, buried routing and site outfall remain unresolved. A pitch alone is not verified weather performance.
+- Adopt pinned shared plant, paving and cabinet collections before generating duplicates. Record direct asset dependencies in project.json; preserve nested material links. Reusable assets require metadata and placement/clearance notes.
+
+- Preserve the complete kitchen: 36-inch induction cooktop, 30-inch oven, 36-inch hood, 24-inch dishwasher, 48-inch panel-ready refrigerator, sink, pantry and waste/recycling. Shared appliances occupy genuine cabinet bays; never overlay them on opaque carcasses. Product services, open-door operation and exhaust termination need explicit checks.
+- Preserve premium primary-suite program: separate tub and shower, double vanity with 36-inch basin centers, enclosed toilet, dressing room and towel storage. The king bed is reoriented toward the west wall; dressing access is through the private bathroom. Do not reintroduce the original 10 x 8 ft bath.
+- Record lighting, cabinet/door hardware and household service allowances in the program review. Fireplace is optional and not included in this concept. Distinguish measured geometry from product, climate and code approvals.

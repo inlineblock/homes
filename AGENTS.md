@@ -12,8 +12,27 @@
 - Mark unverified conditions explicitly. Do not invent a site, survey, structural calculations, product specification, or code approval.
 
 ## Deliverable standard
+- Before drawing a new home, read `docs/home-design-standard.md` and inventory the shared library. A beautiful exterior does not excuse missing storage, poor arrival, inaccessible rooms, or absent parking.
+- Reuse is required, not optional: search `library/**/asset.json` before making materials, plants, paving, cabinetry, fixtures or furniture. Link the existing suitable version. If a repeated component is missing, publish it to the library and instantiate it in the home; a copied generator function alone is not a shared asset.
+- Record an asset-use schedule and a completed design review in each home's text sources. Identify exact dependencies and any deliberately bespoke geometry. Do not describe a project as reviewed with open failures in those records.
 - Save native sources, inspect actual rendered images, and confirm important files can reopen. A script that runs is not sufficient visual QA.
 - Record software versions, relative paths, asset dependencies, and generation commands. Keep downloads and caches outside Git.
 - Use Git LFS for binary models and selected media. Commit source and dependencies together; do not silently publish or choose a public remote.
 - Do not introduce paid assets, subscriptions, or third-party content with incompatible redistribution terms. Record asset origins.
 - Update the nearest guidance file when the user asks to establish a new lasting project convention. Keep guidance scoped and avoid duplicating entire parent files.
+
+## Comprehensive design decisions
+- Read `docs/home-program-checklist.md` and relevant `docs/design-guide/` chapters; create `homes/<slug>/program.md` before treating a new or substantially revised home as resolved.
+- Respect this user's premium defaults: complete kitchen equipment, wide panel-ready refrigeration, primary double vanity, separate shower and tub, enclosed toilet room, coordinated hardware and recessed/task lighting with deliberate focal fixtures. Record reasoned exceptions instead of silently omitting them.
+- Apply baseline functionality to every tier; climate, site, household and maintenance needs override prestige assumptions. Do not claim premium homes universally exclude a material such as asphalt shingles.
+- Prefer existing library options. When modification is needed, preserve the adopted version, record derivation, publish a reviewed reusable variation, then explicitly adopt it. Follow `docs/assets.md`.
+
+## Reusable project skills
+- Use `.agents/skills/home-program-review/` for briefs, completeness and coordinated layout reviews.
+- Use `.agents/skills/home-asset-contribution/` for library selection, adaptation and contribution.
+- Use `.agents/skills/home-model-output-qa/` for native/IFC/render/plan verification and current-output promotion.
+- Skills are repository-local and complement the scoped guidance. They do not authorize unrelated publication or external actions. Improve them when an actual recurring workflow demonstrates a missing instruction; do not add one-off preferences as universal rules.
+
+## Specialist agents and recurring work
+- For a broad new-home or library expansion, delegate independent, bounded specialties such as program/layout review, climate/envelope research, systems coordination, asset families and visual QA. Give each agent explicit file ownership; one agent owns each native binary. Coordinate shared rendering resources.
+- When a workflow repeats and is not covered by an existing skill, delegate a repository-local skill draft and an independent trial on a real example. Prefer improving an existing skill over creating overlapping ones. Validate the skill and its links, then route to it from this guidance; keep detailed design policy in the handbook.

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "hardware/round-knob-brushed-steel",
+  "version": "v001",
+  "name": "Round cabinet knob \u2014 brushed steel",
+  "units": "meters",
+  "dimensions_m": [
+    0.028575,
+    0.02794,
+    0.028575
+  ],
+  "bounds_m": {
+    "min": [
+      -0.014287499710917473,
+      -0.02794000133872032,
+      -0.014287499710917473
+    ],
+    "max": [
+      0.014287499710917473,
+      3.441834595108162e-10,
+      0.014287499710917473
+    ]
+  },
+  "placement": "Origin at host mounting face center, front -Y, Z-up. 1.125 in diameter; 1.10 in projection. Origin at face center. Single center fixing.",
+  "variation": "Keep scale 1. Choose the explicit pinned finish asset. Uniform scaling changes fixing centers and is not appropriate for specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/hardware_assets.py",
+    "command": "Blender --background --python tools/library/publish_hardware.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "round-knob-brushed-steel.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Generic design component, not a manufacturer SKU or installation approval. Host is responsible for panel drilling/rebates, latch clearances and mounting height."
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "appliances/dishwasher-24in",
+  "version": "v001",
+  "name": "Original 24-inch dishwasher",
+  "units": "meters",
+  "dimensions_m": [
+    0.60198,
+    0.668426,
+    0.86106
+  ],
+  "bounds_m": {
+    "min": [
+      -0.3009899854660034,
+      -0.3636263906955719,
+      0.0
+    ],
+    "max": [
+      0.3009899854660034,
+      0.30480000376701355,
+      0.8610600233078003
+    ]
+  },
+  "placement": "Floor-center origin, front -Y. Nominal 24W x 24D x 34H inches; handle projects beyond front. Provide adjacent sink services and unobstructed downward door opening in host design.",
+  "description": "Floor-center origin, front -Y. Nominal 24W x 24D x 34H inches; handle projects beyond front. Provide adjacent sink services and unobstructed downward door opening in host design.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/common/appliances.py",
+    "command": "Blender --background --python tools/library/publish_shared.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "dishwasher-24in.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

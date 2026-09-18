@@ -9,6 +9,9 @@ for d in p.devices:d.use=d.type=='METAL'
 s.cycles.device='GPU';s.cycles.samples=int(os.environ.get('COASTAL_SAMPLES',s.cycles.samples));s.render.resolution_percentage=int(os.environ.get('COASTAL_PERCENT','100'))
 out=ROOT/'homes/coastal-house/outputs/work';out.mkdir(parents=True,exist_ok=True)
 requested=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
-for cam,file,frame in VIEWS:
-    if requested and file not in requested:continue
+unknown=set(requested)-{v[1] for v in VIEWS}
+if unknown:raise ValueError('Unknown Coastal render names: '+', '.join(sorted(unknown)))
+views=[next(v for v in VIEWS if v[1]==name) for name in requested] if requested else VIEWS
+for cam,file,frame in views:
+    s.cycles.samples=int(os.environ.get('COASTAL_SAMPLES',256 if file in {'05-terrace-closed','06-front-arrival','07-roof-and-parking','08-west-garden'} else 512))
     s.frame_set(frame);s.camera=bpy.data.objects[cam];s.render.filepath=str(out/(file+'.png'));bpy.ops.render.render(write_still=True);print('COASTAL_RENDERED',file,flush=True)

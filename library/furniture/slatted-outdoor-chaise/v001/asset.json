@@ -1,0 +1,59 @@
+{
+  "placement": {
+    "origin": "Floor center XY at leg bottoms Z=0; reclining head at +Y; Z up",
+    "front_direction": "Foot/front toward -Y",
+    "allowed_variation": "Rigid placement and Z rotation only; no scaling."
+  },
+  "mounting": "Four grounded legs on a level hard surface.",
+  "clearances": {
+    "side_access_m": 0.6,
+    "foot_access_m": 0.8,
+    "basis": "Concept furniture access allowance; not an accessibility certification.",
+    "host_checked": false
+  },
+  "operating_envelope": {
+    "state": "Fixed 31-degree recline",
+    "motion_modeled": false,
+    "host_open_state_checked": false
+  },
+  "product_status": "Original furniture design; not an identified commercial product.",
+  "schema_version": 1,
+  "id": "furniture/slatted-outdoor-chaise",
+  "version": "v001",
+  "name": "Slatted timber outdoor chaise with reclining back and cushion",
+  "units": "meters",
+  "dimensions_m": [
+    0.72,
+    1.98,
+    0.802407
+  ],
+  "bounds_m": {
+    "min": [
+      -0.36000001430511475,
+      -0.9900000095367432,
+      0.0
+    ],
+    "max": [
+      0.36000001430511475,
+      0.9900000095367432,
+      0.8024070858955383
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "library/furniture/slatted-outdoor-chaise/v001/generate.py",
+    "command": "blender --background --factory-startup --python library/furniture/slatted-outdoor-chaise/v001/generate.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry and embedded procedural materials; attribution Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "slatted-outdoor-chaise.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "preview_renderer": "review.py"
+  }
+}

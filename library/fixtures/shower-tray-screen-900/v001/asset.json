@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/shower-tray-screen-900",
+  "version": "v001",
+  "name": "900 mm shower tray and screen",
+  "units": "meters",
+  "dimensions_m": [
+    0.9019999802112579,
+    0.9039999842643738,
+    2.0500001907348633
+  ],
+  "bounds_m": {
+    "min": [
+      -0.4519999921321869,
+      -0.4519999921321869,
+      0.0
+    ],
+    "max": [
+      0.44999998807907104,
+      0.4519999921321869,
+      2.0500001907348633
+    ]
+  },
+  "placement": {
+    "origin": "Floor center at Z=0; centered nominal plan footprint",
+    "front_direction": "Floor center Z=0; open entry toward -Y; plumbing wall +Y.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "900 \u00d7 900 mm nominal tray on a continuous supported waterproof floor. Fixed screen attaches along local -X; mixer/riser and head arm require a wall and supply connections at local +Y. Entry is open toward -Y.",
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Fixed screen and open front; no swinging shower door",
+      "reserve_front_approach_depth_m": 0.8,
+      "notes": "Host must keep dry approach clear, check actual standing space and control reach, and contain water at the open entry. This concept screen layout is not a tested watertight assembly."
+    },
+    "service_requirements": [
+      "Connect the rear drainage-slot allowance to a properly designed drain, waterproofing and slope system.",
+      "Resolve tray threshold, screen anchorage, safety glass, slip resistance, temperature controls, ventilation and product clearances."
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "shower-tray-screen-900.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

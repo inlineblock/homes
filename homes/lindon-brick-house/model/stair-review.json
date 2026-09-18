@@ -1,0 +1,47 @@
+{
+  "stairs": [
+    {
+      "name": "Curved foyer stair",
+      "risers": 19,
+      "rise_m": 0.17105263157894737,
+      "width_m": 1.04,
+      "centerline_run_m": 5.431996101758362,
+      "centerline_going_m": 0.30177756120879784,
+      "lower_z_m": 0.0,
+      "upper_z_m": 3.25,
+      "evidence": "Proposed stair geometry; not measured, engineered or code approved"
+    },
+    {
+      "name": "Rear main to upper stair",
+      "risers": 19,
+      "rise_m": 0.17105263157894737,
+      "width_m": 1.04,
+      "centerline_run_m": 4.970602073560929,
+      "centerline_going_m": 0.27614455964227386,
+      "lower_z_m": 0.0,
+      "upper_z_m": 3.25,
+      "evidence": "Proposed stair geometry; not measured, engineered or code approved"
+    },
+    {
+      "name": "Rear basement to main stair",
+      "risers": 18,
+      "rise_m": 0.175,
+      "width_m": 1.04,
+      "centerline_run_m": 4.970602073560929,
+      "centerline_going_m": 0.29238835726828993,
+      "lower_z_m": -3.15,
+      "upper_z_m": 0.0,
+      "evidence": "Proposed stair geometry; not measured, engineered or code approved"
+    }
+  ],
+  "stacked_rear_vertical_separation_m": [
+    3.15,
+    3.25
+  ],
+  "unresolved": [
+    "Structural attachment and stringer sizing",
+    "Code-specific winder walking line, guard and handrail requirements",
+    "As-built stair survey and underside storage coordination",
+    "North-facing rear lower landings are a proposed circulation change"
+  ]
+}

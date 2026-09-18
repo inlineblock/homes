@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/kitchen-sink-mixer-650",
+  "version": "v001",
+  "name": "Stainless sink and mixer",
+  "units": "meters",
+  "dimensions_m": [
+    0.7150000333786011,
+    0.5911807119846344,
+    0.637980505824089
+  ],
+  "bounds_m": {
+    "min": [
+      -0.35750001668930054,
+      -0.2549999952316284,
+      -0.21800000965595245
+    ],
+    "max": [
+      0.35750001668930054,
+      0.336180716753006,
+      0.4199804961681366
+    ]
+  },
+  "placement": {
+    "origin": "Countertop mounting center Z=0",
+    "front_direction": "Countertop mounting plane Z=0, front -Y; bowl extends below plane.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "Countertop mounting plane Z=0. Provide a 650 \u00d7 450 mm opening, support the metal flange continuously, and leave the bowl unobstructed below the top.",
+    "countertop_cutout_m": [
+      0.65,
+      0.45
+    ],
+    "below_counter_bowl_depth_m": 0.218,
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Open bowl and static mixer; mixer movement not articulated",
+      "reserve_front_standing_depth_m": 0.8,
+      "notes": "Keep the approach clear of open appliance doors; allow hand movement around the rear mixer and lever. Standing allowance is a project starting point, not an accessibility or code claim."
+    },
+    "service_requirements": [
+      "Provide drain/trap and hot/cold routes below bowl; the model does not include a functioning drain or trap.",
+      "Reserve removable cabinet-front access to connections; coordinate selected faucet fixing, countertop thickness and splash protection."
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "kitchen-sink-mixer-650.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

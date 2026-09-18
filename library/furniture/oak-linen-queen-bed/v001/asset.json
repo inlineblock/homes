@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "furniture/oak-linen-queen-bed",
+  "version": "v001",
+  "name": "Oak and linen queen bed",
+  "units": "meters",
+  "dimensions_m": [
+    1.7221200466156006,
+    2.23418390750885,
+    1.1490960121154785
+  ],
+  "bounds_m": {
+    "min": [
+      -0.8610600233078003,
+      -1.1216639280319214,
+      0.0
+    ],
+    "max": [
+      0.8610600233078003,
+      1.1125199794769287,
+      1.1490960121154785
+    ]
+  },
+  "placement": {
+    "origin": "Floor center at Z=0; centered nominal plan footprint",
+    "front_direction": "Headboard toward -Y; foot toward +Y. Mattress nominal 60 \u00d7 84 inches.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "Freestanding floor-supported original furniture concept.",
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Fixed furniture, no opening mechanism",
+      "notes": "Host must reserve actual chair pullback, seated/bedside approach and passage; bounds are furniture geometry, not circulation clearance."
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "oak-linen-queen-bed.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "bed_count": 1
+}

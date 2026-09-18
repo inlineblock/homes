@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/vanity-basin-mixer-mirror",
+  "version": "v001",
+  "name": "Vessel basin mixer and mirror",
+  "units": "meters",
+  "dimensions_m": [
+    0.550000011920929,
+    0.5760999917984009,
+    1.1349999904632568
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2750000059604645,
+      -0.22859999537467957,
+      0.0
+    ],
+    "max": [
+      0.2750000059604645,
+      0.3474999964237213,
+      1.1349999904632568
+    ]
+  },
+  "placement": {
+    "origin": "Countertop mounting center Z=0",
+    "front_direction": "Countertop mounting plane Z=0; wall / mirror toward +Y; front -Y.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "Vessel bowl sits on countertop plane Z=0. Rear mixer requires countertop fixing; separate mirror/backing requires a structural wall at local +Y. Mirror back is approximately 0.3475 m behind the mounting origin.",
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Open vessel bowl; static mixer; wall-mounted mirror",
+      "reserve_front_standing_depth_m": 0.8,
+      "notes": "Verify basin height, faucet reach and handwashing space in host. Mirror is not supported by the basin; no reach or mobility compliance is asserted."
+    },
+    "service_requirements": [
+      "Provide basin waste opening, trap, supply connections and service access below counter. Drain rough-ins are not modeled.",
+      "Coordinate mirror attachment, wet-area electrical interfaces and splash-resistant wall finish; no product rating supplied."
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "vanity-basin-mixer-mirror.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

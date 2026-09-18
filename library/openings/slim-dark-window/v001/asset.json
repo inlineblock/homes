@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry and procedural materials; attribution: Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_assets.py",
+    "command": "Blender --background --python tools/library/build_lindon_assets.py -- publish"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home checks opening fit, sun/shade color response, access and actual weather detailing."
+  },
+  "id": "openings/slim-dark-window",
+  "name": "Slim dark three-panel window \u2014 2400 \u00d72400 mm",
+  "dimensions_m": [
+    2.4,
+    0.19275,
+    2.4
+  ],
+  "nominal_opening_m": [
+    2.4,
+    2.4
+  ],
+  "frame_sightline_m": 0.055,
+  "placement": "Origin bottom-center at exterior main frame plane Y0, front -Y, Z-up. Main frame occupies Y0..0.14; sill projects to Y-0.017; interior pull reaches Y0.17575. Host opening must remain clear across the full 2.4 \u00d7 2.4 m envelope.",
+  "variation": "Keep scale 1 for 55 mm sightlines; publish dimensional variants using generator for alternate openings. Moderate host scaling is only a visual study and changes all product dimensions.",
+  "files": {
+    "blender": "slim-dark-window.blend",
+    "preview": "preview.png"
+  },
+  "blender": {
+    "collection": "Slim dark window | 2400 x 2400 mm"
+  },
+  "dependencies": [
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-matte-black/v001/",
+      "blender": "bar-pull-matte-black.blend"
+    }
+  ],
+  "operating_clearance": {
+    "state": "Closed",
+    "side_panel_type": "Casement-style concept",
+    "assumed_outward_opening_degrees": 90,
+    "assumed_outward_sweep_m": 0.545,
+    "basis": "Concept side aperture width; hinges and opening mechanism not engineered",
+    "host_checked": false
+  },
+  "service_clearance": "Host must resolve installation shims, drainage, flashing, exterior sill slope, thermal performance, wind/water rating and interior/exterior cleaning access.",
+  "limitations": "Generic original concept, not commercial product. Side panels are modeled closed; no operational or weather certification. Reused cabinet pulls are concept grips only, not specified casement-lock hardware."
+}

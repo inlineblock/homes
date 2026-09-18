@@ -1,0 +1,29 @@
+{
+  "fresh_process_link": true,
+  "software": "4.5.14 LTS",
+  "collection": "Slatted outdoor chaise | shared v001",
+  "mesh_objects": 35,
+  "measured_dimensions_m": [
+    0.7200000286102295,
+    1.9800000190734863,
+    0.8024070858955383
+  ],
+  "bounds_m": {
+    "min": [
+      -0.36000001430511475,
+      -0.9900000095367432,
+      0.0
+    ],
+    "max": [
+      0.36000001430511475,
+      0.9900000095367432,
+      0.8024070858955383
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "materials_resolve": true,
+  "native_preview_rendered": true,
+  "preview_pixels_reviewed": true,
+  "host_integration_checked": false,
+  "pixel_review_notes": "Native preview inspected: grounded legs, slatted seat/back, physical reclining supports and cushions; no floating parts observed."
+}

@@ -14,9 +14,14 @@ for manifest_path in sorted((ROOT/'homes').glob('*/project.json')):
         assert resolved.is_file(),resolved
         libraries.append(lib.filepath)
     floor=[o for o in bpy.context.scene.objects if o.type=='MESH' and any(c.name.startswith('02 Architecture') for c in o.users_collection)]
-    sqft=sum(o.dimensions.x*o.dimensions.y/(.3048**2) for o in floor)
+    # New source-traced homes have concave/angled slabs. Their XY bounding box
+    # is not floor area. Measure horizontal top faces after actual void cuts.
+    tagged=[o for o in bpy.context.scene.objects if o.get('floor_area_role')]
+    sqft=(sum(sum(p.area for p in o.data.polygons if p.normal.z>.9) for o in tagged)/(.3048**2)
+          if tagged else sum(o.dimensions.x*o.dimensions.y/(.3048**2) for o in floor))
     assert abs(sqft-meta['gross_enclosed_area_sqft'])<.02,(meta['id'],sqft)
-    beds=[o for o in bpy.context.scene.objects if ' bed frame' in o.name]
+    marked_beds=[o for o in bpy.context.scene.objects if o.get('bed_count')==1]
+    beds=marked_beds or [o for o in bpy.context.scene.objects if ' bed frame' in o.name]
     assert len(beds)==meta['bedrooms']
     reports.append({'home':meta['id'],'native_model_reopened':True,'measured_enclosed_floor_sqft':round(sqft,2),'modeled_beds':len(beds),'relative_libraries':len(libraries)})
 print('REPOSITORY_VERIFIED',json.dumps(reports),flush=True)

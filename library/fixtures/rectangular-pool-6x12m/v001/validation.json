@@ -1,0 +1,29 @@
+{
+  "fresh_process_link": true,
+  "software": "4.5.14 LTS",
+  "collection": "Rectangular pool 6x12m | shared v001",
+  "mesh_objects": 14,
+  "measured_dimensions_m": [
+    6.640000343322754,
+    12.640000343322754,
+    1.8499999716877937
+  ],
+  "bounds_m": {
+    "min": [
+      -3.320000171661377,
+      -6.320000171661377,
+      -1.7799999713897705
+    ],
+    "max": [
+      3.320000171661377,
+      6.320000171661377,
+      0.07000000029802322
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "materials_resolve": true,
+  "native_preview_rendered": true,
+  "preview_pixels_reviewed": true,
+  "host_integration_checked": false,
+  "pixel_review_notes": "Native preview inspected: open pool volume, continuous coping and submerged entry steps visible. Site must provide excavation and perimeter safety design."
+}

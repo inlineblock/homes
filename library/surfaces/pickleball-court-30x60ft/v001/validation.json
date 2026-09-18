@@ -1,0 +1,29 @@
+{
+  "fresh_process_link": true,
+  "software": "4.5.14 LTS",
+  "collection": "Pickleball court 30x60ft | shared v001",
+  "mesh_objects": 198,
+  "measured_dimensions_m": [
+    18.288000106811523,
+    9.144000053405762,
+    1.1699999570846558
+  ],
+  "bounds_m": {
+    "min": [
+      -9.144000053405762,
+      -4.572000026702881,
+      -0.12999999523162842
+    ],
+    "max": [
+      9.144000053405762,
+      4.572000026702881,
+      1.0399999618530273
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "materials_resolve": true,
+  "native_preview_rendered": true,
+  "preview_pixels_reviewed": true,
+  "host_integration_checked": false,
+  "pixel_review_notes": "Native preview inspected: full pad, blue marked area, non-volley lines, service center lines and modeled mesh net present."
+}

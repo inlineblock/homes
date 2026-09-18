@@ -95,3 +95,31 @@ The shared elongated toilet has a continuous floor-mounted ceramic pedestal, a h
 The recessed fixture needs a real ceiling opening and service cavity. Hosts choose actual lamp power/controls; these are original visual concepts without rated photometry. [Placement guidance](../tools/library/lighting.md).
 
 [Reuse, adapt and contribute](../docs/assets.md) explains how to preserve adopted versions, record derivation, publish reviewed variations and explicitly adopt them in a home.
+
+## Lindon collection — brick, windows, rooms and outdoor living
+
+Eighteen new **v001** assets make the Lindon concept's components available to other homes. The previews below are native renders of the reusable source files. They show available geometry and materials; installation, circulation and operating clearances still need review in each adopting home.
+
+| Warm red running-bond brick | Slim dark window | Linen three-seat sofa |
+| --- | --- | --- |
+| [![Warm red brick with running bond and mortar joints](materials/warm-red-brick/v001/preview.png)](materials/warm-red-brick/v001/asset.json) | [![Dark three-panel window in a sample wall opening](openings/slim-dark-window/v001/preview.png)](openings/slim-dark-window/v001/asset.json) | [![Linen three-seat sofa with separate cushions](furniture/linen-three-seat-sofa/v001/preview.png)](furniture/linen-three-seat-sofa/v001/asset.json) |
+
+| Rectangular pool | Pickleball court | Slatted outdoor chaise |
+| --- | --- | --- |
+| [![Rectangular pool with coping and submerged entry steps](fixtures/rectangular-pool-6x12m/v001/preview.png)](fixtures/rectangular-pool-6x12m/v001/asset.json) | [![Pickleball playing surface with lines and net](surfaces/pickleball-court-30x60ft/v001/preview.png)](surfaces/pickleball-court-30x60ft/v001/asset.json) | [![Slatted timber chaise with fixed reclining back and cushion](furniture/slatted-outdoor-chaise/v001/preview.png)](furniture/slatted-outdoor-chaise/v001/asset.json) |
+
+Each link below opens the exact version's dimensions, origin, dependencies, source and installation notes. More previews and the editable `.blend` sit beside each manifest.
+
+| Family | Available v001 assets | Scale and placement notes |
+| --- | --- | --- |
+| Facade | [Warm red brick](materials/warm-red-brick/v001/asset.json) · [Slim dark window](openings/slim-dark-window/v001/asset.json) | Brick module pitch 225 × 75 mm, including joints; physical-meter facade mapping also supports angled walls. Window nominal opening 2.4 × 2.4 m with 55 mm frame sightlines; closed concept state. |
+| Living | [Linen sofa](furniture/linen-three-seat-sofa/v001/asset.json) · [Rounded oak coffee table](furniture/oak-rounded-coffee-table/v001/asset.json) | Sofa approximately 3.47 m wide; coffee table approximately 1.68 × 0.85 m. Reserve seated access and through routes separately from object bounds. |
+| Dining | [Eight-foot oak table](furniture/oak-dining-table-8ft/v001/asset.json) · [One-meter round table](furniture/oak-round-dining-table-1000/v001/asset.json) · [Upholstered oak chair](furniture/oak-upholstered-dining-chair/v001/asset.json) | Long-table and compact round-table choices use separate assets. Chairs need occupied/pulled-back clearance in the host room. |
+| Bedrooms and work | [King bed](furniture/oak-linen-king-bed/v001/asset.json) · [Queen bed](furniture/oak-linen-queen-bed/v001/asset.json) · [Open nightstand](furniture/oak-open-nightstand/v001/asset.json) · [Writing desk](furniture/oak-writing-desk/v001/asset.json) | Beds have distinct frame widths and their own measured envelopes; do not stretch one into the other. Desk top is 1.8 × 0.75 m. |
+| Kitchen, bath and laundry | [Sink and mixer](fixtures/kitchen-sink-mixer-650/v001/asset.json) · [Basin, mixer and mirror](fixtures/vanity-basin-mixer-mirror/v001/asset.json) · [900 mm shower tray/screen](fixtures/shower-tray-screen-900/v001/asset.json) · [600 mm laundry module](appliances/front-loading-laundry-600/v001/asset.json) | Counter-mounted fixtures use the mounting plane as Z=0; other modules stand at floor level. Hosts provide actual cutouts, support, wet-area detailing, services and access. Laundry door is modeled closed. |
+| Pool and terrace | [Rectangular pool](fixtures/rectangular-pool-6x12m/v001/asset.json) · [Slatted chaise](furniture/slatted-outdoor-chaise/v001/asset.json) | Pool water footprint 6 × 12 m; shell extends below the host deck datum. Chaise is 0.72 × 1.98 m with fixed recline. These are reusable concept sizes, not measurements of the listed property. |
+| Court | [Pickleball court](surfaces/pickleball-court-30x60ft/v001/asset.json) | 20 × 44 ft markings on a 30 × 60 ft surface. Host supplies suitable base, drainage, perimeter safety and site fit; modeled dimensions do not certify an installed facility. |
+
+These are original Homes project assets under **CC BY 4.0**, with attribution to Homes project contributors; authoring code is MIT. They contain no listing photographs or source floor-plan graphics. Interior oak furniture pins the existing `coastal-white-oak/v001` material; the window links `bar-pull-matte-black/v001` as a conceptual grip, not a specified casement lock. Product selection and host validation remain separate from asset publication.
+
+**Reuse → adapt → contribute:** choose an asset that fits, link its exact version, and verify it in the home. For a different size or design, preserve the adopted source, publish a versioned variation or distinct sibling with its derivation and preview, then explicitly adopt it. Keep the home's asset schedule aligned with actual links. [Full selection and contribution workflow](../docs/assets.md).

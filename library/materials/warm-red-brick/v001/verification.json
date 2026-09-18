@@ -1,0 +1,40 @@
+{
+  "fresh_process": true,
+  "native_assets_loaded": true,
+  "missing_dependencies": [],
+  "bounds_world_m": {
+    "window": {
+      "min": [
+        -1.2000000476837158,
+        -0.017000000923871994,
+        0.0
+      ],
+      "max": [
+        1.2000000476837158,
+        0.1757499873638153,
+        2.4000000953674316
+      ]
+    },
+    "brick_module": {
+      "min": [
+        3.887500047683716,
+        -0.051249999552965164,
+        0.0
+      ],
+      "max": [
+        4.112500190734863,
+        0.051249999552965164,
+        0.07500000298023224
+      ]
+    }
+  },
+  "window_object_count": 35,
+  "dimensions_assertions_passed": true,
+  "brick_45_degree_nonuniform_scale_uv_edge_error_m": 1.675317249372199e-07,
+  "brick_uv_name": "Brick meters",
+  "preview_review": {
+    "neutral_native_previews": "Inspected actual PNGs: red/rust clay variation and fine grain; window complete slim frame, deep glazing and visible side sash reveals.",
+    "host_sun_shade_review": "Pending adopting home"
+  },
+  "blender": "4.5.14 LTS"
+}

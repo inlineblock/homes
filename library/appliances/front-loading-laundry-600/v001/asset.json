@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "appliances/front-loading-laundry-600",
+  "version": "v001",
+  "name": "600 mm front-loading laundry module",
+  "units": "meters",
+  "dimensions_m": [
+    0.6000000238418579,
+    0.7224999666213989,
+    0.8500000238418579
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30000001192092896,
+      -0.4024999737739563,
+      0.0
+    ],
+    "max": [
+      0.30000001192092896,
+      0.3199999928474426,
+      0.8500000238418579
+    ]
+  },
+  "placement": {
+    "origin": "Floor center at Z=0; centered nominal plan footprint",
+    "front_direction": "Floor center Z=0; drum door faces -Y; generic washer/dryer concept.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "Freestanding front-loading appliance on a continuous level floor. Body is 600 mm wide and 640 mm deep; front drum/handle increases modeled overall depth. Front is -Y.",
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Door closed; hinge motion is not rigged",
+      "intended_open_angle_degrees": 110,
+      "reserve_front_depth_m": 0.7,
+      "notes": "Opening angle and 700 mm front allowance are concept assumptions. Check door swing, operator and laundry basket together against the selected appliance; do not count the same floor space as a permanently clear passage."
+    },
+    "service_requirements": [
+      "Reserve rear hose/connection space and an accessible shutoff/drain arrangement; exact clearances depend on the selected washer or dryer.",
+      "Resolve dryer exhaust or condensate drainage, vibration, leak management, electrical requirements and whole-appliance replacement access."
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "front-loading-laundry-600.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

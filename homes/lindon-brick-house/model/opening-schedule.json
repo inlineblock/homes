@@ -1,0 +1,498 @@
+[
+  {
+    "level": "Ground floor",
+    "name": "main facade 1",
+    "kind": "window",
+    "start_m": [
+      0.4000000059604645,
+      0.0
+    ],
+    "end_m": [
+      4.004866123199463,
+      0.0
+    ],
+    "sill_m": 0.45,
+    "height_m": 2.3,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 3",
+    "kind": "entry",
+    "start_m": [
+      4.6648664474487305,
+      2.7473649978637695
+    ],
+    "end_m": [
+      7.210107803344727,
+      2.7473649978637695
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.72,
+    "design": "Timber entry leaf with sidelights where width permits; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 7",
+    "kind": "window",
+    "start_m": [
+      8.710210800170898,
+      -0.3405824303627014
+    ],
+    "end_m": [
+      10.680281639099121,
+      -0.3405824303627014
+    ],
+    "sill_m": 0.45,
+    "height_m": 2.3,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 13",
+    "kind": "passage",
+    "start_m": [
+      14.65628719329834,
+      1.7632100582122803
+    ],
+    "end_m": [
+      15.755802154541016,
+      2.933454990386963
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.4,
+    "design": "Timber passage leaf; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 13",
+    "kind": "passage",
+    "start_m": [
+      17.5911922454834,
+      4.886911392211914
+    ],
+    "end_m": [
+      18.42630386352539,
+      5.77574348449707
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.4,
+    "design": "Timber passage leaf; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 17",
+    "kind": "window",
+    "start_m": [
+      19.322376251220703,
+      9.757097244262695
+    ],
+    "end_m": [
+      19.322376251220703,
+      13.357097625732422
+    ],
+    "sill_m": 0.5,
+    "height_m": 2.25,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 17",
+    "kind": "passage",
+    "start_m": [
+      19.322376251220703,
+      14.894804954528809
+    ],
+    "end_m": [
+      19.322376251220703,
+      16.007373809814453
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.4,
+    "design": "Timber passage leaf; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 18",
+    "kind": "window",
+    "start_m": [
+      18.972375869750977,
+      16.18901824951172
+    ],
+    "end_m": [
+      14.347818374633789,
+      16.18901824951172
+    ],
+    "sill_m": 0.08,
+    "height_m": 2.68,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 18",
+    "kind": "glazed_door",
+    "start_m": [
+      13.897817611694336,
+      16.18901824951172
+    ],
+    "end_m": [
+      9.273259162902832,
+      16.18901824951172
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.68,
+    "design": "Glazed door assembly with proposed daily passage leaf, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 20",
+    "kind": "window",
+    "start_m": [
+      6.350000381469727,
+      12.056617736816406
+    ],
+    "end_m": [
+      4.600000381469727,
+      12.056617736816406
+    ],
+    "sill_m": 1.1,
+    "height_m": 1.67,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 21",
+    "kind": "window",
+    "start_m": [
+      4.314043998718262,
+      11.221821784973145
+    ],
+    "end_m": [
+      4.314043998718262,
+      9.621822357177734
+    ],
+    "sill_m": 1.1,
+    "height_m": 1.67,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "main facade 23",
+    "kind": "window",
+    "start_m": [
+      0.0,
+      6.193512916564941
+    ],
+    "end_m": [
+      0.0,
+      2.593513011932373
+    ],
+    "sill_m": 0.5,
+    "height_m": 2.25,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 1",
+    "kind": "window",
+    "start_m": [
+      4.839044094085693,
+      2.874272346496582
+    ],
+    "end_m": [
+      6.939480781555176,
+      2.874272346496582
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 3",
+    "kind": "window",
+    "start_m": [
+      7.989480972290039,
+      0.0
+    ],
+    "end_m": [
+      11.183819770812988,
+      0.0
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 7",
+    "kind": "window",
+    "start_m": [
+      16.049617767333984,
+      1.2576228380203247
+    ],
+    "end_m": [
+      18.635210037231445,
+      -1.174910306930542
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 9",
+    "kind": "window",
+    "start_m": [
+      21.07811737060547,
+      -1.7110838890075684
+    ],
+    "end_m": [
+      23.626850128173828,
+      -4.182209491729736
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 10",
+    "kind": "window",
+    "start_m": [
+      25.04429817199707,
+      -3.648934841156006
+    ],
+    "end_m": [
+      27.6242733001709,
+      -1.2104473114013672
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 11",
+    "kind": "window",
+    "start_m": [
+      25.744361877441406,
+      2.4424943923950195
+    ],
+    "end_m": [
+      23.16118812561035,
+      4.8775954246521
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 13",
+    "kind": "window",
+    "start_m": [
+      19.322376251220703,
+      7.633589267730713
+    ],
+    "end_m": [
+      19.322376251220703,
+      11.183589935302734
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 14",
+    "kind": "glazed_door",
+    "start_m": [
+      18.03445053100586,
+      12.117436408996582
+    ],
+    "end_m": [
+      14.484451293945312,
+      12.117436408996582
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.45,
+    "design": "Glazed door assembly with proposed daily passage leaf, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 15",
+    "kind": "window",
+    "start_m": [
+      13.196526527404785,
+      12.642436027526855
+    ],
+    "end_m": [
+      13.196526527404785,
+      15.066377639770508
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 16",
+    "kind": "window",
+    "start_m": [
+      12.671526908874512,
+      15.591377258300781
+    ],
+    "end_m": [
+      9.455309867858887,
+      15.591377258300781
+    ],
+    "sill_m": 0.08,
+    "height_m": 2.68,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 17",
+    "kind": "window",
+    "start_m": [
+      8.930309295654297,
+      15.066377639770508
+    ],
+    "end_m": [
+      8.930309295654297,
+      12.642436981201172
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 18",
+    "kind": "window",
+    "start_m": [
+      8.397176742553711,
+      12.117436408996582
+    ],
+    "end_m": [
+      4.847176551818848,
+      12.117436408996582
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Upper floor",
+    "name": "upper facade 19",
+    "kind": "window",
+    "start_m": [
+      4.314043998718262,
+      9.270854949951172
+    ],
+    "end_m": [
+      4.314043998718262,
+      5.720854759216309
+    ],
+    "sill_m": 0.6,
+    "height_m": 2.2,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Walkout basement",
+    "name": "basement facade 14",
+    "kind": "window",
+    "start_m": [
+      19.322376251220703,
+      12.98236083984375
+    ],
+    "end_m": [
+      19.322376251220703,
+      15.739017486572266
+    ],
+    "sill_m": 0.12,
+    "height_m": 2.48,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Walkout basement",
+    "name": "basement facade 15",
+    "kind": "glazed_door",
+    "start_m": [
+      18.87237548828125,
+      16.18901824951172
+    ],
+    "end_m": [
+      9.380788803100586,
+      16.18901824951172
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.48,
+    "design": "Glazed door assembly with proposed daily passage leaf, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Walkout basement",
+    "name": "basement facade 26",
+    "kind": "window",
+    "start_m": [
+      -6.453289915246338e-16,
+      7.400000095367432
+    ],
+    "end_m": [
+      -6.453289915246338e-16,
+      5.300000190734863
+    ],
+    "sill_m": 1.05,
+    "height_m": 1.4,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Walkout basement",
+    "name": "basement facade 26",
+    "kind": "window",
+    "start_m": [
+      -6.453289915246338e-16,
+      2.9000000953674316
+    ],
+    "end_m": [
+      -6.453289915246338e-16,
+      0.8000001907348633
+    ],
+    "sill_m": 1.05,
+    "height_m": 1.4,
+    "design": "Rectangular fixed center with casement-style side panels, shown closed; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "Garage side brick wall",
+    "kind": "passage",
+    "start_m": [
+      14.656396865844727,
+      1.759905219078064
+    ],
+    "end_m": [
+      15.789419174194336,
+      2.897514820098877
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.4,
+    "design": "Timber passage leaf; concept geometry, product and operation unverified"
+  },
+  {
+    "level": "Ground floor",
+    "name": "Garage side brick wall",
+    "kind": "passage",
+    "start_m": [
+      17.6815128326416,
+      4.797268867492676
+    ],
+    "end_m": [
+      18.54257583618164,
+      5.66181755065918
+    ],
+    "sill_m": 0.02,
+    "height_m": 2.4,
+    "design": "Timber passage leaf; concept geometry, product and operation unverified"
+  }
+]

@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "id": "lindon-brick-house",
+  "name": "Lindon Brick House",
+  "status": "First editable listing-based remodel study; open dimensional and design coordination items",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 6807,
+  "listing_area_sqft": 6807,
+  "gross_enclosed_area_sqft": 8242.74,
+  "conditioned_gross_area_sqft": 7268.616,
+  "area_basis": "Top horizontal mesh faces after stair-void cuts; includes walls, excludes terrace/patio/site, garage listed separately. Model occupied floors total 7268.6 sf versus listing 6807 sf. Source is undimensioned and floor-area reconciliation remains open.",
+  "modeled_floor_areas_sqft": {
+    "main": 2376.474,
+    "upper": 2482.622,
+    "basement": 2409.52,
+    "garage": 974.124
+  },
+  "bedrooms": 7,
+  "bathrooms": 4.5,
+  "bathroom_schedule": {
+    "full": 2,
+    "three_quarter": 2,
+    "half": 1,
+    "physical_bathrooms": 5
+  },
+  "storeys": [
+    {
+      "name": "Ground floor",
+      "elevation_m": 0
+    },
+    {
+      "name": "Upper floor",
+      "elevation_m": 3.25
+    },
+    {
+      "name": "Walkout basement",
+      "elevation_m": -3.15
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "source_listing": "https://www.zillow.com/homedetails/1044-E-Ctr-Lindon-UT-84042/465250046_zpid/",
+  "source_tour": "https://tours.benaccinelli.com/1044eastcenterstreet",
+  "asset_dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/dishwasher-24in/v001/"
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "path": "../../library/appliances/front-loading-laundry-600/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/"
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "path": "../../library/fixtures/closed-glass-fireplace-48in/v001/"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v001",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v001/"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
+    },
+    {
+      "id": "fixtures/rectangular-pool-6x12m",
+      "version": "v001",
+      "path": "../../library/fixtures/rectangular-pool-6x12m/v001/"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-900/v001/"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/"
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-king-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-queen-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "path": "../../library/furniture/oak-open-nightstand/v001/"
+    },
+    {
+      "id": "furniture/oak-round-dining-table-1000",
+      "version": "v001",
+      "path": "../../library/furniture/oak-round-dining-table-1000/v001/"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/"
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "path": "../../library/furniture/oak-writing-desk/v001/"
+    },
+    {
+      "id": "furniture/slatted-outdoor-chaise",
+      "version": "v001",
+      "path": "../../library/furniture/slatted-outdoor-chaise/v001/"
+    },
+    {
+      "id": "furniture/walnut-eight-foot-pool-table",
+      "version": "v002",
+      "path": "../../library/furniture/walnut-eight-foot-pool-table/v002/"
+    },
+    {
+      "id": "hardware/bar-pull-brushed-steel",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-brushed-steel/v001/"
+    },
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-matte-black/v001/"
+    },
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002",
+      "path": "../../library/landscape/mountain-conifer/v002/"
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "path": "../../library/landscape/olive-tree/v001/"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-standing-seam/v001/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "version": "v002",
+      "path": "../../library/materials/mountain-thermo-ash/v002/"
+    },
+    {
+      "id": "materials/warm-red-brick",
+      "version": "v001",
+      "path": "../../library/materials/warm-red-brick/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../library/materials/warm-vertical-cedar/v003/"
+    },
+    {
+      "id": "openings/slim-dark-window",
+      "version": "v001",
+      "path": "../../library/openings/slim-dark-window/v001/"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/"
+    },
+    {
+      "id": "surfaces/pickleball-court-30x60ft",
+      "version": "v001",
+      "path": "../../library/surfaces/pickleball-court-30x60ft/v001/"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/lindon-brick-house.blend",
+    "architectural_model": "model/lindon-brick-house.ifc",
+    "primary_render": "outputs/images/01-front-arrival.png",
+    "floor_plan": "outputs/plans/main-floor-plan.svg",
+    "upper_plan": "outputs/plans/upper-floor-plan.svg",
+    "basement_plan": "outputs/plans/basement-floor-plan.svg"
+  },
+  "unresolved": [
+    "Measured as-built dimensions and floor-area reconciliation",
+    "Engineering and building-envelope specifications",
+    "Product window performance and egress selection",
+    "Detailed full-home operating clearances and service routing",
+    "Existing solar and accessory pool structures not yet modeled"
+  ]
+}

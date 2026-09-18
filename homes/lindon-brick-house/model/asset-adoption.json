@@ -1,0 +1,552 @@
+{
+  "home": "lindon-brick-house",
+  "native_library_pins_match_manifest": true,
+  "asset_versions": 43,
+  "assets": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main oven in dedicated cavity",
+        "Second kitchen oven"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main integrated dishwasher",
+        "Second kitchen dishwasher"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 4,
+      "examples": [
+        "Shared front-loading laundry",
+        "Shared front-loading laundry.001",
+        "Shared front-loading laundry.002",
+        "Shared front-loading laundry.003"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main induction cooktop",
+        "Second kitchen induction"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main panel-ready wide refrigerator",
+        "Second kitchen wide refrigeration"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main extraction hood",
+        "Second kitchen extraction hood"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 16,
+      "examples": [
+        "Rear kitchen shared drawer cabinet",
+        "Rear kitchen shared drawer cabinet.001",
+        "Rear kitchen shared drawer cabinet.002",
+        "Island shared drawer cabinet",
+        "Island shared drawer cabinet.001",
+        "Island shared drawer cabinet.002",
+        "Main powder cabinet",
+        "Second kitchen west drawers"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 30,
+      "examples": [
+        "Primary closet north hanging",
+        "Primary closet north hanging.001",
+        "Primary closet north hanging.002",
+        "Primary closet south hanging",
+        "Primary closet south hanging.001",
+        "Primary closet south hanging.002",
+        "Bedroom 2 closet",
+        "Bedroom 2 closet.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Family living closed glass fireplace"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Primary tub",
+        "Shared upper bathroom tub"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Main undermount sink and mixer",
+        "Second kitchen sink and mixer"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Breakfast focal light",
+        "Formal dining focal light"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 16,
+      "examples": [
+        "Shared recessed interior light 0",
+        "Shared recessed interior light 1",
+        "Shared recessed interior light 2",
+        "Shared recessed interior light 3",
+        "Shared recessed interior light 4",
+        "Shared recessed interior light 5",
+        "Shared recessed interior light 6",
+        "Shared recessed interior light 7"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/rectangular-pool-6x12m",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared swimming pool"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 3,
+      "examples": [
+        "Shared shower tray and screen",
+        "Shared shower tray and screen.001",
+        "Shared shower tray and screen.002"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 5,
+      "examples": [
+        "Main powder toilet",
+        "Primary enclosed toilet",
+        "Shared upper bathroom WC",
+        "Wing bathroom WC",
+        "Basement bathroom WC"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 6,
+      "examples": [
+        "Shared basin faucet and mirror",
+        "Shared basin faucet and mirror.001",
+        "Shared basin faucet and mirror.002",
+        "Shared basin faucet and mirror.003",
+        "Shared basin faucet and mirror.004",
+        "Shared basin faucet and mirror.005"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 5,
+      "examples": [
+        "Formal living sofa",
+        "Family room south sofa",
+        "Family room north sofa",
+        "Walkout sitting sofa",
+        "Recreation sofa"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Formal dining table",
+        "Breakfast dining table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Bedroom 1 shared bed frame"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 6,
+      "examples": [
+        "Bedroom 2 shared bed frame",
+        "Bedroom 3 shared bed frame",
+        "Bedroom 4 shared bed frame",
+        "Bedroom 5 shared bed frame",
+        "Bedroom 6 shared bed frame",
+        "Bedroom 7 shared bed frame"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 14,
+      "examples": [
+        "Bedroom 1 bedside -1",
+        "Bedroom 1 bedside 1",
+        "Bedroom 2 bedside -1",
+        "Bedroom 2 bedside 1",
+        "Bedroom 3 bedside -1",
+        "Bedroom 3 bedside 1",
+        "Bedroom 4 bedside -1",
+        "Bedroom 4 bedside 1"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-round-dining-table-1000",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Second kitchen dining table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 4,
+      "examples": [
+        "Formal living coffee table",
+        "Family room coffee table",
+        "Walkout sitting coffee table",
+        "Recreation coffee table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 19,
+      "examples": [
+        "Formal dining chair",
+        "Formal dining chair.001",
+        "Formal dining chair.002",
+        "Formal dining chair.003",
+        "Formal dining chair.004",
+        "Formal dining chair.005",
+        "Breakfast dining chair",
+        "Breakfast dining chair.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Office writing desk"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/slatted-outdoor-chaise",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 7,
+      "examples": [
+        "Shared pool chaise",
+        "Shared pool chaise.001",
+        "Shared pool chaise.002",
+        "Shared pool chaise.003",
+        "Shared pool chaise.004",
+        "Shared walkout chaise",
+        "Shared walkout chaise.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/walnut-eight-foot-pool-table",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared eight-foot billiards table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/bar-pull-brushed-steel",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Shared sink access pull",
+        "Shared sink access pull.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 0,
+      "examples": [],
+      "adopted_parent_dependencies": [
+        "openings/slim-dark-window"
+      ]
+    },
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 58,
+      "examples": [
+        "Shared conifer boundary 00",
+        "Shared conifer boundary 01",
+        "Shared conifer boundary 02",
+        "Shared conifer boundary 03",
+        "Shared conifer boundary 04",
+        "Shared conifer boundary 05",
+        "Shared conifer boundary 06",
+        "Shared conifer boundary 07"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 57,
+      "examples": [
+        "Shared ornamental tree 00",
+        "Shared ornamental tree 01",
+        "Shared ornamental tree 02",
+        "Shared ornamental tree 03",
+        "Shared ornamental tree 04",
+        "Shared ornamental tree 05",
+        "Shared ornamental tree 06",
+        "Shared ornamental tree 07"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 124,
+      "examples": [
+        "Shared meadow edge planting 00 00",
+        "Shared meadow edge planting 00 02",
+        "Shared meadow edge planting 00 04",
+        "Shared meadow edge planting 00 06",
+        "Shared meadow edge planting 00 08",
+        "Shared meadow edge planting 00 10",
+        "Shared meadow edge planting 00 12",
+        "Shared meadow edge planting 01 00"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 92,
+      "examples": [
+        "Shared meadow edge planting 00 01",
+        "Shared meadow edge planting 00 03",
+        "Shared meadow edge planting 00 05",
+        "Shared meadow edge planting 00 07",
+        "Shared meadow edge planting 00 09",
+        "Shared meadow edge planting 00 11",
+        "Shared meadow edge planting 00 13",
+        "Shared meadow edge planting 01 01"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 295,
+      "examples": [
+        "Garage setback roof and ceiling (material)",
+        "main ceiling (material)",
+        "upper ceiling (material)",
+        "basement ceiling (material)",
+        "Main charcoal hip 0 (material)",
+        "Main charcoal hip 1 (material)",
+        "Main charcoal hip 2 (material)",
+        "Main charcoal hip 3 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 5,
+      "examples": [
+        "Pier stone coping (material)",
+        "Pier stone coping.001 (material)",
+        "Pier stone coping.002 (material)",
+        "Family room noncombustible chase (material)",
+        "Family room stone hearth (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 481,
+      "examples": [
+        "main occupied floor (material)",
+        "upper occupied floor (material)",
+        "basement occupied floor (material)",
+        "main facade 3 timber door (material)",
+        "main facade 13 timber door (material)",
+        "main facade 13 timber door.001 (material)",
+        "main facade 17 timber door (material)",
+        "Garage side brick wall timber door (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/mountain-thermo-ash",
+      "version": "v002",
+      "direct_placements_or_material_assignments": 75,
+      "examples": [
+        "Rear terrace ash decking (material)",
+        "Rear terrace ash decking.001 (material)",
+        "Rear terrace ash decking.002 (material)",
+        "Rear terrace ash decking.003 (material)",
+        "Rear terrace ash decking.004 (material)",
+        "Rear terrace ash decking.005 (material)",
+        "Rear terrace ash decking.006 (material)",
+        "Rear terrace ash decking.007 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-red-brick",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 189,
+      "examples": [
+        "main occupied floor (material)",
+        "upper occupied floor (material)",
+        "basement occupied floor (material)",
+        "Garage setback roof and ceiling (material)",
+        "main facade 1 (material)",
+        "main facade 1.001 (material)",
+        "main facade 1.002 (material)",
+        "main facade 1.003 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "direct_placements_or_material_assignments": 40,
+      "examples": [
+        "Flush timber garage door board (material)",
+        "Flush timber garage door board.001 (material)",
+        "Flush timber garage door board.002 (material)",
+        "Flush timber garage door board.003 (material)",
+        "Flush timber garage door board.004 (material)",
+        "Flush timber garage door board.005 (material)",
+        "Flush timber garage door board.006 (material)",
+        "Flush timber garage door board.007 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "openings/slim-dark-window",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 28,
+      "examples": [
+        "main facade 1 | dark window 1",
+        "main facade 3 entry sidelight left",
+        "main facade 3 entry sidelight right",
+        "main facade 7 | dark window 1",
+        "main facade 13 entry sidelight left",
+        "main facade 13 entry sidelight right",
+        "main facade 17 | dark window 1",
+        "main facade 18 | dark window 1"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 13,
+      "examples": [
+        "Shared rear lawn stepping stone 00",
+        "Shared rear lawn stepping stone 01",
+        "Shared rear lawn stepping stone 02",
+        "Shared rear lawn stepping stone 03",
+        "Shared rear lawn stepping stone 04",
+        "Shared rear lawn stepping stone 05",
+        "Shared pool approach paver 00",
+        "Shared pool approach paver 01"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "surfaces/pickleball-court-30x60ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared blue pickleball court"
+      ],
+      "adopted_parent_dependencies": []
+    }
+  ]
+}

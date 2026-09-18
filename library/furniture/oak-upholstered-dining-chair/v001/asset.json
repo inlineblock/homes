@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "furniture/oak-upholstered-dining-chair",
+  "version": "v001",
+  "name": "Oak upholstered dining chair",
+  "units": "meters",
+  "dimensions_m": [
+    0.5342302024364471,
+    0.5364422798156738,
+    0.8421543256417285
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2671150863170624,
+      -0.26669999957084656,
+      -1.5870105229964793e-09
+    ],
+    "max": [
+      0.26711511611938477,
+      0.26974228024482727,
+      0.842154324054718
+    ]
+  },
+  "placement": {
+    "origin": "Floor center at Z=0; centered nominal plan footprint",
+    "front_direction": "Front -Y; back +Y.",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only. Publish a dimensional sibling instead of nonuniform scaling."
+  },
+  "installation": {
+    "mounting": "Freestanding floor-supported original furniture concept.",
+    "operating_envelope": {
+      "basis": "Original concept geometry; no manufacturer selected",
+      "host_open_state_checked": false,
+      "modeled_state": "Fixed furniture, no opening mechanism",
+      "notes": "Host must reserve actual chair pullback, seated/bedside approach and passage; bounds are furniture geometry, not circulation clearance."
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_furniture.py",
+    "primitives": "tools/common/furnishings.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "oak-upholstered-dining-chair.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

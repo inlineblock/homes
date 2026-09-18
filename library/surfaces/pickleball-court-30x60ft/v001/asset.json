@@ -1,0 +1,62 @@
+{
+  "placement": {
+    "origin": "Center of play XY; finished playing surface datum Z=0; long axis X and net along Y; Z up.",
+    "front_direction": "Symmetrical; long axis X",
+    "allowed_variation": "Rigid placement and Z rotation only; no scaling."
+  },
+  "mounting": "Level prepared base, drainage and perimeter fencing by host.",
+  "clearances": {
+    "marked_court_m": [
+      13.4112,
+      6.096
+    ],
+    "surface_m": [
+      18.288,
+      9.144
+    ],
+    "basis": "USA Pickleball construction guide: 20x44 ft court, 30x60 ft recommended minimum playing surface.",
+    "reference_url": "https://usapickleball.org/construction/",
+    "host_checked": false
+  },
+  "modeled_state": "Static net and surface lines; no tested sports coating or lighting design.",
+  "product_status": "Original illustrative assembly; geometry dimensions do not certify an installed sports facility.",
+  "schema_version": 1,
+  "id": "surfaces/pickleball-court-30x60ft",
+  "version": "v001",
+  "name": "Pickleball court on 30 \u00d7 60 foot surface",
+  "units": "meters",
+  "dimensions_m": [
+    18.288,
+    9.144,
+    1.17
+  ],
+  "bounds_m": {
+    "min": [
+      -9.144000053405762,
+      -4.572000026702881,
+      -0.12999999523162842
+    ],
+    "max": [
+      9.144000053405762,
+      4.572000026702881,
+      1.0399999618530273
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "library/surfaces/pickleball-court-30x60ft/v001/generate.py",
+    "command": "blender --background --factory-startup --python library/surfaces/pickleball-court-30x60ft/v001/generate.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry and embedded procedural materials; attribution Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "pickleball-court-30x60ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "preview_renderer": "review.py"
+  }
+}

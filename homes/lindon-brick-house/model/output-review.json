@@ -1,0 +1,87 @@
+{
+  "review_scope": "Current first-concept presentation set; not a complete functional, dimensional or engineering design approval",
+  "native_source_sha256": "df277565b39b4a627e761d737b77ba7f816708f3b63a6eb34f61e4de39f41eb0",
+  "renderer": "Blender 4.5.14 LTS / Cycles Metal / 192 samples / AgX Medium High Contrast",
+  "render_dimensions": [
+    1800,
+    1200
+  ],
+  "plan_dimensions": [
+    2200,
+    1800
+  ],
+  "reviewed_native_views": [
+    "01-front-arrival",
+    "02-rear-terraces",
+    "03-roof-and-site",
+    "04-brick-and-windows",
+    "05-kitchen",
+    "06-family-room",
+    "07-pool-garden",
+    "08-court-and-garage"
+  ],
+  "reviewed_plans": [
+    "main",
+    "upper",
+    "basement"
+  ],
+  "visual_review": "Actual images inspected: consistent red brick and enlarged dark windows; roofs and garage cap closed; brick scale on angled walls; floor-connected terraces, walkout and lightwells; visible cooktop, oven, sink and hood; revised rear stair approach and cleared seating. Plans inspected for readable labels, furnishing and source-aligned level relationships. Remaining full operating-clearance and site questions are in design-review.md.",
+  "files": [
+    {
+      "path": "outputs/images/01-front-arrival.png",
+      "sha256": "db9253cf58cba4d865fb4ed167ceaeb21f71a1f97b834267d390cc373bc28750"
+    },
+    {
+      "path": "outputs/images/02-rear-terraces.png",
+      "sha256": "8176c3fccd5fdf7d8237ae4affdac0b0a3d2836778a342de2645a01eea8d5abc"
+    },
+    {
+      "path": "outputs/images/03-roof-and-site.png",
+      "sha256": "1cdde5dac813aa7b631844291957bade93f3b1f23a3b4e8e9a401fb26a755d03"
+    },
+    {
+      "path": "outputs/images/04-brick-and-windows.png",
+      "sha256": "f3648fc613ad1912ba084849fb69ab44f980b8362180a654736a8654a886aebd"
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "sha256": "9c57f0e2e3b268ae1b499ad55166f409a629bbc7a6c5e08f8ae2bdb81baa6551"
+    },
+    {
+      "path": "outputs/images/06-family-room.png",
+      "sha256": "46db9cb5daf41e628bb81f16d0f8e9b55b4c6ad3bf35e84714e34c01fc880b5f"
+    },
+    {
+      "path": "outputs/images/07-pool-garden.png",
+      "sha256": "2545348a8f14b516f0c250be8d04eb5ca9fa852d4e3ea5dae6c224163c155d3f"
+    },
+    {
+      "path": "outputs/images/08-court-and-garage.png",
+      "sha256": "920a2408ee5ec8567071e940fac53e56fa38e7a4e7263195669b18843b85fce7"
+    },
+    {
+      "path": "outputs/plans/basement-floor-plan.png",
+      "sha256": "8da687e8e3a33187410b69c819b3e8f2ea118fb7f422fe37361b895d71203af2"
+    },
+    {
+      "path": "outputs/plans/basement-floor-plan.svg",
+      "sha256": "d7db4228fe1710695ca5f304d9a7d40e58c50719d6d725caa0152d001a652738"
+    },
+    {
+      "path": "outputs/plans/main-floor-plan.png",
+      "sha256": "6a22c3c0491c21b03f5cc25d576fea45922d458304de8d2b955860323d829c1a"
+    },
+    {
+      "path": "outputs/plans/main-floor-plan.svg",
+      "sha256": "489eeaeb6293c0298147164a02203e1f171ef6c2407153fc8c236f9e1076cbaa"
+    },
+    {
+      "path": "outputs/plans/upper-floor-plan.png",
+      "sha256": "8544617203e8f6aade511c4cc6de638831614f9e2588a57493be002f760ea41b"
+    },
+    {
+      "path": "outputs/plans/upper-floor-plan.svg",
+      "sha256": "5b6f0c81c606c13827c62734a09fe54ed923beab6fd285fe75d18e060ded14f2"
+    }
+  ]
+}

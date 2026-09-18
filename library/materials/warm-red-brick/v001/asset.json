@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry and procedural materials; attribution: Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_assets.py",
+    "command": "Blender --background --python tools/library/build_lindon_assets.py -- publish"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home checks opening fit, sun/shade color response, access and actual weather detailing."
+  },
+  "id": "materials/warm-red-brick",
+  "name": "Warm red clay brick \u2014 running bond",
+  "dimensions_m": [
+    0.225,
+    0.1025,
+    0.075
+  ],
+  "unit_dimensions_m": [
+    0.215,
+    0.1025,
+    0.065
+  ],
+  "joint_m": 0.01,
+  "mortar_recess_m": 0.004,
+  "placement": "Facade shader uses named UV Brick meters; call apply_brick_uv(mesh) after final world transforms, supporting any wall angle; module origin at bottom-center, front -Y, Z-up. Module horizontal/course pitch 225/75 mm.",
+  "variation": "Material may cover any wall size without texture stretching. Module scale stays 1; alternate courses shift 112.5 mm. UV tangent follows each facade angle at physical meter scale, including 45-degree wings. Reapply after mesh or transform changes; UV seams at wall corners are intentional.",
+  "files": {
+    "blender": "warm-red-brick.blend",
+    "preview": "preview.png",
+    "angled_preview": "preview-45-degrees.png"
+  },
+  "blender": {
+    "material": "Warm red brick | running bond | meters",
+    "collection": "Warm red brick | 225 x 75 mm module"
+  },
+  "dependencies": [],
+  "limitations": "Original appearance concept. Shader bump is visual relief, not geometric masonry. Individual module includes real bevel and recessed mortar. No structural wall, flashing or weather approval.",
+  "texture_mapping": {
+    "uv_layer": "Brick meters",
+    "application": "tools.library.build_lindon_assets.apply_brick_uv(obj)",
+    "coordinates": "World-space physical horizontal face tangent and world Z, meters",
+    "reapply_after": "Mesh edits or object scale/rotation changes",
+    "verified_angle_degrees": 45
+  }
+}

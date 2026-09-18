@@ -6,6 +6,40 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 Each project below includes multiple exterior angles, interiors, defining features and every occupied level’s floor plan. Open a home for the full gallery, editable models and design notes. Images are native model renders.
 
+### Lindon Brick House
+
+A first red-brick remodel study based on the Lindon listing: larger dark-framed windows, angled three-car garage, stacked terraces, walkout, pool and court. Seven bedrooms across three occupied levels. Listing area 6,807 sq ft; reconstructed dimensions remain approximate.
+
+[Full project, models and limitations](homes/lindon-brick-house/README.md) · [Current outputs](homes/lindon-brick-house/outputs/README.md)
+
+| Warm red brick, rectangular dark-framed windows and the angled three-car wing | Two rear terraces over the walkout patio; proposed straight guards and larger glazing |
+| --- | --- |
+| ![Warm red brick, rectangular dark-framed windows and the angled three-car wing](homes/lindon-brick-house/outputs/images/01-front-arrival.png) | ![Two rear terraces over the walkout patio; proposed straight guards and larger glazing](homes/lindon-brick-house/outputs/images/02-rear-terraces.png) |
+
+| Elevated view of the roof, arrival court, pool and pickleball court; approximate site | Front study wing, crisp window surrounds and basement daylight wells |
+| --- | --- |
+| ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](homes/lindon-brick-house/outputs/images/03-roof-and-site.png) | ![Front study wing, crisp window surrounds and basement daylight wells](homes/lindon-brick-house/outputs/images/04-brick-and-windows.png) |
+
+| First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration | Family room, closed-glass fireplace and reconstructed rear stair |
+| --- | --- |
+| ![First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration](homes/lindon-brick-house/outputs/images/05-kitchen.png) | ![Family room, closed-glass fireplace and reconstructed rear stair](homes/lindon-brick-house/outputs/images/06-family-room.png) |
+
+| Pool garden with shared chaises and the brick house beyond | Pickleball court beside the angled garage and upstairs bedrooms |
+| --- | --- |
+| ![Pool garden with shared chaises and the brick house beyond](homes/lindon-brick-house/outputs/images/07-pool-garden.png) | ![Pickleball court beside the angled garage and upstairs bedrooms](homes/lindon-brick-house/outputs/images/08-court-and-garage.png) |
+
+**Main floor: public rooms, kitchen, two stairs and angled garage**
+
+![Main floor: public rooms, kitchen, two stairs and angled garage](homes/lindon-brick-house/outputs/plans/main-floor-plan.png)
+
+**Upper floor: five bedrooms, primary bathing suite, closets and laundry**
+
+![Upper floor: five bedrooms, primary bathing suite, closets and laundry](homes/lindon-brick-house/outputs/plans/upper-floor-plan.png)
+
+**Walkout basement: two bedrooms, second kitchen and recreation**
+
+![Walkout basement: two bedrooms, second kitchen and recreation](homes/lindon-brick-house/outputs/plans/basement-floor-plan.png)
+
 ### Mountain House
 
 A timber-clad home on a wooded downhill site: road-level garage and living, a walkout below, a broad wraparound deck and a living-room fireplace. Two levels total · 3 bedrooms · 2.5 baths · 3,528 sq ft conditioned gross.

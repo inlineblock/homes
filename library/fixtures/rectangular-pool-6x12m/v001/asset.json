@@ -1,0 +1,54 @@
+{
+  "placement": {
+    "origin": "Water footprint center XY; host deck datum Z=0. Shell reaches Z=-1.78 m. Coping top Z=0.07 m.",
+    "front_direction": "Entry steps at -Y end; long axis Y; Z up",
+    "allowed_variation": "Rigid placement and Z rotation only. Do not stretch pool geometry."
+  },
+  "mounting": "Host excavates shell footprint 6.4 x 12.4 m to below -1.78 m; deck and landscape must not intersect water volume.",
+  "clearances": {
+    "suggested_deck_clearance_m": 1.5,
+    "basis": "Concept circulation allowance; site-specific barrier, drain, equipment, structure and pool safety design unresolved.",
+    "host_checked": false
+  },
+  "modeled_state": "Static water, shell, coping and submerged entry steps. No operational hydraulics or diving equipment.",
+  "product_status": "Original illustrative assembly, not a commercially engineered pool.",
+  "schema_version": 1,
+  "id": "fixtures/rectangular-pool-6x12m",
+  "version": "v001",
+  "name": "Rectangular swimming pool with 6 \u00d7 12 m water footprint",
+  "units": "meters",
+  "dimensions_m": [
+    6.64,
+    12.64,
+    1.85
+  ],
+  "bounds_m": {
+    "min": [
+      -3.320000171661377,
+      -6.320000171661377,
+      -1.7799999713897705
+    ],
+    "max": [
+      3.320000171661377,
+      6.320000171661377,
+      0.07000000029802322
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "library/fixtures/rectangular-pool-6x12m/v001/generate.py",
+    "command": "blender --background --factory-startup --python library/fixtures/rectangular-pool-6x12m/v001/generate.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry and embedded procedural materials; attribution Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "rectangular-pool-6x12m.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "preview_renderer": "review.py"
+  }
+}

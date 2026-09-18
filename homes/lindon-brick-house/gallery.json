@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-front-arrival.png",
+      "caption": "Warm red brick, rectangular dark-framed windows and the angled three-car wing",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/02-rear-terraces.png",
+      "caption": "Two rear terraces over the walkout patio; proposed straight guards and larger glazing",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/03-roof-and-site.png",
+      "caption": "Elevated view of the roof, arrival court, pool and pickleball court; approximate site",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/04-brick-and-windows.png",
+      "caption": "Front study wing, crisp window surrounds and basement daylight wells",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "caption": "First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/06-family-room.png",
+      "caption": "Family room, closed-glass fireplace and reconstructed rear stair",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/07-pool-garden.png",
+      "caption": "Pool garden with shared chaises and the brick house beyond",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/08-court-and-garage.png",
+      "caption": "Pickleball court beside the angled garage and upstairs bedrooms",
+      "view": "exterior"
+    }
+  ],
+  "required_levels": [
+    "main",
+    "upper",
+    "basement"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/main-floor-plan.png",
+      "level": "main",
+      "caption": "Main floor: public rooms, kitchen, two stairs and angled garage"
+    },
+    {
+      "path": "outputs/plans/upper-floor-plan.png",
+      "level": "upper",
+      "caption": "Upper floor: five bedrooms, primary bathing suite, closets and laundry"
+    },
+    {
+      "path": "outputs/plans/basement-floor-plan.png",
+      "level": "basement",
+      "caption": "Walkout basement: two bedrooms, second kitchen and recreation"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "brick-windows",
+      "label": "Red-brick and window redesign",
+      "renders": [
+        "outputs/images/04-brick-and-windows.png"
+      ]
+    },
+    {
+      "id": "rear-terraces",
+      "label": "Stacked terraces and walkout",
+      "renders": [
+        "outputs/images/02-rear-terraces.png"
+      ]
+    },
+    {
+      "id": "pool",
+      "label": "Pool garden",
+      "renders": [
+        "outputs/images/07-pool-garden.png"
+      ]
+    },
+    {
+      "id": "court",
+      "label": "Pickleball court",
+      "renders": [
+        "outputs/images/08-court-and-garage.png"
+      ]
+    },
+    {
+      "id": "fireplace",
+      "label": "Family fireplace",
+      "renders": [
+        "outputs/images/06-family-room.png"
+      ]
+    }
+  ]
+}

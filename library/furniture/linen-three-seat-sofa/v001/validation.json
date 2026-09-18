@@ -1,0 +1,15 @@
+{
+  "fresh_link": true,
+  "dimensions_m": [
+    3.474720001220703,
+    1.1441721320152283,
+    0.8421998023986816
+  ],
+  "floor_contact": true,
+  "objects": 19,
+  "relative_material_dependencies": true,
+  "preview_rendered": true,
+  "visual_review": "Native CPU studio preview inspected: geometry, visible materials and mounting/orientation reviewed. Host installation checks remain separate.",
+  "preview_sha256": "6648c4c975a18481bec0ecf0253ff3643b90d884bd0bd39cacfd3f40974d3613",
+  "native_sha256": "7c04b4320d3538c3aab2fd908cae1b733136a4868d891681754a84dd6f291738"
+}

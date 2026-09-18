@@ -1,6 +1,6 @@
 {
   "reopened_model": true,
-  "scene_objects": 1702,
+  "scene_objects": 1705,
   "measured_floor_area_sqft": 2400.0,
   "modeled_bedrooms": 3,
   "modeled_bathrooms": 3,
@@ -11,5 +11,16 @@
     "//../../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
     "//../../../library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend"
   ],
-  "status": "Concept geometry verified; architectural engineering unverified"
+  "named_cameras": [
+    "01 Reference exterior",
+    "02 Elevated courtyard",
+    "03 Garden threshold",
+    "04 Plan cutaway",
+    "05 Living and dining",
+    "06 Kitchen",
+    "07 Rear garden"
+  ],
+  "all_camera_poses_and_lenses_match_source": true,
+  "roof_and_structure_visible_in_saved_native": true,
+  "status": "Existing concept geometry and gallery cameras verified; schematic program and architectural engineering unverified"
 }

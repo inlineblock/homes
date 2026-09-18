@@ -8,9 +8,25 @@ Current concept deliverables. One current file per view/document; Git retains pr
 
 [![Cedar garage with upstairs game room](images/01-exterior.png)](images/01-exterior.png)
 
+Front arrival: separate stair entrance, garage forecourt and upstairs glazing.
+
+## Rear garden
+
+[![Rear garden and west side of the complete building](images/07-rear-garden.png)](images/07-rear-garden.png)
+
+The complete rear and west envelope, including the solid rear wall and upstairs side glazing. No walls or roof are hidden.
+
+## Elevated approach and roof
+
+[![Elevated west-side view of roof, glazing and front approach](images/08-elevated-approach.png)](images/08-elevated-approach.png)
+
+An elevated view connects the roof, side glazing, forecourt and separate pedestrian entry. Together with the front and rear views, this is the third complete exterior angle.
+
 ## Game room
 
 [![Pool table, refreshments, and dedicated heat pump](images/02-game-room.png)](images/02-game-room.png)
+
+The eight-foot pool table and adjoining lounge are the upstairs interior feature.
 
 ## Garage at rest
 
@@ -22,7 +38,7 @@ Walls and roof are selectively hidden to expose the parking pit, stair, and upst
 
 [![Four cars, pit, stair and game room](images/04-pit-section.png)](images/04-pit-section.png)
 
-## Lower-car retrieval
+## Four-car lift feature: lower-car retrieval
 
 The entire carriage rises; lower cars reach driveway level while the upper cars stay aboard. Door omitted to show the mechanism.
 

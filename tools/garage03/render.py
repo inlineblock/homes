@@ -3,6 +3,7 @@ import bpy,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];sys.path[:0]=[str(ROOT/'tools'),str(Path(__file__).parent)]
 from design import PLATFORM_SPACING
+from cameras import VIEWS
 from common.geometry import F
 HOME=ROOT/'homes/garage-loft-03';OUT=HOME/'outputs/work';OUT.mkdir(parents=True,exist_ok=True)
 s=bpy.context.scene
@@ -11,13 +12,23 @@ try:
     for d in p.devices:d.use=d.type=='METAL'
     s.cycles.device='GPU'
 except Exception:pass
-views=[('01 Exterior','01-exterior'),('02 Game room','02-game-room'),('03 Garage stored','03-garage-stored'),('04 Pit section','04-pit-section'),('05 Raised retrieval','05-raised-retrieval'),('06 Circulation','06-circulation')]
+views=[(name,filename) for name,filename,*_ in VIEWS]
 import os
 s.cycles.samples=int(os.environ.get('GARAGE_SAMPLES',s.cycles.samples))
 s.render.resolution_percentage=int(os.environ.get('GARAGE_RENDER_PERCENT',100))
 requested=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
+base_objects={o.name:(o.matrix_world.copy(),o.hide_render) for o in s.objects}
+base_collections={c.name:c.hide_render for c in bpy.data.collections}
+def restore_view_state():
+    for name,(matrix,hidden) in base_objects.items():
+        o=bpy.data.objects[name];o.matrix_world=matrix.copy();o.hide_render=hidden
+    for name,hidden in base_collections.items():bpy.data.collections[name].hide_render=hidden
+    bpy.context.view_layer.update()
 for cam,file in views:
     if requested and file not in requested:continue
+    # The circulation cutaway changes wall transforms; later exterior views
+    # must start from the complete saved model, never the preceding cutaway.
+    restore_view_state()
     s.camera=bpy.data.objects[cam]
     for c in bpy.data.collections:c.hide_render=False
     for o in s.objects:o.hide_render=False
@@ -51,3 +62,4 @@ for cam,file in views:
         for o in s.objects:
             if o.get('lift_moves'):o.location.z-=PLATFORM_SPACING*F
     print('GARAGE_DRAFT_RENDERED',file,flush=True)
+restore_view_state()

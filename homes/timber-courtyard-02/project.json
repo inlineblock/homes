@@ -47,6 +47,23 @@
     "architectural_model": "model/timber-courtyard-02.ifc",
     "primary_render": "outputs/images/01-exterior.png",
     "floor_plan": "outputs/plans/floor-plan.svg",
-    "presentation_sheet": "outputs/plans/design-board.pdf"
+    "presentation_sheet": "outputs/plans/design-board.pdf",
+    "rendered_views": {
+      "01-exterior": "outputs/images/01-exterior.png",
+      "02-elevated": "outputs/images/02-elevated.png",
+      "03-garden-entry": "outputs/images/03-garden-entry.png",
+      "04-model-plan": "outputs/images/04-model-plan.png",
+      "05-living-dining": "outputs/images/05-living-dining.png",
+      "06-kitchen": "outputs/images/06-kitchen.png",
+      "07-rear-garden": "outputs/images/07-rear-garden.png"
+    },
+    "level_plans": [
+      {
+        "level": "Ground floor",
+        "svg": "outputs/plans/floor-plan.svg",
+        "png": "outputs/plans/floor-plan.png",
+        "roof_off_model": "outputs/images/04-model-plan.png"
+      }
+    ]
   }
 }

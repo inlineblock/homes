@@ -18,3 +18,4 @@
 - The user rejected the blocky placeholder look. Presentation views should use curved vehicle bodies, believable glazing and wheels, restrained physical-scale materials, detailed furniture, and composed architectural lighting/landscaping. More pixels alone do not meet that request.
 - Keep presentation quality in the editable Blender model. Do not substitute an unrelated generated beauty image for evidence of the model's layout.
 - Keep technical overlays and cutaways legible, and ensure visual detail does not obscure unresolved design conditions. Inspect preview renders before spending time on final sampling.
+- Keep the home README and output index complete: at least three full-envelope exterior angles, two room/interior views, both occupied-level floor plans, and dedicated lift-feature imagery. Technical pit/circulation cutaways do not count as exterior coverage. Preserve explicit stored/raised labels and unresolved supplier safety notes.

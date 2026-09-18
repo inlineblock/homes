@@ -160,6 +160,7 @@
     "architectural_model": "model/mountain-house.ifc",
     "primary_render": "outputs/images/01-forest-rear.png",
     "floor_plan": "outputs/plans/main-floor.svg",
-    "presentation_sheet": "outputs/plans/design-board.pdf"
+    "presentation_sheet": "outputs/plans/design-board.pdf",
+    "living_fireplace_render": "outputs/images/09-living-fireplace.png"
   }
 }

@@ -223,12 +223,8 @@ n=world.node_tree.nodes;l=world.node_tree.links;sky=n.new('ShaderNodeTexSky');sk
 area('Upper softbox',(12,9,UPPER_FLOOR+8.4),(12,12,UPPER_FLOOR),500,12)
 area('Garage broad light',(14,8,11.7),(14,14,0),650,15)
 area('Game room fill',(22,21,UPPER_FLOOR+8.4),(17,12,UPPER_FLOOR+2),450,8)
-camera('01 Exterior',(57,-65,24),(18,10,10),45)
-camera('02 Game room',(26.2,2.6,UPPER_FLOOR+5.8),(14,18,UPPER_FLOOR+2.5),22)
-camera('03 Garage stored',(14,-19,5),(14,14,-1.2),25)
-camera('04 Pit section',(56,-53,24),(17,11,5),43)
-camera('06 Circulation',(39,-19,28),(19,10,0),38)
-camera('05 Raised retrieval',(14,-22,9),(14,12,3),25)
+from cameras import add_cameras
+add_cameras()
 s=bpy.context.scene;s.camera=bpy.data.objects['01 Exterior'];s.render.engine='CYCLES';s.cycles.samples=192;s.cycles.use_denoising=True;s.cycles.max_bounces=8
 try:
     p=bpy.context.preferences.addons['cycles'].preferences;p.compute_device_type='METAL';p.get_devices()

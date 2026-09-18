@@ -45,6 +45,7 @@ LOWER_WALLS=[
  ('Lower utility divider',(46,0),(46,14),[(5,3.5)]),
 ]
 VIEWS=[('01 Forest rear','01-forest-rear'),('02 Road arrival','02-road-arrival'),('03 Deck living','03-deck-living'),('04 Walkout patio','04-walkout-patio'),('05 Hillside section','05-hillside-section'),('06 Kitchen','06-kitchen'),('07 Primary bath','07-primary-bath'),('08 Kitchen appliances','08-kitchen-appliances')]
+VIEWS.append(('09 Living fireplace','09-living-fireplace'))
 def roof_z(y):return 10.5+y*.055
 
 def grade(x,y):

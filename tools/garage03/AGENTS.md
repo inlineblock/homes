@@ -10,3 +10,5 @@
 
 - `cars.py` owns the original detailed vehicle geometry; `finishes.py` owns refined finishes, joinery details and forecourt dressing. Keep these concerns out of the circulation/layout parameters.
 - `GARAGE_SAMPLES` and `GARAGE_RENDER_PERCENT` are preview overrides. Final outputs use the native 192-sample, 2560 x 1850 defaults; don't accidentally promote undersized previews.
+- `cameras.py` is the shared source for all eight gallery cameras. Use `update_gallery_cameras.py` on the existing native model for camera-only updates; do not rebuild the architecture to add a viewpoint. Run its fresh-reopen verification afterward.
+- Restore object transforms and visibility between render views. The circulation cutaway shortens partition walls; those temporary changes must not leak into subsequent complete-envelope exteriors or be saved into the canonical native model.

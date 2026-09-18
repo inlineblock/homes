@@ -190,6 +190,8 @@ area('Sheltered patio soft daylight',(45,55,-2),(40,40,-6),500,18,(.9,.95,1))
 area('Lower lounge daylight bounce',(30,36,-2),(30,28,-10),450,12,(1,.91,.78))
 views={'01 Forest rear':((109,114,24),(30,29,1),43),'02 Road arrival':((89,-94,25),(30,8,3),46),'03 Deck living':((64,65,7.5),(29,39,5),28),'04 Walkout patio':((67,76,-5),(30,38,-5),35),'05 Hillside section':((118,72,24),(30,24,-.5),48),'06 Kitchen':((39,27,6),(52,36,4.5),23),'07 Primary bath':((43,8.5,6.5),(54.5,5,3.5),19),'08 Kitchen appliances':((40,37.3,6.2),(54,29.1,4.1),24)}
 for name,args in views.items():camera(name,*args)
+from gallery_camera import install as install_gallery_camera
+install_gallery_camera()
 from refinements import polish
 polish(ROOT,M,clad,glazing)
 from common.timber_materials import apply_grain
@@ -214,4 +216,5 @@ for lib in bpy.data.libraries:
     if p.is_relative_to(ROOT/'library'):
         rel=p.parent.relative_to(ROOT/'library');deps.append({'id':'/'.join(rel.parts[:-1]),'version':rel.parts[-1],'path':'../../library/'+str(rel)+'/'})
 meta={'schema_version':1,'id':SLUG,'name':'Mountain House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':CONDITIONED,'gross_enclosed_area_sqft':GROSS,'conditioned_gross_area_sqft':CONDITIONED,'area_basis':'Main 2280 sqft net of 120 sqft stair opening, plus lower L-shaped 1824 sqft = 4104 sqft gross including walls and 576 sqft garage; conditioned gross 3528 sqft. Deck 1128 sqft, patio, eaves and landscape excluded.','bedrooms':3,'bathrooms':2.5,'storeys':[{'name':'Ground floor','elevation_m':0},{'name':'Walkout basement','elevation_m':LOWER*F}],'assumptions':'Two levels total as requested. Three bedrooms and 2.5 baths chosen for concept; illustrative forest slope and front road, no actual parcel.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':deps,'site_concept':{'road':'Front, at main/garage level','terrain':'Falls through building depth to lower rear walkout; local patio grading bench','parking':'24 x 24 ft integrated garage with 20 ft door and 27 ft approach','deck':'14 ft deep full rear deck, 8 ft east return; partial pergola and shaded walkout patio','roof':'Low mono-pitch; concept gutter/downpipes; product, snow load, drainage and waterproofing unverified'},'deliverables':{'presentation_model':'model/mountain-house.blend','architectural_model':'model/mountain-house.ifc','primary_render':'outputs/images/01-forest-rear.png','floor_plan':'outputs/plans/main-floor.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+meta['deliverables']['living_fireplace_render']='outputs/images/09-living-fireplace.png'
 (HOME/'project.json').write_text(json.dumps(meta,indent=2)+'\n');print('MOUNTAIN_MODEL_SAVED',len(s.objects),GROSS,flush=True)

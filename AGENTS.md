@@ -16,6 +16,7 @@
 - Reuse is required, not optional: search `library/**/asset.json` before making materials, plants, paving, cabinetry, fixtures or furniture. Link the existing suitable version. If a repeated component is missing, publish it to the library and instantiate it in the home; a copied generator function alone is not a shared asset.
 - Record an asset-use schedule and a completed design review in each home's text sources. Identify exact dependencies and any deliberately bespoke geometry. Do not describe a project as reviewed with open failures in those records.
 - Save native sources, inspect actual rendered images, and confirm important files can reopen. A script that runs is not sufficient visual QA.
+- Meet the [required visual gallery](homes/AGENTS.md#required-visual-gallery) in every home README, outputs index and root catalog: at least three exterior angles, two interiors, every occupied level's plan and dedicated signature-feature views. A hero image alone is incomplete. Validate with `python3 tools/common/verify_galleries.py`.
 - Record software versions, relative paths, asset dependencies, and generation commands. Keep downloads and caches outside Git.
 - Use Git LFS for binary models and selected media. Commit source and dependencies together; do not silently publish or choose a public remote.
 - Do not introduce paid assets, subscriptions, or third-party content with incompatible redistribution terms. Record asset origins.

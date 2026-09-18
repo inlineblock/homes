@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-exterior.png",
+      "caption": "Front timber wings, glazed gable and courtyard approach",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/02-elevated.png",
+      "caption": "Elevated roof and courtyard relationship",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/03-garden-entry.png",
+      "caption": "Planted courtyard and garden entry",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/04-model-plan.png",
+      "caption": "Roof-off model view; schematic interior arrangement",
+      "view": "cutaway"
+    },
+    {
+      "path": "outputs/images/05-living-dining.png",
+      "caption": "View from the living room through courtyard glazing",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/06-kitchen.png",
+      "caption": "Schematic kitchen island, sage backsplash and rear worktop",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/07-rear-garden.png",
+      "caption": "Rear garden elevation and pitched roof profile",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    }
+  ],
+  "required_levels": [
+    "main"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/floor-plan.png",
+      "level": "main",
+      "caption": "Single-level schematic furnished floor plan"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "courtyard",
+      "label": "Planted courtyard and glazed gable",
+      "renders": [
+        "outputs/images/03-garden-entry.png"
+      ]
+    }
+  ]
+}

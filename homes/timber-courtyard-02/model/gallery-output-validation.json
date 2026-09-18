@@ -1,0 +1,147 @@
+{
+  "status": "Gallery coverage verified with documented schematic-model limitations; not full visual-quality or whole-home design approval",
+  "native_model": "model/timber-courtyard-02.blend",
+  "native_sha256": "ebc7ccb7c897a0ed6f2153b462ad1d456d5b006828bd67473b50a39cfa70c74b",
+  "scope": "Three new native cameras/renders; approved non-camera geometry, effective material assignments, lighting, and visibility unchanged. Only render exposure adjusted per view. No image generation or compositing.",
+  "noncamera_scene_validation": "model/gallery-camera-validation.json",
+  "fresh_reopen_validation": "model/model-validation.json",
+  "source_commands": [
+    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/prepare_gallery.py",
+    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/verify_gallery.py",
+    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/render_gallery.py -- 05-living-dining 06-kitchen 07-rear-garden"
+  ],
+  "counts": {
+    "unique_native_architectural_views": 6,
+    "exterior_views_including_courtyard_feature": 4,
+    "exterior_coverage_roles": [
+      "front / arrival",
+      "rear / garden",
+      "side / elevated site"
+    ],
+    "interior_viewpoints": 2,
+    "roof_off_model_plans": 1,
+    "levels": 1
+  },
+  "review_notes": {
+    "05-living-dining": "View from the living room through courtyard glazing. The unframed dining furniture remains unresolved; this is not a furnished living/dining portrait.",
+    "06-kitchen": "Island, linked stools, rear worktop, sage backsplash, sink and hob visible; cabinetry/appliances schematic. Oven and hood not modeled.",
+    "07-rear-garden": "Low camera beneath tree crowns shows the rear gable and glazing; existing shrub border obscures the lower facade. No trees hidden or moved."
+  },
+  "known_preexisting_limitations": [
+    "Six dining chairs have no modeled legs.",
+    "Coffee table has no modeled base.",
+    "Kitchen oven and extraction hood are absent.",
+    "Cabinet/appliance details, planting, site and building systems remain schematic."
+  ],
+  "images": [
+    {
+      "image": "outputs/images/01-exterior.png",
+      "camera": "01 Reference exterior",
+      "role": "front exterior",
+      "sha256": "cd72ecf4a3b7881c1585d831c42a554085fb4ba8a7266b8d0aa822a5f40fd02b",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "new_native_render": false,
+      "retained_existing_output": true
+    },
+    {
+      "image": "outputs/images/02-elevated.png",
+      "camera": "02 Elevated courtyard",
+      "role": "side / elevated site",
+      "sha256": "9065ce826d5c53ccece85d16477a910d6bf2c09bedec6c9de4bad73d1bb41e73",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "new_native_render": false,
+      "retained_existing_output": true
+    },
+    {
+      "image": "outputs/images/03-garden-entry.png",
+      "camera": "03 Garden threshold",
+      "role": "courtyard feature",
+      "sha256": "dd90135f222e88d75663b85f7f60e818c9554a5e0ac89820b3ee94b27ea93c89",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "new_native_render": false,
+      "retained_existing_output": true
+    },
+    {
+      "image": "outputs/images/04-model-plan.png",
+      "camera": "04 Plan cutaway",
+      "role": "single-level roof-off model plan",
+      "sha256": "9da978dae61807895630d18247703c65ded3f0daab28c3bce5356b984928b857",
+      "resolution_px": [
+        1600,
+        1400
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "new_native_render": false,
+      "retained_existing_output": true
+    },
+    {
+      "image": "outputs/images/05-living-dining.png",
+      "camera": "05 Living and dining",
+      "role": "View from the living room through courtyard glazing",
+      "sha256": "0fcb6e1729d11f9e76f93686acd325ba6e0606fcf215dcd86a9a270fd7f4e19c",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "samples": 256,
+      "exposure": 0.30000001192092896,
+      "render_engine": "Cycles / Metal",
+      "new_native_render": true
+    },
+    {
+      "image": "outputs/images/06-kitchen.png",
+      "camera": "06 Kitchen",
+      "role": "schematic kitchen interior",
+      "sha256": "95f540e3e9182d0e0de4ab09bde7af72f3d473cea3e57b74f97e9e93c5c94763",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "samples": 256,
+      "exposure": 0.30000001192092896,
+      "render_engine": "Cycles / Metal",
+      "new_native_render": true
+    },
+    {
+      "image": "outputs/images/07-rear-garden.png",
+      "camera": "07 Rear garden",
+      "role": "rear exterior and garden",
+      "sha256": "5b89cf9b07b97c7b52eacaa099a7f7bb7f18d670be9dbaf00ca7a7120fcd3f81",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "review": "actual pixels inspected; existing concept limitations retained",
+      "samples": 256,
+      "exposure": 0.5,
+      "render_engine": "Cycles / Metal",
+      "new_native_render": true
+    }
+  ],
+  "level_plans": [
+    {
+      "level": "Ground floor",
+      "png": "outputs/plans/floor-plan.png",
+      "svg": "outputs/plans/floor-plan.svg",
+      "roof_off": "outputs/images/04-model-plan.png"
+    }
+  ],
+  "presentation_sheet": {
+    "path": "outputs/plans/design-board.pdf",
+    "status": "Retained; its front image and floor plan did not change."
+  }
+}

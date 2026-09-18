@@ -4,64 +4,157 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 ## Browse the projects
 
+Each project below includes multiple exterior angles, interiors, defining features and every occupied level’s floor plan. Open a home for the full gallery, editable models and design notes. Images are native model renders.
+
 ### Mountain House
 
-A timber-clad home on a wooded downhill site: road-level garage and living, a walkout below, and a broad rear deck with a side return. Two levels total · 3 bedrooms · 2.5 baths · 3,528 sq ft conditioned gross.
+A timber-clad home on a wooded downhill site: road-level garage and living, a walkout below, a broad wraparound deck and a living-room fireplace. Two levels total · 3 bedrooms · 2.5 baths · 3,528 sq ft conditioned gross.
 
-[![Mountain House forest elevation](homes/mountain-house/outputs/images/01-forest-rear.png)](homes/mountain-house/outputs/README.md)
+[![Wraparound deck, timber pergola and outdoor living](homes/mountain-house/outputs/images/03-deck-living.png)](homes/mountain-house/outputs/images/03-deck-living.png)
 
-[All images and plans](homes/mountain-house/outputs/README.md) · [Project and editable models](homes/mountain-house/README.md)
+[Full project gallery and models](homes/mountain-house/README.md) · [All current images and plans](homes/mountain-house/outputs/README.md)
 
+| Forest-facing rear elevation and two-level hillside form | Road-level arrival and integrated two-car garage |
+| --- | --- |
+| [![Forest-facing rear elevation and two-level hillside form](homes/mountain-house/outputs/images/01-forest-rear.png)](homes/mountain-house/outputs/images/01-forest-rear.png) | [![Road-level arrival and integrated two-car garage](homes/mountain-house/outputs/images/02-road-arrival.png)](homes/mountain-house/outputs/images/02-road-arrival.png) |
+
+| Shaded lower walkout patio beneath the deck | Side elevation showing slope, deck supports and walkout level |
+| --- | --- |
+| [![Shaded lower walkout patio beneath the deck](homes/mountain-house/outputs/images/04-walkout-patio.png)](homes/mountain-house/outputs/images/04-walkout-patio.png) | [![Side elevation showing slope, deck supports and walkout level](homes/mountain-house/outputs/images/05-hillside-section.png)](homes/mountain-house/outputs/images/05-hillside-section.png) |
+
+| Kitchen island and integrated cabinetry facing the forest | Primary bathroom double vanity and separate soaking tub |
+| --- | --- |
+| [![Kitchen island and integrated cabinetry facing the forest](homes/mountain-house/outputs/images/06-kitchen.png)](homes/mountain-house/outputs/images/06-kitchen.png) | [![Primary bathroom double vanity and separate soaking tub](homes/mountain-house/outputs/images/07-primary-bath.png)](homes/mountain-house/outputs/images/07-primary-bath.png) |
+
+**Living room with its closed-glass fireplace**
+
+[![Living room with its closed-glass fireplace](homes/mountain-house/outputs/images/09-living-fireplace.png)](homes/mountain-house/outputs/images/09-living-fireplace.png)
+
+**Main floor: road-level living, primary suite and garage**
+
+[![Main floor: road-level living, primary suite and garage](homes/mountain-house/outputs/plans/main-floor.png)](homes/mountain-house/outputs/plans/main-floor.png)
+
+**Walkout floor: bedrooms, lounge and patio access**
+
+[![Walkout floor: bedrooms, lounge and patio access](homes/mountain-house/outputs/plans/walkout-floor.png)](homes/mountain-house/outputs/plans/walkout-floor.png)
+
+[View the concept PDF](homes/mountain-house/outputs/plans/design-board.pdf)
 
 ### Coastal House
 
-Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot kitchen serving window. Counters and cabinetry face both indoors and outdoors. A low pitched roof, two-car carport, generous foyer, bedroom storage and a full primary bathing suite complete the revision. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
+Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot indoor/outdoor kitchen serving counter. Low pitched roofs, covered parking and a full primary bathing suite. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
 
-[![Coastal House terrace](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/README.md)
+[![Rear terrace with the 30-foot glass wall open](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/images/01-terrace-open.png)
 
-[![Coastal House front arrival and parking](homes/coastal-house/outputs/images/06-front-arrival.png)](homes/coastal-house/outputs/README.md)
+[Full project gallery and models](homes/coastal-house/README.md) · [All current images and plans](homes/coastal-house/outputs/README.md)
 
-[All images and plans](homes/coastal-house/outputs/README.md) · [Project and editable models](homes/coastal-house/README.md)
+| Light-filled kitchen, dining and living room | Indoor/outdoor kitchen serving counter with glazing open |
+| --- | --- |
+| [![Light-filled kitchen, dining and living room](homes/coastal-house/outputs/images/02-great-room.png)](homes/coastal-house/outputs/images/02-great-room.png) | [![Indoor/outdoor kitchen serving counter with glazing open](homes/coastal-house/outputs/images/03-serving-counter-open.png)](homes/coastal-house/outputs/images/03-serving-counter-open.png) |
+
+| The same serving counter with glazing closed | Rear terrace with the glass wall closed |
+| --- | --- |
+| [![The same serving counter with glazing closed](homes/coastal-house/outputs/images/04-serving-counter-closed.png)](homes/coastal-house/outputs/images/04-serving-counter-closed.png) | [![Rear terrace with the glass wall closed](homes/coastal-house/outputs/images/05-terrace-closed.png)](homes/coastal-house/outputs/images/05-terrace-closed.png) |
+
+| Front arrival and two-car carport | Elevated view of pitched roofs, parking and arrival |
+| --- | --- |
+| [![Front arrival and two-car carport](homes/coastal-house/outputs/images/06-front-arrival.png)](homes/coastal-house/outputs/images/06-front-arrival.png) | [![Elevated view of pitched roofs, parking and arrival](homes/coastal-house/outputs/images/07-roof-and-parking.png)](homes/coastal-house/outputs/images/07-roof-and-parking.png) |
+
+**Primary bathroom double vanity and soaking tub**
+
+[![Primary bathroom double vanity and soaking tub](homes/coastal-house/outputs/images/10-primary-bath.png)](homes/coastal-house/outputs/images/10-primary-bath.png)
+
+**Furnished single-level concept plan**
+
+[![Furnished single-level concept plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/floor-plan.png)
+
+[View the concept PDF](homes/coastal-house/outputs/plans/design-board.pdf)
 
 ### Garage Loft 03
 
-Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 x 34 ft footprint · 8 ft pool table · internal stair access and fixed-floor operator bay.
+Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 × 34 ft footprint · 8-foot pool table · internal stair access and a fixed-floor operator bay. Lift imagery is an original schematic concept.
 
-[![Garage Loft exterior](homes/garage-loft-03/outputs/images/01-exterior.png)](homes/garage-loft-03/outputs/README.md)
+[![Front garage arrival and separate pedestrian entrance](homes/garage-loft-03/outputs/images/01-exterior.png)](homes/garage-loft-03/outputs/images/01-exterior.png)
 
-[All images and plans](homes/garage-loft-03/outputs/README.md) · [Concept book PDF](homes/garage-loft-03/outputs/plans/garage-loft.pdf) · [Project and editable models](homes/garage-loft-03/README.md)
+[Full project gallery and models](homes/garage-loft-03/README.md) · [All current images and plans](homes/garage-loft-03/outputs/README.md)
+
+| Pool table, lounge, refreshments and dedicated heating/cooling | Garage interior with two cars at grade and two stored below |
+| --- | --- |
+| [![Pool table, lounge, refreshments and dedicated heating/cooling](homes/garage-loft-03/outputs/images/02-game-room.png)](homes/garage-loft-03/outputs/images/02-game-room.png) | [![Garage interior with two cars at grade and two stored below](homes/garage-loft-03/outputs/images/03-garage-stored.png)](homes/garage-loft-03/outputs/images/03-garage-stored.png) |
+
+| Cutaway explaining the four-car pit and upstairs room | Lift raised for lower-car retrieval, with overhead door omitted |
+| --- | --- |
+| [![Cutaway explaining the four-car pit and upstairs room](homes/garage-loft-03/outputs/images/04-pit-section.png)](homes/garage-loft-03/outputs/images/04-pit-section.png) | [![Lift raised for lower-car retrieval, with overhead door omitted](homes/garage-loft-03/outputs/images/05-raised-retrieval.png)](homes/garage-loft-03/outputs/images/05-raised-retrieval.png) |
+
+| Ground-floor cutaway of fixed operator bay and internal stair access | Rear garden elevation with the complete building envelope |
+| --- | --- |
+| [![Ground-floor cutaway of fixed operator bay and internal stair access](homes/garage-loft-03/outputs/images/06-circulation.png)](homes/garage-loft-03/outputs/images/06-circulation.png) | [![Rear garden elevation with the complete building envelope](homes/garage-loft-03/outputs/images/07-rear-garden.png)](homes/garage-loft-03/outputs/images/07-rear-garden.png) |
+
+**Elevated approach showing roof, parking and pedestrian arrival**
+
+[![Elevated approach showing roof, parking and pedestrian arrival](homes/garage-loft-03/outputs/images/08-elevated-approach.png)](homes/garage-loft-03/outputs/images/08-elevated-approach.png)
+
+**Ground garage plan with fixed-floor routes and lift pit**
+
+[![Ground garage plan with fixed-floor routes and lift pit](homes/garage-loft-03/outputs/plans/ground-plan.png)](homes/garage-loft-03/outputs/plans/ground-plan.png)
+
+**Upper game-room plan and pool cue clearances**
+
+[![Upper game-room plan and pool cue clearances](homes/garage-loft-03/outputs/plans/upper-plan.png)](homes/garage-loft-03/outputs/plans/upper-plan.png)
+
+[View the concept PDF](homes/garage-loft-03/outputs/plans/garage-loft.pdf)
 
 ### Timber Courtyard 02
 
-Cedar wings, dark pitched roofs, a glazed gable, and a planted courtyard. Exterior-led concept; flexible interior. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
+Cedar wings, dark pitched roofs, a glazed gable and a planted courtyard. Exterior-led concept with a flexible, schematic interior. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
 
-[![Timber Courtyard exterior](homes/timber-courtyard-02/outputs/images/01-exterior.png)](homes/timber-courtyard-02/outputs/README.md)
+[![Front timber wings, glazed gable and courtyard approach](homes/timber-courtyard-02/outputs/images/01-exterior.png)](homes/timber-courtyard-02/outputs/images/01-exterior.png)
 
-[All images and plans](homes/timber-courtyard-02/outputs/README.md) · [Project and editable models](homes/timber-courtyard-02/README.md)
+[Full project gallery and models](homes/timber-courtyard-02/README.md) · [All current images and plans](homes/timber-courtyard-02/outputs/README.md)
+
+| Elevated roof and courtyard relationship | Planted courtyard and garden entry |
+| --- | --- |
+| [![Elevated roof and courtyard relationship](homes/timber-courtyard-02/outputs/images/02-elevated.png)](homes/timber-courtyard-02/outputs/images/02-elevated.png) | [![Planted courtyard and garden entry](homes/timber-courtyard-02/outputs/images/03-garden-entry.png)](homes/timber-courtyard-02/outputs/images/03-garden-entry.png) |
+
+| View from the living room through courtyard glazing | Schematic kitchen island, sage backsplash and rear worktop |
+| --- | --- |
+| [![View from the living room through courtyard glazing](homes/timber-courtyard-02/outputs/images/05-living-dining.png)](homes/timber-courtyard-02/outputs/images/05-living-dining.png) | [![Schematic kitchen island, sage backsplash and rear worktop](homes/timber-courtyard-02/outputs/images/06-kitchen.png)](homes/timber-courtyard-02/outputs/images/06-kitchen.png) |
+
+**Rear garden elevation and pitched roof profile**
+
+[![Rear garden elevation and pitched roof profile](homes/timber-courtyard-02/outputs/images/07-rear-garden.png)](homes/timber-courtyard-02/outputs/images/07-rear-garden.png)
+
+**Single-level schematic furnished floor plan**
+
+[![Single-level schematic furnished floor plan](homes/timber-courtyard-02/outputs/plans/floor-plan.png)](homes/timber-courtyard-02/outputs/plans/floor-plan.png)
+
+[View the concept PDF](homes/timber-courtyard-02/outputs/plans/design-board.pdf)
 
 ### Atrium 01
 
-Modern Eichler-inspired home with a walnut-and-sage kitchen and central atrium. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
+Modern Eichler-inspired home with a walnut-and-sage kitchen, exposed beams and an open-air central atrium. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
 
-[![Atrium kitchen](homes/atrium-01/outputs/images/01-kitchen.png)](homes/atrium-01/outputs/README.md)
+[![Walnut-and-sage kitchen with island seating](homes/atrium-01/outputs/images/01-kitchen.png)](homes/atrium-01/outputs/images/01-kitchen.png)
 
-[All images and plans](homes/atrium-01/outputs/README.md) · [Project and editable models](homes/atrium-01/README.md)
+[Full project gallery and models](homes/atrium-01/README.md) · [All current images and plans](homes/atrium-01/outputs/README.md)
 
-### Plan previews
-
-[![Mountain House main floor](homes/mountain-house/outputs/plans/main-floor.png)](homes/mountain-house/outputs/plans/design-board.pdf)
-
-[Mountain House main and walkout plans, sections and views](homes/mountain-house/outputs/plans/design-board.pdf)
-
-
-[![Coastal House concept floor plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/design-board.pdf)
-
-[Coastal House design booklet](homes/coastal-house/outputs/plans/design-board.pdf)
-
-| Timber Courtyard 02 | Atrium 01 |
+| Kitchen opening toward the planted atrium | Arrival elevation and low post-and-beam roofline |
 | --- | --- |
-| [![Timber Courtyard schematic floor plan](homes/timber-courtyard-02/outputs/plans/floor-plan.png)](homes/timber-courtyard-02/outputs/plans/design-board.pdf) | [![Atrium concept floor plan](homes/atrium-01/outputs/plans/floor-plan.png)](homes/atrium-01/outputs/plans/floor-plan.pdf) |
-| [Exterior and plan PDF](homes/timber-courtyard-02/outputs/plans/design-board.pdf) | [Dimensioned concept plan PDF](homes/atrium-01/outputs/plans/floor-plan.pdf) |
+| [![Kitchen opening toward the planted atrium](homes/atrium-01/outputs/images/02-kitchen-courtyard.png)](homes/atrium-01/outputs/images/02-kitchen-courtyard.png) | [![Arrival elevation and low post-and-beam roofline](homes/atrium-01/outputs/images/03-exterior.png)](homes/atrium-01/outputs/images/03-exterior.png) |
+
+| Rear terrace and complete garden elevation | Elevated west view of the low roof and atrium |
+| --- | --- |
+| [![Rear terrace and complete garden elevation](homes/atrium-01/outputs/images/05-rear-terrace.png)](homes/atrium-01/outputs/images/05-rear-terrace.png) | [![Elevated west view of the low roof and atrium](homes/atrium-01/outputs/images/06-west-roof-atrium.png)](homes/atrium-01/outputs/images/06-west-roof-atrium.png) |
+
+**Dedicated view of the planted open-air atrium**
+
+[![Dedicated view of the planted open-air atrium](homes/atrium-01/outputs/images/07-open-air-atrium.png)](homes/atrium-01/outputs/images/07-open-air-atrium.png)
+
+**Single-level dimensioned furnished concept plan**
+
+[![Single-level dimensioned furnished concept plan](homes/atrium-01/outputs/plans/floor-plan.png)](homes/atrium-01/outputs/plans/floor-plan.png)
+
+[View the concept PDF](homes/atrium-01/outputs/plans/floor-plan.pdf)
 
 These are editable architectural concepts and visualization models, not construction or permit documents.
 
@@ -72,6 +165,7 @@ Each home lives in `homes/<home-name>/`. Shared materials and objects live in `l
 ```text
 homes/<home-name>/
   project.json       Brief, dimensions, software, asset versions
+  gallery.json       Required angles, levels and feature coverage
   model/             Editable Blender and IFC building models
   outputs/
     README.md        Visual index of current results
@@ -97,6 +191,8 @@ templates/           Starting point for another home or asset
 tools/               Reproducible model and drawing generation
 docs/                Collaboration and asset conventions
 ```
+
+Every home README directly embeds its full current gallery. At minimum, each home and its root-catalog entry show three exterior angles, two interiors, plans for every occupied level and dedicated views of defining features. Run `python3 tools/common/verify_galleries.py` to check coverage and embeds.
 
 Outputs use stable filenames and contain only the current reviewed results. Git keeps earlier revisions; do not create dated or versioned output folders. Shared library versions are independent asset dependencies. See [home guidance](homes/AGENTS.md).
 

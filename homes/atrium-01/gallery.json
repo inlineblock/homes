@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-kitchen.png",
+      "caption": "Walnut-and-sage kitchen with island seating",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/02-kitchen-courtyard.png",
+      "caption": "Kitchen opening toward the planted atrium",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/03-exterior.png",
+      "caption": "Arrival elevation and low post-and-beam roofline",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/04-cutaway.png",
+      "caption": "Roof-off whole-home cutaway",
+      "view": "cutaway"
+    },
+    {
+      "path": "outputs/images/05-rear-terrace.png",
+      "caption": "Rear terrace and complete garden elevation",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/06-west-roof-atrium.png",
+      "caption": "Elevated west view of the low roof and atrium",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/07-open-air-atrium.png",
+      "caption": "Dedicated view of the planted open-air atrium",
+      "view": "exterior"
+    }
+  ],
+  "required_levels": [
+    "main"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/floor-plan.png",
+      "level": "main",
+      "caption": "Single-level dimensioned furnished concept plan"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "kitchen",
+      "label": "Walnut-and-sage kitchen",
+      "renders": [
+        "outputs/images/01-kitchen.png"
+      ]
+    },
+    {
+      "id": "atrium",
+      "label": "Planted open-air atrium",
+      "renders": [
+        "outputs/images/07-open-air-atrium.png"
+      ]
+    }
+  ]
+}

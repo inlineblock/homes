@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-forest-rear.png",
+      "caption": "Forest-facing rear elevation and two-level hillside form",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/02-road-arrival.png",
+      "caption": "Road-level arrival and integrated two-car garage",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/03-deck-living.png",
+      "caption": "Wraparound deck, timber pergola and outdoor living",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/04-walkout-patio.png",
+      "caption": "Shaded lower walkout patio beneath the deck",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/05-hillside-section.png",
+      "caption": "Side elevation showing slope, deck supports and walkout level",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/06-kitchen.png",
+      "caption": "Kitchen island and integrated cabinetry facing the forest",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/07-primary-bath.png",
+      "caption": "Primary bathroom double vanity and separate soaking tub",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/08-kitchen-appliances.png",
+      "caption": "Cooking equipment and wide integrated refrigeration",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/09-living-fireplace.png",
+      "caption": "Living room with its closed-glass fireplace",
+      "view": "interior"
+    }
+  ],
+  "required_levels": [
+    "main",
+    "walkout"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/main-floor.png",
+      "level": "main",
+      "caption": "Main floor: road-level living, primary suite and garage"
+    },
+    {
+      "path": "outputs/plans/walkout-floor.png",
+      "level": "walkout",
+      "caption": "Walkout floor: bedrooms, lounge and patio access"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "deck",
+      "label": "Wraparound deck and pergola",
+      "renders": [
+        "outputs/images/03-deck-living.png"
+      ]
+    },
+    {
+      "id": "walkout",
+      "label": "Shaded walkout patio",
+      "renders": [
+        "outputs/images/04-walkout-patio.png"
+      ]
+    },
+    {
+      "id": "fireplace",
+      "label": "Living-room fireplace",
+      "renders": [
+        "outputs/images/09-living-fireplace.png"
+      ]
+    }
+  ]
+}

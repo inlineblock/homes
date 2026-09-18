@@ -6,6 +6,34 @@ A modern two-bay garage with four-car pit parking and a heated/cooled game room 
 
 **[Browse current images and plans](outputs/README.md)** · [Concept book](outputs/plans/garage-loft.pdf)
 
+## Around the complete building
+
+The arrival view above shows the separate pedestrian entrance and two-car-width garage opening. These complementary views keep the full building envelope visible; they do not hide walls or the roof.
+
+| Rear garden and west elevation | Elevated west-side approach |
+| --- | --- |
+| [![Rear garden and complete garage envelope](outputs/images/07-rear-garden.png)](outputs/images/07-rear-garden.png) | [![Roof, west glazing and front arrival together](outputs/images/08-elevated-approach.png)](outputs/images/08-elevated-approach.png) |
+| Rear wall, roof edge and the side of the upstairs room | Roof form, upstairs glazing, garage forecourt and pedestrian entry |
+
+## Upstairs game room
+
+[![Eight-foot pool table and upstairs lounge](outputs/images/02-game-room.png)](outputs/images/02-game-room.png)
+
+The eight-foot pool table is the focus upstairs, with a separate lounge, refreshments counter and dedicated heat-pump head. This is a room-level interior view from the furnished native model.
+
+## Four cars in two bays
+
+| Garage interior, lift stored | Dedicated lift-feature view, lower pair retrieved |
+| --- | --- |
+| [![Garage interior with two cars at driveway level](outputs/images/03-garage-stored.png)](outputs/images/03-garage-stored.png) | [![Raised carriage revealing both pairs of cars](outputs/images/05-raised-retrieval.png)](outputs/images/05-raised-retrieval.png) |
+| Two cars remain below the visible pair; the fixed apron stays separate | The lower pair reaches driveway level while the upper pair stays aboard |
+
+The garage door is omitted in these equipment views. This is an original schematic lift concept; the platform must be unoccupied during movement, and the supplier must resolve safeguards, actual vehicle fit and installation.
+
+[![Technical cutaway showing the parking pit and game room above](outputs/images/04-pit-section.png)](outputs/images/04-pit-section.png)
+
+This dedicated building-and-pit cutaway exposes both parking levels and the upstairs pool table. It is a technical view, separate from the three complete exterior views above.
+
 ## Parking below, game room above
 
 - A **36 x 34 ft** building footprint, with an internal garage-to-stair door, separate front door, and enclosed return stair to the upper room.
@@ -27,10 +55,18 @@ Final presentation renders use Blender Cycles at 2,560 x 1,850 pixels and 192 sa
 
 - `model/garage-loft-03.blend`: editable visualization with named cameras, linked assets, a real pit and stair opening, and the lift's stored state as the default.
 - `model/garage-loft-03.ifc`: classified architectural geometry with pit, ground-floor, and game-room storeys. It is separate from Blender, with no automatic synchronization. Detailed cars, lift components and furniture remain in the Blender scene.
-- `outputs/images/`: exterior, game room, stored garage, building cutaway, and raised retrieval and circulation views.
+- `outputs/images/`: three complete exterior angles, game-room and garage interiors, plus building/pit, raised-lift and circulation feature views.
 - `outputs/plans/garage-loft.pdf`: four-page concept book covering the exterior, both floors, and both lift states and a dedicated human-access page. Editable SVG plans and section sit beside it.
 
 The ground footprint is **1,224 sq ft**, including the parking-pit projection. The upper slab is **1,111.5 sq ft**, excluding the **112.5 sq ft stair opening**. Combined projected floor area is **2,335.5 sq ft**, including wall zones and garage parking surfaces. This is not living area or an appraised measurement. It excludes roof overhangs, outdoor equipment pad, and paving. The main upstairs room inside the wall lines is approximately 27 x 33 ft; the remaining upper area serves stair arrival and the rear desk zone. No bathroom or plumbing fixtures are currently included.
+
+## Plans for both occupied levels
+
+| Ground floor — garage, operator bay and stair lobby | Upper floor — pool table, lounge and stair arrival |
+| --- | --- |
+| [![Ground-floor garage and fixed pedestrian route](outputs/plans/ground-plan.png)](outputs/plans/ground-plan.svg) | [![Upper game-room floor plan and pool cue space](outputs/plans/upper-plan.png)](outputs/plans/upper-plan.svg) |
+
+The below-grade pit is unoccupied equipment space. Its dimensions and both platform positions are shown in the [lift section](outputs/plans/lift-section.svg) and [concept book](outputs/plans/garage-loft.pdf).
 
 ## Reuse and regenerate
 
@@ -43,6 +79,12 @@ blender --background --python-exit-code 1 --python tools/garage03/build.py --pyt
 blender --background homes/garage-loft-03/model/garage-loft-03.blend --python-exit-code 1 --python tools/garage03/verify.py --python tools/common/export_scene_ifc.py
 python3 tools/garage03/draw_plans.py
 blender --background --python-exit-code 1 --python tools/common/verify_bonsai.py -- garage-loft-03
+```
+
+To add the gallery cameras to an existing approved model without rebuilding its geometry, open that model and run `tools/garage03/update_gallery_cameras.py`. The camera positions are shared with the full generator in `tools/garage03/cameras.py`. To regenerate only the two additional views:
+
+```sh
+blender --background homes/garage-loft-03/model/garage-loft-03.blend --python-exit-code 1 --python tools/garage03/render.py -- 07-rear-garden 08-elevated-approach
 ```
 
 Install drawing dependencies with `pip install -r tools/requirements.txt`. Draft views and PDF intermediates go to ignored `outputs/work/`. Inspect their actual pixels and rendered PDF pages, then replace the stable files in `outputs/images/` and `outputs/plans/`; update the galleries. Commit manual model changes before regeneration, which overwrites the native model. Shared versioned assets are reused rather than overwritten.
@@ -64,6 +106,8 @@ The previous 36 x 28 ft layout had a solid stair separation wall, no internal st
 The revised native model reopens with all six relative library links. Saved-geometry checks confirm a continuous 36-inch pedestrian envelope from the apron through the open internal doorway to the stair lobby with both lift positions, plus a separate entrance-to-stair route. The modeled door leaf does not block those paths; the linked platform front aligns with the fixed slab. These checks do **not** validate car-door articulation or lift safety.
 
 Other checks cover four car proxies, 2,335.5 sq ft projected floor area, the actual stair opening, the pool cue envelope, and a roughly 9.8 ft raised car top below the 12 ft concept ceiling. The IFC has three storeys and zero schema errors. Receipts are in `model/`. Render and drawing review is a concept quality check, not equipment or building approval.
+
+The gallery expansion changes cameras only. A before/after content fingerprint and fresh reopen check preserve the existing geometry, material inputs, lights and stored lift state; the existing IFC and floor drawings remain applicable. See `model/gallery-camera-validation.json` and the current `model/render-validation.json` for the camera and image review evidence.
 
 ## Concept limits
 

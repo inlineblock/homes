@@ -7,44 +7,107 @@
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "exterior-front-arrival",
+      "sha256": "e6e844effb63678d32e899d752094f9a6064507212394a00b5739f84a4473b8b",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": true
     },
     {
       "path": "outputs/images/02-game-room.png",
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "interior-game-room",
+      "sha256": "5ec23ccd10ea60b1f04355b65e4a1b2d13b6f53e506bc715eeb2ed7a713215dc",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": false
     },
     {
       "path": "outputs/images/03-garage-stored.png",
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "interior-garage-stored",
+      "sha256": "9ca8bb699121b4ac6c90380eabeff6f4323956dff3ec123f1c62336eee88e6d0",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": false
     },
     {
       "path": "outputs/images/04-pit-section.png",
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "technical-pit-cutaway",
+      "sha256": "242d99bcbe6c0cb60a11f9e82bda8fff2578a59799bf1f732dd60447eac4a88b",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": false
     },
     {
       "path": "outputs/images/05-raised-retrieval.png",
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "feature-lift-raised",
+      "sha256": "ae5025ff817dd6fef697e8990b80975a4700915e1b0072529aef2be10f9218e6",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": false
     },
     {
       "path": "outputs/images/06-circulation.png",
       "pixels": [
         2560,
         1850
-      ]
+      ],
+      "role": "technical-circulation-cutaway",
+      "sha256": "f2597ad1d802b7de31685f37cd2f2a7eb44e48e487281dbd71f3ebc8a77b070b",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": false
+    },
+    {
+      "path": "outputs/images/07-rear-garden.png",
+      "pixels": [
+        2560,
+        1850
+      ],
+      "role": "exterior-rear-garden",
+      "sha256": "b72379239e50cb4fd4e04e718d09069b69ece955c2dee4c9902472849d8f3fdb",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": true
+    },
+    {
+      "path": "outputs/images/08-elevated-approach.png",
+      "pixels": [
+        2560,
+        1850
+      ],
+      "role": "exterior-side-elevated-site",
+      "sha256": "f3e2681b9e1a55a3789cc66208d25092921bc8ac7d9e3c2bc1ad3613b31f8b1d",
+      "native_render": true,
+      "visually_reviewed": true,
+      "complete_envelope": true
     }
   ],
-  "visual_review": "All six images inspected; circulation shown separately from presentation views. Four PDF pages inspected.",
-  "review_limits": "Architectural concept; not a photorealism certification, manufacturer approval, or construction validation."
+  "visual_review": "All eight native images inspected. Two additional complete-envelope exterior views reviewed as drafts and at full2560x1850/192-sample quality. Both occupied-level plans inspected; unchanged concept book retained.",
+  "review_limits": "Architectural and equipment concept. Original schematic lift, unassigned illustrative site, unresolved supplier safeguards/actual vehicle fit, engineering and code approval. No new product or structural approval is implied.",
+  "gallery_counts": {
+    "unique_native_renders": 8,
+    "complete_exterior_angles": 3,
+    "room_or_interior_views": 2,
+    "technical_or_feature_views": 3,
+    "occupied_level_floor_plans": 2
+  },
+  "camera_only_update": "Gallery cameras added without changing approved geometry/materials/layout. Existing IFC and plans remain unchanged; camera and model reopen receipts are separate.",
+  "site_view_projection": "08-elevated-approach is an orthographic native render; it is not a surveyed site plan."
 }

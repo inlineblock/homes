@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-exterior.png",
+      "caption": "Front garage arrival and separate pedestrian entrance",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/02-game-room.png",
+      "caption": "Pool table, lounge, refreshments and dedicated heating/cooling",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/03-garage-stored.png",
+      "caption": "Garage interior with two cars at grade and two stored below",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/04-pit-section.png",
+      "caption": "Cutaway explaining the four-car pit and upstairs room",
+      "view": "cutaway"
+    },
+    {
+      "path": "outputs/images/05-raised-retrieval.png",
+      "caption": "Lift raised for lower-car retrieval, with overhead door omitted",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/06-circulation.png",
+      "caption": "Ground-floor cutaway of fixed operator bay and internal stair access",
+      "view": "cutaway"
+    },
+    {
+      "path": "outputs/images/07-rear-garden.png",
+      "caption": "Rear garden elevation with the complete building envelope",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/08-elevated-approach.png",
+      "caption": "Elevated approach showing roof, parking and pedestrian arrival",
+      "view": "exterior",
+      "exterior_role": "site"
+    }
+  ],
+  "required_levels": [
+    "ground",
+    "upper"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/ground-plan.png",
+      "level": "ground",
+      "caption": "Ground garage plan with fixed-floor routes and lift pit"
+    },
+    {
+      "path": "outputs/plans/upper-plan.png",
+      "level": "upper",
+      "caption": "Upper game-room plan and pool cue clearances"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "pit-lift",
+      "label": "Four-car pit parking and retrieval",
+      "renders": [
+        "outputs/images/03-garage-stored.png",
+        "outputs/images/04-pit-section.png",
+        "outputs/images/05-raised-retrieval.png"
+      ]
+    },
+    {
+      "id": "game-room",
+      "label": "Upstairs pool-table game room",
+      "renders": [
+        "outputs/images/02-game-room.png"
+      ]
+    },
+    {
+      "id": "operator-access",
+      "label": "Fixed-floor operator bay and internal stair route",
+      "renders": [
+        "outputs/images/06-circulation.png"
+      ]
+    }
+  ]
+}

@@ -93,7 +93,15 @@
     "upper_plan": "outputs/plans/upper-plan.svg",
     "lift_section": "outputs/plans/lift-section.svg",
     "circulation_render": "outputs/images/06-circulation.png",
-    "circulation_plan": "outputs/plans/circulation.png"
+    "circulation_plan": "outputs/plans/circulation.png",
+    "rear_render": "outputs/images/07-rear-garden.png",
+    "elevated_approach_render": "outputs/images/08-elevated-approach.png",
+    "game_room_render": "outputs/images/02-game-room.png",
+    "stored_lift_render": "outputs/images/03-garage-stored.png",
+    "raised_lift_feature_render": "outputs/images/05-raised-retrieval.png",
+    "pit_cutaway_render": "outputs/images/04-pit-section.png",
+    "ground_plan_preview": "outputs/plans/ground-plan.png",
+    "upper_plan_preview": "outputs/plans/upper-plan.png"
   },
   "circulation": {
     "front_apron_clear_depth_ft": 7.5,
@@ -115,6 +123,8 @@
     ],
     "original_car_geometry": "../../tools/garage03/cars.py",
     "finishes_and_detail": "../../tools/garage03/finishes.py",
-    "limits": "Cars, lift equipment and site are illustrative; no manufacturer geometry or site survey."
+    "limits": "Cars, lift equipment and site are illustrative; no manufacturer geometry or site survey.",
+    "gallery_camera_source": "../../tools/garage03/cameras.py",
+    "elevated_view": "Orthographic native render showing the complete envelope, side glazing, roof and forecourt."
   }
 }

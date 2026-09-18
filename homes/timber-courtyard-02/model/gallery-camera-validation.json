@@ -1,0 +1,17 @@
+{
+  "software": "4.5.14 LTS",
+  "camera_count": 7,
+  "named_cameras": [
+    "01 Reference exterior",
+    "02 Elevated courtyard",
+    "03 Garden threshold",
+    "04 Plan cutaway",
+    "05 Living and dining",
+    "06 Kitchen",
+    "07 Rear garden"
+  ],
+  "noncamera_design_hash_before": "d1c36ef5e7c76be689ae7c4379fb281e1a3d103e9c24d09454a00f171d480643",
+  "noncamera_design_hash_after": "d1c36ef5e7c76be689ae7c4379fb281e1a3d103e9c24d09454a00f171d480643",
+  "approved_non_camera_scene_unchanged": true,
+  "scope": "Cameras only: existing mesh geometry, transforms, effective material assignments, lights and render visibility unchanged. Interior remains schematic; this is not a renewed whole-home program review."
+}

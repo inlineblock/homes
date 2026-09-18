@@ -4,3 +4,5 @@
 - Review actual pixels for cropped roof edges, protruding partitions, artificial light reflections, roof gaps, and overly artificial planting.
 - Keep camera, light, and geometry changes in the native model. Presentation images must come from the actual scene.
 - `01-exterior.png` feeds the design board. Regenerate the board whenever that image changes.
+- Keep the gallery's front, rear and elevated/site roles distinct. Include the courtyard threshold feature and two useful interiors; roof-off plans do not count as interior photographs.
+- Label the existing living-to-courtyard and kitchen views as schematic. Adding gallery coverage does not establish that the legacy interior, furnishing details or equipment program meets the later whole-home design standard.

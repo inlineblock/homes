@@ -1,0 +1,102 @@
+{
+  "scope": "Gallery cameras only; approved geometry, materials, lighting and layout retained.",
+  "blender": "4.5.14 LTS",
+  "non_camera_scene_sha256": "44a0aadc2d56b0aa1df4a4d1c9bbc1807d08af19f42518c7882a5231541bcf1c",
+  "cameras": [
+    "01 Kitchen hero",
+    "02 Kitchen courtyard",
+    "03 Atrium exterior",
+    "04 Whole-home cutaway",
+    "05 Rear terrace",
+    "06 West roof and atrium",
+    "07 Open-air atrium"
+  ],
+  "non_camera_scene_unchanged": true,
+  "fresh_reopen_cameras_and_geometry_passed": true,
+  "reviewed_outputs": [
+    {
+      "path": "outputs/images/01-kitchen.png",
+      "pixels": [
+        1600,
+        1100
+      ],
+      "new_final_samples": null,
+      "visually_reviewed": true,
+      "sha256": "71ecdf2cf0c820717ea5ae60cd550977d1916b5c7b214b1f425561e07056a4fe"
+    },
+    {
+      "path": "outputs/images/02-kitchen-courtyard.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": null,
+      "visually_reviewed": true,
+      "sha256": "a68d0a9080349e69b44143a569bed82e3352f29cbae397f7bdd20c81b5a40d28"
+    },
+    {
+      "path": "outputs/images/03-exterior.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": 96,
+      "visually_reviewed": true,
+      "sha256": "f0ae72a4292a89be5a1fa2f3a3b4cee4645600a2777cd7b40af81d9e2db5a284"
+    },
+    {
+      "path": "outputs/images/04-cutaway.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": null,
+      "visually_reviewed": true,
+      "sha256": "d839ac9a26fd86553c5ba0e74084bdab1a04a9bff04ce668366d270826151920"
+    },
+    {
+      "path": "outputs/images/05-rear-terrace.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": 96,
+      "visually_reviewed": true,
+      "sha256": "d3e768c51ec7ac3b76bd63aa1b9f4748741ce51cc60ca711ad3b42bafb82a040"
+    },
+    {
+      "path": "outputs/images/06-west-roof-atrium.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": 96,
+      "visually_reviewed": true,
+      "sha256": "3552188e0c86b3ca504d7c7b44054fbf778c3c8fed965245bb4136959c90b011"
+    },
+    {
+      "path": "outputs/images/07-open-air-atrium.png",
+      "pixels": [
+        1800,
+        1238
+      ],
+      "new_final_samples": 96,
+      "visually_reviewed": true,
+      "sha256": "0cdc49c94589fc70e9d52087add2f2de294fd75427e29b4ccff3caf6d86e1e4d"
+    }
+  ],
+  "existing_single_level_plan_visually_reviewed": true,
+  "drafts_reviewed_before_promotion": true,
+  "complete_building_exterior_views": [
+    "03-exterior",
+    "05-rear-terrace",
+    "06-west-roof-atrium"
+  ],
+  "interior_views": [
+    "01-kitchen",
+    "02-kitchen-courtyard"
+  ],
+  "crowning_feature": "07-open-air-atrium",
+  "limitations": "Camera-only gallery expansion of legacy concept. No parking, site or roof-drainage resolution; no new circulation/code/engineering approval.",
+  "gallery_links_and_eight_unique_image_embeds_per_readme_passed": true
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "scope": "Gallery camera only; existing home and IFC geometry unchanged",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "camera": "09 Living fireplace",
+  "camera_spec_feet": [
+    [
+      22,
+      37,
+      6
+    ],
+    [
+      1,
+      30.2,
+      4.5
+    ],
+    30
+  ],
+  "output": "outputs/images/09-living-fireplace.png",
+  "preserved_scene_sha256": "853c2acb8ba24f27e9f1b394916675c6f562ddbbd074f34ff04bd4a1f7599be7",
+  "existing_cameras_preserved": 8,
+  "fresh_native_reopen": "passed: preservation hash, source camera position/orientation/lens and relative libraries",
+  "visual_review": "passed: draft and final pixels inspected; closed-glass fireplace, stone chase/hearth, seating and forest-facing glazing clearly framed; no camera clipping or material/geometry changes",
+  "caption": "Living room with closed-glass fireplace, stone hearth and forest-facing glazing.",
+  "render": {
+    "engine": "Cycles",
+    "device": "Metal",
+    "resolution": [
+      3200,
+      2000
+    ],
+    "max_samples": 512,
+    "adaptive_threshold": 0.008,
+    "denoising": true,
+    "image_sha256": "70765f170f45dc987928fd40cada638a4c502836be9b4799375fa65049459fb7",
+    "command": "Blender --background homes/mountain-house/model/mountain-house.blend --python-exit-code 1 --python tools/mountain05/render.py -- 09-living-fireplace"
+  },
+  "native_model_sha256": "2f526ef85a9be8bd2b85433ae0453afcd58464c9818bb5259ba3d4d9ace23c02",
+  "limits": "Unlit generic closed-glass insert; fuel, manufacturer, combustion and clearances remain the existing unresolved product/engineering checks. Gallery addition does not change prior geometry, materials, lighting, IFC or drawings."
+}

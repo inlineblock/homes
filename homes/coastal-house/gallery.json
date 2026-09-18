@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-terrace-open.png",
+      "caption": "Rear terrace with the 30-foot glass wall open",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/02-great-room.png",
+      "caption": "Light-filled kitchen, dining and living room",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/03-serving-counter-open.png",
+      "caption": "Indoor/outdoor kitchen serving counter with glazing open",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/04-serving-counter-closed.png",
+      "caption": "The same serving counter with glazing closed",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/05-terrace-closed.png",
+      "caption": "Rear terrace with the glass wall closed",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/06-front-arrival.png",
+      "caption": "Front arrival and two-car carport",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/07-roof-and-parking.png",
+      "caption": "Elevated view of pitched roofs, parking and arrival",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/08-west-garden.png",
+      "caption": "West garden and side elevation",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/09-entry-hall.png",
+      "caption": "Daylit entry hall, coat storage and route to living",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/10-primary-bath.png",
+      "caption": "Primary bathroom double vanity and soaking tub",
+      "view": "interior"
+    }
+  ],
+  "required_levels": [
+    "main"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/floor-plan.png",
+      "level": "main",
+      "caption": "Furnished single-level concept plan"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "glass-wall",
+      "label": "30-foot retractable glass wall",
+      "renders": [
+        "outputs/images/01-terrace-open.png",
+        "outputs/images/05-terrace-closed.png"
+      ]
+    },
+    {
+      "id": "serving-counter",
+      "label": "12-foot indoor/outdoor serving window and counter",
+      "renders": [
+        "outputs/images/03-serving-counter-open.png",
+        "outputs/images/04-serving-counter-closed.png"
+      ]
+    }
+  ]
+}

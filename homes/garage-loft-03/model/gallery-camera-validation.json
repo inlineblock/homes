@@ -1,0 +1,26 @@
+{
+  "scope": "Camera-only gallery expansion; existing geometry, materials, lights and lift stored state preserved",
+  "blender": "4.5.14 LTS",
+  "non_camera_content_sha256": "ca765d8a52f62b46fc4421cd61f0bc9359eb3d80f70077036ed313975bd79d2f",
+  "saved_default_camera": "01 Exterior",
+  "named_cameras": [
+    "01 Exterior",
+    "02 Game room",
+    "03 Garage stored",
+    "04 Pit section",
+    "05 Raised retrieval",
+    "06 Circulation",
+    "07 Rear garden",
+    "08 Elevated approach"
+  ],
+  "non_camera_content_unchanged": true,
+  "fresh_native_reopen_verified": true,
+  "ifc": "Existing IFC retained because no building geometry changed; cameras are visualization-only.",
+  "committed_original_comparison": {
+    "git_lfs_sha256": "b0db74b17dd466aec7770f26311bddd92b5a659956fceced31c2214208508388",
+    "non_camera_objects_compared": 2105,
+    "geometry_transforms_visibility_material_assignments_match": true,
+    "differences": 0,
+    "temporary_reference_copy_removed": true
+  }
+}

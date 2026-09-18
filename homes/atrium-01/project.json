@@ -25,6 +25,19 @@
     "presentation_model": "model/atrium-01.blend",
     "architectural_model": "model/atrium-01.ifc",
     "floor_plan": "outputs/plans/floor-plan.svg",
-    "primary_render": "outputs/images/01-kitchen.png"
+    "primary_render": "outputs/images/01-kitchen.png",
+    "render_gallery": "outputs/README.md",
+    "renders": [
+      "outputs/images/01-kitchen.png",
+      "outputs/images/02-kitchen-courtyard.png",
+      "outputs/images/03-exterior.png",
+      "outputs/images/05-rear-terrace.png",
+      "outputs/images/06-west-roof-atrium.png",
+      "outputs/images/07-open-air-atrium.png",
+      "outputs/images/04-cutaway.png"
+    ],
+    "floor_plan_pdf": "outputs/plans/floor-plan.pdf",
+    "floor_plan_preview": "outputs/plans/floor-plan.png",
+    "gallery_validation": "model/gallery-validation.json"
   }
 }

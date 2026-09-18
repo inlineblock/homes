@@ -168,12 +168,7 @@ area('Front soft fill',(31,-26,21),(31,20,5),1400,35,(.80,.88,1))
 area('Rear living glow',(29,41,11),(31,25,3),360,12,(1,.67,.36))
 area('Primary room glow',(55,10,8),(54,-1,4),160,6,(1,.70,.43))
 area('Guest room glow',(7,6,8),(7,-1,4),120,5,(1,.70,.43))
-views={
- '01 Reference exterior':((31,-81,30),(31,20,4.8),40),
- '02 Elevated courtyard':((88,-63,59),(30,22,4),43),
- '03 Garden threshold':((31,-24,6.2),(31,32,6.5),24),
- '04 Plan cutaway':((31,24,105),(31,24,0),46),
-}
+from gallery import VIEWS as views
 cams={name:camera(name,*args) for name,args in views.items()}
 s=bpy.context.scene;s.camera=cams['01 Reference exterior'];s.unit_settings.system='IMPERIAL';s.unit_settings.length_unit='FEET';s.unit_settings.scale_length=1
 s.render.engine='CYCLES';s.cycles.samples=96;s.cycles.use_denoising=True;s.cycles.max_bounces=8
@@ -193,6 +188,9 @@ s.render.filepath='//../outputs/images/01-exterior.png'
 path=HOME/'model/timber-courtyard-02.blend';bpy.ops.wm.save_as_mainfile(filepath=str(path));bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(path))
 deps=['materials/sage-fluted-tile','fixtures/opal-globe-pendant','furniture/walnut-counter-stool','materials/warm-vertical-cedar','materials/charcoal-standing-seam']
 manifest={'schema_version':1,'id':'timber-courtyard-02','name':'Timber Courtyard 02','status':'exterior-led concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':AREA,'area_basis':'62 x 48 ft outer footprint minus 24 x 24 ft courtyard; includes walls','bedrooms':3,'bathrooms':3,'reference_scope':'Exterior appearance only; interior may change','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps],'deliverables':{'presentation_model':'model/timber-courtyard-02.blend','architectural_model':'model/timber-courtyard-02.ifc','primary_render':'outputs/images/01-exterior.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+from gallery import RENDERS
+manifest['deliverables']['rendered_views']={slug:'outputs/images/'+slug+'.png' for slug in RENDERS}
+manifest['deliverables']['level_plans']=[{'level':'Ground floor','svg':'outputs/plans/floor-plan.svg','png':'outputs/plans/floor-plan.png','roof_off_model':'outputs/images/04-model-plan.png'}]
 (HOME/'project.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('TIMBER_MODEL_SAVED',len(s.objects),'objects',AREA,'sqft',flush=True)
 if '--render' in sys.argv:

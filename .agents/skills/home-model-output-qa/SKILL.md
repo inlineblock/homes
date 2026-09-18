@@ -1,6 +1,6 @@
 ---
 name: home-model-output-qa
-description: Build, reopen, and visually review this repository’s Blender home models, IFC exports, render sets, and dimensioned concept plans before promoting current outputs. Use for new homes or coordinated home revisions, not generic image generation.
+description: Build, reopen, and visually review this repository’s Blender home models, IFC exports, render sets, and dimensioned concept plans before promoting current outputs. Use for new homes, coordinated home revisions or README gallery coverage audits, not generic image generation.
 ---
 
 # Home model and output QA
@@ -10,6 +10,8 @@ Work from the repository root; paths below are repository-relative. Read applica
 ## Preserve and coordinate
 
 Inspect Git status and native-file changes before regeneration. Preserve manual work; never overwrite an unpreserved edited model. Read the home’s authoring instructions to identify overwritten files and exact regeneration commands. Coordinate binary ownership and serialize heavy GPU rendering with other agents when needed. Discover installed Blender/Bonsai and document runtimes; record tested versions and commands without baking one machine’s paths into reusable tools. If the environment requires escalation for Blender, use its approval mechanism; this skill grants no additional commit, publication, or installation authorization.
+
+For a gallery-only task, preserve approved geometry, materials, lights and layout. Inventory existing reviewed outputs first, add only missing camera views, and verify native reopening plus camera/source consistency. Do not force a whole-home redesign or regenerate unchanged IFC and drawings solely to add a README image. Record any design limitations revealed by the new angle.
 
 ## Validate the actual scene
 
@@ -28,3 +30,7 @@ Generate drafts in ignored `outputs/work/`. Inspect actual front/arrival, rear/o
 Render PDF pages to images and inspect every page alongside its furnished plan: dimensions, labels, fixtures, openings, circulation, clipping, and embedded images must match the current scene. Fix defects and regenerate affected artifacts before promotion.
 
 Promote only reviewed images and documents into stable `outputs/images/` and `outputs/plans/` filenames. Refresh dependent boards/previews, output index, home/root galleries, manifest, asset schedule, and design-review evidence together. Keep no output history/version folders; Git retains revisions. Report exactly which checks passed and which remain unresolved; neither rendering nor schema validation establishes engineering, code, or permit approval.
+
+## Gallery completeness
+
+Apply the [required visual gallery](../../../homes/AGENTS.md#required-visual-gallery), including distinct exterior/interior coverage, every occupied level and clearly pictured signature features. Inventory actual image contents rather than counting filenames or treating cutaways as exterior views. Update each home’s `gallery.json`, embed the selected set directly in its README and output index, and refresh the root catalog. Run [gallery verification](../../../tools/common/verify_galleries.py), then visually check the image/caption sequences and plans. Missing views require reviewed native renders; a passing file count is not visual approval.

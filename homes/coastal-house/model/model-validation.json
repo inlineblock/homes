@@ -1,0 +1,46 @@
+{
+  "native_model_reopened": true,
+  "gross_enclosed_area_sqft": 2720.0,
+  "modeled_beds": 3,
+  "relative_libraries": [
+    "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
+    "//../../../library/furniture/coastal-oak-counter-stool/v001/coastal-oak-counter-stool.blend",
+    "//../../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
+    "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend"
+  ],
+  "opening_travel": {
+    "sampled_frames": [
+      1,
+      20,
+      40,
+      60,
+      80,
+      100,
+      120
+    ],
+    "panel_component_checks": 420,
+    "no_panel_wall_collisions": true,
+    "both_clear_openings_unobstructed_by_panels": true
+  },
+  "circulation": {
+    "swept_diameter_inches": 30,
+    "routes": [
+      "entry to dining terrace",
+      "primary bedroom",
+      "primary bath",
+      "bedroom 02",
+      "bedroom 03",
+      "guest bath",
+      "laundry",
+      "kitchen work aisle"
+    ],
+    "actual_geometry_checked": true
+  },
+  "counter": {
+    "stone_top_ft": 3.1,
+    "closed_window_bottom_ft": 3.18,
+    "no_glass_stone_intersection": true,
+    "outdoor_knee_overhang_inches": 15.06
+  },
+  "limits": "Concept geometry only. No weatherproofing, thermal, structural, impact/flood or accessibility approval."
+}

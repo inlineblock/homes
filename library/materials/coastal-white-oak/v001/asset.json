@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "materials/coastal-white-oak",
+  "version": "v001",
+  "name": "Natural white oak | fine longitudinal grain",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/coastal04/materials.py"
+  },
+  "files": {
+    "blender": "coastal-white-oak.blend"
+  },
+  "dependencies": [],
+  "description": "Fine vertically oriented original white oak. Rotate geometry as required for grain direction.",
+  "texture_scale": "Object coordinates in meters; no external images."
+}

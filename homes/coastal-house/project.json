@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "coastal-house",
+  "name": "Coastal House",
+  "status": "Detailed visualization and dimensioned architectural concept",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 2720,
+  "gross_enclosed_area_sqft": 2720,
+  "area_basis": "68 x 40 ft exterior floor plate, including walls; excludes terrace, eaves, landscaping and illustrative shore",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "assumptions": "Single story, 3 bedrooms and 2 baths chosen for first concept; no actual parcel or orientation supplied.",
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-oak-counter-stool/v001/"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/"
+    }
+  ],
+  "openings": {
+    "great_room": {
+      "start": 10.0,
+      "end": 40.0,
+      "panels": 6,
+      "pocket_center": 7.3,
+      "head": 9.5,
+      "sill": 0.08,
+      "track_y": 40.0,
+      "pitch": 0.15
+    },
+    "serving_window": {
+      "start": 48.0,
+      "end": 60.0,
+      "panels": 4,
+      "pocket_center": 61.6,
+      "head": 8.5,
+      "sill": 3.18,
+      "track_y": 40.0,
+      "pitch": 0.13
+    },
+    "animation": "Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.",
+    "dimension_units": "feet"
+  },
+  "deliverables": {
+    "presentation_model": "model/coastal-house.blend",
+    "architectural_model": "model/coastal-house.ifc",
+    "primary_render": "outputs/images/01-terrace-open.png",
+    "floor_plan": "outputs/plans/floor-plan.svg",
+    "presentation_sheet": "outputs/plans/design-board.pdf"
+  }
+}

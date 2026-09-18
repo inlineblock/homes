@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "materials/coastal-honed-limestone",
+  "version": "v001",
+  "name": "Warm pale honed limestone",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/coastal04/materials.py"
+  },
+  "files": {
+    "blender": "coastal-honed-limestone.blend"
+  },
+  "dependencies": [],
+  "description": "Subtle physical-scale limestone grain, suitable for interior and terrace pavers.",
+  "texture_scale": "Object coordinates in meters; no external images."
+}

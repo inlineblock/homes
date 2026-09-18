@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "furniture/coastal-oak-counter-stool",
+  "version": "v001",
+  "name": "Coastal oak counter stool",
+  "units": "meters",
+  "dimensions_m": [
+    0.5304,
+    0.50292,
+    0.981456
+  ],
+  "seat_height_m": 0.643128,
+  "origin": "floor center, back toward +Y",
+  "license": "CC-BY-4.0",
+  "rights": "Original asset; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/coastal04/assets.py"
+  },
+  "files": {
+    "blender": "coastal-oak-counter-stool.blend"
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ]
+}

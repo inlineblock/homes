@@ -4,6 +4,14 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 ## Browse the projects
 
+### Coastal House
+
+Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot kitchen serving window. Counters and cabinetry face both indoors and outdoors. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
+
+[![Coastal House terrace](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/README.md)
+
+[All images and plans](homes/coastal-house/outputs/README.md) · [Project and editable models](homes/coastal-house/README.md)
+
 ### Garage Loft 03
 
 Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 x 34 ft footprint · 8 ft pool table · internal stair access and fixed-floor operator bay.
@@ -29,6 +37,10 @@ Modern Eichler-inspired home with a walnut-and-sage kitchen and central atrium. 
 [All images and plans](homes/atrium-01/outputs/README.md) · [Project and editable models](homes/atrium-01/README.md)
 
 ### Plan previews
+
+[![Coastal House concept floor plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/design-board.pdf)
+
+[Coastal House design booklet](homes/coastal-house/outputs/plans/design-board.pdf)
 
 | Timber Courtyard 02 | Atrium 01 |
 | --- | --- |

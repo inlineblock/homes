@@ -1,0 +1,17 @@
+{
+  "schema": "IFC4",
+  "counts": {
+    "IfcSlab": 1,
+    "IfcWall": 269,
+    "IfcMember": 27,
+    "IfcWindow": 46,
+    "IfcDoor": 44,
+    "IfcCovering": 170,
+    "IfcRoof": 176
+  },
+  "storeys": [
+    "Ground floor"
+  ],
+  "schema_errors": 0,
+  "errors": []
+}

@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "path": "outputs/images/01-terrace-open.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "sha256": "b320ff6d5cd81e4292a79c20c5cb6c42306094806c4c0a7734f1b6c94795d674"
+    },
+    {
+      "path": "outputs/images/02-great-room.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "sha256": "ff9b4a2a00a829c3b4c4202ae91525c1e1741ca8b0e78d65ef1ac47c14b83537"
+    },
+    {
+      "path": "outputs/images/03-serving-counter-open.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "sha256": "acdac849cc29a73d2d2f91f9d431c58b67e534f18e9870e8a56c4a50d3cd2d76"
+    },
+    {
+      "path": "outputs/images/04-serving-counter-closed.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "sha256": "ca3a0bd34f2de664abc266d181ca2b847c7cc8bc0af3d87b8355886b85ebf6fc"
+    },
+    {
+      "path": "outputs/images/05-terrace-closed.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "sha256": "12939223e87cc67e5afa41071a9ff8d7a8417f3c646c02447d9608a2e9bc8539"
+    }
+  ],
+  "pdf_pages": 4,
+  "visual_review": "All five actual model renders and all four PDF pages inspected; final shoreline revision included."
+}

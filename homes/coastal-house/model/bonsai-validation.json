@@ -1,54 +1,657 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 1012,
+  "imported_mesh_objects": 789,
   "project": "Coastal House | Concept",
   "blender_version": "4.5.14 LTS",
   "bonsai_version": "0.8.5",
   "ifcopenshell_version": "0.8.5",
-  "ifc_sha256": "a5c382dffb17eb6b01eedb5e56c149d46ddf207ad90016eeb896572bddb594b1",
-  "source_blend_sha256": "67ccc3f2dccb578b214c261d573911aabdc30c1d0328ded1951703386332deac",
+  "ifc_sha256": "685200f5e1f3747dc7a0845fb26d30992fda53c3df750b0de9fbc47a15fdd5c2",
+  "source_blend_sha256": "e7481133030133dd630bd6a49a875062a520ed7276fa4f4c839941b002818b0b",
   "closed_envelope_frame": 1,
   "attached_pergola": {
     "seaward_posts": 2,
     "house_side_posts": 0,
     "post_bounds_ft": [
       [
-        8.700000332409315,
-        55.699999251077806,
-        0.17999976951619145,
-        9.300000085605411,
-        56.30000056870027,
-        8.550000003003698
+        8.700000762939453,
+        55.70000076293945,
+        0.17999976873397827,
+        9.300000190734863,
+        56.29999923706055,
+        8.550000190734863
       ],
       [
-        40.7000007278963,
-        55.699999251077806,
-        0.17999976951619145,
-        41.30000204551877,
-        56.30000056870027,
-        8.550000003003698
+        40.70000076293945,
+        55.70000076293945,
+        0.17999976873397827,
+        41.30000305175781,
+        56.29999923706055,
+        8.550000190734863
       ]
     ],
     "header_ledger_bounds_ft": [
-      8.550000003003698,
-      40.600002594194386,
-      9.649999811267602,
-      41.44999924607164,
-      41.09999952040945,
-      10.050000168207124
+      8.550000190734863,
+      40.60000228881836,
+      9.649999618530273,
+      41.45000076293945,
+      41.099998474121094,
+      10.050000190734863
     ],
     "outer_beam_bounds_ft": [
-      8.550000003003698,
-      55.699999251077806,
-      8.550000003003698,
-      41.44999924607164,
-      56.30000056870027,
-      10.050000168207124
+      8.550000190734863,
+      55.70000076293945,
+      8.550000190734863,
+      41.45000076293945,
+      56.29999923706055,
+      10.050000190734863
     ],
     "open_slats": 45,
     "actual_bonsai_member_objects_checked": true
   },
   "entry_canopy_supports": 2,
-  "limits": "IFC schema and actual Bonsai import/tessellation verified; classified concept mesh geometry is not engineered construction documentation."
+  "roof_pavilion": {
+    "metadata_matches_current_design": true,
+    "actual_roof_planes": [
+      {
+        "name": "Pavilion west 3 in 12 roof",
+        "bounds_ft": [
+          -3.0,
+          18.0,
+          13.470000267028809,
+          22.0,
+          43.0,
+          20.0
+        ],
+        "maximum_profile_error_ft": 6.866455077858546e-07,
+        "material": [
+          {
+            "name": "Bronze-gray standing seam | matte coastal | v001",
+            "rgba": [
+              0.08500000089406967,
+              0.07699999958276749,
+              0.06499999761581421,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pavilion east 3 in 12 roof",
+        "bounds_ft": [
+          22.0,
+          18.0,
+          13.470000267028809,
+          47.0,
+          43.0,
+          20.0
+        ],
+        "maximum_profile_error_ft": 6.866455077858546e-07,
+        "material": [
+          {
+            "name": "Bronze-gray standing seam | matte coastal | v001",
+            "rgba": [
+              0.08500000089406967,
+              0.07699999958276749,
+              0.06499999761581421,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Front wing 1 in 12 roof",
+        "bounds_ft": [
+          -2.0,
+          -3.75,
+          10.740833282470703,
+          70.0,
+          20.0,
+          13.0
+        ],
+        "maximum_profile_error_ft": 6.866455077858546e-07,
+        "material": [
+          {
+            "name": "Bronze-gray standing seam | matte coastal | v001",
+            "rgba": [
+              0.08500000089406967,
+              0.07699999958276749,
+              0.06499999761581421,
+              1.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kitchen wing 1 in 12 roof",
+        "bounds_ft": [
+          44.0,
+          20.0,
+          10.470000267028809,
+          71.0,
+          43.0,
+          13.0
+        ],
+        "maximum_profile_error_ft": 6.866455077858546e-07,
+        "material": [
+          {
+            "name": "Bronze-gray standing seam | matte coastal | v001",
+            "rgba": [
+              0.08500000089406967,
+              0.07699999958276749,
+              0.06499999761581421,
+              1.0
+            ]
+          }
+        ]
+      }
+    ],
+    "upper_glazing": [
+      {
+        "name": "Pavilion real upper glazing rear",
+        "bounds_ft": [
+          0.4699999690055847,
+          40.02000045776367,
+          11.180000305175781,
+          5.429999828338623,
+          40.05500030517578,
+          15.057500839233398
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.001",
+        "bounds_ft": [
+          5.570000171661377,
+          40.02000045776367,
+          11.180000305175781,
+          10.930000305175781,
+          40.05500030517578,
+          16.4325008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.002",
+        "bounds_ft": [
+          11.069999694824219,
+          40.02000045776367,
+          11.180000305175781,
+          16.43000030517578,
+          40.05500030517578,
+          17.807498931884766
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.003",
+        "bounds_ft": [
+          16.56999969482422,
+          40.02000045776367,
+          11.180000305175781,
+          21.93000030517578,
+          40.05500030517578,
+          19.1825008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.004",
+        "bounds_ft": [
+          22.06999969482422,
+          40.02000045776367,
+          11.180000305175781,
+          27.430002212524414,
+          40.05500030517578,
+          19.1825008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.005",
+        "bounds_ft": [
+          27.56999969482422,
+          40.02000045776367,
+          11.180000305175781,
+          32.93000030517578,
+          40.05500030517578,
+          17.807498931884766
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.006",
+        "bounds_ft": [
+          33.06999969482422,
+          40.02000045776367,
+          11.180000305175781,
+          38.43000030517578,
+          40.05500030517578,
+          16.4325008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing rear.007",
+        "bounds_ft": [
+          38.56999969482422,
+          40.02000045776367,
+          11.180000305175781,
+          43.53000259399414,
+          40.05500030517578,
+          15.057500839233398
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing front",
+        "bounds_ft": [
+          18.07000160217285,
+          20.020000457763672,
+          13.880001068115234,
+          21.93000030517578,
+          20.05500030517578,
+          19.1825008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing front.001",
+        "bounds_ft": [
+          22.06999969482422,
+          20.020000457763672,
+          13.880001068115234,
+          26.930002212524414,
+          20.05500030517578,
+          19.1825008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing front.002",
+        "bounds_ft": [
+          27.06999969482422,
+          20.020000457763672,
+          13.880001068115234,
+          31.92999839782715,
+          20.05500030517578,
+          17.9325008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing front.003",
+        "bounds_ft": [
+          32.06999969482422,
+          20.020000457763672,
+          13.880001068115234,
+          36.93000030517578,
+          20.05500030517578,
+          16.6825008392334
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      },
+      {
+        "name": "Pavilion real upper glazing front.004",
+        "bounds_ft": [
+          37.06999969482422,
+          20.020000457763672,
+          13.880001068115234,
+          41.93000030517578,
+          20.05500030517578,
+          15.432499885559082
+        ],
+        "surface_transparency": [
+          0.8
+        ]
+      }
+    ],
+    "sloping_rafters": 6,
+    "frame_columns": [
+      {
+        "name": "Pavilion driftwood structural frame post",
+        "bounds_ft": [
+          43.25,
+          20.260000228881836,
+          0.0,
+          43.85000228881836,
+          20.740001678466797,
+          13.162500381469727
+        ]
+      },
+      {
+        "name": "Pavilion driftwood structural frame post.001",
+        "bounds_ft": [
+          0.15000000596046448,
+          31.76000213623047,
+          0.0,
+          0.75,
+          32.23999786376953,
+          13.162500381469727
+        ]
+      },
+      {
+        "name": "Pavilion driftwood structural frame post.002",
+        "bounds_ft": [
+          43.25,
+          31.76000213623047,
+          0.0,
+          43.85000228881836,
+          32.23999786376953,
+          13.162500381469727
+        ]
+      },
+      {
+        "name": "Pavilion driftwood structural frame post.003",
+        "bounds_ft": [
+          0.15000000596046448,
+          39.26000213623047,
+          0.0,
+          0.75,
+          39.7400016784668,
+          13.162500381469727
+        ]
+      },
+      {
+        "name": "Pavilion driftwood structural frame post.004",
+        "bounds_ft": [
+          43.25,
+          39.26000213623047,
+          0.0,
+          43.85000228881836,
+          39.7400016784668,
+          13.162500381469727
+        ]
+      },
+      {
+        "name": "Pavilion encased wet-zone structural frame post",
+        "bounds_ft": [
+          0.15000000596046448,
+          20.260000228881836,
+          0.0,
+          0.75,
+          20.740001678466797,
+          13.162500381469727
+        ]
+      }
+    ],
+    "stone_encased_wet_zone_posts": 1,
+    "wet_zone_material": [
+      {
+        "name": "Warm pale honed limestone",
+        "rgba": [
+          0.5299999713897705,
+          0.5,
+          0.4350000023841858,
+          1.0
+        ]
+      }
+    ],
+    "timber_matches_pergola": true
+  },
+  "facade_panels": {
+    "source_schedule": {
+      "asset": "surfaces/honed-limestone-wall-panel-4x2",
+      "version": "v001",
+      "full_linked_panels": 5,
+      "bespoke_edge_cuts": 31,
+      "nominal_course_height_ft": 2.0,
+      "joint_ft": 0.025
+    },
+    "actual_full_panel_meshes": 5,
+    "actual_perimeter_cut_meshes": 31,
+    "module_dimensions_ft": [
+      4.000000049435873,
+      0.12500000154487104,
+      2.0000000247179366
+    ],
+    "checked_courses": [
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 0,
+        "bottom_ft": 0.02,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 1,
+        "bottom_ft": 2.045,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 2,
+        "bottom_ft": 4.069999999999999,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 3,
+        "bottom_ft": 6.094999999999999,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 4,
+        "bottom_ft": 8.12,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          0.0,
+          4.5
+        ],
+        "course": 5,
+        "bottom_ft": 10.145,
+        "panel_widths_ft": [
+          1.8874998306977773,
+          2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 0,
+        "bottom_ft": 0.02,
+        "panel_widths_ft": [
+          4.0,
+          3.375
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 1,
+        "bottom_ft": 2.045,
+        "panel_widths_ft": [
+          3.375,
+          4.0
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 2,
+        "bottom_ft": 4.069999999999999,
+        "panel_widths_ft": [
+          4.0,
+          3.375
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 3,
+        "bottom_ft": 6.094999999999999,
+        "panel_widths_ft": [
+          3.375,
+          4.0
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 4,
+        "bottom_ft": 8.12,
+        "panel_widths_ft": [
+          4.0,
+          3.375
+        ]
+      },
+      {
+        "pier_x_ft": [
+          40.3,
+          47.7
+        ],
+        "course": 5,
+        "bottom_ft": 10.145,
+        "panel_widths_ft": [
+          3.375,
+          4.0
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 0,
+        "bottom_ft": 0.02,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 1,
+        "bottom_ft": 2.045,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 2,
+        "bottom_ft": 4.069999999999999,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 3,
+        "bottom_ft": 6.094999999999999,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 4,
+        "bottom_ft": 8.12,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      },
+      {
+        "pier_x_ft": [
+          63.4,
+          68.0
+        ],
+        "course": 5,
+        "bottom_ft": 10.145,
+        "panel_widths_ft": [
+          1.9374961853027344,
+          2.6374969482421875
+        ]
+      }
+    ],
+    "limestone_material_matches_wet_post": true
+  },
+  "actual_import_geometry": {
+    "checked_product_meshes": 117,
+    "maximum_bonsai_vs_ifc_bounds_error_ft": 2.4630328709918103e-06
+  },
+  "limits": "Actual IFC tessellation and Bonsai mesh geometry, material appearance and source hashes checked; original classified concept geometry is not engineered construction documentation."
 }

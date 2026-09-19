@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "surfaces/honed-limestone-wall-panel-4x2",
+  "version": "v001",
+  "name": "Honed limestone wall panel 4x2",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192000150680542,
+    0.038100000470876694,
+    0.6096000075340271
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      0.0,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.038100000470876694,
+      0.6096000075340271
+    ]
+  },
+  "blender": {
+    "collection": "Honed limestone wall panel 4x2"
+  },
+  "placement": {
+    "origin": "Centered X, back mounting plane Y=0, bottom edge Z=0",
+    "front_direction": "+Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only. Full modules must use linked collection instances; never stretch panels."
+  },
+  "module": {
+    "width_m": 1.2192,
+    "height_m": 0.6096,
+    "depth_m": 0.0381,
+    "edge_bevel_m": 0.0024384000000000003,
+    "suggested_joint_m": 0.006096000000000001,
+    "pitch_m": [
+      1.225296,
+      0.615696
+    ]
+  },
+  "installation": {
+    "mounting": "Vertical cladding concept with local back plane Y=0. Host provides continuous designed support and appropriate anchors/cavity beyond the back datum; no anchor or cavity dimension is specified by this appearance asset.",
+    "clearances": {
+      "basis": "Concept module geometry, not a manufacturer system",
+      "required_host_checks": [
+        "Joint widths and boundary cuts",
+        "Opening/trim clearances",
+        "Anchor and cavity room behind back datum",
+        "Drainage, flashing, movement, weight and substrate capacity"
+      ],
+      "host_installation_checked": false
+    },
+    "operating_envelope": {
+      "state": "Fixed cladding",
+      "moving_parts": false
+    }
+  },
+  "variation": {
+    "perimeter_cuts": "Host may create specifically labeled perimeter-cut meshes derived from this panel. Trim mesh vertices to actual boundary dimensions; retain .0381m thickness, .0024384m bevel, linked limestone material and physical-meter coordinates/Surface meters UVs without stretching. Record bespoke cuts in host schedule. Full-size panels remain linked instances.",
+    "surface_coordinates": "Local object coordinates in meters; material has no image dependencies. Surface meters UV encodes local X/Z physical meters for future map-compatible variants."
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../../materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "surfaces/honed-limestone-paver-4ft",
+    "version": "v001",
+    "path": "../../honed-limestone-paver-4ft/v001/",
+    "basis": "Actual source paver mesh; retained four-foot width, halved second dimension into upright two-foot height, increased thickness from1.2in to1.5in, revised origin/front and fine edge bevel. The source paver is not changed."
+  },
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/publish_limestone_wall_panel.py",
+    "command": "Blender --background --python tools/library/publish_limestone_wall_panel.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and material; attribution Homes project contributors. Not a commercial product or approved wall system.",
+  "files": {
+    "blender": "honed-limestone-wall-panel-4x2.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

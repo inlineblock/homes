@@ -43,11 +43,12 @@ for obj in bpy.context.scene.objects:
     rep=api('geometry.add_mesh_representation',f,context=body,vertices=[verts],faces=[faces]);api('geometry.assign_representation',f,product=e,representation=rep);api('spatial.assign_container',f,products=[e],relating_structure=storeys.get(obj.get('ifc_storey','Ground floor'),next(iter(storeys.values()))))
     if obj.data.materials:api('style.assign_representation_styles',f,shape_representation=rep,styles=[getstyle(obj.data.materials[0])])
     counts[cls]=counts.get(cls,0)+1
-# A linked window is a collection instance, not a local mesh. Include its
-# evaluated geometry so reusable openings do not disappear from the IFC.
+# Linked windows and cladding panels are collection instances, not local meshes.
+# Include their evaluated geometry under the explicitly assigned IFC class.
 depsgraph=bpy.context.evaluated_depsgraph_get()
 for parent in bpy.context.scene.objects:
-    if parent.instance_type!='COLLECTION' or parent.get('ifc_class')!='IfcWindow':continue
+    if parent.instance_type!='COLLECTION' or parent.get('ifc_class') not in {'IfcWindow','IfcCovering'}:continue
+    linked_class=parent['ifc_class']
     verts=[];faces=[];mats=[]
     for inst in depsgraph.object_instances:
         if not inst.is_instance or not inst.parent or inst.parent.original!=parent or inst.object.type!='MESH':continue
@@ -56,11 +57,11 @@ for parent in bpy.context.scene.objects:
         faces.append([tuple(p.vertices) for p in data.polygons])
         mats.append(data.materials[0] if data.materials else None)
         inst.object.to_mesh_clear()
-    if not verts:raise RuntimeError('No evaluated window geometry: '+parent.name)
-    e=api('root.create_entity',f,ifc_class='IfcWindow',name=parent.name)
+    if not verts:raise RuntimeError('No evaluated linked product geometry: '+parent.name)
+    e=api('root.create_entity',f,ifc_class=linked_class,name=parent.name)
     # IfcOpenShell's array adapter requires a rectangular vertex array. Build
     # each component separately, then collect its representation item under the
-    # one window product; this retains per-component glass/frame styles.
+    # one classified product; this retains per-component glass/frame styles.
     component_reps=[api('geometry.add_mesh_representation',f,context=body,vertices=[v],faces=[fa]) for v,fa in zip(verts,faces)]
     rep=component_reps[0]
     rep.Items=tuple(item for component in component_reps for item in component.Items)
@@ -69,7 +70,7 @@ for parent in bpy.context.scene.objects:
     api('spatial.assign_container',f,products=[e],relating_structure=storeys.get(parent.get('ifc_storey'),next(iter(storeys.values()))))
     for item,mat in zip(rep.Items,mats):
         if mat:api('style.assign_item_style',f,item=item,style=getstyle(mat))
-    counts['IfcWindow']=counts.get('IfcWindow',0)+1
+    counts[linked_class]=counts.get(linked_class,0)+1
 path=HOME/'model'/f'{slug}.ifc';f.write(str(path));reopened=ifcopenshell.open(str(path));logger=ifcopenshell.validate.json_logger();ifcopenshell.validate.validate(reopened,logger)
 errors=[e for e in logger.statements if e.get('level')=='error'];report={'schema':f.schema,'counts':counts,'storeys':list(storeys),'schema_errors':len(errors),'errors':errors[:10]};(HOME/'model/ifc-validation.json').write_text(json.dumps(report,indent=2,default=str)+'\n')
 if errors:raise RuntimeError('IFC schema errors')

@@ -2,13 +2,17 @@
 
 ## Current design and evidence status
 
-The current design is a **warm coastal verandah house**. A supported timber pergola, a west conversation terrace and a planted entry court give the long glazed house comfortable places to arrive, gather and linger. Warm mineral plaster, pale perimeter oak, a smoked-oak island and tactile oatmeal/olive textiles establish a coordinated palette.
+The current design is a **raised driftwood coastal pavilion**. A genuine living/dining vault and high glazing lift above the lower bedroom/entry and kitchen wings. The exposed interior frames, attached pergola, eaves and island share the driftwood finish; pale perimeter oak, mushroom exterior plaster, warm interior plaster, large-format limestone and oatmeal/olive textiles provide complementary tones. Darker timber remains within the shared outdoor furniture.
 
-**Current native geometry verified:** the [refreshed receipt](model/model-validation.json) confirms a successful reopen of the house-attached pergola and relocated seating. There are exactly two outer posts at (9,56) and (41,56) ft, zero house-side columns, ledger contact with the header face, full 30 ft sliding-wall coverage and a 0.08 ft slat-to-soffit gap. Forty-five open slats are modeled. Nineteen interior routes, four terrace routes, two arrival routes and two driver approaches passed. Seven animation frames produced 420 panel-component checks without panel/wall collisions, and both open apertures remain clear. The [adoption receipt](model/asset-adoption.json) confirms 33 asset versions matching the manifest. These are geometry and static-route checks, not engineering or occupied-seating approval.
+**Native model and current outputs reviewed:** the raised coastal pavilion [native model receipt](model/model-validation.json) confirms a successful reopen. The geometry verifier confirms four roof planes, 13 real upper glazing panels, six sloped rafters, six side supports including one stone-encased wet-zone post, matching pergola timber and genuine sloping ceilings. The pergola retains exactly two outer supports, no house-side posts, ledger/header contact and 30 ft opening coverage; minimum roof-soffit separation is now 3.10 ft. Nineteen interior routes, four terrace routes, two arrival routes, two driver approaches and 420 moving-panel component checks pass. All 37 exact shared asset pins agree with actual adoption.
 
-**Current outputs reviewed:** all eleven native renders were regenerated from the verified attached-pergola model and inspected before promotion. The replacement Imagegen hero, furnished floor/site plans and all eight booklet pages were also visually reviewed. The [output receipt](model/output-validation.json) records current hashes and scope. The Imagegen study remains a surface/site interpretation rather than exact geometry evidence.
+The [saved-lighting receipt](model/lighting-validation.json) measures all 25 real recessed openings, eight in the vault and seventeen in flat ceilings. Each opening has a clear center ray and four collar contacts with its actual ceiling plane. All twelve contact vertices across the three sloped pendant mounts meet the ceiling; the unscaled fixture retains a level diffuser at approximately 8.55 ft and vertical emission. These checks establish modeled mounting, not rated photometry or electrical/structural approval.
 
-**House IFC verified:** the current closed-envelope IFC4 export has [zero schema errors](model/ifc-validation.json). A fresh [Bonsai 0.8.5 import](model/bonsai-validation.json) in Blender 4.5.14 LTS reopened 1,012 mesh objects and checked the actual imported members: two outer pergola posts, zero house-side posts, 45 open slats and two entry-canopy supports. Source Blender and IFC hashes are recorded in the receipt. This establishes schema/import/tessellation, not engineered construction documentation.
+**Current IFC and Bonsai import verified:** the [IFC4 schema receipt](model/ifc-validation.json) reports zero errors. The [actual Bonsai 0.8.5 import](model/bonsai-validation.json), using Blender 4.5.14 LTS, reopens **789 mesh objects**. Imported geometry confirms all four roof planes, thirteen upper glazing panels, six sloping rafters and six frame columns, including one stone-encased wet-zone post. Timber appearance agrees with the pergola. The attached pergola retains two outer posts, no house-side posts and 45 open slats; the entry canopy has two supports. The import review directly checks 117 product meshes, with a maximum IFC-to-Bonsai bounds difference below 0.000003 ft.
+
+The import receipt's source Blender hash `e7481133030133dd630bd6a49a875062a520ed7276fa4f4c839941b002818b0b` and IFC hash `685200f5e1f3747dc7a0845fb26d30992fda53c3df750b0de9fbc47a15fdd5c2` match the current files. Export/import success establishes classified concept geometry, material appearance and tessellation, not construction readiness.
+
+Thirteen final native images, an exterior and two interior Imagegen studies, floor/site drawings, the measured roof section and all ten booklet pages have been visually reviewed and promoted. Native, export and output evidence are recorded separately.
 
 ## Program and spatial assumptions
 
@@ -29,17 +33,17 @@ The front door receives a **12 x 9 ft timber-lined entry canopy**, with a modele
 
 ## Interior, kitchen and shared assets
 
-Warm-limestone plaster replaces the uniformly pale wall palette. The smoked-oak island remains distinct from the lighter perimeter cabinetry and serving counter. Linked indoor furniture, a woven oatmeal rug and olive cushions give the living retreat texture; original coastal relief art and a linear dining pendant add deliberate focal points. The existing fitted chaise extension remains local to the room.
+Warm-limestone plaster replaces the uniformly pale wall palette. The driftwood island remains distinct from the lighter perimeter cabinetry and serving counter. Linked indoor furniture, a woven oatmeal rug and olive cushions give the living retreat texture; original coastal relief art and a linear dining pendant add deliberate focal points. The existing fitted chaise extension remains local to the room.
 
 The complete kitchen retains a 36-inch induction cooktop, 30-inch oven, 36-inch hood, 24-inch dishwasher, 48-inch panel-ready refrigerator, sink, pantry and waste/recycling. Appliance bodies occupy genuine cabinet bays. A vertical hood duct allowance is modeled; final exterior termination, fan sizing, makeup air, fire stopping, services and product clearances remain unresolved.
 
 The lighting concept retains 25 shared downlights with ceiling cutouts, concealed kitchen task lighting, an entry opal pendant and the dining focal pendant. Shared satin-bronze pulls and door levers provide coordinated hardware. These are original visual assets, not rated products or verified photometry.
 
-The [asset schedule](assets/README.md) records the exact pinned families. The new furniture/textile families are shared library assets rather than private duplicates. Native reopening confirms the relative asset links resolve, and the refreshed adoption audit matches all 33 asset versions to the manifest.
+The [asset schedule](assets/README.md) records the pinned families. Furniture, textiles, driftwood, bronze-gray metal, mineral plaster and wall panels come from the shared library. Native reopening confirms relative links resolve, and the [adoption audit](model/asset-adoption.json) matches all **37 asset versions** to the manifest. The facade uses five full linked 4 x 2 ft limestone panels and 31 explicitly modeled perimeter cuts; the current IFC/Bonsai receipt confirms those quantities and module dimensions. Field cuts retain the stone material and physical scale. Anchor/cavity design, substrate capacity, waterproofing and movement remain unresolved.
 
 ## Envelope and moving openings
 
-- House roof: low 2:12 standing-seam gable above level ceilings. Carport: 1:12 mono-pitch. House gutters have modeled fall toward end downpipes; lawful outfall, system sizing and below-ground routing are unresolved.
+- House roof: raised 3:12 living/dining gable above real sloping ceilings and exposed driftwood frames; lower front and kitchen roofs fall at 1:12. Carport: 1:12 mono-pitch. Stepped junctions, gutters and five house downpipes are modeled; lawful outfall, system sizing, flashed assemblies and below-ground routing remain unresolved.
 - The 30 ft great-room opening and separate 12 ft serving opening use actual moving panels and independent pockets. Frame 1 is closed; frame 120 is open. The attached-pergola revision passes 420 component checks across seven sampled frames, including both endpoints, without panel/wall collisions.
 - The continuous counter top is at 3.10 ft, below the 3.18 ft window bottom; the exterior knee overhang is approximately 15.1 inches.
 - The new pergola and entry canopy do not establish envelope performance. Low-slope roof product eligibility, wind/impact resistance, coastal corrosion, seals, screens, thermal bridging, flashings and structural headers remain unverified.
@@ -50,13 +54,13 @@ The source retains approximately 5.6 ft between the island work edge and rear se
 
 The primary shower approach has an approximately 54-inch local gap between the dressing-room corner and tub; the principal tub-to-vanity aisle is approximately 3.3 ft. Both bathrooms use linked elongated toilets. The primary compartment door parks outside its west wall, and the guest toilet faces west. The current rebuilt interior routes pass 30-inch swept checks; they do not certify wheelchair transfer, full door/lid operation or local accessibility.
 
-## Completed output review
+## Output review
 
-All **eleven native gallery views** were regenerated and reviewed: rear open/closed, great room, serving counter open/closed, front arrival, roof/parking, west garden, entry hall, primary bath and living retreat. The attached ledger, two outer posts and open slats agree across exterior and interior angles. No older view was retained. Reviewed the single-level furnished plan, arrival/roof site plan and all **eight booklet pages**, including captions, dimensions, image framing and page margins.
+All thirteen native images were freshly rendered from the current model at 3200 x 2000 and inspected. Independent review approved the terrace, kitchen-to-vault, front arrival, roof/site and west-side views; the old exterior lighting stripe is absent. The open/closed comparisons retain identical cameras and real panel movement. All ten booklet pages and the three vector/PNG drawings were reviewed; floor-plan and porch label collisions were corrected. The floor plan includes the six actual frame post footprints.
 
-The first-image Imagegen study derives from the final open-terrace native render. The exact prompt and current source/image hashes are saved. Review confirmed full opening coverage, two outer posts and no house-side columns; material, foliage and illustrative shore details remain interpreted. The native blue foreground backdrop artifact becomes continuous sand in the study, not a pool. Native model/IFC receipts and the photographic study remain distinct evidence.
+The exterior hero and both interior studies use built-in Imagegen from current native sources. Invented upper-floor cues in the exterior and an altered outdoor coffee table in the vault study were corrected. These remain photographic interpretations: fine textures, daylight, backdrop, foliage and small details vary. Native renders remain beside them, with prompts and source/selected-image hashes in the gallery and provenance files.
 
-The repository gallery check passes all six homes, including eleven Coastal views, one occupied-level plan and three signature features. Relative links in the changed home, catalog and software/library documents resolve.
+The [current output receipt](model/output-validation.json) records model, image, plan and booklet hashes. Gallery coverage passes all six homes; checked local document links resolve. No draft or output-history folder is published.
 
 ## Open site and regulatory work
 

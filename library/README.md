@@ -159,3 +159,15 @@ Coastal House links these original v001 furnishings and textiles. Native preview
 | [![Bound woven rug](furniture/woven-oatmeal-rug/v001/preview.png)](furniture/woven-oatmeal-rug/v001/asset.json) | [![Olive cushion](furniture/olive-linen-cushion/v001/preview.png)](furniture/olive-linen-cushion/v001/asset.json) |
 
 Shared material assets: [woven oatmeal](materials/woven-oatmeal/v001/asset.json), [olive linen](materials/olive-linen/v001/asset.json) and existing [smoked oak](materials/smoked-oak/v001/asset.json). Regenerate through `tools/library/publish_coastal_comfort.py`; published versions remain immutable.
+
+## Driftwood coastal pavilion collection
+
+Coastal House adopts these reusable variations alongside existing mushroom plaster and limestone. Source versions are preserved. Each folder includes its native file, measured or shader contract, preview and verification.
+
+| Driftwood timber | Matte bronze-gray roofing | Large limestone wall panel | Vault pendant |
+| --- | --- | --- | --- |
+| [![Driftwood timber](materials/coastal-driftwood/v001/preview.png)](materials/coastal-driftwood/v001/asset.json) | [![Bronze-gray metal](materials/bronze-gray-standing-seam/v001/preview.png)](materials/bronze-gray-standing-seam/v001/asset.json) | [![Four by two limestone panel](surfaces/honed-limestone-wall-panel-4x2/v001/preview.png)](surfaces/honed-limestone-wall-panel-4x2/v001/asset.json) | [![Vault pendant](fixtures/lighting-linear-pendant-4ft-vault-3in12/v001/preview.png)](fixtures/lighting-linear-pendant-4ft-vault-3in12/v001/asset.json) |
+
+Timber uses physical-meter grain oriented along actual members. The stone panel is 4 x 2 ft and 1.5 in thick; use rigid full-panel instances or documented real mesh perimeter cuts. The 4 ft pendant has a 90-inch drop and three mount faces for a 3:12 ceiling; do not stretch the original short-drop version. Review host contact, use and material response separately from reusable-asset validation.
+
+See [Coastal House adoption and host checks](../homes/coastal-house/assets/README.md) for these four assets in the model; the isolated asset receipts do not establish suitability in every future house.

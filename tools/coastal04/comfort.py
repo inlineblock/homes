@@ -12,7 +12,8 @@ from common.furnishings import bowl, soft
 from common.geometry import box, cyl
 from common.library import linked_collection
 from common.shared_assets import place
-from common.lighting_assets import load as load_lights, place as place_light
+from roof_design import ceiling_surface, ceiling_height, ceiling_slope, near_exposed_frame
+from mathutils import Vector
 from common.timber_materials import grain_uv
 
 
@@ -99,16 +100,40 @@ def build(root, M):
     box('Living original coastal art dune relief', (14.4, 26.42, 5.9),
         (3.0, .025, .52), M['counter'], .18)
 
-    lights = load_lights(root, keys=['linear'])
-    # Fixture origin is canopy top. A 31.848-inch fixed drop places its lens at
-    # Z=7.796 ft from the real 10.45 ft ceiling; no stretching or floating canopy.
-    place_light('Dining shared linear focal pendant', lights['linear'], 'linear',
-                (35, 29.1, 10.45), power=22, color=(1, .80, .58))
+    # This pinned variant has a real 90-inch drop and canopy plates cut to the
+    # 3:12 vault. The bar remains horizontal; neither asset nor wires are scaled.
+    slug='lighting-linear-pendant-4ft-vault-3in12'
+    fixture=linked_collection(root,'fixtures',slug,'v001')
+    x,y=35.,29.1
+    z,normal,ceiling_name=ceiling_surface(x,y)
+    sx,sy=ceiling_slope(x,y)
+    assert abs(sx+.25)<1e-7 and abs(sy)<1e-7, 'Dining pendant requires a 3:12 vault falling +X'
+    assert not near_exposed_frame(x,y,.35), 'Dining pendant overlaps an exposed frame'
+    pendant=place('Dining shared vault linear focal pendant',fixture,(x,y,z))
+    pendant['ceiling_mesh']=ceiling_name
+    pendant['mounting_height_ft']=z
+    pendant['diffuser_height_ft']=z-7.5
+    assert 8 <= z-7.5 <= 9, 'Dining focal light should sit 8-9 feet above the floor'
+    # Verify every canopy/anchor contact vertex against the actual host plane.
+    for obj in fixture.all_objects:
+        if obj.get('ceiling_contact_top_vertices'):
+            for vertex in obj.data.vertices[:4]:
+                local=obj.matrix_world@vertex.co
+                px,py,pz=x+local.x/g.F,y+local.y/g.F,z+local.z/g.F
+                assert abs(pz-ceiling_height(px,py))<.001, 'Pendant mounting face misses ceiling'
+    source=g.area('Dining vault pendant | warm dimmable source',(0,0,-7.505),
+                  (0,0,-8.505),22,3.90,(1,.80,.58),shape='RECTANGLE',size_y=.080)
+    source.parent=pendant
+    source['photometry']='Illustrative artistic illumination; no IES/product rating'
+    bpy.context.view_layer.update()
+    assert abs(source.matrix_world.translation.z/g.F-(z-7.505))<.0001
+    assert (source.matrix_world.to_quaternion()@Vector((0,0,-1))-Vector((0,0,-1))).length<1e-6
+    pendant['mounting_checked']='Three angled contact faces coincide with host ceiling; horizontal light bar; frame clearance checked'
 
 
 def dependencies():
     """Direct adopted collections; material links are recorded by the parent."""
     ids = ['furniture/' + slug for slug in FURNITURE]
-    ids.append('fixtures/lighting-linear-pendant-4ft')
+    ids.append('fixtures/lighting-linear-pendant-4ft-vault-3in12')
     return [{'id': asset, 'version': 'v001', 'path': '../../library/' + asset + '/v001/'}
             for asset in ids]

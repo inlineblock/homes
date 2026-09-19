@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "materials/coastal-driftwood",
+  "version": "v001",
+  "name": "Coastal driftwood | warm weathered oak | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original procedural asset; attribution Homes project contributors",
+  "derived_from": {
+    "id": "materials/smoked-oak",
+    "version": "v001",
+    "basis": "Existing original physical-scale shader recipe; revised color and surface response. Parent asset is preserved unchanged."
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_palette.py",
+    "shader_helper": "tools/common/timber_materials.py",
+    "command": "Blender --factory-startup --background --python tools/library/publish_coastal_palette.py -- publish"
+  },
+  "files": {
+    "blender": "coastal-driftwood.blend",
+    "preview": "preview.png"
+  },
+  "blender": {
+    "material": "Coastal driftwood | warm weathered oak | v001"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "placement": "Material-only asset. Host owns actual member/roof geometry, connections, supports, joints and assembly build-up.",
+  "host_integration": {
+    "checked": false,
+    "required": "Review actual sunny/shaded host views and use the same pinned timber on exposed interior members and exterior pergola where intended."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 64,
+    "resolution_px": [
+      1100,
+      1100
+    ],
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "lighting": "Neutral environment strength 0.32, neutral large key and grazing area light"
+  },
+  "limitations": "Original finish appearance, not a commercial product, actual weathering process or structural/durability/corrosion certification.",
+  "linear_rgb": {
+    "dark": [
+      0.06,
+      0.049,
+      0.039
+    ],
+    "mid": [
+      0.145,
+      0.123,
+      0.098
+    ],
+    "light": [
+      0.255,
+      0.226,
+      0.188
+    ]
+  },
+  "texture_scale": {
+    "uv_map": "Timber meters",
+    "U": "meters across grain",
+    "V": "meters along member longest local mesh axis",
+    "growth_width_m": 0.025,
+    "fiber_width_m": 0.003,
+    "bump_distance_m": 0.00065,
+    "application": "common.timber_materials.grain_uv(obj) on local applied mesh; apply_grain([material]) can process a material family"
+  },
+  "variation": "Independent per-object phase and restrained .84\u20131.16 tone multiplier. Physical UV meters remain unchanged across different member lengths. Inspect horizontal, vertical and rotated sloping members.",
+  "roughness_range": [
+    0.58,
+    0.82
+  ],
+  "changes_from_parent": "Warm weathered medium oak/taupe rather than deep smoked chocolate, with low-chroma brown grain, restrained board variation and matte finish. No whitewash or gray bleaching.",
+  "grain_limitations": "End faces use transverse grain, not species-specific growth-ring scans. Longest-local-axis mapping requires intentionally modeled/applied member geometry. It does not define a structural timber species or grade."
+}

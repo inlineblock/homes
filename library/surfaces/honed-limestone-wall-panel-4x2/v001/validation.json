@@ -1,0 +1,37 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      0.0,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.038100000470876694,
+      0.6096000075340271
+    ]
+  },
+  "dimensions_m": [
+    1.2192000150680542,
+    0.038100000470876694,
+    0.6096000075340271
+  ],
+  "back_plane_y_zero": true,
+  "bottom_z_zero": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 32,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_installation_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Native preview shows a complete upright 2:1 panel with fine beveled edges, visible thickness and ground contact. Linked honed limestone remains pale and subtly grained. Host close, sunlit and shaded review remains necessary.",
+    "scope": "Isolated geometry/material preview; no host installation or engineering claim."
+  }
+}

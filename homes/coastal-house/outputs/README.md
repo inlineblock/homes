@@ -2,11 +2,11 @@
 
 ![Coastal House — Imagegen photographic study](images/photo-hero.png)
 
-*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+*Photorealistic AI study. [Source and prompt](photo-study.md).*
 
-Warm coastal verandah concept: 2,720 gross enclosed sq ft, three bedrooms and two baths. The native gallery documents the editable model and real moving glass panels; the first image is a separately labeled AI photographic study.
+Raised coastal pavilion concept: 2,720 gross enclosed sq ft, three bedrooms and two baths. The native gallery documents the editable model and real moving glass panels; the first image is a separately labeled AI photographic study.
 
-**Current reviewed outputs:** all eleven native views, the Imagegen hero, the furnished floor/site plans and all eight booklet pages reflect the attached-pergola revision. Native checks confirm two outer posts, no house-side legs and full opening coverage. The current house IFC passes schema validation and Bonsai import. See the [output review receipt](../model/output-validation.json).
+**Reviewed current set:** thirteen native views, three separately labeled Imagegen studies, furnished floor/site plans, a measured roof section and a ten-page booklet. Native geometry, 37 asset pins, lighting and actual IFC/Bonsai import have been checked. [Review evidence and source hashes](../model/output-validation.json).
 
 ## Terrace / open
 
@@ -28,7 +28,25 @@ The matched open/closed views show the defining glass-wall feature through actua
 
 ![Living retreat with woven rug, olive cushions and coastal artwork](images/11-living-retreat.png)
 
-Linked furniture and textiles, warm mineral walls and the smoked-oak island support the more comfortable interior palette.
+Linked furniture and textiles, warm mineral walls and the driftwood island support the more comfortable interior palette.
+
+## Vaulted living and dining pavilion
+
+![Exposed driftwood frames and high glazing over the vaulted living and dining room](images/12-vaulted-living.png)
+
+![Imagegen photographic study of the driftwood vault and matching pergola](images/photo-vault.png)
+
+*AI interior photographic study. [Source and exact prompt](photo-vault-study.md).*
+
+A genuine 3:12 vault rises above the public rooms. Interior frames share their driftwood finish with the attached pergola and deep eaves; bedrooms and the lower kitchen retain flat ceiling zones.
+
+## Kitchen toward the vault — native view and photographic study
+
+![Native kitchen view into the open exposed-beam living and dining area](images/13-kitchen-to-vault.png)
+
+![Imagegen interior photographic study of the kitchen-to-vault view](images/photo-interior.png)
+
+The second image is an AI photographic interpretation of the native view above. It is not evidence of exact geometry or a built property. [Source and exact prompt](photo-interior-study.md).
 
 ## Serving counter / open and closed
 
@@ -48,7 +66,13 @@ Two covered parking spaces connect to the front road. The separate entry walk le
 
 ![Roof and parking](images/07-roof-and-parking.png)
 
-The 2:12 house gable and 1:12 carport are actual modeled slopes, with gutter/downpipe concepts.
+A raised 3:12 pavilion steps above lower 1:12 bedroom/entry and kitchen wings. The front wing falls south and the kitchen east; the carport retains its 1:12 slope. Bronze-gray metal, driftwood eaves, mushroom plaster and 4 x 2 ft limestone panels form the coordinated exterior palette. Drainage and roof assemblies remain unengineered concepts.
+
+## Measured roof and ceiling section
+
+![Measured pavilion roof and exposed-frame section with adjacent lower kitchen wing](plans/roof-section.png)
+
+Section A-A at Y=32 ft uses the native design dimensions: 14.5 ft bearing, 20 ft exterior ridge, actual sloping vault and 10.45 ft kitchen ceiling. It is a dimensioned concept, not a structural or construction detail.
 
 ## West garden
 
@@ -70,12 +94,14 @@ This detail shows the double vanity and soaking tub. The floor plan locates the 
 
 ![Dimensioned concept floor plan](plans/floor-plan.png)
 
-- [Design booklet — eight pages](plans/design-board.pdf)
+- [Ten-page design booklet](plans/design-board.pdf)
 - [Full-size floor plan PNG](plans/floor-plan.png)
 - [Vector floor plan](plans/floor-plan.svg)
-- [Vector arrival and roof site plan](plans/site-plan.svg)
+- [Vector arrival and roof site plan](plans/site-plan.svg) · [PNG preview](plans/site-plan.png)
+- [Full-size roof section PNG](plans/roof-section.png)
+- [Vector roof section](plans/roof-section.svg)
 - [Blender model](../model/coastal-house.blend): frame 1 closed, frame 120 open
-- [IFC4 architectural concept](../model/coastal-house.ifc): closed envelope, zero schema errors and verified Bonsai import
+- [IFC4 architectural concept](../model/coastal-house.ifc): closed envelope; schema validation and actual Bonsai geometry review passed
 - [Project brief, reproduction and limitations](../README.md)
 
 Only current reviewed outputs belong here. Stable filenames replace previous results; Git retains history. Draft renders and temporary PDF pages stay in ignored `work/`. The coastal backdrop is illustrative and the opening systems require product/site engineering.

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-linear-pendant-4ft-vault-3in12",
+  "version": "v001",
+  "name": "Four-foot linear pendant for a 3:12 vault, 90-inch drop",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192000150680542,
+    0.09143999963998795,
+    2.3999190106987953
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.04571999981999397,
+      -2.2860000133514404
+    ],
+    "max": [
+      0.6096000075340271,
+      0.04571999981999397,
+      0.11391899734735489
+    ]
+  },
+  "origin": "Ceiling plane at center of canopy Z=0; X long axis; ceiling slopes downward toward +X at 3:12; level diffuser bottom Z=-2.286 m.",
+  "front_direction": "Diffuser emits world/local -Z; level bar long axis X.",
+  "placement": {
+    "mounting_ceiling_slope_x": -0.25,
+    "mounting_ceiling_slope_y": 0,
+    "diffuser_drop_m": 2.286,
+    "allowed_variation": "Rigid translation and Z rotation only. Match roof gradient exactly. No tilt or scale; publish a sibling for different pitch or drop."
+  },
+  "installation": {
+    "mounting": "Canopy and two suspension-anchor upper faces touch the sloped ceiling; two vertical cables carry a horizontal bar. Host supplies structural backing and electrical route.",
+    "operating_envelope": {
+      "modeled_state": "Fixed suspended light; no motion",
+      "host_checked": false,
+      "notes": "Check headroom, table alignment, beam separation, ceiling anchorage and service access in the actual host."
+    }
+  },
+  "derived_from": {
+    "id": "fixtures/lighting-linear-pendant-4ft",
+    "version": "v001",
+    "basis": "Preserves original four-foot extrusion, opal lens and two-wire concept; replaces 31.848-inch suspension with a 90-inch drop and true 3:12 contact plates."
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_vault_pendant.py",
+    "parent_geometry": "tools/common/lighting_assets.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "lighting-linear-pendant-4ft-vault-3in12.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original asset; attribution Homes project contributors",
+  "illumination": "Low-emission diffuser. Host creates a dimmable downward rectangular light under the bar; artistic watts, not rated photometry.",
+  "limitations": "Original concept fixture, not a specified commercial product or structural/electrical approval."
+}

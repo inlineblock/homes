@@ -17,6 +17,26 @@
   },
   "asset_dependencies": [
     {
+      "id": "surfaces/honed-limestone-wall-panel-4x2",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-wall-panel-4x2/v001/"
+    },
+    {
+      "id": "materials/coastal-driftwood",
+      "version": "v001",
+      "path": "../../library/materials/coastal-driftwood/v001/"
+    },
+    {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/bronze-gray-standing-seam/v001/"
+    },
+    {
+      "id": "materials/mushroom-mineral-plaster",
+      "version": "v001",
+      "path": "../../library/materials/mushroom-mineral-plaster/v001/"
+    },
+    {
       "id": "materials/woven-oatmeal",
       "version": "v001",
       "path": "../../library/materials/woven-oatmeal/v001/"
@@ -177,16 +197,16 @@
       "path": "../../library/furniture/olive-linen-cushion/v001/"
     },
     {
-      "id": "fixtures/lighting-linear-pendant-4ft",
+      "id": "fixtures/lighting-linear-pendant-4ft-vault-3in12",
       "version": "v001",
-      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft-vault-3in12/v001/"
     }
   ],
   "site_concept": {
     "road": "front/south illustration only",
     "parking": "Detached 26 x 24 ft two-car carport, east side; 26 ft driveway",
     "entry": "6 ft front path plus 4 ft crosswalk behind parked cars",
-    "roof": "House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval",
+    "roof": "Raised seaward gable 3:12 over vaulted living/dining, lower front/kitchen mono-pitches 1:12 and detached carport 1:12; stepped flashed junctions and outward runoff, unengineered concept.",
     "terrace": "32 x 15.15 ft wall-attached slatted timber pergola spanning the full 30 ft sliding wall, west conversation seating and low side screen; shade only, structure unengineered."
   },
   "openings": {
@@ -218,12 +238,126 @@
     "architectural_model": "model/coastal-house.ifc",
     "primary_render": "outputs/images/01-terrace-open.png",
     "floor_plan": "outputs/plans/floor-plan.svg",
-    "presentation_sheet": "outputs/plans/design-board.pdf"
+    "presentation_sheet": "outputs/plans/design-board.pdf",
+    "roof_section": "outputs/plans/roof-section.svg",
+    "vaulted_interior": "outputs/images/12-vaulted-living.png",
+    "kitchen_to_vault": "outputs/images/13-kitchen-to-vault.png",
+    "interior_photographic_study": "outputs/images/photo-interior.png",
+    "vault_photographic_study": "outputs/images/photo-vault.png",
+    "exterior_photographic_study": "outputs/images/photo-hero.png"
   },
   "modeled_planting_counts": {
     "grass": 170,
     "shrub": 51,
     "olive": 6
   },
-  "design_direction": "Warm coastal verandah: shaded dining, outdoor conversation area, planted entry court, smoked-oak island and tactile textiles."
+  "facade_panel_schedule": {
+    "asset": "surfaces/honed-limestone-wall-panel-4x2",
+    "version": "v001",
+    "full_linked_panels": 5,
+    "bespoke_edge_cuts": 31,
+    "nominal_course_height_ft": 2.0,
+    "joint_ft": 0.025
+  },
+  "design_direction": "Driftwood coastal pavilion: a raised glazed living-room gable, real vaulted ceiling and exposed beams matching the attached pergola; lower bedroom/kitchen wings and muted bronze-gray roofs.",
+  "roof_pavilion": {
+    "main_pavilion": {
+      "wall_bounds_ft": [
+        0.0,
+        20.0,
+        44.0,
+        40.0
+      ],
+      "pitch": "3:12",
+      "bearing_ft": 14.5,
+      "ridge_ft": 20.0,
+      "ridge_axis": "front-to-rear at x=22 ft",
+      "roof_bounds_ft": [
+        -3.0,
+        18.0,
+        47.0,
+        43.0
+      ]
+    },
+    "lower_wings": {
+      "pitch": "1:12",
+      "front_roof_bounds_ft": [
+        -2.0,
+        -3.75,
+        70.0,
+        20.0
+      ],
+      "kitchen_roof_bounds_ft": [
+        44.0,
+        20.0,
+        71.0,
+        43.0
+      ],
+      "front_drainage": "south",
+      "kitchen_drainage": "east"
+    },
+    "ceiling": {
+      "flat_ft": 10.45,
+      "vault_rectangles_ft": [
+        [
+          0.0,
+          26.0,
+          18.0,
+          40.0
+        ],
+        [
+          18.0,
+          20.0,
+          44.0,
+          40.0
+        ]
+      ],
+      "vault_underside_offset_from_roof_ft": 0.7,
+      "exposed_frame_y_ft": [
+        20.5,
+        32.0,
+        39.5
+      ],
+      "frame_post_x_ft": [
+        0.45,
+        43.55
+      ],
+      "rafter_width_depth_ft": [
+        0.48,
+        0.75
+      ],
+      "ridge_beam_width_depth_ft": [
+        0.6,
+        0.9
+      ]
+    },
+    "roof_skin_thickness_ft": 0.28,
+    "drainage": {
+      "high_pavilion": "Side gutters fall rearward to external downpipes; no valley into lower wings",
+      "downpipe_xy_ft": [
+        [
+          -3.17,
+          43
+        ],
+        [
+          47.17,
+          43
+        ],
+        [
+          -2,
+          -3.91
+        ],
+        [
+          70,
+          -3.91
+        ],
+        [
+          71.17,
+          43
+        ]
+      ],
+      "roof_steps": "Flashed vertical abutments and a front/kitchen roof-step riser"
+    },
+    "limits": "Original concept geometry. Roof assemblies, spans, uplift, connections, condensation control and drainage capacity are unengineered."
+  }
 }

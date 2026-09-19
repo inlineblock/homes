@@ -188,9 +188,7 @@ class GalleryVerifier:
         if missing:
             self.fail(scope, 'needs distinct exterior images for missing roles: ' + ', '.join(sorted(missing)))
 
-    def photographic_hero(self, home, manifest, renders, scope):
-        label = f'{scope} photographic_hero'
-        hero = manifest.get('photographic_hero')
+    def photographic_study(self, home, hero, renders, label, first=False):
         if not isinstance(hero, dict):
             self.fail(label, 'needs a separately registered AI photographic study')
             return
@@ -217,9 +215,12 @@ class GalleryVerifier:
             self.fail(label, str(error))
         for readme in (home / 'README.md', home / 'outputs/README.md'):
             try:
-                first = next(markdown_images(readme.read_text(encoding='utf-8')), None)
-                if first is None or local_path(readme.parent, first[1]) != path:
-                    self.fail(label, f'{readme.relative_to(self.root)} must lead with its photographic study')
+                if path not in self.embeds(readme):
+                    self.fail(label, f'{readme.relative_to(self.root)} must embed its photographic study')
+                if first:
+                    leading = next(markdown_images(readme.read_text(encoding='utf-8')), None)
+                    if leading is None or local_path(readme.parent, leading[1]) != path:
+                        self.fail(label, f'{readme.relative_to(self.root)} must lead with its photographic study')
             except (OSError, UnicodeError, ValueError) as error:
                 self.fail(label, str(error))
         if path not in self.embeds(self.root / 'README.md'):
@@ -260,7 +261,17 @@ class GalleryVerifier:
                 else:
                     renders[path] = item
         self.coverage(renders, scope)
-        self.photographic_hero(home, manifest, renders, scope)
+        self.photographic_study(home, manifest.get('photographic_hero'), renders, f'{scope} photographic_hero', first=True)
+        studies = manifest.get('photographic_interiors', [])
+        if not isinstance(studies, list):
+            self.fail(scope, 'photographic_interiors must be a list')
+        else:
+            for index, study in enumerate(studies):
+                self.photographic_study(home, study, renders, f'{scope} photographic_interiors[{index}]')
+                source = study.get('source_render') if isinstance(study, dict) else None
+                native = next((item for item in renders.values() if item.get('path') == source), None)
+                if native and native.get('view') != 'interior':
+                    self.fail(scope, 'interior photographic study needs an interior native source')
         levels = self.entries(manifest, 'required_levels', scope)
         if not levels or any(not isinstance(level, str) or not level.strip() for level in levels):
             self.fail(scope, 'required_levels must contain nonempty level names')

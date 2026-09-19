@@ -1,7 +1,7 @@
 {
   "home": "coastal-house",
   "native_library_pins_match_manifest": true,
-  "asset_versions": 33,
+  "asset_versions": 37,
   "assets": [
     {
       "id": "appliances/built-in-oven-30in",
@@ -74,11 +74,11 @@
       "adopted_parent_dependencies": []
     },
     {
-      "id": "fixtures/lighting-linear-pendant-4ft",
+      "id": "fixtures/lighting-linear-pendant-4ft-vault-3in12",
       "version": "v001",
       "direct_placements_or_material_assignments": 1,
       "examples": [
-        "Dining shared linear focal pendant"
+        "Dining shared vault linear focal pendant"
       ],
       "adopted_parent_dependencies": []
     },
@@ -302,25 +302,57 @@
       "adopted_parent_dependencies": []
     },
     {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 159,
+      "examples": [
+        "Pavilion west 3 in 12 roof (material)",
+        "Pavilion east 3 in 12 roof (material)",
+        "Front wing 1 in 12 roof (material)",
+        "Kitchen wing 1 in 12 roof (material)",
+        "Pavilion standing seam (material)",
+        "Pavilion standing seam.001 (material)",
+        "Pavilion standing seam.002 (material)",
+        "Pavilion standing seam.003 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/coastal-driftwood",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 156,
+      "examples": [
+        "Pavilion deep timber eave 00 (material)",
+        "Pavilion deep timber eave 01 (material)",
+        "Pavilion deep timber eave 02 (material)",
+        "Pavilion deep timber eave 03 (material)",
+        "Pavilion deep timber eave 04 (material)",
+        "Pavilion deep timber eave 05 (material)",
+        "Pavilion sculpted timber gable edge (material)",
+        "Pavilion sculpted timber gable edge.001 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
       "id": "materials/coastal-honed-limestone",
       "version": "v001",
-      "direct_placements_or_material_assignments": 374,
+      "direct_placements_or_material_assignments": 217,
       "examples": [
         "Gross enclosed floor (material)",
-        "Limestone facade ashlar (material)",
-        "Limestone facade ashlar.001 (material)",
-        "Limestone facade ashlar.002 (material)",
-        "Limestone facade ashlar.003 (material)",
-        "Limestone facade ashlar.004 (material)",
-        "Limestone facade ashlar.005 (material)",
-        "Limestone facade ashlar.006 (material)"
+        "Limestone facade bespoke perimeter cut (material)",
+        "Limestone facade bespoke perimeter cut.001 (material)",
+        "Limestone facade bespoke perimeter cut.002 (material)",
+        "Limestone facade bespoke perimeter cut.003 (material)",
+        "Limestone facade bespoke perimeter cut.004 (material)",
+        "Limestone facade bespoke perimeter cut.005 (material)",
+        "Limestone facade bespoke perimeter cut.006 (material)"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "materials/coastal-white-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 294,
+      "direct_placements_or_material_assignments": 103,
       "examples": [
         "Front pivot entry leaf (material)",
         "Pocket removable cladding skin (material)",
@@ -330,6 +362,22 @@
         "Primary east open oak door leaf (material)",
         "Primary bath front open oak door leaf (material)",
         "Bath closet partition open oak door leaf (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/mushroom-mineral-plaster",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 33,
+      "examples": [
+        "Front mineral render (material)",
+        "Front mineral render.001 (material)",
+        "Front mineral render.002 (material)",
+        "Front mineral render.003 (material)",
+        "Front mineral render.004 (material)",
+        "Front window sill (material)",
+        "Front window head (material)",
+        "Front window sill.001 (material)"
       ],
       "adopted_parent_dependencies": []
     },
@@ -347,23 +395,17 @@
     {
       "id": "materials/smoked-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 112,
-      "examples": [
-        "Entry canopy timber column (material)",
-        "Entry canopy timber column.001 (material)",
-        "Entry canopy supporting timber beam (material)",
-        "Entry canopy supporting timber beam.001 (material)",
-        "Entry canopy warm timber soffit (material)",
-        "Entry canopy warm timber soffit.001 (material)",
-        "Entry canopy warm timber soffit.002 (material)",
-        "Entry canopy warm timber soffit.003 (material)"
-      ],
-      "adopted_parent_dependencies": []
+      "direct_placements_or_material_assignments": 0,
+      "examples": [],
+      "adopted_parent_dependencies": [
+        "furniture/coastal-outdoor-lounge-chair",
+        "furniture/coastal-outdoor-sofa"
+      ]
     },
     {
       "id": "materials/warm-limestone-plaster",
       "version": "v001",
-      "direct_placements_or_material_assignments": 64,
+      "direct_placements_or_material_assignments": 68,
       "examples": [
         "Front mineral render (material)",
         "Front mineral render.001 (material)",
@@ -400,6 +442,19 @@
         "Shared limestone terrace paver.005",
         "Shared limestone terrace paver.006",
         "Shared limestone terrace paver.007"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "surfaces/honed-limestone-wall-panel-4x2",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 5,
+      "examples": [
+        "Shared limestone facade full panel",
+        "Shared limestone facade full panel.001",
+        "Shared limestone facade full panel.002",
+        "Shared limestone facade full panel.003",
+        "Shared limestone facade full panel.004"
       ],
       "adopted_parent_dependencies": []
     }

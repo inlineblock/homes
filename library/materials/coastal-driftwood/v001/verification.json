@@ -1,0 +1,23 @@
+{
+  "native_linked_in_fresh_process": true,
+  "native_reopened": true,
+  "blender": "4.5.14 LTS",
+  "material": "Coastal driftwood | warm weathered oak | v001",
+  "external_dependencies": [],
+  "texture_checks": {
+    "vertical": {
+      "grain_local_axis": "Z",
+      "max_uv_meter_edge_error": 0.0
+    },
+    "horizontal": {
+      "grain_local_axis": "X",
+      "max_uv_meter_edge_error": 0.0
+    },
+    "sloping": {
+      "grain_local_axis": "Z",
+      "max_uv_meter_edge_error": 0.0
+    }
+  },
+  "host_integration_checked": false,
+  "visual_preview_review": "Inspected actual 1100 x 1100 neutral Cycles CPU preview: medium weathered warm gray-brown oak with visible separate growth grain and restrained board variation. Vertical boards and horizontal beams have coherent lengthwise grain. It is lighter than smoked oak, with no whitewash, deep chocolate or blue-gray cast. Host sunny/shaded behavior remains to be reviewed."
+}

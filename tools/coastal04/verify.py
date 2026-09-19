@@ -71,7 +71,7 @@ obstacles=[]
 for o in s.objects:
     if o.type!='MESH' or o.hide_render:continue
     groups=[c.name for c in o.users_collection]
-    if not any(c.startswith(('01 Architecture','03 Kitchen','04 Furnishings')) for c in groups):continue
+    if not any(c.startswith(('01 Architecture','03 Kitchen','04 Furnishings','09 Roof')) for c in groups):continue
     bb=bounds(o)
     if pedestrian_height(bb):obstacles.append((o.name,bb))
 obstacles.extend(linked_obstacles)
@@ -180,7 +180,7 @@ beams=[outer,ledger]+[bounds(o) for o in s.objects if o.name.startswith('Veranda
 assert len(beams)==4
 slats=[bounds(o) for o in s.objects if o.name.startswith('Verandah open shade slat')]
 assert len(slats)==PERGOLA_SLAT_COUNT and all(abs(bb[2]-PERGOLA_BEAM_TOP)<.01 and abs(bb[5]-PERGOLA_SLAT_TOP)<.01 for bb in slats)
-soffit=[bounds(o) for o in s.objects if o.name.startswith('Rear oak soffit slat')]
+soffit=[bounds(o) for o in s.objects if o.name.startswith(('Pavilion deep timber eave 02','Pavilion deep timber eave 03'))]
 assert soffit and max(bb[5] for bb in slats)<min(bb[2] for bb in soffit),'pergola intersects main roof soffit'
 for o in columns:
     bb=bounds(o)
@@ -194,14 +194,25 @@ for prefix,center in [('Pearl coastal coupe',79.5),('Graphite coastal coupe',92.
     bb=[bounds(o) for o in s.objects if o.name.startswith(prefix)]
     assert min(v[0] for v in bb)>center-6 and max(v[3] for v in bb)<center+6
     assert min(v[1] for v in bb)>-27 and max(v[4] for v in bb)<-3
-assert len([o for o in s.objects if o.name.startswith('Rainwater downpipe')])==4
-from envelope import ROOF_EAVE,ROOF_RIDGE
-assert abs((ROOF_RIDGE-ROOF_EAVE)/23.75-2/12)<1e-6
-report={'native_model_reopened':True,'gross_enclosed_area_sqft':round(area,2),'modeled_beds':3,'relative_libraries':links,'opening_travel':{'sampled_frames':[1,20,40,60,80,100,120],'panel_component_checks':checks,'no_panel_wall_collisions':True,'both_clear_openings_unobstructed_by_panels':True},'entry':{'clear_width_ft':round(entry_clear,2),'east_enclosure_length_ft':12,'guest_wardrobe_bays':6,'wardrobe_bay_width_ft':2,'wardrobe_depth_ft':2},'circulation':{'swept_diameter_inches':30,'routes':list(routes),'actual_geometry_checked':True},'counter':{'stone_top_ft':round(bridge[5],3),'closed_window_bottom_ft':round(windowbottom,3),'no_glass_stone_intersection':True,'outdoor_knee_overhang_inches':round(overhang*12,2)},'arrival':{'carport_ft':[26,24],'cars':2,'routes':list(arrival_routes),'swept_route_diameter_inches':36,'driver_approach_diameter_inches':30,'driver_routes':list(driver_routes),'actual_geometry_checked':True,'limits':'Parked envelope and walking path only; no turning simulation or full car-door sweep.'},'roof':{'house_pitch':'2:12','carport_pitch':'1:12','modeled_house_downpipes':4,'drainage_sizing_verified':False},'limits':'Concept geometry only. No weatherproofing, thermal, structural, impact/flood or accessibility approval.'}
+from pavilion_roof import verify_geometry as verify_roof
+roof_evidence=verify_roof(s)
+report={'native_model_reopened':True,'gross_enclosed_area_sqft':round(area,2),'modeled_beds':3,'relative_libraries':links,'opening_travel':{'sampled_frames':[1,20,40,60,80,100,120],'panel_component_checks':checks,'no_panel_wall_collisions':True,'both_clear_openings_unobstructed_by_panels':True},'entry':{'clear_width_ft':round(entry_clear,2),'east_enclosure_length_ft':12,'guest_wardrobe_bays':6,'wardrobe_bay_width_ft':2,'wardrobe_depth_ft':2},'circulation':{'swept_diameter_inches':30,'routes':list(routes),'actual_geometry_checked':True},'counter':{'stone_top_ft':round(bridge[5],3),'closed_window_bottom_ft':round(windowbottom,3),'no_glass_stone_intersection':True,'outdoor_knee_overhang_inches':round(overhang*12,2)},'arrival':{'carport_ft':[26,24],'cars':2,'routes':list(arrival_routes),'swept_route_diameter_inches':36,'driver_approach_diameter_inches':30,'driver_routes':list(driver_routes),'actual_geometry_checked':True,'limits':'Parked envelope and walking path only; no turning simulation or full car-door sweep.'},'roof':roof_evidence,'limits':'Concept geometry only. No weatherproofing, thermal, structural, impact/flood or accessibility approval.'}
 report['circulation'].update({'linked_instance_parents_checked':len(linked_parent_names),'distance_checks':interior_route_evidence})
 report['arrival'].update({'includes_linked_furniture_and_plant_geometry':True,'distance_checks':arrival_route_evidence,'driver_distance_checks':driver_route_evidence})
 report['terrace_circulation']={'swept_route_diameter_inches':36,'routes':terrace_routes,'actual_geometry_checked':True,'distance_checks':terrace_route_evidence,'limits':'Static furniture only; no occupied seating, moving chair, mobility-device or terrain-grade approval.'}
 report['verandah']=verandah_evidence
+from lighting_hardware import verify_saved
+lighting_evidence=verify_saved(s)
+(HOME/'model/lighting-validation.json').write_text(json.dumps(lighting_evidence,indent=2)+'\n')
+report['lighting']={'actual_ceiling_openings':lighting_evidence['total_actual_ceiling_openings'],'regions':lighting_evidence['downlights'],'pendant_ceiling_contact_checked':True}
+# Artistic bounce emitters remain wholly below their local ceiling, not through roofs.
+for name in ['Daylight bounce living','Daylight bounce dining','Daylight bounce kitchen']:
+    lamp=bpy.data.objects[name]
+    assert (lamp.matrix_world.to_quaternion()@Vector((0,0,-1))-Vector((0,0,-1))).length<1e-6
+    assert lamp.location.z/F < 10.45
+    assert lamp.location.y/F + lamp.data.size/(2*F) < 39.5
+    assert lamp.location.x/F - lamp.data.size/(2*F) > .5
+    assert lamp.location.x/F + lamp.data.size/(2*F) < 67.5
 s.frame_set(1);bpy.context.view_layer.update()
 (HOME/'model/model-validation.json').write_text(json.dumps(report,indent=2)+'\n');print('COASTAL_VERIFIED',json.dumps(report),flush=True)
 # IFC exporter can follow this script: leave scene at closed frame, do not save blend.

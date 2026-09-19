@@ -1,0 +1,272 @@
+{
+  "reopened_native_geometry_checked": true,
+  "roof_metadata_matches_current_design": true,
+  "downlights": {
+    "vault": 8,
+    "flat": 17
+  },
+  "total_actual_ceiling_openings": 25,
+  "opening_evidence": "Each center ray passes through, four collar rays hit the actual ceiling mounting plane",
+  "fixtures": [
+    {
+      "fixture": "Shared recessed downlight",
+      "region": "vault",
+      "ceiling": "Pavilion west sloping ceiling",
+      "mounting_height_ft": 15.300001,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.6125737938737229e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.001",
+      "region": "vault",
+      "ceiling": "Pavilion west sloping ceiling",
+      "mounting_height_ft": 18.799999,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.002",
+      "region": "vault",
+      "ceiling": "Pavilion west sloping ceiling",
+      "mounting_height_ft": 15.300001,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.6125737938737229e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.003",
+      "region": "vault",
+      "ceiling": "Pavilion west sloping ceiling",
+      "mounting_height_ft": 18.799999,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.004",
+      "region": "vault",
+      "ceiling": "Pavilion east sloping ceiling",
+      "mounting_height_ft": 17.549999,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.005",
+      "region": "vault",
+      "ceiling": "Pavilion east sloping ceiling",
+      "mounting_height_ft": 14.800001,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.006",
+      "region": "vault",
+      "ceiling": "Pavilion east sloping ceiling",
+      "mounting_height_ft": 17.549999,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.007",
+      "region": "vault",
+      "ceiling": "Pavilion east sloping ceiling",
+      "mounting_height_ft": 14.800001,
+      "normal_error": 1.6809276003656503e-07,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 1.5644263720574966e-06
+    },
+    {
+      "fixture": "Shared recessed downlight.008",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.009",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.010",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.011",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.012",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.013",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.014",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.015",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.016",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.017",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.018",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.019",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.020",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.021",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.022",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.023",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    },
+    {
+      "fixture": "Shared recessed downlight.024",
+      "region": "flat",
+      "ceiling": "Continuous warm white ceiling",
+      "mounting_height_ft": 10.45,
+      "normal_error": 0.0,
+      "open_center_ray": true,
+      "solid_collar_rays": 4,
+      "maximum_collar_contact_error_ft": 0.0
+    }
+  ],
+  "pendant": {
+    "linked_variant": "lighting-linear-pendant-4ft-vault-3in12/v001",
+    "mounting_faces": 3,
+    "actual_ceiling_contact_vertices": 12,
+    "maximum_contact_error_ft": 1.5644263720574966e-06,
+    "level_diffuser_height_ft": 8.549999220790513,
+    "vertical_emission": true,
+    "unscaled_asset": true
+  },
+  "limits": "Native geometry and placement checks; no rated photometry, electrical or structural approval."
+}

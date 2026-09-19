@@ -2,15 +2,16 @@
   "schema": "IFC4",
   "counts": {
     "IfcSlab": 1,
-    "IfcWall": 283,
-    "IfcMember": 197,
-    "IfcWindow": 47,
+    "IfcWall": 108,
+    "IfcMember": 235,
+    "IfcWindow": 60,
     "IfcDoor": 46,
-    "IfcCovering": 200,
-    "IfcRoof": 209,
-    "IfcColumn": 8,
+    "IfcCovering": 254,
+    "IfcRoof": 18,
+    "IfcColumn": 14,
+    "IfcBeam": 20,
+    "IfcFlowSegment": 25,
     "IfcPlate": 7,
-    "IfcBeam": 13,
     "IfcBuildingElementProxy": 1
   },
   "storeys": [

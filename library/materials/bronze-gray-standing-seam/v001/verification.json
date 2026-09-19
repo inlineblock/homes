@@ -1,0 +1,14 @@
+{
+  "native_linked_in_fresh_process": true,
+  "native_reopened": true,
+  "blender": "4.5.14 LTS",
+  "material": "Bronze-gray standing seam | matte coastal | v001",
+  "external_dependencies": [],
+  "texture_checks": {
+    "roughness": 0.62,
+    "metallic": 0.16,
+    "coordinates": "World position in meters"
+  },
+  "host_integration_checked": false,
+  "visual_preview_review": "Inspected actual 1100 x 1100 neutral Cycles CPU preview: muted warm bronze-gray coated metal, matte grazing response, actual raised seams and folded edge remain legible. No bright silver or copper-orange glare. Host roof and trim reflections remain to be reviewed."
+}

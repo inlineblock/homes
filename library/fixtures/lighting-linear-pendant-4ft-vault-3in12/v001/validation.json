@@ -1,0 +1,11 @@
+{
+  "software": "4.5.14 LTS",
+  "fresh_link": true,
+  "dimensions_match": true,
+  "three_mounting_faces_match_3in12_plane": true,
+  "diffuser_level": true,
+  "drop_inches": 90,
+  "mesh_objects": 8,
+  "preview": "preview.png",
+  "host_installation_checked": false
+}

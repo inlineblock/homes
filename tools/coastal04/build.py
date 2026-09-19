@@ -23,7 +23,18 @@ collection('02 Architecture | enclosed floor')
 box('Gross enclosed floor',(34,20,-.23),(68,40,.46),M['stone'],.01)
 collection('01 Architecture | exterior and interior walls')
 def wall(name,loc,size,mat=None):
-    o=box(name,loc,size,mat or M['plaster'],.025);o['ifc_class']='IfcWall';return o
+    o=box(name,loc,size,mat or M['plaster'],.025);o['ifc_class']='IfcWall'
+    # Exterior wall faces gain a quiet mushroom mineral finish while room faces
+    # retain the warm interior plaster. No change to published material assets.
+    axis_sign = ((1,-1) if name.startswith('Front ') and name!='Front pivot entry leaf'
+                 else (0,-1) if name.startswith('West ')
+                 else (0,1) if name.startswith('East ') else None)
+    if axis_sign and mat is None:
+        o.data.materials.append(M['exterior_plaster'])
+        axis,sign=axis_sign
+        for face in o.data.polygons:
+            if face.normal[axis]*sign>.99:face.material_index=1
+    return o
 # Front elevation: broad bedroom glazing and a real 4-foot entry.
 for a,b in [(0,3),(15,18),(26,28),(39,44),(54,68)]:wall('Front mineral render',((a+b)/2,.20,5.25),(b-a,.40,10.5))
 for a,b in [(3,15),(28,39),(44,54)]:
@@ -58,12 +69,9 @@ wall('Serving window low wall',(55.5,40,1.42),(15.0,.35,2.84))
 wall('Great room structural header concept',(22.3,40,10.05),(35.4,1.25,.90))
 wall('Serving window head',(55.6,40,9.61),(15.5,1.25,1.78))
 sliding('Great room',DOOR,M);sliding('Serving window',WINDOW,M)
-# Fine stone coursing on outer piers; geometric joints remain quiet in daylight.
-for a,b in [(0,4.5),(40.3,47.7),(63.4,68)]:
-    for row in range(21):
-        z=.25+row*.5
-        count=math.ceil((b-a)/2.25);w=(b-a)/count
-        for i in range(count):box('Limestone facade ashlar', (a+(i+.5)*w,40.65,z),(w-.015,.08,.48),M['stone'],.009)
+# Large-format shared limestone facing, with explicit field-edge cuts.
+from facade import build as build_facade
+facade_counts=build_facade(ROOT)
 for name,a,b,opens in WALLS:
     interior_wall(name,a,b,opens,M['plaster'],10.4)
     # Timber leaves are parked along the inside wall rather than filling openings.
@@ -168,9 +176,9 @@ collection('10 Lighting and cameras')
 world=bpy.data.worlds.new('Bright coastal daylight');bpy.context.scene.world=world;world.use_nodes=True
 n=world.node_tree.nodes;l=world.node_tree.links;sky=n.new('ShaderNodeTexSky');sky.sky_type='NISHITA';sky.sun_elevation=math.radians(39);sky.sun_rotation=math.radians(225);sky.sun_size=math.radians(2.0);sky.air_density=.8;sky.dust_density=.3;l.new(sky.outputs[0],n.get('Background').inputs['Color']);n.get('Background').inputs['Strength'].default_value=.32
 # Broad soft fills act as bounced daylight, restrained enough to retain wood and linen texture.
-area('Daylight bounce living',(15,36,9.7),(15,27,1),420,12,(.90,.95,1))
-area('Daylight bounce dining',(35,36,9.7),(35,26,1),300,10,(.93,.96,1))
-area('Daylight bounce kitchen',(55,36,9.7),(55,27,1),500,12,(.93,.96,1))
+area('Daylight bounce living',(15,33,9.7),(15,33,1),420,10,(.90,.95,1))
+area('Daylight bounce dining',(35,33,9.7),(35,33,1),300,8,(.93,.96,1))
+area('Daylight bounce kitchen',(55,33,9.7),(55,33,1),500,8,(.93,.96,1))
 area('Primary bath diffuse bounce',(10,20,9.5),(10,20,1),180,7,(1,.95,.88))
 area('Kitchen warm under hood',(65,32.5,5.9),(66,32.5,3),25,2,(1,.88,.7))
 views={
@@ -184,7 +192,9 @@ views={
  '08 West garden':((-48,72,16),(26,19,5),40),
  '09 Entry hall':((20,2.2,5.5),(26,23,4.8),22),
  '10 Primary bath':((6.6,18.7,5.5),(10.5,23.7,3.8),17),
- '11 Living retreat':((25,37,5.4),(11,29.5,3.8),24),
+ '11 Living retreat':((25,37,5.4),(11,29.5,5.4),24),
+ '12 Vaulted living':((38,24,5.8),(23,38,10.8),24),
+ '13 Kitchen to vault':((60,23.2,5.4),(28,37,7.8),22),
 }
 for name,args in views.items():camera(name,*args)
 # Install dense linked planting after furniture to avoid repeated scene evaluation during authoring.
@@ -202,10 +212,15 @@ for screen in bpy.data.screens:
     for ar in screen.areas:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
 bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'));bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'))
-deps=['materials/woven-oatmeal','materials/olive-linen','materials/warm-limestone-plaster','materials/smoked-oak','furniture/coastal-outdoor-sofa','furniture/coastal-outdoor-lounge-chair','materials/coastal-white-oak','materials/coastal-honed-limestone','furniture/coastal-oak-counter-stool','fixtures/opal-globe-pendant']
-meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies()+comfort_dependencies(),'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+deps=['surfaces/honed-limestone-wall-panel-4x2','materials/coastal-driftwood','materials/bronze-gray-standing-seam','materials/mushroom-mineral-plaster','materials/woven-oatmeal','materials/olive-linen','materials/warm-limestone-plaster','materials/smoked-oak','furniture/coastal-outdoor-sofa','furniture/coastal-outdoor-lounge-chair','materials/coastal-white-oak','materials/coastal-honed-limestone','furniture/coastal-oak-counter-stool','fixtures/opal-globe-pendant']
+meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies()+comfort_dependencies(),'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'Raised seaward gable 3:12 over vaulted living/dining; lower front/kitchen and carport roofs 1:12; unengineered drainage concept'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+meta['deliverables'].update({'roof_section':'outputs/plans/roof-section.svg','vaulted_interior':'outputs/images/12-vaulted-living.png','kitchen_to_vault':'outputs/images/13-kitchen-to-vault.png','interior_photographic_study':'outputs/images/photo-interior.png','vault_photographic_study':'outputs/images/photo-vault.png','exterior_photographic_study':'outputs/images/photo-hero.png'})
 meta['modeled_planting_counts']=garden_counts
-meta['design_direction']='Warm coastal verandah: shaded dining, outdoor conversation area, planted entry court, smoked-oak island and tactile textiles.'
+meta['facade_panel_schedule']=facade_counts
+meta['design_direction']='Driftwood coastal pavilion: a raised glazed living-room gable, real vaulted ceiling and exposed beams matching the attached pergola; lower bedroom/kitchen wings and muted bronze-gray roofs.'
+from roof_design import roof_metadata
+meta['roof_pavilion']=roof_metadata()
+meta['site_concept']['roof']='Raised seaward gable 3:12 over vaulted living/dining, lower front/kitchen mono-pitches 1:12 and detached carport 1:12; stepped flashed junctions and outward runoff, unengineered concept.'
 meta['site_concept']['terrace']='32 x 15.15 ft wall-attached slatted timber pergola spanning the full 30 ft sliding wall, west conversation seating and low side screen; shade only, structure unengineered.'
 # A material may be shared by several furniture families; list each direct asset once.
 meta['asset_dependencies']=list({(d['id'],d['version']):d for d in meta['asset_dependencies']}.values())

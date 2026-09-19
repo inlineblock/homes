@@ -11,7 +11,7 @@ The six-panel 30-foot door and four-panel 12-foot window are original spatial pl
 
 ## Roof and drainage revision
 
-A lightly pitched roof replaces the original flat visual mass. This is a concept, not a selected roofing assembly. [McElroy Metal's standing-seam overview](https://www.mcelroymetal.com/standing-seam-metal-roofing-systems) distinguishes profile-specific slope limits; many profiles need steeper pitches than specialized mechanically seamed systems. Do not assume any standing-seam product works at the shown 2:12 house / 1:12 carport pitches.
+A lightly pitched roof replaces the original flat visual mass. This is a concept, not a selected roofing assembly. [McElroy Metal's standing-seam overview](https://www.mcelroymetal.com/standing-seam-metal-roofing-systems) distinguishes profile-specific slope limits; many profiles need steeper pitches than specialized mechanically seamed systems. Do not assume any standing-seam product works at the shown 3:12 raised pavilion and 1:12 lower-wing/carport pitches.
 
 [PNNL Building America gutter guidance](https://basc.pnnl.gov/resource-guides/gutters-and-downspouts) supports positively sloped collection and discharge away from foundations. The model illustrates gutter fall, four house downpipes and buried conveyance away from the building. Pipe/gutter capacity, groundwater, flood elevation, legal outfall, coastal corrosion and construction details are unverified because no site is supplied.
 

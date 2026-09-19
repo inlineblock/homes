@@ -4,7 +4,9 @@
   "modeled_beds": 3,
   "relative_libraries": [
     "//../../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+    "//../../../library/materials/bronze-gray-standing-seam/v001/bronze-gray-standing-seam.blend",
     "//../../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+    "//../../../library/materials/coastal-driftwood/v001/coastal-driftwood.blend",
     "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
     "//../../../library/furniture/coastal-oak-counter-stool/v001/coastal-oak-counter-stool.blend",
     "//../../../library/furniture/coastal-outdoor-lounge-chair/v001/coastal-outdoor-lounge-chair.blend",
@@ -14,11 +16,13 @@
     "//../../../library/hardware/door-lever-satin-bronze/v001/door-lever-satin-bronze.blend",
     "//../../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend",
     "//../../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend",
+    "//../../../library/surfaces/honed-limestone-wall-panel-4x2/v001/honed-limestone-wall-panel-4x2.blend",
     "//../../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
-    "//../../../library/fixtures/lighting-linear-pendant-4ft/v001/lighting-linear-pendant-4ft.blend",
+    "//../../../library/fixtures/lighting-linear-pendant-4ft-vault-3in12/v001/lighting-linear-pendant-4ft-vault-3in12.blend",
     "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
     "//../../../library/fixtures/lighting-undercabinet-bar-4ft/v001/lighting-undercabinet-bar-4ft.blend",
     "//../../../library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend",
+    "//../../../library/materials/mushroom-mineral-plaster/v001/mushroom-mineral-plaster.blend",
     "//../../../library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend",
     "//../../../library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend",
     "//../../../library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend",
@@ -82,7 +86,7 @@
       "mechanical service"
     ],
     "actual_geometry_checked": true,
-    "linked_instance_parents_checked": 346,
+    "linked_instance_parents_checked": 349,
     "distance_checks": {
       "sampled_object_distance_checks": 664,
       "nearest_candidate_distance_ft": 1.245
@@ -123,10 +127,117 @@
     }
   },
   "roof": {
-    "house_pitch": "2:12",
-    "carport_pitch": "1:12",
-    "modeled_house_downpipes": 4,
-    "drainage_sizing_verified": false
+    "design": {
+      "main_pavilion": {
+        "wall_bounds_ft": [
+          0.0,
+          20.0,
+          44.0,
+          40.0
+        ],
+        "pitch": "3:12",
+        "bearing_ft": 14.5,
+        "ridge_ft": 20.0,
+        "ridge_axis": "front-to-rear at x=22 ft",
+        "roof_bounds_ft": [
+          -3.0,
+          18.0,
+          47.0,
+          43.0
+        ]
+      },
+      "lower_wings": {
+        "pitch": "1:12",
+        "front_roof_bounds_ft": [
+          -2.0,
+          -3.75,
+          70.0,
+          20.0
+        ],
+        "kitchen_roof_bounds_ft": [
+          44.0,
+          20.0,
+          71.0,
+          43.0
+        ],
+        "front_drainage": "south",
+        "kitchen_drainage": "east"
+      },
+      "ceiling": {
+        "flat_ft": 10.45,
+        "vault_rectangles_ft": [
+          [
+            0.0,
+            26.0,
+            18.0,
+            40.0
+          ],
+          [
+            18.0,
+            20.0,
+            44.0,
+            40.0
+          ]
+        ],
+        "vault_underside_offset_from_roof_ft": 0.7,
+        "exposed_frame_y_ft": [
+          20.5,
+          32.0,
+          39.5
+        ],
+        "frame_post_x_ft": [
+          0.45,
+          43.55
+        ],
+        "rafter_width_depth_ft": [
+          0.48,
+          0.75
+        ],
+        "ridge_beam_width_depth_ft": [
+          0.6,
+          0.9
+        ]
+      },
+      "roof_skin_thickness_ft": 0.28,
+      "drainage": {
+        "high_pavilion": "Side gutters fall rearward to external downpipes; no valley into lower wings",
+        "downpipe_xy_ft": [
+          [
+            -3.17,
+            43
+          ],
+          [
+            47.17,
+            43
+          ],
+          [
+            -2,
+            -3.91
+          ],
+          [
+            70,
+            -3.91
+          ],
+          [
+            71.17,
+            43
+          ]
+        ],
+        "roof_steps": "Flashed vertical abutments and a front/kitchen roof-step riser"
+      },
+      "limits": "Original concept geometry. Roof assemblies, spans, uplift, connections, condensation control and drainage capacity are unengineered."
+    },
+    "actual_roof_planes": 4,
+    "upper_glazing_panels": 13,
+    "exposed_sloping_rafters": 6,
+    "side_frame_posts": 6,
+    "stone_encased_wet_zone_posts": 1,
+    "actual_frame_post_to_rafter_contact_checked": true,
+    "actual_ceiling_slopes_checked": true,
+    "no_flat_ceiling_across_vault": true,
+    "same_timber_as_pergola": true,
+    "modeled_roof_downpipes": 5,
+    "limits": "Geometry and material checks only; no structural, roof-product, flashing, drainage-capacity or local approval."
   },
   "limits": "Concept geometry only. No weatherproofing, thermal, structural, impact/flood or accessibility approval.",
   "terrace_circulation": {
@@ -211,7 +322,7 @@
     },
     "actual_geometry_checked": true,
     "distance_checks": {
-      "sampled_object_distance_checks": 2256,
+      "sampled_object_distance_checks": 987,
       "nearest_candidate_distance_ft": 3.966
     },
     "limits": "Static furniture only; no occupied seating, moving chair, mobility-device or terrain-grade approval."
@@ -242,7 +353,7 @@
     "ledger_top_ft": 10.05,
     "ledger_meets_header_face": true,
     "sliding_wall_width_covered_ft": 30.0,
-    "slat_to_soffit_clearance_ft": 0.08,
+    "slat_to_soffit_clearance_ft": 3.1,
     "perimeter_beams": 4,
     "beam_underside_ft": 8.55,
     "open_shade_slats": 45,
@@ -250,5 +361,13 @@
     "west_screen_height_ft": 3.8,
     "entry_canopy_supports": 2,
     "limits": "Geometric support contact and pedestrian routes only; no structural sizing, wind restraint, foundation, waterproofing or compliance approval. Pergola is open shade, not a rain roof."
+  },
+  "lighting": {
+    "actual_ceiling_openings": 25,
+    "regions": {
+      "vault": 8,
+      "flat": 17
+    },
+    "pendant_ceiling_contact_checked": true
   }
 }

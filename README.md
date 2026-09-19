@@ -84,15 +84,17 @@ A timber-clad home on a wooded downhill site: road-level garage and living, a wa
 
 ### Coastal House
 
-A full-width pergola attached above the sliding wall, outdoor conversation nook and planted entry court bring warmth to the bright coastal plan. Inside, smoked-oak accents, a woven rug and olive cushions retain the light, open character.
+A raised glazed pavilion gives the living/dining room a genuine vault with exposed driftwood beams matching the attached pergola and deep eaves. Bronze-gray metal roofs, mushroom plaster and large-format limestone bring warmth and depth to the coastal exterior.
 
 ![Coastal House — Imagegen photographic study](homes/coastal-house/outputs/images/photo-hero.png)
 
 *Imagegen photographic study. [Source and prompt](homes/coastal-house/outputs/photo-study.md).*
 
-Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot indoor/outdoor kitchen serving counter. Low pitched roofs, covered parking and a full primary bathing suite. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
+Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot indoor/outdoor kitchen serving counter. A 3:12 raised gable steps above lower 1:12 wings, with covered parking and a full primary bathing suite. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
 
 [![Rear terrace with the 30-foot glass wall open](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/images/01-terrace-open.png)
+
+**Current reviewed gallery:** thirteen native views, an exterior photographic study, two interior photographic studies, furnished floor/site plans, a measured roof section and a ten-page booklet. Native geometry, linked assets, lighting and IFC/Bonsai import checks pass; this remains an architectural concept.
 
 [Full project gallery and models](homes/coastal-house/README.md) · [All current images and plans](homes/coastal-house/outputs/README.md)
 
@@ -116,11 +118,35 @@ Bright modern coastal living with a 30-foot pocketing glass wall and a separate 
 
 [![Furnished single-level concept plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/floor-plan.png)
 
-[View the concept PDF](homes/coastal-house/outputs/plans/design-board.pdf)
+[View the ten-page concept booklet](homes/coastal-house/outputs/plans/design-board.pdf)
 
 **Warm living retreat**
 
 ![Shared oak furniture, woven oatmeal rug and olive cushions](homes/coastal-house/outputs/images/11-living-retreat.png)
+
+**Vaulted living and dining — exposed driftwood**
+
+![Raised living and dining pavilion with exposed driftwood frames and high glazing](homes/coastal-house/outputs/images/12-vaulted-living.png)
+
+![Coastal vaulted interior — Imagegen photographic study](homes/coastal-house/outputs/images/photo-vault.png)
+
+*AI interpretation of the native vaulted-room view. [Source and prompt](homes/coastal-house/outputs/photo-vault-study.md).*
+
+**Measured roof and ceiling section**
+
+![Measured pavilion section showing roof, real vault, exposed beams and lower kitchen wing](homes/coastal-house/outputs/plans/roof-section.png)
+
+| West garden and pavilion profile | Daylit entry and approach to the public rooms |
+| --- | --- |
+| [![West garden and pavilion profile](homes/coastal-house/outputs/images/08-west-garden.png)](homes/coastal-house/outputs/images/08-west-garden.png) | [![Daylit entry and public-room approach](homes/coastal-house/outputs/images/09-entry-hall.png)](homes/coastal-house/outputs/images/09-entry-hall.png) |
+
+**Kitchen toward the open exposed-beam pavilion — native and Imagegen**
+
+![Native kitchen view into the exposed-beam living and dining vault](homes/coastal-house/outputs/images/13-kitchen-to-vault.png)
+
+![Imagegen interior photographic study from the kitchen toward the open vaulted living area](homes/coastal-house/outputs/images/photo-interior.png)
+
+*The interior AI study interprets the native view above; exact geometry is evidenced by the model and native render. [Source and exact prompt](homes/coastal-house/outputs/photo-interior-study.md).*
 
 ### Garage Loft 03
 
@@ -287,12 +313,13 @@ The [visual asset catalog](library/README.md) includes materials, plants, paving
 
 Repository-local skills capture the recurring workflows:
 
+- [Create a home: explore directions before modeling](.agents/skills/create-home/SKILL.md)
 - [Home program and review](.agents/skills/home-program-review/SKILL.md)
 - [Asset selection, adaptation and contribution](.agents/skills/home-asset-contribution/SKILL.md)
 - [Model, IFC, render and plan QA](.agents/skills/home-model-output-qa/SKILL.md)
 
 ## Start another home
 
-Copy `templates/home` to `homes/<new-name>`, fill its program, update `project.json` and README, select shared assets, then create the model and coordinated outputs. Use lowercase hyphenated names. See [collaboration](docs/collaboration.md) and [shared assets](docs/assets.md).
+Start with [create-home](.agents/skills/create-home/SKILL.md): map the brief and relevant guidance, explore and critique tailored directions, then record a concise `design-intent.md` before modeling. Copy `templates/home` to `homes/<new-name>`, fill its program and project records, adopt suitable shared assets, and create the model and coordinated outputs through the linked review workflows. Use lowercase hyphenated names. See [collaboration](docs/collaboration.md) and [shared assets](docs/assets.md).
 
 Code is licensed under MIT; original home designs, models, drawings, renders, and reusable assets are licensed under CC BY 4.0. See [licensing and attribution](LICENSE.md). Third-party reference images are excluded; third-party content retains its own terms.

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "materials/bronze-gray-standing-seam",
+  "version": "v001",
+  "name": "Bronze-gray standing seam | matte coastal | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original procedural asset; attribution Homes project contributors",
+  "derived_from": {
+    "id": "materials/charcoal-standing-seam",
+    "version": "v002",
+    "basis": "Existing original physical-scale shader recipe; revised color and surface response. Parent asset is preserved unchanged."
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_palette.py",
+    "shader_helper": "tools/library/build_lindon_palette.py:mineral",
+    "command": "Blender --factory-startup --background --python tools/library/publish_coastal_palette.py -- publish"
+  },
+  "files": {
+    "blender": "bronze-gray-standing-seam.blend",
+    "preview": "preview.png"
+  },
+  "blender": {
+    "material": "Bronze-gray standing seam | matte coastal | v001"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "placement": "Material-only asset. Host owns actual member/roof geometry, connections, supports, joints and assembly build-up.",
+  "host_integration": {
+    "checked": false,
+    "required": "Review actual sunny/shaded host views and use the same pinned timber on exposed interior members and exterior pergola where intended."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 64,
+    "resolution_px": [
+      1100,
+      1100
+    ],
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "lighting": "Neutral environment strength 0.32, neutral large key and grazing area light"
+  },
+  "limitations": "Original finish appearance, not a commercial product, actual weathering process or structural/durability/corrosion certification.",
+  "linear_rgb": {
+    "dark": [
+      0.085,
+      0.077,
+      0.065
+    ],
+    "light": [
+      0.135,
+      0.122,
+      0.103
+    ]
+  },
+  "texture_scale": {
+    "coordinates": "World position in meters",
+    "noise_scale_per_m": 120,
+    "bump_distance_m": 6e-05,
+    "bump_strength": 0.15
+  },
+  "roughness": 0.62,
+  "metallic": 0.16,
+  "specular_ior_level": 0.28,
+  "variation": "Quiet physical microtexture; host supplies standing seams, fold geometry, flashings and joints. Preview seam spacing is illustrative and not a product requirement.",
+  "changes_from_parent": "Lighter muted bronze-gray body color than the near-black parent; low-metallic coated appearance and matte specular response to reduce silver glare."
+}

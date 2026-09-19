@@ -29,6 +29,7 @@
 - Prefer existing library options. When modification is needed, preserve the adopted version, record derivation, publish a reviewed reusable variation, then explicitly adopt it. Follow `docs/assets.md`.
 
 ## Reusable project skills
+- Start new homes and substantial architectural revisions with `.agents/skills/create-home/`: explore and critique tailored directions, record a concise `design-intent.md` before modeling, then follow the existing program, asset and output-review skills. Keep cosmetic edits scoped.
 - Use `.agents/skills/home-program-review/` for briefs, completeness and coordinated layout reviews.
 - Use `.agents/skills/home-asset-contribution/` for library selection, adaptation and contribution.
 - Use `.agents/skills/home-model-output-qa/` for native/IFC/render/plan verification and current-output promotion.

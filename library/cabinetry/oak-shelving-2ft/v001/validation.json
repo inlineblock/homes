@@ -1,0 +1,32 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "objects": 11,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "reviewed": true,
+    "observations": [
+      "Inspected native render: six open storage tiers including bottom, five separate shelf decks, complete carcass and toe kick; no doors or hanging rail.",
+      "Host must separately preserve room-door clearance and anti-tip anchorage."
+    ]
+  }
+}

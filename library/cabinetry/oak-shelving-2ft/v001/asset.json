@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/oak-wardrobe-2ft",
+    "version": "v001",
+    "changes": "Retained exact two-foot carcass, back, top/bottom, toe kick and upper shelf. Removed hanging rail, both doors and all pulls; added four full-depth shelf decks for open pantry storage."
+  },
+  "placement": {
+    "origin": "Floor-center nominal carcass footprint XY; base Z=0",
+    "front_direction": "Open shelf access -Y; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; no nonuniform scale"
+  },
+  "installation": {
+    "mounting": "Level supported floor plus host-designed wall anti-tip anchorage; nominal carcass 2x2x8ft.",
+    "operating_envelope": {
+      "modeled_state": "Open-front fixed shelving; no cabinet door or moving rail",
+      "reserve_front_access_depth_m": 0.9,
+      "shelf_deck_elevations_m": [
+        0.0914,
+        0.4724,
+        0.8534,
+        1.2344,
+        1.6154,
+        2.0269
+      ],
+      "internal_clear_width_m": 0.573024,
+      "shelf_depth_m": 0.54864,
+      "basis": "Modeled geometry and concept standing allowance",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Host must preserve pantry room door clearance, circulation and access to high shelves.",
+      "Select shelving load capacities, wall fixings and moisture-cleaning requirements; no engineered load rating supplied."
+    ]
+  },
+  "product_status": "Original open pantry shelving variation; no wardrobe hanging-storage claim or commercial product specification",
+  "schema_version": 1,
+  "id": "cabinetry/oak-shelving-2ft",
+  "version": "v001",
+  "name": "Oak shelving 2ft | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6096000075340271,
+    2.4384000301361084
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "blender": {
+    "collection": "Oak shelving 2ft | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry derived from existing original shared assets; attribution Homes project contributors.",
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/publish_modern_block_interior.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_modern_block_interior.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "oak-shelving-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

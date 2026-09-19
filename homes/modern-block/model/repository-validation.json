@@ -1,0 +1,605 @@
+{
+  "home": "modern-block",
+  "failures": [],
+  "native_model_reopened": true,
+  "relative_libraries": 50,
+  "measured_enclosed_floor_sqft": 6371.8,
+  "modeled_beds": 4,
+  "asset_use_schedule": "homes/modern-block/assets/README.md",
+  "asset_adoption": {
+    "home": "modern-block",
+    "native_library_pins_match_manifest": true,
+    "asset_versions": 50,
+    "assets": [
+      {
+        "id": "appliances/built-in-oven-30in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen built-in oven"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/dishwasher-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen integrated dishwasher"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/front-loading-laundry-600",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Laundry washer",
+          "Laundry dryer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/induction-cooktop-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen induction cooktop"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/panel-ready-fridge-48in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen wide refrigeration"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/wall-hood-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen wall hood"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-drawer-base-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 14,
+        "examples": [
+          "Kitchen north drawer",
+          "Kitchen north drawer.001",
+          "Kitchen north drawer.002",
+          "Kitchen north drawer.003",
+          "Kitchen island drawer",
+          "Kitchen island drawer.001",
+          "Kitchen island drawer.002",
+          "Ground powder vanity drawer 1"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-shelving-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 8,
+        "examples": [
+          "Pantry storage",
+          "Pantry storage.001",
+          "Pantry storage.002",
+          "Laundry tall linen",
+          "Pantry side shelf",
+          "Pantry side shelf.001",
+          "Upper landing linen",
+          "Upper landing linen.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-wardrobe-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 18,
+        "examples": [
+          "Foyer coats",
+          "Foyer coats.001",
+          "Primary dressing wardrobe",
+          "Primary dressing wardrobe.001",
+          "Primary dressing wardrobe.002",
+          "Primary dressing wardrobe.003",
+          "Upper west wardrobe",
+          "Upper west wardrobe.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/closed-glass-fireplace-48in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living closed glass hearth"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/courtyard-pool-4x8m",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Courtyard pool"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/freestanding-tub-72in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary freestanding tub"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/kitchen-sink-mixer-650",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen island sink"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-linear-pendant-4ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Dining linear pendant"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-recessed-downlight-3in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 23,
+        "examples": [
+          "Recessed ambient fitting",
+          "Recessed ambient fitting.001",
+          "Recessed ambient fitting.002",
+          "Recessed ambient fitting.003",
+          "Recessed ambient fitting.004",
+          "Recessed ambient fitting.005",
+          "Recessed ambient fitting.006",
+          "Recessed ambient fitting.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-undercabinet-bar-4ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen task bar"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-1500x1200",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary separate shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-900",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Upper shared shower",
+          "Guest bathroom shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/toilet-elongated",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Ground powder WC",
+          "Primary enclosed WC",
+          "Upper shared WC",
+          "Guest bathroom WC"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/vanity-basin-mixer-mirror",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 7,
+        "examples": [
+          "Ground powder vanity basin 1",
+          "Primary double vanity basin 1",
+          "Primary double vanity basin 2",
+          "Upper shared vanity basin 1",
+          "Upper shared vanity basin 2",
+          "Guest bathroom vanity basin 1",
+          "Guest bathroom vanity basin 2"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-oak-counter-stool",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Kitchen oak stool",
+          "Kitchen oak stool.001",
+          "Kitchen oak stool.002",
+          "Kitchen oak stool.003"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-outdoor-lounge-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "Living oak lounge chair",
+          "Living oak lounge chair.001",
+          "Lanai lounge chair",
+          "Balcony lounge chair",
+          "Balcony lounge chair.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-outdoor-sofa",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Lanai sofa"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/linen-three-seat-sofa",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living ivory sofa"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-dining-table-8ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Dining oak table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-king-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary king bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-queen-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Upper west queen bed",
+          "Upper east queen bed",
+          "Guest queen bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-open-nightstand",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 8,
+        "examples": [
+          "Primary king bed bedside -1",
+          "Primary king bed bedside 1",
+          "Upper west queen bed bedside -1",
+          "Upper west queen bed bedside 1",
+          "Upper east queen bed bedside -1",
+          "Upper east queen bed bedside 1",
+          "Guest queen bed bedside -1",
+          "Guest queen bed bedside 1"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-round-dining-table-1000",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Pavilion reading table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-rounded-coffee-table",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living low oak table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-upholstered-dining-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 11,
+        "examples": [
+          "Dining east chair",
+          "Dining west chair",
+          "Dining east chair.001",
+          "Dining west chair.001",
+          "Dining east chair.002",
+          "Dining west chair.002",
+          "Dining south end chair",
+          "Dining north end chair"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-writing-desk",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Primary window desk",
+          "Pavilion office desk"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/olive-linen-cushion",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Living olive cushion",
+          "Living olive cushion.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/slatted-outdoor-chaise",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Pool chaise",
+          "Pool chaise.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/woven-oatmeal-rug",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Living woven rug",
+          "Primary rug"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "hardware/bar-pull-matte-black",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "openings/slim-dark-window"
+        ]
+      },
+      {
+        "id": "landscape/broad-canopy-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Mature courtyard canopy",
+          "Mature courtyard canopy.001",
+          "Mature courtyard canopy.002"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/ornamental-grass-clump",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 185,
+        "examples": [
+          "Forecourt native concept planting",
+          "Forecourt native concept planting.002",
+          "Forecourt native concept planting.004",
+          "Forecourt native concept planting.006",
+          "Forecourt native concept planting.007",
+          "Forecourt native concept planting.008",
+          "Forecourt native concept planting.009",
+          "Forecourt native concept planting.010"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/sage-shrub",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 82,
+        "examples": [
+          "Forecourt native concept planting.001",
+          "Forecourt native concept planting.003",
+          "Forecourt native concept planting.005",
+          "Forecourt native concept planting.011",
+          "Forecourt native concept planting.013",
+          "Forecourt native concept planting.015",
+          "Forecourt native concept planting.016",
+          "Forecourt native concept planting.019"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/charcoal-facade-panel",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 7,
+        "examples": [
+          "Main rear single-story roof insulation fall (material)",
+          "Cedar upper bar roof insulation fall (material)",
+          "Guest pavilion roof insulation fall (material)",
+          "Garage roof insulation fall (material)",
+          "Lanai roof insulation fall (material)",
+          "Illustrative road (material)",
+          "Covered balcony roof insulation fall (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-honed-limestone",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 555,
+        "examples": [
+          "Main occupied slab (material)",
+          "Guest occupied slab (material)",
+          "Garage occupied slab (material)",
+          "Main street limestone (material)",
+          "Main street limestone perimeter-cut limestone (material)",
+          "Main street limestone perimeter-cut limestone.001 (material)",
+          "Main street limestone perimeter-cut limestone.002 (material)",
+          "Main street limestone perimeter-cut limestone.003 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-white-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 148,
+        "examples": [
+          "Upper occupied slab (material)",
+          "Guest corridor open door (material)",
+          "Guest corridor open door.001 (material)",
+          "Guest corridor open door.002 (material)",
+          "Service west open door (material)",
+          "Service west open door.001 (material)",
+          "Service south open door (material)",
+          "Service division open door (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/olive-linen",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "furniture/coastal-outdoor-sofa",
+          "furniture/olive-linen-cushion"
+        ]
+      },
+      {
+        "id": "materials/smoked-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "furniture/coastal-outdoor-sofa"
+        ]
+      },
+      {
+        "id": "materials/warm-vertical-cedar",
+        "version": "v003",
+        "direct_placements_or_material_assignments": 705,
+        "examples": [
+          "Main street entry door (material)",
+          "Main courtyard entry door (material)",
+          "Main courtyard entry door.001 (material)",
+          "Main rear entry door (material)",
+          "Guest court entry door (material)",
+          "Guest court entry door.001 (material)",
+          "Garage rear entry door (material)",
+          "Garage court entry door (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/woven-oatmeal",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "furniture/coastal-outdoor-sofa",
+          "furniture/woven-oatmeal-rug"
+        ]
+      },
+      {
+        "id": "openings/slim-dark-window",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 38,
+        "examples": [
+          "Main street linked glazing",
+          "Main street linked glazing.001",
+          "Main street linked glazing.002",
+          "Main courtyard linked glazing",
+          "Main courtyard linked glazing.001",
+          "Main courtyard linked glazing.002",
+          "Main courtyard linked glazing.003",
+          "Main courtyard linked glazing.004"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "openings/timber-pivot-louver-1800x3000",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "Pivot screen 1",
+          "Pivot screen 2",
+          "Pivot screen 3",
+          "Pivot screen 4",
+          "Pivot screen 5"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "surfaces/honed-limestone-paver-4ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 105,
+        "examples": [
+          "Terrace linked limestone paver",
+          "Terrace linked limestone paver.001",
+          "Terrace linked limestone paver.002",
+          "Terrace linked limestone paver.003",
+          "Terrace linked limestone paver.004",
+          "Terrace linked limestone paver.005",
+          "Terrace linked limestone paver.006",
+          "Terrace linked limestone paver.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "surfaces/honed-limestone-wall-panel-4x2",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 151,
+        "examples": [
+          "Main street limestone linked limestone",
+          "Main street limestone linked limestone.001",
+          "Main street limestone linked limestone.002",
+          "Main street limestone linked limestone.003",
+          "Main street limestone linked limestone.004",
+          "Main east limestone linked limestone",
+          "Main east limestone linked limestone.001",
+          "Main east limestone linked limestone.002"
+        ],
+        "adopted_parent_dependencies": []
+      }
+    ]
+  }
+}

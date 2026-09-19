@@ -1,0 +1,481 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-19T21:29:06.578712+00:00",
+  "native_file": "model/modern-block.blend",
+  "native_sha256": "781aee3dcd9be195963a2cdd5dec3e60b6a73c361c04efb42fa1df7cb94960c9",
+  "native_reopened": true,
+  "native_mutated": false,
+  "software": {
+    "blender": "4.5.14 LTS",
+    "ifcopenshell": "0.8.5",
+    "bonsai_module": "bl_ext.user_default.bonsai",
+    "bonsai": "0.8.5"
+  },
+  "checks": {
+    "distinctive_source_identifier_scan": "passed",
+    "native_datablock_names_and_string_properties": true,
+    "native_custom_properties": true,
+    "native_text_blocks": true,
+    "native_asset_metadata": true,
+    "material_node_names_labels_and_properties": true,
+    "new_and_modified_repository_text": true,
+    "new_asset_manifests_and_validation_metadata": true
+  },
+  "native_datablocks_checked": 12397,
+  "string_fields_checked": 64376,
+  "repository_text_files_checked": 48,
+  "repository_text_scope_sha256": "7e7b0655b010c3e69b9b4f6890ddf235b0792b2446fd3e3cbfae3bf2e107216c",
+  "png_metadata_files_checked": 27,
+  "png_metadata_scope": [
+    {
+      "path": "homes/modern-block/outputs/images/01-front-arrival.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/02-courtyard-pool.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/03-roof-and-site.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/04-lanai-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/05-kitchen.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/06-living.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/07-primary-bedroom.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/08-primary-bath.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/09-lanai-closed.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/10-pool-and-balcony.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/11-stair-gallery.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/12-bath-tub-shower.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-bath.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-bedroom.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-courtyard.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-hero.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-kitchen.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-lanai.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-living.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-site.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/plans/ground-floor.png",
+      "metadata_chunks_checked": [
+        "tEXt"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/plans/upper-floor.png",
+      "metadata_chunks_checked": [
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-shelving-2ft/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/courtyard-pool-4x8m/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/shower-tray-screen-1500x1200/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/landscape/broad-canopy-oak/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/openings/timber-pivot-louver-1800x3000/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    }
+  ],
+  "new_asset_provenance_status": "passed",
+  "new_asset_provenance_scope": [
+    {
+      "path": "library/cabinetry/oak-shelving-2ft/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/courtyard-pool-4x8m/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/shower-tray-screen-1500x1200/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/landscape/broad-canopy-oak/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/openings/timber-pivot-louver-1800x3000/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    }
+  ],
+  "binary_files_excluded_from_text_scan": 35,
+  "text_file_scope": [
+    "README.md",
+    "homes/modern-block/AGENTS.md",
+    "homes/modern-block/README.md",
+    "homes/modern-block/assets/README.md",
+    "homes/modern-block/brief.md",
+    "homes/modern-block/design-intent.md",
+    "homes/modern-block/design-review-notes.md",
+    "homes/modern-block/design-review.md",
+    "homes/modern-block/gallery.json",
+    "homes/modern-block/model/AGENTS.md",
+    "homes/modern-block/model/bonsai-validation.json",
+    "homes/modern-block/model/ifc-validation.json",
+    "homes/modern-block/model/modern-block.ifc",
+    "homes/modern-block/model/native-validation.json",
+    "homes/modern-block/model/opening-schedule.json",
+    "homes/modern-block/model/repository-validation.json",
+    "homes/modern-block/outputs/README.md",
+    "homes/modern-block/outputs/photo-study.md",
+    "homes/modern-block/outputs/plans/ground-floor.svg",
+    "homes/modern-block/outputs/plans/upper-floor.svg",
+    "homes/modern-block/program.md",
+    "homes/modern-block/project.json",
+    "homes/modern-block/references/README.md",
+    "homes/modern-block/visual-review-notes.md",
+    "library/README.md",
+    "library/cabinetry/oak-shelving-2ft/v001/asset.json",
+    "library/cabinetry/oak-shelving-2ft/v001/validation.json",
+    "library/fixtures/courtyard-pool-4x8m/v001/asset.json",
+    "library/fixtures/courtyard-pool-4x8m/v001/validation.json",
+    "library/fixtures/shower-tray-screen-1500x1200/v001/asset.json",
+    "library/fixtures/shower-tray-screen-1500x1200/v001/validation.json",
+    "library/landscape/broad-canopy-oak/v001/asset.json",
+    "library/landscape/broad-canopy-oak/v001/validation.json",
+    "library/openings/timber-pivot-louver-1800x3000/v001/asset.json",
+    "library/openings/timber-pivot-louver-1800x3000/v001/validation.json",
+    "tools/library/publish_modern_block.py",
+    "tools/library/publish_modern_block_interior.py",
+    "tools/modern_block/AGENTS.md",
+    "tools/modern_block/build.py",
+    "tools/modern_block/design.py",
+    "tools/modern_block/draw_plans.py",
+    "tools/modern_block/envelope.py",
+    "tools/modern_block/interiors-layout.json",
+    "tools/modern_block/interiors.py",
+    "tools/modern_block/render.py",
+    "tools/modern_block/schedule.py",
+    "tools/modern_block/utils.py",
+    "tools/modern_block/verify.py"
+  ],
+  "finding_count": 0,
+  "finding_locations": [],
+  "limitations": [
+    "Exact distinctive identifiers and variants were checked; the private search vocabulary is intentionally excluded from this receipt.",
+    "Raster pixels were not subjected to text recognition. PNG textual, EXIF and content-credential metadata chunks were scanned; other binary formats were not parsed for embedded metadata.",
+    "This receipt describes the native file hash and repository text state at the recorded time."
+  ]
+}

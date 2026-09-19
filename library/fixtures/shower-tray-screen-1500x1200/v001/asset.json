@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "derived_from": {
+    "id": "fixtures/shower-tray-screen-900",
+    "version": "v001",
+    "changes": "Dedicated 1500x1200mm tray and 1190mm fixed side screen; repositioned original-size controls, head, riser, drain and screen post. All original material appearances and hardware proportions retained."
+  },
+  "placement": {
+    "origin": "Centered nominal tray XY at floor Z=0",
+    "front_direction": "Open front -Y; plumbing wall +Y; fixed glass -X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; no nonuniform scale"
+  },
+  "installation": {
+    "mounting": "Continuous supported waterproof floor beneath 1.5x1.2m tray. Host supplies +Y plumbing wall, drain, screen anchorage and adjacent waterproof surfaces.",
+    "operating_envelope": {
+      "modeled_state": "Fixed left glass screen and open front; no swinging glass door",
+      "reserve_front_approach_depth_m": 0.9,
+      "basis": "Original concept geometry and approach allowance",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve actual waterproofing, sloped drainage, threshold and splash containment.",
+      "Select tested safety glazing, anchorage, slip resistance, controls and ventilation."
+    ]
+  },
+  "product_status": "Original concept shower assembly; enlarged fixed tray geometry, not a specified commercial product or accessibility certification",
+  "schema_version": 1,
+  "id": "fixtures/shower-tray-screen-1500x1200",
+  "version": "v001",
+  "name": "Shower tray screen 1500x1200 | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    1.5020000338554382,
+    1.2039999961853027,
+    2.0500001907348633
+  ],
+  "bounds_m": {
+    "min": [
+      -0.7520000338554382,
+      -0.6019999980926514,
+      0.0
+    ],
+    "max": [
+      0.75,
+      0.6019999980926514,
+      2.0500001907348633
+    ]
+  },
+  "blender": {
+    "collection": "Shower tray screen 1500x1200 | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry derived from existing original shared assets; attribution Homes project contributors.",
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/publish_modern_block_interior.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_modern_block_interior.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "shower-tray-screen-1500x1200.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

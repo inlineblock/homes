@@ -171,3 +171,23 @@ Coastal House adopts these reusable variations alongside existing mushroom plast
 Timber uses physical-meter grain oriented along actual members. The stone panel is 4 x 2 ft and 1.5 in thick; use rigid full-panel instances or documented real mesh perimeter cuts. The 4 ft pendant has a 90-inch drop and three mount faces for a 3:12 ceiling; do not stretch the original short-drop version. Review host contact, use and material response separately from reusable-asset validation.
 
 See [Coastal House adoption and host checks](../homes/coastal-house/assets/README.md) for these four assets in the model; the isolated asset receipts do not establish suitability in every future house.
+
+## Modern Block courtyard components
+
+Three original reusable **v001** assemblies provide a spreading tree, operable screen leaf and compact courtyard pool. The images are inspected native CPU renders. The previews establish available geometry; installation and operating clearances still require review in the adopting home.
+
+| Broad spreading oak-like tree | Timber center-pivot screen | Four by eight meter pool |
+| --- | --- | --- |
+| [![Broad spreading tree with attached branches and dark green folded leaves](landscape/broad-canopy-oak/v001/preview.png)](landscape/broad-canopy-oak/v001/asset.json) | [![Timber pivot screen with perimeter frame and separate vertical louvers](openings/timber-pivot-louver-1800x3000/v001/preview.png)](openings/timber-pivot-louver-1800x3000/v001/asset.json) | [![Hollow courtyard pool with below-deck water and submerged steps](fixtures/courtyard-pool-4x8m/v001/preview.png)](fixtures/courtyard-pool-4x8m/v001/asset.json) |
+
+The tree spans approximately **9.36 × 10.14 m**, with its crown about **7.37 m above grade**. Its origin is the trunk at grade; root flare extends slightly below grade. It is an original botanical illustration without species or site-suitability claims. The screen frame is **1.8 × 3.0 m** with 22 actual blades, linked cedar v003 and a centered vertical pivot; rotate the collection instance up to 90 degrees and reserve the recorded 0.903 m swept radius. The pool has a **4 × 8 m water footprint**, 4.64 × 8.64 m coping bounds, a hollow shell and four entry steps; water sits 130 mm below deck. It derives from the preserved shared 6 × 12 m pool and links limestone v001. Hosts must omit ground and deck within the cavity.
+
+Each manifest pins dimensions, origin, dependencies, rights, source and mounting assumptions. Fresh native opening, fresh linking and dependency checks are recorded alongside the assets. Reproduce with `tools/library/publish_modern_block.py`; authoring code is MIT and original asset geometry is CC BY 4.0, attributed to Homes project contributors. See [Modern Block's adoption schedule](../homes/modern-block/assets/README.md) for actual installation evidence.
+
+### Larger shower and open pantry shelving
+
+| Fixed 1500 × 1200 mm shower | Two-foot open shelving bay |
+| --- | --- |
+| [![Large shower tray, fixed left screen and full-size plumbing fittings](fixtures/shower-tray-screen-1500x1200/v001/preview.png)](fixtures/shower-tray-screen-1500x1200/v001/asset.json) | [![Oak pantry shelving with six open storage tiers](cabinetry/oak-shelving-2ft/v001/preview.png)](cabinetry/oak-shelving-2ft/v001/asset.json) |
+
+The shower is a dedicated dimensional sibling of the 900 mm tray, with original-size fittings and a 1190 mm fixed side screen. Its floor-center origin faces the open entry toward -Y; the host supplies the plumbing wall at +Y, waterproofing and clear approach. The open shelving preserves the two-foot wardrobe carcass and upper shelf, replaces hanging storage with four additional shelf decks, and removes doors and pulls. It is **2 × 2 × 8 ft**, accesses from -Y and pins white oak v001. Both original parent versions remain unchanged. Fresh native opening, linking, dimensions and inspected CPU previews are recorded in each variant's validation file; host access and service checks remain separate. Generator: `tools/library/publish_modern_block_interior.py`.

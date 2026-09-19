@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -4.796721935272217,
+      -5.03939151763916,
+      -0.07438245415687561
+    ],
+    "max": [
+      4.567263603210449,
+      5.098837375640869,
+      7.36629056930542
+    ]
+  },
+  "objects": 3511,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 20,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "pool_cavity_checks": null,
+  "host_integration_checked": false,
+  "visual_review": {
+    "reviewed": true,
+    "observations": [
+      "Inspected native preview: attached branching structure and individual folded dark green leaves; dense central crown, open spreading lower branches, irregular canopy outline.",
+      "Root flare passes approximately 75mm below planting grade; place origin at actual grade. Botanical form is illustrative."
+    ]
+  }
+}

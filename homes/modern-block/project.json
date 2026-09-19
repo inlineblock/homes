@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "id": "modern-block",
+  "name": "Modern Block",
+  "status": "architectural concept; dimensions and unseen layout interpreted",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "bedrooms": 4,
+  "bathrooms": 3.5,
+  "gross_enclosed_area_sqft": 6371.8044,
+  "conditioned_gross_area_sqft": 5682.9,
+  "garage_area_sqft": 688.9,
+  "area_basis": "Gross occupied floor plates including wall footprints, minus upper stair void; gross enclosed adds garage. Excludes courtyard, pool, lanai, balcony, roof and exterior terraces. Concept dimensions.",
+  "storeys": [
+    {
+      "name": "Ground floor",
+      "elevation_m": 0
+    },
+    {
+      "name": "Upper floor",
+      "elevation_m": 3.6
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5",
+    "ifcopenshell": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-matte-black/v001/"
+    },
+    {
+      "id": "landscape/broad-canopy-oak",
+      "version": "v001",
+      "path": "../../library/landscape/broad-canopy-oak/v001/"
+    },
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "materials/charcoal-facade-panel",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-facade-panel/v001/"
+    },
+    {
+      "id": "fixtures/closed-glass-fireplace-48in",
+      "version": "v001",
+      "path": "../../library/fixtures/closed-glass-fireplace-48in/v001/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-oak-counter-stool/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-lounge-chair/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-sofa/v001/"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "fixtures/courtyard-pool-4x8m",
+      "version": "v001",
+      "path": "../../library/fixtures/courtyard-pool-4x8m/v001/"
+    },
+    {
+      "id": "appliances/dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/dishwasher-24in/v001/"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/"
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "path": "../../library/appliances/front-loading-laundry-600/v001/"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/"
+    },
+    {
+      "id": "surfaces/honed-limestone-wall-panel-4x2",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-wall-panel-4x2/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v001",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v001/"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
+    },
+    {
+      "id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-undercabinet-bar-4ft/v001/"
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-king-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-queen-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "path": "../../library/furniture/oak-open-nightstand/v001/"
+    },
+    {
+      "id": "furniture/oak-round-dining-table-1000",
+      "version": "v001",
+      "path": "../../library/furniture/oak-round-dining-table-1000/v001/"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/"
+    },
+    {
+      "id": "cabinetry/oak-shelving-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-shelving-2ft/v001/"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/"
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "path": "../../library/furniture/oak-writing-desk/v001/"
+    },
+    {
+      "id": "furniture/olive-linen-cushion",
+      "version": "v001",
+      "path": "../../library/furniture/olive-linen-cushion/v001/"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../library/materials/olive-linen/v001/"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/"
+    },
+    {
+      "id": "appliances/panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-1500x1200",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-1500x1200/v001/"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-900/v001/"
+    },
+    {
+      "id": "furniture/slatted-outdoor-chaise",
+      "version": "v001",
+      "path": "../../library/furniture/slatted-outdoor-chaise/v001/"
+    },
+    {
+      "id": "openings/slim-dark-window",
+      "version": "v002",
+      "path": "../../library/openings/slim-dark-window/v002/"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/"
+    },
+    {
+      "id": "openings/timber-pivot-louver-1800x3000",
+      "version": "v001",
+      "path": "../../library/openings/timber-pivot-louver-1800x3000/v001/"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../library/materials/warm-vertical-cedar/v003/"
+    },
+    {
+      "id": "furniture/woven-oatmeal-rug",
+      "version": "v001",
+      "path": "../../library/furniture/woven-oatmeal-rug/v001/"
+    },
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../library/materials/woven-oatmeal/v001/"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/modern-block.blend",
+    "building_model": "model/modern-block.ifc",
+    "gallery": "outputs/README.md",
+    "ground_plan": "outputs/plans/ground-floor.png",
+    "upper_plan": "outputs/plans/upper-floor.png"
+  },
+  "authoring": {
+    "build": "Blender --background --python tools/modern_block/build.py",
+    "render": "Blender --background homes/modern-block/model/modern-block.blend --python tools/modern_block/render.py",
+    "plans": "python3 tools/modern_block/draw_plans.py"
+  }
+}

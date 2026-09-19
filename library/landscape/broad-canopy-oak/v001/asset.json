@@ -1,0 +1,56 @@
+{
+  "dependencies": [],
+  "placement": {
+    "origin": "Trunk base at XY 0,0 and planting grade Z=0; natural root flare extends approximately 75mm below grade",
+    "front_direction": "Botanical form has no front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 scale and Z rotation for natural variation; no nonuniform scale"
+  },
+  "mounting": "Plant trunk base at host grade; protect a deliberate root/soil zone and keep canopy clear of openings.",
+  "clearances": {
+    "canopy_radius_m": 6.1,
+    "root_zone_basis": "Unspecified illustrative planting; arborist assessment required for an actual retained or installed specimen",
+    "host_checked": false
+  },
+  "product_status": "Original illustrative broad spreading oak-like botanical geometry. Not a species identification, nursery product, climate suitability statement or model of an actual protected tree.",
+  "modeled_state": "Static original trunk, attached branching twigs and individually folded leaves; no billboard textures",
+  "schema_version": 1,
+  "id": "landscape/broad-canopy-oak",
+  "version": "v001",
+  "name": "Broad canopy oak | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    9.363985538482666,
+    10.13822889328003,
+    7.4406730234622955
+  ],
+  "bounds_m": {
+    "min": [
+      -4.796721935272217,
+      -5.03939151763916,
+      -0.07438245415687561
+    ],
+    "max": [
+      4.567263603210449,
+      5.098837375640869,
+      7.36629056930542
+    ]
+  },
+  "blender": {
+    "collection": "Broad canopy oak | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors. No listing imagery, third-party mesh or manufacturer CAD.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_modern_block.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_modern_block.py -- --asset broad-canopy-oak"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "broad-canopy-oak.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

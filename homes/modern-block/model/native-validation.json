@@ -1,0 +1,41 @@
+{
+  "native_reopened": true,
+  "blender": "4.5.14 LTS",
+  "relative_libraries": 50,
+  "measured_floor_areas_m2": {
+    "Main occupied slab": 240.0,
+    "Guest occupied slab": 96.0,
+    "Upper occupied slab": 191.95999455451965,
+    "Garage occupied slab": 64.0
+  },
+  "conditioned_gross_m2": 527.96,
+  "bed_instances": 4,
+  "wardrobe_bays": 18,
+  "shelf_modules": 8,
+  "stair_risers": 22,
+  "riser_m": 0.16363636363636364,
+  "tread_depth_m": 0.28,
+  "flight_width_m": 1.2,
+  "landing_depth_m": 1.22,
+  "upper_landing_m": 1.2,
+  "screen_panel_centers_m": 2.0,
+  "screen_sweep_radius_m": 0.903,
+  "sheltered_pavilion_doors": true,
+  "evaluated_required_instances": {
+    "Primary king bed": 11,
+    "Upper west queen bed": 11,
+    "Upper east queen bed": 11,
+    "Guest queen bed": 11,
+    "Pivot screen 1": 28,
+    "Pivot screen 2": 28,
+    "Pivot screen 3": 28,
+    "Pivot screen 4": 28,
+    "Pivot screen 5": 28,
+    "Courtyard pool": 14
+  },
+  "limitations": [
+    "Concept geometry and route reservations only; manufacturer selection, engineering and local approval unresolved.",
+    "Window modules explicitly resized; frame sightlines vary from source nominal.",
+    "No exact existing-building dimensions or original layout claimed."
+  ]
+}

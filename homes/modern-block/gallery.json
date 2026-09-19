@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "renders": [
+    {
+      "path": "outputs/images/01-front-arrival.png",
+      "caption": "Front arrival: limestone pavilion base, cedar upper block and mature canopy",
+      "view": "exterior",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/02-courtyard-pool.png",
+      "caption": "Courtyard pool, sheltered seating and supported glass-guarded balcony",
+      "view": "exterior",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/03-roof-and-site.png",
+      "caption": "Elevated roof and site view, skylights, guest pavilion and two-car garage",
+      "view": "exterior",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/04-lanai-open.png",
+      "caption": "Five pivoting timber screens open to the covered lanai",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/09-lanai-closed.png",
+      "caption": "The same five screens closed, from the identical camera",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/10-pool-and-balcony.png",
+      "caption": "Pool steps, covered upper balcony and continuous courtyard glazing",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "caption": "Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/06-living.png",
+      "caption": "Living room with limestone hearth, charcoal chimney face and oak seating",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/07-primary-bedroom.png",
+      "caption": "Primary bedroom with a king bed, oak nightstands and tree-level glazing",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/08-primary-bath.png",
+      "caption": "Primary double vanity and separate dressing and enclosed toilet-room entries",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/12-bath-tub-shower.png",
+      "caption": "Freestanding tub and separate glass shower in the primary bathroom",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/11-stair-gallery.png",
+      "caption": "Upper landing with linen shelving, oak stair treads and glass guards",
+      "view": "interior"
+    }
+  ],
+  "required_levels": [
+    "ground-floor",
+    "upper-floor"
+  ],
+  "plans": [
+    {
+      "path": "outputs/plans/ground-floor.png",
+      "level": "ground-floor",
+      "caption": "Ground floor: furnished public rooms, guest retreat, service spaces, garage and courtyard"
+    },
+    {
+      "path": "outputs/plans/upper-floor.png",
+      "level": "upper-floor",
+      "caption": "Upper floor: three bedrooms, primary suite, shared bath and stair gallery"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "pivot-screens",
+      "label": "Operable timber-screen lanai",
+      "renders": [
+        "outputs/images/04-lanai-open.png",
+        "outputs/images/09-lanai-closed.png"
+      ]
+    },
+    {
+      "id": "courtyard-pool",
+      "label": "Courtyard pool and covered balcony",
+      "renders": [
+        "outputs/images/02-courtyard-pool.png",
+        "outputs/images/10-pool-and-balcony.png"
+      ]
+    },
+    {
+      "id": "hearth",
+      "label": "Limestone hearth with charcoal chimney face",
+      "renders": [
+        "outputs/images/06-living.png"
+      ]
+    },
+    {
+      "id": "slatted-rooflight",
+      "label": "Kitchen slatted ceiling and rooflight",
+      "renders": [
+        "outputs/images/05-kitchen.png"
+      ]
+    }
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-front-arrival.png",
+    "source_sha256": "2f755090742e0a7cca03bdf039d55f1cbaa18d8c8fda9c8d4e81fb6c9868a0ec",
+    "image_sha256": "1efaae418f353e57ebd0704bbeaa1a17fab60531f21424fdaa2fc821ec29eb7d",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Front arrival: limestone pavilion base, cedar upper block and mature canopy \u2014 AI photographic study"
+  },
+  "photographic_exteriors": [
+    {
+      "path": "outputs/images/photo-courtyard.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/02-courtyard-pool.png",
+      "source_sha256": "e3ab83674bb9d6c340580d1f1326172a73708777123031f750c60c18f68a61e3",
+      "image_sha256": "8b225f0a6d3c607d2b78e80cb51f63c2b44ee7ed0c68af2721b26b22902a4865",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Courtyard pool, sheltered seating and supported glass-guarded balcony \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-site.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/03-roof-and-site.png",
+      "source_sha256": "9230c7420ded3443d6809b9be04a2a55772da9fc7f125bb4f5457751c795fb20",
+      "image_sha256": "439ea26e9f8d9526e2a72be0fda557586cebefebcf95e521696ff1e7b62795f7",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Elevated roof and site view, skylights, guest pavilion and two-car garage \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-lanai.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/04-lanai-open.png",
+      "source_sha256": "0e8d04199c53d801c7f08e023c7a0b14b4aaa2f55a4b118f0cc14942f4cc751d",
+      "image_sha256": "144a8c542abf28b84d132a03458a27bb5ca0f017752066919d6382143178495d",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Five pivoting timber screens open to the covered lanai \u2014 AI photographic study"
+    }
+  ],
+  "photographic_interiors": [
+    {
+      "path": "outputs/images/photo-kitchen.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/05-kitchen.png",
+      "source_sha256": "ae82d5eefcfe8de97be773e6199b0e2d4308e7932b998c581bc19cb05a97d68f",
+      "image_sha256": "6e4f0c3277210ae493aa6e7f02b38c63965546f57df1bed21880b2da3ac10e19",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-living.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/06-living.png",
+      "source_sha256": "43fd45e4e3377a97b4b8c33e2fcf6e081940c658fc2a2f62bc0620a9e1ea1f03",
+      "image_sha256": "1a37074513de0d124ffc85c9487d619cbaa1418923bb60d54bf5c6820a78d59d",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Living room with limestone hearth, charcoal chimney face and oak seating \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-bedroom.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/07-primary-bedroom.png",
+      "source_sha256": "1b859a135c37bd5fc9713781e9383ca4fc313228ccc14dd1882ae86d6fa5aa75",
+      "image_sha256": "84dc599d87ec7f29b32677fe353d1f8ab1256c367f5cb56d409d8b481c92b434",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Primary bedroom with a king bed, oak nightstands and tree-level glazing \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-bath.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/12-bath-tub-shower.png",
+      "source_sha256": "2f8e0fa9ec093cbc98a2eca40235e4d8ee409638059cb9f65ca80659b76c8ca0",
+      "image_sha256": "e92d371d5572e58bc1a4e5a4d1efd0488095cab31e1982808eaa64c0a4b6d25c",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Freestanding tub and separate glass shower in the primary bathroom \u2014 AI photographic study"
+    }
+  ]
+}

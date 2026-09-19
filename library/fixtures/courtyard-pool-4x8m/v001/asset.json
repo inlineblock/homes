@@ -1,0 +1,68 @@
+{
+  "derived_from": {
+    "id": "fixtures/rectangular-pool-6x12m",
+    "version": "v001",
+    "source": "library/fixtures/rectangular-pool-6x12m/v001/generate.py",
+    "changes": "Distinct 4x8m water footprint, 1.45m clear depth, 2.12m wide submerged steps, linked limestone coping, water is a single transparent surface below coping rather than solid blue geometry"
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../../materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Water footprint center XY; host deck datum Z=0. Shell bottom -1.65m, coping top +.07m, water -.13m.",
+    "front_direction": "Steps at -Y end; long axis Y; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch shell"
+  },
+  "mounting": "Excavate/omit host ground and deck across full 4.4x8.4m shell footprint down to -1.65m. Deck must not fill the visible pool cavity.",
+  "clearances": {
+    "suggested_deck_clearance_m": 1.5,
+    "basis": "Concept circulation allowance; actual structure, barrier, drainage, hydraulics and safety design unresolved",
+    "host_checked": false
+  },
+  "modeled_state": "Open hollow shell with four real submerged steps, separate coping ring and transparent water surface below deck",
+  "product_status": "Original schematic pool; not construction documentation or an engineered commercial product",
+  "schema_version": 1,
+  "id": "fixtures/courtyard-pool-4x8m",
+  "version": "v001",
+  "name": "Courtyard pool 4x8m | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    4.640000343322754,
+    8.640000343322754,
+    1.7199999764561653
+  ],
+  "bounds_m": {
+    "min": [
+      -2.320000171661377,
+      -4.320000171661377,
+      -1.649999976158142
+    ],
+    "max": [
+      2.320000171661377,
+      4.320000171661377,
+      0.07000000029802322
+    ]
+  },
+  "blender": {
+    "collection": "Courtyard pool 4x8m | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors. No listing imagery, third-party mesh or manufacturer CAD.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_modern_block.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_modern_block.py -- --asset courtyard-pool-4x8m"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "courtyard-pool-4x8m.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

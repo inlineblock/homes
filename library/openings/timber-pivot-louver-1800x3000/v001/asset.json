@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../../materials/warm-vertical-cedar/v003/warm-vertical-cedar.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Bottom-center vertical pivot axis at XY 0,0, Z=0. Pivot pins project 15mm beyond frame top/bottom.",
+    "front_direction": "+Y; closed panel width along X; Z up",
+    "allowed_scaling": "Rigid instance placement only. Rotate whole linked collection instance around local Z to open; do not scale panel dimensions."
+  },
+  "mounting": "Concept center-pivot leaf requires head and sill bearing supports supplied by host. Leaf frame 1.8m wide x3.0m high; host provides >=3.04m clear pin space and suitable fixings.",
+  "operating_envelope": {
+    "state": "Closed, leaf lies in XZ plane",
+    "intended_angle_degrees": 90,
+    "swept_radius_m": 0.903,
+    "z_min_m": -0.015,
+    "z_max_m": 3.015,
+    "basis": "Actual closed leaf corner radius sqrt(0.9^2+0.06^2); 90-degree center pivot concept",
+    "host_open_state_checked": false
+  },
+  "clearances": {
+    "adjacent_leaf_center_pitch_min_m": 1.82,
+    "standing_access_m": 0.9,
+    "basis": "Concept assumptions; host must check all simultaneous positions, wind locking, pinch protection and cleaning"
+  },
+  "product_status": "Original editable timber solar/privacy screen; no certified facade, wind load or fire rating",
+  "modeled_state": "22 individual vertical blades and structural perimeter frame; pins on center axis; whole leaf is movable in host",
+  "schema_version": 1,
+  "id": "openings/timber-pivot-louver-1800x3000",
+  "version": "v001",
+  "name": "Timber pivot louver 1800x3000 | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    1.7999999523162842,
+    0.11999999731779099,
+    3.0300001045688987
+  ],
+  "bounds_m": {
+    "min": [
+      -0.8999999761581421,
+      -0.05999999865889549,
+      -0.014999999664723873
+    ],
+    "max": [
+      0.8999999761581421,
+      0.05999999865889549,
+      3.015000104904175
+    ]
+  },
+  "blender": {
+    "collection": "Timber pivot louver 1800x3000 | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors. No listing imagery, third-party mesh or manufacturer CAD.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_modern_block.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_modern_block.py -- --asset timber-pivot-louver-1800x3000"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "timber-pivot-louver-1800x3000.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.7520000338554382,
+      -0.6019999980926514,
+      0.0
+    ],
+    "max": [
+      0.75,
+      0.6019999980926514,
+      2.0500001907348633
+    ]
+  },
+  "objects": 8,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "reviewed": true,
+    "observations": [
+      "Inspected native render: enlarged rectangular tray, left fixed glass, rear drain and unchanged-size plumbing fittings.",
+      "Wall is intentionally host-supplied; preview isolates the assembly and does not establish waterproofing or operating suitability."
+    ]
+  }
+}

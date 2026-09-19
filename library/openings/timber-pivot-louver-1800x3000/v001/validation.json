@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.8999999761581421,
+      -0.05999999865889549,
+      -0.014999999664723873
+    ],
+    "max": [
+      0.8999999761581421,
+      0.05999999865889549,
+      3.015000104904175
+    ]
+  },
+  "objects": 28,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 20,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "pool_cavity_checks": null,
+  "host_integration_checked": false,
+  "visual_review": {
+    "reviewed": true,
+    "observations": [
+      "Inspected native preview: complete perimeter frame, 22 separate vertical blades, fine timber grain and center-axis metal pivot pins.",
+      "No host facade clearances or wind locking has been certified."
+    ]
+  }
+}

@@ -1,5 +1,9 @@
 # Coastal House / current images and plans
 
+![Coastal House — Imagegen photographic study](images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 Bright modern coastal concept. 2,720 gross enclosed sq ft, three bedrooms, two baths. These are original renders of the editable model, with real moving glass panels and both opening states.
 
 ## Terrace / open

@@ -1,5 +1,9 @@
 # Lindon Brick House — current outputs
 
+![Lindon Brick House — Imagegen photographic study](images/09-photo-study.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 Current native renders and reconstructed concept plans. No output history folders: Git retains revisions. Dimensions and site are approximate; read the [project limitations](../design-review.md).
 
 ### Brick base, a complete charcoal window bay and muted mushroom upper walls
@@ -47,9 +51,3 @@ Current native renders and reconstructed concept plans. No output history folder
 ![Walkout basement: two bedrooms, second kitchen and recreation](../outputs/plans/basement-floor-plan.png)
 
 [Blender source](../model/lindon-brick-house.blend) · [Concept IFC](../model/lindon-brick-house.ifc) · [Main SVG](plans/main-floor-plan.svg) · [Upper SVG](plans/upper-floor-plan.svg) · [Basement SVG](plans/basement-floor-plan.svg)
-
-### Imagegen photographic study
-
-![AI photographic interpretation of the entry-detail view](images/09-photo-study.png)
-
-AI-edited interpretation of the same design and viewpoint. Surface detail, reflections and foliage are generated; this supplements the native gallery above. [Prompt and provenance](photo-study.md).

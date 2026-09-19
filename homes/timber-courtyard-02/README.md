@@ -1,5 +1,9 @@
 # Timber Courtyard 02
 
+![Timber Courtyard 02 — Imagegen photographic study](outputs/images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+
 An exterior-led concept inspired by the user-supplied reference: paired timber-clad wings, dark pitched standing-seam roofs, a transparent central gable, a low entrance canopy, and layered courtyard planting.
 
 ![Front arrival and paired timber wings](outputs/images/01-exterior.png)

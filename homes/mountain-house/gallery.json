@@ -88,5 +88,15 @@
         "outputs/images/09-living-fireplace.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-forest-rear.png",
+    "source_sha256": "bda723b8013393bec1f4e1db49a8430be83957501fc52e8002dc9f4ead1e7403",
+    "image_sha256": "1cbb8fe9c6af91ece2656d5845d4a5b225024a47bde95671cef6b214d4978ae5",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Mountain House — Imagegen photographic study"
+  }
 }

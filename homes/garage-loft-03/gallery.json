@@ -85,5 +85,15 @@
         "outputs/images/06-circulation.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-exterior.png",
+    "source_sha256": "e6e844effb63678d32e899d752094f9a6064507212394a00b5739f84a4473b8b",
+    "image_sha256": "d0849e23e41d36468a049b47c07b72ef622c3511ccb667cf2112f0df36e69a31",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Garage Loft 03 — Imagegen photographic study"
+  }
 }

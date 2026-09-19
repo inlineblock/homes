@@ -1,5 +1,9 @@
 # Mountain House — current outputs
 
+![Mountain House — Imagegen photographic study](images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 Original native Blender renders of the current concept. Two levels total, with road-level garage and a lower rear walkout. Terrain and forest are illustrative.
 
 ## Exterior and site

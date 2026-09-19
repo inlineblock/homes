@@ -58,5 +58,15 @@
         "outputs/images/03-garden-entry.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-exterior.png",
+    "source_sha256": "cd72ecf4a3b7881c1585d831c42a554085fb4ba8a7266b8d0aa822a5f40fd02b",
+    "image_sha256": "5b6ee530647be815e7c1603204e7a4ececa3d79f24136c0e08498ef5114ccbc1",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Timber Courtyard 02 — Imagegen photographic study"
+  }
 }

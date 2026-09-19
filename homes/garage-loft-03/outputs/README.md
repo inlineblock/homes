@@ -1,5 +1,9 @@
 # Garage Loft 03 — current outputs
 
+![Garage Loft 03 — Imagegen photographic study](images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 [Project and editable models](../README.md) · [Browse all projects](../../../README.md) · **[Four-page concept book (PDF)](plans/garage-loft.pdf)**
 
 Current concept deliverables. One current file per view/document; Git retains previous revisions. Cars and KLAUS-style lift are original schematic proxies.

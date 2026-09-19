@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check registered PNG gallery coverage and Markdown embeds; visual QA stays manual."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -187,6 +188,43 @@ class GalleryVerifier:
         if missing:
             self.fail(scope, 'needs distinct exterior images for missing roles: ' + ', '.join(sorted(missing)))
 
+    def photographic_hero(self, home, manifest, renders, scope):
+        label = f'{scope} photographic_hero'
+        hero = manifest.get('photographic_hero')
+        if not isinstance(hero, dict):
+            self.fail(label, 'needs a separately registered AI photographic study')
+            return
+        if hero.get('kind') != 'ai-photographic-study':
+            self.fail(label, 'kind must be ai-photographic-study')
+        path = self.image(home, hero.get('path'), 'outputs/images', label)
+        source = self.image(home, hero.get('source_render'), 'outputs/images', label)
+        if source not in renders:
+            self.fail(label, 'source_render must be a registered native render')
+        if path in renders:
+            self.fail(label, 'AI study must not count as a native render')
+        for image_path, key in ((source, 'source_sha256'), (path, 'image_sha256')):
+            if image_path and hashlib.sha256(image_path.read_bytes()).hexdigest() != hero.get(key):
+                self.fail(label, f'{key} differs from the reviewed image; refresh its study/provenance')
+        try:
+            value = hero.get('provenance')
+            if not isinstance(value, str):
+                raise ValueError('provenance must be a relative path')
+            provenance = local_path(home, value)
+            provenance.relative_to(home / 'outputs')
+            if not provenance.is_file() or not provenance.read_text(encoding='utf-8').strip():
+                raise ValueError('missing prompt/provenance document')
+        except (ValueError, OSError, UnicodeError) as error:
+            self.fail(label, str(error))
+        for readme in (home / 'README.md', home / 'outputs/README.md'):
+            try:
+                first = next(markdown_images(readme.read_text(encoding='utf-8')), None)
+                if first is None or local_path(readme.parent, first[1]) != path:
+                    self.fail(label, f'{readme.relative_to(self.root)} must lead with its photographic study')
+            except (OSError, UnicodeError, ValueError) as error:
+                self.fail(label, str(error))
+        if path not in self.embeds(self.root / 'README.md'):
+            self.fail(label, 'root catalog must embed the photographic study')
+
     def home(self, home):
         scope = str(home.relative_to(self.root))
         count_before = len(self.errors)
@@ -222,6 +260,7 @@ class GalleryVerifier:
                 else:
                     renders[path] = item
         self.coverage(renders, scope)
+        self.photographic_hero(home, manifest, renders, scope)
         levels = self.entries(manifest, 'required_levels', scope)
         if not levels or any(not isinstance(level, str) or not level.strip() for level in levels):
             self.fail(scope, 'required_levels must contain nonempty level names')

@@ -82,5 +82,15 @@
         "outputs/images/04-serving-counter-closed.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-terrace-open.png",
+    "source_sha256": "439d7c37b045030752b00245fa42296350570581006fd8d92f971d6c9566adfe",
+    "image_sha256": "56146339f40d0165e0175bff7d3fb0deeb2e64ddd740612ec913836dde8e69d0",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Coastal House — Imagegen photographic study"
+  }
 }

@@ -1,5 +1,9 @@
 # Atrium 01
 
+![Atrium 01 — Imagegen photographic study](outputs/images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+
 A kitchen-led, modern Eichler-inspired concept: three bedrooms, three bathrooms, exposed fir beams, walnut cabinetry, pale stone, and a planted central atrium.
 
 ### Kitchen: walnut, stone and sage tile

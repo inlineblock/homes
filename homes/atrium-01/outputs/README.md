@@ -1,5 +1,9 @@
 # Atrium 01 — current outputs
 
+![Atrium 01 — Imagegen photographic study](images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 [Project and editable models](../README.md) · [Browse all homes](../../../README.md)
 
 Current native model renders. Stable filenames replace reviewed results; Git retains earlier revisions. The roof remains visible except in the labeled cutaway. This is the existing concept, not a new layout or engineering review.

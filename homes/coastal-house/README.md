@@ -1,5 +1,9 @@
 # Coastal House
 
+![Coastal House — Imagegen photographic study](outputs/images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+
 A bright modern coastal home with pale limestone, natural white oak, expansive glazing and a shaded terrace. The kitchen and dining room open directly to outdoor living.
 
 **Rear terrace — glass wall and serving window open**

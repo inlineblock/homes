@@ -65,5 +65,15 @@
         "outputs/images/07-open-air-atrium.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/03-exterior.png",
+    "source_sha256": "f0ae72a4292a89be5a1fa2f3a3b4cee4645600a2777cd7b40af81d9e2db5a284",
+    "image_sha256": "98d5f3816b7f35edf61ed528c2b7803cc2dd6e64fb3f4835ab6ce30ecab23203",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Atrium 01 — Imagegen photographic study"
+  }
 }

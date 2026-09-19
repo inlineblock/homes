@@ -1,5 +1,9 @@
 # Lindon Brick House
 
+![Lindon Brick House — Imagegen photographic study](outputs/images/09-photo-study.png)
+
+*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+
 Deep iron-red brick anchors the lower level. A complete charcoal window bay rises through the front gable, while subdued mushroom plaster and charcoal wrap the upper volumes. The matte roof, flush dark garage doors and smoked-oak entrance keep the palette restrained.
 
 This **editable remodel study** interprets the listed home at 1044 E Center Street, Lindon. It retains the recognizable angled three-car wing, five upstairs bedrooms, two basement bedrooms, two rear terraces, walkout, pool and court. The earlier white-farmhouse direction is superseded.
@@ -61,9 +65,3 @@ The gallery below contains eight actual native renders and an original reconstru
 [Editable main plan](outputs/plans/main-floor-plan.svg) · [Editable upper plan](outputs/plans/upper-floor-plan.svg) · [Editable basement plan](outputs/plans/basement-floor-plan.svg)
 
 [Authoring and regeneration](model/README.md). Original project contributions use CC BY 4.0; source media and third-party designs are excluded.
-
-### Imagegen photographic study
-
-![AI photographic interpretation of the entry-detail view](outputs/images/09-photo-study.png)
-
-An AI-edited interpretation of the design above, created at the user's request. It supplements the native model views; generated textures, reflections and foliage are not evidence of exact geometry. [Prompt and provenance](outputs/photo-study.md).

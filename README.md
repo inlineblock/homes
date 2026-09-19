@@ -4,9 +4,13 @@ Editable homes, measured drawings, beautiful renders, and a shared asset library
 
 ## Browse the projects
 
-Each project below includes multiple exterior angles, interiors, defining features and every occupied level’s floor plan. Open a home for the full gallery, editable models and design notes. Images are native model renders.
+Each project below includes multiple exterior angles, interiors, defining features and every occupied level’s floor plan. Open a home for the full gallery, editable models and design notes. Each project leads with a labeled Imagegen photographic study, followed by native model renders and plans.
 
 ### Lindon Brick House
+
+![Lindon Brick House — Imagegen photographic study](homes/lindon-brick-house/outputs/images/09-photo-study.png)
+
+*Imagegen photographic study. [Source and prompt](homes/lindon-brick-house/outputs/photo-study.md).*
 
 A remodel study based on the Lindon listing: a red-brick base, complete charcoal front bay, muted mushroom upper walls, larger dark-framed windows, angled three-car garage, stacked terraces, walkout, pool and court. Seven bedrooms across three occupied levels. Listing area 6,807 sq ft; reconstructed dimensions remain approximate.
 
@@ -42,6 +46,10 @@ A remodel study based on the Lindon listing: a red-brick base, complete charcoal
 
 ### Mountain House
 
+![Mountain House — Imagegen photographic study](homes/mountain-house/outputs/images/photo-hero.png)
+
+*Imagegen photographic study. [Source and prompt](homes/mountain-house/outputs/photo-study.md).*
+
 A timber-clad home on a wooded downhill site: road-level garage and living, a walkout below, a broad wraparound deck and a living-room fireplace. Two levels total · 3 bedrooms · 2.5 baths · 3,528 sq ft conditioned gross.
 
 [![Wraparound deck, timber pergola and outdoor living](homes/mountain-house/outputs/images/03-deck-living.png)](homes/mountain-house/outputs/images/03-deck-living.png)
@@ -76,6 +84,10 @@ A timber-clad home on a wooded downhill site: road-level garage and living, a wa
 
 ### Coastal House
 
+![Coastal House — Imagegen photographic study](homes/coastal-house/outputs/images/photo-hero.png)
+
+*Imagegen photographic study. [Source and prompt](homes/coastal-house/outputs/photo-study.md).*
+
 Bright modern coastal living with a 30-foot pocketing glass wall and a separate 12-foot indoor/outdoor kitchen serving counter. Low pitched roofs, covered parking and a full primary bathing suite. 2,720 sq ft gross enclosed · 3 bedrooms · 2 baths.
 
 [![Rear terrace with the 30-foot glass wall open](homes/coastal-house/outputs/images/01-terrace-open.png)](homes/coastal-house/outputs/images/01-terrace-open.png)
@@ -105,6 +117,10 @@ Bright modern coastal living with a 30-foot pocketing glass wall and a separate 
 [View the concept PDF](homes/coastal-house/outputs/plans/design-board.pdf)
 
 ### Garage Loft 03
+
+![Garage Loft 03 — Imagegen photographic study](homes/garage-loft-03/outputs/images/photo-hero.png)
+
+*Imagegen photographic study. [Source and prompt](homes/garage-loft-03/outputs/photo-study.md).*
 
 Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room above. 36 × 34 ft footprint · 8-foot pool table · internal stair access and a fixed-floor operator bay. Lift imagery is an original schematic concept.
 
@@ -140,6 +156,10 @@ Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room
 
 ### Timber Courtyard 02
 
+![Timber Courtyard 02 — Imagegen photographic study](homes/timber-courtyard-02/outputs/images/photo-hero.png)
+
+*Imagegen photographic study. [Source and prompt](homes/timber-courtyard-02/outputs/photo-study.md).*
+
 Cedar wings, dark pitched roofs, a glazed gable and a planted courtyard. Exterior-led concept with a flexible, schematic interior. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
 
 [![Front timber wings, glazed gable and courtyard approach](homes/timber-courtyard-02/outputs/images/01-exterior.png)](homes/timber-courtyard-02/outputs/images/01-exterior.png)
@@ -165,6 +185,10 @@ Cedar wings, dark pitched roofs, a glazed gable and a planted courtyard. Exterio
 [View the concept PDF](homes/timber-courtyard-02/outputs/plans/design-board.pdf)
 
 ### Atrium 01
+
+![Atrium 01 — Imagegen photographic study](homes/atrium-01/outputs/images/photo-hero.png)
+
+*Imagegen photographic study. [Source and prompt](homes/atrium-01/outputs/photo-study.md).*
 
 Modern Eichler-inspired home with a walnut-and-sage kitchen, exposed beams and an open-air central atrium. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
 

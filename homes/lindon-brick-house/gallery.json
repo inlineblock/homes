@@ -103,5 +103,15 @@
         "outputs/images/06-family-room.png"
       ]
     }
-  ]
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/09-photo-study.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/04-brick-and-windows.png",
+    "source_sha256": "eb18f27b54f0a9412f0b0623d2a4235d647504952447efc27a0ae2717be7e756",
+    "image_sha256": "61092f254500be6586e6808edf1c28c256be8cfb0ca7d5126014f4bb5b856d19",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Lindon Brick House — Imagegen photographic study"
+  }
 }

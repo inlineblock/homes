@@ -1,5 +1,9 @@
 # Garage Loft 03
 
+![Garage Loft 03 — Imagegen photographic study](outputs/images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+
 A modern two-bay garage with four-car pit parking and a heated/cooled game room above. Warm cedar, pale plaster, and dark metal tie it to the shared home collection.
 
 ![Garage and game-room exterior](outputs/images/01-exterior.png)

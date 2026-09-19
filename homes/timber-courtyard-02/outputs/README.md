@@ -1,5 +1,9 @@
 # Timber Courtyard 02 — current outputs
 
+![Timber Courtyard 02 — Imagegen photographic study](images/photo-hero.png)
+
+*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+
 [Project and editable models](../README.md) · [Browse all homes](../../../README.md)
 
 Current concept deliverables. Replace these files when the design changes; Git retains earlier revisions. View numbers distinguish cameras, not versions.

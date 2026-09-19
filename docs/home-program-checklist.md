@@ -38,6 +38,8 @@ User-specific premium defaults here: **double primary vanity, separate shower an
 
 Record decisions on fireplace type/location, bathtub in secondary baths, second dishwasher, wine/beverage refrigeration, scullery, gym/game room, office, guest suite, elevator/lift, sauna, pool/spa, outdoor kitchen, extra garage, smart controls and automated shades. Choose based on household, site, budget, maintenance and room quality. The answer can be "excluded" with a reason.
 
+For selected game rooms, check the actual activity envelope as well as the furniture footprint: pool-table dimensions, intended cue length and player stance, unobstructed shots, seating/stair circulation, delivery path, lighting, HVAC and noise. Follow [interior operation guidance](design-guide/interiors-storage-access.md).
+
 ## Library selection and contribution
 
 1. Read the [visual catalog](../library/README.md) and search exact `asset.json` manifests. Select compatible dimensions, origin, installation and clearance assumptions—not only appearance.

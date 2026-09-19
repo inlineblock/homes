@@ -188,16 +188,21 @@ class GalleryVerifier:
         if missing:
             self.fail(scope, 'needs distinct exterior images for missing roles: ' + ', '.join(sorted(missing)))
 
-    def photographic_study(self, home, hero, renders, label, first=False):
+    def photographic_study(self, home, hero, renders, label, expected_view, first=False):
         if not isinstance(hero, dict):
             self.fail(label, 'needs a separately registered AI photographic study')
             return
         if hero.get('kind') != 'ai-photographic-study':
             self.fail(label, 'kind must be ai-photographic-study')
+        for key in ('caption', 'tool'):
+            if not isinstance(hero.get(key), str) or not hero[key].strip():
+                self.fail(label, f'{key} must be nonempty')
         path = self.image(home, hero.get('path'), 'outputs/images', label)
         source = self.image(home, hero.get('source_render'), 'outputs/images', label)
         if source not in renders:
             self.fail(label, 'source_render must be a registered native render')
+        elif renders[source]['view'] != expected_view:
+            self.fail(label, f'{expected_view} photographic study needs an {expected_view} native source')
         if path in renders:
             self.fail(label, 'AI study must not count as a native render')
         for image_path, key in ((source, 'source_sha256'), (path, 'image_sha256')):
@@ -225,6 +230,25 @@ class GalleryVerifier:
                 self.fail(label, str(error))
         if path not in self.embeds(self.root / 'README.md'):
             self.fail(label, 'root catalog must embed the photographic study')
+        if first:
+            # Scope by resolved file ownership, not heading names or global order.
+            # Other homes and repository illustrations may precede this entry.
+            root_readme = self.root / 'README.md'
+            leading = None
+            try:
+                for _, destination in markdown_images(root_readme.read_text(encoding='utf-8')):
+                    try:
+                        candidate = local_path(self.root, destination)
+                        candidate.relative_to(home.resolve())
+                    except ValueError:
+                        continue
+                    leading = candidate
+                    break
+                if leading != path:
+                    self.fail(label, 'root catalog must lead this home with its photographic study')
+            except (OSError, UnicodeError) as error:
+                self.fail(label, str(error))
+        return path
 
     def home(self, home):
         scope = str(home.relative_to(self.root))
@@ -261,7 +285,12 @@ class GalleryVerifier:
                 else:
                     renders[path] = item
         self.coverage(renders, scope)
-        self.photographic_study(home, manifest.get('photographic_hero'), renders, f'{scope} photographic_hero', first=True)
+        photographic_paths = set()
+        hero_path = self.photographic_study(
+            home, manifest.get('photographic_hero'), renders,
+            f'{scope} photographic_hero', 'exterior', first=True)
+        if hero_path is not None:
+            photographic_paths.add(hero_path)
         for key, expected_view in (('photographic_exteriors', 'exterior'),
                                    ('photographic_interiors', 'interior')):
             studies = manifest.get(key, [])
@@ -270,11 +299,11 @@ class GalleryVerifier:
                 continue
             for index, study in enumerate(studies):
                 label = f'{scope} {key}[{index}]'
-                self.photographic_study(home, study, renders, label)
-                source = study.get('source_render') if isinstance(study, dict) else None
-                native = next((item for item in renders.values() if item.get('path') == source), None)
-                if native and native.get('view') != expected_view:
-                    self.fail(label, f'{expected_view} photographic study needs an {expected_view} native source')
+                path = self.photographic_study(home, study, renders, label, expected_view)
+                if path is not None:
+                    if path in photographic_paths:
+                        self.fail(label, 'duplicate photographic study file')
+                    photographic_paths.add(path)
         levels = self.entries(manifest, 'required_levels', scope)
         if not levels or any(not isinstance(level, str) or not level.strip() for level in levels):
             self.fail(scope, 'required_levels must contain nonempty level names')
@@ -341,7 +370,9 @@ class GalleryVerifier:
         for path in sorted((feature_paths | set(plans)) - root_embeds):
             self.fail(f'README.md [{home.name}]', f'missing feature/plan image embed: {path.relative_to(self.root)}')
         state = 'OK' if len(self.errors) == count_before else 'FAIL'
-        print(f'{state} {home.name}: {len(renders)} renders, {len(plans)} level plans, {len(feature_ids)} features')
+        print(f'{state} {home.name}: {len(renders)} renders, {len(plans)} level plans, '
+              f'{len(feature_ids)} features, photographic studies: {len(photographic_paths)} '
+              '(counts do not establish full-tour completion)')
 
     def run(self):
         homes = sorted(path.parent for path in (self.root / 'homes').glob('*/project.json'))

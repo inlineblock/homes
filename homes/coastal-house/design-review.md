@@ -65,3 +65,9 @@ The [current output receipt](model/output-validation.json) records model, image,
 ## Open site and regulatory work
 
 No actual parcel, survey, jurisdiction, flood elevation, orientation or geotechnical data is supplied. Access grades, setbacks, emergency egress, energy performance, wind loads, drainage, corrosion, utility connections and construction details require project-specific professional work. A fireplace is optional and is not included. See [kitchen/bath tiers](../../docs/research/kitchen-bath-tiers.md) and [roof/climate notes](../../docs/research/roof-climate-materials.md) for sourced starting points, not approvals.
+
+## Expanded photographic tour status
+
+**Partial: 3 registered Image Gen photographic studies.** The existing native-gallery checks and selected photographic studies do not establish completion of the newer generous-tour guidance. No new photographs were generated in this guidance/publication audit.
+
+Next candidate coverage: front arrival, side/roof and parking, serving counter open/closed, primary bath and additional outdoor living. Select current reviewed native sources, resolve any defects exposed by those views, then generate and compare studies under the output QA skill. Preserve approved geometry for photo-only work; existing design limitations above still apply.

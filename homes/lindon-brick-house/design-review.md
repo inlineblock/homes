@@ -65,3 +65,9 @@ The rear basement stair is **relocated into a stacked reservation** beneath the 
 The eight renders and all three furnished plans were inspected as actual pixels, then promoted to stable `outputs/images/` and `outputs/plans/` filenames. The review checked roof/opening consistency, the closed garage setback cap, brick scale/color, terrace/site relationships and visible fixture mounting. Original SVGs accompany the plan PNGs. Interiors remain first furnishing studies, including unfinished trim/reveal junctions; full operating envelopes remain open. The gallery verifier checks registered coverage and direct README embeds separately from visual acceptance.
 
 Regenerate affected native/interchange files and dimension schedules after corrections, then update this review with the checks actually performed. Preserve the listing/model distinction and third-party reference exclusions in [references](references/README.md). Nothing here records an as-built survey, complete home-design pass, selected-product approval, engineering sign-off or permit readiness.
+
+## Expanded photographic tour status
+
+**Partial: 1 registered Image Gen photographic study.** The existing native-gallery checks and selected photographic studies do not establish completion of the newer generous-tour guidance. No new photographs were generated in this guidance/publication audit.
+
+Next candidate coverage: rear terraces, side/roof/site, kitchen, family room/fireplace, pool and court. Select current reviewed native sources, resolve any defects exposed by those views, then generate and compare studies under the output QA skill. Preserve approved geometry for photo-only work; existing design limitations above still apply.

@@ -3,5 +3,8 @@
   "renders": [],
   "required_levels": [],
   "plans": [],
-  "signature_features": []
+  "signature_features": [],
+  "photographic_hero": null,
+  "photographic_exteriors": [],
+  "photographic_interiors": []
 }

@@ -41,3 +41,9 @@ The native scene, classified IFC and dimensioned plans must not be represented a
 The earlier sunlit exterior rendered pale peach, with repeated soft grain and incorrect grain direction on several horizontal members. Mountain now explicitly adopts cedar v003 and thermo-ash v002. The revised original shaders use neutral brown colors, per-object growth samples and tone, fine irregular lines/pores, varied matte roughness and physical-meter UVs aligned along each member's longest local axis. The earlier shared versions remain immutable.
 
 Two rounds of same-camera host studies and neutral material samples were inspected, including an independent reviewer. Bright and shaded wood now retain a brown identity; the second round added fine growth detail after the first still read as broad blurred stripes. Scene lighting, exposure and architectural geometry were preserved. `model/material-validation.json` records identical before/after geometry hashes and 2,153 mapped timber objects; the native reopen and exact 24-pin adoption check passed. Current final image/PDF evidence is in `model/output-validation.json`.
+
+## Expanded photographic tour status
+
+**Partial: 1 registered Image Gen photographic study.** The existing native-gallery checks and selected photographic studies do not establish completion of the newer generous-tour guidance. No new photographs were generated in this guidance/publication audit.
+
+Next candidate coverage: road arrival/garage, hillside/roof, wraparound deck, kitchen, fireplace living room and walkout patio. Select current reviewed native sources, resolve any defects exposed by those views, then generate and compare studies under the output QA skill. Preserve approved geometry for photo-only work; existing design limitations above still apply.

@@ -6,3 +6,4 @@
 - Overwrite the same filenames after review. Keep no dated/versioned output folders or duplicate copies; Git records history. View numbers are not revision numbers.
 - Keep drafts in ignored `work/`; inspect actual images and rendered PDF pages before promoting replacements.
 - Changes to a source render or plan require refreshing any presentation board or preview that includes it.
+- Include the photographic finishing pass after reviewed native renders. Track the exterior hero, extra exteriors and interiors separately from native renders with real source hashes and prompts; use the current output QA skill.

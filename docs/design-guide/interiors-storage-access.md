@@ -61,6 +61,8 @@ Each card states when to choose the feature, its interfaces, a library route and
 
 **Library / proof:** Reuse existing furniture at its documented scale. Missing sofa, side table, desk, shelving and guest-bed families should become original shared collections when repeated. Distinguish permanent partitions from furniture so later adaptation is honest. Save both furniture layouts and their clearance annotations.
 
+**Game rooms, when included:** Choose the intended table size and cue length before fixing the room. Test full shot clearance and player stance on every side against walls, columns, seating and stair routes; a pool table fitting inside a room is not proof it can be played. Record equipment assumptions, table-light position, glare, delivery/assembly route and heating/cooling and acoustic provisions. A short-cue compromise needs an explicit decision, not a hidden clearance reduction. Apply the same activity-specific check to other selected games; do not invent a universal room dimension.
+
 ### 6. Doors, cabinets and hardware
 
 **Choose:** Prefer lever operation for everyday hinged doors; select knobs, bar pulls, edge pulls or flush pulls for the specific cabinet/door action. Pocket doors can recover swing space but require pocket depth, wall coordination, accessible edge retrieval and maintenance access. Sliding barn-style doors do not automatically provide bathroom or bedroom acoustic privacy.

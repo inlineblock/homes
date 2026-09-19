@@ -1,0 +1,54 @@
+{
+  "placement": {
+    "origin": "Ground-contact base Z=0; centered XY; upright Z",
+    "front_direction": "Radial planting clump",
+    "allowed_variation": "Uniform scale 0.8 to 1.4 and arbitrary Z rotation; no nonuniform stretching"
+  },
+  "mounting": "Place base on actual soil or grade, with free space around foliage.",
+  "clearances": {
+    "neighbor_center_spacing_m": 0.6,
+    "basis": "Illustrative planting massing, not botanical growth or climate suitability guidance.",
+    "host_checked": false
+  },
+  "source_notes": "Original generic flowering perennial silhouette with connected stems, attached leaves and modeled cupped petals; no imported geometry or botanical species claim.",
+  "product_status": "Illustrative original landscape geometry; no commercial plant specification.",
+  "schema_version": 1,
+  "id": "landscape/flowering-perennial-clump",
+  "version": "v001",
+  "name": "Lilac and ivory flowering perennial clump",
+  "units": "meters",
+  "dimensions_m": [
+    0.608333,
+    0.624171,
+    0.652876
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2907995581626892,
+      -0.323210746049881,
+      -0.0003669298312161118
+    ],
+    "max": [
+      0.3175336420536041,
+      0.30096060037612915,
+      0.6525092124938965
+    ]
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "library/landscape/flowering-perennial-clump/v001/generate.py",
+    "command": "blender --background --factory-startup --python library/landscape/flowering-perennial-clump/v001/generate.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry and embedded procedural materials; attribution Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "flowering-perennial-clump.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "preview_renderer": "review.py"
+  }
+}

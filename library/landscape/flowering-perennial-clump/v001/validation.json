@@ -1,0 +1,29 @@
+{
+  "fresh_process_link": true,
+  "software": "4.5.14 LTS",
+  "collection": "Flowering perennial clump | shared v001",
+  "mesh_objects": 30,
+  "measured_dimensions_m": [
+    0.6083332002162933,
+    0.6241713464260101,
+    0.6528761423251126
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2907995581626892,
+      -0.323210746049881,
+      -0.0003669298312161118
+    ],
+    "max": [
+      0.3175336420536041,
+      0.30096060037612915,
+      0.6525092124938965
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "materials_resolve": true,
+  "native_preview_rendered": true,
+  "preview_pixels_reviewed": true,
+  "host_integration_checked": false,
+  "pixel_review_notes": "Full native preview inspected, including ground-contact stem bases, attached lanceolate leaves, lilac/ivory modeled petals and complete uncropped crown. Generic concept planting, no species claim."
+}

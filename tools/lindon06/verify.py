@@ -36,7 +36,7 @@ windows=[o for o in bpy.context.scene.objects if o.get('ifc_class')=='IfcWindow'
 assert len(windows)>=15
 brick=[]
 for o in bpy.context.scene.objects:
-    if o.type=='MESH' and o.library is None and any(m and m.name.startswith('Warm red brick |') for m in o.data.materials):
+    if o.type=='MESH' and o.library is None and any(m and m.library and '/warm-red-brick/' in bpy.path.abspath(m.library.filepath) for m in o.data.materials):
         assert o.data.uv_layers.get('Brick meters'),o.name
         brick.append(o.name)
 assert len(brick)>40

@@ -40,6 +40,13 @@ def proposed_openings(key,a,b):
         w=min(3.55,L-1.05);ops=[dict(offset=(L-w)/2,width=w,sill=.6,height=2.2)]
         if my>14 and mx>10:ops=[dict(offset=(L-w)/2,width=w,sill=.08,height=2.68)]
 
+    # The front brick tower has one aligned, two-storey charcoal window inset.
+    # These are deliberate facade proposals, independent of the source glazing.
+    if horizontal and key=='main' and my<-.2 and 8<mx<11.5:
+        ops=[dict(offset=8.51-a[0],width=2.37,sill=.45,height=2.3)]
+    if horizontal and key=='upper' and abs(my)<.1 and 8<mx<11.5:
+        ops=[dict(offset=8.51-a[0],width=2.37,sill=.6,height=2.2)]
+
     # Retain actual exterior passage locations. The new front opening is a
     # combined door/sidelight; rear wall modules containing source doors are
     # explicitly door assemblies instead of fixed window panes.

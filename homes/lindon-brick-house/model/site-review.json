@@ -1,0 +1,114 @@
+{
+  "units": "meters",
+  "grade_datum_m": 0,
+  "site_surveyed": false,
+  "generic_context_bounds_xy_m": [
+    -200,
+    220,
+    -200,
+    220
+  ],
+  "west_lightwells": {
+    "bounds_xy_m": [
+      [
+        -1.8,
+        0,
+        0.6,
+        3.2
+      ],
+      [
+        -1.8,
+        0,
+        5.0,
+        7.8
+      ]
+    ],
+    "floor_z_m": -3.15,
+    "dimensions_status": "Approximate/unverified; daylight and maintenance concept, not certified escape openings or drained/engineered retaining design"
+  },
+  "front_entry_walk": {
+    "bounds_xy_m": [
+      4.8,
+      7.2,
+      -3,
+      2.747
+    ],
+    "top_z_m": 0.025
+  },
+  "arrival_styling": {
+    "left_forecourt": "Paving notch replaced with planted island, wholly outside garage approach",
+    "entry_clear_width_m": 2.4,
+    "foreground_asset": "landscape/flowering-perennial-clump/v001",
+    "status": "Proposed styling inspired by user reference; no surveyed landscape claim"
+  },
+  "pool_center_m": [
+    30,
+    28,
+    0
+  ],
+  "pool_water_footprint_m": [
+    6,
+    12
+  ],
+  "court_center_m": [
+    39,
+    4.5,
+    0.025
+  ],
+  "court_surface_m": [
+    18.288,
+    9.144
+  ],
+  "walkout_patio_bounds_xy_m": [
+    8.8,
+    19.3,
+    16.2,
+    23
+  ],
+  "walkout_patio_z_m": -3.15,
+  "garden_stairs": {
+    "riser_count": 18,
+    "riser_m": 0.175,
+    "tread_m": 0.35,
+    "clear_width_m": 2.4
+  },
+  "site_limitations": "Photo-informed spatial approximation; not surveyed. Pool barrier/gate, retaining structures, drainage, utilities, access and grading need site-specific design. Generic existing tree assets are illustrative, not identified listing species.",
+  "asset_dependencies": [
+    {
+      "id": "fixtures/rectangular-pool-6x12m",
+      "version": "v001"
+    },
+    {
+      "id": "surfaces/pickleball-court-30x60ft",
+      "version": "v001"
+    },
+    {
+      "id": "furniture/slatted-outdoor-chaise",
+      "version": "v001"
+    },
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002"
+    },
+    {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002"
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001"
+    }
+  ]
+}

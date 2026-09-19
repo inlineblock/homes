@@ -123,3 +123,21 @@ Each link below opens the exact version's dimensions, origin, dependencies, sour
 These are original Homes project assets under **CC BY 4.0**, with attribution to Homes project contributors; authoring code is MIT. They contain no listing photographs or source floor-plan graphics. Interior oak furniture pins the existing `coastal-white-oak/v001` material; the window links `bar-pull-matte-black/v001` as a conceptual grip, not a specified casement lock. Product selection and host validation remain separate from asset publication.
 
 **Reuse → adapt → contribute:** choose an asset that fits, link its exact version, and verify it in the home. For a different size or design, preserve the adopted source, publish a versioned variation or distinct sibling with its derivation and preview, then explicitly adopt it. Keep the home's asset schedule aligned with actual links. [Full selection and contribution workflow](../docs/assets.md).
+
+## Coordinated red-brick exterior palette
+
+The Lindon styling review contributed eight additional versioned options. Only explicitly adopted pins change in a home. Neutral native previews and fresh-link receipts sit alongside each asset; host daylight and material proportions still require review.
+
+| Deep iron red — Lindon adoption | Lighter russet option | Warm matte charcoal roof |
+| --- | --- | --- |
+| [![Deep iron red brick](materials/warm-red-brick/v003/preview.png)](materials/warm-red-brick/v003/asset.json) | [![Lighter muted red brick](materials/warm-red-brick/v002/preview.png)](materials/warm-red-brick/v002/asset.json) | [![Warm charcoal roofing](materials/charcoal-standing-seam/v002/preview.png)](materials/charcoal-standing-seam/v002/asset.json) |
+
+| Charcoal facade panel | Warm limestone plaster | Smoked oak |
+| --- | --- | --- |
+| [![Charcoal facade panel](materials/charcoal-facade-panel/v001/preview.png)](materials/charcoal-facade-panel/v001/asset.json) | [![Warm limestone plaster](materials/warm-limestone-plaster/v001/preview.png)](materials/warm-limestone-plaster/v001/asset.json) | [![Smoked oak grain](materials/smoked-oak/v001/preview.png)](materials/smoked-oak/v001/asset.json) |
+
+| Slim bronze glazing | Flowering perennial clump |
+| --- | --- |
+| [![Slim bronze window](openings/slim-dark-window/v002/preview.png)](openings/slim-dark-window/v002/asset.json) | [![Lilac and ivory flowering perennial](landscape/flowering-perennial-clump/v001/preview.png)](landscape/flowering-perennial-clump/v001/asset.json) |
+
+Brick preserves physical 225 × 75 mm coursing. Window v002 has 40 mm nominal frame sightlines and neutral double glazing; nonuniform host scaling changes those dimensions. The perennial is original reusable geometry, not a specified or climate-approved plant species. The current Lindon pins use the darker v003 brick; v001/v002 and all other homes' choices remain intact.

@@ -1,8 +1,8 @@
 # Lindon Brick House
 
-Warm red clay brick, broad rectangular windows and crisp charcoal roof lines bring an old-school material into a cleaner contemporary exterior. Natural timber garage doors and a sheltered entry soften the brick.
+Deep iron-red brick, charcoal window insets and warm limestone plaster form a coordinated contemporary exterior. A matte dark roof, flush charcoal garage doors and a sheltered smoked-oak entrance give the old-school masonry a quieter setting.
 
-This **first editable remodel study** interprets the listed home at 1044 E Center Street, Lindon. It retains the recognizable angled three-car wing, five upstairs bedrooms, two basement bedrooms, two rear terraces, walkout, pool and court. The earlier white-farmhouse direction is superseded.
+This **editable remodel study** interprets the listed home at 1044 E Center Street, Lindon. It retains the recognizable angled three-car wing, five upstairs bedrooms, two basement bedrooms, two rear terraces, walkout, pool and court. The earlier white-farmhouse direction is superseded.
 
 **Source and proposal are separate.** The tour provides undimensioned floor plans. Footprints, heights, glazing and site placement are approximate; the roof, enlarged windows and reconstructed stairs are proposed. This is neither an as-built survey nor construction documentation. Existing solar panels, pool outbuildings, gazebo and slide are not yet modeled.
 
@@ -12,21 +12,21 @@ The listing reports **6,807 sq ft**. The current reconstructed floor meshes meas
 
 The gallery below contains eight actual native renders and an original reconstructed plan for each occupied level. Interiors are an initial furnishing study; the current design priority is the exterior.
 
-### Warm red brick, rectangular dark-framed windows and the angled three-car wing
+### Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival
 
-![Warm red brick, rectangular dark-framed windows and the angled three-car wing](outputs/images/01-front-arrival.png)
+![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](outputs/images/01-front-arrival.png)
 
-### Two rear terraces over the walkout patio; proposed straight guards and larger glazing
+### Two rear terraces with slim glass guards, shared chaises and the walkout patio below
 
-![Two rear terraces over the walkout patio; proposed straight guards and larger glazing](outputs/images/02-rear-terraces.png)
+![Two rear terraces with slim glass guards, shared chaises and the walkout patio below](outputs/images/02-rear-terraces.png)
 
 ### Elevated view of the roof, arrival court, pool and pickleball court; approximate site
 
 ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](outputs/images/03-roof-and-site.png)
 
-### Front study wing, crisp window surrounds and basement daylight wells
+### Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry
 
-![Front study wing, crisp window surrounds and basement daylight wells](outputs/images/04-brick-and-windows.png)
+![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](outputs/images/04-brick-and-windows.png)
 
 ### First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration
 

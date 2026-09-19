@@ -18,11 +18,12 @@ ASSET_DEPENDENCIES = [
     ('furniture','slatted-outdoor-chaise','v001'),
     ('landscape','mountain-conifer','v002'),
     ('landscape','sage-shrub','v002'),
+    ('landscape','flowering-perennial-clump','v001'),
     ('landscape','ornamental-grass-clump','v002'),
     ('landscape','olive-tree','v001'),
     ('surfaces','honed-limestone-paver-4ft','v001'),
 ]
-SITE_BOUNDS=(-90,110,-90,110)
+SITE_BOUNDS=(-200,220,-200,220)
 WEST_LIGHTWELLS=[(-1.8,0,.6,3.2),(-1.8,0,5.0,7.8)]
 POOL_CENTER=(30,28)
 COURT_CENTER=(39,4.5)
@@ -36,21 +37,22 @@ def site_materials():
         'soil':noise_material('Lindon planted soil',(.032,.022,.012),(.085,.066,.035),38,.96,.007),
         'black':material('Lindon fence black metal',(.022,.027,.022),.5,.5),
         'joint':material('Lindon driveway contraction joint',(.19,.18,.16),.9),
+        'arrival':noise_material('Arrival warm ivory concrete',(.40,.385,.355),(.47,.45,.42),90,.80,.0007),
     }
-    lawn=material('Lindon lawn | physical-scale turf',(.085,.18,.035),.92)
+    lawn=material('Lindon lawn | physical-scale turf',(.095,.14,.075),.92)
     n=lawn.node_tree.nodes;l=lawn.node_tree.links;p=n.get('Principled BSDF');coord=n.new('ShaderNodeTexCoord')
-    noise=n.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=.36;noise.inputs['Detail'].default_value=4
+    noise=n.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=.065;noise.inputs['Detail'].default_value=2
     l.new(coord.outputs['Object'],noise.inputs['Vector'])
-    ramp=n.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].color=(.036,.095,.014,1);ramp.color_ramp.elements[1].color=(.16,.285,.052,1);l.new(noise.outputs['Fac'],ramp.inputs[0]);l.new(ramp.outputs[0],p.inputs['Base Color'])
+    ramp=n.new('ShaderNodeValToRGB');ramp.color_ramp.elements[0].color=(.085,.125,.070,1);ramp.color_ramp.elements[1].color=(.115,.160,.085,1);l.new(noise.outputs['Fac'],ramp.inputs[0]);l.new(ramp.outputs[0],p.inputs['Base Color'])
     fine=n.new('ShaderNodeTexNoise');fine.inputs['Scale'].default_value=340;fine.inputs['Detail'].default_value=2;l.new(coord.outputs['Object'],fine.inputs['Vector'])
-    bump=n.new('ShaderNodeBump');bump.inputs['Distance'].default_value=.014;bump.inputs['Strength'].default_value=.38;l.new(fine.outputs['Fac'],bump.inputs['Height']);l.new(bump.outputs[0],p.inputs['Normal'])
+    bump=n.new('ShaderNodeBump');bump.inputs['Distance'].default_value=.006;bump.inputs['Strength'].default_value=.22;l.new(fine.outputs['Fac'],bump.inputs['Height']);l.new(bump.outputs[0],p.inputs['Normal'])
     mats['lawn']=lawn
     return mats
 
 def lawn_with_excavations(mat):
     # Shared vertices and continuous object-space shader avoid seams between cells.
-    xs=sorted(set([-90,-50,-32,-20,-10,-1.8,0,8.45,8.8,12.8,15.2,19.3,19.65,24,26.79,33.21,36,45,56,80,110]))
-    ys=sorted(set([-90,-60,-37,-20,-8,0,.6,3.2,5.0,7.8,16.19,16.2,19,21.79,23,29.3,34.21,37,43,51,75,110]))
+    xs=sorted(set([-200,-50,-32,-20,-10,-1.8,0,8.45,8.8,12.8,15.2,19.3,19.65,24,26.79,33.21,36,45,56,80,220]))
+    ys=sorted(set([-200,-60,-37,-20,-8,0,.6,3.2,5.0,7.8,16.19,16.2,19,21.79,23,29.3,34.21,37,43,51,75,220]))
     verts=[(x,y,-.018) for y in ys for x in xs];faces=[]
     for j in range(len(ys)-1):
         for i in range(len(xs)-1):
@@ -86,17 +88,47 @@ def build_site(root,M):
     linked={slug:linked_collection(root,cat,slug,version) for cat,slug,version in ASSET_DEPENDENCIES}
     g.collection('Lindon 90 | Site terrain and circulation')
     lawn_with_excavations(mats['lawn'])
-    # Broad concrete arrival apron outside the angled garage; unobstructed route
-    # from the private lane and a separate walk to the main entry.
-    drivepoly=[(-2,-14),(10,-16),(19,-18),(30,-15),(33,-9),(29,-1),(23.27,-5.97),(19.87,-2.54),(19.32,-3.07),(14.6,1.7),(9,-1),(1,-1),(-3,-4)]
-    prism('Approximate concrete arrival court',drivepoly,-.15,.018,mats['concrete'])
+    # Vehicle apron stays open from the lane to the angled garage. The unused
+    # left forecourt is removed from paving and becomes a planted arrival garden.
+    drivepoly=[(-2,-14),(10,-16),(19,-18),(30,-15),(33,-9),(29,-1),(23.27,-5.97),(19.87,-2.54),(19.32,-3.07),(14.6,1.7),(9,-1),(4.5,-1),(4.5,-6.2),(3.6,-8.7),(-2.4,-9.2)]
+    prism('Approximate concrete arrival court',drivepoly,-.15,.018,mats['arrival'])
     lanepoly=[(18,-18),(23,-37),(28,-37),(24,-22),(31,-15),(30,-11),(25,-14)]
-    prism('Private approach lane | approximate route',lanepoly,-.16,.012,mats['concrete'])
-    # Native joint geometry lies on the court without striping the entire site.
-    for x in [4,9,14]:box('Driveway contraction joint',(x,-7.5,.021),(.009,11,.003),mats['joint'])
-    for y in [-4,-8,-12]:box('Driveway contraction joint',(8,y,.022),(17,.009,.003),mats['joint'])
-    prism('Main entry pedestrian walk',[(-1,-3),(10,-3),(10,0),(8,0),(8,-1.1),(-1,-1.1)],-.08,.025,mats['concrete'])
-    box('Recessed front-door connecting walk',(6,-.12,-.0275),(2.4,5.76,.105),mats['concrete'])
+    prism('Private approach lane | approximate route',lanepoly,-.16,.012,mats['arrival'])
+    # Restrained joints are clipped away from the planting notch and entry.
+    for x in [9,14]:box('Driveway contraction joint',(x,-7.5,.021),(.007,11,.002),mats['joint'])
+    for y in [-4,-8]:box('Driveway contraction joint',(11,y,.021),(13,.007,.002),mats['joint'])
+    box('Driveway contraction joint',(8,-12,.021),(17,.007,.002),mats['joint'])
+    # A full 2.4 m clear route reaches the recessed doorway. No garden objects
+    # enter x4.8..7.2, and its far end follows the traced entry setback.
+    box('Recessed front-door connecting walk',(6,(-3+2.747)/2,-.0275),(2.4,5.747,.105),mats['arrival'])
+    for y in [-1.8,-.6,.6,1.8]:box('Entry walk fine joint',(6,y,.026),(2.4,.006,.002),mats['joint'])
+    # Narrow arrival landing joins the drive only on the door side; the old
+    # broad left-hand branch has been replaced by a layered planted island.
+    box('Main entry pedestrian walk',(7.6,-2.4,.006),(1.4,1.2,.038),mats['arrival'])
+    island=[(-2,-7.5),(.6,-8.05),(3.2,-7.9),(3.95,-6.25),(4,-1.05),(.0,-1.05),(-2.35,-3.2)]
+    prism('Layered arrival garden island',island,-.018,.022,mats['soil'])
+    for a,b in zip(island,island[1:]+island[:1]):rod('Arrival garden thin charcoal edging',(*a,.027),(*b,.027),.012,mats['black'])
+    # Grounded low planting in irregular drifts, not isolated billboard shrubs.
+    arrival_rng=random.Random(610913)
+    for ci,(cx,cy) in enumerate([(-1.1,-3.1),(-.3,-5.5),(1.3,-6.9),(1.25,-3.9),(2.6,-1.9)]):
+        instance('Arrival shared sage anchor %02d'%ci,linked['sage-shrub'],(cx,cy,.024),arrival_rng.uniform(0,math.tau),arrival_rng.uniform(.90,1.15))
+        for k in range(7):
+            a=k*math.tau/7+arrival_rng.uniform(-.15,.15);r=arrival_rng.uniform(.52,.77)
+            slug='flowering-perennial-clump' if k%3 else 'ornamental-grass-clump'
+            x=cx+math.cos(a)*r;y=cy+math.sin(a)*r
+            if 1.70<x<3.70 and -5.44<y<-2.19:continue  # clear paver footprint plus foliage setback
+            instance('Arrival shared flowering drift %02d %02d'%(ci,k),linked[slug],(x,y,.024),arrival_rng.uniform(0,math.tau),arrival_rng.uniform(.82,1.08))
+    # Slim foundation borders sit forward of fixed glazing, below view height;
+    # the recessed front door and both west-side light wells stay open.
+    for bi,(x0,x1,y) in enumerate([(0.15,3.8,-.90),(7.72,11.5,-1.22)]):
+        box('Front foundation border %d'%bi,((x0+x1)/2,y,.006),(x1-x0,.84,.036),mats['soil'],.035)
+        for i in range(7):
+            x=x0+.24+i*(x1-x0-.48)/6
+            slug='flowering-perennial-clump' if i%3 else 'ornamental-grass-clump'
+            instance('Front shared low border %d %d'%(bi,i),linked[slug],(x,y,.025),arrival_rng.uniform(0,math.tau),.82 if slug=='flowering-perennial-clump' else .85)
+    # Two genuine unscaled library slabs form a small garden maintenance landing,
+    # entirely left of the door route and outside the garage approach.
+    for i in range(2):instance('Shared arrival garden paver %d'%i,linked['honed-limestone-paver-4ft'],(2.70,-3.20-i*1.23,.026))
     prism('East garden and court access',[(20,8),(29,8),(29,3.65),(30,3.65),(30,9.5),(20,9.5)],-.08,.025,mats['concrete'])
     # Approximate open west light wells for the two basement glazing bays.
     # The parent owns wall openings/glazing; no soil face remains in these holes.
@@ -179,6 +211,6 @@ def build_site(root,M):
             x=cx+rng.uniform(-w*.43,w*.43);y=cy+rng.uniform(-d*.43,d*.43)
             slug='sage-shrub' if k%3==0 else 'ornamental-grass-clump'
             instance('Shared understory %02d %03d'%(bi,k),linked[slug],(x,y,.006),rng.uniform(0,math.tau),rng.uniform(.85,1.25))
-    notes={'units':'meters','grade_datum_m':0,'site_surveyed':False,'generic_context_bounds_xy_m':list(SITE_BOUNDS),'west_lightwells':{'bounds_xy_m':WEST_LIGHTWELLS,'floor_z_m':-3.15,'dimensions_status':'Approximate/unverified; daylight and maintenance concept, not certified escape openings or drained/engineered retaining design'},'front_entry_walk':{'bounds_xy_m':[4.8,7.2,-3,2.76],'top_z_m':.025},'pool_center_m':[30,28,0],'pool_water_footprint_m':[6,12],'court_center_m':[39,4.5,.025],'court_surface_m':[18.288,9.144],'walkout_patio_bounds_xy_m':list(PATIO_BOUNDS),'walkout_patio_z_m':-3.15,'garden_stairs':{'riser_count':18,'riser_m':.175,'tread_m':.35,'clear_width_m':2.4},'site_limitations':'Photo-informed spatial approximation; not surveyed. Pool barrier/gate, retaining structures, drainage, utilities, access and grading need site-specific design. Generic existing tree assets are illustrative, not identified listing species.','asset_dependencies':[{'id':cat+'/'+slug,'version':ver} for cat,slug,ver in ASSET_DEPENDENCIES]}
+    notes={'units':'meters','grade_datum_m':0,'site_surveyed':False,'generic_context_bounds_xy_m':list(SITE_BOUNDS),'west_lightwells':{'bounds_xy_m':WEST_LIGHTWELLS,'floor_z_m':-3.15,'dimensions_status':'Approximate/unverified; daylight and maintenance concept, not certified escape openings or drained/engineered retaining design'},'front_entry_walk':{'bounds_xy_m':[4.8,7.2,-3,2.747],'top_z_m':.025},'arrival_styling':{'left_forecourt':'Paving notch replaced with planted island, wholly outside garage approach','entry_clear_width_m':2.4,'foreground_asset':'landscape/flowering-perennial-clump/v001','status':'Proposed styling inspired by user reference; no surveyed landscape claim'},'pool_center_m':[30,28,0],'pool_water_footprint_m':[6,12],'court_center_m':[39,4.5,.025],'court_surface_m':[18.288,9.144],'walkout_patio_bounds_xy_m':list(PATIO_BOUNDS),'walkout_patio_z_m':-3.15,'garden_stairs':{'riser_count':18,'riser_m':.175,'tread_m':.35,'clear_width_m':2.4},'site_limitations':'Photo-informed spatial approximation; not surveyed. Pool barrier/gate, retaining structures, drainage, utilities, access and grading need site-specific design. Generic existing tree assets are illustrative, not identified listing species.','asset_dependencies':[{'id':cat+'/'+slug,'version':ver} for cat,slug,ver in ASSET_DEPENDENCIES]}
     bpy.context.scene['lindon_site_grade_datum_m']=0.
     return notes

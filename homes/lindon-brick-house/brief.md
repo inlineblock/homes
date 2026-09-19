@@ -6,6 +6,8 @@ Reinterpret the house at **1044 E Center Street, Lindon, Utah 84042** as a moder
 
 Use warm, textured red brick with believable module size, mortar joints, subtle color variation and properly expressed opening reveals. Proposed windows should be larger where useful, rectangular and coordinated, with slender dark frames. Review daylight, room use, privacy and proportions together; a blanket replacement of every wall with glass would not satisfy the brief. Roof edges, trim, entrances and garage doors should support the quieter contemporary composition. Roof covering and technical assemblies remain to be selected.
 
+The user rejected the first render's styling: overly uniform orange brick, high-contrast mortar, cool bright roof, repetitive gables and weak entrance. Their subsequent visual reference introduces deliberate tonal blocks: red-brick principal forms, charcoal panels connecting stacked windows, warm off-white recessed walls, dark roof edges and layered foreground planting. Translate that hierarchy into this house's geometry. Retain recognizable gables with fewer competing projections; do not copy the reference's unrelated floor plan or arch as an automatic requirement.
+
 ## Preserve the recognizable house
 
 Keep the angled attached three-car garage wing and front arrival, the main and upper stories over a walkout basement, two rear decks, and the pool/court relationship to the house and yard. These relationships distinguish this project from a generic new-build concept. Larger openings and simplified details are proposed alterations; their structural and enclosure consequences remain unresolved.

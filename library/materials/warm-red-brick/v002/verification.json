@@ -1,0 +1,39 @@
+{
+  "native_linked_in_fresh_process": true,
+  "blender": "4.5.14 LTS",
+  "window_bounds_m": {
+    "min": [
+      -1.2000000476837158,
+      -0.017000004649162292,
+      0.0
+    ],
+    "max": [
+      1.2000000476837158,
+      0.16474999487400055,
+      2.4000000953674316
+    ]
+  },
+  "window_dimensions_m": [
+    2.4000000953674316,
+    0.18174999952316284,
+    2.4000000953674316
+  ],
+  "main_sightline_m": 0.04,
+  "brick_rotated_nonuniform_transform_uv_error_m": 6.036353666916128e-08,
+  "missing_dependencies": [],
+  "dependencies": [
+    "library/hardware/bar-pull-matte-black/v001/bar-pull-matte-black.blend",
+    "library/materials/charcoal-facade-panel/v001/charcoal-facade-panel.blend",
+    "library/materials/charcoal-standing-seam/v002/charcoal-standing-seam.blend",
+    "library/openings/slim-dark-window/v002/slim-dark-window.blend",
+    "library/materials/smoked-oak/v001/smoked-oak.blend",
+    "library/materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend",
+    "library/materials/warm-red-brick/v002/warm-red-brick.blend"
+  ],
+  "window_saved_relative_dependencies": [
+    "//../../../hardware/bar-pull-matte-black/v001/bar-pull-matte-black.blend"
+  ],
+  "host_integration_checked": false,
+  "visual_preview_review": "Inspected native 1100 x 950 CPU preview: visibly red oxide/russet masonry, fine warm-gray joints and quieter per-unit variation; no orange cast under neutral light. Physical surface texture is restrained at this view distance.",
+  "verification_scope": "Coordinated palette batch. Window metrics describe the separate window asset; dependencies lists files checked in the batch. Each asset manifest controls its own adoption dependencies."
+}

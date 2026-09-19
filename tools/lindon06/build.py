@@ -20,16 +20,38 @@ bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=Fals
 for c in list(bpy.data.collections):
     if c.name!='Collection':bpy.data.collections.remove(c)
 M=palette(ROOT)
-from library.build_lindon_assets import BRICK_NAME
-with bpy.data.libraries.load(str(ROOT/'library/materials/warm-red-brick/v001/warm-red-brick.blend'),link=True) as (src,dst):dst.materials=[BRICK_NAME]
+BRICK_NAME='Deep iron red brick | running bond | v003'
+with bpy.data.libraries.load(str(ROOT/'library/materials/warm-red-brick/v003/warm-red-brick.blend'),link=True) as (src,dst):dst.materials=[BRICK_NAME]
 M['brick']=dst.materials[0]
-M['cedar']=material(ROOT,'warm-vertical-cedar','v003')
+M['cedar']=material(ROOT,'smoked-oak','v001')
 M['deck']=material(ROOT,'mountain-thermo-ash','v002')
-M['roof']=material(ROOT,'charcoal-standing-seam')
+M['roof']=material(ROOT,'charcoal-standing-seam','v002')
+M['facade_plaster']=material(ROOT,'warm-limestone-plaster','v001')
+M['panel']=material(ROOT,'charcoal-facade-panel','v001')
+M['dark']=M['panel']
 M['concrete']=textured('Fine charcoal mineral foundation',(.21,.20,.185),(.28,.27,.24),80,.86,.001)
 levels=design.LEVELS
 level_names={'main':'Ground floor','upper':'Upper floor','basement':'Walkout basement'}
 floor_objects=[]
+
+def coordinate_floor_edges(obj,key):
+    # Finish exposed floor/ceiling edges with the adjacent facade field, avoiding
+    # arbitrary brick stripes through the cream connectors and charcoal wing.
+    obj.data.materials.append(M['facade_plaster']);plaster_index=len(obj.data.materials)-1
+    obj.data.materials.append(M['panel']);panel_index=len(obj.data.materials)-1
+    poly=levels[key]['footprint']
+    for face in obj.data.polygons:
+        if abs(face.normal.z)>.5:continue
+        center=sum((obj.data.vertices[i].co for i in face.vertices),Vector())/len(face.vertices)
+        q=Vector((center.x,center.y));closest=(1e6,None)
+        for i,(aa,bb) in enumerate(zip(poly,poly[1:]+poly[:1]),1):
+            a,b=Vector(aa),Vector(bb);d=b-a;t=max(0,min(1,(q-a).dot(d)/d.length_squared))
+            distance=(q-(a+d*t)).length
+            if distance<closest[0]:closest=(distance,i)
+        distance,index=closest
+        if distance>.18:continue
+        if key=='upper' and index in [7,8,9]:face.material_index=panel_index
+        elif (key=='main' and index in [2,3,4,10,11,12]) or (key=='upper' and index in [1,2,4,5,6,14]):face.material_index=plaster_index
 
 def cut_void(obj,polygon,z):
     cutter=prism('Temporary stair opening cutter',polygon,z-.8,z+.8,M['plaster'])
@@ -48,6 +70,7 @@ for key,data in levels.items():
     floor['floor_area_role']='occupied';floor['level_key']=key
     for hole in data.get('voids',[]):
         cut_void(floor,hole.get('polygon',hole) if isinstance(hole,dict) else hole,z)
+    coordinate_floor_edges(floor,key)
     floor_objects.append(floor)
 garage=getattr(design,'GARAGE_POLYGON',getattr(design,'GARAGE_FOOTPRINT',[(14.60,1.70),(20.21,7.33),(28.63,-.64),(23.27,-5.97),(19.87,-2.54),(19.32,-3.07)]))
 garagefloor=tag(prism('Three-car angled garage floor',garage,-.29,-.05,M['concrete']),'IfcSlab')
@@ -80,6 +103,7 @@ for key,data in levels.items():
         if abs(face.normal.z)<.5:face.material_index=1
         elif face.normal.z>.5:face.material_index=2
     for hole in data.get('ceiling_voids',[]):cut_void(ceil,hole.get('polygon',hole) if isinstance(hole,dict) else hole,z+height)
+    coordinate_floor_edges(ceil,key)
     g.collection('01 Architecture | '+key+' envelope continues')
 
 # The garage has actual large door openings and a clear interior access edge.
@@ -92,8 +116,8 @@ for i,(a,b) in enumerate(zip(garage,garage[1:]+garage[:1])):
         wall_piece('Garage door jamb',a,tuple(start),-.05,3.25,M['brick'])
         wall_piece('Garage door jamb',tuple(end),b,-.05,3.25,M['brick'])
         wall_piece('Garage door head',tuple(start),tuple(end),2.55,3.25,M['brick'])
-        for j in range(19):
-            obj=wall_piece('Flush timber garage door board',tuple(start),tuple(end),.04+j*.131,.04+j*.131+.119,M['cedar'],.095)
+        for j in range(4):
+            obj=wall_piece('Flush charcoal garage door section',tuple(start),tuple(end),.04+j*.625,.04+j*.625+.617,M['panel'],.095)
             tag(obj,'IfcDoor')
     else:
         aperture_wall(ROOT,'Garage side brick wall',a,b,-.05,3.3,proposed_openings('main',a,b),M,'Ground floor')
@@ -137,6 +161,7 @@ import importlib.util
 site_spec=importlib.util.spec_from_file_location('lindon_site',Path(__file__).parent/'site.py')
 site_module=importlib.util.module_from_spec(site_spec);site_spec.loader.exec_module(site_module)
 site_result=site_module.build_site(ROOT,M)
+(HOME/'model'/'site-review.json').write_text(json.dumps(site_result,indent=2)+'\n')
 
 from stairs import build_stairs
 stair_receipt=build_stairs(M)
@@ -144,10 +169,10 @@ stair_receipt=build_stairs(M)
 
 g.collection('20 Cameras and illumination')
 CAMERAS={
- '01-front-arrival':((35,-39,12),(12,6,3.2),47),
+ '01-front-arrival':((30,-43,7.2),(13,4.5,3.1),47),
  '02-rear-terraces':((30,41,9),(14,14,2.7),46),
  '03-roof-and-site':((65,-44,49),(15,14,1),45),
- '04-brick-and-windows':((-14,-19,8),(7,7,3),51),
+ '04-brick-and-windows':((-7,-19,4.2),(6.5,2.5,3),45),
  '07-pool-garden':((39,38,3.1),(18,19,2.0),33),
  '08-court-and-garage':((54,9,5),(22,6,2.5),43),
 }
@@ -156,18 +181,19 @@ for name,(loc,target,lens) in CAMERAS.items():camera(name,loc,target,lens)
 world=bpy.data.worlds.new('Soft late-afternoon sky');world.use_nodes=True;bpy.context.scene.world=world
 n=world.node_tree.nodes;l=world.node_tree.links
 sky=n.new('ShaderNodeTexSky');sky.sky_type='NISHITA';sky.sun_elevation=math.radians(32);sky.sun_rotation=math.radians(215);sky.altitude=.8;sky.air_density=1.1;sky.dust_density=.8;sky.sun_disc=False
-l.new(sky.outputs['Color'],n.get('Background').inputs['Color']);n.get('Background').inputs['Strength'].default_value=.42
-sun=bpy.data.lights.new('Soft afternoon sun','SUN');sun.energy=2.2;sun.angle=.08;sun.color=(1,.91,.81)
+sky_tone=n.new('ShaderNodeHueSaturation');sky_tone.inputs['Saturation'].default_value=.30
+l.new(sky.outputs['Color'],sky_tone.inputs['Color']);l.new(sky_tone.outputs['Color'],n.get('Background').inputs['Color']);n.get('Background').inputs['Strength'].default_value=.30
+sun=bpy.data.lights.new('Soft afternoon sun','SUN');sun.energy=1.8;sun.angle=.12;sun.color=(1,.97,.93)
 o=bpy.data.objects.new(sun.name,sun);g.ACTIVE.objects.link(o);o.rotation_euler=(math.radians(35),math.radians(-25),math.radians(-35))
-area('Broad photographic sky fill',(7,-11,19),(11,8,4),1900,14,(.82,.90,1))
+area('Broad neutral daylight fill',(7,-11,19),(11,8,4),1500,14,(1,.98,.95))
 
 scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1
-scene.render.engine='CYCLES';scene.cycles.samples=128;scene.cycles.use_denoising=True;scene.cycles.max_bounces=8
+scene.render.engine='CYCLES';scene.cycles.samples=320;scene.cycles.use_denoising=True;scene.cycles.max_bounces=8
 scene.cycles.transparent_max_bounces=8;scene.cycles.transmission_bounces=6
-scene.render.resolution_x=1800;scene.render.resolution_y=1200;scene.render.resolution_percentage=100
-scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.view_settings.exposure=.5
+scene.render.resolution_x=2400;scene.render.resolution_y=1600;scene.render.resolution_percentage=100
+scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.view_settings.exposure=0
 scene.render.film_transparent=False;scene.camera=bpy.data.objects['01-front-arrival']
-scene.render.filepath='//../outputs/work/01-front-arrival.png';scene['concept_stage']='Listing-based first remodel concept; site and dimensions approximate'
+scene.render.filepath='//../outputs/work/01-front-arrival.png';scene['concept_stage']='Listing-based revised tonal exterior study; site and dimensions approximate'
 scene['source_listing_area_sqft']=6807;scene['bedrooms']=7
 
 # Explicit physical-meter grain mapping for local timber members.

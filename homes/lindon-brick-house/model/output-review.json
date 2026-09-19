@@ -1,10 +1,10 @@
 {
-  "review_scope": "Current first-concept presentation set; not a complete functional, dimensional or engineering design approval",
-  "native_source_sha256": "df277565b39b4a627e761d737b77ba7f816708f3b63a6eb34f61e4de39f41eb0",
-  "renderer": "Blender 4.5.14 LTS / Cycles Metal / 192 samples / AgX Medium High Contrast",
+  "review_scope": "Revised tonal exterior concept and current presentation; not full functional, dimensional, engineering or client approval",
+  "native_source_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8",
+  "renderer": "Blender 4.5.14 LTS / Cycles Metal / 320 samples / AgX Medium High Contrast",
   "render_dimensions": [
-    1800,
-    1200
+    2400,
+    1600
   ],
   "plan_dimensions": [
     2200,
@@ -25,39 +25,87 @@
     "upper",
     "basement"
   ],
-  "visual_review": "Actual images inspected: consistent red brick and enlarged dark windows; roofs and garage cap closed; brick scale on angled walls; floor-connected terraces, walkout and lightwells; visible cooktop, oven, sink and hood; revised rear stair approach and cleared seating. Plans inspected for readable labels, furnishing and source-aligned level relationships. Remaining full operating-clearance and site questions are in design-review.md.",
+  "visual_review": "Actual current pixels inspected: deep red brick, neutral charcoal roof/panels, cream recesses, aligned inset window stack, correct exterior corner wrapping, clear entry planting/route, slim terrace guards and dark pier coping. Final side view prompted correction of the unsupported garage gable masonry; affected views rerendered and inspected. Interiors remain furnishing studies with unfinished trim/reveal junctions and incomplete operating-clearance review. Plans inspected for labels, furnishings, level relationships and coordinated front window apertures.",
+  "independent_reviews": [
+    {
+      "role": "Architectural composition",
+      "views": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "08"
+      ],
+      "findings": "Corrected exterior finish wrapping, dark inset continuity, projecting spandrel, rear pier caps, distant terrain edge and outer garage gable infill. Wide forecourt and garage/roof-heavy source proportions remain."
+    },
+    {
+      "role": "Materials and palette",
+      "views": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "findings": "No blocking palette issue in adopted v003 host drafts: deep red/burgundy in sun/shade, coherent charcoal family, restrained cream and neutral glass. Schematic landscape and dark lower terraces remain."
+    }
+  ],
+  "final_gable_correction": {
+    "rerendered_views": [
+      "01-front-arrival",
+      "03-roof-and-site",
+      "04-brick-and-windows",
+      "08-court-and-garage"
+    ],
+    "retained_views": [
+      "02-rear-terraces",
+      "05-kitchen",
+      "06-family-room",
+      "07-pool-garden"
+    ],
+    "retained_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a",
+    "scope": "Only outer garage gable masonry/soffit geometry changed after the complete eight-view render pass. Rear, pool and interior views retain their inspected unaffected pass."
+  },
+  "remaining_design_review": "../design-review.md",
   "files": [
     {
       "path": "outputs/images/01-front-arrival.png",
-      "sha256": "db9253cf58cba4d865fb4ed167ceaeb21f71a1f97b834267d390cc373bc28750"
+      "sha256": "7f762358892f67647bcbd4569da2aafb1017e763da9777c8cebff49efadc120e",
+      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
     },
     {
       "path": "outputs/images/02-rear-terraces.png",
-      "sha256": "8176c3fccd5fdf7d8237ae4affdac0b0a3d2836778a342de2645a01eea8d5abc"
+      "sha256": "ede75d1927239c9c6e94a76a49a8f7227964bb88ea22e15edfa08a402c2da7fa",
+      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
     },
     {
       "path": "outputs/images/03-roof-and-site.png",
-      "sha256": "1cdde5dac813aa7b631844291957bade93f3b1f23a3b4e8e9a401fb26a755d03"
+      "sha256": "203e0ea50e0052ed475985d2a67c3529f2a707b6f24a5cd2d89c98352354e7e0",
+      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
     },
     {
       "path": "outputs/images/04-brick-and-windows.png",
-      "sha256": "f3648fc613ad1912ba084849fb69ab44f980b8362180a654736a8654a886aebd"
+      "sha256": "50d4d5f9b286a58b8881a4ada100c11a2761444d3484c4cd59e56922c8b67ad1",
+      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
     },
     {
       "path": "outputs/images/05-kitchen.png",
-      "sha256": "9c57f0e2e3b268ae1b499ad55166f409a629bbc7a6c5e08f8ae2bdb81baa6551"
+      "sha256": "cdff9c8c1b334ca143309a8496dfa1ad11d74c2655616591a04bad6aa98b83b8",
+      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
     },
     {
       "path": "outputs/images/06-family-room.png",
-      "sha256": "46db9cb5daf41e628bb81f16d0f8e9b55b4c6ad3bf35e84714e34c01fc880b5f"
+      "sha256": "61bf5896b03c05025177871a7a6a921425d287ca90484b486ced0fbb17e62015",
+      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
     },
     {
       "path": "outputs/images/07-pool-garden.png",
-      "sha256": "2545348a8f14b516f0c250be8d04eb5ca9fa852d4e3ea5dae6c224163c155d3f"
+      "sha256": "d715a543aae4126669badced8831c0b0c47705c4bbb237b2fb2bc0e411cec8dd",
+      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
     },
     {
       "path": "outputs/images/08-court-and-garage.png",
-      "sha256": "920a2408ee5ec8567071e940fac53e56fa38e7a4e7263195669b18843b85fce7"
+      "sha256": "f575f866ac5a55b2ee95cd5a61d503f13aee2a0b035034340458983ad987c7c1",
+      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
     },
     {
       "path": "outputs/plans/basement-floor-plan.png",
@@ -69,19 +117,19 @@
     },
     {
       "path": "outputs/plans/main-floor-plan.png",
-      "sha256": "6a22c3c0491c21b03f5cc25d576fea45922d458304de8d2b955860323d829c1a"
+      "sha256": "b5e6d1d1ad3e582904c16d9745f5e3c73f126878e03c2f6b347edca448bc0481"
     },
     {
       "path": "outputs/plans/main-floor-plan.svg",
-      "sha256": "489eeaeb6293c0298147164a02203e1f171ef6c2407153fc8c236f9e1076cbaa"
+      "sha256": "83b014cede2b9badc9cf211db800e7fc3e8d88b9914ecc0ab83d993e6a331d90"
     },
     {
       "path": "outputs/plans/upper-floor-plan.png",
-      "sha256": "8544617203e8f6aade511c4cc6de638831614f9e2588a57493be002f760ea41b"
+      "sha256": "405bb0440364fb6b92d8587834716b2cb75a0468f1a62f8b6e512a5b74037301"
     },
     {
       "path": "outputs/plans/upper-floor-plan.svg",
-      "sha256": "5b6f0c81c606c13827c62734a09fe54ed923beab6fd285fe75d18e060ded14f2"
+      "sha256": "ef231e28437a3f4642619930ca0b57593162ff25331417d0a9241e682325d7a0"
     }
   ]
 }

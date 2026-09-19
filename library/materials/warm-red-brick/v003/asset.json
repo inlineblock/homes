@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "materials/warm-red-brick",
+  "version": "v003",
+  "name": "Deep iron red brick | running bond | v003",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors asset; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_palette.py",
+    "command": "Blender --factory-startup --background --python tools/library/build_lindon_palette.py -- deep-publish"
+  },
+  "files": {
+    "blender": "warm-red-brick.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Inspect adopted sunny/shaded facade, opening geometry and clearances; material preview is not installation verification."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 48,
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "illumination": "Neutral area lights and neutral gray environment"
+  },
+  "limitations": "Original concept appearance, not a manufacturer product or weather/structural certification.",
+  "derived_from": {
+    "id": "materials/warm-red-brick",
+    "version": "v002"
+  },
+  "dimensions_m": [
+    0.225,
+    0.1025,
+    0.075
+  ],
+  "unit_dimensions_m": [
+    0.217,
+    0.1025,
+    0.067
+  ],
+  "joint_m": 0.008,
+  "mortar_recess_m": 0.003,
+  "blender": {
+    "material": "Deep iron red brick | running bond | v003",
+    "collection": "Deep iron red brick | 225 x 75 mm module | v003"
+  },
+  "placement": "Use Brick meters UV; call library.build_lindon_assets.apply_brick_uv(obj) after final mesh and world transforms. Module bottom-center, front -Y, Z-up.",
+  "texture_scale": {
+    "uv_map": "Brick meters",
+    "horizontal_pitch_m": 0.225,
+    "course_pitch_m": 0.075,
+    "bump_recess_m": 0.003,
+    "micropore_scale_per_m": 620
+  },
+  "variation": "Fixed physical course scale, half-running bond; subtle internal per-unit red variation. No arbitrary object scaling of the physical module.",
+  "changes_from_parent": "Deeper, less orange iron-red body colors and slightly darker warm-gray mortar after neutral host sun/shade review. v002 remains an available lighter russet option. Same physical bond, joints and bump.",
+  "linear_rgb": {
+    "clay_light": [
+      0.185,
+      0.052,
+      0.045
+    ],
+    "clay_dark": [
+      0.105,
+      0.029,
+      0.027
+    ],
+    "mortar": [
+      0.19,
+      0.165,
+      0.145
+    ]
+  }
+}

@@ -1,19 +1,29 @@
-# Lindon Brick House — first concept review
+# Lindon Brick House — revised exterior review
 
-**Disposition: editable first concept; not a resolved design.** Recorded checks establish a reusable native model and selected geometric facts. Dimensional reconciliation and full functional coordination remain open. The user's approved direction is warm modern red brick with an old-school character and improved rectangular windows; farmhouse styling was superseded.
+**Disposition: editable exterior revision; not a resolved design.** Recorded checks establish a reusable native model and selected geometric facts. Dimensional reconciliation and full functional coordination remain open. The user requested red brick with old-school character and modern styling, then rejected the first all-brick palette. The current revision follows the supplied tonal reference; appearance review is not client approval.
+
+## Exterior critique and tonal revision
+
+Independent architecture and material reviewers inspected actual front, detail, rear and elevated native drafts. They identified the first scheme's orange/white mortar grid, cool silver-blue roof, arbitrary window trim, competing low gables and insufficient material hierarchy. The user supplied an image emphasizing muted red masonry, deep charcoal window fields and cream recesses. It is a style reference, not a copied plan or publicly redistributed image.
+
+The revision adopts deeper shared brick v003, quieter joints, charcoal roof v002, bronze window v002, charcoal facade panels, limestone plaster and smoked oak. Front windows align within a continuous charcoal inset; garage-window walls and flush doors reinforce the dark field. Cream is reserved for recessed connectors. The low study has a positively sloped concealed roof behind a brick parapet, while the principal gables and recognizable angled wing remain. Floor/ceiling edge finishes follow the facade fields. The shared entry downlights have actual canopy pockets; their wet-location suitability remains unverified. Low shared flowering borders define the arrival without occupying its 2.4 m concept walk.
+
+A second draft review caught incorrectly white brick corners and garage wall, a projecting dark spandrel, excess cream, and blue sky reflected in the roof. Those were corrected in the native source. The final draft palette review found no remaining blocking color issue: red/burgundy persists in shade, roof and panels read charcoal, and glazing is neutral. Architecture review confirmed corrected corner wrapping and coherent window grouping, then identified the pale rear pier caps and visible distant terrain edge. These were replaced with thin dark coping and extended background terrain before final output review. The final court-side view then exposed unsupported outer garage gable masonry. Its infill now follows the actual supporting wall endpoints; the remaining projection has a dark soffit. The architecture reviewer inspected the corrected side draft and found no visible regression. The deep asymmetric roof overhang remains conceptual and structurally unresolved.
+
+Remaining presentation limitations: a broad pale vehicle apron, garage/roof-heavy source proportions, schematic flat site surfaces, sparse low planting and dark lower rear terraces. These are recorded rather than hidden by an illustration. The layout, listed area discrepancy, product selection, drainage, structural and complete operating-clearance questions below remain open. The current revision addresses exterior appearance, not those unrelated approvals.
 
 ## Verified evidence and its limits
 
 | Evidence | Recorded result | What it does not prove |
 |---|---|---|
-| [Native reopen receipt](model/native-validation.json) | Blender 4.5.14 LTS reopened the model; 43 library dependencies resolve through relative paths | Suitability, operability or complete installation |
-| [Actual asset adoption](model/asset-adoption.json) | All 43 pins match the native libraries and have direct use or a declared adopted parent | Installation performance or operating clearances |
+| [Native reopen receipt](model/native-validation.json) | Blender 4.5.14 LTS reopened the model; 46 library dependencies resolve through relative paths | Suitability, operability or complete installation |
+| [Actual asset adoption](model/asset-adoption.json) | All 46 pins match the native libraries and have direct use or a declared adopted parent | Installation performance or operating clearances |
 | Evaluated bedroom furniture | Seven bed instances, each resolving to 11 mesh parts; five placed upstairs and two below | Usable room/closet/door clearances, legal bedroom status or emergency escape |
-| Brick and openings | 189 local brick meshes carry the physical-meter UV layer; 28 window assemblies exist | Complete material visual acceptance, masonry buildability, selected window performance or correct unscaled product profiles |
+| Brick and openings | 156 local brick meshes carry the physical-meter UV layer; 28 window assemblies exist | Complete material visual acceptance, masonry buildability, selected window performance or correct unscaled product profiles |
 | [Opening schedule](model/opening-schedule.json) | 31 facade-opening records across three levels provide positions, sill heights and opening heights | The schedule includes door openings; it is not a count of 31 windows. Each record identifies its opening kind; proposed operation remains unverified |
 | Targeted kitchen and envelope checks | Both cooktop glass tops are 5.5 mm above the worktops; roof faces point upward with thickness beneath the visible surfaces; garage setback cap exists and excludes the upper occupied footprint | Full appliance installation, roof weather/structural design or all junction/intersection checks |
 | [IFC schema receipt](model/ifc-validation.json) | IFC4, three storeys, zero schema errors | Full semantic/MEP coordination, engineering or permit approval |
-| [Bonsai import](model/bonsai-validation.json) | Final IFC reopened with 2,451 mesh objects | Complete semantic building model or specification |
+| [Bonsai import](model/bonsai-validation.json) | Final IFC reopened with 2,052 mesh objects | Complete semantic building model or specification |
 | [Presentation output review](model/output-review.json) | Eight native renders and three furnished level plans inspected and promoted; all are directly embedded in the three README galleries | Complete room usability, construction accuracy or site approval |
 
 ## Dimensional discrepancy — open
@@ -46,6 +56,6 @@ The rear basement stair is **relocated into a stacked reservation** beneath the 
 
 ## Output and next-review gate
 
-The eight renders and all three furnished plans were inspected as actual pixels, then promoted to stable `outputs/images/` and `outputs/plans/` filenames. The review checked roof/opening consistency, the closed garage setback cap, brick scale/color, terrace/site relationships and visible fixture mounting. Original SVGs accompany the plan PNGs. Interiors remain first furnishing studies; full operating envelopes remain open. The gallery verifier checks registered coverage and direct README embeds separately from visual acceptance.
+The eight renders and all three furnished plans were inspected as actual pixels, then promoted to stable `outputs/images/` and `outputs/plans/` filenames. The review checked roof/opening consistency, the closed garage setback cap, brick scale/color, terrace/site relationships and visible fixture mounting. Original SVGs accompany the plan PNGs. Interiors remain first furnishing studies, including unfinished trim/reveal junctions; full operating envelopes remain open. The gallery verifier checks registered coverage and direct README embeds separately from visual acceptance.
 
 Regenerate affected native/interchange files and dimension schedules after corrections, then update this review with the checks actually performed. Preserve the listing/model distinction and third-party reference exclusions in [references](references/README.md). Nothing here records an as-built survey, complete home-design pass, selected-product approval, engineering sign-off or permit readiness.

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "openings/slim-dark-window",
+  "version": "v002",
+  "name": "Slim bronze window | 2400 x 2400 mm | v002",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors asset; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_palette.py",
+    "command": "Blender --background --python tools/library/build_lindon_palette.py -- publish"
+  },
+  "files": {
+    "blender": "slim-dark-window.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [
+    {
+      "id": "hardware/bar-pull-matte-black",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-matte-black/v001/",
+      "blender": "bar-pull-matte-black.blend"
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Inspect adopted sunny/shaded facade, opening geometry and clearances; material preview is not installation verification."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 48,
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "illumination": "Neutral area lights and neutral gray environment"
+  },
+  "limitations": "Original concept appearance, not a manufacturer product or weather/structural certification.",
+  "derived_from": {
+    "id": "openings/slim-dark-window",
+    "version": "v001"
+  },
+  "dimensions_m": [
+    2.4000000953674316,
+    0.18174999952316284,
+    2.4000000953674316
+  ],
+  "nominal_opening_m": [
+    2.4,
+    2.4
+  ],
+  "frame_sightline_m": 0.04,
+  "blender": {
+    "collection": "Slim bronze window | 2400 x 2400 mm | v002"
+  },
+  "placement": "Bottom-center origin, front -Y, Z-up. Main frame Y0..0.13; sill reaches -0.017; concept grips reach Y0.16475.",
+  "variation": "Keep scale 1 for nominal 40 mm frames. Host resizing changes sightlines and remains an explicitly approximate study; publish dimensional variants for resolved openings.",
+  "operating_clearance": {
+    "state": "Closed",
+    "type": "Fixed center, two casement-style side panels",
+    "assumed_outward_angle_degrees": 90,
+    "assumed_outward_sweep_m": 0.54,
+    "basis": "Generic concept side-opening width, no engineered hinges",
+    "host_checked": false
+  },
+  "service_clearance": "Host resolves shims, drainage, flashing, sill slope, safe glazing, operating/cleaning access and actual product selection.",
+  "changes_from_parent": "40 mm main sightlines, 21 mm sash, neutral untinted 4 mm glazing with IOR 1.46 and warm dark bronze frames; original concept grips retained.",
+  "bounds_m": {
+    "min": [
+      -1.2000000476837158,
+      -0.017000004649162292,
+      0.0
+    ],
+    "max": [
+      1.2000000476837158,
+      0.16474999487400055,
+      2.4000000953674316
+    ]
+  }
+}

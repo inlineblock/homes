@@ -3,13 +3,13 @@
   "renders": [
     {
       "path": "outputs/images/01-front-arrival.png",
-      "caption": "Warm red brick, rectangular dark-framed windows and the angled three-car wing",
+      "caption": "Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival",
       "view": "exterior",
       "exterior_role": "arrival"
     },
     {
       "path": "outputs/images/02-rear-terraces.png",
-      "caption": "Two rear terraces over the walkout patio; proposed straight guards and larger glazing",
+      "caption": "Two rear terraces with slim glass guards, shared chaises and the walkout patio below",
       "view": "exterior",
       "exterior_role": "outdoor"
     },
@@ -21,7 +21,7 @@
     },
     {
       "path": "outputs/images/04-brick-and-windows.png",
-      "caption": "Front study wing, crisp window surrounds and basement daylight wells",
+      "caption": "Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry",
       "view": "exterior"
     },
     {

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "lindon-brick-house",
   "name": "Lindon Brick House",
-  "status": "First editable listing-based remodel study; open dimensional and design coordination items",
+  "status": "Revised tonal exterior study; open dimensional and design coordination items",
   "units": "meters",
   "display_units": "feet-inches",
   "target_area_sqft": 6807,
@@ -196,6 +196,11 @@
       "path": "../../library/hardware/bar-pull-matte-black/v001/"
     },
     {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001",
+      "path": "../../library/landscape/flowering-perennial-clump/v001/"
+    },
+    {
       "id": "landscape/mountain-conifer",
       "version": "v002",
       "path": "../../library/landscape/mountain-conifer/v002/"
@@ -216,9 +221,14 @@
       "path": "../../library/landscape/sage-shrub/v002/"
     },
     {
-      "id": "materials/charcoal-standing-seam",
+      "id": "materials/charcoal-facade-panel",
       "version": "v001",
-      "path": "../../library/materials/charcoal-standing-seam/v001/"
+      "path": "../../library/materials/charcoal-facade-panel/v001/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v002",
+      "path": "../../library/materials/charcoal-standing-seam/v002/"
     },
     {
       "id": "materials/coastal-honed-limestone",
@@ -236,19 +246,24 @@
       "path": "../../library/materials/mountain-thermo-ash/v002/"
     },
     {
-      "id": "materials/warm-red-brick",
+      "id": "materials/smoked-oak",
       "version": "v001",
-      "path": "../../library/materials/warm-red-brick/v001/"
+      "path": "../../library/materials/smoked-oak/v001/"
     },
     {
-      "id": "materials/warm-vertical-cedar",
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../library/materials/warm-limestone-plaster/v001/"
+    },
+    {
+      "id": "materials/warm-red-brick",
       "version": "v003",
-      "path": "../../library/materials/warm-vertical-cedar/v003/"
+      "path": "../../library/materials/warm-red-brick/v003/"
     },
     {
       "id": "openings/slim-dark-window",
-      "version": "v001",
-      "path": "../../library/openings/slim-dark-window/v001/"
+      "version": "v002",
+      "path": "../../library/openings/slim-dark-window/v002/"
     },
     {
       "id": "surfaces/honed-limestone-paver-4ft",

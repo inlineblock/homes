@@ -1,7 +1,7 @@
 {
   "home": "lindon-brick-house",
   "native_library_pins_match_manifest": true,
-  "asset_versions": 43,
+  "asset_versions": 46,
   "assets": [
     {
       "id": "appliances/built-in-oven-30in",
@@ -139,16 +139,16 @@
     {
       "id": "fixtures/lighting-recessed-downlight-3in",
       "version": "v001",
-      "direct_placements_or_material_assignments": 16,
+      "direct_placements_or_material_assignments": 19,
       "examples": [
+        "Shared entry recessed downlight",
+        "Shared entry recessed downlight.001",
+        "Shared entry recessed downlight.002",
         "Shared recessed interior light 0",
         "Shared recessed interior light 1",
         "Shared recessed interior light 2",
         "Shared recessed interior light 3",
-        "Shared recessed interior light 4",
-        "Shared recessed interior light 5",
-        "Shared recessed interior light 6",
-        "Shared recessed interior light 7"
+        "Shared recessed interior light 4"
       ],
       "adopted_parent_dependencies": []
     },
@@ -310,15 +310,16 @@
     {
       "id": "furniture/slatted-outdoor-chaise",
       "version": "v001",
-      "direct_placements_or_material_assignments": 7,
+      "direct_placements_or_material_assignments": 9,
       "examples": [
+        "Shared upper terrace chaise",
+        "Shared upper terrace chaise.001",
         "Shared pool chaise",
         "Shared pool chaise.001",
         "Shared pool chaise.002",
         "Shared pool chaise.003",
         "Shared pool chaise.004",
-        "Shared walkout chaise",
-        "Shared walkout chaise.001"
+        "Shared walkout chaise"
       ],
       "adopted_parent_dependencies": []
     },
@@ -349,6 +350,22 @@
       "adopted_parent_dependencies": [
         "openings/slim-dark-window"
       ]
+    },
+    {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 26,
+      "examples": [
+        "Arrival shared flowering drift 00 01",
+        "Arrival shared flowering drift 00 02",
+        "Arrival shared flowering drift 00 04",
+        "Arrival shared flowering drift 00 05",
+        "Arrival shared flowering drift 01 01",
+        "Arrival shared flowering drift 01 02",
+        "Arrival shared flowering drift 01 04",
+        "Arrival shared flowering drift 01 05"
+      ],
+      "adopted_parent_dependencies": []
     },
     {
       "id": "landscape/mountain-conifer",
@@ -385,39 +402,55 @@
     {
       "id": "landscape/ornamental-grass-clump",
       "version": "v002",
-      "direct_placements_or_material_assignments": 124,
+      "direct_placements_or_material_assignments": 143,
       "examples": [
-        "Shared meadow edge planting 00 00",
-        "Shared meadow edge planting 00 02",
-        "Shared meadow edge planting 00 04",
-        "Shared meadow edge planting 00 06",
-        "Shared meadow edge planting 00 08",
-        "Shared meadow edge planting 00 10",
-        "Shared meadow edge planting 00 12",
-        "Shared meadow edge planting 01 00"
+        "Arrival shared flowering drift 00 00",
+        "Arrival shared flowering drift 00 03",
+        "Arrival shared flowering drift 00 06",
+        "Arrival shared flowering drift 01 00",
+        "Arrival shared flowering drift 01 03",
+        "Arrival shared flowering drift 01 06",
+        "Arrival shared flowering drift 02 00",
+        "Arrival shared flowering drift 02 03"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "landscape/sage-shrub",
       "version": "v002",
-      "direct_placements_or_material_assignments": 92,
+      "direct_placements_or_material_assignments": 97,
       "examples": [
+        "Arrival shared sage anchor 00",
+        "Arrival shared sage anchor 01",
+        "Arrival shared sage anchor 02",
+        "Arrival shared sage anchor 03",
+        "Arrival shared sage anchor 04",
         "Shared meadow edge planting 00 01",
         "Shared meadow edge planting 00 03",
-        "Shared meadow edge planting 00 05",
-        "Shared meadow edge planting 00 07",
-        "Shared meadow edge planting 00 09",
-        "Shared meadow edge planting 00 11",
-        "Shared meadow edge planting 00 13",
-        "Shared meadow edge planting 01 01"
+        "Shared meadow edge planting 00 05"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/charcoal-facade-panel",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 850,
+      "examples": [
+        "main occupied floor (material)",
+        "upper occupied floor (material)",
+        "basement occupied floor (material)",
+        "main facade 1 | thin bronze sill (material)",
+        "main facade 7 (material)",
+        "main facade 7.001 (material)",
+        "main facade 7.002 (material)",
+        "main facade 7 | thin bronze sill (material)"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "materials/charcoal-standing-seam",
-      "version": "v001",
-      "direct_placements_or_material_assignments": 295,
+      "version": "v002",
+      "direct_placements_or_material_assignments": 285,
       "examples": [
         "Garage setback roof and ceiling (material)",
         "main ceiling (material)",
@@ -433,11 +466,8 @@
     {
       "id": "materials/coastal-honed-limestone",
       "version": "v001",
-      "direct_placements_or_material_assignments": 5,
+      "direct_placements_or_material_assignments": 2,
       "examples": [
-        "Pier stone coping (material)",
-        "Pier stone coping.001 (material)",
-        "Pier stone coping.002 (material)",
         "Family room noncombustible chase (material)",
         "Family room stone hearth (material)"
       ],
@@ -446,16 +476,16 @@
     {
       "id": "materials/coastal-white-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 481,
+      "direct_placements_or_material_assignments": 475,
       "examples": [
         "main occupied floor (material)",
         "upper occupied floor (material)",
         "basement occupied floor (material)",
-        "main facade 3 timber door (material)",
-        "main facade 13 timber door (material)",
-        "main facade 13 timber door.001 (material)",
-        "main facade 17 timber door (material)",
-        "Garage side brick wall timber door (material)"
+        "Open interior door (material)",
+        "Open interior door.001 (material)",
+        "Open interior door.002 (material)",
+        "Open interior door.003 (material)",
+        "Open interior door.004 (material)"
       ],
       "adopted_parent_dependencies": []
     },
@@ -476,9 +506,40 @@
       "adopted_parent_dependencies": []
     },
     {
-      "id": "materials/warm-red-brick",
+      "id": "materials/smoked-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 189,
+      "direct_placements_or_material_assignments": 7,
+      "examples": [
+        "main facade 3 timber door (material)",
+        "main facade 13 timber door (material)",
+        "main facade 13 timber door.001 (material)",
+        "main facade 17 timber door (material)",
+        "Garage side brick wall timber door (material)",
+        "Garage side brick wall timber door.001 (material)",
+        "Sheltered smoked oak entry soffit (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 27,
+      "examples": [
+        "main occupied floor (material)",
+        "upper occupied floor (material)",
+        "basement occupied floor (material)",
+        "main facade 2 (material)",
+        "main facade 3 (material)",
+        "main facade 3.001 (material)",
+        "main facade 3.002 (material)",
+        "main facade 3.003 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-red-brick",
+      "version": "v003",
+      "direct_placements_or_material_assignments": 156,
       "examples": [
         "main occupied floor (material)",
         "upper occupied floor (material)",
@@ -492,24 +553,8 @@
       "adopted_parent_dependencies": []
     },
     {
-      "id": "materials/warm-vertical-cedar",
-      "version": "v003",
-      "direct_placements_or_material_assignments": 40,
-      "examples": [
-        "Flush timber garage door board (material)",
-        "Flush timber garage door board.001 (material)",
-        "Flush timber garage door board.002 (material)",
-        "Flush timber garage door board.003 (material)",
-        "Flush timber garage door board.004 (material)",
-        "Flush timber garage door board.005 (material)",
-        "Flush timber garage door board.006 (material)",
-        "Flush timber garage door board.007 (material)"
-      ],
-      "adopted_parent_dependencies": []
-    },
-    {
       "id": "openings/slim-dark-window",
-      "version": "v001",
+      "version": "v002",
       "direct_placements_or_material_assignments": 28,
       "examples": [
         "main facade 1 | dark window 1",
@@ -526,16 +571,16 @@
     {
       "id": "surfaces/honed-limestone-paver-4ft",
       "version": "v001",
-      "direct_placements_or_material_assignments": 13,
+      "direct_placements_or_material_assignments": 15,
       "examples": [
+        "Shared arrival garden paver 0",
+        "Shared arrival garden paver 1",
         "Shared rear lawn stepping stone 00",
         "Shared rear lawn stepping stone 01",
         "Shared rear lawn stepping stone 02",
         "Shared rear lawn stepping stone 03",
         "Shared rear lawn stepping stone 04",
-        "Shared rear lawn stepping stone 05",
-        "Shared pool approach paver 00",
-        "Shared pool approach paver 01"
+        "Shared rear lawn stepping stone 05"
       ],
       "adopted_parent_dependencies": []
     },

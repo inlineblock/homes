@@ -12,13 +12,13 @@ A first red-brick remodel study based on the Lindon listing: larger dark-framed 
 
 [Full project, models and limitations](homes/lindon-brick-house/README.md) · [Current outputs](homes/lindon-brick-house/outputs/README.md)
 
-| Warm red brick, rectangular dark-framed windows and the angled three-car wing | Two rear terraces over the walkout patio; proposed straight guards and larger glazing |
+| Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival | Two rear terraces with slim glass guards, shared chaises and the walkout patio below |
 | --- | --- |
-| ![Warm red brick, rectangular dark-framed windows and the angled three-car wing](homes/lindon-brick-house/outputs/images/01-front-arrival.png) | ![Two rear terraces over the walkout patio; proposed straight guards and larger glazing](homes/lindon-brick-house/outputs/images/02-rear-terraces.png) |
+| ![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](homes/lindon-brick-house/outputs/images/01-front-arrival.png) | ![Two rear terraces with slim glass guards, shared chaises and the walkout patio below](homes/lindon-brick-house/outputs/images/02-rear-terraces.png) |
 
-| Elevated view of the roof, arrival court, pool and pickleball court; approximate site | Front study wing, crisp window surrounds and basement daylight wells |
+| Elevated view of the roof, arrival court, pool and pickleball court; approximate site | Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry |
 | --- | --- |
-| ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](homes/lindon-brick-house/outputs/images/03-roof-and-site.png) | ![Front study wing, crisp window surrounds and basement daylight wells](homes/lindon-brick-house/outputs/images/04-brick-and-windows.png) |
+| ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](homes/lindon-brick-house/outputs/images/03-roof-and-site.png) | ![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](homes/lindon-brick-house/outputs/images/04-brick-and-windows.png) |
 
 | First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration | Family room, closed-glass fireplace and reconstructed rear stair |
 | --- | --- |

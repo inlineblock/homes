@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "materials/warm-limestone-plaster",
+  "version": "v001",
+  "name": "Warm limestone plaster | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors asset; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_lindon_palette.py",
+    "command": "Blender --background --python tools/library/build_lindon_palette.py -- publish"
+  },
+  "files": {
+    "blender": "warm-limestone-plaster.blend",
+    "preview": "preview.png"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Inspect adopted sunny/shaded facade, opening geometry and clearances; material preview is not installation verification."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 48,
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "illumination": "Neutral area lights and neutral gray environment"
+  },
+  "limitations": "Original concept appearance, not a manufacturer product or weather/structural certification.",
+  "blender": {
+    "material": "Warm limestone plaster | v001"
+  },
+  "placement": "Material-only asset; no placement or operating envelope. Host supplies the actual assembly geometry.",
+  "texture_scale": {
+    "coordinates": "World position in meters",
+    "noise_scale_per_m": 180
+  },
+  "variation": "Fixed subtle physical texture; host supplies seams, joints and flashing geometry."
+}

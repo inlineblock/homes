@@ -49,3 +49,7 @@ Preserve unresolved conflicts:
 Listing photography, tour imagery and source plan graphics are third-party reference material. Public access does not establish redistribution permission. Keep any local copies outside the repository or in storage confirmed ignored by Git; this references folder contains links and notes only. Do not add them to public render galleries, library textures, downloadable source packages or CC BY 4.0 attribution as if the project created them.
 
 The project's newly authored concept models, diagrams and renders must be identified as an original interpretation informed by these references, with proposed changes and inferred measurements made clear. Do not represent them as the photographer's work, the original architect's plans, a surveyed as-built model or approved renovation documents. The repository's license applies only to rights the project actually holds; unresolved third-party rights stay excluded.
+
+## User-supplied tonal reference
+
+A later image supplied in the project conversation guides the revised palette: muted red brick, charcoal window fields, cream recessed walls, dark roofing and layered flowering planting. It supplies no dimensions, site conditions or product specification. The image itself is not redistributed in this repository; the revised native geometry and current renders remain this project's authored concept.

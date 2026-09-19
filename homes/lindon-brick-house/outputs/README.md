@@ -2,21 +2,21 @@
 
 Current native renders and reconstructed concept plans. No output history folders: Git retains revisions. Dimensions and site are approximate; read the [project limitations](../design-review.md).
 
-### Warm red brick, rectangular dark-framed windows and the angled three-car wing
+### Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival
 
-![Warm red brick, rectangular dark-framed windows and the angled three-car wing](../outputs/images/01-front-arrival.png)
+![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](../outputs/images/01-front-arrival.png)
 
-### Two rear terraces over the walkout patio; proposed straight guards and larger glazing
+### Two rear terraces with slim glass guards, shared chaises and the walkout patio below
 
-![Two rear terraces over the walkout patio; proposed straight guards and larger glazing](../outputs/images/02-rear-terraces.png)
+![Two rear terraces with slim glass guards, shared chaises and the walkout patio below](../outputs/images/02-rear-terraces.png)
 
 ### Elevated view of the roof, arrival court, pool and pickleball court; approximate site
 
 ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](../outputs/images/03-roof-and-site.png)
 
-### Front study wing, crisp window surrounds and basement daylight wells
+### Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry
 
-![Front study wing, crisp window surrounds and basement daylight wells](../outputs/images/04-brick-and-windows.png)
+![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](../outputs/images/04-brick-and-windows.png)
 
 ### First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration
 

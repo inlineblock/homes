@@ -434,16 +434,16 @@
     {
       "id": "materials/charcoal-facade-panel",
       "version": "v001",
-      "direct_placements_or_material_assignments": 850,
+      "direct_placements_or_material_assignments": 874,
       "examples": [
         "main occupied floor (material)",
         "upper occupied floor (material)",
         "basement occupied floor (material)",
         "main facade 1 | thin bronze sill (material)",
-        "main facade 7 (material)",
-        "main facade 7.001 (material)",
-        "main facade 7.002 (material)",
-        "main facade 7 | thin bronze sill (material)"
+        "main facade 4 (material)",
+        "main facade 5 (material)",
+        "main facade 6 (material)",
+        "main facade 7 (material)"
       ],
       "adopted_parent_dependencies": []
     },
@@ -506,6 +506,22 @@
       "adopted_parent_dependencies": []
     },
     {
+      "id": "materials/mushroom-mineral-plaster",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 39,
+      "examples": [
+        "main occupied floor (material)",
+        "upper occupied floor (material)",
+        "basement occupied floor (material)",
+        "main ceiling (material)",
+        "upper facade 1 (material)",
+        "upper facade 1.001 (material)",
+        "upper facade 1.002 (material)",
+        "upper facade 1.003 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
       "id": "materials/smoked-oak",
       "version": "v001",
       "direct_placements_or_material_assignments": 7,
@@ -521,25 +537,9 @@
       "adopted_parent_dependencies": []
     },
     {
-      "id": "materials/warm-limestone-plaster",
-      "version": "v001",
-      "direct_placements_or_material_assignments": 27,
-      "examples": [
-        "main occupied floor (material)",
-        "upper occupied floor (material)",
-        "basement occupied floor (material)",
-        "main facade 2 (material)",
-        "main facade 3 (material)",
-        "main facade 3.001 (material)",
-        "main facade 3.002 (material)",
-        "main facade 3.003 (material)"
-      ],
-      "adopted_parent_dependencies": []
-    },
-    {
       "id": "materials/warm-red-brick",
       "version": "v003",
-      "direct_placements_or_material_assignments": 156,
+      "direct_placements_or_material_assignments": 118,
       "examples": [
         "main occupied floor (material)",
         "upper occupied floor (material)",

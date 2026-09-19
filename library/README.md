@@ -126,7 +126,7 @@ These are original Homes project assets under **CC BY 4.0**, with attribution to
 
 ## Coordinated red-brick exterior palette
 
-The Lindon styling review contributed eight additional versioned options. Only explicitly adopted pins change in a home. Neutral native previews and fresh-link receipts sit alongside each asset; host daylight and material proportions still require review.
+The Lindon styling review contributed nine additional versioned options. Only explicitly adopted pins change in a home. Neutral native previews and fresh-link receipts sit alongside each asset; host daylight and material proportions still require review.
 
 | Deep iron red — Lindon adoption | Lighter russet option | Warm matte charcoal roof |
 | --- | --- | --- |
@@ -141,3 +141,7 @@ The Lindon styling review contributed eight additional versioned options. Only e
 | [![Slim bronze window](openings/slim-dark-window/v002/preview.png)](openings/slim-dark-window/v002/asset.json) | [![Lilac and ivory flowering perennial](landscape/flowering-perennial-clump/v001/preview.png)](landscape/flowering-perennial-clump/v001/asset.json) |
 
 Brick preserves physical 225 × 75 mm coursing. Window v002 has 40 mm nominal frame sightlines and neutral double glazing; nonuniform host scaling changes those dimensions. The perennial is original reusable geometry, not a specified or climate-approved plant species. The current Lindon pins use the darker v003 brick; v001/v002 and all other homes' choices remain intact.
+
+[![Subdued mushroom mineral plaster](materials/mushroom-mineral-plaster/v001/preview.png)](materials/mushroom-mineral-plaster/v001/asset.json)
+
+The [mushroom mineral plaster option](materials/mushroom-mineral-plaster/v001/asset.json) provides a substantially darker, low-chroma warm gray-brown alternative to the limestone plaster above. Its actual neutral CPU preview and fresh native reopening were reviewed; hosts separately check sun/shade response beside brick and charcoal. The original limestone material remains available unchanged.

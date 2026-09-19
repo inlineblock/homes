@@ -1,6 +1,6 @@
 # Lindon Brick House
 
-Deep iron-red brick, charcoal window insets and warm limestone plaster form a coordinated contemporary exterior. A matte dark roof, flush charcoal garage doors and a sheltered smoked-oak entrance give the old-school masonry a quieter setting.
+Deep iron-red brick anchors the lower level. A complete charcoal window bay rises through the front gable, while subdued mushroom plaster and charcoal wrap the upper volumes. The matte roof, flush dark garage doors and smoked-oak entrance keep the palette restrained.
 
 This **editable remodel study** interprets the listed home at 1044 E Center Street, Lindon. It retains the recognizable angled three-car wing, five upstairs bedrooms, two basement bedrooms, two rear terraces, walkout, pool and court. The earlier white-farmhouse direction is superseded.
 
@@ -10,11 +10,13 @@ The listing reports **6,807 sq ft**. The current reconstructed floor meshes meas
 
 [Editable Blender model](model/lindon-brick-house.blend) · [Classified concept IFC](model/lindon-brick-house.ifc) · [All current outputs](outputs/README.md) · [Brief](brief.md) · [Program](program.md) · [Review and limitations](design-review.md) · [Sources](references/README.md) · [Asset use](assets/README.md)
 
+The low front study wing has a simple unoccupied roof with a slim edge; it is not a rooftop patio and has no terrace access. Outdoor living remains on the two rear terraces.
+
 The gallery below contains eight actual native renders and an original reconstructed plan for each occupied level. Interiors are an initial furnishing study; the current design priority is the exterior.
 
-### Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival
+### Brick base, a complete charcoal window bay and muted mushroom upper walls
 
-![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](outputs/images/01-front-arrival.png)
+![Brick base, a complete charcoal window bay and muted mushroom upper walls](outputs/images/01-front-arrival.png)
 
 ### Two rear terraces with slim glass guards, shared chaises and the walkout patio below
 
@@ -24,9 +26,9 @@ The gallery below contains eight actual native renders and an original reconstru
 
 ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](outputs/images/03-roof-and-site.png)
 
-### Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry
+### Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge
 
-![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](outputs/images/04-brick-and-windows.png)
+![Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge](outputs/images/04-brick-and-windows.png)
 
 ### First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration
 

@@ -203,14 +203,14 @@
       "path": "../../library/materials/mountain-thermo-ash/v002/"
     },
     {
+      "id": "materials/mushroom-mineral-plaster",
+      "version": "v001",
+      "path": "../../library/materials/mushroom-mineral-plaster/v001/"
+    },
+    {
       "id": "materials/smoked-oak",
       "version": "v001",
       "path": "../../library/materials/smoked-oak/v001/"
-    },
-    {
-      "id": "materials/warm-limestone-plaster",
-      "version": "v001",
-      "path": "../../library/materials/warm-limestone-plaster/v001/"
     },
     {
       "id": "materials/warm-red-brick",
@@ -275,7 +275,7 @@
     }
   ],
   "window_assemblies": 28,
-  "physical_brick_uv_meshes": 156,
+  "physical_brick_uv_meshes": 118,
   "cameras": [
     "05-kitchen",
     "06-family-room",
@@ -298,6 +298,12 @@
   ],
   "roof_face_orientation": "Upward; solidify extends beneath visible roof surfaces",
   "garage_setback_cap": "Present; excludes upper occupied footprint",
+  "exterior_finish_checks": {
+    "charcoal_front_bay_wall_and_gable_meshes": 18,
+    "former_cream_plaster_link_absent": true,
+    "low_study_roof": "Unoccupied roof; positive fall retained; no terrace access or occupiable deck introduced",
+    "low_study_roof_fall_mm": 145.7
+  },
   "unresolved": [
     "Measured as-built dimensions and floor-area reconciliation",
     "Engineering and building-envelope specifications",

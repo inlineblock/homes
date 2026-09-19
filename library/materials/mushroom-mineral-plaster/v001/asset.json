@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "materials/mushroom-mineral-plaster",
+  "version": "v001",
+  "name": "Mushroom mineral plaster | warm gray-brown | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original procedural asset; attribution Homes project contributors",
+  "derived_from": {
+    "id": "materials/warm-limestone-plaster",
+    "version": "v001",
+    "basis": "Existing original mineral shader, lower albedo and muted gray-brown palette; parent preserved."
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_mushroom_plaster.py",
+    "helper": "tools/library/build_lindon_palette.py:mineral",
+    "command": "Blender --factory-startup --background --python tools/library/build_mushroom_plaster.py -- publish"
+  },
+  "files": {
+    "blender": "mushroom-mineral-plaster.blend",
+    "preview": "preview.png"
+  },
+  "blender": {
+    "material": "Mushroom mineral plaster | warm gray-brown | v001"
+  },
+  "dependencies": [],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "placement": "Material-only asset with no geometric origin or operating envelope. Host supplies wall or panel geometry and real junctions.",
+  "texture_scale": {
+    "coordinates": "World position in meters",
+    "noise_scale_per_m": 180,
+    "noise_detail": 2,
+    "bump_distance_m": 0.00018,
+    "bump_strength": 0.15
+  },
+  "linear_rgb": {
+    "dark": [
+      0.26,
+      0.235,
+      0.21
+    ],
+    "light": [
+      0.32,
+      0.293,
+      0.265
+    ]
+  },
+  "roughness": 0.88,
+  "metallic": 0,
+  "specular_ior_level": 0.22,
+  "variation": "Subtle fine mineral texture only; fixed physical scale. Do not stretch texture or add broad cloudy marbling. Host supplies seams, reveals and weather details.",
+  "changes_from_parent": "Substantially reduced albedo, low-chroma mushroom/taupe warm gray-brown body color and softer specular response. Intended to avoid stark white, cream or pink facade fields.",
+  "host_integration": {
+    "checked": false,
+    "required": "Review actual sunny and shaded host facades alongside adopted red brick and charcoal; a neutral sample is not host verification."
+  },
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 48,
+    "resolution_px": [
+      1000,
+      860
+    ],
+    "color_management": "AgX Medium High Contrast",
+    "exposure": 0,
+    "illumination": "Neutral gray world strength 0.32; neutral broad and grazing area lights"
+  },
+  "limitations": "Original concept finish, not a specified commercial plaster, assembly, color code or weather/fire certification."
+}

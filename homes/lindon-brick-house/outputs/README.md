@@ -2,9 +2,9 @@
 
 Current native renders and reconstructed concept plans. No output history folders: Git retains revisions. Dimensions and site are approximate; read the [project limitations](../design-review.md).
 
-### Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival
+### Brick base, a complete charcoal window bay and muted mushroom upper walls
 
-![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](../outputs/images/01-front-arrival.png)
+![Brick base, a complete charcoal window bay and muted mushroom upper walls](../outputs/images/01-front-arrival.png)
 
 ### Two rear terraces with slim glass guards, shared chaises and the walkout patio below
 
@@ -14,9 +14,9 @@ Current native renders and reconstructed concept plans. No output history folder
 
 ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](../outputs/images/03-roof-and-site.png)
 
-### Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry
+### Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge
 
-![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](../outputs/images/04-brick-and-windows.png)
+![Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge](../outputs/images/04-brick-and-windows.png)
 
 ### First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration
 

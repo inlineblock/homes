@@ -8,17 +8,17 @@ Each project below includes multiple exterior angles, interiors, defining featur
 
 ### Lindon Brick House
 
-A first red-brick remodel study based on the Lindon listing: larger dark-framed windows, angled three-car garage, stacked terraces, walkout, pool and court. Seven bedrooms across three occupied levels. Listing area 6,807 sq ft; reconstructed dimensions remain approximate.
+A remodel study based on the Lindon listing: a red-brick base, complete charcoal front bay, muted mushroom upper walls, larger dark-framed windows, angled three-car garage, stacked terraces, walkout, pool and court. Seven bedrooms across three occupied levels. Listing area 6,807 sq ft; reconstructed dimensions remain approximate.
 
 [Full project, models and limitations](homes/lindon-brick-house/README.md) · [Current outputs](homes/lindon-brick-house/outputs/README.md)
 
-| Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival | Two rear terraces with slim glass guards, shared chaises and the walkout patio below |
+| Brick base, a complete charcoal window bay and muted mushroom upper walls | Two rear terraces with slim glass guards, shared chaises and the walkout patio below |
 | --- | --- |
-| ![Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival](homes/lindon-brick-house/outputs/images/01-front-arrival.png) | ![Two rear terraces with slim glass guards, shared chaises and the walkout patio below](homes/lindon-brick-house/outputs/images/02-rear-terraces.png) |
+| ![Brick base, a complete charcoal window bay and muted mushroom upper walls](homes/lindon-brick-house/outputs/images/01-front-arrival.png) | ![Two rear terraces with slim glass guards, shared chaises and the walkout patio below](homes/lindon-brick-house/outputs/images/02-rear-terraces.png) |
 
-| Elevated view of the roof, arrival court, pool and pickleball court; approximate site | Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry |
+| Elevated view of the roof, arrival court, pool and pickleball court; approximate site | Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge |
 | --- | --- |
-| ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](homes/lindon-brick-house/outputs/images/03-roof-and-site.png) | ![Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry](homes/lindon-brick-house/outputs/images/04-brick-and-windows.png) |
+| ![Elevated view of the roof, arrival court, pool and pickleball court; approximate site](homes/lindon-brick-house/outputs/images/03-roof-and-site.png) | ![Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge](homes/lindon-brick-house/outputs/images/04-brick-and-windows.png) |
 
 | First kitchen study: shared oak cabinetry, sink, cooktop, oven, hood and wide refrigeration | Family room, closed-glass fireplace and reconstructed rear stair |
 | --- | --- |

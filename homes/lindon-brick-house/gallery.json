@@ -3,7 +3,7 @@
   "renders": [
     {
       "path": "outputs/images/01-front-arrival.png",
-      "caption": "Iron-red brick, charcoal window bays and warm plaster around the sheltered arrival",
+      "caption": "Brick base, a complete charcoal window bay and muted mushroom upper walls",
       "view": "exterior",
       "exterior_role": "arrival"
     },
@@ -21,7 +21,7 @@
     },
     {
       "path": "outputs/images/04-brick-and-windows.png",
-      "caption": "Brick returns, aligned charcoal window inset and a planted approach to the smoked-oak entry",
+      "caption": "Continuous charcoal through the front gable, brick arrival and a slim unoccupied roof edge",
       "view": "exterior"
     },
     {

@@ -42,13 +42,13 @@ The saved native model reopens with **46 pinned asset dependencies**, including 
 | [materials/coastal-honed-limestone/v001](../../../library/materials/coastal-honed-limestone/v001/asset.json) | Linked architectural/interior finish | Reused pinned version |
 | [materials/coastal-white-oak/v001](../../../library/materials/coastal-white-oak/v001/asset.json) | Linked architectural/interior finish | Reused pinned version |
 | [materials/mountain-thermo-ash/v002](../../../library/materials/mountain-thermo-ash/v002/asset.json) | Both rear terrace decks | Reused pinned version |
-| [materials/warm-red-brick/v003](../../../library/materials/warm-red-brick/v003/asset.json) | Deep iron-red running bond on exterior walls, gables and terrace piers | New contribution, adopted |
+| [materials/warm-red-brick/v003](../../../library/materials/warm-red-brick/v003/asset.json) | Deep iron-red running bond on lower exterior walls, study roof upstand and terrace piers | New contribution, adopted |
 | [materials/smoked-oak/v001](../../../library/materials/smoked-oak/v001/asset.json) | Sheltered entry leaf and canopy soffit | New contribution, adopted |
 | [openings/slim-dark-window/v002](../../../library/openings/slim-dark-window/v002/asset.json) | Linked rectangular facade windows | New contribution, adopted |
 | [surfaces/honed-limestone-paver-4ft/v001](../../../library/surfaces/honed-limestone-paver-4ft/v001/asset.json) | Exterior walks and pool surround | Reused pinned version |
 | [surfaces/pickleball-court-30x60ft/v001](../../../library/surfaces/pickleball-court-30x60ft/v001/asset.json) | Fenced recreation court beside garage | New contribution, adopted |
-| [materials/warm-limestone-plaster/v001](../../../library/materials/warm-limestone-plaster/v001/asset.json) | Recessed facade connectors and coordinated exposed slab edges | New contribution, adopted |
-| [materials/charcoal-facade-panel/v001](../../../library/materials/charcoal-facade-panel/v001/asset.json) | Continuous front window inset, upper garage wing, flush garage doors, thin trim and deck coping | New contribution, adopted |
+| [materials/mushroom-mineral-plaster/v001](../../../library/materials/mushroom-mineral-plaster/v001/asset.json) | Muted mushroom upper volumes and coordinated exposed slab edges | New contribution, adopted |
+| [materials/charcoal-facade-panel/v001](../../../library/materials/charcoal-facade-panel/v001/asset.json) | Entire front window bay and gable, rear bathing upper volume, upper garage window walls, flush garage doors, thin trim and deck coping | New contribution, adopted |
 | [landscape/flowering-perennial-clump/v001](../../../library/landscape/flowering-perennial-clump/v001/asset.json) | Layered arrival island and low foundation borders, outside the entry route | New contribution, adopted |
 
 Bespoke geometry: traced irregular building footprints and partitions, proposed roof/deck/stair assemblies, site grading/retaining and fitted fencing, exact-fit kitchen counters and fireplace chase. These depend on this source house. Planting, furniture, fixtures, window modules, brick, pavers and court/pool assemblies remain shared.
@@ -57,4 +57,4 @@ Window modules are adapted in width/height for this preliminary opening study; t
 
 See [native reopening receipt](../model/native-validation.json), individual asset receipts, and [contribution rules](../../../docs/assets.md).
 
-The current tonal revision explicitly adopts deep iron-red brick **v003**, matte charcoal roof **v002** and slimmer bronze windows **v002**. Earlier versions remain reusable options; they are not silently updated in other homes. The 46-pin actual-use audit includes three additional shared recessed lights beneath the entry canopy, in modeled pockets. Wet-location product selection remains open.
+The current tonal revision explicitly adopts deep iron-red brick **v003**, matte charcoal roof **v002** and slimmer bronze windows **v002**. The mushroom mineral plaster **v001** replaces limestone plaster in this home; limestone remains an available library option. Earlier versions remain reusable options; they are not silently updated in other homes. The 46-pin actual-use audit includes three additional shared recessed lights beneath the entry canopy, in modeled pockets. Wet-location product selection remains open.

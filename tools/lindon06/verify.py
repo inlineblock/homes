@@ -57,11 +57,35 @@ assert sum(p.area for p in garagecap.data.polygons if p.normal.z>.9)>1
 for o in bpy.context.scene.objects:
     if o.type=='MESH' and o.modifiers.get('Folded roof thickness'):
         assert all(p.normal.z>0 for p in o.data.polygons),o.name
+# Inspect saved facade materials, including the bay's actual returns and gable.
+# This catches the visible brick-cheek / pale-stripe regressions independently
+# of the image gallery's file count. It does not certify envelope construction.
+bay_checks=[]
+for obj in bpy.context.scene.objects:
+    if obj.type!='MESH':continue
+    tokens=obj.name.split()
+    wall=False
+    if len(tokens)>=3 and tokens[0] in ['main','upper'] and tokens[1]=='facade':
+        face=int(tokens[2].split('.')[0])
+        wall=(tokens[0]=='main' and 4<=face<=10) or (tokens[0]=='upper' and face in [2,3,4])
+        # Only wall pieces, not sills, handles or door geometry.
+        wall=wall and len(tokens)==3
+    if wall or obj.name.startswith('Front bedroom gable facade gable'):
+        mat=obj.data.materials[0]
+        assert mat and mat.library and '/charcoal-facade-panel/' in bpy.path.abspath(mat.library.filepath),obj.name
+        bay_checks.append(obj.name)
+assert len(bay_checks)>10
+assert not any('/warm-limestone-plaster/' in bpy.path.abspath(lib.filepath) for lib in bpy.data.libraries)
+roof=bpy.data.objects['Study concealed roof with positive fall']
+roof_heights=[(roof.matrix_world@v.co).z for v in roof.data.vertices]
+assert max(roof_heights)-min(roof_heights)>.14
+assert bpy.context.scene['low_study_roof_use'].startswith('Unoccupied roof only')
 receipt={'native_reopened':True,'blender':bpy.app.version_string,'relative_asset_dependencies':sorted(deps,key=lambda d:d['id']),
  'measured_horizontal_floor_surfaces_sqft':floor_areas,'area_basis':'Top horizontal mesh faces after stair-void cuts; includes walls, excludes terrace/patio/site, garage listed separately.',
  'listing_area_sqft':6807,'measured_model_area_matches_listing':False,'source_registration':'Nondimensioned listing plans; modeled areas deliberately not forced to match unverified listing totals.',
  'bedroom_count':7,'evaluated_bed_instances':evaluated_beds,'window_assemblies':len(windows),'physical_brick_uv_meshes':len(brick),'cameras':cameras,
  'cooktop_host_checks':cooktops,'roof_face_orientation':'Upward; solidify extends beneath visible roof surfaces','garage_setback_cap':'Present; excludes upper occupied footprint',
+ 'exterior_finish_checks':{'charcoal_front_bay_wall_and_gable_meshes':len(bay_checks),'former_cream_plaster_link_absent':True,'low_study_roof':'Unoccupied roof; positive fall retained; no terrace access or occupiable deck introduced','low_study_roof_fall_mm':round((max(roof_heights)-min(roof_heights))*1000,1)},
  'unresolved':['Measured as-built dimensions and floor-area reconciliation','Engineering and building-envelope specifications','Product window performance and egress selection','Detailed full-home operating clearances and service routing','Existing solar and accessory pool structures not yet modeled']}
 (HOME/'model/native-validation.json').write_text(json.dumps(receipt,indent=2)+'\n')
 print('LINDON_NATIVE_VERIFIED',json.dumps({k:v for k,v in receipt.items() if k not in ['relative_asset_dependencies','evaluated_bed_instances']}),flush=True)

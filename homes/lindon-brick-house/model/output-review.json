@@ -1,7 +1,7 @@
 {
-  "review_scope": "Revised tonal exterior concept and current presentation; not full functional, dimensional, engineering or client approval",
-  "native_source_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8",
-  "renderer": "Blender 4.5.14 LTS / Cycles Metal / 320 samples / AgX Medium High Contrast",
+  "review_scope": "Brick base, charcoal front bay and mushroom upper exterior revision; low roof edge clarity. Not full functional, dimensional, engineering or client approval.",
+  "native_source_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75",
+  "renderer": "Blender 4.5.14 LTS / Cycles Metal / 320 samples / AgX Medium High Contrast / exposure 0",
   "render_dimensions": [
     2400,
     1600
@@ -25,87 +25,79 @@
     "upper",
     "basement"
   ],
-  "visual_review": "Actual current pixels inspected: deep red brick, neutral charcoal roof/panels, cream recesses, aligned inset window stack, correct exterior corner wrapping, clear entry planting/route, slim terrace guards and dark pier coping. Final side view prompted correction of the unsupported garage gable masonry; affected views rerendered and inspected. Interiors remain furnishing studies with unfinished trim/reveal junctions and incomplete operating-clearance review. Plans inspected for labels, furnishings, level relationships and coordinated front window apertures.",
+  "plan_review_provenance": "Retained previously pixel-reviewed PNG/SVG plans; hashes unchanged. Occupied footprints, room layout, floor elevations and opening schedule were not altered by this exterior finish/low-roof-edge revision.",
+  "visual_review": "All eight new final images inspected as actual pixels. Front bay and gable are continuous charcoal without brick cheeks or a red inter-storey seam; lower entry/garage connectors are brick. Mushroom upper fields wrap around the rear and outer garage end, with a softer warm gray appearance in sunlight and shade. Low study roof edge is slimmer and aligned with its wall, positive fall retained, no occupied terrace implied. Supported outer garage gable and dark soffit retained. Interiors remain furnishing studies with unfinished trim/reveal junctions and incomplete operating-clearance review. Landscaping remains schematic and the broad pale apron/source roof proportions are unresolved styling limitations.",
   "independent_reviews": [
     {
       "role": "Architectural composition",
       "views": [
         "01",
         "02",
-        "03",
         "04",
         "08"
       ],
-      "findings": "Corrected exterior finish wrapping, dark inset continuity, projecting spandrel, rear pier caps, distant terrain edge and outer garage gable infill. Wide forecourt and garage/roof-heavy source proportions remain."
+      "stage": "Actual native drafts compared with previous outputs",
+      "findings": "Full charcoal bay including gable and returns; red seam and white vertical strips removed. Coherent brick base/upper volumes. Supported garage gable preserved. Low roof edge reads as roof perimeter; no blocking defect within this revision scope."
     },
     {
       "role": "Materials and palette",
       "views": [
         "01",
         "02",
-        "03",
-        "04"
+        "04",
+        "08"
       ],
-      "findings": "No blocking palette issue in adopted v003 host drafts: deep red/burgundy in sun/shade, coherent charcoal family, restrained cream and neutral glass. Schematic landscape and dark lower terraces remain."
+      "stage": "Actual native drafts compared with previous outputs",
+      "findings": "Mushroom visibly softer/darker than prior cream in front/detail; rear/court shade remains warm neutral gray without obvious pink, yellow or green shift. Coherent charcoal/brick family; no blocking palette defect within this revision scope."
     }
   ],
-  "final_gable_correction": {
-    "rerendered_views": [
-      "01-front-arrival",
-      "03-roof-and-site",
-      "04-brick-and-windows",
-      "08-court-and-garage"
-    ],
-    "retained_views": [
-      "02-rear-terraces",
-      "05-kitchen",
-      "06-family-room",
-      "07-pool-garden"
-    ],
-    "retained_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a",
-    "scope": "Only outer garage gable masonry/soffit geometry changed after the complete eight-view render pass. Rear, pool and interior views retain their inspected unaffected pass."
+  "low_study_roof": {
+    "use": "Unoccupied roof retained as current design assumption",
+    "access": "No terrace door or occupied-deck access provided",
+    "edge": "Lowered aligned brick upstand with one thin dark coping; not a guard",
+    "future_terrace": "Requires deliberate upstairs access, coordinated upper plan, usable deck construction, guards, waterproofing, drainage and structural design"
   },
   "remaining_design_review": "../design-review.md",
   "files": [
     {
       "path": "outputs/images/01-front-arrival.png",
-      "sha256": "7f762358892f67647bcbd4569da2aafb1017e763da9777c8cebff49efadc120e",
-      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
+      "sha256": "4df7537cfca83ad2513c8d93e49c4aea1b5a7fb798cedae6b77ae7cae0bfdab9",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/02-rear-terraces.png",
-      "sha256": "ede75d1927239c9c6e94a76a49a8f7227964bb88ea22e15edfa08a402c2da7fa",
-      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
+      "sha256": "cf36661e8863451ba964f5cea55a6b7bdde1c71051a4e40af70beeaaf32b8c2a",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/03-roof-and-site.png",
-      "sha256": "203e0ea50e0052ed475985d2a67c3529f2a707b6f24a5cd2d89c98352354e7e0",
-      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
+      "sha256": "3ab3a39dfeecd654d9726cac02dbe0c9256d0820eea3619be7deb5b5ab291b36",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/04-brick-and-windows.png",
-      "sha256": "50d4d5f9b286a58b8881a4ada100c11a2761444d3484c4cd59e56922c8b67ad1",
-      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
+      "sha256": "eb18f27b54f0a9412f0b0623d2a4235d647504952447efc27a0ae2717be7e756",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/05-kitchen.png",
-      "sha256": "cdff9c8c1b334ca143309a8496dfa1ad11d74c2655616591a04bad6aa98b83b8",
-      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
+      "sha256": "9c76bf2172e73b9fdf53cf0202d4b72ece33aa86f342c7cd35995a0258d820a5",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/06-family-room.png",
-      "sha256": "61bf5896b03c05025177871a7a6a921425d287ca90484b486ced0fbb17e62015",
-      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
+      "sha256": "3da0523adfa112abe1b9e4d3f9b1e607f7ec1fe87a73918f6e3f5ff4769f676f",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/07-pool-garden.png",
-      "sha256": "d715a543aae4126669badced8831c0b0c47705c4bbb237b2fb2bc0e411cec8dd",
-      "render_pass_native_sha256": "09c0e8a52b399e54b83cb85effc123081b6e493b64c1049a39abf5a8abfb7e2a"
+      "sha256": "498ad2049de9ba4d974104b832e314c321261b5a5fac12e3c1e7cfb5b9b66082",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/images/08-court-and-garage.png",
-      "sha256": "f575f866ac5a55b2ee95cd5a61d503f13aee2a0b035034340458983ad987c7c1",
-      "render_pass_native_sha256": "12e3102ce01a6381982e39e855ee8a4a2a4f16f00085531864151cab006fcfe8"
+      "sha256": "8b04a86d1c69526bb83eb20e63f0bb630d3eee6ef1eddd9a5f69924afc44dabd",
+      "render_pass_native_sha256": "1b42a5308b35bf508a47b715b1d985d75944e516d5e3b566bb858dbcce1e2f75"
     },
     {
       "path": "outputs/plans/basement-floor-plan.png",

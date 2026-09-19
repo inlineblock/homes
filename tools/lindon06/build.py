@@ -11,7 +11,7 @@ from common.timber_materials import apply_grain
 from utils import *
 import design
 from openings import proposed_openings
-from envelope import aperture_wall,wall_piece,build_roof,build_decks,build_entry,guard,poly_area,OPENING_SCHEDULE
+from envelope import aperture_wall,wall_piece,build_roof,build_decks,build_entry,guard,poly_area,OPENING_SCHEDULE,facade_finish
 
 SLUG='lindon-brick-house'
 HOME=ROOT/'homes'/SLUG
@@ -26,7 +26,7 @@ M['brick']=dst.materials[0]
 M['cedar']=material(ROOT,'smoked-oak','v001')
 M['deck']=material(ROOT,'mountain-thermo-ash','v002')
 M['roof']=material(ROOT,'charcoal-standing-seam','v002')
-M['facade_plaster']=material(ROOT,'warm-limestone-plaster','v001')
+M['facade_plaster']=material(ROOT,'mushroom-mineral-plaster','v001')
 M['panel']=material(ROOT,'charcoal-facade-panel','v001')
 M['dark']=M['panel']
 M['concrete']=textured('Fine charcoal mineral foundation',(.21,.20,.185),(.28,.27,.24),80,.86,.001)
@@ -36,7 +36,7 @@ floor_objects=[]
 
 def coordinate_floor_edges(obj,key):
     # Finish exposed floor/ceiling edges with the adjacent facade field, avoiding
-    # arbitrary brick stripes through the cream connectors and charcoal wing.
+    # arbitrary brick stripes through the taupe and charcoal upper volumes.
     obj.data.materials.append(M['facade_plaster']);plaster_index=len(obj.data.materials)-1
     obj.data.materials.append(M['panel']);panel_index=len(obj.data.materials)-1
     poly=levels[key]['footprint']
@@ -50,8 +50,9 @@ def coordinate_floor_edges(obj,key):
             if distance<closest[0]:closest=(distance,i)
         distance,index=closest
         if distance>.18:continue
-        if key=='upper' and index in [7,8,9]:face.material_index=panel_index
-        elif (key=='main' and index in [2,3,4,10,11,12]) or (key=='upper' and index in [1,2,4,5,6,14]):face.material_index=plaster_index
+        finish=facade_finish(key,index)
+        if finish=='panel':face.material_index=panel_index
+        elif finish=='facade_plaster':face.material_index=plaster_index
 
 def cut_void(obj,polygon,z):
     cutter=prism('Temporary stair opening cutter',polygon,z-.8,z+.8,M['plaster'])
@@ -193,7 +194,8 @@ scene.cycles.transparent_max_bounces=8;scene.cycles.transmission_bounces=6
 scene.render.resolution_x=2400;scene.render.resolution_y=1600;scene.render.resolution_percentage=100
 scene.render.image_settings.file_format='PNG';scene.view_settings.view_transform='AgX';scene.view_settings.look='AgX - Medium High Contrast';scene.view_settings.exposure=0
 scene.render.film_transparent=False;scene.camera=bpy.data.objects['01-front-arrival']
-scene.render.filepath='//../outputs/work/01-front-arrival.png';scene['concept_stage']='Listing-based revised tonal exterior study; site and dimensions approximate'
+scene.render.filepath='//../outputs/work/01-front-arrival.png';scene['concept_stage']='Brick base, charcoal bay and mushroom upper exterior study; site and dimensions approximate'
+scene['low_study_roof_use']='Unoccupied roof only; no terrace door, occupiable deck or guard provided'
 scene['source_listing_area_sqft']=6807;scene['bedrooms']=7
 
 # Explicit physical-meter grain mapping for local timber members.

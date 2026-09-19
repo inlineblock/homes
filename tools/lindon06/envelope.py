@@ -10,6 +10,19 @@ from utils import box,rod,beam,mesh,prism,instance,tag,cyl
 OPENING_SCHEDULE=[]
 WINDOW_COLLECTION=None
 
+def facade_finish(level, face):
+    """One finish map for walls and their exposed floor/ceiling edges.
+
+    Brick forms the lower storey. Charcoal wraps the complete projecting
+    front-window bay; upstairs, whole volumes alternate charcoal and taupe.
+    Returns and gable ends follow those volumes rather than becoming stripes.
+    """
+    if level == 'main':
+        return 'panel' if face in range(4,11) else 'brick'
+    if level == 'upper':
+        return 'panel' if face in [2,3,4,7,8,9,15,16,17] else 'facade_plaster'
+    return 'brick'
+
 def poly_area(poly):
     return abs(sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(poly,poly[1:]+poly[:1])))/2
 
@@ -45,32 +58,19 @@ def aperture_wall(root,name,a,b,z,height,openings,M,level,brick=True):
     # Jambs and exposed perimeter ends retain the selected exterior finish.
     inward_sign=-1 if name.startswith('Garage side') else 1
     def point(t):return tuple(Vector(a)+u*t)
-    def exterior_material(mid):
+    def exterior_material():
         if not brick:return M['plaster']
-        if name.startswith('main facade'):
+        if name.startswith(('main facade','upper facade','basement facade')):
             face=int(name.rsplit(' ',1)[1])
-            if face==7 and 8.31-.01<=mid[0]<=11.08+.01:return M['panel']
-            if face in [2,3,4,10,11,12]:return M['facade_plaster']
-        elif name.startswith('upper facade'):
-            face=int(name.rsplit(' ',1)[1])
-            if face==3 and 8.31<=mid[0]<=11.08:return M['panel']
-            if face in [7,8,9]:return M['panel']
-            if face in [1,2,4,5,6,14]:return M['facade_plaster']
+            return M[facade_finish(name.split()[0],face)]
         return M['brick']
     def part(t1,t2,sill,head,mat=None):
-        # Split a continuous wall at the tall charcoal insert's edges so brick
-        # side cheeks remain solid masonry. The window aperture stays real.
-        stops=[t1,t2]
-        if name in ['main facade 7','upper facade 3'] and abs(u.x)>.99:
-            stops += [(x-a[0])/u.x for x in [8.31,11.08] if t1<(x-a[0])/u.x<t2]
-        stops=sorted(set(stops))
-        for start,end in zip(stops,stops[1:]):
-            obj=wall_piece(name,point(start),point(end),z+sill,z+head,mat or exterior_material(point((start+end)/2)))
-            if obj:
-                obj.data.materials.append(M['plaster'])
-                for face in obj.data.polygons:
-                    if face.normal.y*inward_sign>.5:face.material_index=1
-                tag(obj,'IfcWall',level)
+        obj=wall_piece(name,point(t1),point(t2),z+sill,z+head,mat or exterior_material())
+        if obj:
+            obj.data.materials.append(M['plaster'])
+            for face in obj.data.polygons:
+                if face.normal.y*inward_sign>.5:face.material_index=1
+            tag(obj,'IfcWall',level)
     for i,op in enumerate(sorted(openings,key=lambda o:o['offset'])):
         off,w=op['offset'],op['width'];sill,h=op.get('sill',.7),op.get('height',2.1)
         if off<cursor-.001 or off+w>L+.001:continue
@@ -132,7 +132,7 @@ def roof_face(name,verts,M):
     tag(obj,'IfcRoof','Upper floor')
     return obj
 
-def gable(name,origin,u,v,length,width,eave,ridge,M,outer_wall=None,soffit_cutout=None):
+def gable(name,origin,u,v,length,width,eave,ridge,M,finish,outer_wall=None,soffit_cutout=None):
     o=Vector(origin);u=Vector(u);v=Vector(v)
     def p(x,y,z):q=o+u*x+v*y;return(q.x,q.y,z)
     for sign in [-1,1]:
@@ -170,11 +170,11 @@ def gable(name,origin,u,v,length,width,eave,ridge,M,outer_wall=None,soffit_cutou
             for vertex in verts:
                 if not compact or math.dist(vertex,compact[-1])>.0001:compact.append(vertex)
             if math.dist(compact[0],compact[-1])<.0001:compact.pop()
-            infill=mesh(name+' supported outer brick gable',compact,[tuple(range(len(compact)))],M['brick'])
-            solid=infill.modifiers.new('Supported gable masonry depth','SOLIDIFY');solid.thickness=.16;solid.offset=-1
+            infill=mesh(name+' supported outer gable',compact,[tuple(range(len(compact)))],M[finish])
+            solid=infill.modifiers.new('Supported gable concept depth','SOLIDIFY');solid.thickness=.16;solid.offset=-1
             tag(infill,'IfcWall','Upper floor')
         else:
-            mesh(name+' brick gable', [p(x,-width/2,eave),p(x,width/2,eave),p(x,0,ridge)],[(0,1,2)],M['brick'])
+            tag(mesh(name+' facade gable', [p(x,-width/2,eave),p(x,width/2,eave),p(x,0,ridge)],[(0,1,2)],M[finish]),'IfcWall','Upper floor')
         for sign in [-1,1]:beam(name+' verge',p(x,sign*width/2,eave),p(x,0,ridge),.09,.11,M['dark'])
     beam(name+' folded ridge cap',p(0,0,ridge+.04),p(length,0,ridge+.04),.10,.05,M['roof'])
     if soffit_cutout is not None:
@@ -218,23 +218,25 @@ def build_roof(M):
     for a,b in [((x0,y0,eave),(x1,y0,eave)),((x1,y1,eave),(x0,y1,eave)),((x0,y1,eave),(x0,y0,eave)),((x1,y0,eave),(x1,y1,eave))]:beam('Main restrained eave fascia',a,b,.09,.11,M['dark'])
     # Inboard ends continue beneath the lowered hip rather than terminating
     # as exposed triangular walls. Outer facade/gable positions are retained.
-    gable('Front bedroom gable',(9.58,-.32),(0,1),(1,0),7.0,4.78,6.23,8.10,M)
-    gable('Rear bathing pavilion',(11.06,8.1),(0,1),(1,0),7.81,4.82,6.23,8.20,M)
-    # The low study becomes the quiet modern volume. Its roof falls rearward
-    # beneath a level masonry parapet; this is not a drainage specification.
-    low_outline=[(-.20,-.20),(4.57,-.20),(4.57,2.58),(4.10,2.58),(4.10,8.97),(-.20,8.97)]
+    gable('Front bedroom gable',(9.58,-.32),(0,1),(1,0),7.0,4.78,6.23,8.10,M,'panel')
+    gable('Rear bathing pavilion',(11.06,8.1),(0,1),(1,0),7.81,4.82,6.23,8.20,M,'panel')
+    # An unoccupied roof, not a terrace: no furniture, guard or access door.
+    # The slim upstand aligns with the wall face below rather than projecting
+    # like a balcony rim. Positive rearward fall is retained; drainage and
+    # waterproofing are concept intent, not a technical assembly specification.
+    low_outline=[(-.06,-.06),(4.465,-.06),(4.465,2.58),(4.10,2.58),(4.10,8.85),(-.06,8.85)]
     roof_face('Study concealed roof with positive fall',[(x,y,3.31-(y+.20)*.15/9.17) for x,y in low_outline],M)
     for a,b in [(low_outline[0],low_outline[1]),(low_outline[1],low_outline[2]),(low_outline[4],low_outline[5]),(low_outline[5],low_outline[0])]:
-        tag(wall_piece('Study brick parapet',a,b,3.035,3.50,M['brick'],.20),'IfcWall','Ground floor')
-        tag(wall_piece('Study thin folded coping',a,b,3.50,3.545,M['dark'],.23),'IfcRoof','Ground floor')
-    box('Study rear rainwater outlet',(.06,9.015,3.19),(.16,.20,.105),M['dark'],.004)
-    box('Study visible rear rainwater leader',(.06,9.08,1.59),(.075,.075,3.18),M['dark'],.005)
+        tag(wall_piece('Study low roof upstand',a,b,3.035,3.38,M['brick'],.20),'IfcWall','Ground floor')
+        tag(wall_piece('Study thin folded coping',a,b,3.38,3.415,M['dark'],.23),'IfcRoof','Ground floor')
+    box('Study rear rainwater outlet',(.06,8.895,3.19),(.16,.20,.105),M['dark'],.004)
+    box('Study visible rear rainwater leader',(.06,8.96,1.59),(.075,.075,3.18),M['dark'],.005)
     # Garage wing has an occupied full-height floor with a quieter roof profile.
     # The source loft is interpreted with higher knee walls, explicitly a
     # proposed exterior change rather than an undocumented as-built condition.
     from design import LEVELS
     upper=LEVELS['upper']['footprint']
-    gable('Angled garage bedroom wing',(14.84583695,7.50416305),(.70710678,-.70710678),(.70710678,.70710678),15.6,8.45,6.23,8.65,M,
+    gable('Angled garage bedroom wing',(14.84583695,7.50416305),(.70710678,-.70710678),(.70710678,.70710678),15.6,8.45,6.23,8.65,M,'facade_plaster',
           outer_wall=(upper[9],upper[10]),soffit_cutout=upper)
     for x,y in [(4.00,.0),(19.85,15.9),(0.0,8.4),(28.4,.2)]:
         box('Rainwater leader',(x,y,1.45),(.065,.065,2.9),M['dark'],.009)

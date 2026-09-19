@@ -1,0 +1,22 @@
+{
+  "native_linked_in_fresh_process": true,
+  "native_reopened": true,
+  "blender": "4.5.14 LTS",
+  "material": "Mushroom mineral plaster | warm gray-brown | v001",
+  "linear_rgb_verified": [
+    [
+      0.25999999046325684,
+      0.23499999940395355,
+      0.20999999344348907
+    ],
+    [
+      0.3199999928474426,
+      0.2930000126361847,
+      0.26499998569488525
+    ]
+  ],
+  "physical_texture_scale_per_m": 180,
+  "external_dependencies": [],
+  "host_integration_checked": false,
+  "visual_preview_review": "Inspected actual 1000 x 860 neutral CPU preview: subdued mushroom/taupe warm gray-brown surface, visibly darker than warm-limestone-plaster/v001, without stark white, cream or pink appearance. Matte grazing response and restrained fine texture. Host sun/shade appearance remains for the adopting project."
+}

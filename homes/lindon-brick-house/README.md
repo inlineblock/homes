@@ -61,3 +61,9 @@ The gallery below contains eight actual native renders and an original reconstru
 [Editable main plan](outputs/plans/main-floor-plan.svg) · [Editable upper plan](outputs/plans/upper-floor-plan.svg) · [Editable basement plan](outputs/plans/basement-floor-plan.svg)
 
 [Authoring and regeneration](model/README.md). Original project contributions use CC BY 4.0; source media and third-party designs are excluded.
+
+### Imagegen photographic study
+
+![AI photographic interpretation of the entry-detail view](outputs/images/09-photo-study.png)
+
+An AI-edited interpretation of the design above, created at the user's request. It supplements the native model views; generated textures, reflections and foliage are not evidence of exact geometry. [Prompt and provenance](outputs/photo-study.md).

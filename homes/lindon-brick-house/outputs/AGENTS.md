@@ -5,3 +5,4 @@
 - Caption the low study roof as unoccupied with no terrace access. Its slim upstand is not a guard; do not imply a usable rooftop patio unless the program, native geometry and upper plan are deliberately revised together.
 - Embed all eight selected renders and all three occupied-level plans in the home README and this directory's index. Update root catalog coverage and `gallery.json` together.
 - Use stable filenames, never output histories. Keep listing photographs and original third-party plan images out of Git.
+- Explicitly requested Imagegen studies may supplement the native gallery. Label them as AI interpretations, save their prompt/provenance, and keep them separate from native-render verification and `gallery.json` coverage. Never silently replace a model render or claim generated detail is modeled geometry.

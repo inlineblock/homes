@@ -12,7 +12,7 @@ A warm stone base and cedar upper block frame a private pool court. Five pivotin
 
 ## Photographic tour
 
-AI photographic studies derived from the native views below. [Prompts and provenance](outputs/photo-study.md).
+AI photographic studies derived from the native views below. Exterior studies fill out the surrounding landscape; this added setting is illustrative and is not modeled or surveyed. [Prompts and provenance](outputs/photo-study.md).
 
 ![Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study](outputs/images/photo-courtyard.png)
 

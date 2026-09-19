@@ -27,7 +27,7 @@ Receipts: [native](model/native-validation.json), [IFC](model/ifc-validation.jso
 
 ## Photographic tour
 
-Eight photographic studies were selected from the reviewed front, court, roof/site, open lanai, kitchen, living, bedroom and bathing views. They were visually compared to their native sources. A focused second pass removed invented surrounding trees and walls; source/selected hashes, actual prompts and residual generative limitations are recorded in [provenance](outputs/photo-study.md). The native gallery and both plans remain directly embedded in all three project indexes. The repository gallery verifier passed for all seven homes, including all twelve native renders, eight studies, two level plans and four defining features for this home. AI studies illustrate material and light; the native model governs geometry.
+Eight photographic studies were selected from the reviewed front, court, roof/site, open lanai, kitchen, living, bedroom and bathing views. They were visually compared to their native sources. Exterior studies intentionally enrich the sparse native surroundings with illustrative planting and trees, as requested. Selected interiors retain the corrective pass that removes invented walls; source/selected hashes, actual prompts and residual generative limitations are recorded in [provenance](outputs/photo-study.md). The native gallery and both plans remain directly embedded in all three project indexes. The repository gallery verifier passed for all seven homes, including all twelve native renders, eight studies, two level plans and four defining features for this home. AI studies illustrate material and light; the native model governs geometry.
 
 ## Remaining concept limitations
 

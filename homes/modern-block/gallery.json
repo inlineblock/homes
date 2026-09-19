@@ -119,7 +119,7 @@
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-front-arrival.png",
     "source_sha256": "2f755090742e0a7cca03bdf039d55f1cbaa18d8c8fda9c8d4e81fb6c9868a0ec",
-    "image_sha256": "1efaae418f353e57ebd0704bbeaa1a17fab60531f21424fdaa2fc821ec29eb7d",
+    "image_sha256": "694092b72f5a9e4737a5b411fe51eb1283393918bfdb6dcc79c3a751fe2d8fea",
     "provenance": "outputs/photo-study.md",
     "caption": "Front arrival: limestone pavilion base, cedar upper block and mature canopy \u2014 AI photographic study"
   },
@@ -130,7 +130,7 @@
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/02-courtyard-pool.png",
       "source_sha256": "e3ab83674bb9d6c340580d1f1326172a73708777123031f750c60c18f68a61e3",
-      "image_sha256": "8b225f0a6d3c607d2b78e80cb51f63c2b44ee7ed0c68af2721b26b22902a4865",
+      "image_sha256": "edf813b007dd881304c0456a9363b51c098c9f1857e81fc51104a7fe14017250",
       "provenance": "outputs/photo-study.md",
       "caption": "Courtyard pool, sheltered seating and supported glass-guarded balcony \u2014 AI photographic study"
     },
@@ -140,7 +140,7 @@
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/03-roof-and-site.png",
       "source_sha256": "9230c7420ded3443d6809b9be04a2a55772da9fc7f125bb4f5457751c795fb20",
-      "image_sha256": "439ea26e9f8d9526e2a72be0fda557586cebefebcf95e521696ff1e7b62795f7",
+      "image_sha256": "e8d33a0eb3ce95a64b2e2fe2e8783c816b578d9499ea76d1171c631c48742265",
       "provenance": "outputs/photo-study.md",
       "caption": "Elevated roof and site view, skylights, guest pavilion and two-car garage \u2014 AI photographic study"
     },

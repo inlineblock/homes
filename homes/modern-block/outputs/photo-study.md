@@ -7,7 +7,7 @@ Eight studies made with the built-in Imagegen editing tool from reviewed native 
 - Source: `outputs/images/01-front-arrival.png`
 - Source SHA-256: `2f755090742e0a7cca03bdf039d55f1cbaa18d8c8fda9c8d4e81fb6c9868a0ec`
 - Selected image: `outputs/images/photo-hero.png`
-- Image SHA-256: `1efaae418f353e57ebd0704bbeaa1a17fab60531f21424fdaa2fc821ec29eb7d`
+- Image SHA-256: `694092b72f5a9e4737a5b411fe51eb1283393918bfdb6dcc79c3a751fe2d8fea`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
@@ -19,7 +19,7 @@ Actual prompt:
 - Source: `outputs/images/02-courtyard-pool.png`
 - Source SHA-256: `e3ab83674bb9d6c340580d1f1326172a73708777123031f750c60c18f68a61e3`
 - Selected image: `outputs/images/photo-courtyard.png`
-- Image SHA-256: `8b225f0a6d3c607d2b78e80cb51f63c2b44ee7ed0c68af2721b26b22902a4865`
+- Image SHA-256: `edf813b007dd881304c0456a9363b51c098c9f1857e81fc51104a7fe14017250`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
@@ -31,7 +31,7 @@ Actual prompt:
 - Source: `outputs/images/03-roof-and-site.png`
 - Source SHA-256: `9230c7420ded3443d6809b9be04a2a55772da9fc7f125bb4f5457751c795fb20`
 - Selected image: `outputs/images/photo-site.png`
-- Image SHA-256: `439ea26e9f8d9526e2a72be0fda557586cebefebcf95e521696ff1e7b62795f7`
+- Image SHA-256: `e8d33a0eb3ce95a64b2e2fe2e8783c816b578d9499ea76d1171c631c48742265`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
@@ -101,8 +101,12 @@ Actual prompt:
 
 ## Corrective editing pass
 
-All studies except the open-lanai detail received a second edit using the initial study and the same native source. This removed invented distant trees, foreground planting and apparent privacy walls. Minor tree silhouettes/reflections and lighting apertures can still vary; these illustrations do not specify site context, lighting layout or landscape quantities. Native views remain authoritative.
+The selected interior studies received a second edit using the initial study and the same native source to remove invented surrounding walls and excess scenery. The exterior arrival, courtyard and elevated studies use the original photographic pass: following the user's direction, their fuller landscape context is intentionally retained so the home feels situated. The open-lanai detail also uses its original photographic pass. The actual prompts above are preserved as executed, including their initial landscape restriction; subsequent user direction authorizes this exterior selection. Minor tree silhouettes/reflections and lighting apertures can still vary; these illustrations do not specify site context, lighting layout or landscape quantities. Native views remain authoritative.
 
 Corrective prompt:
 
 > Use case: precise-object-edit. Image 1 is the photographic study to correct; image 2 is the authoritative native model of the same view. Keep the architecture, camera, material realism and furnishing of image 1 unchanged. Correct ONLY the invented surroundings: remove extra background trees, mountains, foreground bushes and any outside privacy wall or terrace that does not exist in image 2. Retain only the actual modeled plant positions and approximate sizes shown in image 2. The site has an open simple gravel/earth ground plane and a quiet sky; a gray horizontal background band in the model is the ground/horizon, NOT a privacy wall. In interior windows show plain distant sky/ground and only trees present in image 2. No newly added objects. Keep all window divisions, building details, fixtures, rooflines, furniture, screen angles and pool geometry unchanged.
+
+## Exterior landscape direction
+
+Surrounding trees, planting and ground texture may be filled out beyond the sparse native site. These are illustrative landscape proposals, not existing-site facts or modeled quantities. The selected exterior studies were re-inspected: massing, roofs, glazing, supports, pool, paving routes, screens and principal canopy relationships remain consistent with the source views. Native model and plans remain unchanged.

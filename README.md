@@ -16,6 +16,8 @@ A warm stone base and cedar upper block frame a private pool court. Five pivotin
 
 **Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
+*Exterior photographic studies include illustrative landscape beyond the native model.*
+
 [Full project and editable models](homes/modern-block/README.md) · [Current outputs](homes/modern-block/outputs/README.md)
 
 | Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study | Elevated roof and site view, skylights, guest pavilion and two-car garage — AI photographic study |

@@ -1,11 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200">
-<rect x="0" y="0" width="1400" height="1200" fill="#f7f6f0" stroke="none" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1280" viewBox="0 0 1400 1280">
+<rect x="0" y="0" width="1400" height="1280" fill="#f7f6f0" stroke="none" stroke-width="1"/>
 <text x="55" y="52" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">H O M E S   /   0 4</text>
-<text x="55" y="105" font-family="Helvetica,Arial,sans-serif" font-size="40" fill="#253b40" text-anchor="start" font-weight="700">A simple plan, open to the coast</text>
+<text x="55" y="105" font-family="Helvetica,Arial,sans-serif" font-size="40" fill="#253b40" text-anchor="start" font-weight="700">A warm coastal verandah</text>
 <text x="55" y="141" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#6c7e7b" text-anchor="start" font-weight="400">68 x 40 ft exterior floor plate  /  2,720 sq ft gross enclosed  /  3 bedrooms + 2 baths</text>
-<text x="1345" y="1170" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#6c7e7b" text-anchor="end" font-weight="400">COASTAL HOUSE   /   02</text>
-<text x="55" y="1170" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">CONCEPT ONLY  /  Original design: Homes project contributors  /  CC BY 4.0</text>
+<text x="1345" y="1250" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#6c7e7b" text-anchor="end" font-weight="400">COASTAL HOUSE   /   02</text>
+<text x="55" y="1250" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">CONCEPT ONLY  /  Original design: Homes project contributors  /  CC BY 4.0</text>
 <rect x="183.1" y="188.5999999999999" width="910.2" height="221.4" fill="#ede9df" stroke="none" stroke-width="1"/>
+<rect x="330.7" y="213.19999999999993" width="393.6" height="186.345" fill="none" stroke="#c9ad82" stroke-width="1.2"/>
+<line x1="330.7" y1="399.54499999999996" x2="330.7" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="356.94" y1="399.54499999999996" x2="356.94" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="383.18" y1="399.54499999999996" x2="383.18" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="409.42" y1="399.54499999999996" x2="409.42" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="435.65999999999997" y1="399.54499999999996" x2="435.65999999999997" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="461.9" y1="399.54499999999996" x2="461.9" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="488.14000000000004" y1="399.54499999999996" x2="488.14000000000004" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="514.38" y1="399.54499999999996" x2="514.38" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="540.62" y1="399.54499999999996" x2="540.62" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="566.86" y1="399.54499999999996" x2="566.86" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="593.1" y1="399.54499999999996" x2="593.1" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="619.34" y1="399.54499999999996" x2="619.34" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="645.58" y1="399.54499999999996" x2="645.58" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="671.82" y1="399.54499999999996" x2="671.82" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="698.0600000000001" y1="399.54499999999996" x2="698.0600000000001" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="724.3" y1="399.54499999999996" x2="724.3" y2="213.19999999999993" stroke="#d9cbb4" stroke-width="0.45"/>
+<line x1="330.7" y1="399.54499999999996" x2="724.3" y2="399.54499999999996" stroke="#253b40" stroke-width="1.8"/>
+<rect x="327.01" y="209.50999999999988" width="7.38" height="7.38" fill="#253b40" stroke="none" stroke-width="1"/>
+<rect x="720.6100000000001" y="209.50999999999988" width="7.38" height="7.38" fill="#253b40" stroke="none" stroke-width="1"/>
+<line x1="202.78" y1="348.5" x2="202.78" y2="213.19999999999993" stroke="#c9ad82" stroke-width="3"/>
+<rect x="416.8" y="877.4" width="147.60000000000002" height="110.7" fill="#e7ddd0" stroke="#c9ad82" stroke-width="1"/>
+<rect x="419.26" y="978.26" width="6.15" height="6.15" fill="#253b40" stroke="none" stroke-width="1"/>
+<rect x="555.79" y="978.26" width="6.15" height="6.15" fill="#253b40" stroke="none" stroke-width="1"/>
+<rect x="429.1" y="902.0" width="73.80000000000001" height="110.7" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="490.6" y="963.5" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#253b40" text-anchor="middle" font-weight="400">ENTRY CANOPY</text>
 <rect x="220.0" y="410.0" width="836.4000000000001" height="492.0" fill="#ffffff" stroke="#253b40" stroke-width="5"/>
 <line x1="220.0" y1="902.0" x2="220.0" y2="410.0" stroke="#efede6" stroke-width="0.5"/>
 <line x1="269.2" y1="902.0" x2="269.2" y2="410.0" stroke="#efede6" stroke-width="0.5"/>
@@ -122,17 +148,17 @@
 <circle cx="1027.4950000000001" cy="861.41" r="7" fill="#ffffff" stroke="#253b40" stroke-width="0.6"/>
 <rect x="978.9100000000001" y="710.735" width="31.980000000000004" height="30.75" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
 <rect x="1015.8100000000001" y="710.735" width="31.980000000000004" height="30.75" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
-<rect x="256.9" y="427.21999999999997" width="246.0" height="147.60000000000002" fill="#f0eee7" stroke="none" stroke-width="1"/>
-<rect x="309.79" y="527.4649999999999" width="140.22" height="43.050000000000004" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="256.8999960745414,574.8199985067863 502.90000392545863,574.8199985067863 502.90000392545863,427.22000149321366 256.8999960745414,427.22000149321366" fill="#dbccb1" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="309.7899999753697,570.5149999653636 450.01000002463036,570.5149999653636 450.01000002463036,524.3426993623868 309.7899999753697,524.3426993623868" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
 <rect x="293.185" y="468.42499999999995" width="43.050000000000004" height="65.19" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="356.53" y="466.58" width="71.34" height="41.82" fill="#c9ad82" stroke="none" stroke-width="1"/>
-<rect x="598.225" y="520.7" width="104.55000000000001" height="46.74" fill="#c9ad82" stroke="none" stroke-width="1"/>
-<rect x="608.065" y="568.6700000000001" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="608.065" y="498.56" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="640.0450000000001" y="568.6700000000001" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="640.0450000000001" y="498.56" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="672.0250000000001" y="568.6700000000001" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
-<rect x="672.0250000000001" y="498.56" width="20.91" height="20.91" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="358.3750010852739,504.7099997317602 426.02499891472615,504.7099997317602 426.02499891472615,470.27000026823964 358.3750010852739,470.27000026823964" fill="#c9ad82" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="601.2999993919389,566.8250010629527 699.7000006080614,566.8250010629527 699.7000006080614,521.3149989370473 601.2999993919389,521.3149989370473" fill="#c9ad82" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="629.2992505305115,568.3625000173181 607.7407482668359,568.3625000173181 607.7407482668359,590.0102691831082 629.2992505305115,590.0102691831082" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="607.7407494694887,519.7774999826818 629.2992517331642,519.7774999826818 629.2992517331642,498.1297308168918 607.7407494694887,498.1297308168918" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="661.2792505305115,568.3625000173181 639.7207482668358,568.3625000173181 639.7207482668358,590.0102691831082 661.2792505305115,590.0102691831082" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="639.7207494694886,519.7774999826818 661.2792517331642,519.7774999826818 661.2792517331642,498.1297308168918 639.7207494694886,498.1297308168918" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="693.2592505305115,568.3625000173181 671.7007482668358,568.3625000173181 671.7007482668358,590.0102691831082 693.2592505305115,590.0102691831082" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="671.7007494694886,519.7774999826818 693.2592517331642,519.7774999826818 693.2592517331642,498.1297308168918 671.7007494694886,498.1297308168918" fill="#ede9df" stroke="#c9ad82" stroke-width="1"/>
 <rect x="827.3125" y="515.78" width="126.075" height="54.120000000000005" fill="#c9ad82" stroke="#253b40" stroke-width="1"/>
 <text x="839.9200000000001" y="526.8499999999999" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#253b40" text-anchor="middle" font-weight="400">WASTE</text>
 <rect x="901.4200000000001" y="528.0799999999999" width="27.675" height="19.680000000000003" fill="#ffffff" stroke="#253b40" stroke-width="1"/>
@@ -170,15 +196,17 @@
 <circle cx="849.7600000000001" cy="577.28" r="9" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
 <circle cx="890.35" cy="577.28" r="9" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
 <circle cx="930.94" cy="577.28" r="9" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="324.55" y="242.7199999999999" width="36.900000000000006" height="93.48" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="410.65" y="242.7199999999999" width="36.900000000000006" height="93.48" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="570.55" y="246.40999999999985" width="86.10000000000001" height="44.28" fill="#c9ad82" stroke="none" stroke-width="1"/>
-<rect x="574.855" y="291.30499999999995" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="574.855" y="224.88499999999988" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="603.145" y="291.30499999999995" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="603.145" y="224.88499999999988" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="631.435" y="291.30499999999995" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
-<rect x="631.435" y="224.88499999999988" width="20.91" height="20.91" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="256.28499982450893,219.3499993919387 256.28499982450893,317.7500006080612 294.41500017549106,317.7500006080612 294.41500017549106,219.3499993919387" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="420.68883004398236,339.7135055213886 436.2834435866844,306.27074885639183 400.61116995601765,289.6364944786113 385.0165564133156,323.0792511436081" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="436.2834435866844,230.82925114360808 420.68883004398236,197.38649447861133 385.0165564133156,214.02074885639183 400.61116995601765,247.46350552138858" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="309.1750010852739,285.7699997317602 376.82499891472617,285.7699997317602 376.82499891472617,251.3300002682397 309.1750010852739,251.3300002682397" fill="#c9ad82" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="564.3999993919388,291.30500106295267 662.8000006080613,291.30500106295267 662.8000006080613,245.79499893704724 564.3999993919388,245.79499893704724" fill="#c9ad82" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="596.0892505305114,290.9975000173182 574.5307482668359,290.9975000173182 574.5307482668359,312.6452691831082 596.0892505305114,312.6452691831082" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="574.5307494694887,246.1024999826817 596.0892517331641,246.1024999826817 596.0892517331641,224.4547308168917 574.5307494694887,224.4547308168917" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="624.3792505305114,290.9975000173182 602.8207482668358,290.9975000173182 602.8207482668358,312.6452691831082 624.3792505305114,312.6452691831082" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="602.8207494694886,246.1024999826817 624.3792517331642,246.1024999826817 624.3792517331642,224.4547308168917 602.8207494694886,224.4547308168917" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="652.6692505305114,290.9975000173182 631.1107482668358,290.9975000173182 631.1107482668358,312.6452691831082 652.6692505305114,312.6452691831082" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
+<polygon points="631.1107494694886,246.1024999826817 652.6692517331642,246.1024999826817 652.6692517331642,224.4547308168917 631.1107494694886,224.4547308168917" fill="#ffffff" stroke="#c9ad82" stroke-width="1"/>
 <text x="345.46" y="675.6800000000001" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#253b40" text-anchor="middle" font-weight="400">PRIMARY BATH</text>
 <text x="266.74" y="726.11" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#253b40" text-anchor="middle" font-weight="400">DRESSING</text>
 <text x="416.8" y="739.64" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#253b40" text-anchor="middle" font-weight="400">WC</text>
@@ -191,8 +219,14 @@
 <text x="896.5" y="470.27" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">KITCHEN</text>
 <text x="687.4000000000001" y="672.605" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="middle" font-weight="400">CONTINUOUS HALL</text>
 <text x="490.6" y="852.8" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6c7e7b" text-anchor="middle" font-weight="400">8 FT ENTRY</text>
-<text x="785.8000000000001" y="227.96000000000004" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#253b40" text-anchor="middle" font-weight="400">SHADED TERRACE</text>
-<text x="810.4000000000001" y="252.55999999999995" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="middle" font-weight="400">Outdoor area excluded from enclosed total</text>
+<text x="527.5" y="164.0" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#253b40" text-anchor="middle" font-weight="400">ATTACHED PERGOLA / SHADE ONLY</text>
+<text x="527.5" y="178.76" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6c7e7b" text-anchor="middle" font-weight="400">32 ft wide / two terrace-edge posts</text>
+<text x="914.95" y="211.9699999999999" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#253b40" text-anchor="middle" font-weight="400">OPEN TERRACE</text>
+<text x="905.1100000000001" y="232.88" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6c7e7b" text-anchor="middle" font-weight="400">Outdoor area excluded</text>
+<text x="905.1100000000001" y="250.0999999999999" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6c7e7b" text-anchor="middle" font-weight="400">from enclosed total</text>
+<text x="121.6" y="360.79999999999995" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#6c7e7b" text-anchor="middle" font-weight="400">LEDGER ABOVE</text>
+<text x="121.6" y="376.78999999999996" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#6c7e7b" text-anchor="middle" font-weight="400">SLIDING WALL</text>
+<line x1="183.1" y1="368.17999999999995" x2="330.7" y2="399.54499999999996" stroke="#6c7e7b" stroke-width="0.65"/>
 <line x1="343.0" y1="374.33000000000004" x2="712.0" y2="374.33000000000004" stroke="#6c7e7b" stroke-width="1"/>
 <line x1="343.0" y1="367.33000000000004" x2="343.0" y2="381.33000000000004" stroke="#6c7e7b" stroke-width="1"/>
 <line x1="712.0" y1="367.33000000000004" x2="712.0" y2="381.33000000000004" stroke="#6c7e7b" stroke-width="1"/>
@@ -201,23 +235,23 @@
 <line x1="810.4000000000001" y1="303.37" x2="810.4000000000001" y2="317.37" stroke="#6c7e7b" stroke-width="1"/>
 <line x1="958.0" y1="303.37" x2="958.0" y2="317.37" stroke="#6c7e7b" stroke-width="1"/>
 <text x="884.2" y="301.37" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">12 ft serving window</text>
-<line x1="220.0" y1="938.9" x2="1056.4" y2="938.9" stroke="#6c7e7b" stroke-width="1"/>
-<line x1="220.0" y1="931.9" x2="220.0" y2="945.9" stroke="#6c7e7b" stroke-width="1"/>
-<line x1="1056.4" y1="931.9" x2="1056.4" y2="945.9" stroke="#6c7e7b" stroke-width="1"/>
-<text x="638.2" y="929.9" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">68 ft overall</text>
+<line x1="220.0" y1="1025.0" x2="1056.4" y2="1025.0" stroke="#6c7e7b" stroke-width="1"/>
+<line x1="220.0" y1="1018.0" x2="220.0" y2="1032.0" stroke="#6c7e7b" stroke-width="1"/>
+<line x1="1056.4" y1="1018.0" x2="1056.4" y2="1032.0" stroke="#6c7e7b" stroke-width="1"/>
+<text x="638.2" y="1016.0" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">68 ft overall</text>
 <line x1="1105.6" y1="902.0" x2="1105.6" y2="410.0" stroke="#6c7e7b" stroke-width="1"/>
 <line x1="1098.6" y1="902.0" x2="1112.6" y2="902.0" stroke="#6c7e7b" stroke-width="1"/>
 <line x1="1098.6" y1="410.0" x2="1112.6" y2="410.0" stroke="#6c7e7b" stroke-width="1"/>
 <text x="1117.6" y="656.0" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="start" font-weight="400">40 ft</text>
-<text x="180" y="973" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#6c7e7b" text-anchor="start" font-weight="400">Primary suite: 18 x 12 ft bedroom / 6 x 6 ft dressing / L-shaped bath with separate tub, shower, WC and dual vanity</text>
-<text x="180" y="1002" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#253b40" text-anchor="start" font-weight="700">OPENINGS SHOWN FULLY OPEN</text>
-<text x="180" y="1025" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">Panels store in left door pocket and right window pocket. No panel stack blocks the walk-through.</text>
-<text x="180" y="1054" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">Room labels show nominal planning zones; they are not measured net floor areas. Interior doors shown open.</text>
-<text x="180" y="1083" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">No site orientation is assigned. Shore, landscape, drainage and structural details are conceptual.</text>
-<rect x="180.0" y="1120" width="123.0" height="8" fill="#253b40" stroke="#253b40" stroke-width="0.8"/>
-<rect x="303.0" y="1120" width="123.0" height="8" fill="#ffffff" stroke="#253b40" stroke-width="0.8"/>
-<rect x="426.0" y="1120" width="123.0" height="8" fill="#253b40" stroke="#253b40" stroke-width="0.8"/>
-<text x="180" y="1150" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">0</text>
-<text x="303.0" y="1150" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">10 ft</text>
-<text x="426.0" y="1150" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">20 ft</text>
+<text x="180" y="1050" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#6c7e7b" text-anchor="start" font-weight="400">Primary suite: 18 x 12 ft bedroom / 6 x 6 ft dressing / L-shaped bath with separate tub, shower, WC and dual vanity</text>
+<text x="180" y="1080" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#253b40" text-anchor="start" font-weight="700">OPENINGS SHOWN FULLY OPEN</text>
+<text x="180" y="1105" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">Panels store in left door pocket and right window pocket. No panel stack blocks the walk-through.</text>
+<text x="180" y="1132" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">Room labels show nominal planning zones; they are not measured net floor areas. Interior doors shown open.</text>
+<text x="180" y="1158" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">No site orientation is assigned. Shore, landscape, drainage and structural details are conceptual.</text>
+<rect x="180.0" y="1190" width="123.0" height="8" fill="#253b40" stroke="#253b40" stroke-width="0.8"/>
+<rect x="303.0" y="1190" width="123.0" height="8" fill="#ffffff" stroke="#253b40" stroke-width="0.8"/>
+<rect x="426.0" y="1190" width="123.0" height="8" fill="#253b40" stroke="#253b40" stroke-width="0.8"/>
+<text x="180" y="1220" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">0</text>
+<text x="303.0" y="1220" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">10 ft</text>
+<text x="426.0" y="1220" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">20 ft</text>
 </svg>

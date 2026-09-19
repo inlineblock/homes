@@ -3,13 +3,14 @@
   "counts": {
     "IfcSlab": 1,
     "IfcWall": 283,
-    "IfcMember": 140,
+    "IfcMember": 197,
     "IfcWindow": 47,
     "IfcDoor": 46,
-    "IfcCovering": 170,
-    "IfcRoof": 202,
-    "IfcColumn": 4,
-    "IfcBeam": 7,
+    "IfcCovering": 200,
+    "IfcRoof": 209,
+    "IfcColumn": 8,
+    "IfcPlate": 7,
+    "IfcBeam": 13,
     "IfcBuildingElementProxy": 1
   },
   "storeys": [

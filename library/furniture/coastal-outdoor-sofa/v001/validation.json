@@ -1,0 +1,31 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -1.2192000150680542,
+      -0.4724400043487549,
+      0.0
+    ],
+    "max": [
+      1.2192000150680542,
+      0.4724400043487549,
+      0.8534400463104248
+    ]
+  },
+  "objects": 57,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Inspected: three distinct boxed cushions, separate olive lumbar pillows, rounded smoked-oak rails, grounded legs and slatted support.",
+    "scope": "Isolated native preview only; host placement, sun/shade appearance and clearance checks remain with adopting home."
+  }
+}

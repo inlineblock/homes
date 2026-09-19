@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "materials/olive-linen",
+  "version": "v001",
+  "name": "Olive Linen | physical weave | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original concept; attribution Homes project contributors; no commercial product or outdoor durability rating asserted.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_comfort.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "files": {
+    "blender": "olive-linen.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dependencies": [],
+  "texture_scale": {
+    "coordinates": "Local object coordinates in meters",
+    "weave_nominal_scale_m": 0.00161,
+    "bump_distance_m": 0.00045
+  },
+  "limitations": "Appearance only: select tested upholstery/rug material for actual outdoor exposure, cleaning and fire requirements."
+}

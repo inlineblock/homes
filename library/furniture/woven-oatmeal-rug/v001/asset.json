@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "furniture/woven-oatmeal-rug",
+  "version": "v001",
+  "name": "Woven oatmeal rug",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original concept; attribution Homes project contributors; no commercial product or outdoor durability rating asserted.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_comfort.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "files": {
+    "blender": "woven-oatmeal-rug.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dimensions_m": [
+    6.0960001945495605,
+    3.657599925994873,
+    0.01066800020635128
+  ],
+  "bounds_m": {
+    "min": [
+      -3.0480000972747803,
+      -1.8287999629974365,
+      0.0
+    ],
+    "max": [
+      3.0480000972747803,
+      1.8287999629974365,
+      0.01066800020635128
+    ]
+  },
+  "blender": {
+    "collection": "Woven oatmeal rug"
+  },
+  "dependencies": [
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../../materials/woven-oatmeal/v001/woven-oatmeal.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Centered XY at support plane Z=0",
+    "front_direction": "+Y; long dimension along X",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only; no nonuniform scale. Cushion may tilt in host; keep support contact."
+  },
+  "installation": {
+    "mounting": "Level supported floor",
+    "operating_envelope": {
+      "state": "Fixed furniture; no articulated mechanism",
+      "front_access_m": null,
+      "side_access_m": null,
+      "basis": "Original concept allowance, not a code or product claim",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Keep floor rugs outside moving-door tracks and wet outdoor exposure; confirm edges remain trip-resistant."
+    ]
+  }
+}

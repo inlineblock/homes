@@ -3,7 +3,7 @@
   "renders": [
     {
       "path": "outputs/images/01-terrace-open.png",
-      "caption": "Rear terrace with the 30-foot glass wall open",
+      "caption": "Full-width attached pergola with two outer posts, open glass wall and west conversation terrace",
       "view": "exterior",
       "exterior_role": "outdoor"
     },
@@ -53,6 +53,11 @@
       "path": "outputs/images/10-primary-bath.png",
       "caption": "Primary bathroom double vanity and soaking tub",
       "view": "interior"
+    },
+    {
+      "path": "outputs/images/11-living-retreat.png",
+      "caption": "A tactile living retreat with shared oak furniture, woven rug and olive cushions",
+      "view": "interior"
     }
   ],
   "required_levels": [
@@ -81,6 +86,13 @@
         "outputs/images/03-serving-counter-open.png",
         "outputs/images/04-serving-counter-closed.png"
       ]
+    },
+    {
+      "id": "verandah",
+      "label": "Full-width wall-attached pergola with no house-side posts",
+      "renders": [
+        "outputs/images/01-terrace-open.png"
+      ]
     }
   ],
   "photographic_hero": {
@@ -88,9 +100,9 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-terrace-open.png",
-    "source_sha256": "439d7c37b045030752b00245fa42296350570581006fd8d92f971d6c9566adfe",
-    "image_sha256": "56146339f40d0165e0175bff7d3fb0deeb2e64ddd740612ec913836dde8e69d0",
+    "source_sha256": "28cd51949af3f8395915674eefcdc5825660d34b04dcad3d2426e6aace008577",
+    "image_sha256": "7f26c768d7ff6dcd8a439a47ab2a2c1c940cf90597946afb79942769d4ef5f09",
     "provenance": "outputs/photo-study.md",
-    "caption": "Coastal House — Imagegen photographic study"
+    "caption": "Coastal House \u2014 Imagegen photographic study"
   }
 }

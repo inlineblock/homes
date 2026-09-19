@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "furniture/olive-linen-cushion",
+  "version": "v001",
+  "name": "Olive linen cushion",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original concept; attribution Homes project contributors; no commercial product or outdoor durability rating asserted.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_comfort.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "files": {
+    "blender": "olive-linen-cushion.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dimensions_m": [
+    0.5111257433891296,
+    0.12700000405311584,
+    0.5080000162124634
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2555628716945648,
+      -0.06350000202655792,
+      0.0
+    ],
+    "max": [
+      0.2555628716945648,
+      0.06350000202655792,
+      0.5080000162124634
+    ]
+  },
+  "blender": {
+    "collection": "Olive linen cushion"
+  },
+  "dependencies": [
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../../materials/olive-linen/v001/olive-linen.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Centered XY at support plane Z=0",
+    "front_direction": "+Y; long dimension along X",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only; no nonuniform scale. Cushion may tilt in host; keep support contact."
+  },
+  "installation": {
+    "mounting": "Upholstered seat or bed support, local bottom Z=0",
+    "operating_envelope": {
+      "state": "Fixed furniture; no articulated mechanism",
+      "front_access_m": null,
+      "side_access_m": null,
+      "basis": "Original concept allowance, not a code or product claim",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Do not reduce usable seating depth or obstruct circulation."
+    ]
+  }
+}

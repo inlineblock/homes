@@ -84,6 +84,8 @@ A timber-clad home on a wooded downhill site: road-level garage and living, a wa
 
 ### Coastal House
 
+A full-width pergola attached above the sliding wall, outdoor conversation nook and planted entry court bring warmth to the bright coastal plan. Inside, smoked-oak accents, a woven rug and olive cushions retain the light, open character.
+
 ![Coastal House — Imagegen photographic study](homes/coastal-house/outputs/images/photo-hero.png)
 
 *Imagegen photographic study. [Source and prompt](homes/coastal-house/outputs/photo-study.md).*
@@ -115,6 +117,10 @@ Bright modern coastal living with a 30-foot pocketing glass wall and a separate 
 [![Furnished single-level concept plan](homes/coastal-house/outputs/plans/floor-plan.png)](homes/coastal-house/outputs/plans/floor-plan.png)
 
 [View the concept PDF](homes/coastal-house/outputs/plans/design-board.pdf)
+
+**Warm living retreat**
+
+![Shared oak furniture, woven oatmeal rug and olive cushions](homes/coastal-house/outputs/images/11-living-retreat.png)
 
 ### Garage Loft 03
 

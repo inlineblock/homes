@@ -145,3 +145,17 @@ Brick preserves physical 225 × 75 mm coursing. Window v002 has 40 mm nominal fr
 [![Subdued mushroom mineral plaster](materials/mushroom-mineral-plaster/v001/preview.png)](materials/mushroom-mineral-plaster/v001/asset.json)
 
 The [mushroom mineral plaster option](materials/mushroom-mineral-plaster/v001/asset.json) provides a substantially darker, low-chroma warm gray-brown alternative to the limestone plaster above. Its actual neutral CPU preview and fresh native reopening were reviewed; hosts separately check sun/shade response beside brick and charcoal. The original limestone material remains available unchanged.
+
+## Coastal comfort collection
+
+Coastal House links these original v001 furnishings and textiles. Native previews, exact dimensions, placement and concept operating clearances are recorded in each manifest. These are original designs, not specified commercial products.
+
+| Timber outdoor sofa | Matching lounge chair |
+| --- | --- |
+| [![Outdoor sofa](furniture/coastal-outdoor-sofa/v001/preview.png)](furniture/coastal-outdoor-sofa/v001/asset.json) | [![Outdoor lounge chair](furniture/coastal-outdoor-lounge-chair/v001/preview.png)](furniture/coastal-outdoor-lounge-chair/v001/asset.json) |
+
+| Woven oatmeal rug | Olive linen cushion |
+| --- | --- |
+| [![Bound woven rug](furniture/woven-oatmeal-rug/v001/preview.png)](furniture/woven-oatmeal-rug/v001/asset.json) | [![Olive cushion](furniture/olive-linen-cushion/v001/preview.png)](furniture/olive-linen-cushion/v001/asset.json) |
+
+Shared material assets: [woven oatmeal](materials/woven-oatmeal/v001/asset.json), [olive linen](materials/olive-linen/v001/asset.json) and existing [smoked oak](materials/smoked-oak/v001/asset.json). Regenerate through `tools/library/publish_coastal_comfort.py`; published versions remain immutable.

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "furniture/coastal-outdoor-sofa",
+  "version": "v001",
+  "name": "Coastal outdoor sofa",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original concept; attribution Homes project contributors; no commercial product or outdoor durability rating asserted.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_coastal_comfort.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "files": {
+    "blender": "coastal-outdoor-sofa.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dimensions_m": [
+    2.4384000301361084,
+    0.9448800086975098,
+    0.8534400463104248
+  ],
+  "bounds_m": {
+    "min": [
+      -1.2192000150680542,
+      -0.4724400043487549,
+      0.0
+    ],
+    "max": [
+      1.2192000150680542,
+      0.4724400043487549,
+      0.8534400463104248
+    ]
+  },
+  "blender": {
+    "collection": "Coastal outdoor sofa"
+  },
+  "dependencies": [
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../../materials/woven-oatmeal/v001/woven-oatmeal.blend"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../../materials/olive-linen/v001/olive-linen.blend"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../../materials/smoked-oak/v001/smoked-oak.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Centered XY at support plane Z=0",
+    "front_direction": "+Y; long dimension along X",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only; no nonuniform scale. Cushion may tilt in host; keep support contact."
+  },
+  "installation": {
+    "mounting": "Level supported floor",
+    "operating_envelope": {
+      "state": "Fixed furniture; no articulated mechanism",
+      "front_access_m": 0.9,
+      "side_access_m": 0.6,
+      "basis": "Original concept allowance, not a code or product claim",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Remove cushions for cleaning; confirm outdoor upholstery/timber suitability and anchoring for actual wind exposure."
+    ]
+  }
+}

@@ -70,25 +70,10 @@ def kitchen(M):
 
 def rooms(M):
     g.collection('04 Furnishings | living dining bedrooms')
-    # Large tactile rug and lower furniture keep the glazing visually dominant.
-    box('Living wool rug',(13,32.6,.025),(20,12,.04),M['linen'],.03)
-    # Small physical fringes rather than a flat monotone rectangle.
-    for i in range(80):
-        x=3.1+i*.25
-        for yy in [26.52,38.68]:rod('Rug fringe',(x,yy-.12,.04),(x+.01,yy+.12,.04),.009,M['linen'])
-    sofa('Living sofa',13,28.7,M)
-    soft('Living chaise cushion',(7.7,32.6,1.07),(3.5,5.3,.42),M['linen'],.22)
-    soft('Living chaise base',(7.7,32.6,.66),(3.5,5.3,.6),M['linen'],.20)
-    box('Low limestone coffee table',(14,33.7,1.10),(5.8,3.4,.23),M['stone'],.48)
-    for x in [12.3,15.7]:box('Coffee table pedestal',(x,33.7,.54),(.65,2.3,1.0),M['stone'],.12)
-    box('Coffee table art book',(14.2,33.9,1.25),(1.3,1,.08),M['blue'],.015)
-    bowl('Coffee table ceramic',12.8,33.7,1.22,.40,M['porcelain'])
-    # Dining table with a thick rounded solid-oak edge.
-    soft('Dining oval oak tabletop',(35,29.1,2.48),(8.5,3.8,.20),M['oak'],.50)
-    for x in [32.2,37.8]:box('Dining sculptural trestle',(x,29.1,1.21),(.5,2.35,2.42),M['oak'],.10)
-    for x in [32.4,35,37.6]:
-        chair('Dining chair',x,26.25,math.pi,M);chair('Dining chair',x,31.95,0,M)
-    bowl('Dining centerpiece',35,29.1,2.6,.72,M['porcelain'])
+    # Library-owned living/dining geometry; local room dimensions remain here.
+    from pathlib import Path
+    from comfort import living_dining
+    living_dining(Path(__file__).resolve().parents[2],M)
     from design import BEDS
     for name,x,y,w in BEDS:bed(name,x,y,w,M)
     # Bath fixtures, clear door zones, and wardrobe/Laundry.

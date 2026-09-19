@@ -1,10 +1,10 @@
 # Coastal House program review
 
-This is the current concept's required/optional/unresolved register. Presence in the model means concept geometry exists; it does not establish product fit, local approval or engineered performance.
+This is the current concept's required/optional/unresolved register. The current house-attached pergola and conversation layout pass the refreshed native geometry/route checks; all 33 asset versions match the manifest. The current house IFC has zero schema errors and passes Bonsai import. All eleven native views, the Imagegen hero and eight-page booklet have been visually reviewed; see the output validation receipt. Presence in the model means concept geometry exists; it does not establish product fit, local approval or engineered performance.
 
 | Area | Included in this concept | Still unresolved |
 | --- | --- | --- |
-| Arrival | Illustrative front road, two-car covered parking, driveway, separate walk, daylight foyer | Actual site access, grades, turn/sightline study and car-door operation |
+| Arrival | Illustrative front road, two-car covered parking, driveway, 6 ft separate walk, 4 ft crosswalk, 12 x 9 ft timber-lined entry canopy, planted court and daylight foyer | Actual site access, grades, turn/sightline study and car-door operation |
 | Entry storage | Coat wardrobe and shallow keys/drop shelf; path remains usable | Final household storage capacity and cabinetry operation |
 | Bedrooms | Three furnished bedrooms, king bed in primary; each has clothes storage | Selected mattress/casegoods, window emergency egress and jurisdiction rules |
 | Primary suite | Private dressing room; dual vanity with 36-inch basin centers; separate 72-inch tub and 5.2 x 7.4 ft shower; enclosed 4 x 6 ft toilet; towel niche | Waterproofing, final plumbing, slip resistance, ventilation and full fixture-operation review |
@@ -14,9 +14,11 @@ This is the current concept's required/optional/unresolved register. Presence in
 | Mechanical | Enclosed 5 x 4.8 ft service reservation | Heating/cooling and hot-water selection, equipment fit, service clearances, ducts, acoustics and permits |
 | Lighting | Recessed general lighting with real ceiling holes; island/entry pendant accents; preparation task strip | Photometrics, controls, circuiting, damp ratings and energy approval |
 | Hardware | Shared bronze drawer pulls and door levers; shared asset handles on storage and refrigerator | Final latch, hinge, corrosion, opening-force and accessibility specification |
-| Indoor/outdoor living | Actual 30 ft retractable wall, 12 ft serving window, two-sided counter, furnished terrace | Selected sliding product, structural headers, seals, screens, impact/flood performance |
+| Indoor/outdoor living | Actual 30 ft retractable wall, 12 ft serving window, two-sided counter; 32 ft wide, 15.15 ft projecting house-attached open-slatted pergola spanning the 30 ft opening, with a ledger above its header and only two outer posts; west sofa/chair conversation area and low side screen | Selected sliding product, structural headers, seals, screens, impact/flood performance; pergola ledger attachment, conceptual 18-inch timber-clad steel outer beam, footings/fixings and outdoor furniture durability. Open slats provide shade only, not rain protection |
+| Interior comfort | Linked sofa, dining furniture and rounded coffee table; woven oatmeal rug, olive cushions, original wall relief and smoked-oak island | Textile wear/cleaning, final upholstery ratings and occupant-specific furnishing preferences |
+| Landscape | Eleven deliberate planting drifts using shared grass, sage and olive models; clear central shore outlook | Actual species, salt/wind exposure, irrigation, maintenance, ecological suitability and final planting distances |
 | Envelope | Visible low roof pitches, standing seams, house gutter fall and downpipes | Selected coastal-compatible low-slope assembly, capacities, lawful discharge and structural loads |
 | Fireplace | Optional; intentionally not included | Add only as a separately designed choice with venting, clearances and air-supply review |
 | Site and approvals | Illustrative coastal setting only | Survey, orientation, flood/wind exposure, setbacks, utilities, geotechnical findings and jurisdiction |
 
-Current native checks cover relative libraries, floor area, bed count, moving glazing, nineteen interior routes including storage/bathing, parking-to-entry walking and parked vehicle envelopes. They do not prove every equipment/door operation. The visual review and measured evidence are in [design-review.md](design-review.md).
+The current [native receipt](model/model-validation.json) confirms the reopened attached-pergola model: two outer posts, no house-side columns, ledger contact with the header, 30 ft sliding-wall coverage and a 0.08 ft slat-to-soffit gap. Nineteen interior routes, four terrace routes, two arrival routes, two driver approaches and 420 panel-component checks across seven frames passed. The [adoption receipt](model/asset-adoption.json) confirms all 33 asset versions match the manifest. These are concept geometry checks, not structural approval, full equipment/door operation or occupied-seating validation. See [design-review.md](design-review.md).

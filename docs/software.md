@@ -19,3 +19,11 @@ Sources:
 Installers are temporary local downloads, not repository assets. Collaborators install the appropriate build for their own operating system. No subscription or paid software was used.
 
 Local commits were made without signatures because the configured SSH signing key waited for interactive authorization. The user's Git signing configuration was left unchanged.
+
+## Bonsai dependency repair
+
+On September 19, 2026, Bonsai's managed Python dependency directory was missing after an earlier native-library loading failure. A normal Blender startup reconstructed the environment from the extension's bundled wheels. A second fresh startup confirmed Bonsai enabled, IfcOpenShell 0.8.5 import, the IFC loading operator, and native solid tessellation (8 vertices, 12 triangles). The native IfcOpenShell library passed macOS code-signature verification; saved user preferences were unchanged.
+
+For a similar missing-dependency failure, first close concurrent extension-management operations, start Blender normally and inspect its startup log. Use the compatible official extension's installation workflow if rebuilding its bundled environment does not resolve it. A menu entry alone is insufficient: test native geometry and reopen an actual IFC. See [official Bonsai installation guidance](https://docs.bonsaibim.org/guides/development/installation.html).
+
+Home assembly uses `--factory-startup` to avoid unrelated add-on workspace links in saved models. Bonsai import verification uses a separate normal startup with the extension enabled. Keep the native model and the temporary imported IFC scene separate.

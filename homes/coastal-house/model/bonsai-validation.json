@@ -1,6 +1,54 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 901,
-  "project": "Coastal House | Concept"
+  "imported_mesh_objects": 1012,
+  "project": "Coastal House | Concept",
+  "blender_version": "4.5.14 LTS",
+  "bonsai_version": "0.8.5",
+  "ifcopenshell_version": "0.8.5",
+  "ifc_sha256": "a5c382dffb17eb6b01eedb5e56c149d46ddf207ad90016eeb896572bddb594b1",
+  "source_blend_sha256": "67ccc3f2dccb578b214c261d573911aabdc30c1d0328ded1951703386332deac",
+  "closed_envelope_frame": 1,
+  "attached_pergola": {
+    "seaward_posts": 2,
+    "house_side_posts": 0,
+    "post_bounds_ft": [
+      [
+        8.700000332409315,
+        55.699999251077806,
+        0.17999976951619145,
+        9.300000085605411,
+        56.30000056870027,
+        8.550000003003698
+      ],
+      [
+        40.7000007278963,
+        55.699999251077806,
+        0.17999976951619145,
+        41.30000204551877,
+        56.30000056870027,
+        8.550000003003698
+      ]
+    ],
+    "header_ledger_bounds_ft": [
+      8.550000003003698,
+      40.600002594194386,
+      9.649999811267602,
+      41.44999924607164,
+      41.09999952040945,
+      10.050000168207124
+    ],
+    "outer_beam_bounds_ft": [
+      8.550000003003698,
+      55.699999251077806,
+      8.550000003003698,
+      41.44999924607164,
+      56.30000056870027,
+      10.050000168207124
+    ],
+    "open_slats": 45,
+    "actual_bonsai_member_objects_checked": true
+  },
+  "entry_canopy_supports": 2,
+  "limits": "IFC schema and actual Bonsai import/tessellation verified; classified concept mesh geometry is not engineered construction documentation."
 }

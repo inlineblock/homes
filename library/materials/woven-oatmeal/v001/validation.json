@@ -1,0 +1,31 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.30480000376701355,
+      0.07315199822187424
+    ]
+  },
+  "objects": 1,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Inspected neutral-lit native swatch: warm oatmeal/ivory textile and subtle rough weave.",
+    "scope": "Isolated native preview only; host placement, sun/shade appearance and clearance checks remain with adopting home."
+  }
+}

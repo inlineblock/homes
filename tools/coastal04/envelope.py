@@ -10,6 +10,36 @@ ROOF_EAVE=10.9
 ROOF_RIDGE=ROOF_EAVE+23.75*PITCH
 CARPORT=(73,99,-27,-3)
 
+def entry_canopy(M):
+    """Warm, legible arrival canopy; concept fall/drain, unengineered fixing."""
+    from coastal04.verandah import ENTRY_CANOPY_BOUNDS, ENTRY_CANOPY_POSTS
+    from common.timber_materials import grain_uv
+    x1,x2,y1,y2=ENTRY_CANOPY_BOUNDS
+    wood=M['accent_oak']
+    # Two outer columns and an upper wall ledger retain the full walk/crosswalk.
+    for x,y in ENTRY_CANOPY_POSTS:
+        o=box('Entry canopy timber column',(x,y,4.60),(.50,.50,9.2),wood,.025)
+        o['ifc_class']='IfcColumn';grain_uv(o)
+        o=box('Entry canopy bronze shoe',(x,y,.20),(.60,.60,.40),M['bronze'],.015);o['ifc_class']='IfcPlate'
+    for y in [y1+.55,-.35]:
+        o=box('Entry canopy supporting timber beam',((x1+x2)/2,y,9.30),(x2-x1,.50,.50),wood,.018)
+        o['ifc_class']='IfcBeam';grain_uv(o)
+    for i in range(30):
+        o=box('Entry canopy warm timber soffit',(x1+.20+i*.40,(y1+y2)/2,9.54),(.36,y2-y1,.10),wood,.008)
+        o['ifc_class']='IfcCovering';grain_uv(o)
+    # Thin metal cap falls 1/4 inch per foot to the front gutter.
+    zfront,zback=9.67,9.67+(y2-y1)/48
+    v=[(x1,y1,zfront),(x2,y1,zfront),(x2,y2,zback),(x1,y2,zback)]
+    o=mesh('Entry canopy sloping bronze metal cap',v+[(x,y,z-.075) for x,y,z in v],[(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)],M['bronze'])
+    o['ifc_class']='IfcRoof';o['design_status']='Concept slope and drainage only; assembly and fixings unresolved'
+    for x in [x1,x2]:
+        beam('Entry canopy thin bronze edge',(x,y1,zfront-.05),(x,y2,zback-.05),.07,.14,M['bronze'])
+    for yy in [y1-.04,y1-.30]:
+        box('Entry canopy gutter upstand',((x1+x2)/2,yy,zfront-.09),(x2-x1,.025,.18),M['bronze'],.004)
+    box('Entry canopy gutter base',((x1+x2)/2,y1-.17,zfront-.17),(x2-x1,.28,.025),M['bronze'],.004)
+    rod('Entry canopy downpipe',(27.55,y1-.17,zfront-.17),(27.55,y1-.17,.08),.055,M['bronze'])
+    box('Entry canopy drain inspection grate',(27.55,y1-.17,.025),(.50,.50,.04),M['dark'],.01)
+
 def roof(M):
     collection('09 Roof | low pitch metal and drainage')
     metal=material('Warm silver standing seam roof',(.36,.385,.37),.4,.65)
@@ -43,7 +73,7 @@ def roof(M):
             box('Drain inspection grate',(x,out,-.005),(.6,.6,.05),M['dark'],.025)
     for x in [-2,70]:
         for y,z in [(-3.75,ROOF_EAVE),(43.75,ROOF_EAVE)]:beam('Gable barge trim',(x,y,z-.12),(x,20,ROOF_RIDGE-.12),.18,.3,M['oak'])
-    box('Entry slim weather canopy',(20,-1.5,9.65),(7,9,.26),M['stone'],.025)
+    entry_canopy(M)
     for i in range(170):box('Rear oak soffit slat',(.1+i*.4,41.90,10.38),(.36,3.65,.10),M['oak'],.007)
 
 
@@ -63,10 +93,6 @@ def arrival(ROOT,M,shared):
     for y in [-42,-33,-24,-15,-6]:box('Drive transverse joint',(86,y,.006),(26,.025,.008),M['dark'])
     box('Drive threshold drain',(86,-43.5,.002),(25,.23,.025),M['dark'],.008)
     for i in range(121):box('Drive drain grating',(73.7+i*.205,-43.5,.015),(.028,.23,.025),M['steel'])
-    for x in [7,33,49,63]:
-        for j in range(3):
-            place('Shared front meadow grass',shared['grass'],(x+j*1.5,-9-j*4,0),scale=.5)
-        place('Shared front coastal shrub',shared['shrub'],(x,-20,0),scale=.7)
     # The parking bays are 12 ft wide. Slender posts stay outside car-door zones.
     collection('13 Carport | two sheltered passenger cars')
     roofmat=material('Carport warm silver metal',(.36,.385,.37),.4,.65)

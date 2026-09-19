@@ -1,7 +1,7 @@
 {
   "home": "coastal-house",
   "native_library_pins_match_manifest": true,
-  "asset_versions": 20,
+  "asset_versions": 33,
   "assets": [
     {
       "id": "appliances/built-in-oven-30in",
@@ -53,14 +53,14 @@
       "version": "v001",
       "direct_placements_or_material_assignments": 13,
       "examples": [
+        "Primary dressing wardrobe",
+        "Primary dressing wardrobe.001",
+        "Primary dressing wardrobe.002",
         "Bedroom 02 oak wardrobe",
         "Bedroom 02 oak wardrobe.001",
         "Bedroom 02 oak wardrobe.002",
         "Bedroom 03 oak wardrobe",
-        "Bedroom 03 oak wardrobe.001",
-        "Bedroom 03 oak wardrobe.002",
-        "Entry coat storage",
-        "Laundry linen storage"
+        "Bedroom 03 oak wardrobe.001"
       ],
       "adopted_parent_dependencies": []
     },
@@ -70,6 +70,15 @@
       "direct_placements_or_material_assignments": 1,
       "examples": [
         "Primary separate soaking tub"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Dining shared linear focal pendant"
       ],
       "adopted_parent_dependencies": []
     },
@@ -132,6 +141,89 @@
       "adopted_parent_dependencies": []
     },
     {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Shared west terrace lounge chair left",
+        "Shared west terrace lounge chair right"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/coastal-outdoor-sofa",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Shared west terrace sofa"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Living shared linen sofa"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Shared terrace dining table",
+        "Dining shared eight foot oak table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Shared west terrace coffee table",
+        "Living shared oak coffee table"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 12,
+      "examples": [
+        "Shared terrace dining chair shore",
+        "Shared terrace dining chair house",
+        "Shared terrace dining chair shore.001",
+        "Shared terrace dining chair house.001",
+        "Shared terrace dining chair shore.002",
+        "Shared terrace dining chair house.002",
+        "Dining shared oak chair south",
+        "Dining shared oak chair north"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/olive-linen-cushion",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 2,
+      "examples": [
+        "Living olive linen cushion",
+        "Living olive linen cushion.001"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "furniture/woven-oatmeal-rug",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Living woven oatmeal rug"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
       "id": "hardware/bar-pull-satin-bronze",
       "version": "v001",
       "direct_placements_or_material_assignments": 48,
@@ -152,46 +244,44 @@
       "version": "v001",
       "direct_placements_or_material_assignments": 16,
       "examples": [
-        "Entry east open oak door leaf lever",
-        "Entry east open oak door leaf lever.001",
-        "Guest bedrooms hall open oak door leaf lever",
-        "Guest bedrooms hall open oak door leaf lever.001",
-        "Guest service west open oak door leaf lever",
-        "Guest service west open oak door leaf lever.001",
-        "Guest service west open oak door leaf.001 lever",
-        "Guest service west open oak door leaf.001 lever.001"
+        "Primary east open oak door leaf lever",
+        "Primary east open oak door leaf lever.001",
+        "Primary bath front open oak door leaf lever",
+        "Primary bath front open oak door leaf lever.001",
+        "Bath closet partition open oak door leaf lever",
+        "Bath closet partition open oak door leaf lever.001",
+        "Primary WC west open oak door leaf lever",
+        "Primary WC west open oak door leaf lever.001"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "landscape/olive-tree",
       "version": "v001",
-      "direct_placements_or_material_assignments": 8,
+      "direct_placements_or_material_assignments": 6,
       "examples": [
-        "Shared wind-shaped olive",
-        "Shared wind-shaped olive.001",
-        "Shared wind-shaped olive.002",
-        "Shared wind-shaped olive.003",
-        "Shared coastal background olive",
-        "Shared coastal background olive.001",
-        "Shared coastal background olive.002",
-        "Shared coastal background olive.003"
+        "Entry west canopy | shared olive",
+        "Entry east canopy | shared olive",
+        "West side canopy | shared olive",
+        "East side canopy | shared olive",
+        "West dune framing canopy | shared olive",
+        "East dune framing canopy | shared olive"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "landscape/ornamental-grass-clump",
       "version": "v002",
-      "direct_placements_or_material_assignments": 232,
+      "direct_placements_or_material_assignments": 170,
       "examples": [
-        "Shared dune grass drift",
-        "Shared dune grass drift.001",
-        "Shared dune grass drift.002",
-        "Shared dune grass drift.003",
-        "Shared dune grass drift.004",
-        "Shared dune grass drift.005",
-        "Shared dune grass drift.006",
-        "Shared dune grass drift.007"
+        "Entry west inner | shared grass",
+        "Entry west inner | shared grass.001",
+        "Entry west inner | shared grass.002",
+        "Entry west inner | shared grass.003",
+        "Entry west inner | shared grass.004",
+        "Entry west inner | shared grass.005",
+        "Entry west inner | shared grass.006",
+        "Entry west inner | shared grass.007"
       ],
       "adopted_parent_dependencies": []
     },
@@ -200,21 +290,21 @@
       "version": "v002",
       "direct_placements_or_material_assignments": 51,
       "examples": [
-        "Shared low coastal planting",
-        "Shared low coastal planting.001",
-        "Shared low coastal planting.002",
-        "Shared low coastal planting.003",
-        "Shared low coastal planting.004",
-        "Shared low coastal planting.005",
-        "Shared low coastal planting.006",
-        "Shared low coastal planting.007"
+        "Entry west inner | shared shrub",
+        "Entry west inner | shared shrub.001",
+        "Entry west inner | shared shrub.002",
+        "Entry west inner | shared shrub.003",
+        "Entry west inner | shared shrub.004",
+        "Entry west inner | shared shrub.005",
+        "Entry west approach | shared shrub",
+        "Entry west approach | shared shrub.001"
       ],
       "adopted_parent_dependencies": []
     },
     {
       "id": "materials/coastal-honed-limestone",
       "version": "v001",
-      "direct_placements_or_material_assignments": 391,
+      "direct_placements_or_material_assignments": 374,
       "examples": [
         "Gross enclosed floor (material)",
         "Limestone facade ashlar (material)",
@@ -230,18 +320,72 @@
     {
       "id": "materials/coastal-white-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 381,
+      "direct_placements_or_material_assignments": 294,
       "examples": [
         "Front pivot entry leaf (material)",
         "Pocket removable cladding skin (material)",
         "Pocket removable cladding skin.001 (material)",
         "Pocket removable cladding skin.002 (material)",
         "Pocket removable cladding skin.003 (material)",
-        "Entry east open oak door leaf (material)",
-        "Guest bedrooms hall open oak door leaf (material)",
-        "Guest service west open oak door leaf (material)"
+        "Primary east open oak door leaf (material)",
+        "Primary bath front open oak door leaf (material)",
+        "Bath closet partition open oak door leaf (material)"
       ],
       "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 0,
+      "examples": [],
+      "adopted_parent_dependencies": [
+        "furniture/coastal-outdoor-lounge-chair",
+        "furniture/coastal-outdoor-sofa",
+        "furniture/olive-linen-cushion"
+      ]
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 112,
+      "examples": [
+        "Entry canopy timber column (material)",
+        "Entry canopy timber column.001 (material)",
+        "Entry canopy supporting timber beam (material)",
+        "Entry canopy supporting timber beam.001 (material)",
+        "Entry canopy warm timber soffit (material)",
+        "Entry canopy warm timber soffit.001 (material)",
+        "Entry canopy warm timber soffit.002 (material)",
+        "Entry canopy warm timber soffit.003 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 64,
+      "examples": [
+        "Front mineral render (material)",
+        "Front mineral render.001 (material)",
+        "Front mineral render.002 (material)",
+        "Front mineral render.003 (material)",
+        "Front mineral render.004 (material)",
+        "Front window sill (material)",
+        "Front window head (material)",
+        "Front window sill.001 (material)"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 0,
+      "examples": [],
+      "adopted_parent_dependencies": [
+        "furniture/coastal-outdoor-lounge-chair",
+        "furniture/coastal-outdoor-sofa",
+        "furniture/woven-oatmeal-rug"
+      ]
     },
     {
       "id": "surfaces/honed-limestone-paver-4ft",

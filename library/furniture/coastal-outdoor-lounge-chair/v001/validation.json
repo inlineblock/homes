@@ -1,0 +1,31 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.48767998814582825,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.48767998814582825,
+      0.8534400463104248
+    ]
+  },
+  "objects": 35,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Inspected final full-object framing: four grounded legs, cushions, open arms and timber slats visible without crop.",
+    "scope": "Isolated native preview only; host placement, sun/shade appearance and clearance checks remain with adopting home."
+  }
+}

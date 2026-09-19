@@ -17,6 +17,36 @@
   },
   "asset_dependencies": [
     {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../library/materials/woven-oatmeal/v001/"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../library/materials/olive-linen/v001/"
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../library/materials/warm-limestone-plaster/v001/"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-sofa/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-lounge-chair/v001/"
+    },
+    {
       "id": "materials/coastal-white-oak",
       "version": "v001",
       "path": "../../library/materials/coastal-white-oak/v001/"
@@ -92,6 +122,11 @@
       "path": "../../library/fixtures/freestanding-tub-72in/v001/"
     },
     {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
+    },
+    {
       "id": "hardware/bar-pull-satin-bronze",
       "version": "v001",
       "path": "../../library/hardware/bar-pull-satin-bronze/v001/"
@@ -112,16 +147,47 @@
       "path": "../../library/fixtures/lighting-undercabinet-bar-4ft/v001/"
     },
     {
-      "id": "fixtures/toilet-elongated",
+      "id": "furniture/linen-three-seat-sofa",
       "version": "v001",
-      "path": "../../library/fixtures/toilet-elongated/v001/"
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/"
+    },
+    {
+      "id": "furniture/woven-oatmeal-rug",
+      "version": "v001",
+      "path": "../../library/furniture/woven-oatmeal-rug/v001/"
+    },
+    {
+      "id": "furniture/olive-linen-cushion",
+      "version": "v001",
+      "path": "../../library/furniture/olive-linen-cushion/v001/"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
     }
   ],
   "site_concept": {
     "road": "front/south illustration only",
     "parking": "Detached 26 x 24 ft two-car carport, east side; 26 ft driveway",
     "entry": "6 ft front path plus 4 ft crosswalk behind parked cars",
-    "roof": "House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval"
+    "roof": "House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval",
+    "terrace": "32 x 15.15 ft wall-attached slatted timber pergola spanning the full 30 ft sliding wall, west conversation seating and low side screen; shade only, structure unengineered."
   },
   "openings": {
     "dimension_units": "feet",
@@ -153,5 +219,11 @@
     "primary_render": "outputs/images/01-terrace-open.png",
     "floor_plan": "outputs/plans/floor-plan.svg",
     "presentation_sheet": "outputs/plans/design-board.pdf"
-  }
+  },
+  "modeled_planting_counts": {
+    "grass": 170,
+    "shrub": 51,
+    "olive": 6
+  },
+  "design_direction": "Warm coastal verandah: shaded dining, outdoor conversation area, planted entry court, smoked-oak island and tactile textiles."
 }

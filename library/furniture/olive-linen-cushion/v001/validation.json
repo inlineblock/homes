@@ -1,0 +1,31 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -0.2555628716945648,
+      -0.06350000202655792,
+      0.0
+    ],
+    "max": [
+      0.2555628716945648,
+      0.06350000202655792,
+      0.5080000162124634
+    ]
+  },
+  "objects": 2,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Inspected: plump upright cushion and perimeter welt, muted olive fabric, complete uncropped preview.",
+    "scope": "Isolated native preview only; host placement, sun/shade appearance and clearance checks remain with adopting home."
+  }
+}

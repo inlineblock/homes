@@ -1,0 +1,31 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -3.0480000972747803,
+      -1.8287999629974365,
+      0.0
+    ],
+    "max": [
+      3.0480000972747803,
+      1.8287999629974365,
+      0.01066800020635128
+    ]
+  },
+  "objects": 5,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "notes": "Inspected: thin supported field and visible darker binding within20\u00d712ft footprint.",
+    "scope": "Isolated native preview only; host placement, sun/shade appearance and clearance checks remain with adopting home."
+  }
+}

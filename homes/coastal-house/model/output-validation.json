@@ -1,5 +1,7 @@
 {
   "home": "coastal-house",
+  "source_blend_sha256": "67ccc3f2dccb578b214c261d573911aabdc30c1d0328ded1951703386332deac",
+  "blender_version": "4.5.14 LTS",
   "reviewed_images": [
     {
       "file": "outputs/images/01-terrace-open.png",
@@ -9,7 +11,7 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "439d7c37b045030752b00245fa42296350570581006fd8d92f971d6c9566adfe"
+      "sha256": "28cd51949af3f8395915674eefcdc5825660d34b04dcad3d2426e6aace008577"
     },
     {
       "file": "outputs/images/02-great-room.png",
@@ -19,7 +21,7 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "eff89145162c6e053867c6fe0765776dce26f5b35b792a8224ad6274712bef53"
+      "sha256": "debcc4ead091e6dc94a8c4593c14403f04185a3c0b3bf5c696efeffa7e72f210"
     },
     {
       "file": "outputs/images/03-serving-counter-open.png",
@@ -29,7 +31,7 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "b49e7a63dade999676ce0c0c627522df36c90e2777e3c067d796fa06c33db8b8"
+      "sha256": "cc803b79976cc8bea69ffe8a76d9ee2350c6ea16ef60bb92f4bbfed7a0586ae1"
     },
     {
       "file": "outputs/images/04-serving-counter-closed.png",
@@ -39,7 +41,7 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "d3e7e4a55c935a731c49569ed6828ae2420e1a2b361b9153c1e0f542074b1187"
+      "sha256": "1302bbeb777f562aba1c84ba6e70882bfc50a73e6ffc5bf14573852f3db5ea0f"
     },
     {
       "file": "outputs/images/05-terrace-closed.png",
@@ -49,7 +51,7 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "2f67b9739f46bcf208f6b8cb5dfef9537de64e220eb23b3030956558a2057728"
+      "sha256": "62f6b736b922222f65bf0ab64f4110e14bd348a56330690ccd05909d6217d50c"
     },
     {
       "file": "outputs/images/06-front-arrival.png",
@@ -59,7 +61,7 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "b5c80cda16eddcf9f33d21fad2fe060b2f55661b527207e3a7c8e04c3f16fd5f"
+      "sha256": "199044772e3978abf206d1898c1ae390fb51678fe4f88a41c9ded4ae9265fa82"
     },
     {
       "file": "outputs/images/07-roof-and-parking.png",
@@ -69,7 +71,7 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "bdd0594890f9fd22fc819300173d3c39742e9f95c4193d0a1cb682552b5d1fb8"
+      "sha256": "6b19346abd9372ea16a2e057310c0b67ccebe2a739a3fa04449ff20f52342fd2"
     },
     {
       "file": "outputs/images/08-west-garden.png",
@@ -79,7 +81,7 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "7d35605cec2e961b58d7168a3e83f76831b9d8bc2901478e10e0780ac7ba5d11"
+      "sha256": "0865266e9ff5328c9b869cf4673c3cab8694999ac7a0702f635f931ea423662d"
     },
     {
       "file": "outputs/images/09-entry-hall.png",
@@ -89,7 +91,7 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "b071ae7e997549d3a8ff5106719858e277696246e14ab6c1379b2ed727097d60"
+      "sha256": "6769ce203a9a0f53de12a9428dcfaaea8c1437543bb6693a64ac4431cf854323"
     },
     {
       "file": "outputs/images/10-primary-bath.png",
@@ -99,14 +101,51 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "0d372950e775955f23485b9fe7e3e78b1a7a2c08b5b0b027785d037483ec707c"
+      "sha256": "eed1cf7ae5cbface8c4405af983141c0d5d2fa8840afc9cb8bb07621ec38c374"
+    },
+    {
+      "file": "outputs/images/11-living-retreat.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "1d86cb5fedb8891b03e04cfda75e66480032d0f07a42877258d4917932c3d5f8"
     }
   ],
   "pdf": {
     "file": "outputs/plans/design-board.pdf",
-    "pages": 7,
+    "pages": 8,
     "all_pages_visually_reviewed": true,
-    "sha256": "d211cfc0bd1d1361ffca120609bccafa8d8e299adef10f4292b241c5aeb40a11"
+    "sha256": "55d81cf9578c183fd8bda29ba58e7024d08e82cfb24c508a0bc1780c38c8c288"
+  },
+  "plans": [
+    {
+      "file": "outputs/plans/floor-plan.png",
+      "visually_reviewed": true,
+      "sha256": "e0451159c68b0f1b6026fc5d6de5f8dfc92aa9af554deeb0c1398c7e50f9fae8"
+    },
+    {
+      "file": "outputs/plans/floor-plan.svg",
+      "visually_reviewed": true,
+      "sha256": "debcc514c468ee2b7642f99ba3d599948aae2499849a42733493586a434dbdc6"
+    },
+    {
+      "file": "outputs/plans/site-plan.svg",
+      "visually_reviewed": true,
+      "sha256": "39e09406a3b1ec37dfb3af21180c5fcc57962b4aa215d61a841414b883697aa1"
+    }
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "kind": "ai-photographic-study",
+    "tool": "Imagegen (built-in)",
+    "source_render": "outputs/images/01-terrace-open.png",
+    "source_sha256": "28cd51949af3f8395915674eefcdc5825660d34b04dcad3d2426e6aace008577",
+    "image_sha256": "7f26c768d7ff6dcd8a439a47ab2a2c1c940cf90597946afb79942769d4ef5f09",
+    "provenance": "outputs/photo-study.md",
+    "caption": "Coastal House \u2014 Imagegen photographic study"
   },
   "relative_document_links_resolve": true,
   "native_geometry_evidence": [
@@ -116,10 +155,13 @@
     "bonsai-validation.json"
   ],
   "review_notes": [
-    "Front carport framing, roof/parking composition and coplanar paving artifacts corrected.",
-    "Guest storage and widened entry, full kitchen equipment, primary suite and individual guest bathroom fixture approaches checked.",
-    "Views01\u201303 remain current after later bathroom fixture and front-paving refinements outside their visible content.",
-    "Independent isolated authoring rebuild passed nineteen interior routes,420 panel-component checks and twenty exact library asset pins."
+    "All eleven native views regenerated from the same verified attached-pergola model, reviewed and promoted from ignored work output.",
+    "Full 30-foot opening coverage, two outer posts, no house-side columns and continuous header ledger agree across model, IFC, plans and gallery.",
+    "Thirty-three pinned shared asset versions match the manifest; native geometry checks cover nineteen interior routes, four terrace routes, two arrival routes, two driver approaches and 420 panel-component checks.",
+    "All eight PDF pages rendered and visually inspected; floor and site drawings match current furniture and pergola geometry.",
+    "Independent specialist review found source, shared-asset adoption and hero/primary interior consistent.",
+    "Imagegen hero is an AI photographic interpretation: fine materials/foliage vary, and the illustrative foreground blue artifact is replaced by sand. No modeled pool.",
+    "Gallery coverage check passed all six homes; current document links resolve."
   ],
-  "limitations": "Architectural concept and editable visualization. Site, product installation/operating sweeps, structure, waterproofing, drainage sizing, services, climate specifications, egress and jurisdiction approval remain unresolved."
+  "limitations": "Architectural concept and editable visualization. Pergola span/ledger attachment, wind, foundations, waterproofing, drainage, site conditions, selected-product operation, accessibility and jurisdiction approval remain unresolved. Slatted pergola provides shade, not rain protection."
 }

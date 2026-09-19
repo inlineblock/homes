@@ -81,7 +81,7 @@ collection('07 Finishes | floors and reveals')
 for ix in range(17):
     for iy in range(10):
         o=box('Honed limestone floor module',(2+ix*4,2+iy*4,.018),(3.993,3.993,.028),M['stone'],.003);o['ifc_class']='IfcCovering'
-from envelope import roof,arrival,garden_detail
+from envelope import roof,arrival
 roof(M)
 # Ground-level terrace integrates slab, trench drain and restrained planting.
 collection('06 Landscape | terrace and illustrative coast')
@@ -97,19 +97,19 @@ for x in [50.2,53.7,57.2]:instance('Shared outdoor counter stool',stool,(x,45.0,
 for x in [51.2,54.5,57.8]:instance('Shared island counter stool',stool,(x,26.4,0),math.pi)
 # Reused opal light in the quieter entry.
 instance('Shared entry opal pendant',pendant,(20,6,9.8))
-for x in [10,17]:
-    soft('Terrace chaise base',(x,49.8,.66),(3,7.6,.3),M['oak'],.10)
-    soft('Terrace chaise mattress',(x,49.8,.91),(2.8,7.3,.3),M['linen'],.16)
-    back=soft('Terrace chaise back',(x,47.5,1.62),(2.8,2.65,.30),M['linen'],.16);back.rotation_euler.x=math.radians(32)
-    for dx in [-1.05,1.05]:
-        for y in [47.2,52.4]:rod('Chaise leg',(x+dx,y,.05),(x+dx,y,.6),.055,M['bronze'])
-cyl('Terrace side table',(13.5,49.7,.85),.80,.18,M['stone'],64);cyl('Terrace table pedestal',(13.5,49.7,.40),.30,.80,M['stone'])
+# Linked conversation furniture provides a destination at the sheltered west end.
+outdoor_assets = {slug: linked_collection(ROOT, 'furniture', slug) for slug in
+                  ['coastal-outdoor-sofa', 'coastal-outdoor-lounge-chair', 'oak-rounded-coffee-table']}
+for name, slug, loc, angle in OUTDOOR_LOUNGE:
+    instance(name, outdoor_assets[slug], loc, math.radians(angle))
 # Outdoor table farther from sliding doorway, preserving the through route.
-soft('Terrace dining table',(32,51.5,2.48),(7,3.6,.18),M['oak'],.35)
-for x in [29.5,34.5]:
-    for y in [50.3,52.7]:rod('Terrace table leg',(x,y,0),(x,y,2.42),.07,M['oak'])
-for x in [29.7,32,34.3]:chair('Terrace chair',x,48.8,math.pi,M);chair('Terrace chair',x,54.2,0,M)
-bowl('Outdoor table bowl',32,51.5,2.58,.60,M['porcelain'])
+terrace_table = linked_collection(ROOT, 'furniture', 'oak-dining-table-8ft')
+terrace_chair = linked_collection(ROOT, 'furniture', 'oak-upholstered-dining-chair')
+instance('Shared terrace dining table', terrace_table, (32,51.5,0))
+for x in [29.7,32,34.3]:
+    instance('Shared terrace dining chair shore', terrace_chair, (x,54.2,0))
+    instance('Shared terrace dining chair house', terrace_chair, (x,48.8,0),math.pi)
+bowl('Outdoor table bowl',32,51.5,2.50,.60,M['porcelain'])
 box('Illustrative dune ground',(34,-32.5,-.77),(400,225,1.3),M['sand'])
 from common.architecture import mesh
 verts=[];faces=[]
@@ -129,20 +129,10 @@ sea=g.material('Soft coastal sea',(.11,.24,.27),.20)
 p=sea.node_tree.nodes.get('Principled BSDF');p.inputs['IOR'].default_value=1.333;p.inputs['Transmission Weight'].default_value=.2
 n=sea.node_tree.nodes;l=sea.node_tree.links;tc=n.new('ShaderNodeTexCoord');noise=n.new('ShaderNodeTexNoise');noise.inputs['Scale'].default_value=2.2;noise.inputs['Detail'].default_value=2;l.new(tc.outputs['Object'],noise.inputs['Vector']);b=n.new('ShaderNodeBump');b.inputs['Distance'].default_value=.028;b.inputs['Strength'].default_value=.24;l.new(noise.outputs['Fac'],b.inputs['Height']);l.new(b.outputs[0],p.inputs['Normal'])
 box('Illustrative ocean',(34,1500,-.78),(9000,3200,.04),sea)
-rng=random.Random(404)
-for i in range(110):
-    x=rng.uniform(-16,85);y=rng.uniform(59,88)
-    place('Shared dune grass drift',shared['grass'],(x,y,0),rotation=rng.uniform(0,6.28),scale=rng.uniform(.4,.8))
-    if i%4==0:place('Shared low coastal planting',shared['shrub'],(x,y,0),scale=rng.uniform(.5,1))
-for x,y,h in [(-8,35,14),(77,29,13),(-8,8,17),(77,-1,15)]:place('Shared wind-shaped olive',shared['olive'],(x,y,0),scale=h/14)
-for i,(x,y) in enumerate([(-18,-14),(-12,-29),(110,-9),(109,-35)]):
-    place('Shared coastal background olive',shared['olive'],(x,y,0),scale=rng.uniform(1.1,1.5))
-for i in range(35):
-    x=rng.choice([rng.uniform(-8,-2),rng.uniform(71,80)]);y=rng.uniform(-4,56)
-    place('Shared border grasses',shared['grass'],(x,y,0),scale=rng.uniform(.5,.9))
-    if i%3==0:rock('Weathered pale stone',x,y,1.4,M['stone'],i+12)
-# Front entry path.
-arrival(ROOT,M,shared);garden_detail(M,shared)
+from gardens import build as gardens
+from verandah import build as verandah
+arrival(ROOT,M,shared)
+verandah(M)
 kitchen(M);rooms(M)
 from suite import premium_suite
 premium_suite(M,shared)
@@ -156,8 +146,6 @@ from service import household
 household(M,shared)
 from appliances import complete_kitchen
 complete_kitchen(M,shared)
-collection('12 Arrival | reusable coastal plantings')
-for x,y in [(7,-8),(33,-12),(49,-14),(62,-7)]:place('Shared coastal sage shrub',shared['shrub'],(x,y,0))
 collection('11 Details | original art and reveals')
 box('Original relief art oak frame',(49,16.24,6.0),(7.8,.12,4.4),M['oak'],.02)
 box('Original relief art linen field',(49,16.33,6.0),(7.6,.08,4.2),M['linen'],.012)
@@ -169,6 +157,13 @@ for x in [1.1,42.5,66.7]:
 
 from lighting_hardware import details as lighting_hardware,dependencies as detail_dependencies
 lighting_hardware(ROOT)
+from comfort import build as comfort, dependencies as comfort_dependencies
+comfort(ROOT,M)
+# Grain is aligned to each physical timber member, including new outdoor structure.
+from common.timber_materials import grain_uv
+for obj in bpy.context.scene.objects:
+    if obj.type == 'MESH' and not obj.library and M['accent_oak'] in list(obj.data.materials):
+        grain_uv(obj)
 collection('10 Lighting and cameras')
 world=bpy.data.worlds.new('Bright coastal daylight');bpy.context.scene.world=world;world.use_nodes=True
 n=world.node_tree.nodes;l=world.node_tree.links;sky=n.new('ShaderNodeTexSky');sky.sky_type='NISHITA';sky.sun_elevation=math.radians(39);sky.sun_rotation=math.radians(225);sky.sun_size=math.radians(2.0);sky.air_density=.8;sky.dust_density=.3;l.new(sky.outputs[0],n.get('Background').inputs['Color']);n.get('Background').inputs['Strength'].default_value=.32
@@ -184,13 +179,16 @@ views={
  '03 Serving counter':((43.5,50.0,6.3),(55.1,38.9,4.55),36),
  '04 Serving closed':((43.5,50.0,6.3),(55.1,38.9,4.55),36),
  '05 Terrace closed':((87,110,15),(34,28,4.5),38),
- '06 Front arrival':((107,-102,28),(49,-1,4),35),
+ '06 Front arrival':((102,-110,24),(46,-2,4),35),
  '07 Roof and parking':((132,-105,90),(48,-2,0),38),
  '08 West garden':((-48,72,16),(26,19,5),40),
  '09 Entry hall':((20,2.2,5.5),(26,23,4.8),22),
  '10 Primary bath':((6.6,18.7,5.5),(10.5,23.7,3.8),17),
+ '11 Living retreat':((25,37,5.4),(11,29.5,3.8),24),
 }
 for name,args in views.items():camera(name,*args)
+# Install dense linked planting after furniture to avoid repeated scene evaluation during authoring.
+garden_counts=gardens(M,shared)
 for o in bpy.context.scene.objects:
     if o.type=='CURVE' and not o.library:o.data.use_fill_caps=True
 s=bpy.context.scene;s.camera=bpy.data.objects['01 Terrace open'];s.frame_start=1;s.frame_end=120;s.frame_set(120)
@@ -204,7 +202,12 @@ for screen in bpy.data.screens:
     for ar in screen.areas:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
 bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'));bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'))
-deps=['materials/coastal-white-oak','materials/coastal-honed-limestone','furniture/coastal-oak-counter-stool','fixtures/opal-globe-pendant']
-meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies(),'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+deps=['materials/woven-oatmeal','materials/olive-linen','materials/warm-limestone-plaster','materials/smoked-oak','furniture/coastal-outdoor-sofa','furniture/coastal-outdoor-lounge-chair','materials/coastal-white-oak','materials/coastal-honed-limestone','furniture/coastal-oak-counter-stool','fixtures/opal-globe-pendant']
+meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies()+comfort_dependencies(),'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'House 2:12 low standing-seam gable; carport 1:12 mono-pitch; modeled gutters/downpipes, no product/site drainage approval'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+meta['modeled_planting_counts']=garden_counts
+meta['design_direction']='Warm coastal verandah: shaded dining, outdoor conversation area, planted entry court, smoked-oak island and tactile textiles.'
+meta['site_concept']['terrace']='32 x 15.15 ft wall-attached slatted timber pergola spanning the full 30 ft sliding wall, west conversation seating and low side screen; shade only, structure unengineered.'
+# A material may be shared by several furniture families; list each direct asset once.
+meta['asset_dependencies']=list({(d['id'],d['version']):d for d in meta['asset_dependencies']}.values())
 (HOME/'project.json').write_text(json.dumps(meta,indent=2)+'\n')
 print('COASTAL_MODEL_SAVED',len(s.objects),AREA,flush=True)

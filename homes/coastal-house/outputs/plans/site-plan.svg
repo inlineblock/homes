@@ -2,25 +2,50 @@
 <rect x="0" y="0" width="1080" height="1060" fill="#f7f6f0" stroke="none" stroke-width="1"/>
 <text x="55" y="52" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">H O M E S   /   0 4</text>
 <text x="55" y="105" font-family="Helvetica,Arial,sans-serif" font-size="40" fill="#253b40" text-anchor="start" font-weight="700">Arrival and roof plan</text>
-<text x="55" y="141" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#6c7e7b" text-anchor="start" font-weight="400">Illustrative road, two-car parking and pedestrian approach / no surveyed parcel</text>
-<text x="1025" y="1030" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#6c7e7b" text-anchor="end" font-weight="400">COASTAL HOUSE   /   08</text>
+<text x="55" y="141" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#6c7e7b" text-anchor="start" font-weight="400">Garden arrival, two-car parking, timber porch and slatted pergola / no surveyed parcel</text>
+<text x="1025" y="1030" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#6c7e7b" text-anchor="end" font-weight="400">COASTAL HOUSE   /   09</text>
 <text x="55" y="1030" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="start" font-weight="400">CONCEPT ONLY  /  Original design: Homes project contributors  /  CC BY 4.0</text>
-<rect x="215.0" y="200.0" width="442.0" height="260.0" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
-<rect x="689.5" y="479.5" width="169.0" height="156.0" fill="#c9ad82" stroke="#253b40" stroke-width="1"/>
-<rect x="689.5" y="635.5" width="169.0" height="117.0" fill="#ccccbf" stroke="#253b40" stroke-width="1"/>
-<rect x="150.0" y="752.5" width="780.0" height="143.0" fill="#8f9996" stroke="#253b40" stroke-width="1"/>
-<rect x="325.5" y="460.0" width="39.0" height="292.5" fill="#ffffff" stroke="#253b40" stroke-width="1"/>
-<rect x="325.5" y="461.625" width="448.5" height="26.0" fill="#ffffff" stroke="#253b40" stroke-width="1"/>
-<line x1="215.0" y1="330.0" x2="657.0" y2="330.0" stroke="#253b40" stroke-width="1.5"/>
-<text x="436.0" y="271.5" font-family="Helvetica,Arial,sans-serif" font-size="19" fill="#253b40" text-anchor="middle" font-weight="400">HOUSE / 68 x 40 ft</text>
-<text x="436.0" y="297.5" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="middle" font-weight="400">2:12 roof planes</text>
-<text x="436.0" y="382.0" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">ENTRY / 8 ft planning width</text>
-<rect x="711.275" y="502.25" width="40.949999999999996" height="104.0" fill="#e8ece9" stroke="#253b40" stroke-width="1"/>
-<rect x="795.775" y="502.25" width="40.949999999999996" height="104.0" fill="#e8ece9" stroke="#253b40" stroke-width="1"/>
-<text x="774.0" y="655.0" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">26 x 24 ft carport</text>
-<text x="774.0" y="681.0" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#6c7e7b" text-anchor="middle" font-weight="400">1:12 mono-pitch</text>
-<text x="351.5" y="609.5" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#253b40" text-anchor="start" font-weight="400">6 ft walk</text>
-<text x="533.5" y="837.0" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="400">ILLUSTRATIVE FRONT ROAD</text>
+<rect x="207.0" y="302.6" width="387.6" height="228.0" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
+<rect x="623.1" y="547.7" width="148.20000000000002" height="136.8" fill="#c9ad82" stroke="#253b40" stroke-width="1"/>
+<rect x="623.1" y="684.5" width="148.20000000000002" height="102.60000000000001" fill="#ccccbf" stroke="#253b40" stroke-width="1"/>
+<rect x="150.0" y="787.1" width="684.0" height="125.4" fill="#8f9996" stroke="#253b40" stroke-width="1"/>
+<rect x="303.9" y="530.6" width="34.2" height="256.5" fill="#ffffff" stroke="#253b40" stroke-width="1"/>
+<rect x="303.9" y="532.0250000000001" width="393.3" height="22.8" fill="#ffffff" stroke="#253b40" stroke-width="1"/>
+<rect x="189.9" y="200.0" width="421.8" height="102.60000000000001" fill="#ede9df" stroke="#c9ad82" stroke-width="0.7"/>
+<rect x="258.3" y="211.4" width="182.4" height="86.35499999999999" fill="none" stroke="#c9ad82" stroke-width="0.7"/>
+<line x1="258.3" y1="297.755" x2="258.3" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="284.3571428571429" y1="297.755" x2="284.3571428571429" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="310.4142857142857" y1="297.755" x2="310.4142857142857" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="336.4714285714286" y1="297.755" x2="336.4714285714286" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="362.52857142857147" y1="297.755" x2="362.52857142857147" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="388.5857142857143" y1="297.755" x2="388.5857142857143" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="414.64285714285717" y1="297.755" x2="414.64285714285717" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="440.7" y1="297.755" x2="440.7" y2="211.4" stroke="#c9b99f" stroke-width="0.7"/>
+<line x1="258.3" y1="297.755" x2="440.7" y2="297.755" stroke="#253b40" stroke-width="1.6"/>
+<rect x="256.59000000000003" y="209.68999999999997" width="3.42" height="3.42" fill="#253b40" stroke="#253b40" stroke-width="0.7"/>
+<rect x="438.99" y="209.68999999999997" width="3.42" height="3.42" fill="#253b40" stroke="#253b40" stroke-width="0.7"/>
+<rect x="298.20000000000005" y="519.2" width="68.4" height="51.300000000000004" fill="#d2bfa4" stroke="#c9ad82" stroke-width="0.7"/>
+<rect x="299.34000000000003" y="565.94" width="2.85" height="2.85" fill="#253b40" stroke="#253b40" stroke-width="0.7"/>
+<rect x="362.61" y="565.94" width="2.85" height="2.85" fill="#253b40" stroke="#253b40" stroke-width="0.7"/>
+<circle cx="255.45" cy="647.45" r="26.790000000000003" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<circle cx="400.8" cy="661.7" r="25.650000000000002" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<circle cx="264.0" cy="713.0" r="17.1" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<circle cx="435.0" cy="713.0" r="28.5" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<circle cx="264.0" cy="599.0" r="14.25" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<circle cx="395.1" cy="599.0" r="15.959999999999999" fill="#bec6aa" stroke="#869675" stroke-width="0.6"/>
+<text x="349.5" y="189.74" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#253b40" text-anchor="middle" font-weight="400">ATTACHED PERGOLA / SLATTED SHADE</text>
+<text x="332.4" y="559.1" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#253b40" text-anchor="middle" font-weight="400">PORCH</text>
+<text x="457.8" y="616.1" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#6c7e7b" text-anchor="middle" font-weight="400">ENTRY GARDEN</text>
+<line x1="207.0" y1="416.6" x2="594.6" y2="416.6" stroke="#253b40" stroke-width="1.5"/>
+<text x="400.8" y="365.3" font-family="Helvetica,Arial,sans-serif" font-size="19" fill="#253b40" text-anchor="middle" font-weight="400">HOUSE / 68 x 40 ft</text>
+<text x="400.8" y="388.1" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="middle" font-weight="400">2:12 roof planes</text>
+<text x="400.8" y="462.2" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">ENTRY / 8 ft planning width</text>
+<rect x="642.1949999999999" y="567.6500000000001" width="35.91" height="91.2" fill="#e8ece9" stroke="#253b40" stroke-width="1"/>
+<rect x="716.295" y="567.6500000000001" width="35.91" height="91.2" fill="#e8ece9" stroke="#253b40" stroke-width="1"/>
+<text x="697.2" y="701.6" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#253b40" text-anchor="middle" font-weight="400">26 x 24 ft carport</text>
+<text x="697.2" y="724.4" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#6c7e7b" text-anchor="middle" font-weight="400">1:12 mono-pitch</text>
+<text x="326.70000000000005" y="661.7" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#253b40" text-anchor="start" font-weight="400">6 ft walk</text>
+<text x="486.3" y="861.2" font-family="Helvetica,Arial,sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="400">ILLUSTRATIVE FRONT ROAD</text>
 <text x="90" y="953" font-family="Helvetica,Arial,sans-serif" font-size="18" fill="#253b40" text-anchor="start" font-weight="400">Road width 22 ft / driveway 26 ft / rear parking crosswalk 4 ft.</text>
 <text x="90" y="988" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#6c7e7b" text-anchor="start" font-weight="400">No setbacks, grades, turning sweeps or lawful drainage outfall are established.</text>
 </svg>

@@ -96,7 +96,7 @@ def build_envelope(root,M):
  # Faces counter-clockwise with their limestone finish oriented toward outside.
  facade('Main street',(22,0),(10,0),0,3.3,[(.8,1.6,0,3.0,'door'),(3.3,4.5,.06,3.12,'window'),(10,2,.06,3.12,'window')],M,win,panels)
  facade('Main courtyard',(10,0),(10,20),0,3.3,[(.3,1.5,.06,3.12,'window'),(2,1.3,0,3.1,'door'),(3.5,3.3,.06,3.12,'window'),(7,1.3,0,3.1,'door'),(8.5,11.2,.06,3.12,'window')],M,win,panels)
- facade('Main east',(22,20),(22,0),0,3.3,[(.4,2,1.4,1.5,'window'),(6.5,2.5,.7,2.4,'window'),(11,2.1,.7,2.4,'window'),(18.3,1.4,.1,3,'window')],M,win,panels)
+ facade('Main east',(22,20),(22,0),0,3.3,[(.4,2,1.4,1.5,'window'),(4.5,1.9,.7,2.4,'window'),(7.8,3.8,.1,3.1,'window'),(12.6,1.8,.06,3.12,'window')],M,win,panels)
  facade('Main rear',(10,20),(22,20),0,3.3,[(.5,2,1.5,1.5,'window'),(7.3,1.1,.9,2.1,'window'),(10,1.4,0,2.6,'door')],M,win,panels)
  facade('Guest street',(0,0),(-8,0),0,3.3,[(2.2,4.8,.06,3.12,'window')],M,win,panels)
  facade('Guest court',(0,12),(0,0),0,3.3,[(.4,3.5,.06,3.12,'window'),(5.2,1.2,0,3.0,'door'),(7.3,1.3,.06,3.12,'window'),(8.8,1.2,0,3,'door'),(10.2,1.3,.06,3.12,'window')],M,win,panels)
@@ -109,9 +109,9 @@ def build_envelope(root,M):
  for y in [14.05,17.85]:
   for i in range(5):tag(box('Garage sectional door',(-8,y,-.1+(i+.5)*.54),(.09,2.88,.53),M['cedar'],.007),'IfcDoor')
  for name,a,b,L in [('Upper street',(22,0),(10,0),12),('Upper court',(10,0),(10,17),17),('Upper east',(22,17),(22,0),17),('Upper rear',(10,17),(22,17),12)]:
-  if 'street' in name:ops=[(.5,2.9,.25,2.65,'window'),(4.2,3,.25,2.65,'window'),(8,3.5,.25,2.65,'window')]
+  if 'street' in name:ops=[(.5,4,1.1,1.75,'window'),(5.5,5.9,.25,2.65,'window')]
   elif 'court' in name:ops=[(.8,4.7,.45,2.4,'window'),(8,1.8,1,1.8,'window'),(12.2,1.2,0,2.9,'door'),(13.6,2.2,.45,2.4,'window')]
-  elif 'east' in name:ops=[(.7,2.5,.45,2.4,'window'),(6.4,2,.9,1.9,'window'),(13.5,2.5,1.5,1.3,'window')]
+  elif 'east' in name:ops=[(.7,2.5,.45,2.4,'window'),(4.8,3.8,.45,2.4,'window'),(14.8,1.6,1.5,1.3,'window')]
   else:ops=[(.6,3.7,.45,2.4,'window'),(7.4,3.8,.45,2.4,'window')]
   facade(name,a,b,3.6,3.0,ops,M,win,panels,'Upper floor',True)
  g.collection('06 Architecture | partitions with door openings')
@@ -147,8 +147,8 @@ def build_envelope(root,M):
   for y0,y1 in segs:box('Kitchen oak ceiling slat',(x,(y0+y1)/2,3.19),(.055,y1-y0,.12),M['oak'],.004)
  # Front stepped thresholds sit on the lower forecourt.
  g.collection('10 Stairs | interior and entry')
- for i in range(3):box('Broad front entry step',(20.4,-(3-i)*.40,-.48+i*.16),(3.1,.42,.16),M['stone'],.008)
- for i in range(3):box('Lanai garden step',(5,-(3-i)*.4,-.48+i*.16),(8.8,.42,.16),M['stone'],.008)
+ from facade_details import build_facade_details
+ build_facade_details(root,M,panels)
  # Two eleven-riser flights; lower clear landing and upper landing south of opening.
  riser=3.6/22;tread=.28
  for i in range(11):

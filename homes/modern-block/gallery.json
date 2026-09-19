@@ -3,9 +3,14 @@
   "renders": [
     {
       "path": "outputs/images/01-front-arrival.png",
-      "caption": "Front arrival: limestone pavilion base, cedar upper block and mature canopy",
+      "caption": "Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath",
       "view": "exterior",
       "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/13-east-arrival.png",
+      "caption": "East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance",
+      "view": "exterior"
     },
     {
       "path": "outputs/images/02-courtyard-pool.png",
@@ -83,6 +88,14 @@
   ],
   "signature_features": [
     {
+      "id": "arrival-and-privacy",
+      "label": "Sheltered entry, screened bath and functional east stone pier",
+      "renders": [
+        "outputs/images/01-front-arrival.png",
+        "outputs/images/13-east-arrival.png"
+      ]
+    },
+    {
       "id": "pivot-screens",
       "label": "Operable timber-screen lanai",
       "renders": [
@@ -118,19 +131,29 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-front-arrival.png",
-    "source_sha256": "2f755090742e0a7cca03bdf039d55f1cbaa18d8c8fda9c8d4e81fb6c9868a0ec",
-    "image_sha256": "694092b72f5a9e4737a5b411fe51eb1283393918bfdb6dcc79c3a751fe2d8fea",
+    "source_sha256": "4ddf8357866ec049266260e1f6e04cfc8ff758ffaac6490d840bc3cda3df9ffd",
+    "image_sha256": "8a036bc737ce5a47ca3495e1f27a0c8bd58229728356131690c6c75d3dc83ef5",
     "provenance": "outputs/photo-study.md",
-    "caption": "Front arrival: limestone pavilion base, cedar upper block and mature canopy \u2014 AI photographic study"
+    "caption": "Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath \u2014 AI photographic study"
   },
   "photographic_exteriors": [
+    {
+      "path": "outputs/images/photo-east.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/13-east-arrival.png",
+      "source_sha256": "88b528ae99515b01a3548158ceafb4553cea8c8c796ade8518ba0603ab8748ae",
+      "image_sha256": "793f8612b6c7440fd90d7b3c223d27655af14c14188b65e020a024637e921839",
+      "provenance": "outputs/photo-study.md",
+      "caption": "East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance \u2014 AI photographic study"
+    },
     {
       "path": "outputs/images/photo-courtyard.png",
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/02-courtyard-pool.png",
-      "source_sha256": "e3ab83674bb9d6c340580d1f1326172a73708777123031f750c60c18f68a61e3",
-      "image_sha256": "edf813b007dd881304c0456a9363b51c098c9f1857e81fc51104a7fe14017250",
+      "source_sha256": "f803a285e95760b13f6300ff544435bc68e19741b692f8aa69452abeb64b2c25",
+      "image_sha256": "06cdbd9d539edc362aa2ff8f65e89ebb2e49e7ee5bb1ed159f489f12de2a49b9",
       "provenance": "outputs/photo-study.md",
       "caption": "Courtyard pool, sheltered seating and supported glass-guarded balcony \u2014 AI photographic study"
     },
@@ -139,8 +162,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/03-roof-and-site.png",
-      "source_sha256": "9230c7420ded3443d6809b9be04a2a55772da9fc7f125bb4f5457751c795fb20",
-      "image_sha256": "e8d33a0eb3ce95a64b2e2fe2e8783c816b578d9499ea76d1171c631c48742265",
+      "source_sha256": "e3cf99b1535b62791997bd65f527bd54a71de3f6b0a2d6f771b9e0161d0b45a1",
+      "image_sha256": "f3cffa2b7c0fbc2914914108bc4ea577e042a3a923e6062941ecddd790e9302e",
       "provenance": "outputs/photo-study.md",
       "caption": "Elevated roof and site view, skylights, guest pavilion and two-car garage \u2014 AI photographic study"
     },
@@ -149,10 +172,20 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/04-lanai-open.png",
-      "source_sha256": "0e8d04199c53d801c7f08e023c7a0b14b4aaa2f55a4b118f0cc14942f4cc751d",
-      "image_sha256": "144a8c542abf28b84d132a03458a27bb5ca0f017752066919d6382143178495d",
+      "source_sha256": "f58e6220749dbb97d02897825b343e450f531ff74bef16e721c1b6ded9f5a8d3",
+      "image_sha256": "c302ae7105d4a9bc31b0d9abcc615a246f4fabdbbce4bf87645e3cccd3f6fb6c",
       "provenance": "outputs/photo-study.md",
       "caption": "Five pivoting timber screens open to the covered lanai \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-lanai-closed.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/09-lanai-closed.png",
+      "source_sha256": "362aeb9d13bc90f0790e1b6c815044797adae924fd29a3d20c1978a201aa2f23",
+      "image_sha256": "c5d0dec77b3141c5933db366fc715e16ccca9ac1d7f287bdac1bf394ee8ad94a",
+      "provenance": "outputs/photo-study.md",
+      "caption": "The same five screens closed, from the identical camera \u2014 AI photographic study"
     }
   ],
   "photographic_interiors": [
@@ -161,8 +194,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/05-kitchen.png",
-      "source_sha256": "ae82d5eefcfe8de97be773e6199b0e2d4308e7932b998c581bc19cb05a97d68f",
-      "image_sha256": "6e4f0c3277210ae493aa6e7f02b38c63965546f57df1bed21880b2da3ac10e19",
+      "source_sha256": "9bcd43244fe3da1bc3f42d8911308d1a3d378e3e1ab5248dbaa519a0bb0b61c7",
+      "image_sha256": "744885dd9e60a3a6a679f2ae2a4c6edadc37bdc0bd98e876f30881bad8cd47f2",
       "provenance": "outputs/photo-study.md",
       "caption": "Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling \u2014 AI photographic study"
     },
@@ -171,8 +204,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/06-living.png",
-      "source_sha256": "43fd45e4e3377a97b4b8c33e2fcf6e081940c658fc2a2f62bc0620a9e1ea1f03",
-      "image_sha256": "1a37074513de0d124ffc85c9487d619cbaa1418923bb60d54bf5c6820a78d59d",
+      "source_sha256": "1330b871ea37f7ede8fda45d8bd432a106df35c66d4aa1c26fe64d9c4cdd23a3",
+      "image_sha256": "dec27a52075779ef56c27b55481e16b9555ae9fbae3684121fc4770b46cac75e",
       "provenance": "outputs/photo-study.md",
       "caption": "Living room with limestone hearth, charcoal chimney face and oak seating \u2014 AI photographic study"
     },
@@ -181,8 +214,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/07-primary-bedroom.png",
-      "source_sha256": "1b859a135c37bd5fc9713781e9383ca4fc313228ccc14dd1882ae86d6fa5aa75",
-      "image_sha256": "84dc599d87ec7f29b32677fe353d1f8ab1256c367f5cb56d409d8b481c92b434",
+      "source_sha256": "4da19d085b933009663499f14bbb0d92fcc54edb4d786e8dbc56992a95f3a4fc",
+      "image_sha256": "9c46152221b93b05926d95ae3bdc088888f3d3e8a5068c53c27fda3e605f1287",
       "provenance": "outputs/photo-study.md",
       "caption": "Primary bedroom with a king bed, oak nightstands and tree-level glazing \u2014 AI photographic study"
     },
@@ -191,8 +224,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/12-bath-tub-shower.png",
-      "source_sha256": "2f8e0fa9ec093cbc98a2eca40235e4d8ee409638059cb9f65ca80659b76c8ca0",
-      "image_sha256": "e92d371d5572e58bc1a4e5a4d1efd0488095cab31e1982808eaa64c0a4b6d25c",
+      "source_sha256": "d3f012562813aedb43c5b9601774424415e3339b5201b1beef8fcf13a1fe30d0",
+      "image_sha256": "aa04e0c408d9ad0158fa409f4857b5c0dafefd2ad22fdedaed3875763c966355",
       "provenance": "outputs/photo-study.md",
       "caption": "Freestanding tub and separate glass shower in the primary bathroom \u2014 AI photographic study"
     }

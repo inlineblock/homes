@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-09-19T21:29:06.578712+00:00",
+  "checked_at_utc": "2026-09-19T23:42:02.868286+00:00",
   "native_file": "model/modern-block.blend",
-  "native_sha256": "781aee3dcd9be195963a2cdd5dec3e60b6a73c361c04efb42fa1df7cb94960c9",
+  "native_sha256": "8c18a6a70b74a0c1db6ce3950a5fb4510969a6c8d7ca3532f08e78e6e81b6470",
   "native_reopened": true,
   "native_mutated": false,
   "software": {
@@ -21,11 +21,11 @@
     "new_and_modified_repository_text": true,
     "new_asset_manifests_and_validation_metadata": true
   },
-  "native_datablocks_checked": 12397,
-  "string_fields_checked": 64376,
-  "repository_text_files_checked": 48,
-  "repository_text_scope_sha256": "7e7b0655b010c3e69b9b4f6890ddf235b0792b2446fd3e3cbfae3bf2e107216c",
-  "png_metadata_files_checked": 27,
+  "native_datablocks_checked": 12783,
+  "string_fields_checked": 67463,
+  "repository_text_files_checked": 38,
+  "repository_text_scope_sha256": "f3f728c4be8adfb855c93ac92f7e46ea06f31fd35c2ceeafd407046209650f50",
+  "png_metadata_files_checked": 26,
   "png_metadata_scope": [
     {
       "path": "homes/modern-block/outputs/images/01-front-arrival.png",
@@ -232,6 +232,23 @@
       ]
     },
     {
+      "path": "homes/modern-block/outputs/images/13-east-arrival.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
       "path": "homes/modern-block/outputs/images/photo-bath.png",
       "metadata_chunks_checked": [
         "caBX"
@@ -250,6 +267,12 @@
       ]
     },
     {
+      "path": "homes/modern-block/outputs/images/photo-east.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
       "path": "homes/modern-block/outputs/images/photo-hero.png",
       "metadata_chunks_checked": [
         "caBX"
@@ -257,6 +280,12 @@
     },
     {
       "path": "homes/modern-block/outputs/images/photo-kitchen.png",
+      "metadata_chunks_checked": [
+        "caBX"
+      ]
+    },
+    {
+      "path": "homes/modern-block/outputs/images/photo-lanai-closed.png",
       "metadata_chunks_checked": [
         "caBX"
       ]
@@ -292,75 +321,7 @@
       ]
     },
     {
-      "path": "library/cabinetry/oak-shelving-2ft/v001/preview.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "library/fixtures/courtyard-pool-4x8m/v001/preview.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "library/fixtures/shower-tray-screen-1500x1200/v001/preview.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "library/landscape/broad-canopy-oak/v001/preview.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "library/openings/timber-pivot-louver-1800x3000/v001/preview.png",
+      "path": "library/openings/angled-cedar-privacy-screen-2000x2800/v001/preview.png",
       "metadata_chunks_checked": [
         "eXIf",
         "tEXt",
@@ -380,39 +341,7 @@
   "new_asset_provenance_status": "passed",
   "new_asset_provenance_scope": [
     {
-      "path": "library/cabinetry/oak-shelving-2ft/v001/asset.json",
-      "declared_license": "CC-BY-4.0",
-      "original_source_declared": true,
-      "generator_exists": true,
-      "declared_parent_exists": true,
-      "status": "passed"
-    },
-    {
-      "path": "library/fixtures/courtyard-pool-4x8m/v001/asset.json",
-      "declared_license": "CC-BY-4.0",
-      "original_source_declared": true,
-      "generator_exists": true,
-      "declared_parent_exists": true,
-      "status": "passed"
-    },
-    {
-      "path": "library/fixtures/shower-tray-screen-1500x1200/v001/asset.json",
-      "declared_license": "CC-BY-4.0",
-      "original_source_declared": true,
-      "generator_exists": true,
-      "declared_parent_exists": true,
-      "status": "passed"
-    },
-    {
-      "path": "library/landscape/broad-canopy-oak/v001/asset.json",
-      "declared_license": "CC-BY-4.0",
-      "original_source_declared": true,
-      "generator_exists": true,
-      "declared_parent_exists": true,
-      "status": "passed"
-    },
-    {
-      "path": "library/openings/timber-pivot-louver-1800x3000/v001/asset.json",
+      "path": "library/openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json",
       "declared_license": "CC-BY-4.0",
       "original_source_declared": true,
       "generator_exists": true,
@@ -420,10 +349,9 @@
       "status": "passed"
     }
   ],
-  "binary_files_excluded_from_text_scan": 35,
+  "binary_files_excluded_from_text_scan": 30,
   "text_file_scope": [
     "README.md",
-    "homes/modern-block/AGENTS.md",
     "homes/modern-block/README.md",
     "homes/modern-block/assets/README.md",
     "homes/modern-block/brief.md",
@@ -431,7 +359,6 @@
     "homes/modern-block/design-review-notes.md",
     "homes/modern-block/design-review.md",
     "homes/modern-block/gallery.json",
-    "homes/modern-block/model/AGENTS.md",
     "homes/modern-block/model/bonsai-validation.json",
     "homes/modern-block/model/ifc-validation.json",
     "homes/modern-block/model/modern-block.ifc",
@@ -439,37 +366,29 @@
     "homes/modern-block/model/opening-schedule.json",
     "homes/modern-block/model/repository-validation.json",
     "homes/modern-block/outputs/README.md",
+    "homes/modern-block/outputs/photo-prompts.json",
     "homes/modern-block/outputs/photo-study.md",
     "homes/modern-block/outputs/plans/ground-floor.svg",
     "homes/modern-block/outputs/plans/upper-floor.svg",
     "homes/modern-block/program.md",
     "homes/modern-block/project.json",
-    "homes/modern-block/references/README.md",
     "homes/modern-block/visual-review-notes.md",
     "library/README.md",
-    "library/cabinetry/oak-shelving-2ft/v001/asset.json",
-    "library/cabinetry/oak-shelving-2ft/v001/validation.json",
-    "library/fixtures/courtyard-pool-4x8m/v001/asset.json",
-    "library/fixtures/courtyard-pool-4x8m/v001/validation.json",
-    "library/fixtures/shower-tray-screen-1500x1200/v001/asset.json",
-    "library/fixtures/shower-tray-screen-1500x1200/v001/validation.json",
-    "library/landscape/broad-canopy-oak/v001/asset.json",
-    "library/landscape/broad-canopy-oak/v001/validation.json",
-    "library/openings/timber-pivot-louver-1800x3000/v001/asset.json",
-    "library/openings/timber-pivot-louver-1800x3000/v001/validation.json",
-    "tools/library/publish_modern_block.py",
-    "tools/library/publish_modern_block_interior.py",
+    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/README.md",
+    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json",
+    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/validation.json",
+    "tools/library/publish_angled_cedar_screen.py",
     "tools/modern_block/AGENTS.md",
     "tools/modern_block/build.py",
     "tools/modern_block/design.py",
     "tools/modern_block/draw_plans.py",
     "tools/modern_block/envelope.py",
-    "tools/modern_block/interiors-layout.json",
+    "tools/modern_block/facade_details.py",
     "tools/modern_block/interiors.py",
-    "tools/modern_block/render.py",
     "tools/modern_block/schedule.py",
-    "tools/modern_block/utils.py",
-    "tools/modern_block/verify.py"
+    "tools/modern_block/site_context.py",
+    "tools/modern_block/verify.py",
+    "tools/modern_block/write_gallery.py"
   ],
   "finding_count": 0,
   "finding_locations": [],

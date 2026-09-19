@@ -10,13 +10,14 @@ ROOT=Path(__file__).resolve().parents[2]
 # when adding a dependency; an unclassified new pin must not silently disappear.
 GROUPS=[
  ('Courtyard, planting and screens',[
-  ('landscape/broad-canopy-oak','v001','New original','Three instanced trees; trunk/grade placement and modest uniform size variation.'),
+  ('landscape/broad-canopy-oak','v001','New original','Nine instanced trees; trunk/grade placement and modest uniform size variation.'),
   ('landscape/ornamental-grass-clump','v002','Reused','Forecourt and courtyard underplanting; documented uniform landscape variation.'),
   ('landscape/sage-shrub','v002','Reused','Forecourt shrub groups, kept outside routes and driveway.'),
   ('fixtures/courtyard-pool-4x8m','v001','New variation','One 4 × 8 m pool; derives from 6 × 12 m v001, with actual site/deck cavity.'),
   ('openings/timber-pivot-louver-1800x3000','v001','New original','Five lanai leaves at 2 m centers; open 75° and closed view states.'),
  ]),
  ('Envelope, paving and linked hardware',[
+  ('openings/angled-cedar-privacy-screen-2000x2800','v001','New original','Two rigid fixed bathroom screens; 350 mm rear-frame-to-glazing service gap.'),
   ('surfaces/honed-limestone-wall-panel-4x2','v001','Reused','Full rigid limestone facade panels; local perimeter cuts use the same linked material.'),
   ('surfaces/honed-limestone-paver-4ft','v001','Reused','Full terrace modules and stepping path; site-specific cut strips at boundaries.'),
   ('openings/slim-dark-window','v002','Reused; approximate resize','Facade glazing; host resize changes frame sightlines and requires resolved dimensional variants later.'),
@@ -69,6 +70,7 @@ GROUPS=[
   ('fixtures/lighting-linear-pendant-4ft','v001','Reused','Dining focal pendant.'),
  ]),
  ('Pinned material dependencies',[
+  ('materials/bronze-gray-standing-seam','v001','Reused nested dependency','Fixed privacy-screen frame finish.'),
   ('materials/warm-vertical-cedar','v003','Reused','Upper facade boards, doors and linked screen timber; physical aligned grain.'),
   ('materials/charcoal-facade-panel','v001','Reused','Low-roof/dark exterior finish and selected host surfaces.'),
   ('materials/coastal-honed-limestone','v001','Reused','Facade/paver/coping dependencies and site-specific host stone cuts/counters.'),
@@ -88,14 +90,14 @@ def write_schedule(root=ROOT,deps=None):
  for id,version in expected:
   m=json.loads((root/'library'/id/version/'asset.json').read_text());assert (m['id'],m['version'])==(id,version)
  text='# Adopted asset families\n\n'
- text+='Audited against the current `project.json` pins, native reopening receipt and interior placement records: **50 exact dependencies**, including **five newly contributed assets**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.\n\n'
+ text+='Audited against the current `project.json` pins, native reopening receipt and interior placement records: **52 exact dependencies**, including **six newly contributed assets**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.\n\n'
  text+='Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid native scale. Plants use recorded uniform variation. Facade windows are explicitly resized appearance studies; their frame sightlines and operating envelopes remain approximate. A dependency check or closed asset preview does not establish installation approval.\n\n'
  for title,entries in GROUPS:
   text+='## '+title+'\n\n| Exact adopted ID / version | Status | Host use |\n| --- | --- | --- |\n'
   for id,version,status,use in entries:text+=f'| [`{id}` / `{version}`](../../../library/{id}/{version}/asset.json) | {status} | {use} |\n'
   text+='\n'
  text+='## Host geometry and review limits\n\n'
- text+='Bespoke geometry is limited to the pavilion layout, slabs/foundations, walls and actual openings, roof falls/gutters/rooflights, terrace and facade boundary cuts, fitted continuous kitchen/vanity counters and their apertures, service-route allowances, stairs/guards, and parking reservations. These depend on the specific home dimensions. Full stone modules, plants, furniture and standard fixtures remain linked collections.\n\n'
+ text+='Bespoke geometry is limited to the pavilion layout, slabs/foundations, walls and actual openings, roof falls/gutters/rooflights, terrace and facade boundary cuts, fitted continuous kitchen/vanity counters and their apertures, service-route allowances, stairs/guards, projecting entrance/reveals, external flue pier, supported driveway alignment and parking reservations. These depend on the specific home dimensions. Full stone modules, plants, furniture and standard fixtures remain linked collections.\n\n'
  text+='Native verification records four bed instances, 18 wardrobe bays, eight shelf modules, linked pool geometry, five louver instances and 2 m louver spacing. The pool shell and water require the modeled opening in terrain/deck; louver rotation requires its 0.903 m swept radius. Larger shower and open pantry variants preserve true product-concept dimensions. Inspect the host model and plans for circulation, shelving access, door movement, counter cutouts and service fit. Actual engineering, weatherproofing, mechanical capacity, pool barriers, code approval and selected commercial products remain unresolved.\n\n'
  text+='This schedule is reproducible with `python3 tools/modern_block/schedule.py`. Its writer checks exact equality with the project dependency pins; update the grouped records whenever adoption changes. Generated placements are in `tools/modern_block/interiors-layout.json`, and native verification is in `model/native-validation.json`.\n'
  (home/'assets/README.md').write_text(text)

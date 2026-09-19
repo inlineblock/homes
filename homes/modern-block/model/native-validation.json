@@ -1,7 +1,15 @@
 {
   "native_reopened": true,
+  "facade_revision": {
+    "equal_exterior_risers_m": 0.17666666666666667,
+    "entry_landing_depth_m": 1.4,
+    "bathroom_screen_instances": 2,
+    "screen_service_gap_m": 0.35,
+    "front_partition_clear_of_glazing": true,
+    "flue_outside_upper_wc": true
+  },
   "blender": "4.5.14 LTS",
-  "relative_libraries": 50,
+  "relative_libraries": 52,
   "measured_floor_areas_m2": {
     "Main occupied slab": 240.0,
     "Guest occupied slab": 96.0,

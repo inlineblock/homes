@@ -103,7 +103,8 @@ def build_interiors(root, M):
     box('Living masonry upper pier',(21.65,3.55,2.24),(.70,3.3,2.12),dark,.018)
     for yy in [2.44,4.66]:box('Living masonry firebox jamb',(21.65,yy,.74),(.70,.99,.92),stone,.01)
     # Continuous conceptual non-combustible flue, within the exterior masonry bay.
-    box('Living conceptual concealed flue',(21.77,3.55,4.1),(.24,.24,5.9),dark)
+    box('Living conceptual concealed flue',(22.42,3.55,4.1),(.24,.24,5.9),dark)
+    box('Living conceptual flue offset',(22.08,3.55,1.45),(.92,.24,.24),dark)
     furniture('oak-dining-table-8ft','Dining oak table',(13.0,9.8,.02),PI/2)
     for yy in [9.0,9.8,10.6]:
         furniture('oak-upholstered-dining-chair','Dining east chair',(13.95,yy,.02),-PI/2)

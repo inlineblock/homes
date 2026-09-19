@@ -1,0 +1,41 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "bounds_m": {
+    "min": [
+      -1.0,
+      -0.15000000596046448,
+      0.0
+    ],
+    "max": [
+      1.0,
+      0.15000000596046448,
+      2.8000001907348633
+    ]
+  },
+  "actual_dimensions_m": [
+    2.0,
+    0.30000001192092896,
+    2.8000001907348633
+  ],
+  "objects": 27,
+  "solid_angled_fins": 23,
+  "normal_view_geometric_overlap_checked": true,
+  "origin_at_base": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      760
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Actual native preview shows continuous solid angled cedar fins, consistent vertical grain, clean perimeter frame, captured top/bottom fin ends, and no unintended open normal-view gaps. Host facade and safe maintenance access require separate review."
+  }
+}

@@ -2,14 +2,14 @@
   "home": "modern-block",
   "failures": [],
   "native_model_reopened": true,
-  "relative_libraries": 50,
+  "relative_libraries": 52,
   "measured_enclosed_floor_sqft": 6371.8,
   "modeled_beds": 4,
   "asset_use_schedule": "homes/modern-block/assets/README.md",
   "asset_adoption": {
     "home": "modern-block",
     "native_library_pins_match_manifest": true,
-    "asset_versions": 50,
+    "asset_versions": 52,
     "assets": [
       {
         "id": "appliances/built-in-oven-30in",
@@ -404,18 +404,23 @@
       {
         "id": "landscape/broad-canopy-oak",
         "version": "v001",
-        "direct_placements_or_material_assignments": 3,
+        "direct_placements_or_material_assignments": 9,
         "examples": [
           "Mature courtyard canopy",
           "Mature courtyard canopy.001",
-          "Mature courtyard canopy.002"
+          "Mature courtyard canopy.002",
+          "Garden edge canopy 01",
+          "Garden edge canopy 02",
+          "Garden edge canopy 03",
+          "Garden edge canopy 04",
+          "Garden edge canopy 05"
         ],
         "adopted_parent_dependencies": []
       },
       {
         "id": "landscape/ornamental-grass-clump",
         "version": "v002",
-        "direct_placements_or_material_assignments": 185,
+        "direct_placements_or_material_assignments": 240,
         "examples": [
           "Forecourt native concept planting",
           "Forecourt native concept planting.002",
@@ -431,29 +436,39 @@
       {
         "id": "landscape/sage-shrub",
         "version": "v002",
-        "direct_placements_or_material_assignments": 82,
+        "direct_placements_or_material_assignments": 177,
         "examples": [
           "Forecourt native concept planting.001",
           "Forecourt native concept planting.003",
-          "Forecourt native concept planting.005",
           "Forecourt native concept planting.011",
           "Forecourt native concept planting.013",
           "Forecourt native concept planting.015",
           "Forecourt native concept planting.016",
-          "Forecourt native concept planting.019"
+          "Forecourt native concept planting.019",
+          "Forecourt native concept planting.028"
         ],
         "adopted_parent_dependencies": []
       },
       {
+        "id": "materials/bronze-gray-standing-seam",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "openings/angled-cedar-privacy-screen-2000x2800"
+        ]
+      },
+      {
         "id": "materials/charcoal-facade-panel",
         "version": "v001",
-        "direct_placements_or_material_assignments": 7,
+        "direct_placements_or_material_assignments": 8,
         "examples": [
           "Main rear single-story roof insulation fall (material)",
           "Cedar upper bar roof insulation fall (material)",
           "Guest pavilion roof insulation fall (material)",
           "Garage roof insulation fall (material)",
           "Lanai roof insulation fall (material)",
+          "Arrival positive fall roof (material)",
           "Illustrative road (material)",
           "Covered balcony roof insulation fall (material)"
         ],
@@ -462,7 +477,7 @@
       {
         "id": "materials/coastal-honed-limestone",
         "version": "v001",
-        "direct_placements_or_material_assignments": 555,
+        "direct_placements_or_material_assignments": 609,
         "examples": [
           "Main occupied slab (material)",
           "Guest occupied slab (material)",
@@ -515,7 +530,7 @@
       {
         "id": "materials/warm-vertical-cedar",
         "version": "v003",
-        "direct_placements_or_material_assignments": 705,
+        "direct_placements_or_material_assignments": 715,
         "examples": [
           "Main street entry door (material)",
           "Main courtyard entry door (material)",
@@ -540,9 +555,19 @@
         ]
       },
       {
+        "id": "openings/angled-cedar-privacy-screen-2000x2800",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Primary bath fixed privacy screen",
+          "Primary bath fixed privacy screen.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
         "id": "openings/slim-dark-window",
         "version": "v002",
-        "direct_placements_or_material_assignments": 38,
+        "direct_placements_or_material_assignments": 41,
         "examples": [
           "Main street linked glazing",
           "Main street linked glazing.001",
@@ -571,7 +596,7 @@
       {
         "id": "surfaces/honed-limestone-paver-4ft",
         "version": "v001",
-        "direct_placements_or_material_assignments": 105,
+        "direct_placements_or_material_assignments": 104,
         "examples": [
           "Terrace linked limestone paver",
           "Terrace linked limestone paver.001",
@@ -587,7 +612,7 @@
       {
         "id": "surfaces/honed-limestone-wall-panel-4x2",
         "version": "v001",
-        "direct_placements_or_material_assignments": 151,
+        "direct_placements_or_material_assignments": 156,
         "examples": [
           "Main street limestone linked limestone",
           "Main street limestone linked limestone.001",

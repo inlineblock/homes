@@ -28,6 +28,11 @@
   },
   "asset_dependencies": [
     {
+      "id": "openings/angled-cedar-privacy-screen-2000x2800",
+      "version": "v001",
+      "path": "../../library/openings/angled-cedar-privacy-screen-2000x2800/v001/"
+    },
+    {
       "id": "hardware/bar-pull-matte-black",
       "version": "v001",
       "path": "../../library/hardware/bar-pull-matte-black/v001/"
@@ -36,6 +41,11 @@
       "id": "landscape/broad-canopy-oak",
       "version": "v001",
       "path": "../../library/landscape/broad-canopy-oak/v001/"
+    },
+    {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/bronze-gray-standing-seam/v001/"
     },
     {
       "id": "appliances/built-in-oven-30in",

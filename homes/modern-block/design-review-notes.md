@@ -1,6 +1,6 @@
 # Modern Block — independent program and plan review
 
-**Status: source and furnished-plan review complete.** The whole native-model and rendered-image review is recorded separately in `design-review.md`. This review checks concept geometry and documentation; it does not establish manufacturer suitability, engineering, code compliance or a surveyed reconstruction.
+**Status: revised source and furnished-plan review complete.** The whole native-model and rendered-image review is recorded separately in `design-review.md`. This review checks concept geometry and documentation; it does not establish manufacturer suitability, engineering, code compliance or a surveyed reconstruction.
 
 User-supplied visual direction guided the courtyard, lanai, guest/office retreat, stone base and warm timber upper volume. The user expressly authorized creative infill for undocumented layouts and views. Reference identities and identifying URLs are excluded from repository records.
 
@@ -9,7 +9,7 @@ User-supplied visual direction guided the courtyard, lanai, guest/office retreat
 - `tools/modern_block/design.py`: two occupied levels, four bedrooms, three full baths plus powder, 527.96 m² / approximately 5,683 sq ft conditioned gross; 64 m² garage, 50 m² lanai and 24 m² upper covered balcony excluded.
 - `tools/modern_block/envelope.py` and the model's emitted `opening-schedule.json`: real partition apertures, courtyard/lanai doors, stair/roof geometry and modeled openings.
 - `tools/modern_block/interiors.py` and its current 103-record `interiors-layout.json`: linked furniture, kitchen equipment, bedroom clothes storage, bathing fixtures, pantry/laundry/linen shelving and dining arrangement at documented asset size.
-- Current ground and upper plans generated from those inputs; actual PNG pixels and independently rendered PDF/SVG previews inspected for furnishings, opening locations, dimension/room-index agreement, readable notes and unclipped content.
+- Current ground and upper plans generated from those inputs; actual PNG pixels and independently rendered PDF/vector previews inspected for furnishings, opening locations, dimension/room-index agreement, readable notes and unclipped content.
 
 ## Findings resolved during coordination
 
@@ -39,8 +39,24 @@ The plans show the 4 × 8 m pool, shared outdoor seats and chaises, open pivot-s
 
 ## Output receipt
 
-`tools/modern_block/draw_plans.py` produces `outputs/plans/ground-floor` and `upper-floor` in PNG, editable SVG and one-page PDF formats. Both PDFs reopen through Poppler; both SVGs render through ImageMagick. The drawings have legible furnished layouts, outer dimensions, room-size index, stated area exclusions and concept-document labels. Exterior leaves are shown at the modeled open angle; a drawn aperture or symbol does not certify a complete door/appliance operation test.
+`tools/modern_block/draw_plans.py` produces `outputs/plans/ground-floor` and `upper-floor` in PNG, editable SVG and one-page PDF formats. Both PDFs reopen through Poppler; both SVGs reopen in macOS Quick Look. The drawings have legible furnished layouts, outer dimensions, room-size index, stated area exclusions and concept-document labels. Exterior leaves are shown at the modeled open angle; a drawn aperture or symbol does not certify a complete door/appliance operation test.
 
 Remaining professional limits are intentionally explicit: survey/parcel and tree information, grade and lawful drainage outlet; geotechnical/foundation and structural design; envelope/weather performance; pool barriers/hydraulics; product installation and system sizing; fire/life safety and accessibility review. Mechanical and electrical capacity, waste-bin internals and some controls remain concept reservations. These limits do not claim to be completed construction work.
 
 Final coordination: the primary vanity shifted 0.275 m west to preserve dressing-door access. Both level plans were regenerated from the refreshed furniture schedule and inspected again; the upper plan now shows the revised fixture/counter relationship. Actual shared lighting comprises linear dining pendant, recessed downlights and undercabinet task bars. Custom entry pulls and hardware included in adopted cabinet assets are concept geometry; no unadopted bronze hardware-family dependency is claimed.
+
+## Facade revision coordination
+
+The revised proposal retains occupied floor boundaries and room functions. The plan author independently inspected the pre-revision native front view, both furnished plans, exterior-opening definitions and interior placements before recommending the selected changes.
+
+| Finding | Resolution verified in revised source and furnished plans |
+|---|---|
+| Three near-equal upper street windows flatten the elevation and the middle one crosses the bath partition at x17 | Two unequal openings, x10.6–16.5 for the bedroom and x17.5–21.5 for the bathroom, leave a 1.0 m solid bay centered on that partition. |
+| Tall clear street glazing directly exposes primary bathing fixtures | Raised 1.10 m bathroom sill with a 1.75 m opening height, plus external timber screening; small east bath opening limited to y0.6–2.2. Nighttime and oblique privacy remain a selected-system review. |
+| The entry lacks a distinct sheltered threshold | Outward portal x19.2–22 / y−1.35–0 and level porch x18.9–22 / y−1.4–0 retain the existing door and living furniture. Three equal risers reconcile the illustrative −0.53 m grade with finished floor. |
+| Existing conceptual flue crosses the upper WC | Route the flue outside occupied space in the new east pier x22.12–22.72 / y2.65–4.45, to z6.95. Product routing, fire separation and listed installation requirements remain unresolved. |
+| East elevation windows lack a coordinated vertical composition | Align stair openings at y8.4–12.2, keeping all facade deepening outside x22 so the stair's internal opening remains intact. |
+
+The reviewed plan revision shows the open porch and stair footprint, dashed portal/canopy projection, upper front reveal and privacy screen, and east masonry projection. Projected exterior features are excluded from conditioned floor area. These additions do not certify structural capacity, privacy, weather resistance or accessible entry.
+
+The refreshed opening schedule and 103 linked-furniture footprints generated both current level plans. Inspection confirmed the new room-aligned front openings, external screened bathroom bay, unchanged stair/room footprint, external masonry pier and forward porch/treads. The first drawing pass exposed overlapping drainage/legend notes; their positions were corrected before promotion. PNGs and independently rasterized one-page PDFs show legible full sheets without overlaps or clipping. The SVG geometry was reopened with macOS Quick Look; that previewer's thumbnail sizing needed a temporary pixel-sized viewport for review. Repository SVGs retain their authored physical dimensions and full viewBox. The current six drawing files are promoted under `outputs/plans/`.

@@ -8,25 +8,27 @@ Each project below includes multiple exterior angles, interiors, defining featur
 
 ### Modern Block
 
-![Front arrival: limestone pavilion base, cedar upper block and mature canopy — AI photographic study](homes/modern-block/outputs/images/photo-hero.png)
+![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study](homes/modern-block/outputs/images/photo-hero.png)
 
-*Front arrival: limestone pavilion base, cedar upper block and mature canopy — AI photographic study.*
+*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study.*
 
-A warm stone base and cedar upper block frame a private pool court. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
+A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
 
 **Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
-*Exterior photographic studies include illustrative landscape beyond the native model.*
-
 [Full project and editable models](homes/modern-block/README.md) · [Current outputs](homes/modern-block/outputs/README.md)
 
-| Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study | Elevated roof and site view, skylights, guest pavilion and two-car garage — AI photographic study |
+| East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance — AI photographic study | Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study |
 | --- | --- |
-| ![Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study](homes/modern-block/outputs/images/photo-courtyard.png) | ![Elevated roof and site view, skylights, guest pavilion and two-car garage — AI photographic study](homes/modern-block/outputs/images/photo-site.png) |
+| ![East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance — AI photographic study](homes/modern-block/outputs/images/photo-east.png) | ![Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study](homes/modern-block/outputs/images/photo-courtyard.png) |
 
-| Five pivoting timber screens open to the covered lanai — AI photographic study | Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study |
+| Elevated roof and site view, skylights, guest pavilion and two-car garage — AI photographic study | Five pivoting timber screens open to the covered lanai — AI photographic study |
 | --- | --- |
-| ![Five pivoting timber screens open to the covered lanai — AI photographic study](homes/modern-block/outputs/images/photo-lanai.png) | ![Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study](homes/modern-block/outputs/images/photo-kitchen.png) |
+| ![Elevated roof and site view, skylights, guest pavilion and two-car garage — AI photographic study](homes/modern-block/outputs/images/photo-site.png) | ![Five pivoting timber screens open to the covered lanai — AI photographic study](homes/modern-block/outputs/images/photo-lanai.png) |
+
+| The same five screens closed, from the identical camera — AI photographic study | Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study |
+| --- | --- |
+| ![The same five screens closed, from the identical camera — AI photographic study](homes/modern-block/outputs/images/photo-lanai-closed.png) | ![Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study](homes/modern-block/outputs/images/photo-kitchen.png) |
 
 | Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling | Living room with limestone hearth, charcoal chimney face and oak seating — AI photographic study |
 | --- | --- |
@@ -40,25 +42,25 @@ A warm stone base and cedar upper block frame a private pool court. Five pivotin
 | --- | --- |
 | ![Primary bedroom with a king bed, oak nightstands and tree-level glazing](homes/modern-block/outputs/images/07-primary-bedroom.png) | ![Freestanding tub and separate glass shower in the primary bathroom — AI photographic study](homes/modern-block/outputs/images/photo-bath.png) |
 
-| Freestanding tub and separate glass shower in the primary bathroom | Front arrival: limestone pavilion base, cedar upper block and mature canopy |
+| Freestanding tub and separate glass shower in the primary bathroom | Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath |
 | --- | --- |
-| ![Freestanding tub and separate glass shower in the primary bathroom](homes/modern-block/outputs/images/12-bath-tub-shower.png) | ![Front arrival: limestone pavilion base, cedar upper block and mature canopy](homes/modern-block/outputs/images/01-front-arrival.png) |
+| ![Freestanding tub and separate glass shower in the primary bathroom](homes/modern-block/outputs/images/12-bath-tub-shower.png) | ![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath](homes/modern-block/outputs/images/01-front-arrival.png) |
 
-| Courtyard pool, sheltered seating and supported glass-guarded balcony | Elevated roof and site view, skylights, guest pavilion and two-car garage |
+| East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance | Courtyard pool, sheltered seating and supported glass-guarded balcony |
 | --- | --- |
-| ![Courtyard pool, sheltered seating and supported glass-guarded balcony](homes/modern-block/outputs/images/02-courtyard-pool.png) | ![Elevated roof and site view, skylights, guest pavilion and two-car garage](homes/modern-block/outputs/images/03-roof-and-site.png) |
+| ![East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance](homes/modern-block/outputs/images/13-east-arrival.png) | ![Courtyard pool, sheltered seating and supported glass-guarded balcony](homes/modern-block/outputs/images/02-courtyard-pool.png) |
 
-| Five pivoting timber screens open to the covered lanai | The same five screens closed, from the identical camera |
+| Elevated roof and site view, skylights, guest pavilion and two-car garage | Five pivoting timber screens open to the covered lanai |
 | --- | --- |
-| ![Five pivoting timber screens open to the covered lanai](homes/modern-block/outputs/images/04-lanai-open.png) | ![The same five screens closed, from the identical camera](homes/modern-block/outputs/images/09-lanai-closed.png) |
+| ![Elevated roof and site view, skylights, guest pavilion and two-car garage](homes/modern-block/outputs/images/03-roof-and-site.png) | ![Five pivoting timber screens open to the covered lanai](homes/modern-block/outputs/images/04-lanai-open.png) |
 
-| Pool steps, covered upper balcony and continuous courtyard glazing | Primary double vanity and separate dressing and enclosed toilet-room entries |
+| The same five screens closed, from the identical camera | Pool steps, covered upper balcony and continuous courtyard glazing |
 | --- | --- |
-| ![Pool steps, covered upper balcony and continuous courtyard glazing](homes/modern-block/outputs/images/10-pool-and-balcony.png) | ![Primary double vanity and separate dressing and enclosed toilet-room entries](homes/modern-block/outputs/images/08-primary-bath.png) |
+| ![The same five screens closed, from the identical camera](homes/modern-block/outputs/images/09-lanai-closed.png) | ![Pool steps, covered upper balcony and continuous courtyard glazing](homes/modern-block/outputs/images/10-pool-and-balcony.png) |
 
-![Upper landing with linen shelving, oak stair treads and glass guards](homes/modern-block/outputs/images/11-stair-gallery.png)
-
-*Upper landing with linen shelving, oak stair treads and glass guards.*
+| Primary double vanity and separate dressing and enclosed toilet-room entries | Upper landing with linen shelving, oak stair treads and glass guards |
+| --- | --- |
+| ![Primary double vanity and separate dressing and enclosed toilet-room entries](homes/modern-block/outputs/images/08-primary-bath.png) | ![Upper landing with linen shelving, oak stair treads and glass guards](homes/modern-block/outputs/images/11-stair-gallery.png) |
 
 ![Ground floor: furnished public rooms, guest retreat, service spaces, garage and courtyard](homes/modern-block/outputs/plans/ground-floor.png)
 

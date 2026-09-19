@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "openings/angled-cedar-privacy-screen-2000x2800",
+  "version": "v001",
+  "name": "Angled cedar privacy screen 2000x2800 | shared v001",
+  "units": "meters",
+  "dimensions_m": [
+    2.0,
+    0.30000001192092896,
+    2.8000001907348633
+  ],
+  "bounds_m": {
+    "min": [
+      -1.0,
+      -0.15000000596046448,
+      0.0
+    ],
+    "max": [
+      1.0,
+      0.15000000596046448,
+      2.8000001907348633
+    ]
+  },
+  "blender": {
+    "collection": "Angled cedar privacy screen 2000x2800 | shared v001"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; attribution Homes project contributors. No commercial product or third-party source geometry.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_angled_cedar_screen.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_angled_cedar_screen.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "angled-cedar-privacy-screen-2000x2800.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../../materials/warm-vertical-cedar/v003/warm-vertical-cedar.blend"
+    },
+    {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "path": "../../../materials/bronze-gray-standing-seam/v001/bronze-gray-standing-seam.blend"
+    }
+  ],
+  "placement": {
+    "origin": "XY center of frame depth and width at bottom Z=0; bounds X -1 to +1, Y -.15 to +.15, Z 0 to 2.8 meters",
+    "front_direction": "-Y; width X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only. Do not scale fins, frame or fittings."
+  },
+  "mounting": "Fixed perimeter frame supported by host at top and bottom rails. Solid vertical cedar fins captured by continuous rails. Host provides engineered brackets, fasteners, drainage and isolated metal/timber connections. No pivot or moving leaf.",
+  "modeled_state": "Fixed 23 solid cedar fins 120x25mm, 2700mm high, rotated +45 degrees around local Z, at 84.09mm pitch. Four slim bronze-gray perimeter frame members.",
+  "privacy_geometry": {
+    "fin_width_m": 0.12,
+    "fin_thickness_m": 0.025,
+    "fin_angle_degrees": 45,
+    "fin_pitch_m": 0.08409090909090909,
+    "normal_view_projected_fin_width_m": 0.10253048327204937,
+    "normal_view_projection_overlap_m": 0.018439574181140284,
+    "basis": "Actual geometric normal-view overlap. Oblique viewpoints can see between fins; no universal privacy or solar-performance claim."
+  },
+  "clearances": {
+    "rear_frame_to_glass_min_m": 0.3,
+    "cleaning_basis": "Concept reach/service gap only, not a walkable passage. Host must provide accessible glazing and demountable frame fixings or separate safe maintenance access.",
+    "host_checked": false
+  },
+  "operating_envelope": {
+    "state": "Fixed",
+    "moving_parts": false,
+    "host_open_state_checked": false,
+    "basis": "Host must separately verify any operable window does not swing into screen or supports."
+  },
+  "product_status": "Original reusable architectural privacy screen concept. No certified structural, wind, weathering, fire or maintenance system."
+}

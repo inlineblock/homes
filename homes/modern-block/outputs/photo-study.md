@@ -1,112 +1,135 @@
 # AI photographic studies
 
-Eight studies made with the built-in Imagegen editing tool from reviewed native renders. These are design illustrations, not photographs of a built property. The native model and native gallery govern dimensions and geometry. The selected studies were compared visually with their inputs; texture, sky, reflections, foliage microdetail and small material responses remain generative interpretations.
+Ten studies made with the built-in Imagegen editing tool from reviewed native renders. These are design illustrations, not photographs of a built property. The native model and native gallery govern dimensions and geometry. The selected studies were compared visually with their inputs; texture, sky, reflections and small material responses remain generative interpretations. Surrounding woodland, layered planting and landscape visible through glazing are intentionally enriched beyond the modeled planting to avoid an isolated setting; these additions are illustrative context, not surveyed conditions or modeled scope.
 
 ## photo-hero
 
 - Source: `outputs/images/01-front-arrival.png`
-- Source SHA-256: `2f755090742e0a7cca03bdf039d55f1cbaa18d8c8fda9c8d4e81fb6c9868a0ec`
+- Source SHA-256: `4ddf8357866ec049266260e1f6e04cfc8ff758ffaac6490d840bc3cda3df9ffd`
 - Selected image: `outputs/images/photo-hero.png`
-- Image SHA-256: `694092b72f5a9e4737a5b411fe51eb1283393918bfdb6dcc79c3a751fe2d8fea`
+- Image SHA-256: `8a036bc737ce5a47ca3495e1f27a0c8bd58229728356131690c6c75d3dc83ef5`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Front arrival with cedar upper block, limestone base and mature canopy. Keep the five pivot screens and both volumes.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Lock the new projecting stone entrance portal, broad upper bedroom opening with deep reveals, and adjacent dense cedar-screened bathroom bay. Keep five open lanai screens and the two-storey massing. The exterior needs the richer setting described below. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
+
+## photo-east
+
+- Source: `outputs/images/13-east-arrival.png`
+- Source SHA-256: `88b528ae99515b01a3548158ceafb4553cea8c8c796ade8518ba0603ab8748ae`
+- Selected image: `outputs/images/photo-east.png`
+- Image SHA-256: `793f8612b6c7440fd90d7b3c223d27655af14c14188b65e020a024637e921839`
+- Tool: Imagegen (built-in)
+
+Actual prompt:
+
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Keep the full-height pale limestone fireplace pier on the right side wall, the two vertically aligned stair window bands separated by the real floor edge, high bathroom side window, stone entry canopy and dense upper front privacy screen. Keep this same southeast corner camera. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-courtyard
 
 - Source: `outputs/images/02-courtyard-pool.png`
-- Source SHA-256: `e3ab83674bb9d6c340580d1f1326172a73708777123031f750c60c18f68a61e3`
+- Source SHA-256: `f803a285e95760b13f6300ff544435bc68e19741b692f8aa69452abeb64b2c25`
 - Selected image: `outputs/images/photo-courtyard.png`
-- Image SHA-256: `edf813b007dd881304c0456a9363b51c098c9f1857e81fc51104a7fe14017250`
+- Image SHA-256: `06cdbd9d539edc362aa2ff8f65e89ebb2e49e7ee5bb1ed159f489f12de2a49b9`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Pool courtyard and covered balcony. Preserve the narrow rectangular pool, its steps and coping, every balcony support, glass railing and all seating.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Keep the exact pool shape, supported covered balcony, glass guard, courtyard walls, covered lanai and every post. Fill the distant garden edges beyond the court with trees; do not put trees in the pool/deck route. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-site
 
 - Source: `outputs/images/03-roof-and-site.png`
-- Source SHA-256: `9230c7420ded3443d6809b9be04a2a55772da9fc7f125bb4f5457751c795fb20`
+- Source SHA-256: `e3cf99b1535b62791997bd65f527bd54a71de3f6b0a2d6f771b9e0161d0b45a1`
 - Selected image: `outputs/images/photo-site.png`
-- Image SHA-256: `e8d33a0eb3ce95a64b2e2fe2e8783c816b578d9499ea76d1171c631c48742265`
+- Image SHA-256: `f3cffa2b7c0fbc2914914108bc4ea577e042a3a923e6062941ecddd790e9302e`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Elevated view of roofs, garage and courtyard. Preserve the exact roof shapes and low slopes, skylights, two garage doors and open court. The roofs are not terraces.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Keep the aerial viewpoint, actual flat roof volumes with their skylights, enclosed garage, connecting driveway, pool, supports and court. Roofs are not occupied terraces. Enrich surrounding woodland without concealing the roof plan or driveway. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-lanai
 
 - Source: `outputs/images/04-lanai-open.png`
-- Source SHA-256: `0e8d04199c53d801c7f08e023c7a0b14b4aaa2f55a4b118f0cc14942f4cc751d`
+- Source SHA-256: `f58e6220749dbb97d02897825b343e450f531ff74bef16e721c1b6ded9f5a8d3`
 - Selected image: `outputs/images/photo-lanai.png`
-- Image SHA-256: `144a8c542abf28b84d132a03458a27bb5ca0f017752066919d6382143178495d`
+- Image SHA-256: `c302ae7105d4a9bc31b0d9abcc615a246f4fabdbbce4bf87645e3cccd3f6fb6c`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Five timber screen panels pivoted OPEN beneath a covered lanai. Preserve all five panels, their exact angles, vertical slats, columns and paving.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve five tall center-pivot cedar screens at their open angle, slim posts, flat covered roof and the passage/seating behind them. Keep the stepping route clear; deepen garden context beyond. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
+
+## photo-lanai-closed
+
+- Source: `outputs/images/09-lanai-closed.png`
+- Source SHA-256: `362aeb9d13bc90f0790e1b6c815044797adae924fd29a3d20c1978a201aa2f23`
+- Selected image: `outputs/images/photo-lanai-closed.png`
+- Image SHA-256: `c5d0dec77b3141c5933db366fc715e16ccca9ac1d7f287bdac1bf394ee8ad94a`
+- Tool: Imagegen (built-in)
+
+Actual prompt:
+
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve the five timber screen panels fully closed at their current alignment, the thin roof, posts and same native camera. Do not open the screens. Enrich surrounding garden context. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-kitchen
 
 - Source: `outputs/images/05-kitchen.png`
-- Source SHA-256: `ae82d5eefcfe8de97be773e6199b0e2d4308e7932b998c581bc19cb05a97d68f`
+- Source SHA-256: `9bcd43244fe3da1bc3f42d8911308d1a3d378e3e1ab5248dbaa519a0bb0b61c7`
 - Selected image: `outputs/images/photo-kitchen.png`
-- Image SHA-256: `6e4f0c3277210ae493aa6e7f02b38c63965546f57df1bed21880b2da3ac10e19`
+- Image SHA-256: `744885dd9e60a3a6a679f2ae2a4c6edadc37bdc0bd98e876f30881bad8cd47f2`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Oak kitchen with four stools, island sink, panel-ready refrigerator and slatted ceiling. Keep the open timber door at the right edge, appliance positions and skylight.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve every cabinet and window, island, four stools, appliances, open room connections and the oak slatted rooflight ceiling. NO new partitions, walls, doors or glazing. Trees visible through existing openings should match the woodland setting. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-living
 
 - Source: `outputs/images/06-living.png`
-- Source SHA-256: `43fd45e4e3377a97b4b8c33e2fcf6e081940c658fc2a2f62bc0620a9e1ea1f03`
+- Source SHA-256: `1330b871ea37f7ede8fda45d8bd432a106df35c66d4aa1c26fe64d9c4cdd23a3`
 - Selected image: `outputs/images/photo-living.png`
-- Image SHA-256: `1a37074513de0d124ffc85c9487d619cbaa1418923bb60d54bf5c6820a78d59d`
+- Image SHA-256: `dec27a52075779ef56c27b55481e16b9555ae9fbae3684121fc4770b46cac75e`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Living room with limestone hearth and charcoal upper fireplace panel. Keep sofa, two lounge chairs, table and fireplace proportions exactly.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve the limestone hearth, dark chimney face, sofas/chairs and their layout, all windows and the actual open-plan connections. NO new wall or door. Add tree/garden views only through existing windows; preserve architectural dimensions. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-bedroom
 
 - Source: `outputs/images/07-primary-bedroom.png`
-- Source SHA-256: `1b859a135c37bd5fc9713781e9383ca4fc313228ccc14dd1882ae86d6fa5aa75`
+- Source SHA-256: `4da19d085b933009663499f14bbb0d92fcc54edb4d786e8dbc56992a95f3a4fc`
 - Selected image: `outputs/images/photo-bedroom.png`
-- Image SHA-256: `84dc599d87ec7f29b32677fe353d1f8ab1256c367f5cb56d409d8b481c92b434`
+- Image SHA-256: `9c46152221b93b05926d95ae3bdc088888f3d3e8a5068c53c27fda3e605f1287`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Primary bedroom with king bed, two nightstands and large dark-framed windows. Keep glazing and furniture exactly; do not add curtains or decor.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve king bed, side tables, wardrobe/desk, proportions and the newly widened bedroom glazing. Do not subdivide or replace the new broad window with old repetitive bays. Give existing windows realistic treetop/garden views. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
 ## photo-bath
 
 - Source: `outputs/images/12-bath-tub-shower.png`
-- Source SHA-256: `2f8e0fa9ec093cbc98a2eca40235e4d8ee409638059cb9f65ca80659b76c8ca0`
+- Source SHA-256: `d3f012562813aedb43c5b9601774424415e3339b5201b1beef8fcf13a1fe30d0`
 - Selected image: `outputs/images/photo-bath.png`
-- Image SHA-256: `e92d371d5572e58bc1a4e5a4d1efd0488095cab31e1982808eaa64c0a4b6d25c`
+- Image SHA-256: `aa04e0c408d9ad0158fa409f4857b5c0dafefd2ad22fdedaed3875763c966355`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Input image is the edit target: a reviewed native architectural model render. Create a believable architectural editorial photograph of EXACTLY this same design, camera, composition and operating state. Improve only lighting, texture microdetail, realistic reflections and photographic material response. Preserve all massing, floor count, roof edges, supports, window divisions, doors, guardrails, furniture count and placement, paving boundaries, terrain and plant locations. Keep warm pale limestone, neutral brown cedar, slim dark frames, oak and ivory furnishings. No added architecture, scenery, furniture, landscaping, people, logos, text or watermark. Preserve 3:2 landscape framing. Primary bathing room with separate glass shower and freestanding tub. Preserve exact shower tray, glass screen, fittings, tub and window framing. No added plants or towels.
+> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve tub, separate shower, high sill and exact window apertures. The front glazing has an external fixed cedar privacy screen: render its close angled fins beyond the glass, not invented open views. The small side glazing is high level. Do not invent a low full-height window or bathroom wall. Keep all fixtures and uncluttered layout. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
 
+## Targeted correction — photo-courtyard
 
-## Corrective editing pass
+The initial photographic result was the edit target, with the current native render supplied again as the geometry/material reference. Actual correction prompt:
 
-The selected interior studies received a second edit using the initial study and the same native source to remove invented surrounding walls and excess scenery. The exterior arrival, courtyard and elevated studies use the original photographic pass: following the user's direction, their fuller landscape context is intentionally retained so the home feels situated. The open-lanai detail also uses its original photographic pass. The actual prompts above are preserved as executed, including their initial landscape restriction; subsequent user direction authorizes this exterior selection. Minor tree silhouettes/reflections and lighting apertures can still vary; these illustrations do not specify site context, lighting layout or landscape quantities. Native views remain authoritative.
+> Use case: precise-object-edit. Image 1 is the photographic edit target. Image 2 is the native geometry/material reference. Change ONLY the underside ceiling of the upper covered balcony in image 1: it must be smooth warm off-white plaster as shown in image 2, not wood boards. Preserve the cedar vertical walls, exact balcony geometry and supports, furniture, pool, glass guards, all openings, beautiful mature woodland, planted borders, light, camera and all other details exactly. No text.
 
-Corrective prompt:
+## Targeted correction — photo-bedroom
 
-> Use case: precise-object-edit. Image 1 is the photographic study to correct; image 2 is the authoritative native model of the same view. Keep the architecture, camera, material realism and furnishing of image 1 unchanged. Correct ONLY the invented surroundings: remove extra background trees, mountains, foreground bushes and any outside privacy wall or terrace that does not exist in image 2. Retain only the actual modeled plant positions and approximate sizes shown in image 2. The site has an open simple gravel/earth ground plane and a quiet sky; a gray horizontal background band in the model is the ground/horizon, NOT a privacy wall. In interior windows show plain distant sky/ground and only trees present in image 2. No newly added objects. Keep all window divisions, building details, fixtures, rooflines, furniture, screen angles and pool geometry unchanged.
+The initial photographic result was the edit target, with the current native render supplied again as the geometry/material reference. Actual correction prompt:
 
-## Exterior landscape direction
-
-Surrounding trees, planting and ground texture may be filled out beyond the sparse native site. These are illustrative landscape proposals, not existing-site facts or modeled quantities. The selected exterior studies were re-inspected: massing, roofs, glazing, supports, pool, paving routes, screens and principal canopy relationships remain consistent with the source views. Native model and plans remain unchanged.
+> Use case: precise-object-edit. Image 1 is the photographic edit target; image 2 is the native geometry reference. Change ONLY the exterior visible through the RIGHT-HAND bedroom window. This is an UPPER-FLOOR bedroom, looking over a low, non-occupiable lanai roof. Restore that plain flat charcoal roof surface and its thin edge in the exact position shown in image 2. Remove the invented limestone terrace/raised garden wall and plants sitting at bedroom floor level outside that right window. Beyond the low roof, preserve beautiful mature woodland treetops with ground visibly well below this upper room. Keep the left window view, bed, nightstands, chair, all interior materials, camera, window mullions, light and every other feature unchanged. No new terrace, balcony, railing or building. No text.

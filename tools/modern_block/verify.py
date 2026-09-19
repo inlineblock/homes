@@ -36,5 +36,37 @@ for o in scene.objects:
 openings=json.loads((H/'model/opening-schedule.json').read_text())
 for name in ['Main courtyard','Guest court']:
  assert any(o['name']==name and o['kind']=='door' and min(o['a'][1],o['b'][1])<3.4 for o in openings),name
-receipt={'native_reopened':True,'blender':bpy.app.version_string,'relative_libraries':len(libs),'measured_floor_areas_m2':areas,'conditioned_gross_m2':d.CONDITIONED_M2,'bed_instances':len(beds),'wardrobe_bays':len(wardrobes),'shelf_modules':len(shelves),'stair_risers':22,'riser_m':3.6/22,'tread_depth_m':.28,'flight_width_m':1.2,'landing_depth_m':1.22,'upper_landing_m':1.2,'screen_panel_centers_m':2.0,'screen_sweep_radius_m':.903,'sheltered_pavilion_doors':True,'evaluated_required_instances':{o.name:instance_counts[o.name] for o in beds+screens+[pool]},'limitations':['Concept geometry and route reservations only; manufacturer selection, engineering and local approval unresolved.','Window modules explicitly resized; frame sightlines vary from source nominal.','No exact existing-building dimensions or original layout claimed.']}
+# Exterior decks bear into grade, and planting leaves the vehicle apron clear.
+for obj in scene.objects:
+ if obj.name.endswith('terrace substrate'):
+  assert obj.location.z-obj.dimensions.z/2<=-.53
+sys.path.insert(0,str(ROOT/'tools'))
+from site_context import _plant_bounds,_overlaps
+bpy.context.view_layer.update()
+for obj in scene.objects:
+ if obj.name.startswith(('Forecourt native concept planting','Garden edge drift')):
+  assert not _overlaps(_plant_bounds(obj),(-17.45,8,-7.95,22)),obj.name
+# Revised entrance, room-aligned glazing and external service geometry.
+for prefix in ['Entry','Lanai']:
+ steps=sorted([o for o in scene.objects if o.name.startswith(prefix+' equal-riser garden step')],key=lambda o:o.location.y)
+ assert len(steps)==3
+ tops=[o.location.z+o.dimensions.z/2 for o in steps]
+ assert all(abs(b-a-.53/3)<.0001 for a,b in zip([-.53]+tops,tops)),tops
+landing=bpy.data.objects['Arrival supported level landing']
+assert abs(landing.location.z+landing.dimensions.z/2)<.0001
+assert abs(landing.dimensions.y-1.4)<.0001
+privacy=[o for o in scene.objects if o.name.startswith('Primary bath fixed privacy screen')]
+assert len(privacy)==2
+for obj in privacy:
+ assert all(abs(v-1)<.00001 for v in obj.scale)
+ assert abs(obj.location.y+.6)<.0001 and obj['service_gap_m']>=.3
+ bounds=[obj.matrix_world @ child.matrix_world @ Vector(p) for child in obj.instance_collection.all_objects if child.type=='MESH' for p in child.bound_box]
+ assert abs(max(p.y for p in bounds)+.45)<.0001
+ assert abs(max(p.z for p in bounds)-6.45)<.0001
+front=[o for o in openings if o['name']=='Upper street']
+assert len(front)==2 and all(not min(o['a'][0],o['b'][0])<17<max(o['a'][0],o['b'][0]) for o in front)
+flue=bpy.data.objects['Living conceptual concealed flue']
+assert flue.location.x-flue.dimensions.x/2>22.12-.001
+assert '13-east-arrival' in bpy.data.objects
+receipt={'native_reopened':True,'facade_revision':{'equal_exterior_risers_m':.53/3,'entry_landing_depth_m':1.4,'bathroom_screen_instances':2,'screen_service_gap_m':.35,'front_partition_clear_of_glazing':True,'flue_outside_upper_wc':True},'blender':bpy.app.version_string,'relative_libraries':len(libs),'measured_floor_areas_m2':areas,'conditioned_gross_m2':d.CONDITIONED_M2,'bed_instances':len(beds),'wardrobe_bays':len(wardrobes),'shelf_modules':len(shelves),'stair_risers':22,'riser_m':3.6/22,'tread_depth_m':.28,'flight_width_m':1.2,'landing_depth_m':1.22,'upper_landing_m':1.2,'screen_panel_centers_m':2.0,'screen_sweep_radius_m':.903,'sheltered_pavilion_doors':True,'evaluated_required_instances':{o.name:instance_counts[o.name] for o in beds+screens+[pool]},'limitations':['Concept geometry and route reservations only; manufacturer selection, engineering and local approval unresolved.','Window modules explicitly resized; frame sightlines vary from source nominal.','No exact existing-building dimensions or original layout claimed.']}
 (H/'model/native-validation.json').write_text(json.dumps(receipt,indent=2)+'\n');print('MODERN_BLOCK_VERIFIED',json.dumps(receipt),flush=True)

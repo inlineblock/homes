@@ -1,10 +1,10 @@
 # Modern Block
 
-![Front arrival: limestone pavilion base, cedar upper block and mature canopy — AI photographic study](outputs/images/photo-hero.png)
+![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study](outputs/images/photo-hero.png)
 
-*Front arrival: limestone pavilion base, cedar upper block and mature canopy — AI photographic study.*
+*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study.*
 
-A warm stone base and cedar upper block frame a private pool court. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
+A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
 
 **Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
@@ -12,7 +12,11 @@ A warm stone base and cedar upper block frame a private pool court. Five pivotin
 
 ## Photographic tour
 
-AI photographic studies derived from the native views below. Exterior studies fill out the surrounding landscape; this added setting is illustrative and is not modeled or surveyed. [Prompts and provenance](outputs/photo-study.md).
+AI photographic studies derived from the native views below. [Prompts and provenance](outputs/photo-study.md).
+
+![East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance — AI photographic study](outputs/images/photo-east.png)
+
+*East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance — AI photographic study.*
 
 ![Courtyard pool, sheltered seating and supported glass-guarded balcony — AI photographic study](outputs/images/photo-courtyard.png)
 
@@ -25,6 +29,10 @@ AI photographic studies derived from the native views below. Exterior studies fi
 ![Five pivoting timber screens open to the covered lanai — AI photographic study](outputs/images/photo-lanai.png)
 
 *Five pivoting timber screens open to the covered lanai — AI photographic study.*
+
+![The same five screens closed, from the identical camera — AI photographic study](outputs/images/photo-lanai-closed.png)
+
+*The same five screens closed, from the identical camera — AI photographic study.*
 
 ![Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study](outputs/images/photo-kitchen.png)
 
@@ -62,9 +70,13 @@ AI photographic studies derived from the native views below. Exterior studies fi
 
 The following images are direct renders of the editable Blender model.
 
-![Front arrival: limestone pavilion base, cedar upper block and mature canopy](outputs/images/01-front-arrival.png)
+![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath](outputs/images/01-front-arrival.png)
 
-*Front arrival: limestone pavilion base, cedar upper block and mature canopy.*
+*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath.*
+
+![East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance](outputs/images/13-east-arrival.png)
+
+*East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance.*
 
 ![Courtyard pool, sheltered seating and supported glass-guarded balcony](outputs/images/02-courtyard-pool.png)
 
@@ -110,6 +122,6 @@ The following images are direct renders of the editable Blender model.
 
 ## Reproduce and inspect
 
-[Authoring instructions](../../tools/modern_block/AGENTS.md) document generation, reopening and review. Blender 4.5.14 LTS; Bonsai and IfcOpenShell 0.8.5. Fifty exact library versions are pinned. Native file, IFC and plans reopened successfully; see the [verification record](design-review.md).
+[Authoring instructions](../../tools/modern_block/AGENTS.md) document generation, reopening and review. Blender 4.5.14 LTS; Bonsai and IfcOpenShell 0.8.5. Fifty-two exact library versions are pinned. Native file, IFC and plans reopened successfully; see the [verification record](design-review.md).
 
 Engineering, surveyed site conditions, product selection, privacy/shading specifications, MEP sizing, pool safety and approvals remain unresolved. No permit or construction readiness is claimed.

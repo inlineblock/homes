@@ -50,7 +50,7 @@ site=box('Illustrative site grade',(5,8,-.73),(300,300,.4),M['earth'],.02)
 cut(site,(2.75,8.75,7.25,17.25),-2,.2,M)
 # Raised court deck uses perimeter regions rather than a slab across the basin.
 for name,r in [('Lanai',d.LANAI),('West pool walk',(0,5,2.68,20)),('East pool walk',(7.32,5,10,20)),('Pool entry deck',(2.68,5,7.32,8.68)),('Pool far deck',(2.68,17.32,7.32,20))]:
- x0,y0,x1,y1=r;box(name+' terrace substrate',((x0+x1)/2,(y0+y1)/2,-.14),(x1-x0,y1-y0,.28),M['stone'],.012)
+ x0,y0,x1,y1=r;box(name+' terrace substrate',((x0+x1)/2,(y0+y1)/2,-.28),(x1-x0,y1-y0,.56),M['stone'],.012)
  # Full linked tile modules, host-cut perimeter strips with same physical shader.
  step=1.225
  for ix in range(math.ceil((x1-x0)/step)):
@@ -62,18 +62,20 @@ for name,r in [('Lanai',d.LANAI),('West pool walk',(0,5,2.68,20)),('East pool wa
    else:box('Terrace boundary-cut paver',(x,y,-.01),(w,h,.03),M['stone'],.003)
 instance('Courtyard pool',assets['pool'],(5,13,0))
 # Stepping path through gravel from anonymous street edge to both entrances.
-for x0 in [4.2,19.7]:
- for i in range(5):instance('Front garden stepping paver',assets['paver'],(x0,-2.2-i*1.40,-.48))
-for x,y,s in [(3,-6.3,1.08),(-10,1,.92),(25,21,1.1)]:instance('Mature courtyard canopy',assets['tree'],(x,y,-.46+.074*s),.22,s)
+for x0 in [4.2,20.45]:
+ for i in range(0 if x0==4.2 else 1,5):instance('Front garden stepping paver',assets['paver'],(x0,-2.2-i*1.40,-.48))
+for x,y,s in [(3,-6.3,1.08),(-10,1,.92),(25,21,1.1)]:instance('Mature courtyard canopy',assets['tree'],(x,y,-.53),.22,s)
 rng=random.Random(20260919)
 for i in range(560):
  x=rng.uniform(-12,26);y=rng.uniform(-10,24)
  # Keep house/court, driveway, front path and stair landings free.
- occupied=(-8.8<x<22.7 and -.7<y<20.8)
- path=(abs(x-4.2)<.9 or abs(x-19.7)<1.0) and y<0
+ occupied=(-8.8<x<22.7 and -.7<y<20.8) or (18.5<x<22.4 and -3<y<0)
+ path=(abs(x-4.2)<.9 or abs(x-20.45)<1.2) and y<0
  driveway=x<-8 and y>10
  if occupied or path or driveway:continue
- k='shrub' if i%3==0 else 'grass';instance('Forecourt native concept planting',assets[k],(x,y,-.5),rng.random()*6.28,rng.uniform(.75,1.1))
+ k='shrub' if i%3==0 else 'grass';instance('Forecourt native concept planting',assets[k],(x,y,-.53),rng.random()*6.28,rng.uniform(.75,1.1))
+from site_context import enrich_site
+site_review=enrich_site(ROOT,M,assets)
 # Small planted courtyard beds create living texture without blocking the pool walk.
 for x,y,w,h in [(1.35,6.8,2.1,2.8),(5,19.1,3.8,1.3)]:
  box('Courtyard planted ground',(x,y,.025),(w,h,.07),M['grass'],.04)
@@ -107,6 +109,7 @@ for y in [10.6,15]:instance('Balcony lounge chair',assets['outdoor_chair'],(8.4,
 # Human-scale exterior illumination without theatrical exposure.
 g.collection('20 Cameras and illumination')
 CAMS={
+ '13-east-arrival':((38,-18,5.0),(19,6,3),35),
  '01-front-arrival':((28,-34,3.8),(8,3,2.6),43),
  '02-courtyard-pool':((2.1,24,3.1),(11,6,2.8),26),
  '03-roof-and-site':((-30,34,28),(6,9,1.5),42),

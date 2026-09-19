@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle, Polygon, Circle, Arc, FancyArrowPatch
 from matplotlib.transforms import Affine2D
 from design import *
+import design as design_source
 ROOT=Path(__file__).resolve().parents[2]
 HOME=ROOT/'homes/modern-block'
 INK='#343a36'; MUTED='#6d746b'; PAPER='#fbfaf6'; STONE='#e5dfd1'; WOOD='#c4a98b'; LINE='#7f776b'
@@ -50,6 +51,40 @@ def segment_wall(ax,a,b,openings=(),width=.15,glazed=False):
 
 def footprint(ax,r,fill=STONE,lw=.8):
     x0,y0,x1,y1=r;ax.add_patch(Rectangle((x0,y0),x1-x0,y1-y0,facecolor=fill,edgecolor=LINE,lw=lw,zorder=1))
+
+def outline(ax,r,color=LINE,dashed=False,lw=.8,zorder=6):
+    x0,y0,x1,y1=r
+    ax.add_patch(Rectangle((x0,y0),x1-x0,y1-y0,fill=False,edgecolor=color,lw=lw,ls='--' if dashed else '-',zorder=zorder))
+
+def exterior_projections(ax,level):
+    """Occupied enclosure stays unchanged; project-owned exterior geometry reads from design.py."""
+    pier=design_source.EAST_FLUE_PIER
+    footprint(ax,pier,'#cfc7b7')
+    outline(ax,pier,INK,lw=1)
+    ax.annotate('STONE FLUE PIER',xy=((pier[0]+pier[2])/2,(pier[1]+pier[3])/2),xytext=(24.1,5.6),
+                ha='center',fontsize=6.5,color=MUTED,rotation=90,
+                arrowprops=dict(arrowstyle='-',color=MUTED,lw=.55),zorder=8)
+    if level=='ground':
+        footprint(ax,design_source.ENTRY_LANDING,'#ded5c5')
+        x0,y0,x1,y1=design_source.ENTRY_STEPS
+        for i in range(3):
+            yy=y0+i*(y1-y0)/3
+            footprint(ax,(x0,yy,x1,yy+(y1-y0)/3),'#ebe5d9')
+        outline(ax,design_source.ENTRY_PORTAL,WOOD,dashed=True,lw=1.1)
+        ax.annotate('SHELTERED PORCH\n3 EQUAL RISERS',xy=(20.4,-.7),xytext=(15.8,-2.55),
+                    ha='center',fontsize=6.5,color=MUTED,
+                    arrowprops=dict(arrowstyle='-',color=MUTED,lw=.55),zorder=8)
+    else:
+        depth=design_source.FRONT_REVEAL_DEPTH
+        outline(ax,(10.4,-depth,16.7,0),WOOD,dashed=True)
+        screen=design_source.PRIMARY_BATH_SCREEN
+        footprint(ax,screen,'#d9c3a7')
+        x0,y0,x1,y1=screen
+        for i in range(24):
+            xx=x0+(i+.5)*(x1-x0)/24
+            ax.plot([xx-.035,xx+.035],[y0,y1],color=WOOD,lw=.65,zorder=7)
+        ax.text((x0+x1)/2,-.85,'RAISED-SILL BATH GLAZING\nEXTERNAL PRIVACY SCREEN',
+                ha='center',va='top',fontsize=6.4,color=MUTED)
 
 def furniture(ax,record):
     if 'corners_m' in record:
@@ -98,14 +133,15 @@ def draw(level,out,layout,openings):
         for cy in [14.05,17.85]:
             footprint(ax,(-6.0,cy-.95,-1.2,cy+.95),'#d9dddc');ax.add_patch(Rectangle((-5.1,cy-.8),2.9,1.6,fill=False,ec=LINE,lw=.6,zorder=2))
         ext=[('main-south',(10,0),(22,0)),('main-west',(10,0),(10,20)),('main-east',(22,0),(22,20)),('main-north',(10,20),(22,20)),('guest-south',(-8,0),(0,0)),('guest-west',(-8,0),(-8,20)),('guest-east',(0,0),(0,20)),('garage-north',(-8,20),(0,20)),('garage-divide',(-8,12),(0,12))]
-        dim(ax,(-8,20),(22,20),feet(30),1.2);dim(ax,(22,0),(22,20),feet(20),1.0)
-        dim(ax,(-8,0),(0,0),feet(8),-1.25);dim(ax,(0,0),(10,0),feet(10),-1.25);dim(ax,(10,0),(22,0),feet(12),-1.25)
-        ax.set_xlim(-9.5,25);ax.set_ylim(-2.2,22.5)
+        dim(ax,(-8,20),(22,20),feet(30),1.2);dim(ax,(22,0),(22,20),feet(20),3.3)
+        dim(ax,(-8,0),(0,0),feet(8),-3.45);dim(ax,(0,0),(10,0),feet(10),-3.45);dim(ax,(10,0),(22,0),feet(12),-3.45)
+        ax.set_xlim(-9.5,27);ax.set_ylim(-4.1,22.5)
     else:
         footprint(ax,(7,9,10,17),'#ddd6c8');ax.text(8.5,13.8,'COVERED\nBALCONY',ha='center',va='center',fontsize=8,color=MUTED)
         footprint(ax,UPPER_RECT,'#f6f2e9');ext=[('upper-south',(10,0),(22,0)),('upper-west',(10,0),(10,17)),('upper-east',(22,0),(22,17)),('upper-north',(10,17),(22,17))]
-        dim(ax,(10,17),(22,17),feet(12),1.1);dim(ax,(22,0),(22,17),feet(17),1.1)
-        ax.set_xlim(5.8,25);ax.set_ylim(-1.6,19)
+        dim(ax,(10,17),(22,17),feet(12),1.1);dim(ax,(22,0),(22,17),feet(17),3.3)
+        ax.set_xlim(5.8,27);ax.set_ylim(-1.8,19)
+    exterior_projections(ax,level)
     for name,a,b in ext:
         if isinstance(openings,list):
             ops=[];dx=b[0]-a[0];dy=b[1]-a[1];length=math.hypot(dx,dy);u=(dx/length,dy/length)
@@ -158,14 +194,14 @@ def draw(level,out,layout,openings):
     step=.047 if level=='ground' else .065
     for i,(name,x0,y0,x1,y1) in enumerate(rooms,1):
         yy=.94-(i-1)*step;side.text(0,yy,f'{i:02d}  {name}',fontsize=9,color=INK,va='top');side.text(.085,yy-.020,f'{feet(x1-x0)} × {feet(y1-y0)}',fontsize=7.5,color=MUTED,va='top')
-    side.text(0,.20,'ROOF + DRAINAGE INTENT',fontsize=9,fontweight='bold',color=INK)
-    side.text(0,.182,'Low roofs fall 1:80 toward +Y.\nRear collection to planted-strip concept.\nOverflow, capacity and lawful discharge\nremain unresolved.',fontsize=7.6,color=MUTED,linespacing=1.45,va='top')
-    side.text(0,.055,'Outer room zones shown.\nNet room sizes depend on wall thickness.\nExterior doors shown at modeled angle.\nOrientation is not surveyed.',fontsize=7.6,color=MUTED,linespacing=1.5,va='bottom')
+    side.text(0,.235,'ROOF + DRAINAGE INTENT',fontsize=9,fontweight='bold',color=INK)
+    side.text(0,.217,'Low roofs fall 1:80 toward +Y.\nRear collection to planted-strip concept.\nOverflow, capacity and lawful discharge\nremain unresolved.',fontsize=7.6,color=MUTED,linespacing=1.45,va='top')
+    side.text(0,.055,'Outer room zones shown.\nNet room sizes depend on wall thickness.\nExterior doors shown at modeled angle.\nDashed outline: overhead projection.\nOrientation is not surveyed.',fontsize=7.6,color=MUTED,linespacing=1.5,va='bottom')
     fig.text(.04,.953,'MODERN BLOCK',fontsize=25,fontweight='bold',color=INK)
     fig.text(.04,.921,('Ground floor + courtyard' if level=='ground' else 'Upper floor + private rooms'),fontsize=15,color=MUTED)
     fig.text(.975,.945,'CONCEPT PLAN  /  '+('01' if level=='ground' else '02'),ha='right',fontsize=10,color=MUTED)
     fig.text(.04,.065,'4 bedrooms  •  3 full baths + powder  •  2-car garage',fontsize=10,color=INK)
-    fig.text(.04,.04,f'Conditioned gross: {CONDITIONED_M2:,.2f} m² / {CONDITIONED_M2/0.09290304:,.0f} sq ft. Excludes garage, lanai, pool, balcony, terraces and upper stair void.',fontsize=8.6,color=MUTED)
+    fig.text(.04,.04,f'Conditioned gross: {CONDITIONED_M2:,.2f} m² / {CONDITIONED_M2/0.09290304:,.0f} sq ft. Excludes garage, lanai, pool, balcony, porch, facade projections, terraces and upper stair void.',fontsize=8.6,color=MUTED)
     fig.text(.04,.021,'Creative architectural study. Dimensions are concept choices; not an as-built record, permit drawing or code approval.',fontsize=8,color=MUTED)
     fig.text(.975,.043,'METERS IN MODEL  /  FEET + INCHES SHOWN',ha='right',fontsize=8,color=MUTED)
     out.mkdir(parents=True,exist_ok=True)

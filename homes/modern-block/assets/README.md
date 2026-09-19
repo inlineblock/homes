@@ -1,6 +1,6 @@
 # Adopted asset families
 
-Audited against the current `project.json` pins, native reopening receipt and interior placement records: **50 exact dependencies**, including **five newly contributed assets**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.
+Audited against the current `project.json` pins, native reopening receipt and interior placement records: **52 exact dependencies**, including **six newly contributed assets**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.
 
 Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid native scale. Plants use recorded uniform variation. Facade windows are explicitly resized appearance studies; their frame sightlines and operating envelopes remain approximate. A dependency check or closed asset preview does not establish installation approval.
 
@@ -8,7 +8,7 @@ Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid nat
 
 | Exact adopted ID / version | Status | Host use |
 | --- | --- | --- |
-| [`landscape/broad-canopy-oak` / `v001`](../../../library/landscape/broad-canopy-oak/v001/asset.json) | New original | Three instanced trees; trunk/grade placement and modest uniform size variation. |
+| [`landscape/broad-canopy-oak` / `v001`](../../../library/landscape/broad-canopy-oak/v001/asset.json) | New original | Nine instanced trees; trunk/grade placement and modest uniform size variation. |
 | [`landscape/ornamental-grass-clump` / `v002`](../../../library/landscape/ornamental-grass-clump/v002/asset.json) | Reused | Forecourt and courtyard underplanting; documented uniform landscape variation. |
 | [`landscape/sage-shrub` / `v002`](../../../library/landscape/sage-shrub/v002/asset.json) | Reused | Forecourt shrub groups, kept outside routes and driveway. |
 | [`fixtures/courtyard-pool-4x8m` / `v001`](../../../library/fixtures/courtyard-pool-4x8m/v001/asset.json) | New variation | One 4 × 8 m pool; derives from 6 × 12 m v001, with actual site/deck cavity. |
@@ -18,6 +18,7 @@ Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid nat
 
 | Exact adopted ID / version | Status | Host use |
 | --- | --- | --- |
+| [`openings/angled-cedar-privacy-screen-2000x2800` / `v001`](../../../library/openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json) | New original | Two rigid fixed bathroom screens; 350 mm rear-frame-to-glazing service gap. |
 | [`surfaces/honed-limestone-wall-panel-4x2` / `v001`](../../../library/surfaces/honed-limestone-wall-panel-4x2/v001/asset.json) | Reused | Full rigid limestone facade panels; local perimeter cuts use the same linked material. |
 | [`surfaces/honed-limestone-paver-4ft` / `v001`](../../../library/surfaces/honed-limestone-paver-4ft/v001/asset.json) | Reused | Full terrace modules and stepping path; site-specific cut strips at boundaries. |
 | [`openings/slim-dark-window` / `v002`](../../../library/openings/slim-dark-window/v002/asset.json) | Reused; approximate resize | Facade glazing; host resize changes frame sightlines and requires resolved dimensional variants later. |
@@ -91,6 +92,7 @@ Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid nat
 
 | Exact adopted ID / version | Status | Host use |
 | --- | --- | --- |
+| [`materials/bronze-gray-standing-seam` / `v001`](../../../library/materials/bronze-gray-standing-seam/v001/asset.json) | Reused nested dependency | Fixed privacy-screen frame finish. |
 | [`materials/warm-vertical-cedar` / `v003`](../../../library/materials/warm-vertical-cedar/v003/asset.json) | Reused | Upper facade boards, doors and linked screen timber; physical aligned grain. |
 | [`materials/charcoal-facade-panel` / `v001`](../../../library/materials/charcoal-facade-panel/v001/asset.json) | Reused | Low-roof/dark exterior finish and selected host surfaces. |
 | [`materials/coastal-honed-limestone` / `v001`](../../../library/materials/coastal-honed-limestone/v001/asset.json) | Reused | Facade/paver/coping dependencies and site-specific host stone cuts/counters. |
@@ -101,7 +103,7 @@ Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid nat
 
 ## Host geometry and review limits
 
-Bespoke geometry is limited to the pavilion layout, slabs/foundations, walls and actual openings, roof falls/gutters/rooflights, terrace and facade boundary cuts, fitted continuous kitchen/vanity counters and their apertures, service-route allowances, stairs/guards, and parking reservations. These depend on the specific home dimensions. Full stone modules, plants, furniture and standard fixtures remain linked collections.
+Bespoke geometry is limited to the pavilion layout, slabs/foundations, walls and actual openings, roof falls/gutters/rooflights, terrace and facade boundary cuts, fitted continuous kitchen/vanity counters and their apertures, service-route allowances, stairs/guards, projecting entrance/reveals, external flue pier, supported driveway alignment and parking reservations. These depend on the specific home dimensions. Full stone modules, plants, furniture and standard fixtures remain linked collections.
 
 Native verification records four bed instances, 18 wardrobe bays, eight shelf modules, linked pool geometry, five louver instances and 2 m louver spacing. The pool shell and water require the modeled opening in terrain/deck; louver rotation requires its 0.903 m swept radius. Larger shower and open pantry variants preserve true product-concept dimensions. Inspect the host model and plans for circulation, shelving access, door movement, counter cutouts and service fit. Actual engineering, weatherproofing, mechanical capacity, pool barriers, code approval and selected commercial products remain unresolved.
 

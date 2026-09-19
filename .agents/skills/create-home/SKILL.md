@@ -36,15 +36,28 @@ Select the questions that matter to this house:
 - How do massing, roof form, climate response, grade and structural rhythm work together?
 - What makes arrival welcoming, parking practical and circulation direct? Where do privacy, storage and furniture operation constrain the plan?
 - Which openings frame worthwhile views and daylight while respecting enclosure, room use, support and service needs?
+- How do roof silhouette, window composition, recesses and shaded outdoor spaces give the house character from front, back and side? Avoid solving every elevation with generic roofs or arbitrary vertical material stripes.
 - How do exterior materials and proportions continue into the entry, ceilings, beams, joinery or hearth? Carry timber, brick or another material indoors selectively when it strengthens the concept; do not spread a finish everywhere by default.
 - Which signature space deserves emphasis, and which supporting spaces or systems make it believable? Consider outdoor use, furniture, lighting, appliances, drainage and maintenance alongside the hero view.
+
+When a user supplies a reference, identify exactly what they value—exterior silhouette, material tones, window composition or spatial idea—and what may change. Do not copy the reference floor plan by default when the request is exterior-only. Record this distinction in the design intent.
+
+Review a coordinated palette at both facade and close-up scale: neutral temperature, the proportion of contrasting finishes, transitions at architectural boundaries, texture scale, grain direction, mortar and bond, roughness, finish variation and how daylight shifts the colors. Check the palette under neutral daylight before relying on dramatic hero lighting. Do not rely on flat color blocks or harsh white/black contrast to signal quality. Preserve explicit palette choices without making one home's driftwood, brick or roof treatment universal.
 
 Critique each direction concretely. Identify anything flat, cheap-looking, uninviting or impractical through observable causes: weak proportions, repetitive textures, oversized blank surfaces, narrow arrival, unsupported spans, obstructed furniture or missing services. Explain a better design response, not simply a more expensive finish. Offer tailored improvements the brief suggests without adding unrelated luxury features.
 
 Synthesize the strongest coherent direction. Record the recommendation, meaningful tradeoffs and any rejected alternative in **`homes/<slug>/design-intent.md` before generating the new or substantially revised building geometry**. Keep this concise: requirements/assumptions, options and critique, selected spatial/material moves, priority asset reuse/contributions, unresolved dependencies and views/checks that will test the intent. This is an observable design rationale, not a transcript of private reasoning or a ceremonial essay. Proceed within the authorized scope; this record is not an approval gate.
+
+## Coordinate independent critique
+
+For a broad new home or substantial architectural revision, delegate bounded reviews of architecture/materials, program/circulation and site/climate as appropriate. Give each agent clear ownership and reference the actual brief, views and shared catalog. Synthesize the findings into one coherent direction rather than assembling unrelated suggestions. Before final promotion, have an independent reviewer inspect actual exterior/interior renders for design and visual defects; resolve findings or record specific open limitations. Assign one owner per native binary and coordinate heavy rendering. For repeated workflow gaps, improve the existing skill; delegate a new skill draft and independent trial only when no existing skill covers the work.
 
 ## Build, test the intent and refine
 
 Use [home-asset-contribution](../home-asset-contribution/SKILL.md) to reuse suitable pins, publish missing repeated components or reviewed variations, and record actual adoption. Keep functional decisions in `program.md`; keep design rationale in `design-intent.md` and verification in `design-review.md`.
 
 Apply [home-model-output-qa](../home-model-output-qa/SKILL.md) to the native model, plans and current outputs. Pair the exterior hero with corresponding interior views from the same scene: does the material language, spatial character and quality survive both? Inspect human-scale arrival and signature features as well as the flattering camera. Correct the underlying design when a view exposes a weak result; lighting or rendering polish cannot substitute for usable geometry. Preserve the agreed brief, update affected records, and report remaining limitations honestly.
+
+## Finish with Image Gen
+
+After the native model and its render gallery pass visual review, complete the [Image Gen photographic pass](../home-model-output-qa/SKILL.md#image-gen-after-native-render-review). This is a required finishing step for a completed home: use the reviewed exterior render as the image-edit reference, preserve its design and camera, inspect the generated result, and lead the home page with the selected photographic study. Plan a generous photographic tour by default, including multiple exteriors, kitchen/living interiors and signature features from their corresponding reviewed renders; do not wait for separate requests for each image. The minimum gallery is a floor, not a target or cap. Keep the native gallery and plans alongside them. Do not stop at Blender renders or use Image Gen to conceal unresolved architecture.

@@ -262,16 +262,19 @@ class GalleryVerifier:
                     renders[path] = item
         self.coverage(renders, scope)
         self.photographic_study(home, manifest.get('photographic_hero'), renders, f'{scope} photographic_hero', first=True)
-        studies = manifest.get('photographic_interiors', [])
-        if not isinstance(studies, list):
-            self.fail(scope, 'photographic_interiors must be a list')
-        else:
+        for key, expected_view in (('photographic_exteriors', 'exterior'),
+                                   ('photographic_interiors', 'interior')):
+            studies = manifest.get(key, [])
+            if not isinstance(studies, list):
+                self.fail(scope, f'{key} must be a list')
+                continue
             for index, study in enumerate(studies):
-                self.photographic_study(home, study, renders, f'{scope} photographic_interiors[{index}]')
+                label = f'{scope} {key}[{index}]'
+                self.photographic_study(home, study, renders, label)
                 source = study.get('source_render') if isinstance(study, dict) else None
                 native = next((item for item in renders.values() if item.get('path') == source), None)
-                if native and native.get('view') != 'interior':
-                    self.fail(scope, 'interior photographic study needs an interior native source')
+                if native and native.get('view') != expected_view:
+                    self.fail(label, f'{expected_view} photographic study needs an {expected_view} native source')
         levels = self.entries(manifest, 'required_levels', scope)
         if not levels or any(not isinstance(level, str) or not level.strip() for level in levels):
             self.fail(scope, 'required_levels must contain nonempty level names')

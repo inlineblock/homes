@@ -26,6 +26,6 @@ Give each defining feature its own clearly framed image and caption; show paired
 
 Embed a readable furnished plan for every occupied level, beyond the minimum five renders. Link available PDF and vector originals.
 
-Record the reviewed paths and coverage in `gallery.json`, mirror all current images in `outputs/README.md`, add a complete compact gallery to the root README, and run `python3 tools/common/verify_galleries.py` from the repository root. Remove these scaffold instructions as real content is added; never publish broken image placeholders.
+Record the reviewed paths and coverage in `gallery.json`, mirror all current images in `outputs/README.md`, add one realistic photographic hero beside one main/ground plan to the root README, with links to this full home page, and run `python3 tools/common/verify_galleries.py` from the repository root. Remove these scaffold instructions as real content is added; never publish broken image placeholders.
 
 Start with the create-home skill and `design-intent.md` before modeling, then `program.md`, the [program checklist](../../docs/home-program-checklist.md) and [design handbook](../../docs/design-guide/README.md). Create `assets/README.md` for actual linked dependencies and `design-review.md` for measured checks and unresolved decisions. Keep assumptions separate from verified facts.

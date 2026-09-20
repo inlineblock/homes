@@ -11,6 +11,7 @@ import unittest
 import zlib
 
 from verify_galleries import GalleryVerifier
+from write_catalog import write_catalog
 
 
 def png_bytes(red):
@@ -64,9 +65,12 @@ class GalleryPhotographicTests(unittest.TestCase):
         for destination, prefix, order in (
             (self.home / 'README.md', '', self.order),
             (self.home / 'outputs/README.md', '../', self.order),
-            (self.root / 'README.md', 'homes/example/', root_order or self.order),
         ):
             destination.write_text('\n'.join(f'![View]({prefix}{path})' for path in order))
+        order = root_order if root_order is not None else ['outputs/images/photo.png', 'outputs/plans/main.png']
+        row = '| ' + ' | '.join(f'![View](homes/example/{path})' for path in order) + ' |'
+        (self.root / 'README.md').write_text('| Photo | Plan |\n| --- | --- |\n' + row +
+                                           '\n\n[Full home](homes/example/README.md)\n')
 
     def verify(self):
         (self.home / 'gallery.json').write_text(json.dumps(self.manifest))
@@ -133,6 +137,43 @@ class GalleryPhotographicTests(unittest.TestCase):
         readme.write_text('![Logo](logo.png)\n![Another home](homes/other/photo.png)\n' + readme.read_text())
         result, errors, _ = self.verify()
         self.assertEqual((result, errors), (0, []))
+
+    def test_full_gallery_is_rejected_in_root(self):
+        self.write_readmes(root_order=self.order)
+        self.assert_failure('exactly one photographic hero and one registered floor plan')
+
+    def test_catalog_writer_replaces_legacy_spread_and_keeps_full_home(self):
+        self.write_readmes(root_order=self.order)
+        (self.home / 'project.json').write_text('{"name": "Example"}')
+        (self.home / 'gallery.json').write_text(json.dumps(self.manifest))
+        home_page = (self.home / 'README.md').read_text()
+        with contextlib.redirect_stdout(io.StringIO()):
+            write_catalog(self.root)
+            first = (self.root / 'README.md').read_text()
+            write_catalog(self.root)
+        self.assertEqual(first, (self.root / 'README.md').read_text())
+        self.assertEqual(home_page, (self.home / 'README.md').read_text())
+        result, errors, _ = self.verify()
+        self.assertEqual((result, errors), (0, []))
+
+    def test_plan_must_be_registered(self):
+        self.write_readmes(root_order=['outputs/images/photo.png', 'outputs/images/site.png'])
+        self.assert_failure('exactly one photographic hero and one registered floor plan')
+
+    def test_root_preview_row_must_be_side_by_side(self):
+        readme = self.root / 'README.md'
+        readme.write_text(readme.read_text().replace(' | ![View]', '\n![View]'))
+        self.assert_failure('side by side in one table row')
+
+    def test_landing_page_link_required(self):
+        readme = self.root / 'README.md'
+        readme.write_text(readme.read_text().replace('[Full home](homes/example/README.md)', ''))
+        self.assert_failure('must link to the full home landing page')
+
+    def test_compact_root_does_not_relax_home_coverage(self):
+        readme = self.home / 'README.md'
+        readme.write_text(readme.read_text().replace('![View](outputs/images/kitchen.png)', ''))
+        self.assert_failure('missing image embed: outputs/images/kitchen.png')
 
     def test_caption_and_tool_must_be_nonempty_strings(self):
         hero = self.manifest['photographic_hero']

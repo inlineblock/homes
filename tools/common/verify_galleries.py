@@ -228,7 +228,7 @@ class GalleryVerifier:
                         self.fail(label, f'{readme.relative_to(self.root)} must lead with its photographic study')
             except (OSError, UnicodeError, ValueError) as error:
                 self.fail(label, str(error))
-        if path not in self.embeds(self.root / 'README.md'):
+        if first and path not in self.embeds(self.root / 'README.md'):
             self.fail(label, 'root catalog must embed the photographic study')
         if first:
             # Scope by resolved file ownership, not heading names or global order.
@@ -249,6 +249,34 @@ class GalleryVerifier:
             except (OSError, UnicodeError) as error:
                 self.fail(label, str(error))
         return path
+
+    def catalog_entry(self, home, hero, plans):
+        """Root cards show exactly one hero and one plan, linked to the full home."""
+        scope = f'README.md [{home.name}]'
+        text = (self.root / 'README.md').read_text(encoding='utf-8')
+        def owned_images(value):
+            paths = []
+            for _, destination in markdown_images(value):
+                try:
+                    path = local_path(self.root, destination)
+                    path.relative_to(home.resolve())
+                    paths.append(path)
+                except ValueError:
+                    continue
+            return paths
+        images = owned_images(text)
+        if len(images) != 2 or images[0] != hero or images[1] not in plans:
+            self.fail(scope, 'root catalog needs exactly one photographic hero and one registered floor plan')
+        elif not any(owned_images(line) == images and line.strip().startswith('|') for line in text.splitlines()):
+            self.fail(scope, 'root photo and floor plan must be side by side in one table row')
+        links = []
+        for destination in re.findall(r'\]\(([^\s)]+)\)', text):
+            try:
+                links.append(local_path(self.root, destination))
+            except ValueError:
+                continue
+        if home / 'README.md' not in links:
+            self.fail(scope, 'root catalog must link to the full home landing page')
 
     def home(self, home):
         scope = str(home.relative_to(self.root))
@@ -364,11 +392,10 @@ class GalleryVerifier:
             missing = (set(renders) | set(plans)) - self.embeds(readme)
             for path in sorted(missing):
                 self.fail(readme.relative_to(self.root), f'missing image embed: {path.relative_to(home)}')
-        root_embeds = self.embeds(self.root / 'README.md')
-        root_renders = {path: item for path, item in renders.items() if path in root_embeds}
-        self.coverage(root_renders, f'README.md [{home.name}]')
-        for path in sorted((feature_paths | set(plans)) - root_embeds):
-            self.fail(f'README.md [{home.name}]', f'missing feature/plan image embed: {path.relative_to(self.root)}')
+        try:
+            self.catalog_entry(home, hero_path, plans)
+        except (OSError, UnicodeError) as error:
+            self.fail(f'README.md [{home.name}]', str(error))
         state = 'OK' if len(self.errors) == count_before else 'FAIL'
         print(f'{state} {home.name}: {len(renders)} renders, {len(plans)} level plans, '
               f'{len(feature_ids)} features, photographic studies: {len(photographic_paths)} '

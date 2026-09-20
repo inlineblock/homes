@@ -63,21 +63,9 @@ def page(prefix,homeprefix,title):
  return text
 (H/'README.md').write_text(page('','','Modern Block'))
 (H/'outputs/README.md').write_text(page('../','../','Modern Block — current outputs'))
-# Root entry includes all native renders, every study and every occupied level.
-entry='### Modern Block\n\n'+img(photos[0],'homes/modern-block/')+intro+'[Full project and editable models](homes/modern-block/README.md) · [Current outputs](homes/modern-block/outputs/README.md)\n\n'
-entries=[]
-for p in photos[1:]:
- entries.append(p)
- if p in gallery['photographic_interiors']:entries.append(next(r for r in renders if r['path']==p['source_render']))
-paired={p['source_render'] for p in gallery['photographic_interiors']}
-entries += [r for r in renders if r['path'] not in paired]
-for i in range(0,len(entries),2):
- pair=entries[i:i+2]
- if len(pair)==1:entry+=img(pair[0],'homes/modern-block/');continue
- a,b=pair;entry+=f"| {a['caption']} | {b['caption']} |\n| --- | --- |\n| ![{a['caption']}](homes/modern-block/{a['path']}) | ![{b['caption']}](homes/modern-block/{b['path']}) |\n\n"
-for p in plans:entry+=img(p,'homes/modern-block/')
-root=ROOT/'README.md';s=root.read_text();start=s.find('### Modern Block\n');
-if start>=0:
- end=s.find('\n### ',start+1);s=s[:start]+(s[end+1:] if end>=0 else '')
-pos=s.index('### ');s=s[:pos]+entry+s[pos:];root.write_text(s)
+# Keep the root catalog compact; full coverage stays on each home page.
+import sys
+sys.path.insert(0, str(ROOT/'tools/common'))
+from write_catalog import write_catalog
+write_catalog(ROOT)
 print('GALLERY_WRITTEN',len(renders),len(photos),len(plans))

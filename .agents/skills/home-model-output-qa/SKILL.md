@@ -1,6 +1,6 @@
 ---
 name: home-model-output-qa
-description: Build, reopen, and visually review this repository’s Blender home models, IFC exports, render sets, and dimensioned concept plans before promoting current outputs. Use for new homes, coordinated home revisions or README gallery coverage audits, not generic image generation.
+description: Build, reopen, and visually review this repository’s Blender home models, IFC exports, render sets, walkthrough videos, and dimensioned concept plans before promoting current outputs. Use for new homes, coordinated home revisions or README gallery coverage audits, not generic image generation.
 ---
 
 # Home model and output QA
@@ -46,6 +46,10 @@ Plan abundant useful coverage, not a single hero plus optional interiors. For a 
 5. Register the lead exterior under `photographic_hero`, additional exteriors under `photographic_exteriors`, and interiors under `photographic_interiors` in `gallery.json`, with paths relative to the home and actual hashes. Lead the home README, output index and root catalog entry with the labeled exterior photographic study. Embed all selected studies with descriptive captions in all three locations; pair interior studies with their native source renders. Organize the home page as a readable tour from arrival to shared rooms, outdoor living and details, with plans easy to find. Retain every required native view and plan; generated studies never count as native evidence. Run the gallery verifier and inspect the final image/caption order.
 
 Label results **AI photographic studies**, not photographs of an existing building. If generation is unavailable or fails, report this finishing step as incomplete rather than substituting a native render without explanation. When a source view changes, regenerate its study or explicitly retire the stale one; a completed home still requires a current exterior photographic hero.
+
+## Requested walkthrough videos
+
+When creating, revising or auditing a walkthrough, read [walkthrough guidance](references/walkthroughs.md) for traversable native motion, exact-frame photographic references, AI conditioning, cache validity and separate completion checks. This does not require a video for ordinary still-gallery work.
 
 ## Gallery completeness
 

@@ -1,6 +1,10 @@
 {
+  "schema_version": 1,
+  "status": "Current ten-camera evidence reconciled to the fresh native reopen; coordinated kitchen revision, not a camera-only preservation claim",
   "software": "4.5.14 LTS",
-  "camera_count": 7,
+  "native_model": "model/timber-courtyard-02.blend",
+  "native_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "camera_count": 10,
   "named_cameras": [
     "01 Reference exterior",
     "02 Elevated courtyard",
@@ -8,10 +12,160 @@
     "04 Plan cutaway",
     "05 Living and dining",
     "06 Kitchen",
+    "08 Cooking wall",
+    "10 Living room",
+    "09 Pantry",
     "07 Rear garden"
   ],
-  "noncamera_design_hash_before": "d1c36ef5e7c76be689ae7c4379fb281e1a3d103e9c24d09454a00f171d480643",
-  "noncamera_design_hash_after": "d1c36ef5e7c76be689ae7c4379fb281e1a3d103e9c24d09454a00f171d480643",
-  "approved_non_camera_scene_unchanged": true,
-  "scope": "Cameras only: existing mesh geometry, transforms, effective material assignments, lights and render visibility unchanged. Interior remains schematic; this is not a renewed whole-home program review."
+  "scope": "Camera poses and lenses in the revised furnished home match the authoring source. Kitchen/pantry geometry, glazing, ceiling, lighting and adjacent furnishings changed in this revision; no unchanged non-camera-scene claim is made.",
+  "fresh_reopen_validation": "model/model-validation.json",
+  "fresh_reopen_validation_sha256": "772a9a7be11dad98623c80dcb4512f8588eb609a36a35506b33f0e6872e349a0",
+  "all_camera_poses_and_lenses_match_source": true,
+  "roof_and_structure_visible_in_saved_native": true,
+  "camera_source": "../../tools/timber02/gallery.py",
+  "camera_source_sha256": "2f076ca1298fe48e9cbebbfc727e3740cc9fdd89ff2e8d71304896396317a29e",
+  "cameras": [
+    {
+      "name": "01 Reference exterior",
+      "source_position_ft": [
+        31,
+        -81,
+        30
+      ],
+      "source_target_ft": [
+        31,
+        20,
+        4.8
+      ],
+      "source_focal_length_mm": 40
+    },
+    {
+      "name": "02 Elevated courtyard",
+      "source_position_ft": [
+        88,
+        -63,
+        59
+      ],
+      "source_target_ft": [
+        30,
+        22,
+        4
+      ],
+      "source_focal_length_mm": 43
+    },
+    {
+      "name": "03 Garden threshold",
+      "source_position_ft": [
+        31,
+        -24,
+        6.2
+      ],
+      "source_target_ft": [
+        31,
+        32,
+        6.5
+      ],
+      "source_focal_length_mm": 24
+    },
+    {
+      "name": "04 Plan cutaway",
+      "source_position_ft": [
+        31,
+        24,
+        105
+      ],
+      "source_target_ft": [
+        31,
+        24,
+        0
+      ],
+      "source_focal_length_mm": 46
+    },
+    {
+      "name": "05 Living and dining",
+      "source_position_ft": [
+        18,
+        44.7,
+        5.5
+      ],
+      "source_target_ft": [
+        30,
+        28,
+        5.5
+      ],
+      "source_focal_length_mm": 40
+    },
+    {
+      "name": "06 Kitchen",
+      "source_position_ft": [
+        35.4,
+        34.0,
+        5.5
+      ],
+      "source_target_ft": [
+        46.8,
+        43,
+        4.7
+      ],
+      "source_focal_length_mm": 24
+    },
+    {
+      "name": "08 Cooking wall",
+      "source_position_ft": [
+        42,
+        36.4,
+        5.5
+      ],
+      "source_target_ft": [
+        52.5,
+        43.4,
+        4.6
+      ],
+      "source_focal_length_mm": 27
+    },
+    {
+      "name": "10 Living room",
+      "source_position_ft": [
+        31,
+        34,
+        5.5
+      ],
+      "source_target_ft": [
+        23,
+        43,
+        3.7
+      ],
+      "source_focal_length_mm": 28
+    },
+    {
+      "name": "09 Pantry",
+      "source_position_ft": [
+        55.0,
+        34.1,
+        5.5
+      ],
+      "source_target_ft": [
+        59.6,
+        43.3,
+        4.0
+      ],
+      "source_focal_length_mm": 22
+    },
+    {
+      "name": "07 Rear garden",
+      "source_position_ft": [
+        31,
+        91,
+        8.5
+      ],
+      "source_target_ft": [
+        31,
+        43,
+        7
+      ],
+      "source_focal_length_mm": 22
+    }
+  ],
+  "render_state_note": "The roof-off image uses a temporary orthographic camera and hides roof, structure and ceiling lining; that render state is not saved over the canonical furnished model.",
+  "review_limits": "Camera/source matching does not establish whole-home program, engineering or photographic quality approval."
 }

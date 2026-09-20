@@ -1,147 +1,259 @@
 {
-  "status": "Gallery coverage verified with documented schematic-model limitations; not full visual-quality or whole-home design approval",
+  "schema_version": 1,
+  "status": "Ten current native views promoted after completed pixel review; scoped kitchen/pantry revision, not whole-home design approval",
   "native_model": "model/timber-courtyard-02.blend",
-  "native_sha256": "ebc7ccb7c897a0ed6f2153b462ad1d456d5b006828bd67473b50a39cfa70c74b",
-  "scope": "Three new native cameras/renders; approved non-camera geometry, effective material assignments, lighting, and visibility unchanged. Only render exposure adjusted per view. No image generation or compositing.",
-  "noncamera_scene_validation": "model/gallery-camera-validation.json",
+  "native_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "scope": "Coordinated kitchen, pantry, nearby furnishings, ceiling, lighting and local glazing revision with all ten native views refreshed. AI photographic studies are separate derivatives registered in gallery.json and do not count as native render evidence.",
+  "camera_validation": "model/gallery-camera-validation.json",
   "fresh_reopen_validation": "model/model-validation.json",
-  "source_commands": [
-    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/prepare_gallery.py",
-    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/verify_gallery.py",
-    "blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/render_gallery.py -- 05-living-dining 06-kitchen 07-rear-garden"
-  ],
+  "kitchen_geometry_validation": "model/kitchen-validation.json",
+  "visual_review_evidence": "design-review.md#output-and-photographic-evidence",
+  "receipt_method": "Current file hashes and PNG dimensions checked against the actual promoted files and their matching render candidates. Render settings and source hashes consolidated from completed renderer records. Completed pixel review is recorded in design-review.md; this receipt refresh does not assert a new render or native reopen.",
+  "generation_entrypoints": {
+    "render": "../../tools/timber02/render_gallery.py",
+    "camera_source": "../../tools/timber02/gallery.py",
+    "native_verifier": "../../tools/timber02/verify_gallery.py"
+  },
   "counts": {
-    "unique_native_architectural_views": 6,
+    "total_native_images": 10,
+    "unique_native_architectural_views": 9,
     "exterior_views_including_courtyard_feature": 4,
     "exterior_coverage_roles": [
       "front / arrival",
       "rear / garden",
       "side / elevated site"
     ],
-    "interior_viewpoints": 2,
+    "interior_viewpoints": 5,
     "roof_off_model_plans": 1,
-    "levels": 1
+    "levels": 1,
+    "separate_photographic_studies": 6
   },
   "review_notes": {
-    "05-living-dining": "View from the living room through courtyard glazing. The unframed dining furniture remains unresolved; this is not a furnished living/dining portrait.",
-    "06-kitchen": "Island, linked stools, rear worktop, sage backsplash, sink and hob visible; cabinetry/appliances schematic. Oven and hood not modeled.",
-    "07-rear-garden": "Low camera beneath tree crowns shows the rear gable and glazing; existing shrub border obscures the lower facade. No trees hidden or moved."
+    "01-exterior": "Paired timber wings, dark pitched roofs, central glazed gable and arrival approach retained after the coordinated interior revision.",
+    "02-elevated": "Elevated view shows roof intersections and courtyard relationship; exterior-led massing retained.",
+    "03-garden-entry": "Garden threshold, entry canopy and planted courtyard remain the dedicated signature-feature view.",
+    "04-model-plan": "Reviewed roof-off arrangement includes revised kitchen island, cooking/cleanup walls, fitted pantry and supported adjacent furnishings. The separate dimensioned plan remains the readable plan deliverable.",
+    "05-living-dining": "View from the living room through courtyard glazing; this camera primarily explains the indoor/courtyard relationship. The new 10-living-room view shows the furnished room.",
+    "06-kitchen": "Real modeled sink/dishwasher, drawer and waste storage, integrated refrigeration, island and three stools replace placeholders; work aisles and pantry access have separate measured evidence.",
+    "07-rear-garden": "Rear elevation includes counter-height kitchen glazing and solid cedar spandrel beside living-room full-height glass; existing foreground tree and shrub positions retained.",
+    "08-cooking-wall": "36-inch induction cooktop, separate 30-inch oven, 36-inch hood/chimney, smoked-oak drawers and integrated refrigerator are visible. Sage tile is concentrated on the cooking wall.",
+    "09-pantry": "Six shared shelving bays, rear drawer bases/worktop, power outlet, high side glazing and usable clear aisle are visible.",
+    "10-living-room": "Shared linen sofa, supported oak coffee table and adjacent dining furniture are grounded beneath the finished timber ceiling."
   },
-  "known_preexisting_limitations": [
-    "Six dining chairs have no modeled legs.",
-    "Coffee table has no modeled base.",
-    "Kitchen oven and extraction hood are absent.",
-    "Cabinet/appliance details, planting, site and building systems remain schematic."
+  "current_limitations": [
+    "Whole-home bedroom storage, premium bathroom fitout, laundry/services and parking/site arrangement remain unresolved.",
+    "Selected commercial appliance installation, ventilation, utilities, roof drainage, assemblies, structure and approvals remain unverified.",
+    "The generic refrigerator sweep allowance retains an explicit selected-product coordination note in model/kitchen-validation.json.",
+    "Some legacy bedroom/bathroom, planting and paving geometry still awaits shared-library migration."
   ],
   "images": [
     {
       "image": "outputs/images/01-exterior.png",
       "camera": "01 Reference exterior",
       "role": "front exterior",
-      "sha256": "cd72ecf4a3b7881c1585d831c42a554085fb4ba8a7266b8d0aa822a5f40fd02b",
+      "view": "exterior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "e5204ede78a2881480679b866d08bcd4468c9e468a2eb0fa2d3f8399153094fa",
       "resolution_px": [
-        1800,
-        1200
+        2400,
+        1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
-      "new_native_render": false,
-      "retained_existing_output": true
+      "samples": 256,
+      "exposure": -0.699999988079071,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Paired timber wings, dark pitched roofs, central glazed gable and arrival approach retained after the coordinated interior revision."
     },
     {
       "image": "outputs/images/02-elevated.png",
       "camera": "02 Elevated courtyard",
       "role": "side / elevated site",
-      "sha256": "9065ce826d5c53ccece85d16477a910d6bf2c09bedec6c9de4bad73d1bb41e73",
+      "view": "exterior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "51ad79050db3530e18a70c97360707b9beec165c8cd44e9e7db0b6b4d51000e5",
       "resolution_px": [
-        1800,
-        1200
+        2400,
+        1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
-      "new_native_render": false,
-      "retained_existing_output": true
+      "samples": 256,
+      "exposure": -0.699999988079071,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Elevated view shows roof intersections and courtyard relationship; exterior-led massing retained."
     },
     {
       "image": "outputs/images/03-garden-entry.png",
       "camera": "03 Garden threshold",
       "role": "courtyard feature",
-      "sha256": "dd90135f222e88d75663b85f7f60e818c9554a5e0ac89820b3ee94b27ea93c89",
+      "view": "exterior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "07343303f3d61d65e924517dccc5732779eb2a83dd713e19e5c83f24b6589fe4",
       "resolution_px": [
-        1800,
-        1200
+        2400,
+        1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
-      "new_native_render": false,
-      "retained_existing_output": true
+      "samples": 256,
+      "exposure": -0.699999988079071,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Garden threshold, entry canopy and planted courtyard remain the dedicated signature-feature view."
     },
     {
       "image": "outputs/images/04-model-plan.png",
       "camera": "04 Plan cutaway",
       "role": "single-level roof-off model plan",
-      "sha256": "9da978dae61807895630d18247703c65ded3f0daab28c3bce5356b984928b857",
+      "view": "cutaway",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "1831ecb45b5e61c980454418d23637355f9168a20f4715bf8f84bcf387d24a45",
       "resolution_px": [
         1600,
         1400
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
-      "new_native_render": false,
-      "retained_existing_output": true
+      "samples": 256,
+      "exposure": -0.699999988079071,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": true,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Reviewed roof-off arrangement includes revised kitchen island, cooking/cleanup walls, fitted pantry and supported adjacent furnishings. The separate dimensioned plan remains the readable plan deliverable."
     },
     {
       "image": "outputs/images/05-living-dining.png",
       "camera": "05 Living and dining",
       "role": "View from the living room through courtyard glazing",
-      "sha256": "0fcb6e1729d11f9e76f93686acd325ba6e0606fcf215dcd86a9a270fd7f4e19c",
+      "view": "interior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "41dd94034581754ae6b346baa4663c75c0460225bdbbcecb5c3223855128c2a6",
       "resolution_px": [
         2400,
         1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
       "samples": 256,
       "exposure": 0.30000001192092896,
       "render_engine": "Cycles / Metal",
-      "new_native_render": true
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "View from the living room through courtyard glazing; this camera primarily explains the indoor/courtyard relationship. The new 10-living-room view shows the furnished room."
     },
     {
       "image": "outputs/images/06-kitchen.png",
       "camera": "06 Kitchen",
-      "role": "schematic kitchen interior",
-      "sha256": "95f540e3e9182d0e0de4ab09bde7af72f3d473cea3e57b74f97e9e93c5c94763",
+      "role": "coordinated kitchen interior",
+      "view": "interior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "ea7a826219b73922eff1e63cf3dace876882761aa6cba56be3ae317d2f07d244",
       "resolution_px": [
         2400,
         1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
       "samples": 256,
       "exposure": 0.30000001192092896,
       "render_engine": "Cycles / Metal",
-      "new_native_render": true
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Real modeled sink/dishwasher, drawer and waste storage, integrated refrigeration, island and three stools replace placeholders; work aisles and pantry access have separate measured evidence."
     },
     {
       "image": "outputs/images/07-rear-garden.png",
       "camera": "07 Rear garden",
       "role": "rear exterior and garden",
-      "sha256": "5b89cf9b07b97c7b52eacaa099a7f7bb7f18d670be9dbaf00ca7a7120fcd3f81",
+      "view": "exterior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "1ab41a84b48b009a8444ae7e6a4c920ddb6f9411d0620f334ba70a8c0cde15c8",
       "resolution_px": [
         2400,
         1600
       ],
-      "review": "actual pixels inspected; existing concept limitations retained",
       "samples": 256,
       "exposure": 0.5,
       "render_engine": "Cycles / Metal",
-      "new_native_render": true
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Rear elevation includes counter-height kitchen glazing and solid cedar spandrel beside living-room full-height glass; existing foreground tree and shrub positions retained."
+    },
+    {
+      "image": "outputs/images/08-cooking-wall.png",
+      "camera": "08 Cooking wall",
+      "role": "induction cooking, oven and integrated refrigeration",
+      "view": "interior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "91d5d92311afc1529016cfe84b4dc4512293852e92094ba810b7b24117013570",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "samples": 256,
+      "exposure": 0.30000001192092896,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "36-inch induction cooktop, separate 30-inch oven, 36-inch hood/chimney, smoked-oak drawers and integrated refrigerator are visible. Sage tile is concentrated on the cooking wall."
+    },
+    {
+      "image": "outputs/images/09-pantry.png",
+      "camera": "09 Pantry",
+      "role": "fitted walk-in pantry and appliance storage",
+      "view": "interior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "19cb308e49ebd987705df4ac6c8392d72cd1a61151eaff15929f6b8ca980a73b",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "samples": 256,
+      "exposure": 0.30000001192092896,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Six shared shelving bays, rear drawer bases/worktop, power outlet, high side glazing and usable clear aisle are visible."
+    },
+    {
+      "image": "outputs/images/10-living-room.png",
+      "camera": "10 Living room",
+      "role": "furnished living room and timber ceiling",
+      "view": "interior",
+      "native_source": "model/timber-courtyard-02.blend",
+      "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+      "sha256": "b34bb496cbae9ec1c6d8f2b5daeec59a47cd764f7ef59f7df651a4a617fa4405",
+      "resolution_px": [
+        2400,
+        1600
+      ],
+      "samples": 256,
+      "exposure": 0.30000001192092896,
+      "render_engine": "Cycles / Metal",
+      "roof_hidden_for_render": false,
+      "review": "Promoted after the completed production pixel review documented in design-review.md; native render, not Imagegen.",
+      "review_notes": "Shared linen sofa, supported oak coffee table and adjacent dining furniture are grounded beneath the finished timber ceiling."
     }
   ],
   "level_plans": [
     {
       "level": "Ground floor",
       "png": "outputs/plans/floor-plan.png",
+      "png_sha256": "f3ce4a156f298800ce1b809b188bf62f2815a2040e44ef4a3f1635196fc11ef7",
       "svg": "outputs/plans/floor-plan.svg",
-      "roof_off": "outputs/images/04-model-plan.png"
+      "svg_sha256": "5e450d9737ff61543818989b9b77129898fe6ee8f9ee386b6a2be2cf5234c95f",
+      "roof_off": "outputs/images/04-model-plan.png",
+      "status": "Regenerated and visually reviewed with the revised kitchen/pantry arrangement; concept plan, not construction documentation."
     }
   ],
   "presentation_sheet": {
     "path": "outputs/plans/design-board.pdf",
-    "status": "Retained; its front image and floor plan did not change."
+    "sha256": "5019bc1c82e6435d1e48977d401ace649c7198bbda773ed1f888756254cf6d0b",
+    "preview": "outputs/plans/design-board.png",
+    "preview_sha256": "455245db309fd0f5f639dab4ec96a66c6894633de359a97d2e64ec10ee855464",
+    "status": "Regenerated with the current exterior and corrected concept plan; PDF and preview visually reviewed before promotion."
   }
 }

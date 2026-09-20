@@ -398,6 +398,11 @@
 <text x="774.73" y="456.73999999999995" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#253b40" text-anchor="middle" font-weight="400">PANTRY</text>
 <rect x="806.956" y="412.39849999999996" width="192.61800000000002" height="33.825" fill="#b1a18c" stroke="#253b40" stroke-width="1"/>
 <rect x="806.956" y="358.77049999999997" width="192.61800000000002" height="48.339000000000006" fill="#b1a18c" stroke="#253b40" stroke-width="1"/>
+<rect x="275.6575" y="417.99499999999995" width="67.0965" height="12.915000000000052" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
+<line x1="284.6365" y1="430.91" x2="333.775" y2="430.91" stroke="#414543" stroke-width="2"/>
+<text x="259.36" y="448.13" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#253b40" text-anchor="middle" font-weight="400">ELECTRIC</text>
+<text x="259.36" y="459.2" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#253b40" text-anchor="middle" font-weight="400">FIREPLACE</text>
+<line x1="269.2" y1="445.66999999999996" x2="275.6575" y2="430.91" stroke="#6c7e7b" stroke-width="0.5"/>
 <line x1="279.04" y1="414.61249999999995" x2="340.54" y2="414.61249999999995" stroke="#58939b" stroke-width="1"/>
 <line x1="279.04" y1="412.7675" x2="340.54" y2="412.7675" stroke="#58939b" stroke-width="1"/>
 <line x1="279.04" y1="410.9225" x2="340.54" y2="410.9225" stroke="#58939b" stroke-width="1"/>

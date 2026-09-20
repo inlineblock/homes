@@ -3,6 +3,7 @@ import sys,math,json,subprocess,shutil
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];sys.path[:0]=[str(Path(__file__).parent),str(ROOT/'tools')]
 from design import *
+from fireplace import X1 as FP_X1, X2 as FP_X2, HEARTH_FRONT as FP_FRONT, BACK as FP_BACK
 from verandah import (PERGOLA_BOUNDS, PERGOLA_POSTS, PERGOLA_POST_WIDTH,
                       ENTRY_CANOPY_BOUNDS, ENTRY_CANOPY_POSTS, SCREEN_X, SCREEN_Y)
 from roof_design import (PAVILION, RIDGE_X, PAVILION_PITCH, PAVILION_BEARING,
@@ -316,6 +317,10 @@ label(62.9,35.4,'COOKTOP',7);label(62.9,34.3,'HOOD + OVEN',7);line((63.8,34.3),(
 rect(52.25,28.75,2,2,'#cbd3d2',INK,1);label(53.25,29.7,'DW',8)
 rect(43.1,37.3,4,2,OAK,INK,1);label(45.1,36.2,'PANTRY',9)
 rect(47.72,37.055,15.66,2.75,OAK,INK,1);rect(47.72,40.235,15.66,3.93,OAK,INK,1)
+rect(FP_X1,FP_FRONT,FP_X2-FP_X1,FP_BACK-FP_FRONT,SAND,INK,1)
+line((FP_X1+.73,FP_FRONT),(FP_X2-.73,FP_FRONT),'#414543',2)
+label(3.2,36.9,'ELECTRIC',7);label(3.2,36.0,'FIREPLACE',7)
+line((4,37.1),(FP_X1,FP_FRONT),MUTED,.5)
 # Pocket panels at actual open endpoints, unmistakably outside the opening.
 for i in range(6):line((4.8,39.625+i*.15),(9.8,39.625+i*.15),BLUE,1)
 for i in range(4):line((60.1,39.805+i*.13),(63.1,39.805+i*.13),BLUE,1)
@@ -425,10 +430,10 @@ d.image(IMG/'10-primary-bath.png',55,178,1290,806.25)
 d.text(55,1022,'Double vanity / separate soaking tub / generous shower / enclosed toilet / walk-in dressing',18,INK,bold=True)
 d.text(55,1055,'Fixture spacing and walking routes checked; waterproofing, ventilation and final fixture specifications unverified.',16,MUTED);d.save()
 d=Drawing(1400,1120,WORK/'living-page.pdf',title='Coastal House | Warm living retreat')
-header(d,8,'A place to settle in','Warm driftwood, woven oatmeal and olive linen give the living room a softer coastal character.')
-d.image(IMG/'11-living-retreat.png',55,178,1290,806.25)
-d.text(55,1022,'Linked shared furniture / a tactile rug / soft color / the same generous terrace opening',18,INK,bold=True)
-d.text(55,1055,'A house ledger spans the glass wall; two outer posts support open slatted shade, not a rainproof roof.',16,MUTED);d.save()
+header(d,8,'A fireplace beside the terrace','A slim electric concept in limestone, on the room side of the sliding-glass pocket.')
+d.image(IMG/'14-living-fireplace.png',55,178,1290,806.25)
+d.text(55,1022,'48-inch electric insert / 3.05 ft chaise-to-hearth gap / sliding pocket retained',18,INK,bold=True)
+d.text(55,1055,'Concept geometry; final fireplace product, thermal clearances and electrical installation remain unselected.',16,MUTED);d.save()
 d=Drawing(1400,1120,WORK/'vault-page.pdf',title='Coastal House | Exposed driftwood pavilion')
 header(d,9,'The pavilion overhead','A real vaulted living and dining room, exposed driftwood frames and high glazing toward the coast.')
 d.image(IMG/'12-vaulted-living.png',55,178,1290,806.25)

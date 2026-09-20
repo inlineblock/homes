@@ -5,7 +5,7 @@ from common.geometry import F, move
 from common.library import linked_collection, instance
 
 PANEL_ID = 'surfaces/honed-limestone-wall-panel-4x2'
-PIERS = ((0., 4.5), (40.3, 47.7), (63.4, 68.))
+PIERS = ((0., 4.5), (4.525, 9.98), (40.3, 47.7), (63.4, 68.))
 JOINT = .025
 
 
@@ -19,7 +19,7 @@ def build(root):
             bottom = .02 + row * (2 + JOINT)
             height = min(2., 10.48 - bottom)
             # Broad balanced cuts at narrow piers; never leave a thin sliver.
-            first = 4. if width > 6 else (width - JOINT) / 2 + (.35 if row % 2 else -.35)
+            first = 4. if width > 5 else (width - JOINT) / 2 + (.35 if row % 2 else -.35)
             widths = [first, width - JOINT - first]
             if row % 2: widths.reverse()
             start = a

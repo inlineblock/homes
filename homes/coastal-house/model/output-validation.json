@@ -1,6 +1,6 @@
 {
   "home": "coastal-house",
-  "source_blend_sha256": "e7481133030133dd630bd6a49a875062a520ed7276fa4f4c839941b002818b0b",
+  "source_blend_sha256": "a756a73244ffad0c723389a411a6f43aa104298b188a1f7d3a8f2fe8a1b519ce",
   "blender_version": "4.5.14 LTS",
   "reviewed_images": [
     {
@@ -11,7 +11,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "22f673beb74cd41fc20c396f565277d5d01cc6869537bdac1514e91e9983dac3"
+      "sha256": "25b2bc19cabcca62008dc6c38aa9b30fee8e9f83fc58d39375eabef6cc41781f",
+      "revision_review": "New render visually reviewed"
     },
     {
       "file": "outputs/images/02-great-room.png",
@@ -21,7 +22,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "646784016669565cda89a4d0ed5ac31c159b89cc8ae45d1ef931bc3be9ba2222"
+      "sha256": "646784016669565cda89a4d0ed5ac31c159b89cc8ae45d1ef931bc3be9ba2222",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/03-serving-counter-open.png",
@@ -31,7 +33,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "401d2832d15f14b899cf8d82daa3262de6c9e2e57759652b01491a7e24a1481e"
+      "sha256": "401d2832d15f14b899cf8d82daa3262de6c9e2e57759652b01491a7e24a1481e",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/04-serving-counter-closed.png",
@@ -41,7 +44,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "48e03f6428c80f551199bb788588c12de1b595229363ccbf60817c41fcf9fe58"
+      "sha256": "48e03f6428c80f551199bb788588c12de1b595229363ccbf60817c41fcf9fe58",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/05-terrace-closed.png",
@@ -51,7 +55,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "556b641b28c7f844f9e7a74587c2fa5d022a26d39a57313ad4521307b8ec7f07"
+      "sha256": "85c8f4e9afff50f2d8974f4ad402bb78f027e0aeb70d3d68414bb7a0d94cb041",
+      "revision_review": "New render visually reviewed"
     },
     {
       "file": "outputs/images/06-front-arrival.png",
@@ -61,7 +66,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "a86ae17998eaac48737431462f6a4716d44f99fc6e61665c0f4bf8e987584e7f"
+      "sha256": "a86ae17998eaac48737431462f6a4716d44f99fc6e61665c0f4bf8e987584e7f",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/07-roof-and-parking.png",
@@ -71,7 +77,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "735744a4e870ba7ffdd292fa5f883563886d2d6ca685aab97f62cbe6b6eb6a06"
+      "sha256": "735744a4e870ba7ffdd292fa5f883563886d2d6ca685aab97f62cbe6b6eb6a06",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/08-west-garden.png",
@@ -81,7 +88,8 @@
       ],
       "cycles_max_samples": 256,
       "reviewed": true,
-      "sha256": "3d8780aab1b2ca686d8879daeefa4ee7c56b2ec71596d9ba27ded8da164c488c"
+      "sha256": "999224771227fa40a543baba087e06f1634b6d7e235fa09c0d73cabfe2e9e8c8",
+      "revision_review": "New render visually reviewed"
     },
     {
       "file": "outputs/images/09-entry-hall.png",
@@ -91,7 +99,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "0180e0b0dd360a4f58cb2f9b4fcaac21dba86af73976e9fc3d8b161a5388a85c"
+      "sha256": "0180e0b0dd360a4f58cb2f9b4fcaac21dba86af73976e9fc3d8b161a5388a85c",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/10-primary-bath.png",
@@ -101,7 +110,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "6640a264414625314f42ffd28b54b816e498bfad3cb75d06e1cb13503cf48d5d"
+      "sha256": "6640a264414625314f42ffd28b54b816e498bfad3cb75d06e1cb13503cf48d5d",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/11-living-retreat.png",
@@ -111,7 +121,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "d8007e165cc78aed4e78c33f6f377de6ed1a12547bcdcb8c3b52df117bfc68bc"
+      "sha256": "d8007e165cc78aed4e78c33f6f377de6ed1a12547bcdcb8c3b52df117bfc68bc",
+      "revision_review": "Retained reviewed view; revised wall/fireplace outside visible content"
     },
     {
       "file": "outputs/images/12-vaulted-living.png",
@@ -121,7 +132,8 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "5888794a6974177135079c63bdb134d1c7739c6fff31698edbc54a0a287b417d"
+      "sha256": "9b45bf156c6f15b00c67b45794a488e60c76a4bad3f6deed7cc5fc090999675d",
+      "revision_review": "New render visually reviewed"
     },
     {
       "file": "outputs/images/13-kitchen-to-vault.png",
@@ -131,25 +143,37 @@
       ],
       "cycles_max_samples": 512,
       "reviewed": true,
-      "sha256": "0f3b377fc42600d1fe04d02cda4e4d019a14855e9ab60eda0032070612488d2d"
+      "sha256": "c502d05328a2c77c5369ae43ef963fbeb05433dd8c2cff7783272467cfed1d43",
+      "revision_review": "New render visually reviewed"
+    },
+    {
+      "file": "outputs/images/14-living-fireplace.png",
+      "pixels": [
+        3200,
+        2000
+      ],
+      "cycles_max_samples": 512,
+      "reviewed": true,
+      "sha256": "2bc03fba4ee96e131440f4407833a70137bd5cc2734cc37c265aada16fb07a15",
+      "revision_review": "New render visually reviewed"
     }
   ],
   "pdf": {
     "file": "outputs/plans/design-board.pdf",
     "pages": 10,
     "all_pages_visually_reviewed": true,
-    "sha256": "163d28d1846b57c2ee728ea7540d91827daebe8a30478fd2d949d07d73203ab6"
+    "sha256": "b05c08db8c22ec6857646ca4bd042781e1815ff10a20a06214655b19632390a2"
   },
   "plans": [
     {
       "file": "outputs/plans/floor-plan.png",
       "visually_reviewed": true,
-      "sha256": "3d82b99f0bdd2bf7cc8e152875a5cf9ad5c39f90f7f58f99a4804dba800e1317"
+      "sha256": "28022175421186b81502b4505052fee5c411c72ca6f1a058b9146dbe6167426b"
     },
     {
       "file": "outputs/plans/floor-plan.svg",
       "visually_reviewed": true,
-      "sha256": "2c2e0c0474d90b5ee8c45d6fa5b30d790c141fb1ccd2095476e35ecdf16236ba"
+      "sha256": "dcb1f7d54376222d4b6e766669bafccbc981e36076948ca1507f6914eac3f213"
     },
     {
       "file": "outputs/plans/site-plan.png",
@@ -177,8 +201,8 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-terrace-open.png",
-    "source_sha256": "22f673beb74cd41fc20c396f565277d5d01cc6869537bdac1514e91e9983dac3",
-    "image_sha256": "0af54b3cd3b9209be2cf54558a2156864bd1c3c6ed778eb25fbb2f98d25d3fe7",
+    "source_sha256": "25b2bc19cabcca62008dc6c38aa9b30fee8e9f83fc58d39375eabef6cc41781f",
+    "image_sha256": "140ae878fd4c23d0f63fb7cf904cb01ea3f227be97efa8c9da3cb993192d47bb",
     "provenance": "outputs/photo-study.md",
     "caption": "Coastal House \u2014 Imagegen photographic study"
   },
@@ -188,8 +212,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/12-vaulted-living.png",
-      "source_sha256": "5888794a6974177135079c63bdb134d1c7739c6fff31698edbc54a0a287b417d",
-      "image_sha256": "d12ce32165f6126c1cf727171d0e6618a34e96a92c66d4e592d0e9b99201075b",
+      "source_sha256": "9b45bf156c6f15b00c67b45794a488e60c76a4bad3f6deed7cc5fc090999675d",
+      "image_sha256": "183b627d28129677da7811f7c59d3ef9ec9c6f9d64bd299fde79cd39534c92ac",
       "provenance": "outputs/photo-vault-study.md",
       "caption": "Exposed driftwood vault and pergola \u2014 AI interior photographic study"
     },
@@ -200,8 +224,8 @@
       "source_render": "outputs/images/13-kitchen-to-vault.png",
       "provenance": "outputs/photo-interior-study.md",
       "caption": "Kitchen to exposed-beam living pavilion \u2014 AI interior photographic study",
-      "source_sha256": "0f3b377fc42600d1fe04d02cda4e4d019a14855e9ab60eda0032070612488d2d",
-      "image_sha256": "607b19a2b8ef790932e41617f2f5923147cff36fcfe96e6bbdcde2b8abb0baaf"
+      "source_sha256": "c502d05328a2c77c5369ae43ef963fbeb05433dd8c2cff7783272467cfed1d43",
+      "image_sha256": "9a6d8b258365c3bc4682dc51636b18bd5390d056ea28a9226dd9295c1aa49f40"
     }
   ],
   "relative_document_links_resolve": true,
@@ -213,16 +237,35 @@
     "bonsai-validation.json"
   ],
   "review_notes": [
-    "All thirteen native views regenerated from the same verified raised-pavilion model, visually reviewed and promoted from ignored work output.",
-    "Rear open/closed and counter open/closed pairs use matching cameras and actual modeled panel travel.",
-    "Raised 3:12 living/dining roof, lower 1:12 wings, high glazing, genuine vault and exposed driftwood agree across exterior/interior views and measured section.",
-    "The attached pergola covers the 30-foot opening with two outer posts and no house-side posts; architectural timber is coordinated with the exposed interior frames.",
-    "Thirty-seven shared asset versions match actual adoption, including four new reusable variations. Five linked full limestone panels and 31 mesh-derived perimeter cuts are separately verified.",
-    "Reopened lighting checks confirm 25 actual recessed holes, pendant mounting/headroom and broad fill emitters wholly inside rooms. Exterior artifacts found during drafts are absent from selected views.",
-    "Independent specialist review approved current terrace, kitchen, front arrival, roof/site and west-side native views; independent documentation/skill review found no concrete defects.",
-    "All ten PDF pages rendered and visually inspected; current furnished floor/site drawings and the measured roof section include actual frame posts and roof data.",
-    "Built-in Imagegen exterior and two interior studies derive from the current native sources. Invented exterior upper-floor cues and a changed outdoor table were corrected. Fine materials, lighting, backdrop, foliage and small details remain photographic interpretations.",
-    "Gallery coverage check passed all six homes, including source/hash/provenance registration for separate interior photographic studies; checked document links resolve."
+    "Pocket exterior now continues the adjacent limestone courses with a narrow service seam; inside skin matches warm plaster.",
+    "Six native images rendered and visually reviewed: rear open/closed, west garden, vault, kitchen-to-vault and new dedicated fireplace view. The paired terrace cameras and actual opening travel are preserved.",
+    "Eight earlier views retain their reviewed images because the revised west pocket and fireplace are outside their visible content: great room, serving counter open/closed, front arrival, roof/parking, entry hall, primary bath and living retreat.",
+    "Fresh native and isolated-checkout reopening confirm 38 pinned library versions and portable links. 2720 gross enclosed square feet, rooms and existing routes are preserved.",
+    "The new linked electric fireplace has a real surround recess, 3-foot clear front removal reservation, 3.05 feet to the chaise and separation from the sliding pocket. Twenty interior routes, 420 panel/wall checks and 16800 additional panel/fireplace comparisons pass.",
+    "IFC4 schema validation passed with zero errors. Actual Bonsai import reopened 807 mesh products and compared 135 product geometries, including the new facade courses, linked fireplace and five surround parts.",
+    "All ten updated booklet pages were visually inspected. The floor plan shows the fireplace and the living-room page shows its dedicated native view. Site and roof-section geometry is unchanged.",
+    "The exterior and two interior Image Gen studies were refreshed from reviewed current sources; actual prompts and source/image hashes are stored with each study.",
+    "The Coastal gallery and its root catalog card pass coverage and source-hash checks. Other homes under concurrent development are outside this review."
   ],
-  "limitations": "Architectural concept and editable visualization. Spans, member cores, connections, pergola ledger/footings, roof assemblies, wind/flood exposure, waterproofing, drainage capacity/outfall, corrosion, condensation, site conditions, selected-product operation, accessibility and jurisdiction approval remain unresolved. Slatted pergola provides shade, not rain protection. AI studies are not exact geometry evidence or photographs of a built house."
+  "limitations": "Architectural concept and editable visualization. Spans, member cores, connections, pergola ledger/footings, roof assemblies, wind/flood exposure, waterproofing, drainage capacity/outfall, corrosion, condensation, site conditions, selected-product operation, accessibility and jurisdiction approval remain unresolved. Slatted pergola provides shade, not rain protection. AI studies are not exact geometry evidence or photographs of a built house. The electric fireplace is a working concept assumption, with product, circuit, thermal and ventilation requirements unselected.",
+  "fireplace": {
+    "type": "Original slim electric concept",
+    "linked_asset": "fixtures/slim-electric-fireplace-48in@v001",
+    "evaluated_insert_bounds_ft": [
+      5.252499749341348,
+      38.33450044546853,
+      1.1500000484346404,
+      9.252500189883815,
+      38.98500144638101,
+      2.6500002136380654
+    ],
+    "surround_parts": 5,
+    "clear_chaise_to_hearth_ft": 3.05,
+    "front_removal_depth_ft": 3,
+    "front_removal_unobstructed": true,
+    "pocket_skin_separation_ft": 0.03,
+    "sampled_panel_fireplace_checks": 16800,
+    "no_panel_collisions": true,
+    "limits": "Concept geometry; product, electrical circuit, ventilation and thermal clearances unselected."
+  }
 }

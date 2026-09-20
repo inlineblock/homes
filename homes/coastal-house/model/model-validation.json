@@ -34,6 +34,7 @@
     "//../../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
     "//../../../library/appliances/panel-ready-fridge-48in/v001/panel-ready-fridge-48in.blend",
     "//../../../library/landscape/sage-shrub/v002/sage-shrub.blend",
+    "//../../../library/fixtures/slim-electric-fireplace-48in/v001/slim-electric-fireplace-48in.blend",
     "//../../../library/materials/smoked-oak/v001/smoked-oak.blend",
     "//../../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
     "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
@@ -83,10 +84,11 @@
       "kitchen work aisle",
       "coat storage",
       "linen storage",
-      "mechanical service"
+      "mechanical service",
+      "fireplace front service"
     ],
     "actual_geometry_checked": true,
-    "linked_instance_parents_checked": 349,
+    "linked_instance_parents_checked": 353,
     "distance_checks": {
       "sampled_object_distance_checks": 664,
       "nearest_candidate_distance_ft": 1.245
@@ -361,6 +363,33 @@
     "west_screen_height_ft": 3.8,
     "entry_canopy_supports": 2,
     "limits": "Geometric support contact and pedestrian routes only; no structural sizing, wind restraint, foundation, waterproofing or compliance approval. Pergola is open shade, not a rain roof."
+  },
+  "fireplace": {
+    "type": "Original slim electric concept",
+    "linked_asset": "fixtures/slim-electric-fireplace-48in@v001",
+    "evaluated_insert_bounds_ft": [
+      5.252499749341348,
+      38.33450044546853,
+      1.1500000484346404,
+      9.252500189883815,
+      38.98500144638101,
+      2.6500002136380654
+    ],
+    "surround_parts": 5,
+    "clear_chaise_to_hearth_ft": 3.05,
+    "front_removal_depth_ft": 3,
+    "front_removal_unobstructed": true,
+    "pocket_skin_separation_ft": 0.03,
+    "sampled_panel_fireplace_checks": 16800,
+    "no_panel_collisions": true,
+    "limits": "Concept geometry; product, electrical circuit, ventilation and thermal clearances unselected."
+  },
+  "pocket_wall": {
+    "exterior": "Matching pinned limestone facade panels with narrow service seam",
+    "interior": "Warm limestone plaster",
+    "facade_full_panels": 10,
+    "facade_perimeter_cuts": 38,
+    "moving_cavity_retained": true
   },
   "lighting": {
     "actual_ceiling_openings": 25,

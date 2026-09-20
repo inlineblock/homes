@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/slim-electric-fireplace-48in",
+  "version": "v001",
+  "name": "Slim electric fireplace 48in",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192000150680542,
+    0.19827239797450602,
+    0.4572000205516815
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.00015239999629557133,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.19811999797821045,
+      0.4572000205516815
+    ]
+  },
+  "blender": {
+    "collection": "Slim electric fireplace 48in"
+  },
+  "placement": {
+    "origin": "Width center, front bezel at Y=0, bottom Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement only"
+  },
+  "installation": {
+    "type": "Original electric display concept; no combustion or flue",
+    "nominal_size_in": [
+      48,
+      7.8,
+      18
+    ],
+    "required_host_checks": [
+      "Real recess with no opaque geometry through insert",
+      "Rear service reservation and electrical route",
+      "Front removal approach",
+      "Manufacturer thermal clearances and ventilation remain unselected"
+    ],
+    "operating_envelope": {
+      "state": "Fixed front with illustrative dim ember display",
+      "front_removal_reservation_m": 0.9144,
+      "basis": "Concept planning assumption, not a listed product",
+      "host_installation_checked": false
+    }
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_electric_fireplace.py",
+    "command": "Blender --background --factory-startup --python tools/library/publish_electric_fireplace.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry; not a specified commercial product.",
+  "dependencies": [],
+  "files": {
+    "blender": "slim-electric-fireplace-48in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  }
+}

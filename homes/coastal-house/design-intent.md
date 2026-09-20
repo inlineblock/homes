@@ -31,3 +31,9 @@ Adopt existing plants, paving, wardrobes, appliances, bath fixtures, furniture, 
 Inspect rear open/closed, human-scale arrival, elevated roof/parking, west side, living, kitchen-to-vault and dedicated exposed-beam views. Verify real sloping ceiling/upper glazing, frame contact, matching timber, genuine recessed holes, pendant mount contact, roof drainage directions, pergola support/header contact, opening travel and furnished circulation. Pair native render evidence with clearly labeled Imagegen exterior and interior interpretations; AI images must follow the approved scene. Refresh every affected image, plan and booklet rather than leaving contradictory roof versions in the page.
 
 Structural spans/cores/connections, coastal roof product suitability, flashing/water capacity, corrosion, condensation, flood/impact requirements and real site approvals remain unresolved. The slatted pergola provides shade, not rain cover.
+
+## Pocket wall and fireplace revision
+
+Continue the existing limestone courses across the exterior great-room pocket so its timber access skin no longer resembles an extra door. Retain the thin skins, working pocket and a narrow exterior service seam. Finish the inside skin in the existing warm plaster.
+
+The requested indoor fireplace is provisionally a slim electric insert in a low limestone surround, entirely on the room side of the sliding pocket. A recessed combustion fireplace would compete with the stored glass and require a separately coordinated flue, so that option is not the working concept. The 48-inch insert faces the living sofa; a dedicated view must show the fireplace, seating and open terrace together. Preserve the chaise and verify the gap and front-service approach in the model. Product selection, thermal limits and electrical installation remain unresolved.

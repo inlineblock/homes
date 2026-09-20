@@ -1,14 +1,27 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 789,
+  "imported_mesh_objects": 807,
   "project": "Coastal House | Concept",
   "blender_version": "4.5.14 LTS",
   "bonsai_version": "0.8.5",
   "ifcopenshell_version": "0.8.5",
-  "ifc_sha256": "685200f5e1f3747dc7a0845fb26d30992fda53c3df750b0de9fbc47a15fdd5c2",
-  "source_blend_sha256": "e7481133030133dd630bd6a49a875062a520ed7276fa4f4c839941b002818b0b",
+  "ifc_sha256": "237414b163be098e5e6c1d8a7d3ba42ab8df7894077dc2f6a723f185a580dc5d",
+  "source_blend_sha256": "a756a73244ffad0c723389a411a6f43aa104298b188a1f7d3a8f2fe8a1b519ce",
   "closed_envelope_frame": 1,
+  "fireplace": {
+    "linked_insert_bounds_ft": [
+      5.252499580383301,
+      38.33449935913086,
+      1.1500000953674316,
+      9.252500534057617,
+      38.98500061035156,
+      2.6500003337860107
+    ],
+    "surround_parts": 5,
+    "pocket_separate": true,
+    "type": "Original electric concept; installation unselected"
+  },
   "attached_pergola": {
     "seaward_posts": 2,
     "house_side_posts": 0,
@@ -417,13 +430,13 @@
     "source_schedule": {
       "asset": "surfaces/honed-limestone-wall-panel-4x2",
       "version": "v001",
-      "full_linked_panels": 5,
-      "bespoke_edge_cuts": 31,
+      "full_linked_panels": 10,
+      "bespoke_edge_cuts": 38,
       "nominal_course_height_ft": 2.0,
       "joint_ft": 0.025
     },
-    "actual_full_panel_meshes": 5,
-    "actual_perimeter_cut_meshes": 31,
+    "actual_full_panel_meshes": 10,
+    "actual_perimeter_cut_meshes": 38,
     "module_dimensions_ft": [
       4.000000049435873,
       0.12500000154487104,
@@ -500,6 +513,78 @@
         "panel_widths_ft": [
           1.8874998306977773,
           2.5875000953674316
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 0,
+        "bottom_ft": 0.02,
+        "panel_widths_ft": [
+          3.999999523162842,
+          1.4299993515014648
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 1,
+        "bottom_ft": 2.045,
+        "panel_widths_ft": [
+          1.429999828338623,
+          4.0
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 2,
+        "bottom_ft": 4.069999999999999,
+        "panel_widths_ft": [
+          3.999999523162842,
+          1.4299993515014648
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 3,
+        "bottom_ft": 6.094999999999999,
+        "panel_widths_ft": [
+          1.429999828338623,
+          4.0
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 4,
+        "bottom_ft": 8.12,
+        "panel_widths_ft": [
+          3.999999523162842,
+          1.4299993515014648
+        ]
+      },
+      {
+        "pier_x_ft": [
+          4.525,
+          9.98
+        ],
+        "course": 5,
+        "bottom_ft": 10.145,
+        "panel_widths_ft": [
+          1.429999828338623,
+          4.0
         ]
       },
       {
@@ -650,7 +735,7 @@
     "limestone_material_matches_wet_post": true
   },
   "actual_import_geometry": {
-    "checked_product_meshes": 117,
+    "checked_product_meshes": 135,
     "maximum_bonsai_vs_ifc_bounds_error_ft": 2.4630328709918103e-06
   },
   "limits": "Actual IFC tessellation and Bonsai mesh geometry, material appearance and source hashes checked; original classified concept geometry is not engineered construction documentation."

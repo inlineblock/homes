@@ -6,7 +6,7 @@
 
 A modern coastal pavilion with a raised glazed gable, a real vaulted living/dining room and exposed driftwood beams that continue visually into the attached pergola and deep eaves. Muted bronze-gray metal roofs, mushroom mineral plaster and large-format limestone give the exterior depth, while the long glass wall and separate serving counter connect the interior to outdoor dining and conversation spaces.
 
-**Reviewed current set:** thirteen native views, an exterior Imagegen study and two interior studies, furnished floor/site plans, a measured roof section and a ten-page booklet. The native model, 37 shared asset dependencies, lighting, IFC export and actual Bonsai import pass the recorded concept checks. See [design review](design-review.md) and [output receipt](model/output-validation.json).
+**Reviewed current set:** fourteen native views, an exterior Imagegen study and two interior studies, furnished floor/site plans, a measured roof section and a ten-page booklet. The native model, 38 shared asset dependencies, lighting, IFC export and actual Bonsai import pass the recorded concept checks. See [design review](design-review.md) and [output receipt](model/output-validation.json).
 
 **Rear terrace — glass wall and serving window open**
 
@@ -53,6 +53,14 @@ The same close camera shows the four glazed panels closing the counter opening. 
 The interior view shows how the long opening connects the dining area to the terrace while the kitchen uses its separate serving window.
 
 ![Dining room and kitchen opening toward the coast](outputs/images/02-great-room.png)
+
+### Fireplace beside the terrace
+
+![Electric fireplace beside the pocketing terrace opening](outputs/images/14-living-fireplace.png)
+
+A 48-inch electric fireplace concept sits in a low limestone surround on the room side of the sliding pocket. The hearth leaves **3.05 ft** to the chaise and a clear **3 ft** front-service reservation. Electric is the working assumption; the final product, thermal clearances and electrical installation are unselected.
+
+The exterior pocket skin now matches the adjacent limestone courses, with a narrow service seam. Its interior skin matches the warm plaster. The pocket remains usable through the glass wall's full modeled travel.
 
 ### Living retreat — warmth and texture
 
@@ -122,7 +130,7 @@ The kitchen includes a shared **36-inch induction cooktop, 30-inch oven, 36-inch
 
 ![Primary suite double vanity and soaking tub](outputs/images/10-primary-bath.png)
 
-Shared bronze cabinet pulls and door levers, recessed downlights with real ceiling cutouts and concealed task lighting give the design consistent detail. Vault-mounted downlights follow their actual sloping ceiling surfaces; the dining pendant uses a shared 3:12-specific suspension with a level light bar, verified against the actual sloping ceiling with a level diffuser at 8.55 ft. The primary suite contains a separate shower and tub, enclosed toilet, double vanity and dressing room. A fireplace remains optional and is not included in this coastal concept.
+Shared bronze cabinet pulls and door levers, recessed downlights with real ceiling cutouts and concealed task lighting give the design consistent detail. Vault-mounted downlights follow their actual sloping ceiling surfaces; the dining pendant uses a shared 3:12-specific suspension with a level light bar, verified against the actual sloping ceiling with a level diffuser at 8.55 ft. The primary suite contains a separate shower and tub, enclosed toilet, double vanity and dressing room. The living room now includes a slim electric fireplace concept in a low limestone surround beside the terrace.
 
 ## Single-level floor plan
 
@@ -134,9 +142,9 @@ The furnished plan shows all three bedrooms and their storage, the entry, househ
 
 ## Editable source
 
-Open [coastal-house.blend](model/coastal-house.blend) in Blender 4.5.14 LTS. **Frame 1 = closed; frame 120 = fully open.** Both systems move real modeled panels; the renders do not fake opening by hiding glass. The saved default is open. Pinned relative library links keep the model portable; the [asset inventory](assets/README.md) and `project.json` record the adopted versions. The [native receipt](model/model-validation.json) confirms the raised-pavilion geometry and moving-panel checks; the [adoption audit](model/asset-adoption.json) verifies all 37 pinned shared versions.
+Open [coastal-house.blend](model/coastal-house.blend) in Blender 4.5.14 LTS. **Frame 1 = closed; frame 120 = fully open.** Both systems move real modeled panels; the renders do not fake opening by hiding glass. The saved default is open. Pinned relative library links keep the model portable; the [asset inventory](assets/README.md) and `project.json` record the adopted versions. The [native receipt](model/model-validation.json) confirms the raised-pavilion geometry and moving-panel checks; the [adoption audit](model/asset-adoption.json) verifies all 38 pinned shared versions.
 
-[coastal-house.ifc](model/coastal-house.ifc) is classified IFC4 concept geometry of the closed envelope. The current export has zero schema errors. Actual Bonsai import reopened 789 mesh products; the [geometry receipt](model/bonsai-validation.json) checks roof slopes, glazing, frames, stone panels and pergola against the exported geometry. The file excludes most decorative furniture and is not a fully parametric construction model.
+[coastal-house.ifc](model/coastal-house.ifc) is classified IFC4 concept geometry of the closed envelope. The current export has zero schema errors. Actual Bonsai import reopened the exported mesh products; the [geometry receipt](model/bonsai-validation.json) checks roof slopes, glazing, frames, stone panels and pergola against the exported geometry. The file excludes most decorative furniture and is not a fully parametric construction model.
 
 ## Reproduce
 

@@ -6,13 +6,13 @@
     "IfcMember": 235,
     "IfcWindow": 60,
     "IfcDoor": 46,
-    "IfcCovering": 254,
+    "IfcCovering": 266,
     "IfcRoof": 18,
     "IfcColumn": 14,
     "IfcBeam": 20,
     "IfcFlowSegment": 25,
     "IfcPlate": 7,
-    "IfcBuildingElementProxy": 1
+    "IfcBuildingElementProxy": 7
   },
   "storeys": [
     "Ground floor"

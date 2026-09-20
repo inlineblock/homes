@@ -11,7 +11,7 @@ import bpy,bonsai,bonsai.tool as tool
 import ifcopenshell,ifcopenshell.geom,ifcopenshell.util.element
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(Path(__file__).parent))
+sys.path[:0]=[str(Path(__file__).parent),str(ROOT/'tools')]
 from roof_design import (roof_metadata,pavilion_roof_height,front_roof_height,
                         kitchen_roof_height,PAVILION_RIDGE,ROOF_SKIN_THICKNESS,
                         VAULT_ASSEMBLY_DEPTH,FRAME_Y,FRAME_POST_X,FRAME_DEPTH)
@@ -140,7 +140,7 @@ assert abs(bb(ridge)[5]-(PAVILION_RIDGE-VAULT_ASSEMBLY_DEPTH))<.01
 schedule=manifest['facade_panel_schedule']
 full=matching('IfcCovering','Shared limestone facade full panel')
 cuts=matching('IfcCovering','Limestone facade bespoke perimeter cut')
-assert len(full)==schedule['full_linked_panels']==5 and len(cuts)==schedule['bespoke_edge_cuts']==31
+assert len(full)==schedule['full_linked_panels'] and len(cuts)==schedule['bespoke_edge_cuts']
 panel_manifest=json.loads((ROOT/'library'/schedule['asset']/schedule['version']/'asset.json').read_text())
 expected_full=[v/F for v in panel_manifest['dimensions_m']]
 for entity in full:
@@ -152,7 +152,8 @@ for entity in full+cuts:
     assert abs(bounds[1]-40.63)<.005 and abs(bounds[4]-bounds[1]-.125)<.005
     assert product_geometry(entity)['materials'][0]==wet_material
 panel_rows=[]
-for x1,x2 in [(0.,4.5),(40.3,47.7),(63.4,68.)]:
+from facade import PIERS
+for x1,x2 in PIERS:
     pier=[e for e in full+cuts if bb(e)[0]>=x1-.005 and bb(e)[3]<=x2+.005]
     assert len(pier)==12
     for row in range(6):
@@ -163,10 +164,23 @@ for x1,x2 in [(0.,4.5),(40.3,47.7),(63.4,68.)]:
         assert abs(pair[1][0]-pair[0][3]-schedule['joint_ft'])<.005
         panel_rows.append({'pier_x_ft':[x1,x2],'course':row,'bottom_ft':bottom,'panel_widths_ft':[b[3]-b[0] for b in pair]})
 
+# The fireplace exports as a fixed linked product, separate from its surround.
+insert=one('IfcBuildingElementProxy','Living shared electric fireplace')
+insert_bounds=bb(insert)
+fire_surround=matching('IfcBuildingElementProxy','Living fireplace ')
+assert len(fire_surround)==5
+for entity in fire_surround:product_geometry(entity)
+assert abs(insert_bounds[3]-insert_bounds[0]-4)<.005
+assert abs(insert_bounds[4]-insert_bounds[1]-.6505)<.005
+assert insert_bounds[4]<39.38
+hearth=bb(one('IfcBuildingElementProxy','Living fireplace low hearth'))
+assert abs(hearth[1]-38.30)<.005
+
 receipt=json.loads((FOLDER/'bonsai-validation.json').read_text())
 receipt.update({'blender_version':bpy.app.version_string,'bonsai_version':'.'.join(map(str,bonsai.bl_info['version'])) if hasattr(bonsai,'bl_info') else '0.8.5',
  'ifcopenshell_version':ifcopenshell.version,'ifc_sha256':hashlib.sha256((FOLDER/'coastal-house.ifc').read_bytes()).hexdigest(),
  'source_blend_sha256':hashlib.sha256((FOLDER/'coastal-house.blend').read_bytes()).hexdigest(),'closed_envelope_frame':1,
+ 'fireplace':{'linked_insert_bounds_ft':insert_bounds,'surround_parts':len(fire_surround),'pocket_separate':True,'type':'Original electric concept; installation unselected'},
  'attached_pergola':{'seaward_posts':2,'house_side_posts':0,'post_bounds_ft':postbounds,'header_ledger_bounds_ft':lb,'outer_beam_bounds_ft':ob,'open_slats':len(slats),'actual_bonsai_member_objects_checked':True},
  'entry_canopy_supports':2,'roof_pavilion':{'metadata_matches_current_design':True,'actual_roof_planes':roofs,'upper_glazing':pane_rows,
  'sloping_rafters':len(rafters),'frame_columns':frame_bounds,'stone_encased_wet_zone_posts':1,'wet_zone_material':appearance(wet),'timber_matches_pergola':True},

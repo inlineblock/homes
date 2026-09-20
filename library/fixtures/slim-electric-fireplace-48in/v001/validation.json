@@ -1,0 +1,22 @@
+{
+  "fresh_link": true,
+  "measured_bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.00015239999629557133,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.19811999797821045,
+      0.4572000205516815
+    ]
+  },
+  "dimensions_match": true,
+  "preview_rendered": true,
+  "blender_version": "4.5.14 LTS",
+  "host_installation_checked": true,
+  "preview_visually_reviewed": true,
+  "host_evidence": "homes/coastal-house/model/model-validation.json:fireplace",
+  "scope": "Dimension, appearance and host geometric fit only; product, electrical and thermal installation unselected."
+}

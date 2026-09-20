@@ -200,6 +200,11 @@
       "id": "fixtures/lighting-linear-pendant-4ft-vault-3in12",
       "version": "v001",
       "path": "../../library/fixtures/lighting-linear-pendant-4ft-vault-3in12/v001/"
+    },
+    {
+      "id": "fixtures/slim-electric-fireplace-48in",
+      "version": "v001",
+      "path": "../../library/fixtures/slim-electric-fireplace-48in/v001/"
     }
   ],
   "site_concept": {
@@ -244,7 +249,8 @@
     "kitchen_to_vault": "outputs/images/13-kitchen-to-vault.png",
     "interior_photographic_study": "outputs/images/photo-interior.png",
     "vault_photographic_study": "outputs/images/photo-vault.png",
-    "exterior_photographic_study": "outputs/images/photo-hero.png"
+    "exterior_photographic_study": "outputs/images/photo-hero.png",
+    "fireplace": "outputs/images/14-living-fireplace.png"
   },
   "modeled_planting_counts": {
     "grass": 170,
@@ -254,8 +260,8 @@
   "facade_panel_schedule": {
     "asset": "surfaces/honed-limestone-wall-panel-4x2",
     "version": "v001",
-    "full_linked_panels": 5,
-    "bespoke_edge_cuts": 31,
+    "full_linked_panels": 10,
+    "bespoke_edge_cuts": 38,
     "nominal_course_height_ft": 2.0,
     "joint_ft": 0.025
   },
@@ -359,5 +365,12 @@
       "roof_steps": "Flashed vertical abutments and a front/kitchen roof-step riser"
     },
     "limits": "Original concept geometry. Roof assemblies, spans, uplift, connections, condensation control and drainage capacity are unengineered."
+  },
+  "fireplace": {
+    "type": "slim electric concept",
+    "asset": "fixtures/slim-electric-fireplace-48in@v001",
+    "location": "Room side of west great-room sliding pocket",
+    "front_service_reservation_ft": 3,
+    "limits": "Manufacturer, thermal and electrical installation unselected; no combustion flue"
   }
 }

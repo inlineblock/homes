@@ -1,7 +1,7 @@
 {
   "home": "coastal-house",
   "native_library_pins_match_manifest": true,
-  "asset_versions": 37,
+  "asset_versions": 38,
   "assets": [
     {
       "id": "appliances/built-in-oven-30in",
@@ -113,6 +113,15 @@
       "direct_placements_or_material_assignments": 1,
       "examples": [
         "Shared entry opal pendant"
+      ],
+      "adopted_parent_dependencies": []
+    },
+    {
+      "id": "fixtures/slim-electric-fireplace-48in",
+      "version": "v001",
+      "direct_placements_or_material_assignments": 1,
+      "examples": [
+        "Living shared electric fireplace"
       ],
       "adopted_parent_dependencies": []
     },
@@ -336,7 +345,7 @@
     {
       "id": "materials/coastal-honed-limestone",
       "version": "v001",
-      "direct_placements_or_material_assignments": 217,
+      "direct_placements_or_material_assignments": 229,
       "examples": [
         "Gross enclosed floor (material)",
         "Limestone facade bespoke perimeter cut (material)",
@@ -352,16 +361,16 @@
     {
       "id": "materials/coastal-white-oak",
       "version": "v001",
-      "direct_placements_or_material_assignments": 103,
+      "direct_placements_or_material_assignments": 101,
       "examples": [
         "Front pivot entry leaf (material)",
-        "Pocket removable cladding skin (material)",
-        "Pocket removable cladding skin.001 (material)",
         "Pocket removable cladding skin.002 (material)",
         "Pocket removable cladding skin.003 (material)",
         "Primary east open oak door leaf (material)",
         "Primary bath front open oak door leaf (material)",
-        "Bath closet partition open oak door leaf (material)"
+        "Bath closet partition open oak door leaf (material)",
+        "Primary WC west open oak door leaf (material)",
+        "Entry east open oak door leaf (material)"
       ],
       "adopted_parent_dependencies": []
     },
@@ -405,7 +414,7 @@
     {
       "id": "materials/warm-limestone-plaster",
       "version": "v001",
-      "direct_placements_or_material_assignments": 68,
+      "direct_placements_or_material_assignments": 70,
       "examples": [
         "Front mineral render (material)",
         "Front mineral render.001 (material)",
@@ -448,13 +457,16 @@
     {
       "id": "surfaces/honed-limestone-wall-panel-4x2",
       "version": "v001",
-      "direct_placements_or_material_assignments": 5,
+      "direct_placements_or_material_assignments": 10,
       "examples": [
         "Shared limestone facade full panel",
         "Shared limestone facade full panel.001",
         "Shared limestone facade full panel.002",
         "Shared limestone facade full panel.003",
-        "Shared limestone facade full panel.004"
+        "Shared limestone facade full panel.004",
+        "Shared limestone facade full panel.005",
+        "Shared limestone facade full panel.006",
+        "Shared limestone facade full panel.007"
       ],
       "adopted_parent_dependencies": []
     }

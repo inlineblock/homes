@@ -63,7 +63,11 @@ for x,label in [(0.20,'West'),(67.80,'East')]:
 # Rear wall solids and actual multi-track pocket cavities.
 for a,b in [(0,4.5),(40.15,47.85),(63.3,68)]:wall('Rear solid pier',((a+b)/2,40,5.25),(b-a,1.25,10.5))
 for a,b,z1,z2 in [(4.5,10,0,9.65),(60,63.3,3.13,8.65)]:
-    for y in [39.44,40.56]:wall('Pocket removable cladding skin',((a+b)/2,y,(z1+z2)/2),(b-a,.12,z2-z1),M['oak'])
+    for y in [39.44,40.56]:
+        # The great-room pocket reads as wall, with matching limestone outside
+        # and plaster inside. Keep both thin skins and the working cavity.
+        finish=M['plaster'] if a==4.5 else M['oak']
+        wall('Pocket removable cladding skin',((a+b)/2,y,(z1+z2)/2),(b-a,.12,z2-z1),finish)
 # Cabinet-height solid wall below serving aperture; header above each opening.
 wall('Serving window low wall',(55.5,40,1.42),(15.0,.35,2.84))
 wall('Great room structural header concept',(22.3,40,10.05),(35.4,1.25,.90))
@@ -167,6 +171,8 @@ from lighting_hardware import details as lighting_hardware,dependencies as detai
 lighting_hardware(ROOT)
 from comfort import build as comfort, dependencies as comfort_dependencies
 comfort(ROOT,M)
+from fireplace import build as build_fireplace, dependency as fireplace_dependency
+build_fireplace(ROOT,M)
 # Grain is aligned to each physical timber member, including new outdoor structure.
 from common.timber_materials import grain_uv
 for obj in bpy.context.scene.objects:
@@ -195,6 +201,7 @@ views={
  '11 Living retreat':((25,37,5.4),(11,29.5,5.4),24),
  '12 Vaulted living':((38,24,5.8),(23,38,10.8),24),
  '13 Kitchen to vault':((60,23.2,5.4),(28,37,7.8),22),
+ '14 Living fireplace':((20,27,6),(7.5,38,3.4),32),
 }
 for name,args in views.items():camera(name,*args)
 # Install dense linked planting after furniture to avoid repeated scene evaluation during authoring.
@@ -213,10 +220,12 @@ for screen in bpy.data.screens:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
 bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'));bpy.ops.file.make_paths_relative();bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/coastal-house.blend'))
 deps=['surfaces/honed-limestone-wall-panel-4x2','materials/coastal-driftwood','materials/bronze-gray-standing-seam','materials/mushroom-mineral-plaster','materials/woven-oatmeal','materials/olive-linen','materials/warm-limestone-plaster','materials/smoked-oak','furniture/coastal-outdoor-sofa','furniture/coastal-outdoor-lounge-chair','materials/coastal-white-oak','materials/coastal-honed-limestone','furniture/coastal-oak-counter-stool','fixtures/opal-globe-pendant']
-meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies()+comfort_dependencies(),'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'Raised seaward gable 3:12 over vaulted living/dining; lower front/kitchen and carport roofs 1:12; unengineered drainage concept'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
+meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed visualization and dimensioned architectural concept','units':'meters','display_units':'feet-inches','target_area_sqft':AREA,'gross_enclosed_area_sqft':AREA,'area_basis':'68 x 40 ft exterior floor plate, including walls; excludes carport, terrace, eaves, landscaping and illustrative shore','bedrooms':3,'bathrooms':2,'assumptions':'Single story, 3 bedrooms and 2 baths; entry widened to 8 ft planning width, guest wardrobes added; no actual parcel or orientation supplied.','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps]+dependencies(ROOT,keys=['wardrobe','shrub','paver','grass','olive','oven','dishwasher','cooktop','hood','fridge','bathtub','toilet'])+detail_dependencies()+comfort_dependencies()+[fireplace_dependency()],'site_concept':{'road':'front/south illustration only','parking':'Detached 26 x 24 ft two-car carport, east side; 26 ft driveway','entry':'6 ft front path plus 4 ft crosswalk behind parked cars','roof':'Raised seaward gable 3:12 over vaulted living/dining; lower front/kitchen and carport roofs 1:12; unengineered drainage concept'},'openings':{'dimension_units':'feet','great_room':DOOR,'serving_window':WINDOW,'animation':'Frame 1 closed; frame 120 open. Conceptual six-track door and four-track window; no commercial product specification.'},'deliverables':{'presentation_model':'model/coastal-house.blend','architectural_model':'model/coastal-house.ifc','primary_render':'outputs/images/01-terrace-open.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
 meta['deliverables'].update({'roof_section':'outputs/plans/roof-section.svg','vaulted_interior':'outputs/images/12-vaulted-living.png','kitchen_to_vault':'outputs/images/13-kitchen-to-vault.png','interior_photographic_study':'outputs/images/photo-interior.png','vault_photographic_study':'outputs/images/photo-vault.png','exterior_photographic_study':'outputs/images/photo-hero.png'})
 meta['modeled_planting_counts']=garden_counts
 meta['facade_panel_schedule']=facade_counts
+meta['fireplace']={'type':'slim electric concept','asset':'fixtures/slim-electric-fireplace-48in@v001','location':'Room side of west great-room sliding pocket','front_service_reservation_ft':3,'limits':'Manufacturer, thermal and electrical installation unselected; no combustion flue'}
+meta['deliverables']['fireplace']='outputs/images/14-living-fireplace.png'
 meta['design_direction']='Driftwood coastal pavilion: a raised glazed living-room gable, real vaulted ceiling and exposed beams matching the attached pergola; lower bedroom/kitchen wings and muted bronze-gray roofs.'
 from roof_design import roof_metadata
 meta['roof_pavilion']=roof_metadata()

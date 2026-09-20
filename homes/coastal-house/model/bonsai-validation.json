@@ -1,25 +1,34 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 807,
+  "imported_mesh_objects": 798,
   "project": "Coastal House | Concept",
   "blender_version": "4.5.14 LTS",
   "bonsai_version": "0.8.5",
   "ifcopenshell_version": "0.8.5",
-  "ifc_sha256": "237414b163be098e5e6c1d8a7d3ba42ab8df7894077dc2f6a723f185a580dc5d",
-  "source_blend_sha256": "a756a73244ffad0c723389a411a6f43aa104298b188a1f7d3a8f2fe8a1b519ce",
+  "ifc_sha256": "a0987aeb9f9285be749560fdc8d52a26d55a956360f685b0ee2574cf90e189d5",
+  "source_blend_sha256": "415f63d66b5b912e6879b8e7189821fc758feb79657a8b1b52d7a896889b09c3",
   "closed_envelope_frame": 1,
   "fireplace": {
     "linked_insert_bounds_ft": [
-      5.252499580383301,
-      38.33449935913086,
+      1.1949999332427979,
+      30.19999885559082,
       1.1500000953674316,
-      9.252500534057617,
-      38.98500061035156,
+      1.8454999923706055,
+      34.20000076293945,
       2.6500003337860107
     ],
     "surround_parts": 5,
     "pocket_separate": true,
+    "west_wall_bounds_ft": [
+      0.0,
+      26.200002670288086,
+      0.0,
+      0.800000011920929,
+      39.375,
+      14.019999504089355
+    ],
+    "former_side_glazing_removed": true,
     "type": "Original electric concept; installation unselected"
   },
   "attached_pergola": {
@@ -735,7 +744,7 @@
     "limestone_material_matches_wet_post": true
   },
   "actual_import_geometry": {
-    "checked_product_meshes": 135,
+    "checked_product_meshes": 136,
     "maximum_bonsai_vs_ifc_bounds_error_ft": 2.4630328709918103e-06
   },
   "limits": "Actual IFC tessellation and Bonsai mesh geometry, material appearance and source hashes checked; original classified concept geometry is not engineered construction documentation."

@@ -289,7 +289,7 @@
 <line x1="490.6" y1="902.0" x2="539.8" y2="902.0" stroke="#58939b" stroke-width="4"/>
 <line x1="442.999" y1="898.925" x2="442.999" y2="854.645" stroke="#b1a18c" stroke-width="3"/>
 <line x1="220.0" y1="619.0999999999999" x2="220.0" y2="584.66" stroke="#58939b" stroke-width="3"/>
-<line x1="220.0" y1="579.74" x2="220.0" y2="432.13999999999993" stroke="#58939b" stroke-width="4"/>
+<rect x="220.0" y="417.6875" width="9.840000000000002" height="162.0525" fill="#253b40" stroke="none" stroke-width="1"/>
 <line x1="1056.4" y1="582.2" x2="1056.4" y2="533.0" stroke="#58939b" stroke-width="3"/>
 <line x1="1056.4" y1="465.34999999999997" x2="1056.4" y2="432.13999999999993" stroke="#58939b" stroke-width="3"/>
 <line x1="441.4" y1="902.0" x2="441.4" y2="797.45" stroke="#253b40" stroke-width="4"/>
@@ -398,11 +398,11 @@
 <text x="774.73" y="456.73999999999995" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#253b40" text-anchor="middle" font-weight="400">PANTRY</text>
 <rect x="806.956" y="412.39849999999996" width="192.61800000000002" height="33.825" fill="#b1a18c" stroke="#253b40" stroke-width="1"/>
 <rect x="806.956" y="358.77049999999997" width="192.61800000000002" height="48.339000000000006" fill="#b1a18c" stroke="#253b40" stroke-width="1"/>
-<rect x="275.6575" y="417.99499999999995" width="67.0965" height="12.915000000000052" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
-<line x1="284.6365" y1="430.91" x2="333.775" y2="430.91" stroke="#414543" stroke-width="2"/>
-<text x="259.36" y="448.13" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#253b40" text-anchor="middle" font-weight="400">ELECTRIC</text>
-<text x="259.36" y="459.2" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#253b40" text-anchor="middle" font-weight="400">FIREPLACE</text>
-<line x1="269.2" y1="445.66999999999996" x2="275.6575" y2="430.91" stroke="#6c7e7b" stroke-width="0.5"/>
+<rect x="230.209" y="469.03999999999996" width="12.915" height="73.80000000000001" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
+<line x1="243.124" y1="530.54" x2="243.124" y2="481.3399999999999" stroke="#414543" stroke-width="2"/>
+<text x="148.66" y="496.09999999999997" font-family="Helvetica,Arial,sans-serif" font-size="8" fill="#253b40" text-anchor="middle" font-weight="400">ELECTRIC</text>
+<text x="148.66" y="510.85999999999996" font-family="Helvetica,Arial,sans-serif" font-size="8" fill="#253b40" text-anchor="middle" font-weight="400">FIREPLACE</text>
+<line x1="195.4" y1="505.93999999999994" x2="243.124" y2="505.93999999999994" stroke="#6c7e7b" stroke-width="0.5"/>
 <line x1="279.04" y1="414.61249999999995" x2="340.54" y2="414.61249999999995" stroke="#58939b" stroke-width="1"/>
 <line x1="279.04" y1="412.7675" x2="340.54" y2="412.7675" stroke="#58939b" stroke-width="1"/>
 <line x1="279.04" y1="410.9225" x2="340.54" y2="410.9225" stroke="#58939b" stroke-width="1"/>

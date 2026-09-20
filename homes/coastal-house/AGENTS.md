@@ -14,7 +14,7 @@
 
 - Preserve the complete kitchen: 36-inch induction cooktop, 30-inch oven, 36-inch hood, 24-inch dishwasher, 48-inch panel-ready refrigerator, sink, pantry and waste/recycling. Shared appliances occupy genuine cabinet bays; never overlay them on opaque carcasses. Product services, open-door operation and exhaust termination need explicit checks.
 - Preserve premium primary-suite program: separate tub and shower, double vanity with 36-inch basin centers, enclosed toilet, dressing room and towel storage. The king bed is reoriented toward the west wall; dressing access is through the private bathroom. Do not reintroduce the original 10 x 8 ft bath.
-- Record lighting, cabinet/door hardware and household service allowances in the program review. Preserve the slim electric fireplace concept forward of the sliding pocket; keep its service space and panel travel clear. Distinguish measured geometry from product, climate and code approvals.
+- Record lighting, cabinet/door hardware and household service allowances in the program review. Preserve the slim electric fireplace concept on the solid west living wall; keep its service space and panel travel clear. Distinguish measured geometry from product, climate and code approvals.
 
 ## Driftwood coastal pavilion direction
 

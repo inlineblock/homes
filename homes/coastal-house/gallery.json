@@ -41,7 +41,7 @@
     },
     {
       "path": "outputs/images/08-west-garden.png",
-      "caption": "West garden and side elevation",
+      "caption": "West garden: solid living-room wall and preserved pergola doors",
       "view": "exterior"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "path": "outputs/images/14-living-fireplace.png",
-      "caption": "Slim electric fireplace in limestone beside the independent sliding-glass pocket",
+      "caption": "Electric fireplace in limestone on the solid west living wall; pergola doors preserved",
       "view": "interior"
     }
   ],
@@ -119,7 +119,7 @@
     },
     {
       "id": "living-fireplace",
-      "label": "Living-room electric fireplace beside the terrace",
+      "label": "Solid west living wall and limestone electric fireplace",
       "renders": [
         "outputs/images/14-living-fireplace.png"
       ]
@@ -130,8 +130,8 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-terrace-open.png",
-    "source_sha256": "25b2bc19cabcca62008dc6c38aa9b30fee8e9f83fc58d39375eabef6cc41781f",
-    "image_sha256": "140ae878fd4c23d0f63fb7cf904cb01ea3f227be97efa8c9da3cb993192d47bb",
+    "source_sha256": "110f5daae386c6277f35eb9d5253b06917cb91043739e74aa1b4d1b340f2b3d6",
+    "image_sha256": "b3f4ca6bc0afa44313ea543021e7a19eaeea86f1bfbdf38ba1e45924edee7fe3",
     "provenance": "outputs/photo-study.md",
     "caption": "Coastal House \u2014 Imagegen photographic study"
   },
@@ -141,8 +141,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/12-vaulted-living.png",
-      "source_sha256": "9b45bf156c6f15b00c67b45794a488e60c76a4bad3f6deed7cc5fc090999675d",
-      "image_sha256": "183b627d28129677da7811f7c59d3ef9ec9c6f9d64bd299fde79cd39534c92ac",
+      "source_sha256": "8a9fe9eaeadb8b237e027b9a4ce114b36e9b2d4b9429889cd49b0b40c3a6f46f",
+      "image_sha256": "dd26d72e449a643c6d9130847efdad5c099efc24f34405e1d471130e961fd3e2",
       "provenance": "outputs/photo-vault-study.md",
       "caption": "Exposed driftwood vault and pergola \u2014 AI interior photographic study"
     },
@@ -153,8 +153,18 @@
       "source_render": "outputs/images/13-kitchen-to-vault.png",
       "provenance": "outputs/photo-interior-study.md",
       "caption": "Kitchen to exposed-beam living pavilion \u2014 AI interior photographic study",
-      "source_sha256": "c502d05328a2c77c5369ae43ef963fbeb05433dd8c2cff7783272467cfed1d43",
-      "image_sha256": "9a6d8b258365c3bc4682dc51636b18bd5390d056ea28a9226dd9295c1aa49f40"
+      "source_sha256": "990fddf04d95fe4e5d1d1ca4cf2e191693fff0a4ce68ac0f242a8be56f4d4ebf",
+      "image_sha256": "e0a307e4a08270e5b730a947060ca129eaad680e22cf23c40167f51bdabae231"
+    },
+    {
+      "path": "outputs/images/photo-fireplace.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/14-living-fireplace.png",
+      "source_sha256": "184a702eb6add1a2a8ab730f592d65bd146cd21b6741f7e3439089ffaca825fe",
+      "image_sha256": "26c3ad45de3a4ce41dbf62699fd3597f2649bdde928fa6e1d82e8df9bfebf9b6",
+      "provenance": "outputs/photo-fireplace-study.md",
+      "caption": "Solid west living wall and limestone electric fireplace \u2014 AI photographic study"
     }
   ]
 }

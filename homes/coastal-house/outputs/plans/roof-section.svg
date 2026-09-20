@@ -16,7 +16,8 @@
 <polygon points="160.0,538.74 479.0,458.99 479.0,460.15 160.0,539.9" fill="#e8dfd1" stroke="#253b40" stroke-width="1"/>
 <polygon points="479.0,458.99 798.0,538.74 798.0,539.9 479.0,460.15" fill="#e8dfd1" stroke="#253b40" stroke-width="1"/>
 <polygon points="798.0,587.315 1146.0,587.315 1146.0,588.475 798.0,588.475" fill="#e8dfd1" stroke="#253b40" stroke-width="1"/>
-<polygon points="157.1,740.0 162.9,740.0 162.9,533.81 157.1,533.81" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
+<polygon points="160.0,740.0 171.6,740.0 171.6,536.71 160.0,539.61" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
+<polygon points="172.035,740.0 187.26,740.0 187.26,694.325 172.035,694.325" fill="#b1a18c" stroke="#253b40" stroke-width="1"/>
 <polygon points="796.26,587.75 799.74,587.75 799.74,533.81 796.26,533.81" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
 <polygon points="1143.1,740.0 1148.9,740.0 1148.9,584.56 1143.1,584.56" fill="#ede9df" stroke="#253b40" stroke-width="1"/>
 <line x1="160.0" y1="740.0" x2="1146.0" y2="740.0" stroke="#253b40" stroke-width="3"/>

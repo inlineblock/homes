@@ -368,21 +368,35 @@
     "type": "Original slim electric concept",
     "linked_asset": "fixtures/slim-electric-fireplace-48in@v001",
     "evaluated_insert_bounds_ft": [
-      5.252499749341348,
-      38.33450044546853,
+      1.19499989303704,
+      30.199999571472325,
       1.1500000484346404,
-      9.252500189883815,
-      38.98500144638101,
+      1.8455000139596893,
+      34.20000001201479,
       2.6500002136380654
     ],
     "surround_parts": 5,
-    "clear_chaise_to_hearth_ft": 3.05,
+    "clear_chaise_to_hearth_ft": 4.07,
     "front_removal_depth_ft": 3,
     "front_removal_unobstructed": true,
-    "pocket_skin_separation_ft": 0.03,
+    "pocket_skin_separation_ft": 4.18,
     "sampled_panel_fireplace_checks": 16800,
     "no_panel_collisions": true,
     "limits": "Concept geometry; product, electrical circuit, ventilation and thermal clearances unselected."
+  },
+  "west_living_wall": {
+    "solid_bounds_ft": [
+      0.0,
+      26.200002259782604,
+      0.0,
+      0.7999999805541802,
+      39.37500042552397,
+      14.013935887594547
+    ],
+    "former_glazing_removed": true,
+    "bath_privacy_glazing_retained": true,
+    "fireplace_faces_room_east": true,
+    "structural_post_retained_within_wall": true
   },
   "pocket_wall": {
     "exterior": "Matching pinned limestone facade panels with narrow service seam",

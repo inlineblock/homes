@@ -3,7 +3,7 @@ import sys,math,json,subprocess,shutil
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];sys.path[:0]=[str(Path(__file__).parent),str(ROOT/'tools')]
 from design import *
-from fireplace import X1 as FP_X1, X2 as FP_X2, HEARTH_FRONT as FP_FRONT, BACK as FP_BACK
+from fireplace import Y1 as FP_Y1, Y2 as FP_Y2, HEARTH_FRONT as FP_FRONT, BACK as FP_BACK, WALL_DEPTH, WALL_Y1, WALL_Y2, TOP as FP_TOP
 from verandah import (PERGOLA_BOUNDS, PERGOLA_POSTS, PERGOLA_POST_WIDTH,
                       ENTRY_CANOPY_BOUNDS, ENTRY_CANOPY_POSTS, SCREEN_X, SCREEN_Y)
 from roof_design import (PAVILION, RIDGE_X, PAVILION_PITCH, PAVILION_BEARING,
@@ -136,7 +136,8 @@ def roof_section():
     # Sectioned enclosing wall portions. The room stays open below the step.
     west_wall_top=pavilion_roof_height(PAVILION[0])-ROOF_SKIN_THICKNESS
     step_wall_top=pavilion_roof_height(PAVILION[2])-ROOF_SKIN_THICKNESS
-    patch([(-.20,0),(.20,0),(.20,west_wall_top),(-.20,west_wall_top)],SAND)
+    patch([(0,0),(WALL_DEPTH,0),(WALL_DEPTH,ceiling_height(WALL_DEPTH,cut_y)+.02),(0,ceiling_height(0,cut_y)+.02)],SAND)
+    patch([(FP_BACK,0),(FP_FRONT,0),(FP_FRONT,FP_TOP),(FP_BACK,FP_TOP)],OAK)
     patch([(PAVILION[2]-.12,10.5),(PAVILION[2]+.12,10.5),
            (PAVILION[2]+.12,step_wall_top),
            (PAVILION[2]-.12,step_wall_top)],SAND)
@@ -242,7 +243,8 @@ for a,b,c,e in VAULT_RECTS:
 for a,b in [(10,40),(48,60)]:line((a,40),(b,40),WHITE,7)
 for a,b in [(3,15),(28,39),(44,54)]:line((a,0),(b,0),BLUE,4)
 line((18,0),(26,0),WHITE,7);line((22,0),(26,0),BLUE,4);line((18.13,.25),(18.13,3.85),OAK,3)
-line((0,23),(0,25.8),BLUE,3);line((0,26.2),(0,38.2),BLUE,4)
+line((0,23),(0,25.8),BLUE,3)
+rect(0,WALL_Y1,WALL_DEPTH,WALL_Y2-WALL_Y1,INK)
 for a,b in [(26,30),(35.5,38.2)]:line((68,a),(68,b),BLUE,3)
 for name,a,b,opens in WALLS:
     length=math.dist(a,b);ux=(b[0]-a[0])/length;uy=(b[1]-a[1])/length;cur=0
@@ -317,10 +319,10 @@ label(62.9,35.4,'COOKTOP',7);label(62.9,34.3,'HOOD + OVEN',7);line((63.8,34.3),(
 rect(52.25,28.75,2,2,'#cbd3d2',INK,1);label(53.25,29.7,'DW',8)
 rect(43.1,37.3,4,2,OAK,INK,1);label(45.1,36.2,'PANTRY',9)
 rect(47.72,37.055,15.66,2.75,OAK,INK,1);rect(47.72,40.235,15.66,3.93,OAK,INK,1)
-rect(FP_X1,FP_FRONT,FP_X2-FP_X1,FP_BACK-FP_FRONT,SAND,INK,1)
-line((FP_X1+.73,FP_FRONT),(FP_X2-.73,FP_FRONT),'#414543',2)
-label(3.2,36.9,'ELECTRIC',7);label(3.2,36.0,'FIREPLACE',7)
-line((4,37.1),(FP_X1,FP_FRONT),MUTED,.5)
+rect(FP_BACK,FP_Y1,FP_FRONT-FP_BACK,FP_Y2-FP_Y1,SAND,INK,1)
+line((FP_FRONT,FP_Y1+1),(FP_FRONT,FP_Y2-1),'#414543',2)
+label(-5.8,33,'ELECTRIC',8);label(-5.8,31.8,'FIREPLACE',8)
+line((-2,32.2),(FP_FRONT,32.2),MUTED,.5)
 # Pocket panels at actual open endpoints, unmistakably outside the opening.
 for i in range(6):line((4.8,39.625+i*.15),(9.8,39.625+i*.15),BLUE,1)
 for i in range(4):line((60.1,39.805+i*.13),(63.1,39.805+i*.13),BLUE,1)
@@ -430,9 +432,9 @@ d.image(IMG/'10-primary-bath.png',55,178,1290,806.25)
 d.text(55,1022,'Double vanity / separate soaking tub / generous shower / enclosed toilet / walk-in dressing',18,INK,bold=True)
 d.text(55,1055,'Fixture spacing and walking routes checked; waterproofing, ventilation and final fixture specifications unverified.',16,MUTED);d.save()
 d=Drawing(1400,1120,WORK/'living-page.pdf',title='Coastal House | Warm living retreat')
-header(d,8,'A fireplace beside the terrace','A slim electric concept in limestone, on the room side of the sliding-glass pocket.')
+header(d,8,'A solid fireplace wall','The west living windows become a warm plaster wall; the pergola doors stay fully operable.')
 d.image(IMG/'14-living-fireplace.png',55,178,1290,806.25)
-d.text(55,1022,'48-inch electric insert / 3.05 ft chaise-to-hearth gap / sliding pocket retained',18,INK,bold=True)
+d.text(55,1022,'48-inch electric insert / 4.07 ft chaise-to-hearth gap / sliding pocket retained',18,INK,bold=True)
 d.text(55,1055,'Concept geometry; final fireplace product, thermal clearances and electrical installation remain unselected.',16,MUTED);d.save()
 d=Drawing(1400,1120,WORK/'vault-page.pdf',title='Coastal House | Exposed driftwood pavilion')
 header(d,9,'The pavilion overhead','A real vaulted living and dining room, exposed driftwood frames and high glazing toward the coast.')

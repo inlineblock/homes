@@ -46,11 +46,16 @@ glass_wall('Entry daylight sidelight',(22,.20),(26,.20),8.5,M['glass'],M['bronze
 # Entry leaf open inward against the west reveal; actual passage remains.
 door=box('Front pivot entry leaf',(18.13,2.08,4.2),(.16,3.70,8.4),M['oak'],.02);door['ifc_class']='IfcDoor'
 rod('Front entry pull',(18.0,3.4,3.5),(18.0,3.4,5),.025,M['bronze'])
-# Side walls: high privacy windows in primary bath, full-height glass at living and kitchen.
+# Side walls: retain bath/kitchen glazing; replace west living glazing with a solid fireplace wall.
 for x,label in [(0.20,'West'),(67.80,'East')]:
     wall(label+' front side',(x,11.5,5.25),(.40,23,10.5))
-    wall(label+' back corner',(x,39.1,5.25),(.40,1.8,10.5))
-    wall(label+' glazing head',(x,30.6,10.0),(.40,15.2,1.0))
+    if label=='East':
+        wall(label+' back corner',(x,39.1,5.25),(.40,1.8,10.5))
+        wall(label+' glazing head',(x,30.6,10.0),(.40,15.2,1.0))
+    else:
+        # The full west living wall meets the rear pier; do not retain
+        # coplanar remnants of the former window head and corner return.
+        wall(label+' glazing head',(x,24.6,10.0),(.40,3.2,1.0))
     if label=='East':wall('Kitchen glazing sill wall',(x,30.6,2.8),(.4,15.2,5.6))
     if label=='East':
         for a,b in [(23,26),(30,35.5)]:wall('Kitchen solid appliance backing',(x,(a+b)/2,7.55),(.4,b-a,3.9))
@@ -59,7 +64,9 @@ for x,label in [(0.20,'West'),(67.80,'East')]:
         wall('Primary bath privacy sill',(x,24.5,2.8),(.4,3,5.6))
         wall('West bath partition pier',(x,26,4.75),(.4,.4,9.5))
         glass_wall('Primary bath high privacy window',(x,23),(x,25.8),9.5,M['glass'],M['bronze'],5.6,1)
-        glass_wall(label+' great room glazing',(x,26.2),(x,38.2),9.5,M['glass'],M['bronze'],.10,3)
+        from fireplace import WALL_Y1,WALL_Y2,WALL_DEPTH,WALL_HEIGHT,fit_wall_top
+        west_living_wall=wall('West living solid fireplace wall',(WALL_DEPTH/2,(WALL_Y1+WALL_Y2)/2,WALL_HEIGHT/2),(WALL_DEPTH,WALL_Y2-WALL_Y1,WALL_HEIGHT))
+        fit_wall_top(west_living_wall)
 # Rear wall solids and actual multi-track pocket cavities.
 for a,b in [(0,4.5),(40.15,47.85),(63.3,68)]:wall('Rear solid pier',((a+b)/2,40,5.25),(b-a,1.25,10.5))
 for a,b,z1,z2 in [(4.5,10,0,9.65),(60,63.3,3.13,8.65)]:
@@ -201,7 +208,7 @@ views={
  '11 Living retreat':((25,37,5.4),(11,29.5,5.4),24),
  '12 Vaulted living':((38,24,5.8),(23,38,10.8),24),
  '13 Kitchen to vault':((60,23.2,5.4),(28,37,7.8),22),
- '14 Living fireplace':((20,27,6),(7.5,38,3.4),32),
+ '14 Living fireplace':((19,38,5.6),(1.5,32.2,4.6),30),
 }
 for name,args in views.items():camera(name,*args)
 # Install dense linked planting after furniture to avoid repeated scene evaluation during authoring.
@@ -224,8 +231,10 @@ meta={'schema_version':1,'id':SLUG,'name':'Coastal House','status':'Detailed vis
 meta['deliverables'].update({'roof_section':'outputs/plans/roof-section.svg','vaulted_interior':'outputs/images/12-vaulted-living.png','kitchen_to_vault':'outputs/images/13-kitchen-to-vault.png','interior_photographic_study':'outputs/images/photo-interior.png','vault_photographic_study':'outputs/images/photo-vault.png','exterior_photographic_study':'outputs/images/photo-hero.png'})
 meta['modeled_planting_counts']=garden_counts
 meta['facade_panel_schedule']=facade_counts
-meta['fireplace']={'type':'slim electric concept','asset':'fixtures/slim-electric-fireplace-48in@v001','location':'Room side of west great-room sliding pocket','front_service_reservation_ft':3,'limits':'Manufacturer, thermal and electrical installation unselected; no combustion flue'}
+meta['fireplace']={'type':'slim electric concept','asset':'fixtures/slim-electric-fireplace-48in@v001','location':'Solid west living wall replacing side glazing; pergola doors unchanged','front_service_reservation_ft':3,'limits':'Manufacturer, thermal and electrical installation unselected; no combustion flue'}
 meta['deliverables']['fireplace']='outputs/images/14-living-fireplace.png'
+meta['deliverables']['fireplace_photographic_study']='outputs/images/photo-fireplace.png'
+meta['west_living_wall']={'former_glazing_y_ft':[26.2,38.2],'solid_wall_y_ft':[WALL_Y1,WALL_Y2],'solid_depth_ft':WALL_DEPTH,'solid_height_ft':WALL_HEIGHT,'finish':'Mushroom exterior / warm interior plaster','retained':'Bathroom privacy window and complete pergola door system'}
 meta['design_direction']='Driftwood coastal pavilion: a raised glazed living-room gable, real vaulted ceiling and exposed beams matching the attached pergola; lower bedroom/kitchen wings and muted bronze-gray roofs.'
 from roof_design import roof_metadata
 meta['roof_pavilion']=roof_metadata()

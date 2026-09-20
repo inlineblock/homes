@@ -170,17 +170,21 @@ insert_bounds=bb(insert)
 fire_surround=matching('IfcBuildingElementProxy','Living fireplace ')
 assert len(fire_surround)==5
 for entity in fire_surround:product_geometry(entity)
-assert abs(insert_bounds[3]-insert_bounds[0]-4)<.005
-assert abs(insert_bounds[4]-insert_bounds[1]-.6505)<.005
+assert abs(insert_bounds[4]-insert_bounds[1]-4)<.005
+assert abs(insert_bounds[3]-insert_bounds[0]-.6505)<.005
 assert insert_bounds[4]<39.38
 hearth=bb(one('IfcBuildingElementProxy','Living fireplace low hearth'))
-assert abs(hearth[1]-38.30)<.005
+from fireplace import HEARTH_FRONT,WALL_DEPTH,WALL_Y1,WALL_Y2
+assert abs(hearth[3]-HEARTH_FRONT)<.005
+solid=bb(one('IfcWall','West living solid fireplace wall'))
+assert abs(solid[3]-WALL_DEPTH)<.005 and abs(solid[1]-WALL_Y1)<.005 and abs(solid[4]-WALL_Y2)<.005
+assert not matching('IfcWindow','West great room glazing')
 
 receipt=json.loads((FOLDER/'bonsai-validation.json').read_text())
 receipt.update({'blender_version':bpy.app.version_string,'bonsai_version':'.'.join(map(str,bonsai.bl_info['version'])) if hasattr(bonsai,'bl_info') else '0.8.5',
  'ifcopenshell_version':ifcopenshell.version,'ifc_sha256':hashlib.sha256((FOLDER/'coastal-house.ifc').read_bytes()).hexdigest(),
  'source_blend_sha256':hashlib.sha256((FOLDER/'coastal-house.blend').read_bytes()).hexdigest(),'closed_envelope_frame':1,
- 'fireplace':{'linked_insert_bounds_ft':insert_bounds,'surround_parts':len(fire_surround),'pocket_separate':True,'type':'Original electric concept; installation unselected'},
+ 'fireplace':{'linked_insert_bounds_ft':insert_bounds,'surround_parts':len(fire_surround),'pocket_separate':True,'west_wall_bounds_ft':solid,'former_side_glazing_removed':True,'type':'Original electric concept; installation unselected'},
  'attached_pergola':{'seaward_posts':2,'house_side_posts':0,'post_bounds_ft':postbounds,'header_ledger_bounds_ft':lb,'outer_beam_bounds_ft':ob,'open_slats':len(slats),'actual_bonsai_member_objects_checked':True},
  'entry_canopy_supports':2,'roof_pavilion':{'metadata_matches_current_design':True,'actual_roof_planes':roofs,'upper_glazing':pane_rows,
  'sloping_rafters':len(rafters),'frame_columns':frame_bounds,'stone_encased_wet_zone_posts':1,'wet_zone_material':appearance(wet),'timber_matches_pergola':True},

@@ -250,7 +250,8 @@
     "interior_photographic_study": "outputs/images/photo-interior.png",
     "vault_photographic_study": "outputs/images/photo-vault.png",
     "exterior_photographic_study": "outputs/images/photo-hero.png",
-    "fireplace": "outputs/images/14-living-fireplace.png"
+    "fireplace": "outputs/images/14-living-fireplace.png",
+    "fireplace_photographic_study": "outputs/images/photo-fireplace.png"
   },
   "modeled_planting_counts": {
     "grass": 170,
@@ -264,6 +265,27 @@
     "bespoke_edge_cuts": 38,
     "nominal_course_height_ft": 2.0,
     "joint_ft": 0.025
+  },
+  "fireplace": {
+    "type": "slim electric concept",
+    "asset": "fixtures/slim-electric-fireplace-48in@v001",
+    "location": "Solid west living wall replacing side glazing; pergola doors unchanged",
+    "front_service_reservation_ft": 3,
+    "limits": "Manufacturer, thermal and electrical installation unselected; no combustion flue"
+  },
+  "west_living_wall": {
+    "former_glazing_y_ft": [
+      26.2,
+      38.2
+    ],
+    "solid_wall_y_ft": [
+      26.2,
+      39.375
+    ],
+    "solid_depth_ft": 0.8,
+    "solid_height_ft": 14.02,
+    "finish": "Mushroom exterior / warm interior plaster",
+    "retained": "Bathroom privacy window and complete pergola door system"
   },
   "design_direction": "Driftwood coastal pavilion: a raised glazed living-room gable, real vaulted ceiling and exposed beams matching the attached pergola; lower bedroom/kitchen wings and muted bronze-gray roofs.",
   "roof_pavilion": {
@@ -365,12 +387,5 @@
       "roof_steps": "Flashed vertical abutments and a front/kitchen roof-step riser"
     },
     "limits": "Original concept geometry. Roof assemblies, spans, uplift, connections, condensation control and drainage capacity are unengineered."
-  },
-  "fireplace": {
-    "type": "slim electric concept",
-    "asset": "fixtures/slim-electric-fireplace-48in@v001",
-    "location": "Room side of west great-room sliding pocket",
-    "front_service_reservation_ft": 3,
-    "limits": "Manufacturer, thermal and electrical installation unselected; no combustion flue"
   }
 }

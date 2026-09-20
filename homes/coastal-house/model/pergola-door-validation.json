@@ -1,0 +1,17 @@
+{
+  "baseline_native_sha256": "a756a73244ffad0c723389a411a6f43aa104298b188a1f7d3a8f2fe8a1b519ce",
+  "current_native_sha256": "415f63d66b5b912e6879b8e7189821fc758feb79657a8b1b52d7a896889b09c3",
+  "baseline_revision": "8062ca646412ed79eebd4588a22aaa0176602f69",
+  "sampled_frames": [
+    1,
+    20,
+    40,
+    60,
+    80,
+    100,
+    120
+  ],
+  "protected_objects_per_frame": 326,
+  "geometry_transforms_materials_identical": true,
+  "scope": "Retractable pergola door components, tracks, pocket skins, surrounding limestone, drain and pergola; geometric comparison, not product or structural approval."
+}

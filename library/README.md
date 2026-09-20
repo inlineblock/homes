@@ -24,7 +24,7 @@ See the [shared component API and regeneration instructions](../tools/library/RE
 
 ## Materials, fixtures and furniture
 
-[48-inch slim electric fireplace](fixtures/slim-electric-fireplace-48in/v001/README.md): original front-service concept, adopted by Coastal House in a shallow limestone surround.
+[48-inch slim electric fireplace](fixtures/slim-electric-fireplace-48in/v001/README.md): original front-service concept, adopted by Coastal House in a shallow limestone surround on its solid west living wall.
 
 | Asset | Category | Placement / scale | Used by |
 |---|---|---|---|

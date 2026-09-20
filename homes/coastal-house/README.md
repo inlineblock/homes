@@ -6,7 +6,7 @@
 
 A modern coastal pavilion with a raised glazed gable, a real vaulted living/dining room and exposed driftwood beams that continue visually into the attached pergola and deep eaves. Muted bronze-gray metal roofs, mushroom mineral plaster and large-format limestone give the exterior depth, while the long glass wall and separate serving counter connect the interior to outdoor dining and conversation spaces.
 
-**Reviewed current set:** fourteen native views, an exterior Imagegen study and two interior studies, furnished floor/site plans, a measured roof section and a ten-page booklet. The native model, 38 shared asset dependencies, lighting, IFC export and actual Bonsai import pass the recorded concept checks. See [design review](design-review.md) and [output receipt](model/output-validation.json).
+**Reviewed current set:** fourteen native views, an exterior Imagegen study and three interior studies, furnished floor/site plans, a measured roof section and a ten-page booklet. The native model, 38 shared asset dependencies, lighting, IFC export and actual Bonsai import pass the recorded concept checks. See [design review](design-review.md) and [output receipt](model/output-validation.json).
 
 **Rear terrace — glass wall and serving window open**
 
@@ -54,13 +54,17 @@ The interior view shows how the long opening connects the dining area to the ter
 
 ![Dining room and kitchen opening toward the coast](outputs/images/02-great-room.png)
 
-### Fireplace beside the terrace
+### Solid west wall and fireplace
 
-![Electric fireplace beside the pocketing terrace opening](outputs/images/14-living-fireplace.png)
+![AI photographic study of the solid west fireplace wall](outputs/images/photo-fireplace.png)
 
-A 48-inch electric fireplace concept sits in a low limestone surround on the room side of the sliding pocket. The hearth leaves **3.05 ft** to the chaise and a clear **3 ft** front-service reservation. Electric is the working assumption; the final product, thermal clearances and electrical installation are unselected.
+*AI photographic study; the reviewed native view below records the modeled geometry. [Source and prompt](outputs/photo-fireplace-study.md).*
 
-The exterior pocket skin now matches the adjacent limestone courses, with a narrow service seam. Its interior skin matches the warm plaster. The pocket remains usable through the glass wall's full modeled travel.
+![Electric fireplace on the solid west living wall](outputs/images/14-living-fireplace.png)
+
+The west living-room windows are now a solid plaster wall. The retractable doors below the pergola stay unchanged. A 48-inch electric fireplace concept sits in a low limestone surround on the solid west living wall. The hearth leaves **4.07 ft** to the chaise and a clear **3 ft** front-service reservation. Electric is the working assumption; the final product, thermal clearances and electrical installation are unselected.
+
+The existing exterior pocket skin matches the adjacent limestone courses, with a narrow service seam. Its interior skin retains the warm plaster. The pocket remains usable through the glass wall's full modeled travel.
 
 ### Living retreat — warmth and texture
 
@@ -130,7 +134,7 @@ The kitchen includes a shared **36-inch induction cooktop, 30-inch oven, 36-inch
 
 ![Primary suite double vanity and soaking tub](outputs/images/10-primary-bath.png)
 
-Shared bronze cabinet pulls and door levers, recessed downlights with real ceiling cutouts and concealed task lighting give the design consistent detail. Vault-mounted downlights follow their actual sloping ceiling surfaces; the dining pendant uses a shared 3:12-specific suspension with a level light bar, verified against the actual sloping ceiling with a level diffuser at 8.55 ft. The primary suite contains a separate shower and tub, enclosed toilet, double vanity and dressing room. The living room now includes a slim electric fireplace concept in a low limestone surround beside the terrace.
+Shared bronze cabinet pulls and door levers, recessed downlights with real ceiling cutouts and concealed task lighting give the design consistent detail. Vault-mounted downlights follow their actual sloping ceiling surfaces; the dining pendant uses a shared 3:12-specific suspension with a level light bar, verified against the actual sloping ceiling with a level diffuser at 8.55 ft. The primary suite contains a separate shower and tub, enclosed toilet, double vanity and dressing room. The living room now includes a slim electric fireplace concept in a low limestone surround on the solid west wall.
 
 ## Single-level floor plan
 
@@ -159,6 +163,8 @@ Run from the repository root, with Git LFS files materialized:
 ```
 
 Render drafts go to ignored `outputs/work/`. Review before copying selected views into `outputs/images/`; regenerate the PDF and previews after changing embedded images. Final images are 3200 x 2000, Cycles, 256 maximum samples for front/roof/side and closed-terrace views; 512 for interiors, counter views and the open-terrace hero, all with adaptive sampling and denoising. Native verification uses factory startup to avoid unrelated add-on workspace links. The separate export command uses the installed Bonsai/IfcOpenShell environment, sets frame 1 and never saves that temporary closed state over the native model. Reopen the IFC with the common importer followed by the Coastal geometry verifier, as shown above.
+
+The [pergola-door comparison](model/pergola-door-validation.json) confirms the protected door and pergola match commit `8062ca6` at seven frames. Reproduce with `tools/coastal04/verify_pergola_door.py` in a factory-startup Blender process, passing the materialized native file from that commit after `--`; keep its relative library dependencies alongside it.
 
 Drawings use the repository's pinned ReportLab/PyPDF dependencies. Run `python3 tools/coastal04/draw_plans.py --review` against the reviewed draft renders first; all draft SVG/PNG/PDF outputs remain in `outputs/work/`. Inspect the floor/site plans, measured roof section and all ten booklet pages before promotion.
 

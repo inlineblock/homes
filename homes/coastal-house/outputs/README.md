@@ -6,7 +6,7 @@
 
 Raised coastal pavilion concept: 2,720 gross enclosed sq ft, three bedrooms and two baths. The native gallery documents the editable model and real moving glass panels; the first image is a separately labeled AI photographic study.
 
-**Reviewed current set:** fourteen native views, three separately labeled Imagegen studies, furnished floor/site plans, a measured roof section and a ten-page booklet. Native geometry, 38 asset pins, lighting and actual IFC/Bonsai import have been checked. [Review evidence and source hashes](../model/output-validation.json).
+**Reviewed current set:** fourteen native views, four separately labeled Imagegen studies, furnished floor/site plans, a measured roof section and a ten-page booklet. Native geometry, 38 asset pins, lighting and actual IFC/Bonsai import have been checked. [Review evidence and source hashes](../model/output-validation.json).
 
 ## Terrace / open
 
@@ -106,8 +106,12 @@ This detail shows the double vanity and soaking tub. The floor plan locates the 
 
 Only current reviewed outputs belong here. Stable filenames replace previous results; Git retains history. Draft renders and temporary PDF pages stay in ignored `work/`. The coastal backdrop is illustrative and the opening systems require product/site engineering.
 
-## Fireplace beside the terrace
+## Solid west wall and fireplace
 
-![Electric fireplace beside the sliding pocket](images/14-living-fireplace.png)
+![AI photographic study of the solid west fireplace wall](images/photo-fireplace.png)
 
-Low limestone surround, 48-inch slim electric concept and 3.05 ft chaise-to-hearth gap. The glass parks in the independent cavity behind it. Product, thermal and electrical installation remain unselected.
+*AI photographic study; the reviewed native view below records the modeled geometry. [Source and prompt](photo-fireplace-study.md).*
+
+![Electric fireplace on the solid west living wall](images/14-living-fireplace.png)
+
+Low limestone surround, 48-inch slim electric concept and 4.07 ft chaise-to-hearth gap. The former side windows are solid plaster; the retractable pergola doors and their pocket are unchanged. Product, thermal and electrical installation remain unselected.

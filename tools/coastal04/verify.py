@@ -118,7 +118,7 @@ routes={
  'coat storage':[(22,7),(22,10.9)],
  'linen storage':[(58,11.65),(62,11.65),(64,11.65),(64,11.7)],
  'mechanical service':[(58,18.7),(64,18.7)],
- 'fireplace front service':[(20,37),(12,37),(7.25,36.78)],
+ 'fireplace front service':[(20,37),(3.5,37),(3.5,32.2)],
 }
 interior_route_evidence=check_routes(routes,obstacles,1.25,.12,'30 inch walking route obstructed')
 # Counter continuity and serving aperture remain separate from stone.
@@ -206,7 +206,7 @@ from lighting_hardware import verify_saved
 lighting_evidence=verify_saved(s)
 (HOME/'model/lighting-validation.json').write_text(json.dumps(lighting_evidence,indent=2)+'\n')
 # Check the actual linked insert and surround against the pocket and furniture.
-from fireplace import INSERT_FRONT, INSERT_BOTTOM, INSERT_WIDTH, INSERT_HEIGHT
+from fireplace import WALL_Y1, WALL_Y2, WALL_DEPTH, WALL_HEIGHT
 insert_parts=[bb for name,bb in linked_obstacles if name.startswith('Living shared electric fireplace ')]
 assert insert_parts, 'Linked fireplace missing from evaluated scene'
 insert_bb=tuple(min(b[i] for b in insert_parts) for i in range(3))+tuple(max(b[i+3] for b in insert_parts) for i in range(3))
@@ -218,13 +218,30 @@ pocket=[o for o in s.objects if o.name.startswith('Pocket removable cladding ski
 assert len(pocket)==2
 inner_skin=min(pocket,key=lambda o:o.location.y)
 assert 'plaster' in inner_skin.data.materials[0].name.lower()
-fire_back=max([insert_bb[4]]+[bounds(o)[4] for o in surround])
-assert fire_back<bounds(inner_skin)[1], 'Fireplace occupies the sliding pocket'
+wall_obj=bpy.data.objects['West living solid fireplace wall']
+wall_bb=bounds(wall_obj)
+assert not any(o.name.startswith('West great room glazing') for o in s.objects), 'Former west living glazing remains'
+for i,(actual,expected) in enumerate(zip(wall_bb,(0,WALL_Y1,0,WALL_DEPTH,WALL_Y2,WALL_HEIGHT))):
+    assert abs(actual-expected)<(.01 if i==5 else .002),('West wall bounds',i,actual,expected)
+# The sloped bevel trims under 0.01 ft from the highest corner; check the
+# authoring top vertices separately against the actual ceiling plane.
+from roof_design import ceiling_height
+for v in wall_obj.data.vertices:
+    point=wall_obj.matrix_world@v.co/F
+    if point.z>WALL_HEIGHT/2:assert abs(point.z-ceiling_height(point.x,32.2)-.02)<.001
+assert any(o.name.startswith('Primary bath high privacy window') for o in s.objects)
+west_post=[o for o in s.objects if o.name.startswith('Pavilion driftwood structural frame post') and abs(o.location.x/F-.45)<.01 and abs(o.location.y/F-32)<.01]
+assert len(west_post)==1, 'West living structural post missing'
+post_bb=bounds(west_post[0])
+assert all(post_bb[i]>=wall_bb[i]-.002 and post_bb[i+3]<=wall_bb[i+3]+.002 for i in range(3)), 'West frame post not within solid wall'
+assert min([insert_bb[0]]+[bounds(o)[0] for o in surround])>wall_bb[3]
+fire_north=max([insert_bb[4]]+[bounds(o)[4] for o in surround])
+assert fire_north<bounds(inner_skin)[1], 'Fireplace occupies the sliding pocket'
 hearth=bounds(bpy.data.objects['Living fireplace low hearth'])
-chaise=max(bounds(o)[4] for o in s.objects if o.name.startswith(('Living chaise cushion','Living chaise base')))
-assert hearth[1]-chaise>=3.-.002
+chaise=min(bounds(o)[0] for o in s.objects if o.name.startswith(('Living chaise cushion','Living chaise base')))
+assert chaise-hearth[3]>=3.-.002
 # Front removal envelope spans the full insert, measured from its actual front.
-service=(insert_bb[0],insert_bb[1]-3,0,insert_bb[3],insert_bb[1],6)
+service=(insert_bb[3],insert_bb[1],0,insert_bb[3]+3,insert_bb[4],6)
 for name,bb in obstacles:
     if name.startswith(('Living fireplace','Living shared electric fireplace')):continue
     assert not intersects(service,bb),('Fireplace front removal blocked',name)
@@ -236,8 +253,8 @@ for f in [1,20,40,60,80,100,120]:
             assert not intersects(bounds(panel),bb),(f,panel.name,'fireplace / sliding panel collision')
             fire_checks+=1
 report['fireplace']={'type':'Original slim electric concept','linked_asset':'fixtures/slim-electric-fireplace-48in@v001',
- 'evaluated_insert_bounds_ft':insert_bb,'surround_parts':len(surround),'clear_chaise_to_hearth_ft':round(hearth[1]-chaise,3),
- 'front_removal_depth_ft':3,'front_removal_unobstructed':True,'pocket_skin_separation_ft':round(bounds(inner_skin)[1]-fire_back,3),
+ 'evaluated_insert_bounds_ft':insert_bb,'surround_parts':len(surround),'clear_chaise_to_hearth_ft':round(chaise-hearth[3],3),
+ 'front_removal_depth_ft':3,'front_removal_unobstructed':True,'pocket_skin_separation_ft':round(bounds(inner_skin)[1]-fire_north,3),
  'sampled_panel_fireplace_checks':fire_checks,'no_panel_collisions':True,
  'limits':'Concept geometry; product, electrical circuit, ventilation and thermal clearances unselected.'}
 manifest=json.loads((HOME/'project.json').read_text())
@@ -245,6 +262,7 @@ full=[o for o in s.objects if o.name.startswith('Shared limestone facade full pa
 cuts=[o for o in s.objects if o.name.startswith('Limestone facade bespoke perimeter cut')]
 assert len(full)==manifest['facade_panel_schedule']['full_linked_panels']
 assert len(cuts)==manifest['facade_panel_schedule']['bespoke_edge_cuts']
+report['west_living_wall']={'solid_bounds_ft':wall_bb,'former_glazing_removed':True,'bath_privacy_glazing_retained':True,'fireplace_faces_room_east':True,'structural_post_retained_within_wall':True}
 report['pocket_wall']={'exterior':'Matching pinned limestone facade panels with narrow service seam','interior':'Warm limestone plaster',
  'facade_full_panels':len(full),'facade_perimeter_cuts':len(cuts),'moving_cavity_retained':True}
 report['lighting']={'actual_ceiling_openings':lighting_evidence['total_actual_ceiling_openings'],'regions':lighting_evidence['downlights'],'pendant_ceiling_contact_checked':True}

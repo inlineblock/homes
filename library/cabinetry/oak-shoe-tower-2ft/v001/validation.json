@@ -1,0 +1,32 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "native_sha256": "c044a7a280db4cb2bffd27861cf80c2a40e20d5e2173179f1cb02202c80315c3",
+  "native_unchanged_by_review": true,
+  "actual_dimensions_m": [
+    0.6096000075340271,
+    0.40639999508857727,
+    2.1335999965667725
+  ],
+  "origin_checked": true,
+  "objects": 82,
+  "host_integration_checked": false,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 3,
+    "samples": 24
+  },
+  "visual_review_pending": false,
+  "preview_sha256": "cb53e0c7487e15e0e0de081c39d61d693115380d2cba0005eaee3e06979bc336",
+  "visual_review": {
+    "reviewed": true,
+    "method": "Opened actual native CPU previews; opened posed preview where moving fronts exist",
+    "scope": "Isolated geometry and readable function, not host installation approval",
+    "findings": [
+      "Dimensions and functional differences read clearly",
+      "All displayed geometry belongs to the actual native collection",
+      "No native geometry changed during preview review"
+    ]
+  }
+}

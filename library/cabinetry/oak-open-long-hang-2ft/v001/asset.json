@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-open-long-hang-2ft",
+  "version": "v001",
+  "name": "Open oak long hanging bay | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6096000075340271,
+    2.4384000301361084
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "blender": {
+    "collection": "Open oak long hanging bay | v001"
+  },
+  "placement": {
+    "origin": "Floor center of nominal carcass XY, base Z=0",
+    "front_direction": "-Y; width X; up Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling"
+  },
+  "features": {
+    "hanging_rail_centers_z_m": [
+      2.08
+    ],
+    "usable_rail_length_m": 0.546,
+    "illustrative_garments_per_rail": 7,
+    "garment_note": "Original modeled garments demonstrate use extents; not a rated capacity or household storage promise. Garments sit within the native carcass depth.",
+    "long_garment_drop_m": 1.445,
+    "short_garment_drop_m": null
+  },
+  "installation": {
+    "mounting": "Level supported floor with host anti-tip/wall fixation; no wall-hung claim. Do not overlay separate complete cabinet carcasses.",
+    "operating_envelope": {
+      "modeled_state": "Open-front fixed storage",
+      "moving_parts": false,
+      "intended_front_travel_m": 0,
+      "operator_depth_beyond_open_front_m": null,
+      "reserve_front_access_m": 0.9,
+      "basis": "Original generic geometry and concept standing allowance, not a selected product. Host must test actual movement, opposing fixtures and people/route space.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve fixing strength, shelf/rail loads, chosen hardware and electrical supply where lighting is added.",
+      "Moving drawer/hamper envelope is separate from through-circulation; do not claim two people can pass while open."
+    ]
+  },
+  "derived_from": {
+    "id": "cabinetry/oak-wardrobe-2ft",
+    "version": "v001",
+    "native_sha256": "634c769ae2083b4f8a7a7fccc429e60cfe09efe52603142c838528f063a4fb7a",
+    "method": "Append actual published collection; retain carcass, top/bottom and toe kick. Remove old closed doors, pulls, upper shelf and rail, then install the stated open dressing equipment."
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original derivative",
+    "generator": "tools/library/publish_dressing_modules.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_dressing_modules.py -- --asset oak-open-long-hang-2ft"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural appearances; attribution Homes project contributors. No manufacturer CAD or third-party content.",
+  "files": {
+    "blender": "oak-open-long-hang-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept asset, not a commercially specified system, engineered storage capacity or installation approval. Sample clothes/shoes are illustrative objects, not a household capacity guarantee.",
+  "additional_derivations": []
+}

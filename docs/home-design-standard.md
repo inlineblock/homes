@@ -14,6 +14,8 @@ This is the repository's design standard, not a jurisdiction's legal definition,
 - Trace road → parking → sheltered entrance → coat/drop zone → public living area. Keep pedestrian routes usable while cars are parked. Design a welcoming foyer with daylight and a view toward public space; avoid an unnecessary long narrow corridor between blank walls.
 - Trace bedroom → bathroom, garage → house, kitchen → dining, interior → deck/patio, and every stair connection. Keep these paths free with doors, chairs and storage in ordinary use.
 - Check furniture-scale dimensions, chair pullback, bed sides/end, wardrobe door/drawer operation, appliance openings and bathroom privacy. Record actual dimensions, not only a blanket pass/fail minimum.
+- Compose fixtures and furniture with walls, windows and activity zones. Reject accidental floating placement and awkward leftover gaps, including freestanding tubs that crowd the shower approach. Verify useful negative space and cleaning access in plan and eye-level views; follow [spatial placement guidance](design-guide/interiors-storage-access.md#spatial-placement-compose-the-room-before-placing-assets).
+- Place beds at deliberate headboard walls; resolve each bathroom door's hinge/swing or pocket individually. Design large pantries and premium walk-ins as usable working/dressing rooms, not sparse oversized labels. Apply the detailed [interior operation guidance](design-guide/interiors-storage-access.md) and [pantry decisions](research/kitchen-bath-tiers.md#large-pantries-and-butlers-pantries).
 - Stairs need a real opening, consistent treads/risers, landings, headroom and guards. Decks need modeled support logic, guards and access. Avoid impossible cantilevers or inaccessible leftover rooms.
 
 ## Site and envelope

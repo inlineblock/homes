@@ -1,0 +1,29 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "native_sha256": "7106e4121d2f0386d02a308e9b15926c0ff68eb113b8ece9510f15075b211b12",
+  "native_preserved_by_review": true,
+  "actual_dimensions_m": [
+    0.5960000157356262,
+    0.6430000364780426,
+    1.7109999656677246
+  ],
+  "washer_count": 1,
+  "dryer_count": 1,
+  "individual_door_groups": 2,
+  "reserved_installation_height_m": 1.8,
+  "host_integration_checked": false,
+  "visual_review_pending": false,
+  "preview_sha256": "64c82b8369d648bdb8e159ffd10f85254ef87255d48064a4e995b37eb2a4f4c3",
+  "open-preview_sha256": "59863e8b1ed280d758e723dbcf48282d099a57b162a6135a180f5e1af223640e",
+  "visual_review": {
+    "reviewed": true,
+    "method": "Opened actual closed and 90-degree open CPU previews",
+    "findings": [
+      "Lower washer and upper dryer separately identifiable",
+      "Actual drum openings and separate doors are visible in open pose",
+      "Dedicated stacking interface present; native remains closed"
+    ],
+    "scope": "Original concept appearance, not manufacturer-exact geometry or host clearance approval"
+  }
+}

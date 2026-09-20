@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "surfaces/sage-stacked-backsplash-12x24",
+  "version": "v001",
+  "name": "Sage stacked backsplash 12 x 24 in",
+  "units": "meters",
+  "blender": {
+    "collection": "Sage stacked backsplash 12 x 24 in"
+  },
+  "placement": {
+    "origin": "Centered X, rear mounting plane Y=0, bottom Z=0",
+    "front_direction": "+Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only. Repeat linked full modules at documented pitch; do not stretch."
+  },
+  "source": {
+    "kind": "original",
+    "author": "Homes project contributors",
+    "generator": "tools/library/publish_backsplash_options.py",
+    "command": "Blender -b --factory-startup --python tools/library/publish_backsplash_options.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance. Attribution: Homes project contributors. No third-party downloads.",
+  "dependencies": [
+    {
+      "id": "materials/sage-fluted-tile",
+      "version": "v001",
+      "path": "../../../materials/sage-fluted-tile/v001/sage-fluted-tile.blend"
+    }
+  ],
+  "installation": {
+    "mounting": "Host provides stable continuous substrate, product-selected bonding/support, and substrate waterproofing behind Y=0. Adhesive thickness is not represented.",
+    "joints": "Leave perimeter and changes of plane as correctly specified flexible joints; do not fill movement joints with hard grout. Bottom datum is finish edge: host leaves a coordinated countertop junction below it.",
+    "wet_limitations": "Visual concept only. Neither geometry nor glaze establishes water absorption, stain resistance, waterproofing or cleaning compatibility. Verify selected material, grout, sealants and backing before wet use.",
+    "heat_limitations": "No flame, temperature or combustible-clearance rating. Range/cooktop instructions and the actual finish/bonding system govern all heat clearances; do not infer approval from ceramic or stone appearance.",
+    "required_host_checks": [
+      "Countertop and end junctions",
+      "Outlets and fixture penetrations with correctly detailed edge cuts",
+      "Substrate capacity, adhesion, movement and waterproofing",
+      "Actual appliance heat clearances and finish suitability"
+    ],
+    "host_installation_checked": false,
+    "operating_envelope": {
+      "state": "Fixed finish module",
+      "moving_parts": false
+    }
+  },
+  "variation": {
+    "cuts": "Project-specific boundary and outlet cuts may trim a copy of the mesh, retaining material scale and finish thickness; document cuts. Full modules stay linked. Exposed cuts need the host-selected finished edge or trim."
+  },
+  "files": {
+    "blender": "sage-stacked-backsplash-12x24.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "installation_preview": "installation-preview.png"
+  },
+  "limitations": "Editable architectural visualization asset; not a commercial product, tested assembly, construction detail or code approval. Available library option; no new home adoption is claimed.",
+  "module": {
+    "width_m": 0.3048,
+    "height_m": 0.6096,
+    "tile_pitch_m": [
+      0.0762,
+      0.3048
+    ],
+    "array_columns_rows": [
+      4,
+      2
+    ],
+    "tile_body_m": [
+      0.073152,
+      0.301752
+    ],
+    "joint_m": 0.003048,
+    "array_repeat_pitch_m": [
+      0.3048,
+      0.6096
+    ],
+    "seam_rule": "Module includes half a grout joint at each outer edge; adjoining modules butt at pitch to preserve 3.048 mm tile-to-tile joint. Do not add an extra field gap between array modules.",
+    "grout_front_y_m": 0.007
+  },
+  "derived_from": {
+    "id": "materials/sage-fluted-tile",
+    "version": "v001",
+    "basis": "Eight linked instances of the actual source tile collection, unchanged geometry/glaze; original new recessed grout assembly and mounting datum."
+  },
+  "preview_content": "Native collection is a repeatable four-column x two-row vertical stacked field (8 actual linked source tiles). Preview shows that one field; source tile material and flute geometry remain linked.",
+  "dimensions_m": [
+    0.30480000376701355,
+    0.020135600119829178,
+    0.6096000075340271
+  ],
+  "bounds_m": {
+    "min": [
+      -0.15240000188350677,
+      0.0,
+      0.0
+    ],
+    "max": [
+      0.15240000188350677,
+      0.020135600119829178,
+      0.6096000075340271
+    ]
+  },
+  "installation_preview": {
+    "kind": "Illustrative studio installation specimen using actual linked native finish",
+    "countertop_top_z_m": -0.003,
+    "finish_bottom_datum_z_m": 0,
+    "flexible_counter_joint_m": 0.003,
+    "counter_joint_fill": "Separate physical 3 mm high concept sealant strip; adhesion, movement capacity and commercial sealant unresolved",
+    "vertical_slab_joint_m": null,
+    "termination": "Two linked sage arrays meet at documented 304.8 mm pitch without an extra panel gap; an illustrative 1 mm thick metal L-profile caps exposed side edges.",
+    "native_geometry_modified": false,
+    "real_home_installation_checked": false,
+    "product_or_code_approval": false,
+    "visual_inspection": {
+      "status": "passed",
+      "basis": "Actual installation-preview.png inspected",
+      "notes": "Actual linked finish, countertop junction and side termination visible; 3 mm sealant and counter-top bounds checked in Blender. Separate slab vertical joint visible where applicable. Studio specimen only; no real home or product approval."
+    },
+    "render_settings": {
+      "engine": "Cycles CPU",
+      "threads": 4,
+      "samples": 32,
+      "color_management": "AgX",
+      "exposure": 0
+    },
+    "counter_and_sealant_bounds_verified": true
+  }
+}

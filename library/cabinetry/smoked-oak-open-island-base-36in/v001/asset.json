@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/smoked-oak-open-island-base-36in",
+  "version": "v001",
+  "name": "Smoked oak open island base 36in | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.9143999814987183,
+    0.5888000130653381,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.2840000092983246,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "blender": {
+    "collection": "Smoked oak open island base 36in | v001"
+  },
+  "placement": {
+    "origin": "Floor center of nominal carcass XY, base Z=0",
+    "front_direction": "-Y; width X; up Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling"
+  },
+  "features": {
+    "open_compartments": 4,
+    "doors_or_drawers": 0,
+    "shelf_center_z_m": 0.455,
+    "host_countertop_excluded": true
+  },
+  "installation": {
+    "mounting": "Level supported floor with host anti-tip/wall fixation; no wall-hung claim. Do not overlay separate complete cabinet carcasses.",
+    "operating_envelope": {
+      "modeled_state": "Open-front fixed storage",
+      "moving_parts": false,
+      "intended_front_travel_m": 0,
+      "operator_depth_beyond_open_front_m": null,
+      "reserve_front_access_m": 0.9,
+      "basis": "Original generic geometry and concept standing allowance, not a selected product. Host must test actual movement, opposing fixtures and people/route space.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve fixing strength, shelf/rail loads, chosen hardware and electrical supply where lighting is added.",
+      "Moving drawer/hamper envelope is separate from through-circulation; do not claim two people can pass while open."
+    ]
+  },
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-drawer-base-2ft",
+    "version": "v001",
+    "native_sha256": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb",
+    "method": "Append actual published carcass. Remove drawer assemblies and pulls; widen fixed carcass panels 304.8 mm, preserving thickness, depth and height; add open mid shelf and center support. Regenerate physical wood UVs. No live instance scaling."
+  },
+  "dependencies": [
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../../materials/smoked-oak/v001/smoked-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original derivative",
+    "generator": "tools/library/publish_dressing_modules.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_dressing_modules.py -- --asset smoked-oak-open-island-base-36in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural appearances; attribution Homes project contributors. No manufacturer CAD or third-party content.",
+  "files": {
+    "blender": "smoked-oak-open-island-base-36in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept asset, not a commercially specified system, engineered storage capacity or installation approval. Sample clothes/shoes are illustrative objects, not a household capacity guarantee.",
+  "additional_derivations": []
+}

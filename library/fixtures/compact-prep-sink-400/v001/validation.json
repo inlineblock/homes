@@ -1,0 +1,30 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "native_sha256": "4d3f35407091a437d77f93909d1124d771226b8939660db8b627d334c6e95af4",
+  "native_unchanged_by_review": true,
+  "actual_dimensions_m": [
+    0.44999998807907104,
+    0.5061807185411453,
+    0.7680805027484894
+  ],
+  "tests": {
+    "drain_bore_unobstructed": true,
+    "bowl_open_below_counter": true,
+    "bowl_test_hit_z_m": -0.2306545376777649
+  },
+  "host_integration_checked": false,
+  "preview_scope": "Actual asset in an illustrative38.1mm worktop with real cutouts/faucet bore; studio supports are not a supplied kitchen cabinet",
+  "visual_review_pending": false,
+  "preview_sha256": "a0e1c0e195d67d83931db791de87f43cad2d73b5dfce5dd144d6ad122fb60013",
+  "visual_review": {
+    "status": "passed for actual native concept asset and illustrative cutout study",
+    "reviewer": "twin_assets",
+    "observations": [
+      "Open bowl and drain visible; native rays confirm continuous drain bore and basin below countertop.",
+      "Shared faucet is physically above the drilled worktop; distinct mounting body, lever and spray head.",
+      "Cabinet installation is deliberately unresolved; studio supports are not an adopted host."
+    ]
+  }
+}

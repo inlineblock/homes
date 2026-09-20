@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/full-length-bronze-mirror-24x72",
+  "version": "v001",
+  "name": "Full length bronze mirror 24x72 | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.029999999329447746,
+    1.8287999629974365
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.029999999329447746,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.0,
+      1.8287999629974365
+    ]
+  },
+  "blender": {
+    "collection": "Full length bronze mirror 24x72 | v001"
+  },
+  "placement": {
+    "origin": "Bottom center X at wall mounting plane Y=0, Z=0",
+    "front_direction": "-Y; width X; up Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling"
+  },
+  "features": {
+    "reflective_face_m": [
+      0.5766,
+      1.7958
+    ],
+    "back_mounting_plane_y_m": 0,
+    "frontmost_plane_y_m": -0.03,
+    "mirror_material": "Physically reflective metallic silver, not painted gray",
+    "mounting_note": "Host supplies wall blocking, glass safety specification and concealed clips; back plane must align with actual finished wall."
+  },
+  "installation": {
+    "mounting": "Wall supported mirror; backing plane Y=0",
+    "operating_envelope": {
+      "modeled_state": "Fixed reflective mirror",
+      "moving_parts": false,
+      "intended_front_travel_m": 0,
+      "operator_depth_beyond_open_front_m": null,
+      "reserve_front_access_m": 0.9,
+      "basis": "Original generic geometry and concept standing allowance, not a selected product. Host must test actual movement, opposing fixtures and people/route space.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve fixing strength, shelf/rail loads, chosen hardware and electrical supply where lighting is added.",
+      "Moving drawer/hamper envelope is separate from through-circulation; do not claim two people can pass while open."
+    ]
+  },
+  "derived_from": null,
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_dressing_modules.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_dressing_modules.py -- --asset full-length-bronze-mirror-24x72"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural appearances; attribution Homes project contributors. No manufacturer CAD or third-party content.",
+  "files": {
+    "blender": "full-length-bronze-mirror-24x72.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept asset, not a commercially specified system, engineered storage capacity or installation approval. Sample clothes/shoes are illustrative objects, not a household capacity guarantee."
+}

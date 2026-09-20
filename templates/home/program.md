@@ -16,6 +16,9 @@ Read `docs/home-program-checklist.md`, `docs/home-design-standard.md` and the do
 |---|---|---|---|---|---|
 | Kitchen equipment set: cooktop/range, oven, hood/exhaust, fridge, sink/faucet, dishwasher, pantry, waste | | | | | |
 | Primary suite: bed/clothes storage, vanity, bathing, toilet privacy, linen | | | | | |
+| Headboard wall and bedside layout; mixed walk-in storage capacity and open-drawer use | | | | | |
+| Bathroom/WC opening schedule: hinge/swing or pocket, occupied approach, clear enclosure dimensions | | | | | |
+| Large pantry: perimeter storage, appliance/prep counter, island and working/service routes | | | | | |
 | Other bedrooms and their storage | | | | | |
 | Arrival, coats/drop zone and parking routes | | | | | |
 | Laundry, linen/broom/seasonal storage | | | | | |

@@ -1,6 +1,6 @@
 # Twin Gables Courtyard — design review
 
-Status: reviewed architectural concept. All 14 native views, both plan sheets and eight photographic studies were inspected on 2026-09-20. This is concept review, not construction or permit approval.
+Status: interior corrections in progress following user review. The earlier 14-view / eight-study gallery remains the published baseline until the revised model and outputs are reviewed. Its earlier checks missed floating headboards, loss of basin approach from ensuite door swings, and poor dressing quality; those are open failures, not accepted concept limitations. Pantry functionality and WC proportions/plan legibility are also being revised. Measurements below describe that prior baseline until replaced by current evidence.
 
 ## Accepted design
 

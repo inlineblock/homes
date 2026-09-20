@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "appliances/premium-stacked-laundry-596",
+  "version": "v001",
+  "name": "Premium compact washer and heat-pump dryer stack | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.5960000157356262,
+    0.6430000364780426,
+    1.7109999656677246
+  ],
+  "bounds_m": {
+    "min": [
+      -0.2980000078678131,
+      -0.3215000331401825,
+      0.0
+    ],
+    "max": [
+      0.2980000078678131,
+      0.3215000033378601,
+      1.7109999656677246
+    ]
+  },
+  "blender": {
+    "collection": "Premium compact washer and heat-pump dryer stack | v001"
+  },
+  "placement": {
+    "origin": "Floor at center of nominal596x643mm complete stack footprint",
+    "front_direction": "-Y; width X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling; always keep washer below dryer"
+  },
+  "equipment": {
+    "washer_count": 1,
+    "heat_pump_dryer_count": 1,
+    "nominal_individual_m": [
+      0.596,
+      0.643,
+      0.85
+    ],
+    "geometry_stack_height_m": 1.711,
+    "reserved_installation_height_m": 1.8,
+    "stacking_bridge_height_m": 0.011,
+    "brand_status": "Original unbranded geometry, not a manufacturer model or certified stacking system"
+  },
+  "design_basis": {
+    "reference_family": "Miele WXR960 WCS and TXR960WP Eco&Steam with WTV502 no-drawer stack kit",
+    "sources": {
+      "washer": "https://www.mieleusa.com/product/12864100/w1-front-loading-washing-machine-wxr960-wcs-tdosandintensewash",
+      "dryer": "https://www.mieleusa.com/product/12864160/t1-heat-pump-dryer-txr960wp-ecoandsteam",
+      "washer_manual": "https://media.miele.com/downloads/c9/f5/00_C7F1383867AF1FD1898B2B80E678C9F5.pdf",
+      "dryer_manual": "https://media.miele.com/downloads/03/33/00_C7F13838CDF91FD186920BC33FF60333.pdf",
+      "predecessor_stack_height_diagram": "https://www.mieleusa.com/forms2/us/sa/manuals-125.aspx?asDownload=1&mNo=10669410"
+    },
+    "review_date": "2026-09-20",
+    "dimensions_basis": "Current individual product dimensions596W x643D x850H mm and1077mm depth with door open. 1711mm WTV502 stack height is from previous W1/T1 family installation diagram; current pages list compatibleWTV502 but current exact installed height requires final drawing confirmation.",
+    "stock": "Dealer inventory unverified. Reference family supports planning; asset does not specify procurement."
+  },
+  "installation": {
+    "mounting": "Dedicated manufacturer-approved stacking kit and level supported floor required for the actual chosen equipment. Modeled 11mm bridge is a visual interface, not a kit fabrication detail. Reserve1.8m installation height and75mm rear service allowance as concept assumptions until selected drawings.",
+    "operating_envelope": {
+      "modeled_state": "Both doors closed; individually poseable geometry, washer and dryer hinges left in this concept",
+      "intended_open_angle_degrees": 90,
+      "hinges_m": [
+        [
+          -0.217,
+          -0.3,
+          0.38
+        ],
+        [
+          -0.217,
+          -0.3,
+          1.241
+        ]
+      ],
+      "published_reference_depth_with_door_open_m": 1.077,
+      "published_reference_projection_beyond_closed_front_m": 0.434,
+      "operator_space_beyond_open_door_m": 0.6,
+      "front_operation_reserve_m": 1.034,
+      "basis": "434mm is calculated from current manufacturer1077\u2212643mm depths. Separate600mm human allowance is a concept assumption. Host checks actual whole door sweep, basket, adjacent cabinets and route.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Current reference units each120V60Hz15A NEMA5-15; resolve appropriate circuits or approved pair adapter with selected manuals and jurisdiction.",
+      "Washer shutoffs, drain/trap and leak management must remain accessible; stain sink is not automatically the drain system.",
+      "Ventless heat-pump dryer requires heat dissipation and accessible front intake/filter and condensate drain/container; no sealed decorative enclosure.",
+      "Preserve whole-machine removal and stacking-kit service access; actual hoses, supplies, vibration and floor capacity need coordination."
+    ]
+  },
+  "dependencies": [],
+  "derived_from": null,
+  "source": {
+    "kind": "original geometry from dimensional planning references only",
+    "generator": "tools/library/publish_premium_laundry_stack.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_premium_laundry_stack.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. No manufacturer CAD, trademarks, downloaded product images or third-party meshes. Attribution Homes project contributors.",
+  "files": {
+    "blender": "premium-stacked-laundry-596.blend",
+    "preview": "preview.png",
+    "open_preview": "open-preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Illustrative stack geometry, not manufacturer-exact appearance, stacking-kit engineering or an installation/code approval."
+}

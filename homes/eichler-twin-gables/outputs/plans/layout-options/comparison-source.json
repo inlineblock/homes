@@ -1,0 +1,179 @@
+{
+  "stage": "Proposed 2D layouts for user selection; no native rebuild",
+  "options": [
+    {
+      "id": "a",
+      "title": "A \u2014 Balanced wings, compact dressing rooms",
+      "gross_enclosed_sqft": 2800.0,
+      "overall_envelope_sqft": 3240,
+      "courtyard_sqft": 440.0,
+      "source": "option-a.json",
+      "source_sha256": "5e2a76c539bcf5bcfb00c161c5d83e94e9a8eda99aeb479c7754fbd5566e97e2",
+      "files": [
+        "option-a-plan.svg",
+        "option-a-plan.png",
+        "option-a-details.svg",
+        "option-a-details.png"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "B \u2014 Private garden suites and dressing buffer",
+      "gross_enclosed_sqft": 2800.0,
+      "overall_envelope_sqft": 3312.0,
+      "courtyard_sqft": 512,
+      "source": "option-b.json",
+      "source_sha256": "f94eac304545e6f618447e75c1965fc4c1f4fe7ea40ec2fc101bfd9bea75dc7e",
+      "files": [
+        "option-b-plan.svg",
+        "option-b-plan.png",
+        "option-b-details.svg",
+        "option-b-details.png"
+      ]
+    },
+    {
+      "id": "c",
+      "title": "C \u2014 Compact court / central utility rooms",
+      "gross_enclosed_sqft": 2800,
+      "overall_envelope_sqft": 3200,
+      "courtyard_sqft": 400,
+      "source": "option-c.json",
+      "source_sha256": "9c0ed1d56cc9b1b002bac1cacf021898fbb0b14c173691cb087e0496cd0b66a5",
+      "files": [
+        "option-c-plan.svg",
+        "option-c-plan.png",
+        "option-c-details.svg",
+        "option-c-details.png"
+      ]
+    }
+  ],
+  "option_count": 3,
+  "pdf_pages": 6,
+  "artifacts": [
+    {
+      "path": "layout-comparison.pdf",
+      "sha256": "14d5e2057ad8816505c6728115357e06796c712f607763091f4a860a7d8f8f4f",
+      "bytes": 123294
+    },
+    {
+      "path": "option-a-details.png",
+      "sha256": "9d8a70eef72237ba101504767b6b6b89349f5e4e0214481f3fbc62edc62ab74e",
+      "bytes": 201343
+    },
+    {
+      "path": "option-a-details.svg",
+      "sha256": "0f791872f76657a58d0b78f1af396084b0820aaf1c09f9e4b4e0ec6abacfb9ca",
+      "bytes": 176379
+    },
+    {
+      "path": "option-a-plan.png",
+      "sha256": "a1643ecd0a0ce94d150c10e47519579451bcee71416765de3bb36bb18f4517e3",
+      "bytes": 177512
+    },
+    {
+      "path": "option-a-plan.svg",
+      "sha256": "8d234814752cd755feb2f1978cff4541fd8c2184bf7a6f1f86baffef52dbadf2",
+      "bytes": 69859
+    },
+    {
+      "path": "option-b-details.png",
+      "sha256": "5cd3e39a9411e084ff1cf6218bacc16a5f050912945f836e92673d6ef3d0f95a",
+      "bytes": 190853
+    },
+    {
+      "path": "option-b-details.svg",
+      "sha256": "a5370267e653fe657c3587cab20d9bd3f3e40947590eb4d9bf7f1644d4f89253",
+      "bytes": 240274
+    },
+    {
+      "path": "option-b-plan.png",
+      "sha256": "e28f2faeb7f293c0eea5fbff5d33d74dd5fe82f217b962fb3575b5ec52dd0826",
+      "bytes": 183498
+    },
+    {
+      "path": "option-b-plan.svg",
+      "sha256": "bf9ee78de01f9e0d28fb8c56f06b452a5636bb754b0f47c1b73e8345fbc0a98b",
+      "bytes": 87835
+    },
+    {
+      "path": "option-c-details.png",
+      "sha256": "bd7a3fac6868b927e914a26f4927bffb3153bd4ecbfa2e41cfeaf2c753127ead",
+      "bytes": 184838
+    },
+    {
+      "path": "option-c-details.svg",
+      "sha256": "577b453206c41a8c8127f5923e6e8f74a391b9855a235337d9b14b27ccc3448d",
+      "bytes": 177183
+    },
+    {
+      "path": "option-c-plan.png",
+      "sha256": "ef15ed8e125aa0d4c14255370da455e416b51ef0b1ade4d2b26eb00f4a8f9f4b",
+      "bytes": 175328
+    },
+    {
+      "path": "option-c-plan.svg",
+      "sha256": "919c77dc06c5d521298accf87b74b03bf65aed559d5da9211bacf63b2bb2b721",
+      "bytes": 62965
+    }
+  ],
+  "generator_sha256": "10db7e1a99cd43c8f8547d7b9a83fbea4eb8db43e735e84a5e0ee8fe6a23ed2e",
+  "review_status": "Approved for layout-selection presentation after author, drawing and parent six-sheet visual review. Proposed 2D alternatives; not native, product-clearance, construction or compliance verification.",
+  "reviewed_pages": [
+    "option-a-plan.png",
+    "option-a-details.png",
+    "option-b-plan.png",
+    "option-b-details.png",
+    "option-c-plan.png",
+    "option-c-details.png"
+  ],
+  "review_notes": [
+    "Final refrigerator depth/clearance/joinery source revisions included; overhead cabinet metadata omitted from plan cut.",
+    "B compact stacked laundry reservations and sink operating separation included; W/D labels shortened and queen bed symbol corrected.",
+    "A exterior bath daylight and C roof daylight/privacy-blind notes visible.",
+    "Published 3360 sq ft model, current floor-plan and native gallery unchanged."
+  ],
+  "promotion": {
+    "destination": "homes/eichler-twin-gables/outputs/plans/layout-options",
+    "stage": "Distinct design alternatives awaiting user selection",
+    "parent_review": "All six current PNG sheets inspected and approved for selection-stage presentation."
+  },
+  "supporting_sources": [
+    {
+      "path": "option-a-rationale.md",
+      "sha256": "ebeab66fa56aefe84b5dc3d6e1f5f0e33bef9ba653a90bc0f8e9c725b6d91d0b"
+    },
+    {
+      "path": "option-a-refrigeration-notes.md",
+      "sha256": "0bc6a4b9a10373f6388f8cb8c4c4a4376741bb0eb2f4cb7afe9a9c9ea0dfe832"
+    },
+    {
+      "path": "option-a-review.json",
+      "sha256": "69b1021d9cca6125996bbbb614a8c2c5c0cbb3cd3767bf2004b8b96a62a2cadf"
+    },
+    {
+      "path": "option-a.json",
+      "sha256": "5e2a76c539bcf5bcfb00c161c5d83e94e9a8eda99aeb479c7754fbd5566e97e2"
+    },
+    {
+      "path": "option-b-rationale.md",
+      "sha256": "5763b2831d4b18a20e1e9a08d52ca3e5fdd2596b3e2ea78976d16a6301d464d9"
+    },
+    {
+      "path": "option-b.json",
+      "sha256": "f94eac304545e6f618447e75c1965fc4c1f4fe7ea40ec2fc101bfd9bea75dc7e"
+    },
+    {
+      "path": "option-c-rationale.md",
+      "sha256": "87013a81484a6c8dc0893882fc503b4361185031c8c61ed3dc3b701d7f476223"
+    },
+    {
+      "path": "option-c.json",
+      "sha256": "9c0ed1d56cc9b1b002bac1cacf021898fbb0b14c173691cb087e0496cd0b66a5"
+    }
+  ],
+  "baseline_compatibility": {
+    "input": "homes/eichler-twin-gables/model/plan-data.json",
+    "input_sha256": "ed26a2ea9f31fa9749edad60e6824130ac187c1828455c71e2dec7edc976eb6c",
+    "result": "Default command completed against existing saved data without WC metadata or pocket direction; preserves one-page floor plan and one-page roof/section output. Generated only into ignored work; baseline published files untouched."
+  }
+}

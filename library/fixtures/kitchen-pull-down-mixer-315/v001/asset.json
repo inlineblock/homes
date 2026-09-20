@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/kitchen-pull-down-mixer-315",
+  "version": "v001",
+  "name": "Shared pull-down kitchen mixer315 | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.1340000070631504,
+    0.38618072867393494,
+    0.49498049914836884
+  ],
+  "bounds_m": {
+    "min": [
+      -0.041999999433755875,
+      -0.33500000834465027,
+      -0.07500000298023224
+    ],
+    "max": [
+      0.09200000762939453,
+      0.05118072032928467,
+      0.4199804961681366
+    ]
+  },
+  "blender": {
+    "collection": "Shared pull-down kitchen mixer315 | v001"
+  },
+  "dependencies": [],
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural finishes; attribution Homes project contributors. No third-party product CAD, photographs or commercial specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_kitchen_sink_options.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_kitchen_sink_options.py -- --asset kitchen-pull-down-mixer-315"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "kitchen-pull-down-mixer-315.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "derived_from": {
+    "id": "fixtures/kitchen-sink-mixer-650",
+    "version": "v002",
+    "native_sha256": "3335b5ed6ae652446300e01555328d2e21d6ae81b7f4471f79f941bffde28f20",
+    "method": "Append the actual published arch and lever geometry only; normalize base to XY0 and retain original steel material. Add integrated valve arm/body, mounting stem/nut and distinct pull-down head. No source asset mutation."
+  },
+  "placement": {
+    "origin": "Faucet deck mounting center XY0, finished countertop top Z0",
+    "front_direction": "Spout aims -Y; Z up",
+    "allowed_scaling": "Rigid placement/rotation only; do not stretch spout reach or mounting hardware"
+  },
+  "installation": {
+    "mounting": "Single35mm conceptual deck bore at XY0; supports a38.1mm countertop in example installs. Stem extends75mm below top; nut envelope44mm diameter atZ-60mm. Selected faucet/product tolerances still govern.",
+    "faucet_hole_diameter_m": 0.035,
+    "spout_projection_from_base_m": 0.315,
+    "spray_outlet_z_m": 0.23,
+    "rear_body_clearance_m": 0.05,
+    "below_counter_clearance_m": 0.15,
+    "operating_envelope": {
+      "modeled_state": "Static docked spray head; no articulated hose",
+      "concept_pullout_reach_m": 0.45,
+      "lever_clearance_right_m": 0.12,
+      "basis": "Original conceptual geometry, not a rated extension or manufacturer installation spec",
+      "host_checked": false
+    }
+  },
+  "limitations": "Original generic pull-down mixer concept. Hose, counterweight, connectors, cartridge and product performance are unresolved; reserve service space. No certified water-flow or compliance claim."
+}

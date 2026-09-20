@@ -1,0 +1,93 @@
+{
+  "option": "A",
+  "source_sha256": "5e2a76c539bcf5bcfb00c161c5d83e94e9a8eda99aeb479c7754fbd5566e97e2",
+  "status": "Preliminary furnished2D fit checks only; not native/model verification",
+  "checks": [
+    {
+      "name": "Enclosed planning area sqft",
+      "measured": 2800.0,
+      "passed": true,
+      "basis": "2D envelope minus open courtyard, wall allowances included."
+    },
+    {
+      "name": "West compact bidet WC allowances inches",
+      "measured": {
+        "width": 42.0,
+        "depth": 69.0,
+        "front": 32.62,
+        "side": 12.0,
+        "back": 4.38
+      },
+      "passed": true,
+      "basis": "2D18x32in fixture reservation; exact toilet and electrical/water servicing unselected."
+    },
+    {
+      "name": "East compact bidet WC allowances inches",
+      "measured": {
+        "width": 42.0,
+        "depth": 69.0,
+        "front": 32.62,
+        "side": 12.0,
+        "back": 4.38
+      },
+      "passed": true,
+      "basis": "2D18x32in fixture reservation; exact toilet and electrical/water servicing unselected."
+    },
+    {
+      "name": "WIC moving-storage aisle inches",
+      "measured": 43.5,
+      "passed": true,
+      "basis": "24in bank front to opposite finished wall;1060mm hamper travel/operator reservation. Mirror occupies a different bay."
+    },
+    {
+      "name": "Pantry west shelf aisle inches",
+      "measured": 36.599999999999966,
+      "passed": true,
+      "basis": "Nominal island countertop and shallow cabinet faces."
+    },
+    {
+      "name": "Pantry east active aisle inches",
+      "measured": 53.400000000000034,
+      "passed": true,
+      "basis": "Nominal countertop and shallow food storage faces."
+    },
+    {
+      "name": "Laundry wet-side sink versus stack operating zone gap inches",
+      "measured": 20.964,
+      "passed": true,
+      "basis": "Sink is south of434mm door projection plus600mm operator zone; no deep opposite counter in loading zone."
+    },
+    {
+      "name": "Primary side wall minimum inches",
+      "measured": 33.576,
+      "passed": true,
+      "basis": "Concept bed envelope and assumed finishedwallface; trim verification still pending."
+    },
+    {
+      "name": "Primary headboard wall gap inches",
+      "measured": 2.004,
+      "passed": true,
+      "basis": "Bed back aligned with solid side wall below5ft window sill."
+    },
+    {
+      "name": "Integrated refrigeration enclosure depth inches",
+      "measured": 25,
+      "passed": true,
+      "basis": "OfficialDEC2450R/FI quick-reference guides:24in appliance and25in opening depth. Final product/dual-kit/hinge coordination not verified."
+    },
+    {
+      "name": "Kitchen countertop working aisle inches",
+      "measured": 54,
+      "passed": true,
+      "basis": "2D counter edge x57.55 minus island edge x53.05; no native geometry claim."
+    }
+  ],
+  "failures": [],
+  "unverified": [
+    "Pocket cavities, exact hardware, full fixture operating sweeps and cleaning access after selected products.",
+    "Plumbing chase, roof/ceiling coordination, daylight and day/night privacy.",
+    "Office wall-bed construction and separate daily/guest furniture states.",
+    "Mechanical equipment sizing, replacement path and acoustics."
+  ],
+  "independent_review": "Twin review agent reviewed furnished A support/bath layouts and found no selection-stage blocker; north pantry route remains a disclosed compact tradeoff."
+}

@@ -1,0 +1,74 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "missing_textures": [],
+  "dimensions_m": [
+    0.30480000376701355,
+    0.020135600119829178,
+    0.6096000075340271
+  ],
+  "bounds_m": {
+    "min": [
+      -0.15240000188350677,
+      0.0,
+      0.0
+    ],
+    "max": [
+      0.15240000188350677,
+      0.020135600119829178,
+      0.6096000075340271
+    ]
+  },
+  "origin_front_check": "Rear Y=0, bottom Z=0 verified; front +Y",
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 32,
+    "color_management": "AgX",
+    "exposure": 0
+  },
+  "visual_inspection": {
+    "status": "passed",
+    "basis": "Actual final preview.png inspected in image viewer",
+    "notes": "Reviewed actual final CPU preview: eight original linked sage tiles form four columns by two rows; flutes, recessed grout, central horizontal seam and thin side profile visible; no clipped geometry."
+  },
+  "host_installation_checked": false,
+  "software": "4.5.14 LTS",
+  "tile_closed_outward_mesh_checked": false,
+  "eight_linked_sage_tiles_checked": true,
+  "installation_preview": {
+    "kind": "Illustrative studio installation specimen using actual linked native finish",
+    "countertop_top_z_m": -0.003,
+    "finish_bottom_datum_z_m": 0,
+    "flexible_counter_joint_m": 0.003,
+    "counter_joint_fill": "Separate physical 3 mm high concept sealant strip; adhesion, movement capacity and commercial sealant unresolved",
+    "vertical_slab_joint_m": null,
+    "termination": "Two linked sage arrays meet at documented 304.8 mm pitch without an extra panel gap; an illustrative 1 mm thick metal L-profile caps exposed side edges.",
+    "native_geometry_modified": false,
+    "real_home_installation_checked": false,
+    "product_or_code_approval": false,
+    "visual_inspection": {
+      "status": "passed",
+      "basis": "Actual installation-preview.png inspected",
+      "notes": "Actual linked finish, countertop junction and side termination visible; 3 mm sealant and counter-top bounds checked in Blender. Separate slab vertical joint visible where applicable. Studio specimen only; no real home or product approval."
+    },
+    "render_settings": {
+      "engine": "Cycles CPU",
+      "threads": 4,
+      "samples": 32,
+      "color_management": "AgX",
+      "exposure": 0
+    },
+    "counter_and_sealant_bounds_verified": true
+  },
+  "native_sha256": "5a37e43602ab8e03320470dc116635aaf43b561b35fe59d1b5e6fa0b17ad419f",
+  "preview_sha256": "3be8247d0d644a15092186b7c6b7f9cb6afe1cff76630b20967ae938dd7e1bd9",
+  "installation_preview_sha256": "1392b35a94e76f98df92bd97dff4d38f1ed109b7cf9b599abb12f0c83e156ebf",
+  "independent_visual_review": {
+    "reviewer": "twin_assets",
+    "status": "passed",
+    "scope": "Both actual isolated and installation previews inspected; visible joint/termination and countertop transition. No real home or product approval."
+  }
+}

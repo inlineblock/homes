@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "surfaces/warm-ivory-handmade-tile-4in",
+  "version": "v001",
+  "name": "Warm ivory handmade-look tile 4 in",
+  "units": "meters",
+  "blender": {
+    "collection": "Warm ivory handmade-look tile 4 in"
+  },
+  "placement": {
+    "origin": "Centered X, rear mounting plane Y=0, bottom Z=0",
+    "front_direction": "+Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement/rotation only. Repeat linked full modules at documented pitch; do not stretch."
+  },
+  "source": {
+    "kind": "original",
+    "author": "Homes project contributors",
+    "generator": "tools/library/publish_backsplash_options.py",
+    "command": "Blender -b --factory-startup --python tools/library/publish_backsplash_options.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance. Attribution: Homes project contributors. No third-party downloads.",
+  "dependencies": [],
+  "installation": {
+    "mounting": "Host provides stable continuous substrate, product-selected bonding/support, and substrate waterproofing behind Y=0. Adhesive thickness is not represented.",
+    "joints": "Leave perimeter and changes of plane as correctly specified flexible joints; do not fill movement joints with hard grout. Bottom datum is finish edge: host leaves a coordinated countertop junction below it.",
+    "wet_limitations": "Visual concept only. Neither geometry nor glaze establishes water absorption, stain resistance, waterproofing or cleaning compatibility. Verify selected material, grout, sealants and backing before wet use.",
+    "heat_limitations": "No flame, temperature or combustible-clearance rating. Range/cooktop instructions and the actual finish/bonding system govern all heat clearances; do not infer approval from ceramic or stone appearance.",
+    "required_host_checks": [
+      "Countertop and end junctions",
+      "Outlets and fixture penetrations with correctly detailed edge cuts",
+      "Substrate capacity, adhesion, movement and waterproofing",
+      "Actual appliance heat clearances and finish suitability"
+    ],
+    "host_installation_checked": false,
+    "operating_envelope": {
+      "state": "Fixed finish module",
+      "moving_parts": false
+    }
+  },
+  "variation": {
+    "cuts": "Project-specific boundary and outlet cuts may trim a copy of the mesh, retaining material scale and finish thickness; document cuts. Full modules stay linked. Exposed cuts need the host-selected finished edge or trim."
+  },
+  "files": {
+    "blender": "warm-ivory-handmade-tile-4in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "installation_preview": "installation-preview.png"
+  },
+  "limitations": "Editable architectural visualization asset; not a commercial product, tested assembly, construction detail or code approval. Available library option; no new home adoption is claimed.",
+  "module": {
+    "width_m": 0.098,
+    "height_m": 0.098,
+    "nominal_pitch_m": [
+      0.1016,
+      0.1016
+    ],
+    "minimum_joint_m": 0.0036,
+    "approx_depth_m": 0.00935,
+    "edge_bevel_m": 0.0005,
+    "joint_basis": "3.6 mm minimum between bounding square tile envelopes; gently irregular edges locally widen the joint."
+  },
+  "material": {
+    "type": "Original procedural warm ivory ceramic glaze embedded with tile",
+    "roughness": 0.24,
+    "coat_weight": 0.25,
+    "texture_scale": "Procedural microtexture at 620 per meter, 0.08 mm bump distance; actual front mesh relief up to 0.55 mm. Object-instance random creates restrained glaze-tone variation."
+  },
+  "preview_content": "Preview contains an 8-column x 6-row demonstration of linked tile modules with recessed warm-gray grout. Native collection contains only ONE tile; demo grout is not part of module. Hosts provide grout and backing.",
+  "dimensions_m": [
+    0.0979963093996048,
+    0.009341465309262276,
+    0.09799671781286179
+  ],
+  "bounds_m": {
+    "min": [
+      -0.0489981546998024,
+      0.0,
+      1.6404964071625727e-06
+    ],
+    "max": [
+      0.0489981546998024,
+      0.009341465309262276,
+      0.09799835830926895
+    ]
+  },
+  "installation_preview": {
+    "kind": "Illustrative studio installation specimen using actual linked native finish",
+    "countertop_top_z_m": -0.003,
+    "finish_bottom_datum_z_m": 0,
+    "flexible_counter_joint_m": 0.003,
+    "counter_joint_fill": "Separate physical 3 mm high concept sealant strip; adhesion, movement capacity and commercial sealant unresolved",
+    "vertical_slab_joint_m": null,
+    "termination": "Illustrative 1 mm thick metal L-profile caps exposed side edges; 98 mm tiles retain their real 3.6 mm minimum field joints.",
+    "native_geometry_modified": false,
+    "real_home_installation_checked": false,
+    "product_or_code_approval": false,
+    "visual_inspection": {
+      "status": "passed",
+      "basis": "Actual installation-preview.png inspected",
+      "notes": "Actual linked finish, countertop junction and side termination visible; 3 mm sealant and counter-top bounds checked in Blender. Separate slab vertical joint visible where applicable. Studio specimen only; no real home or product approval."
+    },
+    "render_settings": {
+      "engine": "Cycles CPU",
+      "threads": 4,
+      "samples": 32,
+      "color_management": "AgX",
+      "exposure": 0
+    },
+    "counter_and_sealant_bounds_verified": true
+  }
+}

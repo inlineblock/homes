@@ -266,3 +266,32 @@ The collection includes [warm walnut](materials/warm-walnut/v001/asset.json), [s
 ### Bedroom roller-blind states
 
 Atrium 01 links four original roller-blind sizes, each with separate open and closed native collections: [42 × 78 in](openings/roller-blackout-42in-78in/v001/asset.json), [54 × 78 in](openings/roller-blackout-54in-78in/v001/asset.json), [48 × 107.4 in](openings/roller-blackout-48in-107p4in/v001/asset.json), and [60 × 107.4 in](openings/roller-blackout-60in-107p4in/v001/asset.json). Dimensions describe the glazing bay pitch and full drop. Cassettes retain a 12 mm neighboring gap; opaque woven panels overlap the specified visible glass by 17 mm at each jamb. Native previews and fresh-link checks cover both states. These are generic privacy concepts, not certified blackout products; hosts verify mounting, obstructions, edge light and service access. Generator: `tools/library/publish_roller_blinds.py`.
+
+## Dressing, library wall and utility options
+
+These original components are available as reviewed isolated assets for the compact Twin Gables layout study. They are **not yet adopted in a revised home**; the user is selecting a floor plan first. Actual host fit and operation must be checked after selection.
+
+| Open dressing | Drawers and folded storage | Floor-to-ceiling bookcase | Premium laundry stack |
+| --- | --- | --- | --- |
+| [![Double hanging bay](cabinetry/oak-open-double-hang-2ft/v001/preview.png)](cabinetry/oak-open-double-hang-2ft/v001/README.md) | [![Drawer and shelf tower](cabinetry/oak-dressing-drawers-shelves-2ft/v001/open-preview.png)](cabinetry/oak-dressing-drawers-shelves-2ft/v001/README.md) | [![Ten-foot bookcase](cabinetry/oak-full-height-bookcase-2ft/v001/preview.png)](cabinetry/oak-full-height-bookcase-2ft/v001/README.md) | [![Washer and dryer stack](appliances/premium-stacked-laundry-596/v001/preview.png)](appliances/premium-stacked-laundry-596/v001/README.md) |
+
+Complete the mixed dressing layout with the [long-hang bay](cabinetry/oak-open-long-hang-2ft/v001/README.md), [shoe tower](cabinetry/oak-shoe-tower-2ft/v001/README.md), [ventilated pullout hamper](cabinetry/oak-ventilated-hamper-2ft/v001/README.md) and [full-length bronze mirror](fixtures/full-length-bronze-mirror-24x72/v001/README.md). The [36-inch open pantry island base](cabinetry/smoked-oak-open-island-base-36in/v001/README.md) provides storage without another moving door or drawer in the work aisle.
+
+Each manifest records actual bounds, origins and operation allowances. Drawer fronts and pulls project beyond nominal carcasses. High bookcase shelves are occasional storage with a safe access method still to be selected, not universally reachable daily storage. The original unbranded laundry stack uses documented manufacturer dimensional precedents; its native geometry is not approved product CAD. Two linked stacks provide four machines. Preserve the installation and operator reservations in its manifest.
+
+
+## Kitchen sink and backsplash choices
+
+Four original sink assemblies offer different uses; each links the same reusable [pull-down mixer](fixtures/kitchen-pull-down-mixer-315/v001/README.md). Native previews show real bowl, drain and countertop openings. These are reusable concept assets, not selected commercial products or adopted home installations.
+
+| Wide undermount | Workstation with removable accessories | White apron front | Compact prep |
+| --- | --- | --- | --- |
+| [![Wide stainless bowl](fixtures/wide-undermount-sink-800/v001/preview.png)](fixtures/wide-undermount-sink-800/v001/README.md) | [![Workstation bowl with board and roll mat](fixtures/workstation-sink-860/v001/preview.png)](fixtures/workstation-sink-860/v001/README.md) | [![Apron-front bowl](fixtures/white-apron-front-sink-32in/v001/preview.png)](fixtures/white-apron-front-sink-32in/v001/README.md) | [![Compact prep bowl](fixtures/compact-prep-sink-400/v001/preview.png)](fixtures/compact-prep-sink-400/v001/README.md) |
+
+**Choose the cabinet and sink together.** The manifests record bowl, rim, faucet and service keep-outs. Compatible cabinet assemblies are not supplied: the existing 36-inch sink base's upper rail conflicts with the wider sink, despite its nominal width fitting. Countertop depth, thickness and cutouts must follow the chosen assembly; never force a fit by stretching the bowl or burying its flange. Final hardware, trap/disposal and product templates remain to be coordinated.
+
+| Cream veined slab | Sage stacked fluted tile | Warm ivory handmade-style tile |
+| --- | --- | --- |
+| [![Slab backsplash with counter junction](surfaces/cream-veined-slab-backsplash-48x24/v001/installation-preview.png)](surfaces/cream-veined-slab-backsplash-48x24/v001/README.md) | [![Sage stacked tile above a counter](surfaces/sage-stacked-backsplash-12x24/v001/installation-preview.png)](surfaces/sage-stacked-backsplash-12x24/v001/README.md) | [![Ivory tile above a counter](surfaces/warm-ivory-handmade-tile-4in/v001/installation-preview.png)](surfaces/warm-ivory-handmade-tile-4in/v001/README.md) |
+
+Backsplash installation specimens show countertop joints and exposed-edge treatment using actual linked finishes. Backing, trims and counter supports in these specimens are illustrative host geometry, not included reusable assemblies. Heat/wet performance and installation suitability depend on selected products. Generators: `tools/library/publish_kitchen_sink_options.py` and `tools/library/publish_backsplash_options.py`; existing versions remain preserved.

@@ -1,0 +1,25 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "native_sha256": "d36ec89c9c949b1d57222124fcce8d4aa09e641fc29b2f9a91157411916aee0a",
+  "native_unchanged_by_review": true,
+  "actual_dimensions_m": [
+    0.1340000070631504,
+    0.38618072867393494,
+    0.49498049914836884
+  ],
+  "tests": {},
+  "host_integration_checked": false,
+  "preview_scope": "Actual asset in an illustrative38.1mm worktop with real cutouts/faucet bore; studio supports are not a supplied kitchen cabinet",
+  "visual_review_pending": false,
+  "preview_sha256": "22e692c5bd45604515108a13baeb77980c372d41fb5d6187e3fd1843d2b9c46c",
+  "visual_review": {
+    "status": "passed for actual native concept asset and illustrative cutout study",
+    "reviewer": "twin_assets",
+    "observations": [
+      "Actual source arch and lever retained; added body, separate docked head, mounting stem and nut.",
+      "Countertop has a real separate mounting bore. Product services and articulated hose remain unmodeled."
+    ]
+  }
+}

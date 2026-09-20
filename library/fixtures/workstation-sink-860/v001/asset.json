@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/workstation-sink-860",
+  "version": "v001",
+  "name": "Stainless workstation sink860 | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.9100000262260437,
+    0.586180716753006,
+    0.818080484867096
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45500001311302185,
+      -0.25,
+      -0.39809998869895935
+    ],
+    "max": [
+      0.45500001311302185,
+      0.336180716753006,
+      0.4199804961681366
+    ]
+  },
+  "blender": {
+    "collection": "Stainless workstation sink860 | v001"
+  },
+  "dependencies": [
+    {
+      "id": "fixtures/kitchen-pull-down-mixer-315",
+      "version": "v001",
+      "path": "../../kitchen-pull-down-mixer-315/v001/kitchen-pull-down-mixer-315.blend"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural finishes; attribution Homes project contributors. No third-party product CAD, photographs or commercial specification.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_kitchen_sink_options.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_kitchen_sink_options.py -- --asset workstation-sink-860"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "workstation-sink-860.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "placement": {
+    "origin": "Bowl center XY0, finished countertop top Z0; flange is38.1mm below top",
+    "front_direction": "-Y; faucet behind bowl at+Y; Z up",
+    "allowed_scaling": "Rigid placement/rotation only. These are38.1mm-countertop studies; use separate sink/faucet placements or publish a thickness variant for another worktop."
+  },
+  "bowl": {
+    "inner_top_opening_m": [
+      0.86,
+      0.45
+    ],
+    "inner_depth_m": 0.25,
+    "flange_outer_m": [
+      0.91,
+      0.5
+    ],
+    "flange_top_z_m": -0.0381,
+    "formed_wall_thickness_m": 0.003,
+    "true_drain_bore_m": 0.09,
+    "tailpiece_inner_bore_m": 0.036,
+    "surface_note": "Original formed stainless appearance; gauge and fabrication unselected"
+  },
+  "installation": {
+    "countertop_thickness_m": 0.0381,
+    "countertop_cutout_m": [
+      0.87,
+      0.46
+    ],
+    "cutout_center_xy_m": [
+      0,
+      0
+    ],
+    "cutout_type": "Rounded rectangular through-opening,5mm positive reveal per side relative to inner bowl",
+    "concept_cutout_corner_radius_m": 0.025,
+    "faucet_hole_centers_m": [
+      [
+        0,
+        0.285
+      ]
+    ],
+    "faucet_hole_diameter_m": 0.035,
+    "nominal_minimum_sink_base_width_m": 1.0668,
+    "required_clear_width_m": 0.93,
+    "cabinet_origin_relative_bowl_xy_m": [
+      0,
+      0.045
+    ],
+    "recommended_counter_depth_m": 0.78,
+    "mounting": "Continuous sealed underside support plus selected brackets. Preserve actual bowl/flange clearance and plumbing access; no solid shelf or drawer behind bowl.",
+    "compatible_existing_cabinet_candidate": null,
+    "host_fit_status": "No compatible cabinet supplied. Nominal width is a planning minimum only; provide the clear rim/bowl volume and services. Existing smoked-oak 36in sink base was rejected for the wide sink because its upper front rail conflicts at the proposed offset. No home adoption.",
+    "operating_envelope": {
+      "modeled_state": "Open bowl with docked faucet; removable board left and roll mat right",
+      "reserve_front_standing_m": 0.8,
+      "faucet_lever_clearance_right_m": 0.12,
+      "basis": "Concept geometry/standing assumptions, not accessibility or manufacturer approval",
+      "host_checked": false
+    },
+    "service_requirements": [
+      "Provide supported worktop openings, sound waterproof sealing, drainage/trap and hot/cold services with removable access.",
+      "Drain tailpiece is modeled hollow; trap and functioning plumbing are not included.",
+      "Check faucet stem/nut and hose/weight against cabinet rails, disposal and service routes.",
+      "Select actual sink, faucet and countertop manufacturer templates before fabrication."
+    ],
+    "example_countertop_center_xy_m": [
+      0,
+      0.05
+    ],
+    "host_keepout_m": {
+      "flange_xy": [
+        0.91,
+        0.5
+      ],
+      "flange_z": [
+        -0.0411,
+        -0.0381
+      ],
+      "bowl_depth_below_flange": 0.253,
+      "minimum_width_clearance_each_side": 0.01,
+      "instruction": "Keep cabinet rails out of this flange envelope and the sloping bowl shell below it. Keep stem/nut/hose service envelope clear separately; supplied studio supports do not validate cabinet manufacture."
+    }
+  },
+  "accessories": {
+    "board": "Removable310\u00d7438\u00d725mm original oak board supported by actual ledges; keep it out for large pots or cleaning",
+    "mat": "Removable spaced stainless rod mat; no food-contact or load rating claimed"
+  },
+  "limitations": "Original sink concept; heat, chemical, stain, food-contact, wet-area, fabrication and plumbing suitability remain unverified until products and installation are specified."
+}

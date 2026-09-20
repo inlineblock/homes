@@ -1,50 +1,33 @@
-# Program and side-elevation review notes
+# Interior revision — independent program review
 
-Independent program and source-coordination review for Twin Gables Courtyard, reconciled to the frozen native model and its matching verification receipts. This is not a separate completed visual-gallery review.
+**Active revision:** the previous frozen model and its native/functional/visual review do not establish the revised result. This record tracks current user-directed corrections; reconcile it to the new native hash and measured evidence before closing review.
 
-## Selected improvements
+## Required corrections and acceptance evidence
 
-1. **Size follows two complete primary suites.** The latest user brief explicitly requires both suites to have ensuite bathrooms, walk-in closets, enclosed toilet rooms and bathroom linen cupboards. Both also retain double vanity, separate tub and shower. The selected 68 × 60-ft ring with 20 × 36-ft court provides 3,360 sq ft gross enclosed planning area including wall allowances, not a cladding-face survey. It avoids forcing those functions into the earlier smaller plan.
-2. **A genuine office/guest room remains.** The office holds desk, guest bed and wardrobe. Its hall bath is separate from both private suites and can serve daytime visitors. Count two dedicated bedrooms plus office/guest, not three dedicated bedrooms.
-3. **Private arrival with a reveal.** Solid street-facing entry and screened front rooms keep the court private. The center link is broad rather than a long tunnel; court-facing glass brings daylight after arrival. Coat/drop alcoves leave the main doorway and gallery mouths clear.
-4. **The garden is not the only circulation route.** Enclosed glazed galleries connect foyer and rear public rooms in bad weather. Preserve 4 ft finished clear after walls/handles; the planning grid does not prove it.
-5. **Simple sides support the approved front/back.** Use two continuous parallel roofs, common pitch/eave/ridge datums and aligned room bays. Do not add staggered little gables, roof-height changes or bathroom boxes to repair an uncoordinated plan. Place water/service elements deliberately.
-6. **Vaulted front bedrooms use the clerestory light.** The high front triangle should illuminate occupied rooms rather than a sealed attic over flat ceilings. Baths, closets, office and support rooms can retain 10-ft flat ceilings; public pavilions remain vaulted.
+| Correction | Design response | Evidence needed |
+| --- | --- | --- |
+| Floating primary beds | Place both headboards at deliberate solid wall backing; align nightstands with pillows and preserve daylight/privacy. | Real asset-to-wall gap, bed-side/foot routes, bedside access and eye-level bedroom views. |
+| Bathroom door conflicts | Select each ensuite, WC and hall-bath opening individually; prioritize usable occupied fixture approaches. | Explicit hinge/swing or cavity/travel schedule; closed, intermediate and fully open states; a person at the basin and toilet. |
+| Oversized / unclear WCs | Make compartments compact but useful, retaining both ensuite toilet rooms. | Actual clear inside dimensions, toilet cleaning/approach, recognizable bowl/tank symbols and unambiguous pocket or swing graphics at published plan size. |
+| Basic wardrobe rows | Provide premium mixed dressing storage in both walk-ins: long and short hanging, drawers, shoes, hamper, mirror and task light. | Per-suite capacity by storage type, exact library pins, longest drawer open with a person standing, reachable fronts and clear entry. |
+| Sparse large pantry | Create a properly equipped butler’s pantry with useful prep/storage island, appliance/work counter and substantial reachable perimeter shelves. | Different work/access aisle measurements, open drawers, entry, shelf reach, usable capacity and mechanical maintenance/removal route. |
+| Premium laundry and shared wet wall | Provide **two stacked washer/dryer pairs (four machines)**, utility/stain sink and increased storage; add a pantry prep sink opposite the shared wall where practical. | Product-compatible stack envelopes/kits, all doors, upper-unit reach, sink/operator/baskets, storage use and service/removal paths. Plumbing is a coordinated reservation, not engineered. |
+| Laundry/public-room relationship | Pull the laundry north wall south 2 ft and use the reclaimed strip for integrated full-height bookcases facing the kitchen/great room. | Fit the complete laundry program before freezing the smaller room; verify bookcase depth, height, continuous joinery and public circulation. |
 
-## Side-window critique
+## Resizing direction and unresolved area convention
 
-Uniform architecture does not mean repeating identical windows regardless of room use. Align window heads and structural bays, then vary opaque/high/screened zones for baths and storage. If wardrobes conflict with side openings, move the cabinetry to an internal wall or use a coherent high-window band; never leave glass behind cabinets. Each bedroom still needs an independently useful opening/escape strategy; triangular clerestories alone are insufficient evidence. Restrained recessed groups separated by full-height timber piers give a consistent side without arbitrary short strips or material patches.
+The latest user target is approximately **2,800 sq ft**, with both the courtyard and rooms reduced and the ensuites thoughtfully redesigned. Root’s working convention is gross enclosed planning area including wall allowances, excluding the courtyard; confirmation of whether the target instead includes the open courtyard is pending. The previous 3,360-sq-ft and 68 × 60-ft geometry are no longer the selected sizing solution.
 
-## Review criteria and evidence scope
+The earlier pantry/laundry/bookcase coordinates are also proposals, not a frozen plan. Retain both primary suites, the proper office/guest room, all three baths, two laundry stacks, utility/stain sink, pantry prep sink and island, mixed premium dressing storage, indoor circulation and public-facing bookcases. Resize after fitting these functions; do not regain area by deleting them or scaling manufactured assets.
 
-| Item | Required evidence / closure |
-| --- | --- |
-| Two equal suites | Both have king-bed operation, WIC, double vanity, tub, shower, enclosed WC and bath linen. Check separately; one good suite does not prove the other. |
-| Suite fixture fit | 12 × 13-ft baths are gross zones. Measure actual asset envelopes, partition thickness, basin spacing, doors and dry standing/cleaning space. Enlarge/reallocate if needed; no scaled appliances or fixtures. |
-| WICs | Measure between actual hanging fronts/handles and test doors/drawers. Record capacity. Use asymmetric hanging/shelf depths if that improves real access. |
-| Gallery width | Measure finished faces/projections; nominal 4-ft grid zones can shrink below target after walls. |
-| Roof versus ceiling | Record clear underside height after roof build-up and wood-look steel covers. Ridge is an architectural datum. |
-| Kitchen | Actual openings/rigid assets; fridge/DW/oven open states; work aisle, seating and pantry route. |
-| Office | Inspect desk and guest-sleeping use with wardrobe open; no route through a bed. |
-| Services | Separate equipment/service reservations from selected/sized plant. Identify replacement paths and terminations. |
-| Parking/arrival | Two marked open-forecourt bays and a separate walking route; actual vehicle/open-door fit remains unverified and illustrative grade/setbacks are never called surveyed. |
-| Gallery consistency | Front/rear/side, furnished plan and interior vault/beam views must describe one scene. Native review precedes final photographic studies. |
+Preliminary enclosed-area allocations sent to the model owner are: suites 900–940 sq ft combined; public rooms 900–1,000; laundry/pantry/bookcases/services 280–330; office/guest with hall bath 190–220; foyer/galleries 350–400. Final dimensions must reconcile to the actual chosen area convention and wall/furniture model. A narrower wing can destroy pantry island aisles, while a shallower footprint can compress the laundry and service route; compare the full daily-use layouts rather than selecting only by envelope arithmetic.
 
-The repository standard, program checklist, kitchen/bath research and interior/site/systems handbook informed these recommendations. No legal or manufacturer-compliance determination was made. Actual checks belong in `design-review.md`; fixable functional defects must be corrected before output promotion.
+For the pantry, distinguish active work aisles from general shelf access; initial targets of 42 in and 36 in respectively require verification against actual fronts, doors, drawers and people. Mechanical equipment must retain service/replacement access. The laundry’s reclaimed 2-ft bookcase strip remains a design intent to coordinate in the resized support band, not permission to leave the four-machine laundry unusable.
 
-## Source coordination findings and current disposition
+## Scope and limits
 
-The model owner corrected the following early source conflicts. The frozen native file and both verification receipts share SHA-256 `de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89`; these statements refer to that scene.
+This agent owns only `program.md` and this review record. Model, asset publication, renders, plan outputs and final model verification belong to their assigned owners. Source/drawing inspection can identify functional conflicts, but does not replace fresh native measurements and eye-level visual review. Manufacturer installation, structural/MEP calculations, accessibility, code approval, actual site and field conditions remain unverified.
 
-- **WC width/depth:** the final enclosures measure 4.15 × 6.25 ft clear in both suites.
-- **Bathroom linen:** both use an actual closable shared linen cabinet inside the ensuite. The cabinet and shower were repositioned to eliminate overlap. Their final conservative bounds retain approximately 1.35 in separation; final product sizing, reveals, tolerances and waterproofing require detailing.
-- **Vanity:** shifted the complete 6-ft cabinet run toward the bedroom so the worktop ends at y = 21.3 before the WC partition. The two basins remain 3 ft apart.
-- **Walk-in closets:** moved wardrobe banks clear of exterior/gallery walls. The final receipt measures 40.34 in west and 38.54 in east between closed pulls. A single 90-degree wardrobe leaf leaves a calculated 28.94-in west / 27.14-in east bypass, with the opposing doors closed. This is not simultaneous-open opposing-door or accessibility approval.
-- **Mechanical access:** removed the south pantry counter and added 8-ft removable service panels with a clear pantry approach. Equipment remains spatial reservations, not selected/sized plant or proven maintenance clearances.
-- **WC doors:** replaced the mistaken generic hinged leaves with east-wall sliding leaves/pocket reservations. Pocket cavity construction, framing and hardware still require detailing.
-- **Parking:** two marked 9 × 20-ft bays occupy an open paved forecourt; there is no carport. The separate pedestrian link is modeled; actual parked-car/open-door envelopes and turning remain unverified.
-- **Clear heights:** the source records approximately 10.73-ft low rafter chord, 16.33-ft rafter peak and 16.45-ft ridge-cover underside. Final upward rays reach cover soffits at 16.45 ft in the living/kitchen center and checked west-bedroom point, and 11.663 ft in the sampled living rafter bay. Bathroom points measure 10 ft, entry 12.07 ft to its lens and dining 12 ft to the ceiling. These named samples are not a whole-room minimum-height survey.
+## Current closure state
 
-The [final functional receipt](model/functional-validation.json) records **21 checks passed and zero failures** for the frozen scene. The [native reopening receipt](model/native-validation.json) records 2,424 scene objects and 55 relative library links with zero errors. The checker includes finite door sweeps, individual appliance envelopes, sampled headroom, kitchen/gallery clearances, closet/WC dimensions, exposed cooking surface, beam-cover containment and driveway continuity. This independent review checked program, source coordination, drawing legibility and matching receipt identities; it did not independently rerun those native tests or certify product installation, structural/MEP design, accessibility, code compliance or the final photographic gallery.
-
-The furnished floor-plan candidate was also inspected independently: it clearly shows both primary-suite equipment sets, separate WICs and WC rooms, linen inside each bath, a separate furnished office/guest room and hall bath, continuous enclosed courtyard galleries, kitchen equipment and fitted pantry. This confirmed legibility and room-access topology in that drawing; it was not a new native geometry, appliance-operation or rendered-interior test.
+The requirements above are recorded and sent to the model owner. Final room coordinates, bathroom door schedule, storage capacities, operating clearances, native identity and verification results will be added after the revised model is frozen. No old pass statement is carried forward as a current result.

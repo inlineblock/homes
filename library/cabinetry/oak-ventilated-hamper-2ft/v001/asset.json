@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-ventilated-hamper-2ft",
+  "version": "v001",
+  "name": "Oak ventilated pullout hamper | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6478000581264496,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.34300005435943604,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "blender": {
+    "collection": "Oak ventilated pullout hamper | v001"
+  },
+  "placement": {
+    "origin": "Floor center of nominal carcass XY, base Z=0",
+    "front_direction": "-Y; width X; up Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling"
+  },
+  "features": {
+    "basket_clear_plan_m": [
+      0.47,
+      0.43
+    ],
+    "basket_clear_height_m": 0.55,
+    "front_slats": 17,
+    "ventilation_gap_m": 0.017,
+    "basket_note": "Open-top original fabric liner visualization, not selected hardware or washable product specification."
+  },
+  "installation": {
+    "mounting": "Level supported floor with host anti-tip/wall fixation; no wall-hung claim. Do not overlay separate complete cabinet carcasses.",
+    "operating_envelope": {
+      "modeled_state": "Closed ventilated pullout",
+      "moving_parts": true,
+      "intended_front_travel_m": 0.46,
+      "operator_depth_beyond_open_front_m": 0.6,
+      "reserve_front_access_m": 1.06,
+      "basis": "Original generic geometry and concept standing allowance, not a selected product. Host must test actual movement, opposing fixtures and people/route space.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve fixing strength, shelf/rail loads, chosen hardware and electrical supply where lighting is added.",
+      "Moving drawer/hamper envelope is separate from through-circulation; do not claim two people can pass while open."
+    ]
+  },
+  "derived_from": null,
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_dressing_modules.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_dressing_modules.py -- --asset oak-ventilated-hamper-2ft"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural appearances; attribution Homes project contributors. No manufacturer CAD or third-party content.",
+  "files": {
+    "blender": "oak-ventilated-hamper-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "open_preview": "open-preview.png"
+  },
+  "limitations": "Original concept asset, not a commercially specified system, engineered storage capacity or installation approval. Sample clothes/shoes are illustrative objects, not a household capacity guarantee."
+}

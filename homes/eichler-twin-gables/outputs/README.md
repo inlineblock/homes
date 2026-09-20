@@ -116,6 +116,12 @@ The private street facade gives way to tall vaulted living spaces and a glazed r
 
 ![Two parallel roof ridges and the open courtyard](images/10-roof-site.png)
 
+## Proposed compact layouts — awaiting selection
+
+[Compare three 2,800 sq ft layout alternatives](plans/layout-options/README.md) · [Six-page comparison PDF](plans/layout-options/layout-comparison.pdf)
+
+These furnished 2D proposals include enlarged bathroom, storage and support-room studies. Their area excludes the open courtyard and includes planning wall allowances. They have not been rebuilt as native models and do not replace the current 3,360 sq ft design shown in the gallery below.
+
 ## Plans
 
 ![Furnished ground floor](plans/floor-plan.png)

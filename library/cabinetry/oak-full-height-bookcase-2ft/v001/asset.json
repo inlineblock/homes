@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-full-height-bookcase-2ft",
+  "version": "v001",
+  "name": "Oak full height bookcase 2ft | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6096000075340271,
+    3.0480000972747803
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      3.0480000972747803
+    ]
+  },
+  "blender": {
+    "collection": "Oak full height bookcase 2ft | v001"
+  },
+  "placement": {
+    "origin": "Floor center of nominal carcass XY, base Z=0",
+    "front_direction": "-Y; width X; up Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling"
+  },
+  "features": {
+    "shelf_centers_z_m": [
+      0.12,
+      0.49,
+      0.86,
+      1.23,
+      1.6,
+      1.97,
+      2.34,
+      2.71
+    ],
+    "clear_shelf_depth_m": 0.54864,
+    "nominal_height_m": 3.048,
+    "capacity_note": "Real shelves extend to the top zone; 72 original blank books demonstrate storage. Upper shelves require a safe reach strategy. No titles, cover scans or third-party content.",
+    "ceiling_interface": "Topmost geometry Z=3.048m. Host must measure actual finished ceiling height, erection clearance and scribe/infill. Do not push full-height cabinet through ceiling or occupy service/light recesses.",
+    "safe_access_assumption": "Shelves above 1.60 m are occasional/overflow storage, not daily reachable capacity. Host reserves stable clear floor space for a properly selected access platform or stepladder; do not climb shelves or use a rolling chair. Actual reach, equipment storage and safe use require household-specific review."
+  },
+  "installation": {
+    "mounting": "Level supported floor with host anti-tip/wall fixation; no wall-hung claim. Do not overlay separate complete cabinet carcasses.",
+    "operating_envelope": {
+      "modeled_state": "Open-front fixed storage",
+      "moving_parts": false,
+      "intended_front_travel_m": 0,
+      "operator_depth_beyond_open_front_m": null,
+      "reserve_front_access_m": 0.9,
+      "basis": "Original generic geometry and concept standing allowance, not a selected product. Host must test actual movement, opposing fixtures and people/route space.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Resolve fixing strength, shelf/rail loads, chosen hardware and electrical supply where lighting is added.",
+      "Moving drawer/hamper envelope is separate from through-circulation; do not claim two people can pass while open."
+    ]
+  },
+  "derived_from": null,
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_dressing_modules.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_dressing_modules.py -- --asset oak-full-height-bookcase-2ft"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural appearances; attribution Homes project contributors. No manufacturer CAD or third-party content.",
+  "files": {
+    "blender": "oak-full-height-bookcase-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept asset, not a commercially specified system, engineered storage capacity or installation approval. Sample clothes/shoes are illustrative objects, not a household capacity guarantee."
+}

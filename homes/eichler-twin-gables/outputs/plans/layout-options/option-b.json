@@ -1,0 +1,2367 @@
+{
+  "id": "option-b",
+  "title": "B \u2014 Private garden suites and dressing buffer",
+  "summary": "Proposed 2D layout, unbuilt and not native-verified. Both sleeping rooms sit behind street-facing dressing/bath buffers; wider wings support mixed dressing and a working pantry.",
+  "units": "feet",
+  "footprint": [
+    0,
+    0,
+    62.0,
+    53.41935483870968
+  ],
+  "courtyard": [
+    23,
+    6,
+    39,
+    38
+  ],
+  "area": {
+    "outer_envelope_sqft": 3312,
+    "courtyard_sqft": 512,
+    "gross_enclosed_sqft": 2800,
+    "convention": "Floor-planning grid including wall allowances; open courtyard excluded. Not a cladding-face or site-area survey."
+  },
+  "tradeoffs": [
+    "Both king rooms move behind the street-facing dressing/bath buffers for privacy; they lose direct front-gable bedroom glazing.",
+    "The courtyard is narrower and longer (16 \u00d7 32 ft); side-room planning width grows to 19 ft, but the rear public band is about 15 ft 5 in deep.",
+    "Each compact 39 \u00d7 66-in clear proposed WC uses a 30-in pocket opening; product and local review are required.",
+    "The pantry has a 24 \u00d7 54-in prep/storage island, 42-in proposed west work aisle and 36-in east shelf-access aisle. It is useful but deliberately modest.",
+    "A dedicated 4 \u00d7 6-ft mechanical room occupies 24 sq ft of the living corner; removable panels face a 4-ft gallery service approach. Acoustic, installation and replacement requirements remain unselected."
+  ],
+  "rooms": [
+    {
+      "name": "Private foyer",
+      "rect": [
+        23,
+        0,
+        39,
+        6
+      ]
+    },
+    {
+      "name": "West enclosed gallery",
+      "rect": [
+        19,
+        0,
+        23,
+        38
+      ]
+    },
+    {
+      "name": "East enclosed gallery",
+      "rect": [
+        39,
+        0,
+        43,
+        38
+      ]
+    },
+    {
+      "name": "West primary sleeping room",
+      "rect": [
+        0,
+        13,
+        19,
+        26
+      ]
+    },
+    {
+      "name": "West mixed dressing",
+      "rect": [
+        0,
+        0,
+        7,
+        13
+      ]
+    },
+    {
+      "name": "West ensuite",
+      "rect": [
+        7,
+        0,
+        19,
+        13
+      ]
+    },
+    {
+      "name": "East primary sleeping room",
+      "rect": [
+        43,
+        13,
+        62,
+        26
+      ]
+    },
+    {
+      "name": "East mixed dressing",
+      "rect": [
+        55,
+        0,
+        62,
+        13
+      ]
+    },
+    {
+      "name": "East ensuite",
+      "rect": [
+        43,
+        0,
+        55,
+        13
+      ]
+    },
+    {
+      "name": "Office / guest",
+      "rect": [
+        0,
+        26,
+        19,
+        38
+      ]
+    },
+    {
+      "name": "Hall shower bath",
+      "rect": [
+        12.5,
+        26,
+        19,
+        34
+      ]
+    },
+    {
+      "name": "Laundry / utility",
+      "rect": [
+        43,
+        26,
+        50,
+        36
+      ]
+    },
+    {
+      "name": "Public-facing bookcase strip",
+      "rect": [
+        43,
+        36,
+        50,
+        38
+      ]
+    },
+    {
+      "name": "Butler pantry",
+      "rect": [
+        50,
+        26,
+        62,
+        38
+      ]
+    },
+    {
+      "name": "Living",
+      "rect": [
+        0,
+        38,
+        23,
+        53.41935483870968
+      ],
+      "excluded_rects": [
+        [
+          15,
+          38,
+          19,
+          44
+        ]
+      ],
+      "net_planning_zone_sqft": 330.6451612903226
+    },
+    {
+      "name": "Dining",
+      "rect": [
+        23,
+        38,
+        39,
+        53.41935483870968
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "rect": [
+        39,
+        38,
+        62,
+        53.41935483870968
+      ]
+    },
+    {
+      "name": "Dedicated mechanical room",
+      "rect": [
+        15,
+        38,
+        19,
+        44
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "name": "West dressing / bath partition",
+      "a": [
+        7,
+        0
+      ],
+      "b": [
+        7,
+        13
+      ],
+      "openings": []
+    },
+    {
+      "name": "West suite bedroom threshold",
+      "a": [
+        0,
+        13
+      ],
+      "b": [
+        19,
+        13
+      ],
+      "openings": [
+        {
+          "offset": 2.5,
+          "width": 3,
+          "type": "cased opening",
+          "pocket_direction": 1
+        },
+        {
+          "offset": 13.5,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": 90,
+          "pocket_direction": 1
+        }
+      ]
+    },
+    {
+      "name": "West suite rear separation",
+      "a": [
+        0,
+        26
+      ],
+      "b": [
+        19,
+        26
+      ],
+      "openings": []
+    },
+    {
+      "name": "West WC west pocket wall",
+      "a": [
+        15.5,
+        0
+      ],
+      "b": [
+        15.5,
+        5.75
+      ],
+      "openings": [
+        {
+          "offset": 2.875,
+          "width": 2.5,
+          "type": "pocket",
+          "angle_degrees": 0,
+          "pocket_direction": -1
+        }
+      ]
+    },
+    {
+      "name": "West WC rear enclosure",
+      "a": [
+        15.5,
+        5.75
+      ],
+      "b": [
+        19,
+        5.75
+      ],
+      "openings": []
+    },
+    {
+      "name": "East dressing / bath partition",
+      "a": [
+        55,
+        0
+      ],
+      "b": [
+        55,
+        13
+      ],
+      "openings": []
+    },
+    {
+      "name": "East suite bedroom threshold",
+      "a": [
+        62,
+        13
+      ],
+      "b": [
+        43,
+        13
+      ],
+      "openings": [
+        {
+          "offset": 2.5,
+          "width": 3,
+          "type": "cased opening",
+          "pocket_direction": 1
+        },
+        {
+          "offset": 13.5,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": -90,
+          "pocket_direction": 1
+        }
+      ]
+    },
+    {
+      "name": "East suite rear separation",
+      "a": [
+        62,
+        26
+      ],
+      "b": [
+        43,
+        26
+      ],
+      "openings": []
+    },
+    {
+      "name": "East WC west pocket wall",
+      "a": [
+        46.5,
+        0
+      ],
+      "b": [
+        46.5,
+        5.75
+      ],
+      "openings": [
+        {
+          "offset": 2.875,
+          "width": 2.5,
+          "type": "pocket",
+          "angle_degrees": 0,
+          "pocket_direction": -1
+        }
+      ]
+    },
+    {
+      "name": "East WC rear enclosure",
+      "a": [
+        46.5,
+        5.75
+      ],
+      "b": [
+        43,
+        5.75
+      ],
+      "openings": []
+    },
+    {
+      "name": "West gallery private partition",
+      "a": [
+        19,
+        0
+      ],
+      "b": [
+        19,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 16,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": 90,
+          "pocket_direction": 1
+        },
+        {
+          "offset": 28.5,
+          "width": 2.75,
+          "type": "pocket",
+          "pocket_direction": 1,
+          "angle_degrees": 0
+        },
+        {
+          "offset": 34.5,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": 90,
+          "pocket_direction": 1
+        }
+      ]
+    },
+    {
+      "name": "East gallery private partition",
+      "a": [
+        43,
+        0
+      ],
+      "b": [
+        43,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 16,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": -90,
+          "pocket_direction": 1
+        },
+        {
+          "offset": 30,
+          "width": 3,
+          "type": "pocket",
+          "angle_degrees": 0,
+          "pocket_direction": -1
+        }
+      ]
+    },
+    {
+      "name": "Office / hall bath west",
+      "a": [
+        12.5,
+        26
+      ],
+      "b": [
+        12.5,
+        34
+      ],
+      "openings": []
+    },
+    {
+      "name": "Office / hall bath north",
+      "a": [
+        12.5,
+        34
+      ],
+      "b": [
+        19,
+        34
+      ],
+      "openings": []
+    },
+    {
+      "name": "Office public separation",
+      "a": [
+        0,
+        38
+      ],
+      "b": [
+        19,
+        38
+      ],
+      "openings": []
+    },
+    {
+      "name": "Laundry / pantry shared wet wall",
+      "a": [
+        50,
+        26
+      ],
+      "b": [
+        50,
+        38
+      ],
+      "openings": []
+    },
+    {
+      "name": "Laundry bookcase backing",
+      "a": [
+        43,
+        36
+      ],
+      "b": [
+        50,
+        36
+      ],
+      "openings": []
+    },
+    {
+      "name": "Support / kitchen",
+      "a": [
+        43,
+        38
+      ],
+      "b": [
+        62,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 9.75,
+          "width": 3,
+          "type": "door",
+          "angle_degrees": -90,
+          "pocket_direction": 1
+        }
+      ]
+    },
+    {
+      "name": "Street facade with screened high glazing",
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        62,
+        0
+      ],
+      "openings": [
+        {
+          "offset": 1,
+          "width": 5,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "High obscured daylight glass; opaque internal night shade, no clear view of WC/shower/bathing/dressing",
+          "privacy_at_night": "Opaque shade is required; obscured glass alone is not a promise against silhouettes"
+        },
+        {
+          "offset": 10,
+          "width": 7,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "High obscured daylight glass; opaque internal night shade, no clear view of WC/shower/bathing/dressing",
+          "privacy_at_night": "Opaque shade is required; obscured glass alone is not a promise against silhouettes"
+        },
+        {
+          "offset": 29,
+          "width": 4,
+          "type": "door",
+          "angle_degrees": 90
+        },
+        {
+          "offset": 45,
+          "width": 7,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "High obscured daylight glass; opaque internal night shade, no clear view of WC/shower/bathing/dressing",
+          "privacy_at_night": "Opaque shade is required; obscured glass alone is not a promise against silhouettes"
+        },
+        {
+          "offset": 56,
+          "width": 5,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "High obscured daylight glass; opaque internal night shade, no clear view of WC/shower/bathing/dressing",
+          "privacy_at_night": "Opaque shade is required; obscured glass alone is not a promise against silhouettes"
+        }
+      ]
+    },
+    {
+      "name": "West exterior with solid king-headboard bay",
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        53.41935483870968
+      ],
+      "openings": [
+        {
+          "offset": 1,
+          "width": 10,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "Above-storage high obscured dressing daylight with opaque night shade",
+          "privacy_at_night": "Opaque shade required"
+        },
+        {
+          "offset": 13.3,
+          "width": 2.4,
+          "type": "window",
+          "sill_ft": 2.5,
+          "head_ft": 10
+        },
+        {
+          "offset": 23.4,
+          "width": 2.4,
+          "type": "window",
+          "sill_ft": 2.5,
+          "head_ft": 10
+        },
+        {
+          "offset": 27,
+          "width": 8,
+          "type": "window",
+          "sill_ft": 5,
+          "head_ft": 10
+        },
+        {
+          "offset": 40,
+          "width": 11,
+          "type": "window",
+          "sill_ft": 0.2,
+          "head_ft": 10
+        }
+      ]
+    },
+    {
+      "name": "East exterior with solid king-headboard bay",
+      "a": [
+        62,
+        0
+      ],
+      "b": [
+        62,
+        53.41935483870968
+      ],
+      "openings": [
+        {
+          "offset": 1,
+          "width": 10,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10,
+          "glazing_intent": "Above-storage high obscured dressing daylight with opaque night shade",
+          "privacy_at_night": "Opaque shade required"
+        },
+        {
+          "offset": 13.3,
+          "width": 2.4,
+          "type": "window",
+          "sill_ft": 2.5,
+          "head_ft": 10
+        },
+        {
+          "offset": 23.4,
+          "width": 2.4,
+          "type": "window",
+          "sill_ft": 2.5,
+          "head_ft": 10
+        },
+        {
+          "offset": 28,
+          "width": 8,
+          "type": "window",
+          "sill_ft": 8.5,
+          "head_ft": 10
+        },
+        {
+          "offset": 43,
+          "width": 9,
+          "type": "window",
+          "sill_ft": 7.5,
+          "head_ft": 10
+        }
+      ]
+    },
+    {
+      "name": "Rear garden glazing",
+      "a": [
+        0,
+        53.41935483870968
+      ],
+      "b": [
+        62,
+        53.41935483870968
+      ],
+      "openings": [
+        {
+          "offset": 0.5,
+          "width": 22,
+          "type": "sliding glazing"
+        },
+        {
+          "offset": 23.5,
+          "width": 15,
+          "type": "sliding glazing"
+        },
+        {
+          "offset": 39.5,
+          "width": 22,
+          "type": "sliding glazing"
+        }
+      ]
+    },
+    {
+      "name": "Entry courtyard reveal",
+      "a": [
+        23,
+        6
+      ],
+      "b": [
+        39,
+        6
+      ],
+      "openings": [
+        {
+          "offset": 0,
+          "width": 6,
+          "type": "glazing"
+        },
+        {
+          "offset": 6,
+          "width": 4,
+          "type": "slider"
+        },
+        {
+          "offset": 10,
+          "width": 6,
+          "type": "glazing"
+        }
+      ]
+    },
+    {
+      "name": "West courtyard gallery glazing",
+      "a": [
+        23,
+        6
+      ],
+      "b": [
+        23,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 0,
+          "width": 13,
+          "type": "glazing"
+        },
+        {
+          "offset": 13,
+          "width": 3,
+          "type": "slider"
+        },
+        {
+          "offset": 16,
+          "width": 16,
+          "type": "glazing"
+        }
+      ]
+    },
+    {
+      "name": "East courtyard gallery glazing",
+      "a": [
+        39,
+        6
+      ],
+      "b": [
+        39,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 0,
+          "width": 13,
+          "type": "glazing"
+        },
+        {
+          "offset": 13,
+          "width": 3,
+          "type": "slider"
+        },
+        {
+          "offset": 16,
+          "width": 16,
+          "type": "glazing"
+        }
+      ]
+    },
+    {
+      "name": "Dining courtyard glazing",
+      "a": [
+        23,
+        38
+      ],
+      "b": [
+        39,
+        38
+      ],
+      "openings": [
+        {
+          "offset": 0,
+          "width": 6,
+          "type": "glazing"
+        },
+        {
+          "offset": 6,
+          "width": 4,
+          "type": "slider"
+        },
+        {
+          "offset": 10,
+          "width": 6,
+          "type": "glazing"
+        }
+      ]
+    },
+    {
+      "name": "Mechanical west wall",
+      "a": [
+        15,
+        38
+      ],
+      "b": [
+        15,
+        44
+      ],
+      "openings": []
+    },
+    {
+      "name": "Mechanical north wall",
+      "a": [
+        15,
+        44
+      ],
+      "b": [
+        19,
+        44
+      ],
+      "openings": []
+    },
+    {
+      "name": "Mechanical gallery service panels",
+      "a": [
+        19,
+        38
+      ],
+      "b": [
+        19,
+        44
+      ],
+      "openings": [
+        {
+          "offset": 0.25,
+          "width": 5.5,
+          "type": "removable panels"
+        }
+      ]
+    }
+  ],
+  "furnishings": [
+    {
+      "name": "West wall-backed king",
+      "kind": "furniture",
+      "rect": [
+        0.4,
+        16.1,
+        7.73,
+        23.1
+      ],
+      "plan_label": "KING",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null,
+      "headboard_side": "west"
+    },
+    {
+      "name": "West nightstand south",
+      "kind": "furniture",
+      "rect": [
+        0.4,
+        13.8,
+        2.4,
+        15.8
+      ],
+      "plan_label": "BEDSIDE",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West nightstand north",
+      "kind": "furniture",
+      "rect": [
+        0.4,
+        23.4,
+        2.4,
+        25.4
+      ],
+      "plan_label": "BEDSIDE",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West headboard wall backing",
+      "kind": "cabinet",
+      "rect": [
+        0.25,
+        15.9,
+        0.4,
+        23.3
+      ],
+      "plan_label": "SOLID BACKING",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "headboard_side": "west"
+    },
+    {
+      "name": "West long hanging",
+      "kind": "cabinet",
+      "rect": [
+        0.25,
+        0.75,
+        2.25,
+        3.75
+      ],
+      "plan_label": "LONG HANG",
+      "rotation": 0.0,
+      "storage_module_type": "long-hang"
+    },
+    {
+      "name": "West double hanging",
+      "kind": "cabinet",
+      "rect": [
+        0.25,
+        3.75,
+        2.25,
+        7.75
+      ],
+      "plan_label": "DOUBLE HANG",
+      "rotation": 0.0,
+      "storage_module_type": "double-hang"
+    },
+    {
+      "name": "West hamper / folded shelves",
+      "kind": "cabinet",
+      "rect": [
+        0.25,
+        7.75,
+        2.25,
+        10.75
+      ],
+      "plan_label": "HAMPER / SHELVES",
+      "rotation": 0.0,
+      "storage_module_type": "hamper-shelves"
+    },
+    {
+      "name": "West drawer tower",
+      "kind": "cabinet",
+      "rect": [
+        5.25,
+        0.75,
+        6.75,
+        3.75
+      ],
+      "plan_label": "DRAWERS",
+      "rotation": 0.0,
+      "storage_module_type": "drawers"
+    },
+    {
+      "name": "West shoe shelves",
+      "kind": "cabinet",
+      "rect": [
+        5.65,
+        3.75,
+        6.75,
+        7.75
+      ],
+      "plan_label": "SHOES",
+      "rotation": 0.0,
+      "storage_module_type": "shoes"
+    },
+    {
+      "name": "West folded-item shelves",
+      "kind": "cabinet",
+      "rect": [
+        5.65,
+        7.75,
+        6.75,
+        10.75
+      ],
+      "plan_label": "FOLDED",
+      "rotation": 0.0,
+      "storage_module_type": "shelves"
+    },
+    {
+      "name": "West full-length mirror",
+      "kind": "fixture",
+      "rect": [
+        5.5,
+        11.75,
+        6.75,
+        11.85
+      ],
+      "plan_label": "MIRROR",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West closet task light",
+      "kind": "fixture",
+      "rect": [
+        2.25,
+        1,
+        2.3,
+        10.5
+      ],
+      "plan_label": "TASK LIGHT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West wall-backed fitted soaking tub",
+      "kind": "fixtures",
+      "rect": [
+        7.25,
+        9.55,
+        13.25,
+        12.55
+      ],
+      "plan_label": "72in FITTED TUB",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "headboard_side": "west",
+      "installation_intent": "Inset/sealed tub in fitted deck against north/west bath walls, no uncleanable rear sliver; product and rim details unselected."
+    },
+    {
+      "name": "West double vanity",
+      "kind": "cabinet",
+      "rect": [
+        16.5,
+        6.7,
+        18.75,
+        12.7
+      ],
+      "plan_label": "DOUBLE VANITY",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West basin one",
+      "kind": "sink",
+      "rect": [
+        16.8,
+        7.35,
+        18.2,
+        8.75
+      ],
+      "plan_label": "BASIN",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West basin two",
+      "kind": "sink",
+      "rect": [
+        16.8,
+        10.35,
+        18.2,
+        11.75
+      ],
+      "plan_label": "BASIN",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West separate shower",
+      "kind": "shower",
+      "rect": [
+        7.4,
+        0.65,
+        12.3,
+        4.6
+      ],
+      "plan_label": "SHOWER ~59\u00d747in",
+      "rotation": 3.141592653589793,
+      "storage_module_type": null
+    },
+    {
+      "name": "West compact premium bidet toilet",
+      "kind": "toilet",
+      "rect": [
+        16.425,
+        0.6,
+        17.925,
+        3.35
+      ],
+      "plan_label": "BIDET WC",
+      "rotation": 3.141592653589793,
+      "storage_module_type": null,
+      "product_status": "Premium integrated-bidet / TOTO-style intent only; no specific manufacturer/model selected or installation approved."
+    },
+    {
+      "name": "West bath linen closet",
+      "kind": "cabinet",
+      "rect": [
+        13.1,
+        0.4,
+        15.1,
+        2.4
+      ],
+      "plan_label": "LINEN",
+      "rotation": 3.141592653589793,
+      "storage_module_type": "linen"
+    },
+    {
+      "name": "East wall-backed king",
+      "kind": "furniture",
+      "rect": [
+        54.269999999999996,
+        16.1,
+        61.6,
+        23.1
+      ],
+      "plan_label": "KING",
+      "rotation": 1.5707963267948966,
+      "storage_module_type": null,
+      "headboard_side": "east"
+    },
+    {
+      "name": "East nightstand south",
+      "kind": "furniture",
+      "rect": [
+        59.6,
+        13.8,
+        61.6,
+        15.8
+      ],
+      "plan_label": "BEDSIDE",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East nightstand north",
+      "kind": "furniture",
+      "rect": [
+        59.6,
+        23.4,
+        61.6,
+        25.4
+      ],
+      "plan_label": "BEDSIDE",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East headboard wall backing",
+      "kind": "cabinet",
+      "rect": [
+        61.6,
+        15.9,
+        61.75,
+        23.3
+      ],
+      "plan_label": "SOLID BACKING",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "headboard_side": "east"
+    },
+    {
+      "name": "East long hanging",
+      "kind": "cabinet",
+      "rect": [
+        59.75,
+        0.75,
+        61.75,
+        3.75
+      ],
+      "plan_label": "LONG HANG",
+      "rotation": 0.0,
+      "storage_module_type": "long-hang"
+    },
+    {
+      "name": "East double hanging",
+      "kind": "cabinet",
+      "rect": [
+        59.75,
+        3.75,
+        61.75,
+        7.75
+      ],
+      "plan_label": "DOUBLE HANG",
+      "rotation": 0.0,
+      "storage_module_type": "double-hang"
+    },
+    {
+      "name": "East hamper / folded shelves",
+      "kind": "cabinet",
+      "rect": [
+        59.75,
+        7.75,
+        61.75,
+        10.75
+      ],
+      "plan_label": "HAMPER / SHELVES",
+      "rotation": 0.0,
+      "storage_module_type": "hamper-shelves"
+    },
+    {
+      "name": "East drawer tower",
+      "kind": "cabinet",
+      "rect": [
+        55.25,
+        0.75,
+        56.75,
+        3.75
+      ],
+      "plan_label": "DRAWERS",
+      "rotation": 0.0,
+      "storage_module_type": "drawers"
+    },
+    {
+      "name": "East shoe shelves",
+      "kind": "cabinet",
+      "rect": [
+        55.25,
+        3.75,
+        56.35,
+        7.75
+      ],
+      "plan_label": "SHOES",
+      "rotation": 0.0,
+      "storage_module_type": "shoes"
+    },
+    {
+      "name": "East folded-item shelves",
+      "kind": "cabinet",
+      "rect": [
+        55.25,
+        7.75,
+        56.35,
+        10.75
+      ],
+      "plan_label": "FOLDED",
+      "rotation": 0.0,
+      "storage_module_type": "shelves"
+    },
+    {
+      "name": "East full-length mirror",
+      "kind": "fixture",
+      "rect": [
+        55.25,
+        11.75,
+        56.5,
+        11.85
+      ],
+      "plan_label": "MIRROR",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East closet task light",
+      "kind": "fixture",
+      "rect": [
+        59.7,
+        1,
+        59.75,
+        10.5
+      ],
+      "plan_label": "TASK LIGHT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East wall-backed fitted soaking tub",
+      "kind": "fixtures",
+      "rect": [
+        48.75,
+        9.55,
+        54.75,
+        12.55
+      ],
+      "plan_label": "72in FITTED TUB",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "headboard_side": "east",
+      "installation_intent": "Inset/sealed tub in fitted deck against north/west bath walls, no uncleanable rear sliver; product and rim details unselected."
+    },
+    {
+      "name": "East double vanity",
+      "kind": "cabinet",
+      "rect": [
+        43.25,
+        6.7,
+        45.5,
+        12.7
+      ],
+      "plan_label": "DOUBLE VANITY",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East basin one",
+      "kind": "sink",
+      "rect": [
+        43.8,
+        7.35,
+        45.2,
+        8.75
+      ],
+      "plan_label": "BASIN",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East basin two",
+      "kind": "sink",
+      "rect": [
+        43.8,
+        10.35,
+        45.2,
+        11.75
+      ],
+      "plan_label": "BASIN",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "East separate shower",
+      "kind": "shower",
+      "rect": [
+        49.7,
+        0.65,
+        54.6,
+        4.6
+      ],
+      "plan_label": "SHOWER ~59\u00d747in",
+      "rotation": -3.141592653589793,
+      "storage_module_type": null
+    },
+    {
+      "name": "East compact premium bidet toilet",
+      "kind": "toilet",
+      "rect": [
+        44.075,
+        0.6,
+        45.575,
+        3.35
+      ],
+      "plan_label": "BIDET WC",
+      "rotation": -3.141592653589793,
+      "storage_module_type": null,
+      "product_status": "Premium integrated-bidet / TOTO-style intent only; no specific manufacturer/model selected or installation approved."
+    },
+    {
+      "name": "East bath linen closet",
+      "kind": "cabinet",
+      "rect": [
+        46.9,
+        0.4,
+        48.9,
+        2.4
+      ],
+      "plan_label": "LINEN",
+      "rotation": -3.141592653589793,
+      "storage_module_type": "linen"
+    },
+    {
+      "name": "Office guest queen",
+      "kind": "furniture",
+      "rect": [
+        0.4,
+        27,
+        7.73,
+        32.65
+      ],
+      "plan_label": "QUEEN",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null,
+      "headboard_side": "west",
+      "headboard_note": "Outer wall is solid to5ft sill behind this proposed headboard; final actual bed height must be confirmed."
+    },
+    {
+      "name": "Office desk",
+      "kind": "furniture",
+      "rect": [
+        10,
+        35.5,
+        15,
+        37.5
+      ],
+      "plan_label": "DESK",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Office desk chair",
+      "kind": "furniture",
+      "rect": [
+        11.5,
+        33.5,
+        13.5,
+        35.3
+      ],
+      "plan_label": "CHAIR",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Office guest wardrobe",
+      "kind": "cabinet",
+      "rect": [
+        0.5,
+        35.75,
+        6.5,
+        37.75
+      ],
+      "plan_label": "GUEST STORAGE",
+      "rotation": 0.0,
+      "storage_module_type": "wardrobe"
+    },
+    {
+      "name": "Hall bath vanity",
+      "kind": "cabinet",
+      "rect": [
+        13,
+        26.25,
+        15,
+        28.25
+      ],
+      "plan_label": "VANITY",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Hall bath basin",
+      "kind": "sink",
+      "rect": [
+        13.3,
+        26.55,
+        14.7,
+        27.95
+      ],
+      "plan_label": "BASIN",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Hall bath toilet",
+      "kind": "toilet",
+      "rect": [
+        13.4,
+        31,
+        14.8,
+        33.5
+      ],
+      "plan_label": "WC",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Hall bath shower",
+      "kind": "shower",
+      "rect": [
+        15.6,
+        30.6,
+        18.6,
+        33.6
+      ],
+      "plan_label": "SHOWER 900",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Laundry stack A",
+      "kind": "appliance",
+      "rect": [
+        43.4,
+        33.15,
+        45.35538057742782,
+        35.25958005249343
+      ],
+      "plan_label": "COMPACT W+D",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "notes": "Representative compact Miele WXR960/TXR960 dimensional body, two units per stack; model/kit selection pending. Body front y33.15,434mm door projection south.24\u00d733in installed bay is separate from body and reserves rear connections;75mm rear service is planning assumption, not approved installation.",
+      "installed_envelope_rect": [
+        43.4,
+        33.15,
+        45.4,
+        35.9
+      ],
+      "reference_product_dimensions_mm": {
+        "body_width": 596,
+        "body_depth": 643,
+        "unit_height": 850,
+        "open_door_depth": 1077
+      },
+      "reference_sources": [
+        "https://www.mieleusa.com/product/12864100/w1-front-loading-washing-machine-wxr960-wcs-tdosandintensewash",
+        "https://www.mieleusa.com/product/12864160/t1-heat-pump-dryer-txr960wp-ecoandsteam"
+      ]
+    },
+    {
+      "name": "Laundry stack B",
+      "kind": "appliance",
+      "rect": [
+        45.75,
+        33.15,
+        47.705380577427825,
+        35.25958005249343
+      ],
+      "plan_label": "COMPACT W+D",
+      "rotation": 0.0,
+      "storage_module_type": null,
+      "notes": "Representative compact Miele WXR960/TXR960 dimensional body, two units per stack; model/kit selection pending. Body front y33.15,434mm door projection south.24\u00d733in installed bay is separate from body and reserves rear connections;75mm rear service is planning assumption, not approved installation.",
+      "installed_envelope_rect": [
+        45.75,
+        33.15,
+        47.75,
+        35.9
+      ],
+      "reference_product_dimensions_mm": {
+        "body_width": 596,
+        "body_depth": 643,
+        "unit_height": 850,
+        "open_door_depth": 1077
+      },
+      "reference_sources": [
+        "https://www.mieleusa.com/product/12864100/w1-front-loading-washing-machine-wxr960-wcs-tdosandintensewash",
+        "https://www.mieleusa.com/product/12864160/t1-heat-pump-dryer-txr960wp-ecoandsteam"
+      ]
+    },
+    {
+      "name": "Laundry stain sink base",
+      "kind": "cabinet",
+      "rect": [
+        48,
+        29.5,
+        49.85,
+        32.5
+      ],
+      "plan_label": "UTILITY SINK",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Laundry stain sink",
+      "kind": "sink",
+      "rect": [
+        48.15,
+        29.9,
+        49.65,
+        32.1
+      ],
+      "plan_label": "STAIN SINK",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Laundry tall utility storage",
+      "kind": "cabinet",
+      "rect": [
+        43.5,
+        26.25,
+        45,
+        28.75
+      ],
+      "plan_label": "UTILITY STORAGE",
+      "rotation": 0.0,
+      "storage_module_type": "broom-supplies",
+      "notes": "Backed/fixed only to south solid wall, stood off pocket wall; no fasteners or services in x43/y27..30 door cavity."
+    },
+    {
+      "name": "Laundry folding drawer base with upper supply cupboards",
+      "kind": "cabinet",
+      "rect": [
+        46.5,
+        26.25,
+        49.75,
+        27.5
+      ],
+      "plan_label": "FOLD / BASE + UPPERS",
+      "rotation": 0.0,
+      "storage_module_type": "drawers",
+      "upper_cupboards_height_ft": [
+        4.5,
+        7.5
+      ]
+    },
+    {
+      "name": "Seamless floor-to-ceiling bookcases",
+      "kind": "cabinet",
+      "rect": [
+        43.25,
+        36.25,
+        49.75,
+        37.85
+      ],
+      "plan_label": "FULL-HEIGHT BOOKCASES",
+      "rotation": 3.141592653589793,
+      "storage_module_type": "full-height-books"
+    },
+    {
+      "name": "Pantry shared-wall work counter",
+      "kind": "cabinet",
+      "rect": [
+        50.25,
+        28.5,
+        52.25,
+        36.5
+      ],
+      "plan_label": "PREP / APPLIANCES",
+      "rotation": 1.5707963267948966,
+      "storage_module_type": "18-in-travel shallow drawers and sink base",
+      "notes": "Drawer extension limited to18in;42-in aisle retains24-in occupied standing allowance. Doors below sink need individual product check."
+    },
+    {
+      "name": "Pantry prep sink",
+      "kind": "sink",
+      "rect": [
+        50.45,
+        29.9,
+        51.95,
+        32.1
+      ],
+      "plan_label": "PREP SINK",
+      "rotation": 1.5707963267948966,
+      "storage_module_type": null
+    },
+    {
+      "name": "Pantry shallow east shelves",
+      "kind": "cabinet",
+      "rect": [
+        60.75,
+        27.5,
+        61.75,
+        37.25
+      ],
+      "plan_label": "FOOD SHELVES",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": "pantry-shelves"
+    },
+    {
+      "name": "Pantry south shelves",
+      "kind": "cabinet",
+      "rect": [
+        52.75,
+        26.25,
+        60.5,
+        27.25
+      ],
+      "plan_label": "BULK / SMALL APPLIANCES",
+      "rotation": 3.141592653589793,
+      "storage_module_type": "pantry-shelves"
+    },
+    {
+      "name": "Pantry prep island",
+      "kind": "cabinet",
+      "rect": [
+        55.75,
+        30.25,
+        57.75,
+        34.75
+      ],
+      "plan_label": "OPEN PREP ISLAND",
+      "rotation": 1.5707963267948966,
+      "storage_module_type": "open lower shelves",
+      "notes": "Open lower shelf worktable, no drawer projection into36-in east aisle."
+    },
+    {
+      "name": "Living sofa",
+      "kind": "furniture",
+      "rect": [
+        2,
+        43,
+        5.2,
+        50.5
+      ],
+      "plan_label": "SOFA",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null
+    },
+    {
+      "name": "Living coffee table",
+      "kind": "furniture",
+      "rect": [
+        8.5,
+        45,
+        11.5,
+        49.5
+      ],
+      "plan_label": "TABLE",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Living chair 1",
+      "kind": "furniture",
+      "rect": [
+        14,
+        44.5,
+        17,
+        47.5
+      ],
+      "plan_label": "CHAIR",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Living chair 2",
+      "kind": "furniture",
+      "rect": [
+        14,
+        49,
+        17,
+        52
+      ],
+      "plan_label": "CHAIR",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining table",
+      "kind": "furniture",
+      "rect": [
+        27,
+        44.5,
+        35,
+        48.1
+      ],
+      "plan_label": "DINING 8ft",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        27.5,
+        42.3,
+        29.25,
+        44.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        27.5,
+        48.3,
+        29.25,
+        50.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        30.25,
+        42.3,
+        32.0,
+        44.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        30.25,
+        48.3,
+        32.0,
+        50.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        33,
+        42.3,
+        34.75,
+        44.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Dining chair",
+      "kind": "furniture",
+      "rect": [
+        33,
+        48.3,
+        34.75,
+        50.3
+      ],
+      "plan_label": "SEAT",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Main kitchen island",
+      "kind": "cabinet",
+      "rect": [
+        51,
+        42.5,
+        55,
+        50.5
+      ],
+      "plan_label": "KITCHEN ISLAND",
+      "rotation": 1.5707963267948966,
+      "storage_module_type": null
+    },
+    {
+      "name": "Main kitchen sink",
+      "kind": "sink",
+      "rect": [
+        53.1,
+        45.1,
+        54.8,
+        47.4
+      ],
+      "plan_label": "SINK",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Main dishwasher",
+      "kind": "appliance",
+      "rect": [
+        53,
+        43,
+        55,
+        45
+      ],
+      "plan_label": "DW",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Cooking counter",
+      "kind": "cabinet",
+      "rect": [
+        59.666666666666664,
+        43.75,
+        61.75,
+        52.4
+      ],
+      "plan_label": "COOKING / DRAWERS",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null,
+      "headboard_side": "west"
+    },
+    {
+      "name": "36in induction over30in oven",
+      "kind": "appliance",
+      "rect": [
+        59.666666666666664,
+        46.5,
+        61.75,
+        49.5
+      ],
+      "plan_label": "HOB / OVEN / HOOD",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null
+    },
+    {
+      "name": "48in paired integrated fridge freezer columns",
+      "kind": "appliance",
+      "rect": [
+        59.666666666666664,
+        39,
+        61.75,
+        43
+      ],
+      "plan_label": "48in INTEGRATED",
+      "rotation": -1.5707963267948966,
+      "storage_module_type": null,
+      "depth_inches": 25,
+      "product_status": "Unselected cabinet-depth integrated columns; old deeper native asset does not establish fit",
+      "panel_front_x": 59.666666666666664
+    },
+    {
+      "name": "Kitchen stool",
+      "kind": "furniture",
+      "rect": [
+        48.5,
+        42.8,
+        50,
+        44.2
+      ],
+      "plan_label": "STOOL",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Kitchen stool",
+      "kind": "furniture",
+      "rect": [
+        48.5,
+        45.8,
+        50,
+        47.2
+      ],
+      "plan_label": "STOOL",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Kitchen stool",
+      "kind": "furniture",
+      "rect": [
+        48.5,
+        48.5,
+        50,
+        49.900000000000006
+      ],
+      "plan_label": "STOOL",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "Entry coat storage",
+      "kind": "cabinet",
+      "rect": [
+        24,
+        0.5,
+        28,
+        2.5
+      ],
+      "plan_label": "COATS",
+      "rotation": 3.141592653589793,
+      "storage_module_type": null
+    },
+    {
+      "name": "Entry shoe bench",
+      "kind": "furniture",
+      "rect": [
+        34,
+        0.5,
+        38,
+        2.25
+      ],
+      "plan_label": "BENCH",
+      "rotation": 0.0,
+      "storage_module_type": null
+    },
+    {
+      "name": "West sealed fitted bath platform",
+      "kind": "counter",
+      "rect": [
+        7.125,
+        9.25,
+        13.375,
+        12.875
+      ],
+      "plan_label": "FITTED SURROUND",
+      "layer": "under-tub",
+      "installation_intent": "Sealed wall-to-tub surround closes residual rear/side gaps; plumbing maintenance panel faces the dry central bath aisle."
+    },
+    {
+      "name": "West wall-mounted tub faucet",
+      "kind": "fixture",
+      "rect": [
+        10.1,
+        12.75,
+        10.4,
+        12.875
+      ],
+      "plan_label": "WALL FILLER",
+      "installation_intent": "Wall-mounted filler over tub; reach/selected-product installation to be reviewed. No floor stem in the approach."
+    },
+    {
+      "name": "East sealed fitted bath platform",
+      "kind": "counter",
+      "rect": [
+        48.625,
+        9.25,
+        54.875,
+        12.875
+      ],
+      "plan_label": "FITTED SURROUND",
+      "layer": "under-tub",
+      "installation_intent": "Sealed wall-to-tub surround closes residual rear/side gaps; plumbing maintenance panel faces the dry central bath aisle."
+    },
+    {
+      "name": "East wall-mounted tub faucet",
+      "kind": "fixture",
+      "rect": [
+        51.6,
+        12.75,
+        51.9,
+        12.875
+      ],
+      "plan_label": "WALL FILLER",
+      "installation_intent": "Wall-mounted filler over tub; reach/selected-product installation to be reviewed. No floor stem in the approach."
+    },
+    {
+      "name": "Mechanical air handler allowance",
+      "kind": "service",
+      "rect": [
+        15.25,
+        40.85,
+        17.75,
+        43.6
+      ],
+      "plan_label": "AIR HANDLER",
+      "service_face": "east"
+    },
+    {
+      "name": "Mechanical hot-water allowance",
+      "kind": "service",
+      "rect": [
+        15.25,
+        38.4,
+        17.45,
+        40.6
+      ],
+      "plan_label": "HOT WATER",
+      "service_face": "east"
+    },
+    {
+      "name": "Fridge south return relief filler",
+      "kind": "cabinet",
+      "rect": [
+        59.666666666666664,
+        38.125,
+        61.75,
+        39
+      ],
+      "plan_label": "FILLER",
+      "storage_module_type": "fixed filler, not storage",
+      "notes": "Concept hinge/return allowance; verify chosen product opening and drawer removal."
+    },
+    {
+      "name": "Fridge north hinge relief filler",
+      "kind": "cabinet",
+      "rect": [
+        59.666666666666664,
+        43,
+        61.75,
+        43.75
+      ],
+      "plan_label": "FILLER",
+      "storage_module_type": "fixed filler, not storage",
+      "notes": "Concept hinge/return allowance; verify chosen product opening and drawer removal."
+    },
+    {
+      "name": "Full-depth fridge overhead enclosure cabinet",
+      "kind": "cabinet",
+      "rect": [
+        59.666666666666664,
+        39,
+        61.75,
+        43
+      ],
+      "plan_label": "",
+      "height_above_floor_ft": 7.25,
+      "plan_visibility": "overhead",
+      "notes": "25-in full-depth overhead enclosure aligned with the 48-in paired column panel fronts; upper cabinet not shallow wall cabinet."
+    }
+  ],
+  "wc_rooms": [
+    {
+      "name": "West ensuite WC",
+      "rect": [
+        15.625,
+        0.125,
+        18.875,
+        5.625
+      ],
+      "clear_width_inches": 39,
+      "clear_depth_inches": 66,
+      "status": "proposed finished-face reservation, not measured native geometry"
+    },
+    {
+      "name": "East ensuite WC",
+      "rect": [
+        43.125,
+        0.125,
+        46.375,
+        5.625
+      ],
+      "clear_width_inches": 39,
+      "clear_depth_inches": 66,
+      "status": "proposed finished-face reservation, not measured native geometry"
+    }
+  ],
+  "detail_views": [
+    {
+      "title": "West private suite / mixed dressing / compact WC",
+      "rect": [
+        0,
+        0,
+        23,
+        26
+      ]
+    },
+    {
+      "title": "East private suite / mixed dressing / compact WC",
+      "rect": [
+        39,
+        0,
+        62,
+        26
+      ]
+    },
+    {
+      "title": "Four-machine laundry / shared wet wall / butler pantry",
+      "rect": [
+        39,
+        25,
+        62,
+        39
+      ]
+    },
+    {
+      "title": "Whole furnished proposal",
+      "rect": [
+        0,
+        0,
+        62.0,
+        53.41935483870968
+      ]
+    }
+  ],
+  "approaches": [
+    {
+      "name": "West headboard-to-backing",
+      "rect": [
+        0.25,
+        16.1,
+        0.4,
+        23.1
+      ],
+      "basis": "Proposed only: headboard is placed at the deliberate backing, not floating in room; actual asset bounds must confirm gap"
+    },
+    {
+      "name": "West dressing clear center",
+      "rect": [
+        2.25,
+        0.75,
+        5.25,
+        10.75
+      ],
+      "basis": "Proposed only: 36in between hanging and closed18in drawer tower; a12in proposed drawer extension leaves24in standing strip. This is proposed drawer-depth choice, not a library operating receipt."
+    },
+    {
+      "name": "West basin standing",
+      "rect": [
+        14,
+        6.7,
+        16.5,
+        12.7
+      ],
+      "basis": "Proposed only: 30in standing depth at vanity; room door swings outward into bedroom, avoiding basin user"
+    },
+    {
+      "name": "West WC approach",
+      "rect": [
+        12.3,
+        2.875,
+        15.375,
+        5.375
+      ],
+      "basis": "Proposed30in opening retracts south into0.375\u20132.875ft wall pocket; pocketwallendsat5.75ft anddoesnotclipvanityuser. Exactframe/product/cleaningchecksremain."
+    },
+    {
+      "name": "East headboard-to-backing",
+      "rect": [
+        61.6,
+        16.1,
+        61.75,
+        23.1
+      ],
+      "basis": "Proposed only: headboard is placed at the deliberate backing, not floating in room; actual asset bounds must confirm gap"
+    },
+    {
+      "name": "East dressing clear center",
+      "rect": [
+        56.75,
+        0.75,
+        59.75,
+        10.75
+      ],
+      "basis": "Proposed only: 36in between hanging and closed18in drawer tower; a12in proposed drawer extension leaves24in standing strip. This is proposed drawer-depth choice, not a library operating receipt."
+    },
+    {
+      "name": "East basin standing",
+      "rect": [
+        45.5,
+        6.7,
+        48,
+        12.7
+      ],
+      "basis": "Proposed only: 30in standing depth at vanity; room door swings outward into bedroom, avoiding basin user"
+    },
+    {
+      "name": "East WC approach",
+      "rect": [
+        46.625,
+        2.875,
+        49.7,
+        5.375
+      ],
+      "basis": "Proposed30in opening retracts south into0.375\u20132.875ft wall pocket; pocketwallendsat5.75ft anddoesnotclipvanityuser. Exactframe/product/cleaningchecksremain."
+    },
+    {
+      "name": "Pantry west work aisle",
+      "rect": [
+        52.25,
+        30.25,
+        55.75,
+        34.75
+      ],
+      "basis": "Proposed42-in aisle. Open-shelf island has no moving fronts; shallow counter drawer18-in maximum travel retains24-in occupied allowance. Not a claim for existing27-in extension cabinet assets."
+    },
+    {
+      "name": "Pantry east shelf aisle",
+      "rect": [
+        57.75,
+        30.25,
+        60.75,
+        34.75
+      ],
+      "basis": "Proposed only: 36in proposed shelf access"
+    },
+    {
+      "name": "Pantry south passage",
+      "rect": [
+        52.75,
+        27.25,
+        60.5,
+        30.25
+      ],
+      "basis": "Proposed only: 36in between south shelves and island end"
+    },
+    {
+      "name": "Pantry north passage",
+      "rect": [
+        52.75,
+        34.75,
+        60.5,
+        37.75
+      ],
+      "basis": "Proposed only: 36in between island end and north wall; entry connects to west aisle"
+    },
+    {
+      "name": "Laundry front operating zone",
+      "rect": [
+        43.4,
+        29.15,
+        47.75,
+        33.15
+      ],
+      "basis": "Proposed48-in front zone covers both compact machines completely; sink base starts3in east of machine envelope. A24-in open machine door leaves24-in standing allowance. Sink/machine occupied zones overlap: sequential use, not simultaneous operators; exact doors, kits and upper reach to check."
+    },
+    {
+      "name": "Kitchen working aisle",
+      "rect": [
+        55,
+        43.75,
+        59.6666666667,
+        50.5
+      ],
+      "basis": "Proposed56-in between flush25-in-deep cooking joinery and island; selected appliances and occupied states still need checking."
+    },
+    {
+      "name": "West tub dry approach",
+      "rect": [
+        7.4,
+        6.25,
+        13.3,
+        9.25
+      ],
+      "basis": "Proposed3ft dry approach to fitted tub; no isolated narrow cleaning slot behind basin."
+    },
+    {
+      "name": "West shower dry approach",
+      "rect": [
+        7.4,
+        4.6,
+        12.3,
+        7.6
+      ],
+      "basis": "Proposed3ft standing zone north of shower opening; shower screen/door motion remains to be selected."
+    },
+    {
+      "name": "East tub dry approach",
+      "rect": [
+        48.7,
+        6.25,
+        54.6,
+        9.25
+      ],
+      "basis": "Proposed3ft dry approach to fitted tub; no isolated narrow cleaning slot behind basin."
+    },
+    {
+      "name": "East shower dry approach",
+      "rect": [
+        49.7,
+        4.6,
+        54.6,
+        7.6
+      ],
+      "basis": "Proposed3ft standing zone north of shower opening; shower screen/door motion remains to be selected."
+    },
+    {
+      "name": "Mechanical service and removal approach",
+      "rect": [
+        19,
+        38.25,
+        23,
+        43.75
+      ],
+      "basis": "Proposed 4-ft gallery width in front of 5.5-ft removable service panels; normal route clear with panels closed. Maintenance temporarily occupies the gallery, with the opposite courtyard gallery still available. Exact equipment and service instructions require coordination."
+    },
+    {
+      "name": "Integrated fridge concept door and operator approach",
+      "rect": [
+        55,
+        39,
+        59.6666666667,
+        43
+      ],
+      "purpose": "56-in cabinet-to-island/front approach; paired 24-in leaves project about24in at90degrees. Confirm chosen products opening angle, hinges, handles and drawer removal before modeling."
+    }
+  ],
+  "status": "layout proposal only; no Blender, IFC, render or geometric verification produced",
+  "notes": [
+    "This is a furnished 2D proposal, not native-measured or approved construction geometry.",
+    "Room bounds are gross planning zones. Office/guest excludes the overlapping hall-bath rectangle; living excludes the 24-sq-ft mechanical room. These are not added to the 2,800-sq-ft total.",
+    "Front gable daylight serves dressing/bathing buffers rather than king rooms; reconcile the exterior glazing and ceiling sections if this option is selected.",
+    "Mixed dressing uses 24-in hanging, an 18-in drawer tower and approximately 13-in shoe/shelf depth. The proposed 12-in drawer travel needs a suitable real asset and a person-use check.",
+    "Laundry stain sink and pantry prep sink face opposite sides of the shared wet wall. Plumbing, wall build-up and access are concept reservations, not engineered routes.",
+    "Side bedroom windows flank deliberate solid headboard bays. Office glazing starts above its headboard.",
+    "Hall bath uses a 33-in pocket with northward travel ending at y = 34, leaving 6 in before the office opening; office and suite bath entries swing into their rooms without a basin conflict.",
+    "Laundry supply storage is on the south wall; no cupboard blocks the west entry or machine standing zone.",
+    "The 4 \u00d7 6-ft mechanical room includes separate 2.5 \u00d7 2.75-ft air-handler and 2.2 \u00d7 2.2-ft hot-water allowances. Its 5.5-ft removable panels face a 4-ft gallery service/removal approach. Exact plant, air requirements, acoustics and manufacturer service conditions remain unselected.",
+    "Both bathrooms use wall-backed fitted tubs, sealed surrounds and wall-mounted fillers. Maintenance access faces the dry aisle; no inaccessible rear cleaning sliver is proposed.",
+    "Street bath, WC and dressing windows use high obscured daylight glazing with opaque internal night shades. Obscured glass alone does not guarantee protection against silhouettes.",
+    "Both compact WCs use premium integrated-bidet/TOTO-style intent, with no exact product or approved power, water or service specification.",
+    "Both ensuite WC pockets retract toward the street, entirely within their enclosure-side wall. The wall no longer extends into the vanity standing zone; cavity endpoints are y = 0.375\u20132.875 ft for the proposed 30-in leaf.",
+    "Kitchen refrigeration is a proposed 48-in pair of true cabinet-depth integrated columns, 25-in enclosure depth, with panel fronts flush at x = 59.6667 ft with adjacent joinery. A 10.5-in south return-wall filler and 9-in north filler reserve hinge/handle relief. The matching full-depth overhead enclosure shares the same front plane. Exact hinge opening angle, drawer/bin removal, ventilation and service must be checked for selected products; the older 31.8-in-deep native asset is not adopted or claimed to fit.",
+    "Two compact laundry stacks each reserve24-in width and33-in depth including connection allowance: four machines total. Their smaller drum capacity is an explicit Option B tradeoff. Both full machine fronts receive a48-in-deep proposed operating zone without sink-base intrusion. The3-ft entry pocket retracts south into y27..30; freestanding utility storage fixes only to the south solid wall, with no pocket-cavity fasteners or services. Machine/sink use is sequential because occupied zones overlap. Products, stacking kits, upper reach and actual door/maintenance geometry remain to check.",
+    "The pantry island is an open-shelf worktable with no projecting drawers. Shared-wall shallow drawer travel is limited to18in, leaving24in occupied standing allowance in the42-in aisle; no27-in-travel native drawer asset is assumed.",
+    "Each dressing room has a3-ft cased opening from its private bedroom rather than a swinging leaf beside the king bed. Bathroom doors remain separately closable. Dressing street glazing retains its opaque night shade."
+  ],
+  "labels": [
+    {
+      "at": [
+        11.6,
+        -1
+      ],
+      "text": "HIGH / OBSCURED",
+      "size": 7,
+      "bold": false
+    },
+    {
+      "at": [
+        50.4,
+        -1
+      ],
+      "text": "HIGH / OBSCURED",
+      "size": 7,
+      "bold": false
+    }
+  ]
+}

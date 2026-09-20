@@ -1,0 +1,10 @@
+{
+  "status": "pending_current_model_ai_generation_and_review",
+  "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "native_video_sha256": "52bf5644d47bd392826b0cfef06c8856a4e297c6c426662f17611a0ee30eb481",
+  "reference_provenance_sha256": "137a01aa6ae694af761df13e1743d8ebb6767407752ef141537df89fc47fbdbd",
+  "reference_checkpoints": 15,
+  "distinct_imagegen_studies": 14,
+  "candidate_location": "outputs/work/walkthrough/",
+  "note": "All prior AI candidates and derived boundaries are obsolete after the coordinated kitchen revision. Current native animation and paired references are reviewed; a current full AI film has not yet been promoted."
+}

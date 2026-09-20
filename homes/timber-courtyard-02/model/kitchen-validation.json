@@ -1,0 +1,1175 @@
+{
+  "file": "homes/timber-courtyard-02/model/timber-courtyard-02.blend",
+  "sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "scope": "Kitchen/pantry installation and concept movement QA only; no whole-home, structural, manufacturer or code approval.",
+  "software": "4.5.14 LTS",
+  "status": "listed_geometry_checks_pass_with_unresolved_product_allowance",
+  "geometry_or_planning_failures": 0,
+  "unresolved_selected_product_allowances": 1,
+  "checks": [
+    {
+      "name": "All native library links are relative and resolve",
+      "passed": true,
+      "kind": "constraint",
+      "details": [
+        {
+          "path": "//../../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/fixtures/duplex-power-outlet-bronze/v001/duplex-power-outlet-bronze.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/fixtures/lighting-linear-pendant-4ft/v001/lighting-linear-pendant-4ft.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/cabinetry/smoked-oak-drawer-base-2ft/v001/smoked-oak-drawer-base-2ft.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/cabinetry/smoked-oak-oven-base-36in/v001/smoked-oak-oven-base-36in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/smoked-oak-panel-ready-dishwasher-24in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/appliances/smoked-oak-panel-ready-fridge-48in/v001/smoked-oak-panel-ready-fridge-48in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/smoked-oak-pantry-shelf-2ft.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/cabinetry/smoked-oak-sink-base-36in/v001/smoked-oak-sink-base-36in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/cabinetry/smoked-oak-waste-pullout-18in/v001/smoked-oak-waste-pullout-18in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/smoked-oak/v001/smoked-oak.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
+          "exists": true,
+          "blender_missing": false
+        },
+        {
+          "path": "//../../../library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend",
+          "exists": true,
+          "blender_missing": false
+        }
+      ]
+    },
+    {
+      "name": "Equipment uses exact linked assets at full scale",
+      "passed": true,
+      "kind": "constraint",
+      "details": [
+        {
+          "object": "Kitchen 48 inch refrigerator freezer",
+          "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+          "version": "v001",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              15.594178199768066,
+              11.344655990600586,
+              0.0
+            ],
+            [
+              16.39824104309082,
+              12.56385612487793,
+              2.1335999965667725
+            ]
+          ],
+          "origin_m": [
+            16.017240524291992,
+            11.954256057739258,
+            0.0
+          ]
+        },
+        {
+          "object": "Kitchen integrated dishwasher",
+          "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+          "version": "v001",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              11.357609748840332,
+              13.826642990112305,
+              0.0
+            ],
+            [
+              11.959589958190918,
+              14.493240356445312,
+              0.8610600233078003
+            ]
+          ],
+          "origin_m": [
+            11.658599853515625,
+            14.188440322875977,
+            0.0
+          ]
+        },
+        {
+          "object": "Kitchen induction stove",
+          "id": "appliances/induction-cooktop-36in",
+          "version": "v001",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              15.781020164489746,
+              13.197839736938477,
+              0.8650223612785339
+            ],
+            [
+              16.314420700073242,
+              14.112239837646484,
+              0.9165335297584534
+            ]
+          ],
+          "origin_m": [
+            16.047719955444336,
+            13.65503978729248,
+            0.9143999814987183
+          ]
+        },
+        {
+          "object": "Kitchen built in oven",
+          "id": "appliances/built-in-oven-30in",
+          "version": "v001",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              15.680130958557129,
+              13.274040222167969,
+              0.13999998569488525
+            ],
+            [
+              16.352519989013672,
+              14.036039352416992,
+              0.8511999845504761
+            ]
+          ],
+          "origin_m": [
+            16.047719955444336,
+            13.65503978729248,
+            0.14000000059604645
+          ]
+        },
+        {
+          "object": "Kitchen extraction hood",
+          "id": "appliances/wall-hood-36in",
+          "version": "v001",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              15.806876182556152,
+              13.197839736938477,
+              1.681429147720337
+            ],
+            [
+              16.36979103088379,
+              14.112239837646484,
+              2.4536399841308594
+            ]
+          ],
+          "origin_m": [
+            16.090391159057617,
+            13.65503978729248,
+            1.691640019416809
+          ]
+        },
+        {
+          "object": "Kitchen real sink and mixer",
+          "id": "fixtures/kitchen-sink-mixer-650",
+          "version": "v002",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bounds_m": [
+            [
+              12.06309986114502,
+              13.90343952178955,
+              0.696399986743927
+            ],
+            [
+              12.77810001373291,
+              14.494620323181152,
+              1.3343805074691772
+            ]
+          ],
+          "origin_m": [
+            12.420599937438965,
+            14.158439636230469,
+            0.9143999814987183
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Every outlet instances only its declared full-scale fixture collection",
+      "passed": true,
+      "kind": "constraint",
+      "details": [
+        {
+          "object": "Kitchen garden counter power",
+          "collection": "duplex-power-outlet-bronze | v001",
+          "declared_collection": "duplex-power-outlet-bronze | v001",
+          "bounds_m": [
+            [
+              13.20164966583252,
+              14.475095748901367,
+              0.9343389868736267
+            ],
+            [
+              13.315949440002441,
+              14.534095764160156,
+              1.0041890144348145
+            ]
+          ],
+          "expected_bounds_m": [
+            [
+              13.20164966583252,
+              14.475095748901367,
+              0.9343389868736267
+            ],
+            [
+              13.315949440002441,
+              14.534095764160156,
+              1.0041890144348145
+            ]
+          ],
+          "forbidden_preview_objects": [],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "valid": true
+        },
+        {
+          "object": "Kitchen garden counter power.001",
+          "collection": "duplex-power-outlet-bronze | v001",
+          "declared_collection": "duplex-power-outlet-bronze | v001",
+          "bounds_m": [
+            [
+              14.939009666442871,
+              14.475095748901367,
+              0.9343389868736267
+            ],
+            [
+              15.053309440612793,
+              14.534095764160156,
+              1.0041890144348145
+            ]
+          ],
+          "expected_bounds_m": [
+            [
+              14.939009666442871,
+              14.475095748901367,
+              0.9343389868736267
+            ],
+            [
+              15.053309440612793,
+              14.534095764160156,
+              1.0041890144348145
+            ]
+          ],
+          "forbidden_preview_objects": [],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "valid": true
+        },
+        {
+          "object": "Pantry appliance counter power",
+          "collection": "duplex-power-outlet-bronze | v001",
+          "declared_collection": "duplex-power-outlet-bronze | v001",
+          "bounds_m": [
+            [
+              16.97291374206543,
+              14.54520034790039,
+              1.0553699731826782
+            ],
+            [
+              17.04276466369629,
+              14.60420036315918,
+              1.1696699857711792
+            ]
+          ],
+          "expected_bounds_m": [
+            [
+              16.97291374206543,
+              14.54520034790039,
+              1.0553699731826782
+            ],
+            [
+              17.04276466369629,
+              14.60420036315918,
+              1.1696699857711792
+            ]
+          ],
+          "forbidden_preview_objects": [],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "valid": true
+        },
+        {
+          "object": "Kitchen island end power",
+          "collection": "duplex-power-outlet-bronze | v001",
+          "declared_collection": "duplex-power-outlet-bronze | v001",
+          "bounds_m": [
+            [
+              12.008654594421387,
+              11.791314125061035,
+              0.7429500222206116
+            ],
+            [
+              12.067654609680176,
+              11.861165046691895,
+              0.8572500348091125
+            ]
+          ],
+          "expected_bounds_m": [
+            [
+              12.008654594421387,
+              11.791314125061035,
+              0.7429500222206116
+            ],
+            [
+              12.067654609680176,
+              11.861165046691895,
+              0.8572500348091125
+            ]
+          ],
+          "forbidden_preview_objects": [],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "valid": true
+        }
+      ]
+    },
+    {
+      "name": "Outlet backbox cavities clear actual host finish and backing",
+      "passed": true,
+      "kind": "constraint",
+      "details": [
+        {
+          "object": "Kitchen garden counter power",
+          "required_cavity_m": {
+            "width_x": 0.054,
+            "height_z": 0.098,
+            "depth_y": 0.052,
+            "center_xz": [
+              0,
+              0
+            ],
+            "starts_y": 0
+          },
+          "sampled_host_intersections": []
+        },
+        {
+          "object": "Kitchen garden counter power.001",
+          "required_cavity_m": {
+            "width_x": 0.054,
+            "height_z": 0.098,
+            "depth_y": 0.052,
+            "center_xz": [
+              0,
+              0
+            ],
+            "starts_y": 0
+          },
+          "sampled_host_intersections": []
+        },
+        {
+          "object": "Pantry appliance counter power",
+          "required_cavity_m": {
+            "width_x": 0.054,
+            "height_z": 0.098,
+            "depth_y": 0.052,
+            "center_xz": [
+              0,
+              0
+            ],
+            "starts_y": 0
+          },
+          "sampled_host_intersections": []
+        },
+        {
+          "object": "Kitchen island end power",
+          "required_cavity_m": {
+            "width_x": 0.054,
+            "height_z": 0.098,
+            "depth_y": 0.052,
+            "center_xz": [
+              0,
+              0
+            ],
+            "starts_y": 0
+          },
+          "sampled_host_intersections": []
+        }
+      ]
+    },
+    {
+      "name": "Kitchen garden cleanup worktop clears actual fixture body",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "fixture_outer_body_bounds_m": [
+          [
+            12.093600273132324,
+            13.931439399719238,
+            0.696399986743927
+          ],
+          [
+            12.747599601745605,
+            14.3854398727417,
+            0.9143999814987183
+          ]
+        ],
+        "ray_samples": [
+          {
+            "xy_m": [
+              12.094100273132325,
+              13.931939399719239
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.094100273132325,
+              14.158439636230469
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.094100273132325,
+              14.384939872741699
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.420599937438965,
+              13.931939399719239
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.420599937438965,
+              14.158439636230469
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.420599937438965,
+              14.384939872741699
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.747099601745605,
+              13.931939399719239
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.747099601745605,
+              14.158439636230469
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              12.747099601745605,
+              14.384939872741699
+            ],
+            "counter_hit": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kitchen east cooking worktop clears actual fixture body",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "fixture_outer_body_bounds_m": [
+          [
+            15.805403709411621,
+            13.220699310302734,
+            0.8650223612785339
+          ],
+          [
+            16.290035247802734,
+            14.089380264282227,
+            0.9137904047966003
+          ]
+        ],
+        "ray_samples": [
+          {
+            "xy_m": [
+              15.805903709411622,
+              13.221199310302735
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              15.805903709411622,
+              13.65503978729248
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              15.805903709411622,
+              14.088880264282226
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.047719478607178,
+              13.221199310302735
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.047719478607178,
+              13.65503978729248
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.047719478607178,
+              14.088880264282226
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.289535247802736,
+              13.221199310302735
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.289535247802736,
+              13.65503978729248
+            ],
+            "counter_hit": false
+          },
+          {
+            "xy_m": [
+              16.289535247802736,
+              14.088880264282226
+            ],
+            "counter_hit": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kitchen real sink and mixer fits actual cabinet meshes",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "mesh_bounds_intersections": []
+      }
+    },
+    {
+      "name": "Kitchen built in oven fits actual cabinet meshes",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "mesh_bounds_intersections": []
+      }
+    },
+    {
+      "name": "Dishwasher closed body fits under counter",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "counter_underside_m": 0.8762999773025513,
+        "dishwasher_top_m": 0.8610600233078003,
+        "clearance_m": 0.015239953994750977
+      }
+    },
+    {
+      "name": "Dishwasher declared installation opening provided",
+      "passed": true,
+      "kind": "concept_installation",
+      "details": {
+        "required_m": 0.875,
+        "actual_m": 0.8762999773025513
+      }
+    },
+    {
+      "name": "Hood concept mounting gap is at least30in",
+      "passed": true,
+      "kind": "concept_installation",
+      "details": {
+        "gap_m": 0.7648956179618835,
+        "gap_inches": 30.11400070716077,
+        "basis": "30in concept target; selected hood/cooktop manual still required"
+      }
+    },
+    {
+      "name": "Main closed working aisles provide48in concept target",
+      "passed": true,
+      "kind": "concept_planning",
+      "details": {
+        "rear_work_aisle_m": 1.226424217224121,
+        "east_work_aisle_m": 1.2876863479614258,
+        "fridge_pull_to_island_m": 1.230478286743164
+      }
+    },
+    {
+      "name": "Kitchen integrated dishwasher conservative door envelope avoids fixed obstructions",
+      "passed": true,
+      "kind": "conservative_operating_allowance",
+      "details": {
+        "envelope_m": [
+          [
+            11.353599548339844,
+            13.058440208435059,
+            0.03999999910593033
+          ],
+          [
+            11.963600158691406,
+            13.903440475463867,
+            0.8650000095367432
+          ]
+        ],
+        "conflicts": [],
+        "basis": "Conservative rounded concept envelope includes handle and door thickness; actual hinge/slide mechanism unselected."
+      }
+    },
+    {
+      "name": "Standing behind fully open dishwasher has600mm footprint",
+      "passed": true,
+      "kind": "concept_operation",
+      "details": {
+        "operator_footprint_m": [
+          [
+            11.358599853515624,
+            12.458440208435059,
+            0
+          ],
+          [
+            11.958599853515626,
+            13.058440208435059,
+            1.8
+          ]
+        ],
+        "conflicts": [],
+        "y_only_distance_to_island_m": 0.43972015380859375,
+        "basis": "600x600mm chosen operator footprint, not code; island only constrains it where X ranges overlap."
+      }
+    },
+    {
+      "name": "Dishwasher and opposing island drawers can open together",
+      "passed": true,
+      "kind": "concept_operation",
+      "details": {
+        "conflicting_drawers": [],
+        "drawer_travel_m": 0.5,
+        "restriction_if_false": "Close opposing drawers during dishwasher loading."
+      }
+    },
+    {
+      "name": "Kitchen 48 inch refrigerator freezer conservative door envelope avoids fixed obstructions",
+      "passed": false,
+      "kind": "unresolved_selected_product_allowance",
+      "details": {
+        "envelope_m": [
+          [
+            14.99724006652832,
+            11.134256362915039,
+            0.11599999666213989
+          ],
+          [
+            15.677240371704102,
+            12.774255752563477,
+            2.1335999965667725
+          ]
+        ],
+        "conflicts": [
+          "Kitchen Fridge side filler",
+          "Kitchen east cooking worktop"
+        ],
+        "basis": "Conservative rounded concept swept volume including pulls; unselected manufacturer may require more.",
+        "interpretation": "Conservative rectangular planning envelope overlap is not a proven collision: actual modeled panels and pulls clear the fixed neighbors through the sampled motion. Selected product hinge mechanism and installation allowances remain unresolved."
+      }
+    },
+    {
+      "name": "Actual refrigerator panels and pulls clear through110degrees",
+      "passed": true,
+      "kind": "sampled_operation",
+      "details": {
+        "sample_step_degrees": 5,
+        "conflicts": [],
+        "basis": "Actual panel/pull oriented bounds and declared concept hinge axes; discrete samples, not selected manufacturer articulation"
+      }
+    },
+    {
+      "name": "Oven door90degree pose and operator avoid island",
+      "passed": true,
+      "kind": "sampled_operation",
+      "details": {
+        "door_bounds_m": [
+          [
+            15.150083541870117,
+            13.274040222167969,
+            0.11226323246955872
+          ],
+          [
+            15.755111694335938,
+            14.036039352416992,
+            0.1796240508556366
+          ]
+        ],
+        "door_conflicts": [],
+        "operator_600mm_bounds_m": [
+          [
+            14.550083541870118,
+            13.35503978729248,
+            0
+          ],
+          [
+            15.150083541870117,
+            13.955039787292481,
+            1.8
+          ]
+        ],
+        "operator_conflicts": [],
+        "basis": "Actual door/window/handle bounds rotated about original concept lower hinge, no selected manufacturer hinge model"
+      }
+    },
+    {
+      "name": "Single kitchen drawer leaves600mm operator space",
+      "passed": true,
+      "kind": "concept_operation",
+      "details": {
+        "travel_m": 0.5,
+        "instances": [
+          {
+            "object": "Kitchen rear drawer storage",
+            "remaining_operator_depth_m": 0.7331705093383789
+          },
+          {
+            "object": "Kitchen rear drawer storage.001",
+            "remaining_operator_depth_m": 0.7331705093383789
+          },
+          {
+            "object": "Kitchen rear drawer storage.002",
+            "remaining_operator_depth_m": 0.7331705093383789
+          },
+          {
+            "object": "Kitchen rear drawer storage.003",
+            "remaining_operator_depth_m": 0.7331705093383789
+          },
+          {
+            "object": "Kitchen island deep drawers",
+            "remaining_operator_depth_m": 0.7327747344970703
+          },
+          {
+            "object": "Kitchen island deep drawers.001",
+            "remaining_operator_depth_m": 0.7327747344970703
+          },
+          {
+            "object": "Kitchen island deep drawers.002",
+            "remaining_operator_depth_m": 0.7327747344970703
+          },
+          {
+            "object": "Kitchen cooking landing drawers",
+            "remaining_operator_depth_m": 0.8474702835083008
+          }
+        ],
+        "basis": "Single drawer operation; facing drawers are not assumed simultaneously extended"
+      }
+    },
+    {
+      "name": "Three full-scale seats have30in center spacing",
+      "passed": true,
+      "kind": "concept_planning",
+      "details": {
+        "count": 3,
+        "centers_x_m": [
+          12.420599937438965,
+          13.182600021362305,
+          13.944600105285645
+        ],
+        "scale": [
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Island seated knee overhang provides15in",
+      "passed": true,
+      "kind": "concept_planning",
+      "details": {
+        "overhang_m": 0.5570220947265625,
+        "basis": "15in concept knee-depth target"
+      }
+    },
+    {
+      "name": "Seat pullback and rear route are explicitly measured",
+      "passed": true,
+      "kind": "measurement",
+      "details": {
+        "southern_seat_extent_ft": 36.259999112507174,
+        "distance_to_south_open_floor_y32_ft": 4.259999112507174,
+        "assumed_chair_pullback_m": 0.45,
+        "remaining_after_pullback_m": 0.848447729492187,
+        "basis": "Y32 is open-room line; does not by itself prove a door-to-door route"
+      }
+    },
+    {
+      "name": "Adjacent living and dining furniture reaches floor",
+      "passed": true,
+      "kind": "constraint",
+      "details": [
+        {
+          "prefix": "Shared supported linen sofa",
+          "lowest_geometry_z_m": 0.0,
+          "floor_contact_within_3mm": true
+        },
+        {
+          "prefix": "Shared supported dining chair",
+          "lowest_geometry_z_m": -1.5133991837501526e-09,
+          "floor_contact_within_3mm": true
+        },
+        {
+          "prefix": "Shared supported coffee table",
+          "lowest_geometry_z_m": 0.0,
+          "floor_contact_within_3mm": true
+        },
+        {
+          "prefix": "Shared grounded dining table",
+          "lowest_geometry_z_m": 0.0,
+          "floor_contact_within_3mm": true
+        }
+      ]
+    },
+    {
+      "name": "Pantry shelves do not overlap rear counter or cabinets",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "intersections": []
+      }
+    },
+    {
+      "name": "Pantry actual wall aperture is36in",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "opening_y_m": [
+          10.210799217224121,
+          11.125200271606445
+        ],
+        "width_m": 0.9144010543823242
+      }
+    },
+    {
+      "name": "Pantry central storage aisle provides36in",
+      "passed": true,
+      "kind": "concept_planning",
+      "details": {
+        "clear_width_m": 1.9370040893554688,
+        "east_shelf_front_x_m": 18.44954490661621,
+        "west_wall_east_x_m": 16.512540817260742
+      }
+    },
+    {
+      "name": "Open pantry door leaves36in around free edge",
+      "passed": true,
+      "kind": "concept_planning",
+      "details": {
+        "clear_width_m": 1.0850887298583984,
+        "door_bounds_m": [
+          [
+            16.468345642089844,
+            10.204704284667969,
+            0.0
+          ],
+          [
+            17.364456176757812,
+            10.24737548828125,
+            2.2250399589538574
+          ]
+        ],
+        "basis": "Room-side bypass between open leaf tip and east shelving; open aperture separately checked"
+      }
+    },
+    {
+      "name": "Tall pantry shelves do not conceal east glazing",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "glazing_obscured_by_shelf_back": [],
+        "shelf_top_m": 2.1335999965667725,
+        "east_pantry_glazing_bounds_m": [
+          [
+            [
+              18.848526000976562,
+              10.686287879943848,
+              2.2311360836029053
+            ],
+            [
+              18.85523223876953,
+              12.02131175994873,
+              2.5694639682769775
+            ]
+          ],
+          [
+            [
+              18.848526000976562,
+              12.05788803100586,
+              2.2311360836029053
+            ],
+            [
+              18.85523223876953,
+              13.392911911010742,
+              2.5694639682769775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Pantry anti-tip ledger bridges shelf rear to solid backing",
+      "passed": true,
+      "kind": "concept_installation",
+      "details": {
+        "ledger_count": 1,
+        "backing_count": 1,
+        "basis": "Concept backing/ledger geometry, no fastener or load approval",
+        "ledger_bounds_m": [
+          [
+            18.75282096862793,
+            9.845039367675781,
+            2.060447931289673
+          ],
+          [
+            18.81682777404785,
+            13.502639770507812,
+            2.115311861038208
+          ]
+        ],
+        "backing_bounds_m": [
+          [
+            18.803112030029297,
+            9.845039367675781,
+            0.7620000243186951
+          ],
+          [
+            18.88845443725586,
+            13.502639770507812,
+            2.2098000049591064
+          ]
+        ],
+        "shelf_rear_x_m": 18.754344940185547
+      }
+    },
+    {
+      "name": "700mm walking route reaches pantry without fixed obstructions",
+      "passed": true,
+      "kind": "sampled_circulation",
+      "details": {
+        "waypoints_ft": [
+          [
+            38,
+            34
+          ],
+          [
+            49.1,
+            34
+          ],
+          [
+            49.1,
+            35
+          ],
+          [
+            55,
+            35
+          ],
+          [
+            58,
+            35
+          ],
+          [
+            58,
+            44.2
+          ]
+        ],
+        "sample_step_m": 0.05,
+        "body_width_m": 0.7,
+        "conflicts": [],
+        "total_conflicts": 0,
+        "basis": "Closed equipment, static seat positions, open pantry leaf; not simultaneous appliance operation or accessibility certification"
+      }
+    },
+    {
+      "name": "Source gross enclosed slab area preserved at2400sqft",
+      "passed": true,
+      "kind": "constraint",
+      "details": {
+        "slabs": 4,
+        "area_sqft": 2400.0000984337084,
+        "convention": "Gross enclosed slabs including walls, courtyard/landscape excluded"
+      }
+    }
+  ],
+  "limitations": [
+    "Closed-state geometry is real; conservative and sampled operating assumptions are identified separately.",
+    "No rendering performed. Selected-product installation, electrical/plumbing/exhaust engineering and actual door mechanisms remain unverified."
+  ]
+}

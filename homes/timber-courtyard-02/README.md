@@ -1,90 +1,109 @@
 # Timber Courtyard 02
 
-![Timber Courtyard 02 — Imagegen photographic study](outputs/images/photo-hero.png)
+![Paired timber wings and courtyard arrival — AI photographic study](outputs/images/photo-hero.png)
 
-*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+*AI photographic study. [Sources, prompts and visual review](outputs/photo-study.md).*
 
-An exterior-led concept inspired by the user-supplied reference: paired timber-clad wings, dark pitched standing-seam roofs, a transparent central gable, a low entrance canopy, and layered courtyard planting.
+An exterior-led, single-level courtyard home with a newly coordinated kitchen, fitted pantry and living room. **2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.** The kitchen revision addresses the missing cooking equipment and storage exposed by the walkthrough; the rest of the legacy home program remains unresolved.
 
-![Front arrival and paired timber wings](outputs/images/01-exterior.png)
+## Walkthrough
 
-## Elevated roof and courtyard
+[Walkthrough, photographic reference frames and current video status](outputs/videos/README.md)
 
-![Elevated roof and courtyard](outputs/images/02-elevated.png)
+The route travels from the front approach through the courtyard into the living room and revised kitchen. **The current 30-second Blender walkthrough is reviewed and available in the video index**, along with fifteen paired photographic reference checkpoints. All 721 frames decode, and the camera route clears the modeled fixed furniture and architecture. The photographic AI film is still being generated; it has not yet been promoted.
 
-## Courtyard feature
+## Arrival and courtyard
 
-The planted courtyard and glazed entry are the defining feature.
+Paired cedar wings, dark pitched roofs and a glazed central gable frame the planted courtyard. The low entrance canopy and stepping-stone approach preserve the exterior-led design.
 
-![Garden threshold and courtyard](outputs/images/03-garden-entry.png)
+![Front timber wings, glazed gable and courtyard approach](outputs/images/01-exterior.png)
 
-## Rear garden
+![Elevated pitched roofs and courtyard relationship](outputs/images/02-elevated.png)
 
-![Rear elevation and garden](outputs/images/07-rear-garden.png)
-
-## Living room toward the courtyard
-
-A view from the living room through the full-height glazing to the planted courtyard.
-
-![View from the living room through courtyard glazing](outputs/images/05-living-dining.png)
+![Planted courtyard and garden entry](outputs/images/03-garden-entry.png)
 
 ## Kitchen
 
-The existing island, sage backsplash and rear worktop are shown as a schematic interior, not a completed equipment specification.
+A complete modeled cooking and cleanup arrangement replaces the old placeholders: a 36-inch induction cooktop, 30-inch oven, 36-inch hood, 48-inch panel-ready refrigerator/freezer, sink and integrated dishwasher. The 7 ft 9 in × 4 ft island seats three; deep drawers, waste storage and working clearances are part of the native model.
 
-![Schematic kitchen interior](outputs/images/06-kitchen.png)
+![Kitchen, preparation island and garden-facing cleanup counter — AI photographic study](outputs/images/photo-kitchen.png)
+
+![Native kitchen source — island, cleanup counter and storage](outputs/images/06-kitchen.png)
+
+## Cooking wall
+
+Smoked-oak cabinetry, pale honed stone, restrained sage tile and bronze details sit under a finished timber ceiling. The oven housing, cooktop opening, extractor and appliance fronts are modeled shared assets; final commercial product selection and services remain to be coordinated.
+
+![Induction cooking wall, built-in oven and integrated refrigeration — AI photographic study](outputs/images/photo-cooking-wall.png)
+
+![Native cooking-wall source — cooktop, oven, hood and wide integrated refrigeration](outputs/images/08-cooking-wall.png)
+
+## Walk-in pantry
+
+The existing 8 × 16 ft pantry is fitted with shallow food shelves, deeper storage drawers, a worktop, lighting and power outlets. Its side glazing is raised above the seven-foot shelving, with solid backing behind the storage.
+
+![Fitted pantry shelving and appliance worktop — AI photographic study](outputs/images/photo-pantry.png)
+
+![Native pantry source — fitted shelves and rear worktop](outputs/images/09-pantry.png)
+
+## Living room
+
+A linen sofa, rounded oak coffee table and dining furniture are linked from the shared library. The sloping cedar lining ties these rooms to the kitchen and courtyard.
+
+![Living room, shared furnishings and timber ceiling — AI photographic study](outputs/images/photo-living-room.png)
+
+![Native living-room source — supported furnishings and timber ceiling](outputs/images/10-living-room.png)
+
+![Living room looking through the glazing into the courtyard](outputs/images/05-living-dining.png)
+
+## Rear garden
+
+Kitchen glazing now starts above the worktop with a solid cedar-clad wall below. Full-height living-room glazing remains alongside it. The wider site and landscape are conceptual.
+
+![Rear garden and revised kitchen glazing — AI photographic study](outputs/images/photo-rear-garden.png)
+
+![Rear garden elevation with counter-height kitchen glazing](outputs/images/07-rear-garden.png)
 
 ## Ground floor
 
-One level; the dimensioned concept plan and roof-off native view show the same courtyard arrangement.
+The dimensioned concept plan and roof-off native view show the same single-level courtyard arrangement.
 
-![Ground-floor schematic plan](outputs/plans/floor-plan.png)
+![Furnished concept floor plan with revised kitchen and pantry](outputs/plans/floor-plan.png)
 
-[Editable plan SVG](outputs/plans/floor-plan.svg)
+[Editable plan SVG](outputs/plans/floor-plan.svg) · [Concept presentation PDF](outputs/plans/design-board.pdf)
 
-![Ground-floor roof-off model view](outputs/images/04-model-plan.png)
+![Roof-off model view with revised kitchen, pantry and living furnishings](outputs/images/04-model-plan.png)
 
-**[Browse all current images and plans](outputs/README.md)** — one current set; previous revisions live in Git.
+## Shared assets and design evidence
 
-The user clarified that **the reference's exterior is the priority and the interior may change**. This design retains the original three-bedroom, three-bath, approximately 2,400-square-foot brief, with a new internal arrangement rather than copying the image's plan.
+The kitchen uses versioned shared cabinet modules, integrated appliances, cooking equipment, sink and mixer, power outlets, lighting and furniture. Exact adopted IDs and versions are pinned in [project.json](project.json) and described in the [asset-use schedule](assets/README.md). The [cooking-appliance catalog](../../library/appliances/README.md) also offers freestanding ranges, gas and induction cooktops, double ovens and oven/speed-oven combinations; those alternatives are not all installed in this home.
 
-## Deliverables
+Read the [design intent](design-intent.md), [kitchen program](program.md) and [design review](design-review.md) for decisions, measured checks and unresolved work. Exact-fit worktops, room enclosure, ceiling lining and the conceptual exhaust route remain home-specific geometry.
 
-- `model/timber-courtyard-02.blend`: editable furnished scene with seven named cameras, geometry-based cladding and roof seams, and five relative shared-library links.
-- `model/timber-courtyard-02.ifc`: classified IFC4 architectural geometry for Bonsai.
-- `outputs/plans/design-board.pdf`: exterior render and a schematic dimensioned floor plan on one presentation sheet; PNG preview alongside it.
-- `outputs/plans/floor-plan.svg`: editable vector plan, with a PNG preview.
-- `outputs/images/`: front arrival, elevated courtyard, garden threshold feature, rear garden, two schematic interiors, and a roof-off model plan.
+## Deliverables and area
 
-The 62 × 48 ft floor footprint minus the 24 × 24 ft open courtyard equals **2,400 sq ft gross enclosed**. This includes wall zones and excludes courtyard, overhangs, entry canopy projection, garden, and approach paving. The actual floor slab geometry is checked during validation. No garage is included.
+- [Blender model](model/timber-courtyard-02.blend): editable furnished scene with ten named gallery cameras and relative, version-pinned library dependencies.
+- [IFC model](model/timber-courtyard-02.ifc): classified concept architectural geometry for Bonsai; furniture and most planting remain in the presentation scene.
+- [Current output index](outputs/README.md): reviewed native renders, AI photographic studies, plan, presentation sheet and video index.
+- [Photo provenance](outputs/photo-study.md): actual Imagegen prompts, native-source hashes, selected-image hashes and visual-review notes.
 
-## Shared artifacts
-
-The second home links the first home's sage tile and two assets promoted from Atrium 01: the opal globe pendant and walnut counter stool. New warm cedar and charcoal metal material assets are published for future homes. Every dependency is pinned to `v001` in `project.json`.
-
-The shared procedural geometry and planting helpers are in `tools/common/`. The original reference image stays in an ignored local folder; only the original model and original assets are included in the shareable repository.
+The 62 × 48 ft outer footprint less the 24 × 24 ft open courtyard equals **2,400 sq ft gross enclosed**, including wall zones. Courtyard, overhangs, canopy projection, garden and approach paving are excluded. No garage is included. The supplied reference informed the exterior; its interior diagram was not a requirement, and the reference image is excluded from the shareable repository.
 
 ## Rebuild
 
-Uses Blender 4.5.14 LTS and Bonsai 0.8.5. From the repository root:
+Authoring uses Blender 4.5.14 LTS and Bonsai 0.8.5. From the repository root:
 
 ```sh
 blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/verify_gallery.py
-blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/render_gallery.py -- 05-living-dining 06-kitchen 07-rear-garden
+blender --background homes/timber-courtyard-02/model/timber-courtyard-02.blend --python tools/timber02/render_gallery.py -- 01-exterior 02-elevated 03-garden-entry 04-model-plan 05-living-dining 06-kitchen 07-rear-garden 08-cooking-wall 09-pantry 10-living-room
 ```
 
-The gallery renderer writes candidates to ignored `outputs/work/`; use `--draft` before the view names for quick camera checks. Inspect actual images before replacing the matching files in `outputs/images/`. It never saves a cutaway or render state over the native model. Camera definitions live in `tools/timber02/gallery.py`; `prepare_gallery.py` applies only the three expansion cameras to the existing scene and verifies the non-camera design is unchanged.
+The gallery renderer writes candidates to ignored `outputs/work/`; add `--draft` before the view names for quick checks. Inspect images before promoting them to their stable paths. Camera definitions live in `tools/timber02/gallery.py`. A full `tools/timber02/build.py` rebuild installs the coordinated kitchen and all ten cameras. For the kitchen-only revision workflow, see `tools/timber02/revise_kitchen.py` and `tools/timber02/verify_kitchen.py`; the latter accepts `--file` to check a saved model.
 
-For a full design rebuild, run `tools/timber02/build.py`; it recreates all seven named cameras. The common IFC exporter and `tools/timber02/draw_plan.py` remain the architectural export and plan/board entry points. Regenerate the design board if its front image or plan changes.
+The common IFC exporter and `tools/timber02/draw_plan.py` generate the concept export and plan/board. Install drawing dependencies from `tools/requirements.txt`. Regenerate the board when its exterior image or plan changes. Save manual work before rebuilding. Shared native assets are included through Git LFS; downloads and render caches stay outside the committed deliverables.
 
-Install the drawing dependency from `tools/requirements.txt`. The shared fixture files are already in Git LFS; regeneration does not require opening Atrium 01. The library promotion tool records their original source. Save or commit manual changes before regeneration, which overwrites the named deliverables.
+## Scope and remaining work
 
-## Scope
+This is an original **architectural concept**, not construction or permit documentation. The kitchen has modeled equipment, storage and reviewed geometry, but appliance product selection, ventilation sizing, utility connections and installation requirements remain unresolved. Measured fit does not establish manufacturer or code approval.
 
-This is an original **concept model**, not a construction or permit set. Interiors and landscaping are schematic; the exterior's visual proportions and palette received the most attention. Product selections, weatherproofing, roof drainage, wall assemblies, structure, services, code, and site design are unresolved.
-
-The IFC classifies visible geometry; it does not add engineered assemblies, fully parametric wall systems, room boundaries, or an automatic synchronization workflow with Blender. Rendered planting and most furniture stay in the native presentation scene.
-
-## Known model limitations
-
-This camera-only gallery extension preserves the older concept geometry. The dining chairs lack modeled legs, the coffee table lacks a base, and the kitchen has no modeled oven or extraction hood; cabinetry, appliance details and planting remain schematic. The courtyard-facing living view does not depict the unresolved dining furniture. These are recorded gaps, not a completed interior design or full visual-quality approval.
+The legacy whole-home program still needs complete bedroom storage, premium bathroom fitout, laundry/services and a real road, parking and site arrangement. Climate, roof drainage, weatherproofing, assemblies, structure and site conditions are unverified. The IFC does not provide engineered assemblies, complete semantic systems, room boundaries or automatic synchronization with Blender. The photographic studies interpret material and landscape detail; the native model and concept plan remain the design sources.

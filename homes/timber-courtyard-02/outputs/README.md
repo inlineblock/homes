@@ -1,55 +1,89 @@
 # Timber Courtyard 02 — current outputs
 
-![Timber Courtyard 02 — Imagegen photographic study](images/photo-hero.png)
+![Paired timber wings and courtyard arrival — AI photographic study](images/photo-hero.png)
 
-*Photorealistic AI study of the design. [Source and prompt](photo-study.md).*
+*AI photographic study. [Sources, prompts and visual review](photo-study.md).*
 
 [Project and editable models](../README.md) · [Browse all homes](../../../README.md)
 
-Current concept deliverables. Replace these files when the design changes; Git retains earlier revisions. View numbers distinguish cameras, not versions.
+An exterior-led, single-level courtyard home with a newly coordinated kitchen, fitted pantry and living room. **2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.** The kitchen revision addresses the missing cooking equipment and storage exposed by the walkthrough; the rest of the legacy home program remains unresolved.
 
-## Front exterior
+Current selected deliverables use stable filenames. Git retains previous revisions; camera numbers identify views. AI studies are paired with their native sources below and do not substitute for geometry evidence.
 
-[![Front exterior](images/01-exterior.png)](images/01-exterior.png)
+## Walkthrough
 
-## Elevated courtyard
+[Walkthrough, photographic reference frames and current video status](videos/README.md)
 
-[![Elevated courtyard](images/02-elevated.png)](images/02-elevated.png)
+The route travels from the front approach through the courtyard into the living room and revised kitchen. **The current 30-second Blender walkthrough is reviewed and available in the video index**, along with fifteen paired photographic reference checkpoints. All 721 frames decode, and the camera route clears the modeled fixed furniture and architecture. The photographic AI film is still being generated; it has not yet been promoted.
 
-## Courtyard feature — garden entry
+## Arrival and courtyard
 
-[![Garden entry](images/03-garden-entry.png)](images/03-garden-entry.png)
+Paired cedar wings, dark pitched roofs and a glazed central gable frame the planted courtyard. The low entrance canopy and stepping-stone approach preserve the exterior-led design.
+
+![Front timber wings, glazed gable and courtyard approach](images/01-exterior.png)
+
+![Elevated pitched roofs and courtyard relationship](images/02-elevated.png)
+
+![Planted courtyard and garden entry](images/03-garden-entry.png)
+
+## Kitchen
+
+A complete modeled cooking and cleanup arrangement replaces the old placeholders: a 36-inch induction cooktop, 30-inch oven, 36-inch hood, 48-inch panel-ready refrigerator/freezer, sink and integrated dishwasher. The 7 ft 9 in × 4 ft island seats three; deep drawers, waste storage and working clearances are part of the native model.
+
+![Kitchen, preparation island and garden-facing cleanup counter — AI photographic study](images/photo-kitchen.png)
+
+![Native kitchen source — island, cleanup counter and storage](images/06-kitchen.png)
+
+## Cooking wall
+
+Smoked-oak cabinetry, pale honed stone, restrained sage tile and bronze details sit under a finished timber ceiling. The oven housing, cooktop opening, extractor and appliance fronts are modeled shared assets; final commercial product selection and services remain to be coordinated.
+
+![Induction cooking wall, built-in oven and integrated refrigeration — AI photographic study](images/photo-cooking-wall.png)
+
+![Native cooking-wall source — cooktop, oven, hood and wide integrated refrigeration](images/08-cooking-wall.png)
+
+## Walk-in pantry
+
+The existing 8 × 16 ft pantry is fitted with shallow food shelves, deeper storage drawers, a worktop, lighting and power outlets. Its side glazing is raised above the seven-foot shelving, with solid backing behind the storage.
+
+![Fitted pantry shelving and appliance worktop — AI photographic study](images/photo-pantry.png)
+
+![Native pantry source — fitted shelves and rear worktop](images/09-pantry.png)
+
+## Living room
+
+A linen sofa, rounded oak coffee table and dining furniture are linked from the shared library. The sloping cedar lining ties these rooms to the kitchen and courtyard.
+
+![Living room, shared furnishings and timber ceiling — AI photographic study](images/photo-living-room.png)
+
+![Native living-room source — supported furnishings and timber ceiling](images/10-living-room.png)
+
+![Living room looking through the glazing into the courtyard](images/05-living-dining.png)
 
 ## Rear garden
 
-[![Rear elevation and garden](images/07-rear-garden.png)](images/07-rear-garden.png)
+Kitchen glazing now starts above the worktop with a solid cedar-clad wall below. Full-height living-room glazing remains alongside it. The wider site and landscape are conceptual.
 
-## Living room toward the courtyard — schematic interior
+![Rear garden and revised kitchen glazing — AI photographic study](images/photo-rear-garden.png)
 
-[![View from the living room through courtyard glazing](images/05-living-dining.png)](images/05-living-dining.png)
+![Rear garden elevation with counter-height kitchen glazing](images/07-rear-garden.png)
 
-## Kitchen — schematic interior
+## Ground floor
 
-[![Kitchen island and rear worktop](images/06-kitchen.png)](images/06-kitchen.png)
+The dimensioned concept plan and roof-off native view show the same single-level courtyard arrangement.
 
-These views expose the existing schematic furnishing and equipment geometry. They are gallery coverage, not a renewed whole-home program or equipment approval.
+![Furnished concept floor plan with revised kitchen and pantry](plans/floor-plan.png)
 
-## Roof-off model plan
+[Editable plan SVG](plans/floor-plan.svg) · [Concept presentation PDF](plans/design-board.pdf)
 
-[![Roof-off model plan](images/04-model-plan.png)](images/04-model-plan.png)
+![Roof-off model view with revised kitchen, pantry and living furnishings](images/04-model-plan.png)
 
-## Exterior and plan presentation
+## Presentation sheet
 
-![Exterior and plan presentation](plans/design-board.png)
+![Exterior and dimensioned concept plan](plans/design-board.png)
 
-[PDF](plans/design-board.pdf) · [PNG](plans/design-board.png)
+[Presentation PDF](plans/design-board.pdf) · [PNG preview](plans/design-board.png)
 
-## Ground-floor schematic plan — only level
+## Review scope
 
-![Schematic floor plan](plans/floor-plan.png)
-
-[SVG](plans/floor-plan.svg) · [PNG](plans/floor-plan.png)
-
-## Known model limitations
-
-This camera-only gallery extension preserves the older concept geometry. The dining chairs lack modeled legs, the coffee table lacks a base, and the kitchen has no modeled oven or extraction hood; cabinetry, appliance details and planting remain schematic. The courtyard-facing living view does not depict the unresolved dining furniture. These are recorded gaps, not a completed interior design or full visual-quality approval.
+The kitchen, pantry and adjacent furnishings have been revised in native geometry. Whole-home program, commercial product installation, engineering and site design remain unresolved; see the [design review](../design-review.md) and [program](../program.md). These are concept deliverables, not construction or permit documentation.

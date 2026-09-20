@@ -252,31 +252,45 @@ Two garage bays, four-car KLAUS-style pit parking, and a heated/cooled game room
 
 ### Timber Courtyard 02
 
-![Timber Courtyard 02 — Imagegen photographic study](homes/timber-courtyard-02/outputs/images/photo-hero.png)
+![Paired timber wings and courtyard arrival — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-hero.png)
 
-*Imagegen photographic study. [Source and prompt](homes/timber-courtyard-02/outputs/photo-study.md).*
+*AI photographic study. [Sources and prompts](homes/timber-courtyard-02/outputs/photo-study.md).*
 
-Cedar wings, dark pitched roofs, a glazed gable and a planted courtyard. Exterior-led concept with a flexible, schematic interior. 2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.
+An exterior-led, single-level courtyard home with a newly coordinated kitchen, fitted pantry and living room. **2,400 sq ft gross enclosed · 3 bedrooms · 3 baths.** The kitchen revision addresses the missing cooking equipment and storage exposed by the walkthrough; the rest of the legacy home program remains unresolved.
 
-[![Front timber wings, glazed gable and courtyard approach](homes/timber-courtyard-02/outputs/images/01-exterior.png)](homes/timber-courtyard-02/outputs/images/01-exterior.png)
+[Full project gallery and models](homes/timber-courtyard-02/README.md) · [Output index](homes/timber-courtyard-02/outputs/README.md) · [Walkthrough and current video status](homes/timber-courtyard-02/outputs/videos/README.md)
 
-[Full project gallery and models](homes/timber-courtyard-02/README.md) · [All current images and plans](homes/timber-courtyard-02/outputs/README.md)
-
-| Elevated roof and courtyard relationship | Planted courtyard and garden entry |
+| Kitchen, preparation island and garden-facing cleanup counter — AI photographic study | Native source — Kitchen island, garden-facing cleanup counter and smoked-oak storage |
 | --- | --- |
-| [![Elevated roof and courtyard relationship](homes/timber-courtyard-02/outputs/images/02-elevated.png)](homes/timber-courtyard-02/outputs/images/02-elevated.png) | [![Planted courtyard and garden entry](homes/timber-courtyard-02/outputs/images/03-garden-entry.png)](homes/timber-courtyard-02/outputs/images/03-garden-entry.png) |
+| ![Kitchen, preparation island and garden-facing cleanup counter — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-kitchen.png) | ![Kitchen island, garden-facing cleanup counter and smoked-oak storage](homes/timber-courtyard-02/outputs/images/06-kitchen.png) |
 
-| View from the living room through courtyard glazing | Schematic kitchen island, sage backsplash and rear worktop |
+| Induction cooking wall, built-in oven and integrated refrigeration — AI photographic study | Native source — 36-inch induction cooktop, 30-inch built-in oven, hood and integrated refrigerator |
 | --- | --- |
-| [![View from the living room through courtyard glazing](homes/timber-courtyard-02/outputs/images/05-living-dining.png)](homes/timber-courtyard-02/outputs/images/05-living-dining.png) | [![Schematic kitchen island, sage backsplash and rear worktop](homes/timber-courtyard-02/outputs/images/06-kitchen.png)](homes/timber-courtyard-02/outputs/images/06-kitchen.png) |
+| ![Induction cooking wall, built-in oven and integrated refrigeration — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-cooking-wall.png) | ![36-inch induction cooktop, 30-inch built-in oven, hood and integrated refrigerator](homes/timber-courtyard-02/outputs/images/08-cooking-wall.png) |
 
-**Rear garden elevation and pitched roof profile**
+| Fitted pantry shelving and appliance worktop — AI photographic study | Native source — Walk-in pantry shelving, storage drawers and appliance worktop |
+| --- | --- |
+| ![Fitted pantry shelving and appliance worktop — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-pantry.png) | ![Walk-in pantry shelving, storage drawers and appliance worktop](homes/timber-courtyard-02/outputs/images/09-pantry.png) |
 
-[![Rear garden elevation and pitched roof profile](homes/timber-courtyard-02/outputs/images/07-rear-garden.png)](homes/timber-courtyard-02/outputs/images/07-rear-garden.png)
+| Living room, shared furnishings and timber ceiling — AI photographic study | Native source — Furnished living room and sloping timber ceiling |
+| --- | --- |
+| ![Living room, shared furnishings and timber ceiling — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-living-room.png) | ![Furnished living room and sloping timber ceiling](homes/timber-courtyard-02/outputs/images/10-living-room.png) |
 
-**Single-level schematic furnished floor plan**
+| Rear garden and revised kitchen glazing — AI photographic study | Native source — Rear garden elevation with counter-height kitchen glazing |
+| --- | --- |
+| ![Rear garden and revised kitchen glazing — AI photographic study](homes/timber-courtyard-02/outputs/images/photo-rear-garden.png) | ![Rear garden elevation with counter-height kitchen glazing](homes/timber-courtyard-02/outputs/images/07-rear-garden.png) |
 
-[![Single-level schematic furnished floor plan](homes/timber-courtyard-02/outputs/plans/floor-plan.png)](homes/timber-courtyard-02/outputs/plans/floor-plan.png)
+| Front timber wings, glazed gable and courtyard approach | Elevated pitched roofs and courtyard relationship |
+| --- | --- |
+| ![Front timber wings, glazed gable and courtyard approach](homes/timber-courtyard-02/outputs/images/01-exterior.png) | ![Elevated pitched roofs and courtyard relationship](homes/timber-courtyard-02/outputs/images/02-elevated.png) |
+
+| Planted courtyard and garden entry | View from the living room through courtyard glazing |
+| --- | --- |
+| ![Planted courtyard and garden entry](homes/timber-courtyard-02/outputs/images/03-garden-entry.png) | ![View from the living room through courtyard glazing](homes/timber-courtyard-02/outputs/images/05-living-dining.png) |
+
+| Furnished concept floor plan — only occupied level | Roof-off native model |
+| --- | --- |
+| ![Furnished concept floor plan with revised kitchen and pantry](homes/timber-courtyard-02/outputs/plans/floor-plan.png) | ![Roof-off model view with revised kitchen, pantry and living furnishings](homes/timber-courtyard-02/outputs/images/04-model-plan.png) |
 
 [View the concept PDF](homes/timber-courtyard-02/outputs/plans/design-board.pdf)
 

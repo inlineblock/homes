@@ -1,0 +1,48 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_frames": "721"
+    }
+  ],
+  "format": {
+    "duration": "30.041667",
+    "size": "23230551"
+  },
+  "sha256": "52bf5644d47bd392826b0cfef06c8856a4e297c6c426662f17611a0ee30eb481",
+  "canonical_source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "ffmpeg_version": "8.0.1",
+  "decode_all_frames": "passed",
+  "native_visual_review": "Eight high-sample keyframes, fifteen reference checkpoints and sixty-one half-second native sequence samples visually inspected. Camera movement and material/geometry continuity reviewed through the sequence. No visible architecture or furniture crossings.",
+  "gui_playback": "Not repeated for the revised design because the Mac was locked; earlier old-design playback is not evidence for this revision.",
+  "route_clearance": {
+    "passed": true,
+    "body_width_m": 0.7,
+    "body_height_m": 1.8,
+    "eye_height_m": 1.6764000000000001,
+    "lower_check_height_m": 0.05,
+    "sampled_poses": 721,
+    "continuous_segments": 720,
+    "evaluated_fixed_meshes": 2063,
+    "excluded_landscape_objects": 468,
+    "candidate_conflicts": [],
+    "nearest_conservative_bounds_gap": {
+      "frame": 480,
+      "object": "Dining chair curved oak back",
+      "gap_m": 0.14225807189941442
+    },
+    "method": "700mm-wide square body bounds swept continuously between every pair of the 721 actual camera poses against evaluated fixed-mesh world bounds, including linked furniture/appliance instances. This conservatively contains a 700mm circular footprint.",
+    "limitations": "Fixed presentation state only; excludes vegetation/landscape collection and floor contact below50mm. Does not verify walking surface support, trip hazards, hardware operations, code or accessibility."
+  },
+  "quality": "Current native geometry base with coordinated kitchen and shared living furniture. Other legacy home-program limitations remain; not an AI photographic finish.",
+  "scene_cut_scan": {
+    "tool": "FFmpeg scdet",
+    "threshold": 8,
+    "events": 0
+  }
+}

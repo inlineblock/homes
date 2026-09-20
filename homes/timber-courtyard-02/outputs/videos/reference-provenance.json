@@ -1,0 +1,197 @@
+{
+  "purpose": "Photographic reference keyframes for motion-controlled AI finishing; not walkthrough video frames.",
+  "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "views": [
+    {
+      "view": "arrival",
+      "frame": 1,
+      "tool": "built-in Image Gen",
+      "source": "references/arrival-native.png",
+      "source_sha256": "3d9a158d88119797e6ce6cb6f2f15dc69cc58df05663467e6100690ee9ca9ece",
+      "image": "references/arrival-photo.png",
+      "image_sha256": "06b48cc863e00240fbab6a777a7558f494739053d8201195aca051a2d2a8641e",
+      "prompt": "Edit this exact Blender frame into a believable high-end architectural photograph. This is a style reference keyframe for a geometry-controlled walking video. Preserve EXACT framing, 16:9 aspect ratio, eye-level perspective, all roof slopes, cedar posts, black mullions, every doorway opening and glazing state, path dimensions, all furniture positions and plant masses. The entrance leaf at center-right is OPEN: keep the clear walking route open. Retain honey-toned vertical cedar, dark standing-seam metal canopy and roofs, black aluminum glass framing, pale limestone stepping path, planted courtyard with red Japanese maple. The distant peaked ceiling and upper surfaces behind the rear glazing are SOLID warm cedar wood, never sky or transparent glass. Improve physical realism only: fine cedar grain, natural tonal variation, realistic stone pores, soft warm reflected afternoon daylight, nuanced shadows, convincing shrubs/leaves in their existing bounds and photographic glass reflections. No people, text, new architecture, furnishings, fixtures or planting masses. Do not crop, change camera or redesign. Same house and view, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "threshold",
+      "frame": 193,
+      "tool": "built-in Image Gen",
+      "source": "references/threshold-native.png",
+      "source_sha256": "ceaab1c7d02bb8ebab953d17bfc8cecb8e72507476abd35c268ce6fab15d6ff6",
+      "image": "references/threshold-photo.png",
+      "image_sha256": "b0a5e47b574d41a3df5172f4e225522a7b83ad6ce5ff19ce1db51acd9e15f028",
+      "prompt": "Turn this exact Blender frame into a photoreal architectural photograph. This is an endpoint reference for a geometry-controlled continuous walking video. Preserve EXACT 16:9 composition, camera position and perspective, every roof edge, cedar post and black mullion, glazing/open-leaf state, plants and furniture positions. Crucial: the broad peaked surfaces seen THROUGH the rear glass are solid honey cedar ceiling and upper interior walls, NOT sky or transparent glass. Keep their exact boundaries. Preserve the open clear central walking passage immediately right of the central timber post. Retain pale stone courtyard path, red Japanese maple at left, green courtyard tree at right, cream sofa and low pale-oak coffee table at left, rectangular pale-oak dining table with six chairs in center, smoked-oak kitchen/island with pale stone counters at right. Improve only physical realism: fine warm cedar grain, matte plaster, natural botanical detail within existing bounds, believable reflections, soft warm afternoon daylight and nuanced shadows. No people, text, new architecture, furniture, decor or new plant masses. Do not crop, shift camera or redesign. A photograph of precisely this same view.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "courtyard",
+      "frame": 217,
+      "tool": "built-in Image Gen",
+      "source": "references/courtyard-native.png",
+      "source_sha256": "c1f896a6c7699ec1510ca86817d58d85427467ca2d183e0e4d2062dbfc56c45f",
+      "image": "references/courtyard-photo.png",
+      "image_sha256": "a5dbd5766f76511438ce4267dcdaab7cd984903353f554f17aaf155b027192f4",
+      "prompt": "Make this EXACT Blender frame a believable architectural photograph and precise reference for a continuous video walkthrough. Keep the exact 16:9 camera composition, perspective, roof lines, mullions, cedar posts, open glazing states, furniture geometry/position and plant masses. The broad pitched ceiling and upper walls seen behind the rear glazing are SOLID HONEY CEDAR WOOD, never sky or transparent glazing. The center walking opening immediately right of the central cedar post must remain open. Retain the red Japanese maple at left, green courtyard tree at right, limestone paving and planting beds; cream three-seat sofa and low pale-oak table left; pale-oak rectangular dining table and six chairs center; smoked-oak kitchen island and cabinets, pale counters right. Improve physical realism only: fine timber grain, real fabric weave, matte plaster, believable leafy detail within the existing silhouettes, realistic glass reflections and soft warm afternoon light. No new architecture, furniture, decor, people or text. No crop, camera shift, additional plants, layout change or redesign. Photographic fidelity of this same house at this exact viewpoint.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation.",
+      "corrections": [
+        {
+          "tool": "built-in Image Gen",
+          "prompt": "Remove only the small brown decorative bowl from the center of the dining tabletop. The entire tabletop must be completely empty, as in the original architectural model. Preserve EVERYTHING else exactly: camera, image framing, all building geometry, windows and posts, trees and plants, sofa and other furniture, textures and lighting. One precise object removal only; no other changes.",
+          "input_sha256": "7205a13eb691511f7becce875fcdfe84a5a8705e0f96f737a2d965c3981249be",
+          "reason": "Removed an invented tabletop bowl to match the native model."
+        }
+      ]
+    },
+    {
+      "view": "courtyard-advance",
+      "frame": 289,
+      "tool": "built-in Image Gen",
+      "source": "references/courtyard-advance-native.png",
+      "source_sha256": "79173c9607d288161e25dda32fb74414f415ec33f4bbf7bea2631db9d929eae7",
+      "image": "references/courtyard-advance-photo.png",
+      "image_sha256": "011e101b6caf1aca3db1b4bc20e3120249ea464e09a1561eca81e222dc850c47",
+      "prompt": "Turn this EXACT Blender frame into a realistic architectural photograph for an exact-view video reference. Preserve the 16:9 composition and camera perspective, every foreground cedar post and black glazing mullion, all windows and OPEN sliding leaf positions, rear glazing, pitched cedar ceiling/upper wall boundaries, furniture shapes, scale and placement, and plants in their existing bounds. The ceiling and upper surfaces are SOLID HONEY CEDAR WOOD, never sky or glass. Retain cream three-seat sofa and pale-oak low coffee table at left, pale-oak dining table with six chairs at center, smoked-oak kitchen island and drawers with pale stone counters at right, limestone floor and cream woven rug. All tabletops/counters remain completely EMPTY. Improve ONLY physical surface realism: fine wood grain, believable fabric and plaster, stone pores, fine botanical leaf detail, glass reflections and warm soft afternoon daylight. No objects, bowls, vases, decor, artwork, people, new lights, furniture or architecture. No crop, zoom, reframing, redesign or material-color changes. Photograph of the same model and exact view.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "living-entry",
+      "frame": 385,
+      "tool": "built-in Image Gen",
+      "source": "references/living-entry-native.png",
+      "source_sha256": "ed1b0e5cd2fced83b3e96c224bc648baf60e38f0a8296cb622e6074ec049c2d6",
+      "image": "references/living-entry-photo.png",
+      "image_sha256": "638a44ea4e40da6427c2b00d8a2f2492ec2bf624cd30e91d6286a79424c974a8",
+      "prompt": "Make this exact Blender living-room frame look like a real high-end architectural photograph, for an exact camera-reference frame in a walkthrough. Preserve the exact 16:9 composition, camera and perspective, all window mullions, cedar ceiling and upper wall geometry, cream plaster wall and left doorway dimensions, every furniture shape and position. Keep cream three-seat low sofa, supported low pale-oak rectangular coffee table, pale-oak dining table and curved-back chairs in the foreground, cream woven rug, limestone floor and warm honey cedar overhead. The ceiling stays SOLID timber, including its shaded areas; no extra beams or openings. Table surfaces remain completely empty. Improve only physical realism: wood grain, woven upholstery, nuanced plaster/stone, natural foliage outside within the same masses, believable glazing reflections and soft warm afternoon daylight. No added decor, cushions, bowls, rugs, artwork, plants, architecture, people or text. Do not reframe, crop, replace furniture or change the design. Same exact scene, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "living",
+      "frame": 409,
+      "tool": "built-in Image Gen",
+      "source": "references/living-native.png",
+      "source_sha256": "f4e2786e26289a885aace8319427bddd9dec1d86e962da4e535a6fb17020049b",
+      "image": "references/living-photo.png",
+      "image_sha256": "9a492bbcc3eb2dbe482cc630991487e2c7f90b0f5d5e50ea695d459aee11d603",
+      "prompt": "Make this exact Blender living-room frame look like a real high-end architectural photograph, for an exact camera-reference frame in a walkthrough. Preserve the exact 16:9 composition, camera and perspective, all window mullions, cedar ceiling and upper wall geometry, cream plaster wall and left doorway dimensions, every furniture shape and position. Keep cream three-seat low sofa, supported low pale-oak rectangular coffee table, pale-oak dining table and curved-back chairs in the foreground, cream woven rug, limestone floor and warm honey cedar overhead. The ceiling stays SOLID timber, including its shaded areas; no extra beams or openings. Table surfaces remain completely empty. Improve only physical realism: wood grain, woven upholstery, nuanced plaster/stone, natural foliage outside within the same masses, believable glazing reflections and soft warm afternoon daylight. No added decor, cushions, bowls, rugs, artwork, plants, architecture, people or text. Do not reframe, crop, replace furniture or change the design. Same exact scene, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "living-close",
+      "frame": 481,
+      "tool": "built-in Image Gen",
+      "source": "references/living-close-native.png",
+      "source_sha256": "abbe1bdb356afdbb2ef93c59abb3519a02cf2a62f0e2a7d7fc2f429391b69153",
+      "image": "references/living-close-photo.png",
+      "image_sha256": "193fa2355feb48722d3ce5e3bc0c2bdc83c18fa1ff238170beb462961e8a14d1",
+      "prompt": "Transform this exact Blender frame into a real architectural photograph for a precisely matched video endpoint. Keep the exact 16:9 framing, camera position/perspective, cream plaster wall and left doorway, warm honey cedar upper wall/ceiling, black window mullion positions, tree and shrub masses, cream low three-seat sofa with its exact cushions and partly cropped pale-oak coffee table at bottom left. Preserve all furniture positions, sizes and silhouettes. Improve only physical surface realism: fine cedar grain, gently textured plaster, woven cream upholstery, believable glass reflections, botanical leaf detail in current bounds and soft warm afternoon daylight. The ceiling and upper wall remain solid wood. No extra cushions, objects, decor, plants, artwork, lighting, people or text. Do not crop, shift camera, add architecture or redesign. Same house and same exact view, photographically believable.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation.",
+      "corrections": [
+        {
+          "tool": "built-in Image Gen",
+          "prompt": "Correct ONLY the floor material. Every visible floor surface, including inside the left doorway and the lower-left walking area, must be pale warm-cream honed LIMESTONE with subtle mineral texture and large understated slab joints, NOT timber boards. The rug and wooden coffee table stay exactly as they are. Preserve every other pixel composition and design: camera, crop, lighting, walls, cedar ceiling, windows, sofa and cushions, plants, shadows. Do not add or move anything. One material correction only.",
+          "input_sha256": "1399ab296062b997b75cc767db2f33455ea5c13fa741f700007273df3720bce2",
+          "reason": "Restored limestone floor after the first generation drifted to wood."
+        }
+      ]
+    },
+    {
+      "view": "turn-living",
+      "frame": 505,
+      "tool": "built-in Image Gen",
+      "source": "references/turn-living-native.png",
+      "source_sha256": "6d2170fe378ba7f94b3f2f108118c5aa2732087925485fefacc3a4254cb9ac60",
+      "image": "references/turn-living-photo.png",
+      "image_sha256": "3eba32b6b128a25caec8cce66e7f2cc652b533563894932c58d0ec53b7a46e00",
+      "prompt": "Make this exact Blender camera frame a believable architectural photograph for a geometry-controlled walking video. Preserve exact 16:9 composition, camera perspective, every black window mullion, warm cedar post at left, outdoor tree trunks and plant-mass positions, and every cropped furniture shape and position. Keep cream three-seat sofa with its existing single taupe accent cushion lower left, pale-oak dining chairs and empty table edge lower right. Floor, where visible, is warm pale honed limestone, not wood. Improve only photographic physical realism: woven upholstery, fine cedar/oak grain, believable clear glazing/reflections, botanical leaves within existing masses, nuanced warm afternoon daylight. No new architecture, openings, objects, cushions, decor, artwork, people or text. No crop, reframing, material changes or furniture redesign. Keep the same house and exact view.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "turn-dining",
+      "frame": 521,
+      "tool": "built-in Image Gen",
+      "source": "references/turn-dining-native.png",
+      "source_sha256": "57a1932601319a1e3142ac0d2650dbdd27a1c6bf6d77dd771cf023fe2f154892",
+      "image": "references/turn-dining-photo.png",
+      "image_sha256": "14a27386ef3b9f07e0ea7dad089c67e5a192365c59a7ed6bf7678a49055bc090",
+      "prompt": "Convert this EXACT Blender view to a photoreal architectural photograph for a tightly matched walking-video reference. Preserve precise 16:9 framing, camera/perspective, every black window mullion, cedar ceiling/upper wall and corner post, every countertop edge, all cabinet fronts and handles, appliance placement, sink/faucet, partially cropped island and foreground dining table/chairs, and existing outdoor plant masses. Kitchen has smoked-oak cabinets, bronze pulls/outlets, pale warm stone counters, sage green vertically organized tile, stainless hood and built-in oven with induction cooktop at far right. Keep the real sink and faucet where they are, and the oven/hood visible exactly as cropped. Dining table and curved-back chairs are pale oak. Floor is pale honed limestone, NEVER wood. All tables and counters stay EMPTY. Improve material grain, fabric, metal, glazing reflections, botanical leaf detail and soft warm afternoon daylight only. No new objects, bowls, decor, lights, furniture, architecture, people or text. No changes to layout, crop, camera, scale, materials or equipment. Same exact home and view, photographic realism.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "turn-kitchen",
+      "frame": 529,
+      "tool": "built-in Image Gen",
+      "source": "references/turn-kitchen-native.png",
+      "source_sha256": "93d01baa2ee270dc7e5d5f08f4a333c2a858c7dcf65f3d6c87cffcb25d64e2cc",
+      "image": "references/turn-kitchen-photo.png",
+      "image_sha256": "add4c6cf88fb09233414f3df3ad16a895fe18783193385c13da02274eefce0e4",
+      "prompt": "Make this exact Blender kitchen frame a real high-end architectural photograph and faithful intermediate reference for a walking video. Preserve EXACT 16:9 composition, camera perspective, all window mullions, cedar ceiling geometry, cream wall shape, equipment and furniture layout, drawer/door divisions and handles, countertop edges and empty surfaces. Keep smoked-oak cabinets, integrated wide two-door refrigerator at back right, stainless wall hood and tall chimney, induction cooktop and built-in oven directly under it, sink/faucet at left, pale stone countertops, sage tile backsplash, bronze pulls/outlets, three walnut/bronze counter stools and linear suspended light in their exact positions. The cropped dining table and curved-back chairs are pale oak. Floor is warm pale honed limestone, never wood. Improve only surface realism, natural wood grain, tile glazing, reflective metals, glass, botanical leaves within existing bounds, soft warm afternoon light and shadows. No bowls, appliances, decor, people, text or objects added; no invented cabinets or architecture. Do not change framing, scale, wall openings, furniture, materials or design.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "turn-settle",
+      "frame": 553,
+      "tool": "built-in Image Gen",
+      "source": "references/turn-settle-native.png",
+      "source_sha256": "90f39be864083d95fdcda0d9f4f4df8abf12eed6a6ea6c1cd275363575b6354a",
+      "image": "references/turn-settle-photo.png",
+      "image_sha256": "5e3b8e204d64b47bfa7fb68d312e385e60c76995da1f3d0726caa6fffcbb74e3",
+      "prompt": "Transform this exact Blender kitchen frame into a real architectural photograph for an exact-view walking-video reference. Preserve exact 16:9 framing, camera/perspective, all walls, door opening and fitted pantry shelves at back right, window mullions and cedar ceiling, every cabinet division/pull, appliances, countertops, sink, stools and light positions. Keep the wide smoked-oak integrated refrigerator, built-in oven under the induction cooktop, stainless hood and tall chimney, sage tile backsplash, long drawer/sink run, pale stone counters and island, bronze hardware/outlets, three walnut stools and hanging linear light. Pantry is an OPEN doorway to existing EMPTY smoked-oak shelves; preserve every shelf, do not add food or objects. Table/counter surfaces stay empty. Floor is pale warm honed limestone, never wood. Improve surface realism only: cedar/oak grain, stone pores, tile glazing, subtle metals, outdoor botanical leaves in existing masses, believable glass and soft warm afternoon light. No new decor, architecture, furnishings, appliances, people or text. No crop, camera change, design change or equipment removal. Photograph of precisely this same modeled view.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation.",
+      "corrections": [
+        {
+          "tool": "built-in Image Gen",
+          "prompt": "Correct ONLY the partly cropped DINING TABLE in the lower-left foreground. Its tabletop must be pale natural OAK WOOD with fine grain and a softly rounded edge, matching the adjacent pale-oak dining chairs. It is not stone. Keep the kitchen island and all other kitchen countertops as the existing pale stone. Do not change anything else: exact camera/framing, architecture, cabinets, equipment, stools, pantry shelves, materials, plants, lighting, shadows and all object positions stay identical. One table-material correction only.",
+          "input_sha256": "9f158f7dfc450c84c9e15e38a4c081b628c874034a6ece65e05da4965c4d18e9",
+          "reason": "Restored pale-oak dining tabletop after the first generation drifted to stone."
+        }
+      ]
+    },
+    {
+      "view": "kitchen-turn",
+      "frame": 577,
+      "tool": "built-in Image Gen",
+      "source": "references/kitchen-turn-native.png",
+      "source_sha256": "7d24acb5df2cd6d2fd7d3beabd33d01c535f03220f314181ee1716bbfe3c18ba",
+      "image": "references/kitchen-turn-photo.png",
+      "image_sha256": "e95a0c25c3562aa1d575c919e98e19b28513f47f5b156ac0ba25a2921ee6c94b",
+      "prompt": "Transform this exact Blender kitchen frame into a real architectural photograph for an exact-view walking-video reference. Preserve exact 16:9 framing, camera/perspective, all walls, door opening and fitted pantry shelves at back right, window mullions and cedar ceiling, every cabinet division/pull, appliances, countertops, sink, stools and light positions. Keep the wide smoked-oak integrated refrigerator, built-in oven under the induction cooktop, stainless hood and tall chimney, sage tile backsplash, long drawer/sink run, pale stone counters and island, bronze hardware/outlets, three walnut stools and hanging linear light. Pantry is an OPEN doorway to existing EMPTY smoked-oak shelves; preserve every shelf, do not add food or objects. Table/counter surfaces stay empty. Floor is pale warm honed limestone, never wood. Improve surface realism only: cedar/oak grain, stone pores, tile glazing, subtle metals, outdoor botanical leaves in existing masses, believable glass and soft warm afternoon light. No new decor, architecture, furnishings, appliances, people or text. No crop, camera change, design change or equipment removal. Photograph of precisely this same modeled view. Crucial: the partly cropped DINING TABLE in the lower-left foreground is PALE NATURAL OAK WOOD matching its chairs, not stone. Preserve the original material difference between the oak dining tabletop and the pale stone kitchen island.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "kitchen-approach",
+      "frame": 673,
+      "tool": "built-in Image Gen",
+      "source": "references/kitchen-approach-native.png",
+      "source_sha256": "0f782f250863826f3b44441bd874ad450cb79cb1a4a7bceb6430655af518deff",
+      "image": "references/kitchen-approach-photo.png",
+      "image_sha256": "b901b2ba36af3c48835e878ba7acc43de323d4f5d64312cacf4fa2ea89600183",
+      "prompt": "Turn this exact Blender kitchen frame into a realistic architectural photograph for the endpoint of a geometry-conditioned video. Preserve EXACT 16:9 composition, camera perspective, all window mullions, warm cedar upper wall/ceiling, cream wall, pantry doorway crop at right, cabinetry divisions and bronze handles, island/countertop edges and appliance positions. Keep the stainless steel wall hood with tall chimney, 36-inch induction cooktop and built-in stainless/black oven directly below, wide smoked-oak two-door integrated refrigerator at right, long smoked-oak drawer run, sink partly cropped at far left, sage green rectangular tile backsplash, pale stone counters/island and cropped walnut stools. Every counter surface stays empty. Floor where visible is pale honed limestone. Improve only natural wood grain, subtle stone texture, metal and tile response, realistic glass/foliage outside in existing bounds, and soft warm afternoon light. No new objects, appliances, decorations, furniture, people or text. Do not remove equipment or handles, crop, move camera, change layout or redesign. Same exact house and view, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "kitchen",
+      "frame": 697,
+      "tool": "built-in Image Gen",
+      "source": "references/kitchen-native.png",
+      "source_sha256": "9bfe59bc79b116d95a1e5392eedbc991a1c8e5335cfc48787c0ab5323da3563b",
+      "image": "references/kitchen-photo.png",
+      "image_sha256": "5f6f79a36186f80c18386dab0a1a85031839cfb3e844bbbcd2239c40b4a2f91e",
+      "prompt": "Turn this exact Blender kitchen frame into a realistic architectural photograph for the endpoint of a geometry-conditioned video. Preserve EXACT 16:9 composition, camera perspective, all window mullions, warm cedar upper wall/ceiling, cream wall, pantry doorway crop at right, cabinetry divisions and bronze handles, island/countertop edges and appliance positions. Keep the stainless steel wall hood with tall chimney, 36-inch induction cooktop and built-in stainless/black oven directly below, wide smoked-oak two-door integrated refrigerator at right, long smoked-oak drawer run, sink partly cropped at far left, sage green rectangular tile backsplash, pale stone counters/island and cropped walnut stools. Every counter surface stays empty. Floor where visible is pale honed limestone. Improve only natural wood grain, subtle stone texture, metal and tile response, realistic glass/foliage outside in existing bounds, and soft warm afternoon light. No new objects, appliances, decorations, furniture, people or text. Do not remove equipment or handles, crop, move camera, change layout or redesign. Same exact house and view, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation."
+    },
+    {
+      "view": "kitchen-end",
+      "frame": 721,
+      "tool": "built-in Image Gen",
+      "source": "references/kitchen-native.png",
+      "source_sha256": "9bfe59bc79b116d95a1e5392eedbc991a1c8e5335cfc48787c0ab5323da3563b",
+      "image": "references/kitchen-end-photo.png",
+      "image_sha256": "5f6f79a36186f80c18386dab0a1a85031839cfb3e844bbbcd2239c40b4a2f91e",
+      "prompt": "Turn this exact Blender kitchen frame into a realistic architectural photograph for the endpoint of a geometry-conditioned video. Preserve EXACT 16:9 composition, camera perspective, all window mullions, warm cedar upper wall/ceiling, cream wall, pantry doorway crop at right, cabinetry divisions and bronze handles, island/countertop edges and appliance positions. Keep the stainless steel wall hood with tall chimney, 36-inch induction cooktop and built-in stainless/black oven directly below, wide smoked-oak two-door integrated refrigerator at right, long smoked-oak drawer run, sink partly cropped at far left, sage green rectangular tile backsplash, pale stone counters/island and cropped walnut stools. Every counter surface stays empty. Floor where visible is pale honed limestone. Improve only natural wood grain, subtle stone texture, metal and tile response, realistic glass/foliage outside in existing bounds, and soft warm afternoon light. No new objects, appliances, decorations, furniture, people or text. Do not remove equipment or handles, crop, move camera, change layout or redesign. Same exact house and view, photographically real.",
+      "review": "Compared with the exact revised native frame: camera, main geometry, openings and furniture arrangement retained. Fine material, foliage and distant landscape detail remains illustrative AI interpretation.",
+      "source_frame": 697,
+      "reuse": "Camera position and gaze are held unchanged from frame697 to721; the same selected photograph is intentionally reused. PNG frame metadata and tiny path-tracing noise may differ."
+    }
+  ]
+}

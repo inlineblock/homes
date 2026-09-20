@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "timber-courtyard-02",
   "name": "Timber Courtyard 02",
-  "status": "exterior-led concept",
+  "status": "exterior-led concept; kitchen and pantry revised; whole-home program unresolved",
   "units": "meters",
   "display_units": "feet-inches",
   "target_area_sqft": 2400,
@@ -17,9 +17,74 @@
   },
   "asset_dependencies": [
     {
-      "id": "materials/sage-fluted-tile",
+      "id": "appliances/built-in-oven-30in",
       "version": "v001",
-      "path": "../../library/materials/sage-fluted-tile/v001/"
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-oven-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-oven-base-36in/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-pantry-shelf-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-sink-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-sink-base-36in/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-waste-pullout-18in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-waste-pullout-18in/v001/"
+    },
+    {
+      "id": "fixtures/duplex-power-outlet-bronze",
+      "version": "v001",
+      "path": "../../library/fixtures/duplex-power-outlet-bronze/v001/"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v002/"
+    },
+    {
+      "id": "fixtures/lighting-linear-pendant-4ft",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-linear-pendant-4ft/v001/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
     },
     {
       "id": "fixtures/opal-globe-pendant",
@@ -27,19 +92,64 @@
       "path": "../../library/fixtures/opal-globe-pendant/v001/"
     },
     {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/"
+    },
+    {
       "id": "furniture/walnut-counter-stool",
       "version": "v001",
       "path": "../../library/furniture/walnut-counter-stool/v001/"
     },
     {
-      "id": "materials/warm-vertical-cedar",
+      "id": "hardware/bar-pull-satin-bronze",
       "version": "v001",
-      "path": "../../library/materials/warm-vertical-cedar/v001/"
+      "path": "../../library/hardware/bar-pull-satin-bronze/v001/"
     },
     {
       "id": "materials/charcoal-standing-seam",
       "version": "v001",
       "path": "../../library/materials/charcoal-standing-seam/v001/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "materials/sage-fluted-tile",
+      "version": "v001",
+      "path": "../../library/materials/sage-fluted-tile/v001/"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v001",
+      "path": "../../library/materials/warm-vertical-cedar/v001/"
     }
   ],
   "deliverables": {
@@ -55,7 +165,10 @@
       "04-model-plan": "outputs/images/04-model-plan.png",
       "05-living-dining": "outputs/images/05-living-dining.png",
       "06-kitchen": "outputs/images/06-kitchen.png",
-      "07-rear-garden": "outputs/images/07-rear-garden.png"
+      "07-rear-garden": "outputs/images/07-rear-garden.png",
+      "08-cooking-wall": "outputs/images/08-cooking-wall.png",
+      "09-pantry": "outputs/images/09-pantry.png",
+      "10-living-room": "outputs/images/10-living-room.png"
     },
     "level_plans": [
       {
@@ -64,6 +177,17 @@
         "png": "outputs/plans/floor-plan.png",
         "roof_off_model": "outputs/images/04-model-plan.png"
       }
+    ],
+    "walkthrough_model": "model/timber-walkthrough.blend",
+    "walkthrough_native": "outputs/videos/timber-courtyard-native.mp4",
+    "walkthrough_index": "outputs/videos/README.md",
+    "photographic_studies": [
+      "outputs/images/photo-hero.png",
+      "outputs/images/photo-kitchen.png",
+      "outputs/images/photo-cooking-wall.png",
+      "outputs/images/photo-pantry.png",
+      "outputs/images/photo-rear-garden.png",
+      "outputs/images/photo-living-room.png"
     ]
   }
 }

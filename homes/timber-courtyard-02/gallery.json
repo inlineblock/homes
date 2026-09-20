@@ -9,7 +9,7 @@
     },
     {
       "path": "outputs/images/02-elevated.png",
-      "caption": "Elevated roof and courtyard relationship",
+      "caption": "Elevated pitched roofs and courtyard relationship",
       "view": "exterior",
       "exterior_role": "site"
     },
@@ -20,7 +20,7 @@
     },
     {
       "path": "outputs/images/04-model-plan.png",
-      "caption": "Roof-off model view; schematic interior arrangement",
+      "caption": "Roof-off model view with revised kitchen, pantry and living furnishings",
       "view": "cutaway"
     },
     {
@@ -30,14 +30,29 @@
     },
     {
       "path": "outputs/images/06-kitchen.png",
-      "caption": "Schematic kitchen island, sage backsplash and rear worktop",
+      "caption": "Kitchen island, garden-facing cleanup counter and smoked-oak storage",
       "view": "interior"
     },
     {
       "path": "outputs/images/07-rear-garden.png",
-      "caption": "Rear garden elevation and pitched roof profile",
+      "caption": "Rear garden elevation with counter-height kitchen glazing",
       "view": "exterior",
       "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/08-cooking-wall.png",
+      "caption": "36-inch induction cooktop, 30-inch built-in oven, hood and integrated refrigerator",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/09-pantry.png",
+      "caption": "Walk-in pantry shelving, storage drawers and appliance worktop",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/10-living-room.png",
+      "caption": "Furnished living room and sloping timber ceiling",
+      "view": "interior"
     }
   ],
   "required_levels": [
@@ -47,7 +62,7 @@
     {
       "path": "outputs/plans/floor-plan.png",
       "level": "main",
-      "caption": "Single-level schematic furnished floor plan"
+      "caption": "Single-level furnished concept plan with revised kitchen and pantry"
     }
   ],
   "signature_features": [
@@ -64,9 +79,63 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/01-exterior.png",
-    "source_sha256": "cd72ecf4a3b7881c1585d831c42a554085fb4ba8a7266b8d0aa822a5f40fd02b",
-    "image_sha256": "5b6ee530647be815e7c1603204e7a4ececa3d79f24136c0e08498ef5114ccbc1",
+    "source_sha256": "e5204ede78a2881480679b866d08bcd4468c9e468a2eb0fa2d3f8399153094fa",
+    "image_sha256": "8020bbb20f4c50d2f1a500c64f80ad469f1bd6cf53a2cce1ba428129e1c1aab7",
     "provenance": "outputs/photo-study.md",
-    "caption": "Timber Courtyard 02 — Imagegen photographic study"
-  }
+    "caption": "Paired timber wings and courtyard arrival \u2014 AI photographic study"
+  },
+  "photographic_exteriors": [
+    {
+      "path": "outputs/images/photo-rear-garden.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/07-rear-garden.png",
+      "source_sha256": "1ab41a84b48b009a8444ae7e6a4c920ddb6f9411d0620f334ba70a8c0cde15c8",
+      "image_sha256": "991b2807d194e643f889defbd2ba65adc967a41522cb46a95b5e994e4ffb20a1",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Rear garden and revised kitchen glazing \u2014 AI photographic study"
+    }
+  ],
+  "photographic_interiors": [
+    {
+      "path": "outputs/images/photo-kitchen.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/06-kitchen.png",
+      "source_sha256": "ea7a826219b73922eff1e63cf3dace876882761aa6cba56be3ae317d2f07d244",
+      "image_sha256": "998b73937e0dbab6a9f6f9ffc9ecc945c64916b79356f56a23271b09e7e50564",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Kitchen, preparation island and garden-facing cleanup counter \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-cooking-wall.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/08-cooking-wall.png",
+      "source_sha256": "91d5d92311afc1529016cfe84b4dc4512293852e92094ba810b7b24117013570",
+      "image_sha256": "89ca5312f022dc18437e95bfce60130f281dc6876eb90840325e992d41935460",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Induction cooking wall, built-in oven and integrated refrigeration \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-pantry.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/09-pantry.png",
+      "source_sha256": "19cb308e49ebd987705df4ac6c8392d72cd1a61151eaff15929f6b8ca980a73b",
+      "image_sha256": "a92cea26fb59efae75dff7b0b538701b8ab06eede7a76ead9134e7f23c2c5f88",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Fitted pantry shelving and appliance worktop \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-living-room.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/10-living-room.png",
+      "source_sha256": "b34bb496cbae9ec1c6d8f2b5daeec59a47cd764f7ef59f7df651a4a617fa4405",
+      "image_sha256": "d5ebead5bc18b12e8efc4dfad5b19b54f63ccdfa569c0d8a423904848bac7048",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Living room, shared furnishings and timber ceiling \u2014 AI photographic study"
+    }
+  ]
 }

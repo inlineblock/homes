@@ -1,5 +1,5 @@
 """Timber Courtyard 02: exterior-led native scene from the user's reference."""
-import bpy,sys,math,random,json
+import bpy,sys,math,random,json,argparse
 from pathlib import Path
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'tools'));sys.path.insert(0,str(Path(__file__).parent))
@@ -11,7 +11,12 @@ from common.architecture import mesh,pitched_plate,beam,glass_wall,interior_wall
 from common.landscape import tree,shrub,grasses,rock
 from common.library import linked_collection,instance,publish_material
 random.seed(84)
-HOME=ROOT/'homes/timber-courtyard-02'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output-home',type=Path,help='Write an isolated review build instead of the current home.')
+parser.add_argument('--render',action='store_true')
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+HOME=args.output_home.resolve() if args.output_home else ROOT/'homes/timber-courtyard-02'
+(HOME/'model').mkdir(parents=True,exist_ok=True)
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 for c in list(bpy.data.collections):
     if c.name!='Collection':bpy.data.collections.remove(c)
@@ -81,25 +86,7 @@ for y in [8,20,32]:
     for x1,x2 in [(0,19),(43,62)]:beam('Wing exposed rafter',(x1,y,roof_height(x1)-.37),(x2,y,roof_height(x2)-.37),.28,.46,M['cedar'])
 for x in [19,43]:box('Courtyard cedar post',(x,8,6.3),(.32,.32,12.6),M['cedar'],.015)
 
-collection('03 Kitchen | shared assets')
-tile=linked_collection(ROOT,'materials','sage-fluted-tile')
-pendant=linked_collection(ROOT,'fixtures','opal-globe-pendant')
-stool=linked_collection(ROOT,'furniture','walnut-counter-stool')
-for x in [39.8,42.4,45,47.6,50.2]:
-    box('Rear walnut base',(x,46.3,1.5),(2.55,2.5,2.8),M['walnut'],.03)
-    for z in [.7,1.65,2.5]:box('Rear drawer front',(x,44.99,z),(2.5,.10,.7),M['walnut'],.016)
-box('Rear stone worktop',(45,46.3,3),(13.2,2.7,.18),M['stone'],.03)
-for row in range(2):
-    for col in range(50):instance('Shared sage backsplash',tile,(38.85+col*.25,47.59,3.62+row),math.pi)
-box('Kitchen island cabinet',(44.3,38.8,1.5),(3.6,7.2,2.8),M['walnut'],.035)
-box('Kitchen island stone',(44.1,38.8,3.03),(4.4,7.4,.22),M['stone'],.04)
-for y in [36.5,38.8,41.1]:instance('Shared walnut stool',stool,(40.85,y,0))
-instance('Shared globe over dining',pendant,(33.4,41,13.6))
-instance('Shared globe over island',pendant,(44,39,12.8))
-box('Integrated refrigerator',(52.3,46,4),(2.6,3.2,8),M['walnut'],.04)
-box('Induction hob',(47.7,46.25,3.13),(2.8,1.6,.04),M['black'],.02)
-box('Kitchen sink',(42.1,46.25,3.14),(2.3,1.5,.05),M['steel'],.15)
-rod('Kitchen tap',(42.1,47,3.1),(42.1,47,4.2),.04,M['steel'])
+# The coordinated kitchen is installed after the base architecture and lighting.
 
 collection('04 Furnishings | schematic interior')
 box('Dining table',(33.3,41,2.5),(6.8,3.4,.22),M['walnut'],.18)
@@ -170,6 +157,8 @@ area('Primary room glow',(55,10,8),(54,-1,4),160,6,(1,.70,.43))
 area('Guest room glow',(7,6,8),(7,-1,4),120,5,(1,.70,.43))
 from gallery import VIEWS as views
 cams={name:camera(name,*args) for name,args in views.items()}
+from kitchen import build_kitchen
+kitchen_pins=build_kitchen()
 s=bpy.context.scene;s.camera=cams['01 Reference exterior'];s.unit_settings.system='IMPERIAL';s.unit_settings.length_unit='FEET';s.unit_settings.scale_length=1
 s.render.engine='CYCLES';s.cycles.samples=96;s.cycles.use_denoising=True;s.cycles.max_bounces=8
 try:
@@ -179,7 +168,7 @@ try:
 except Exception as e:print('GPU_SETUP',e)
 s.render.resolution_x=1800;s.render.resolution_y=1200;s.render.resolution_percentage=100;s.render.image_settings.file_format='PNG'
 s.view_settings.view_transform='AgX';s.view_settings.look='AgX - Medium High Contrast';s.view_settings.exposure=-.7
-s['home_id']='timber-courtyard-02';s['gross_enclosed_area_sqft']=AREA;s['bedrooms']=3;s['bathrooms']=3;s['stage']='Exterior-led concept; interior schematic'
+s['home_id']='timber-courtyard-02';s['gross_enclosed_area_sqft']=AREA;s['bedrooms']=3;s['bathrooms']=3;s['stage']='Exterior-led concept; coordinated kitchen revision; remaining legacy program unresolved'
 for screen in bpy.data.screens:
     for ar in screen.areas:
         if ar.type=='VIEW_3D':ar.spaces.active.region_3d.view_perspective='CAMERA'
@@ -189,9 +178,17 @@ path=HOME/'model/timber-courtyard-02.blend';bpy.ops.wm.save_as_mainfile(filepath
 deps=['materials/sage-fluted-tile','fixtures/opal-globe-pendant','furniture/walnut-counter-stool','materials/warm-vertical-cedar','materials/charcoal-standing-seam']
 manifest={'schema_version':1,'id':'timber-courtyard-02','name':'Timber Courtyard 02','status':'exterior-led concept','units':'meters','display_units':'feet-inches','target_area_sqft':2400,'gross_enclosed_area_sqft':AREA,'area_basis':'62 x 48 ft outer footprint minus 24 x 24 ft courtyard; includes walls','bedrooms':3,'bathrooms':3,'reference_scope':'Exterior appearance only; interior may change','software':{'blender':bpy.app.version_string,'bonsai':'0.8.5'},'asset_dependencies':[{'id':i,'version':'v001','path':'../../library/'+i+'/v001/'} for i in deps],'deliverables':{'presentation_model':'model/timber-courtyard-02.blend','architectural_model':'model/timber-courtyard-02.ifc','primary_render':'outputs/images/01-exterior.png','floor_plan':'outputs/plans/floor-plan.svg','presentation_sheet':'outputs/plans/design-board.pdf'}}
 from gallery import RENDERS
+pins={i:'v001' for i in deps}|kitchen_pins
+# Include the native scene's transitive material/hardware links, too.
+for lib in bpy.data.libraries:
+    folder=Path(bpy.path.abspath(lib.filepath)).resolve().parent
+    asset_meta=json.loads((folder/'asset.json').read_text())
+    pins[asset_meta['id']]=asset_meta['version']
+import os
+manifest['asset_dependencies']=[{'id':i,'version':v,'path':os.path.relpath(ROOT/'library'/i/v,HOME)+'/'} for i,v in sorted(pins.items())]
 manifest['deliverables']['rendered_views']={slug:'outputs/images/'+slug+'.png' for slug in RENDERS}
 manifest['deliverables']['level_plans']=[{'level':'Ground floor','svg':'outputs/plans/floor-plan.svg','png':'outputs/plans/floor-plan.png','roof_off_model':'outputs/images/04-model-plan.png'}]
 (HOME/'project.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('TIMBER_MODEL_SAVED',len(s.objects),'objects',AREA,'sqft',flush=True)
-if '--render' in sys.argv:
+if args.render:
     s.render.filepath=str(HOME/'outputs/images/01-exterior.png');bpy.ops.render.render(write_still=True)

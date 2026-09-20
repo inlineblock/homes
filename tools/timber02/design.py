@@ -32,7 +32,7 @@ WALLS=[
  ('suite-services',(47,24),(62,24),[(2,3),(10,3)]),
  ('ensuite-closet',(55,24),(55,32),[]),
  ('suite-north',(47,32),(62,32),[]),
- ('pantry-west',(54,32),(54,48),[(4,3)]),
+ ('pantry-west',(54,32),(54,48),[(1.5,3)]),
 ]
 # Keep plaster partitions within the exterior timber skin.
 WALLS=[(name,(min(61.6,max(.4,a[0])),min(47.6,max(.4,a[1]))),(min(61.6,max(.4,b[0])),min(47.6,max(.4,b[1]))),opens) for name,a,b,opens in WALLS]

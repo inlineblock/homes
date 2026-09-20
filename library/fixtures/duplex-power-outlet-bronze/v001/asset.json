@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/duplex-power-outlet-bronze",
+  "version": "v001",
+  "name": "Original US-styled duplex outlet with satin bronze faceplate",
+  "units": "meters",
+  "dimensions_m": [
+    0.06985,
+    0.059,
+    0.1143
+  ],
+  "bounds_m": {
+    "min": [
+      -0.034925,
+      -0.009,
+      -0.05715
+    ],
+    "max": [
+      0.034925,
+      0.05,
+      0.05715
+    ]
+  },
+  "nominal_faceplate_m": [
+    0.06985,
+    0.0032,
+    0.1143
+  ],
+  "blender": {
+    "collection": "duplex-power-outlet-bronze | v001"
+  },
+  "placement": {
+    "origin": "Center of faceplate at finished wall plane Y=0",
+    "front": "-Y",
+    "up": "+Z",
+    "allowed_rotation": "Rotate 90 degrees about local Y for horizontal faceplate; preserves front and cavity axis",
+    "allowed_scaling": "None",
+    "mounting": "Recessed wall box; remove host finish and backing from required conceptual cavity"
+  },
+  "interfaces": {
+    "host_cutout_m": {
+      "width_x": 0.054,
+      "height_z": 0.098,
+      "depth_y": 0.052,
+      "center_xz": [
+        0,
+        0
+      ],
+      "starts_y": 0
+    },
+    "box_depth_m": 0.05,
+    "front_projection_m": 0.009,
+    "host_requirement": "Do not place into an uncut solid backsplash or cabinet. The opening and service depth rotate with the collection. Keep clear of framing, plumbing and concealed equipment.",
+    "horizontal_plate_width_m": 0.1143,
+    "horizontal_plate_height_m": 0.06985
+  },
+  "operating_envelope": {
+    "modeled_state": "Unplugged",
+    "geometry": "True blade and ground apertures, front plate openings and hollow rear box",
+    "plug_clearance": "Provide accessible space in front for selected plug body and cord bend; no plug or cable modeled",
+    "host_open_state_checked": false
+  },
+  "limitations": [
+    "Original visual power-location concept only: no voltage/current rating, wiring design, electrical listing, GFCI protection or code approval",
+    "Connection, wet-location protection, circuiting, box fill, mounting spacing and clearances are unselected",
+    "Host cavity and accessible plug/cord space require review"
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_kitchen_power_outlet.py",
+    "command": "Blender --factory-startup --background --python tools/library/build_kitchen_power_outlet.py -- build",
+    "basis": "User-requested nominal 2.75 by 4.5 inch plate. All other geometry original conceptual assumptions; not copied from manufacturer CAD."
+  },
+  "dependencies": [
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+      "usage": "Pinned linked bronze material only",
+      "material": "Hardware | satin-bronze.001"
+    }
+  ],
+  "files": {
+    "blender": "duplex-power-outlet-bronze.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry; attribution Homes project contributors",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

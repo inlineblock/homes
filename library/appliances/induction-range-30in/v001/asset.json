@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "appliances/induction-range-30in",
+  "version": "v001",
+  "name": "Original 30-inch induction range with single oven",
+  "units": "meters",
+  "dimensions_m": [
+    0.762,
+    0.749,
+    0.9535
+  ],
+  "bounds_m": {
+    "min": [
+      -0.381,
+      -0.4315,
+      0.0
+    ],
+    "max": [
+      0.381,
+      0.3175,
+      0.9535
+    ]
+  },
+  "nominal_body_dimensions_m": [
+    0.762,
+    0.635,
+    0.9144
+  ],
+  "description": "Generic freestanding or flush-counter slide-in concept: 4 induction zones, tactile controls, full-width single convection oven with two wire racks, glazed bottom-hinged door, lower storage drawer and rear oven vent. No branded product or performance claim.",
+  "collection": "ASSET_induction-range-30in_v001",
+  "placement": {
+    "origin": "Floor at center of nominal body footprint",
+    "front_direction": "-Y",
+    "up_axis": "+Z",
+    "mounting": "Level supported floor; adjacent worktop at 0.9144 m nominal. Low rear upstand reaches 0.9535 m.",
+    "allowed_scaling": "None: choose the dimensioned 30-inch or 36-inch option. Do not scale to fit."
+  },
+  "interfaces": {
+    "nominal_width_m": 0.762,
+    "worktop_height_m": 0.9144,
+    "host_opening_concept_m": [
+      0.768,
+      0.6604
+    ],
+    "rear_service_gap_concept_m": 0.0254,
+    "power": "Concept 240 V dedicated electric supply. Rating, circuit, disconnect and receptacle position require selected product and local design.",
+    "extraction": "Separate compatible hood and continuous route to exterior required in host; rear grille serves appliance oven, not room extraction.",
+    "anti_tip": "Host must coordinate listed anti-tip restraint and accessible service isolation with selected product."
+  },
+  "operation": {
+    "modeled_state": "Oven closed",
+    "hinge_object": "OVEN_DOOR_HINGE_rotate_X_90deg_to_open",
+    "hinge_axis": "Local +X",
+    "open_angle_degrees": 90,
+    "opening_basis": "Measured concept door geometry at 5-degree increments",
+    "swept_bounds_m": {
+      "min": [
+        -0.381,
+        -0.9215,
+        0.0
+      ],
+      "max": [
+        0.381,
+        0.3175,
+        0.9535
+      ]
+    },
+    "front_projection_beyond_body_open_m": 0.604,
+    "person_space_additional_concept_m": 0.6,
+    "host_open_state_checked": false,
+    "storage_drawer": "Closed fixed mesh; allow additional 0.40 m front travel, unvalidated concept assumption.",
+    "clearance_warning": "Envelope is geometry only; selected-product heat, combustible, service and user circulation clearances remain unverified."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "file": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "use": "Pinned linked metal, enamel, marking and glass materials",
+      "datablocks": [
+        "Original appliance brushed stainless",
+        "Original appliance graphite enamel",
+        "Original appliance etched control marks",
+        "Original appliance low-tint glass"
+      ]
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_induction_ranges.py",
+    "command": "Blender --background --python tools/library/build_induction_ranges.py -- --build",
+    "dimension_basis": "Original representative 30/36-inch range envelope; no manufacturer source used."
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors. Generator MIT.",
+  "files": {
+    "blender": "induction-range-30in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "review": {
+    "fresh_reopen": "passed; see validation.json",
+    "visual": "Passed: actual closed and 90-degree-open CPU previews inspected; cooktop zones, controls, horizontal handle, glazed door and hollow cavity/racks are visible. Host placement remains unchecked.",
+    "host_adoption": "Not yet adopted"
+  }
+}

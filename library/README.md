@@ -56,6 +56,15 @@ Original assets use CC BY 4.0 with attribution to Homes project contributors; ge
 
 These original editable appliances are shared across projects. The host home supplies appliance openings, accessible operating space, plumbing, electrical services and a continuous hood exhaust route. Nominal widths are given below; measured dimensions including handles are in each manifest.
 
+**[Explore the cooking and appliance gallery](appliances/README.md)** for integrated induction/gas/dual-fuel ranges, separate cooktops, single/double ovens, oven/speed-oven combinations and coordinated paneled appliances. Choose a range **or** a cooktop plus explicit oven; then coordinate extraction, services, landing space and real cabinet/pantry storage. Every linked option includes native sources and measured interfaces. Asset review does not establish installation fit in a home.
+
+| 36-inch induction range | 48-inch dual-fuel range | 30-inch double wall oven |
+| --- | --- | --- |
+| [![36-inch induction range with five zones and oven](appliances/induction-range-36in/v001/preview.png)](appliances/induction-range-36in/v001/asset.json) | [![48-inch dual-fuel range with two ovens](appliances/dual-fuel-range-48in/v001/preview.png)](appliances/dual-fuel-range-48in/v001/asset.json) | [![30-inch double wall oven](appliances/double-wall-oven-30in/v001/preview.png)](appliances/double-wall-oven-30in/v001/asset.json) |
+| One electric oven + induction surface | Six gas burners, electric griddle + two electric ovens | Two full cavities; tall housing and operating reach remain host decisions |
+
+Also available: [30-inch induction range](appliances/induction-range-30in/v001/asset.json), [36-inch gas range](appliances/gas-range-36in/v001/asset.json), [30-inch oven/speed-oven combination](appliances/oven-speed-oven-combo-30in/v001/asset.json), [30-inch induction cooktop](appliances/induction-cooktop-30in/v001/asset.json) and [36-inch gas cooktop](appliances/gas-cooktop-36in/v001/asset.json). The [full gallery](appliances/README.md) shows every option, its review status, and open/service views where modeled. Existing versions below remain available unchanged.
+
 | Integrated 48-inch oak refrigerator | 30-inch built-in oven | 36-inch wall hood |
 | --- | --- | --- |
 | [![Integrated oak refrigerator](appliances/panel-ready-fridge-48in/v001/preview.png)](appliances/panel-ready-fridge-48in/v001/asset.json) | [![Built-in oven](appliances/built-in-oven-30in/v001/preview.png)](appliances/built-in-oven-30in/v001/asset.json) | [![Wall hood](appliances/wall-hood-36in/v001/preview.png)](appliances/wall-hood-36in/v001/asset.json) |
@@ -69,6 +78,26 @@ These original editable appliances are shared across projects. The host home sup
 [![Closed-glass fireplace insert](fixtures/closed-glass-fireplace-48in/v001/preview.png)](fixtures/closed-glass-fireplace-48in/v001/asset.json)
 
 The original **48-inch closed-glass fireplace insert** has an unlit log bed and a conceptual flue collar. The home must provide a noncombustible surround and a continuous flue concept; selected fuel, listed equipment, hearth and clearance requirements are unresolved.
+
+### Smoked-oak kitchen storage and cleanup
+
+Five reusable cabinet modules and coordinated paneled appliances make actual storage, appliance openings and cleanup equipment available to each home. These are original concept assets with inspected native previews and fresh-reopen receipts. Closed-state cabinet and paneled-appliance previews do not prove operating clearance in a home.
+
+| 24-inch drawer base | 36-inch sink base | 36-inch oven housing |
+| --- | --- | --- |
+| [![Smoked-oak drawer base with bronze hardware](cabinetry/smoked-oak-drawer-base-2ft/v001/preview.png)](cabinetry/smoked-oak-drawer-base-2ft/v001/asset.json) | [![Smoked-oak sink base with plumbing space](cabinetry/smoked-oak-sink-base-36in/v001/preview.png)](cabinetry/smoked-oak-sink-base-36in/v001/asset.json) | [![Smoked-oak oven housing with actual opening](cabinetry/smoked-oak-oven-base-36in/v001/preview.png)](cabinetry/smoked-oak-oven-base-36in/v001/asset.json) |
+| Everyday utensils, dishes and cookware | Open service zone; host supplies cut worktop | Supported opening for the existing 30-inch oven; no opaque front over the appliance |
+
+| 18-inch waste pullout | 24-inch pantry shelf | Sink and mixer · v002 |
+| --- | --- | --- |
+| [![Smoked-oak waste pullout cabinet](cabinetry/smoked-oak-waste-pullout-18in/v001/preview.png)](cabinetry/smoked-oak-waste-pullout-18in/v001/asset.json) | [![Smoked-oak open pantry shelving](cabinetry/smoked-oak-pantry-shelf-2ft/v001/preview.png)](cabinetry/smoked-oak-pantry-shelf-2ft/v001/asset.json) | [![Shared kitchen sink and mixer](fixtures/kitchen-sink-mixer-650/v002/preview.png)](fixtures/kitchen-sink-mixer-650/v002/asset.json) |
+| Plan front travel and standing space | 24 × 12 × 84 in nominal; shallow accessible shelving | Corrected 664 × 464 mm concept cutout; unchanged parent geometry |
+
+| 48-inch paneled refrigerator | 24-inch paneled dishwasher |
+| --- | --- |
+| [![Smoked-oak wide refrigerator](appliances/smoked-oak-panel-ready-fridge-48in/v001/preview.png)](appliances/smoked-oak-panel-ready-fridge-48in/v001/asset.json) | [![Smoked-oak integrated dishwasher](appliances/smoked-oak-panel-ready-dishwasher-24in/v001/preview.png)](appliances/smoked-oak-panel-ready-dishwasher-24in/v001/asset.json) |
+
+Cabinet bodies use floor-center origins and front −Y. Bronze pulls project beyond nominal case depth; hosts supply a continuous worktop with real appliance/sink cutouts. The sink v002 manifest corrects the cutout allowance while preserving v001. Read each exact version's dimensions and operating assumptions; do not treat nominal cabinet width as an appliance opening. [Selection and contribution workflow](../docs/assets.md).
 
 ## Bathroom sanitation fixture
 
@@ -95,6 +124,12 @@ The shared elongated toilet has a continuous floor-mounted ceramic pedestal, a h
 | [![Downlight](fixtures/lighting-recessed-downlight-3in/v001/preview.png)](fixtures/lighting-recessed-downlight-3in/v001/asset.json) | [![Task strip](fixtures/lighting-undercabinet-bar-4ft/v001/preview.png)](fixtures/lighting-undercabinet-bar-4ft/v001/asset.json) | [![Linear pendant](fixtures/lighting-linear-pendant-4ft/v001/preview.png)](fixtures/lighting-linear-pendant-4ft/v001/asset.json) |
 
 The recessed fixture needs a real ceiling opening and service cavity. Hosts choose actual lamp power/controls; these are original visual concepts without rated photometry. [Placement guidance](../tools/library/lighting.md).
+
+| Satin-bronze duplex power outlet |
+| --- |
+| [![Satin-bronze duplex outlet with ivory receptacles and actual plug apertures](fixtures/duplex-power-outlet-bronze/v001/preview.png)](fixtures/duplex-power-outlet-bronze/v001/asset.json) |
+
+The original [duplex outlet v001](fixtures/duplex-power-outlet-bronze/v001/asset.json) has a 2.75 × 4.5 inch faceplate, actual blade/ground apertures and a hollow recessed box. Its origin is at the finished wall plane, facing −Y; a horizontal placement rotates the plate and required cavity together. [Fresh native and preview review](fixtures/duplex-power-outlet-bronze/v001/validation.json) verifies the isolated asset. Hosts must create the actual opening and reserve accessible plug/cord space, especially at kitchen and pantry appliance worktops. This visual location concept supplies no electrical rating, listing, protection specification or code approval.
 
 [Reuse, adapt and contribute](../docs/assets.md) explains how to preserve adopted versions, record derivation, publish reviewed variations and explicitly adopt them in a home.
 

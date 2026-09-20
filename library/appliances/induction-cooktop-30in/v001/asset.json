@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "appliances/induction-cooktop-30in",
+  "version": "v001",
+  "name": "Original induction cooktop 30in",
+  "units": "meters",
+  "dimensions_m": [
+    0.7620000243186951,
+    0.5333999991416931,
+    0.075250003952533
+  ],
+  "bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.26669999957084656,
+      -0.06800000369548798
+    ],
+    "max": [
+      0.38100001215934753,
+      0.26669999957084656,
+      0.007250000257045031
+    ]
+  },
+  "blender": {
+    "collection": "induction-cooktop-30in | v001"
+  },
+  "placement": {
+    "origin": "XY center of overall flange at countertop support plane Z=0",
+    "front_direction": "-Y",
+    "up": "+Z",
+    "allowed_scaling": "Rigid placement and rotation only. Do not scale an appliance to fit a cabinet."
+  },
+  "installation": {
+    "overall_flange_m": [
+      0.762,
+      0.5334
+    ],
+    "countertop_cutout_concept_m": [
+      0.724,
+      0.494
+    ],
+    "cutout_center_m": [
+      0,
+      0
+    ],
+    "cutout_corner_radius_concept_m": 0.006,
+    "cutout_basis": "Original concept allowance; select actual appliance and verify its installation template before fabrication. Not a manufacturer dimension.",
+    "mounting": "Drop into separate host countertop cutout; continuous flange support/gasket at Z=0. No opaque countertop or cabinet geometry through the casing.",
+    "underbody_clear_depth_from_counter_m": 0.1,
+    "underside_service_access_m": 0.2,
+    "rear_and_side_heat_clearance": "Unspecified until selected product, backsplash material and hood are coordinated; no zero-clearance claim.",
+    "services": [
+      "Dedicated correctly rated electrical circuit, accessible junction and unobstructed cooling airflow; voltage/current unselected.",
+      "Separate overhead extraction with actual duct route and product-specific mounting height; no downdraft fan implied.",
+      "No oven is included. Coordinate separate wall oven or an explicitly compatible under-counter oven without blocking cooling/services."
+    ],
+    "operating_envelope": {
+      "modeled_state": "Off, fixed installation",
+      "clear_working_space_front_m": 1.067,
+      "basis": "Concept planning allowance only; selected product and household determine final arrangement.",
+      "host_open_state_checked": false
+    },
+    "host_integration_checked": false
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original derivative",
+    "generator": "tools/library/build_cooktop_options.py",
+    "command": "Blender --background --python tools/library/build_cooktop_options.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and materials. Attribution required. Generic concept, not a commercial product or certified installation.",
+  "files": {
+    "blender": "induction-cooktop-30in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "service_preview": "service-preview.png"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "derived_from": {
+    "id": "appliances/induction-cooktop-36in",
+    "version": "v001",
+    "path": "../../induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+    "source_sha256": "7d21dd9ab4d086e30b783027c6f7426fe43f7823e90805780a3e481296d87e3a",
+    "method": "Append actual published collection, preserve ceramic surface and enclosure meshes/materials, rebuild to 30in nominal flange dimensions and 4-zone arrangement. All published source files unchanged.",
+    "changes": "Distinct 30in option; neutral black ceramic finish, four circular heating zones, independent sliders, power icon, gasket, ventilation fins and electric service cover. New cutout and mounting plane recorded explicitly."
+  }
+}

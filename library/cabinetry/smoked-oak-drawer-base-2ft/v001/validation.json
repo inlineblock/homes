@@ -1,0 +1,24 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "floor_contact": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "wood_meshes_with_meter_uv": 7,
+  "host_installation_checked": false,
+  "interface_check": "Open top and cabinet cavity reviewed against documented component envelope; host integration remains separate.",
+  "preview_rendered": true,
+  "visual_review": {
+    "actual_preview_inspected": true,
+    "preview_sha256": "9bd8a106283bd287e5272148dd9056c7581fd2a05157c6dd3853ec5bb79f91de",
+    "findings": "Grounded plinth, thin cabinet panels, readable front reveals, aligned timber grain and unobstructed open top/cavity. Pantry shelving and bronze hardware visible as appropriate. Host review remains separate."
+  },
+  "native_sha256": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb",
+  "preview_sha256": {
+    "preview.png": "9bd8a106283bd287e5272148dd9056c7581fd2a05157c6dd3853ec5bb79f91de"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "floor_contact": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_m": [
+    0.9143999814987183,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "wood_meshes_with_meter_uv": 8,
+  "host_installation_checked": false,
+  "interface_check": "Open top and cabinet cavity reviewed against documented component envelope; host integration remains separate.",
+  "preview_rendered": true,
+  "isolated_component_fit": {
+    "id": "fixtures/kitchen-sink-mixer-650",
+    "version": "v002",
+    "origin_m": [
+      0.0,
+      -0.029999999329447746,
+      0.9093199968338013
+    ],
+    "mesh_aabb_intersections": [],
+    "basis": "Actual linked mesh bounds versus cabinet mesh bounds; no operating motion, countertop or house integration included."
+  },
+  "visual_review": {
+    "actual_preview_inspected": true,
+    "preview_sha256": "b501262089ac2ac9ac2c42045b8dc91f75a55643c5bb26aa6c1f643714433859",
+    "findings": "Grounded plinth, thin cabinet panels, readable front reveals, aligned timber grain and unobstructed open top/cavity. Pantry shelving and bronze hardware visible as appropriate. Host review remains separate."
+  },
+  "native_sha256": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c",
+  "preview_sha256": {
+    "preview.png": "b501262089ac2ac9ac2c42045b8dc91f75a55643c5bb26aa6c1f643714433859"
+  }
+}

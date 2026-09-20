@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+  "version": "v001",
+  "name": "Original smoked-oak integrated 24-inch dishwasher",
+  "units": "meters",
+  "dimensions_m": [
+    0.6019799709320068,
+    0.6665976047515869,
+    0.8610600233078003
+  ],
+  "bounds_m": {
+    "min": [
+      -0.3009899854660034,
+      -0.36179760098457336,
+      0.0
+    ],
+    "max": [
+      0.3009899854660034,
+      0.30480000376701355,
+      0.8610600233078003
+    ]
+  },
+  "blender": {
+    "collection": "smoked-oak-panel-ready-dishwasher-24in | v001"
+  },
+  "placement": {
+    "origin": "Floor center, local Z=0",
+    "front_direction": "-Y",
+    "up": "+Z",
+    "allowed_scaling": "Rigid translation/rotation only; no appliance scaling"
+  },
+  "nominal_size_inches": [
+    24,
+    24,
+    34
+  ],
+  "installation": {
+    "mounting": "Level floor, host anti-tip restraint and selected manufacturer installation required",
+    "clear_opening_concept_m": [
+      0.6096,
+      0.635,
+      0.875
+    ],
+    "opening_note": "Clear opening excludes projecting pulls; actual selected product determines gaps and ventilation.",
+    "countertop_note": "Counter underside at least .875m concept height; countertop spans opening with support supplied by host. No cabinet carcass or drawer front occupies this bay.",
+    "operating_envelope": {
+      "modeled_state": "Closed integrated drop-down door; hidden top-edge controls",
+      "motion": "Bottom hinged panel, 90-degree opening, approximately 0.759m leaf length.",
+      "hinge_axis_m": {
+        "start": [
+          -0.301,
+          -0.31,
+          0.101
+        ],
+        "end": [
+          0.301,
+          -0.31,
+          0.101
+        ]
+      },
+      "door_sweep_bounds_m": {
+        "min": [
+          -0.305,
+          -1.13,
+          0.04
+        ],
+        "max": [
+          0.305,
+          -0.285,
+          0.865
+        ]
+      },
+      "front_clear_from_closed_face_m": 0.82,
+      "service_front_clear_m": 1.0,
+      "basis": "Conservative rounded concept envelope includes handle and door thickness; actual hinge/slide mechanism unselected.",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Adjacent sink water, drain and electrical service; access without trapping hoses or blocking toe-kick removal."
+    ],
+    "host_integration_checked": false
+  },
+  "derived_from": {
+    "id": "appliances/dishwasher-24in",
+    "version": "v001",
+    "path": "../../dishwasher-24in/v001/dishwasher-24in.blend",
+    "method": "Append the actual published collection; retain physical size and origin.",
+    "changes": "Retain original enclosure/toe kick; remove stainless face, exposed controls and pull. Add separated smoked-oak panel, hidden top controls and satin bronze pull without altering standard enclosure size."
+  },
+  "dependencies": [
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../../materials/smoked-oak/v001/smoked-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original derivative",
+    "generator": "tools/library/build_timber_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_timber_kitchen_appliances.py",
+    "upstream_generator": "tools/common/appliances.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original concept geometry and materials by Homes project contributors; retain attribution. No manufacturer model or certified installation claim.",
+  "files": {
+    "blender": "smoked-oak-panel-ready-dishwasher-24in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Original visualization appliance, closed-state modeled only. Operating envelopes are concept allowances, not manufacturer or code approval; host must verify actual open state and services."
+}

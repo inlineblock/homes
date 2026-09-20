@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "software": "4.5.14 LTS",
+  "checks": [
+    "Fresh Blender native reopening",
+    "Measured closed bounds match manifest",
+    "Mesh scale unity",
+    "Pinned relative material dependency exists",
+    "90-degree door opens forward above floor"
+  ],
+  "closed_bounds_m": {
+    "min": [
+      -0.4572,
+      -0.4315,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.3175,
+      0.9535
+    ]
+  },
+  "dimensions_m": [
+    0.9144,
+    0.749,
+    0.9535
+  ],
+  "open_bounds_m": {
+    "min": [
+      -0.4572,
+      -0.9215,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.3175,
+      0.9535
+    ]
+  },
+  "relative_libraries": [
+    "//../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+  ],
+  "asset_mesh_count": 142,
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed",
+    "images": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Distinct cooking zones and front controls visible",
+      "Horizontal pull remains attached to hinged glazed door",
+      "Open door exposes hollow cavity and two wire racks",
+      "Open door remains above floor"
+    ],
+    "host_integration_checked": false
+  },
+  "native_sha256": "0c70c08e8993f8adc0ef1aabd720dfd2b1e2c06dbe4d692ea5663deb264df1e6",
+  "preview_sha256": {
+    "preview.png": "0dbfdd536ed5cb2b36fb9167e73f2cc575151aebbf0cf3440d053734683bb101",
+    "preview-open.png": "fb05b92da41b8057a9e1d49895e1ebb4ac96ede2e7fe630c1f3c1e87a8dd6390"
+  }
+}

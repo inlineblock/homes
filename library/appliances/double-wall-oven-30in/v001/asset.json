@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "appliances/double-wall-oven-30in",
+  "version": "v001",
+  "name": "Original 30-inch double wall oven",
+  "units": "meters",
+  "dimensions_m": [
+    0.762,
+    0.7159,
+    1.4224
+  ],
+  "bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.4174500107765198,
+      0.0
+    ],
+    "max": [
+      0.38100001215934753,
+      0.2984500229358673,
+      1.4223999977111816
+    ]
+  },
+  "placement": {
+    "origin": "Bottom center of appliance body at Z=0; body centered about X=0,Y=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid translation and rotation about Z only; never scale a standard-size appliance."
+  },
+  "nominal_dimensions_inches": {
+    "face_width": 30,
+    "body_width": 28.5,
+    "body_depth": 23.5,
+    "overall_height": 56.00000000000001
+  },
+  "installation": {
+    "basis": "Original generic concept geometry, not a manufacturer specification or code minimum. No commercial product selected.",
+    "body_dimensions_m": [
+      0.7239,
+      0.5969,
+      1.4104
+    ],
+    "face_width_m": 0.762,
+    "face_plane_y_m": -0.29845,
+    "concept_cabinet_opening_m": [
+      0.73,
+      1.4184,
+      0.625
+    ],
+    "opening_axis_order": "width X, height Z, clear depth Y; reserve at least this concept envelope pending selected appliance instructions",
+    "cabinet_front_y_m": -0.29845,
+    "opening_bottom_z_m": 0.002,
+    "support_platform_z_m": 0.006,
+    "mounting": "Support both ovens on a continuous structurally sized cabinet platform. Keep cavity clear behind fronts; side flanges overlap opening. Provide removable fixing points; brackets/load rating not engineered.",
+    "ventilation": "Preserve visible front ventilation slots. Real cooling airflow, rear clearances and heat separation remain manufacturer-specific.",
+    "electrical": "Reserve accessible rear connection/service space; dedicated circuits, voltage, conductor size and load must follow selected equipment. This model does not specify wattage or circuitry.",
+    "operating_envelope": {
+      "modeled_state": "Both doors closed; separate bottom-hinge empties permit +90 degrees about local X",
+      "angle_degrees": 90,
+      "measurement": "Fresh-process validation.json measures both doors open and samples 0-90 degree swept bounds at five-degree increments",
+      "reserve_operator_depth_beyond_open_door_m": 0.6,
+      "host_open_state_checked": false,
+      "reserve_below_origin_front_clearance_m": 0.045
+    },
+    "service": "Entire column removes toward -Y. Reserve clear frontal replacement route and support access; host height, operator reach and passage with doors open must be checked separately."
+  },
+  "derived_from": {
+    "id": "appliances/built-in-oven-30in",
+    "version": "v001",
+    "source_sha256": "4eb8322faac8c525989c955670cc1b6acf208aa0cf207fc047d3810c58f41935",
+    "method": "Original sibling geometry adapts the real parent hollow-cavity, rack and stainless/glass design; adds two compartments, mounting flange interfaces and articulated doors. Not a scaled or linked duplicate.",
+    "changed_interfaces": "56-inch double column or 47-inch full/compact column; 28.5-inch body behind 30-inch flange; compact compartment is a new original concept."
+  },
+  "dependencies": [],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_wall_oven_options.py",
+    "software": "4.5.14 LTS",
+    "command": "Blender --background --python tools/library/build_wall_oven_options.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry; attribution Homes project contributors. Derived from the project original 30-inch built-in oven.",
+  "files": {
+    "blender": "double-wall-oven-30in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "limitations": [
+    "No tested thermal, electromagnetic, electrical or structural performance.",
+    "Compact speed-oven window grid is illustrative geometry, not certified microwave shielding.",
+    "Isolated asset checks do not establish usable host installation."
+  ],
+  "blender": {
+    "collection": "Original 30-inch double wall oven"
+  }
+}

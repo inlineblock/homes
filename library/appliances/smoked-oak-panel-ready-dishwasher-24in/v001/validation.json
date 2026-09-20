@@ -1,0 +1,50 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_collection_link": true,
+  "relative_material_dependencies_resolve": true,
+  "evaluated_dimensions_m": [
+    0.6019799709320068,
+    0.6665976047515869,
+    0.8610600233078003
+  ],
+  "evaluated_bounds_m": {
+    "min": [
+      -0.3009899854660034,
+      -0.36179760098457336,
+      0.0
+    ],
+    "max": [
+      0.3009899854660034,
+      0.30480000376701355,
+      0.8610600233078003
+    ]
+  },
+  "object_count": 10,
+  "meter_grain_uv_objects": 1,
+  "floor_origin_checked": true,
+  "dishwasher_panel_to_enclosure_gap_m": 0.010210812091827393,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 32,
+    "size_px": [
+      640,
+      720
+    ],
+    "view_transform": "AgX"
+  },
+  "host_integration_checked": false,
+  "operating_state_geometry_checked": false,
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "visual_review": {
+    "reviewed": true,
+    "method": "Inspected actual generated native CPU preview",
+    "findings": "Consistent warm smoked-oak grain, satin bronze pulls, clean door reveals and recessed lower grille or toe kick. Isolated closed-state concept review only."
+  },
+  "native_sha256": "5263065a4cf6b4cf06f1ccd40e35e7d7a9ae4de2e6af41e8fd0dfd7ba9d5ff69",
+  "preview_sha256": {
+    "preview.png": "b5dc13c7416dc499bdbacbb83b22cf79b3962b8864ff23a283d0070587b98a35"
+  }
+}

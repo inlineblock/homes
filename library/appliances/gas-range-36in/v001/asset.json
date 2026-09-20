@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "appliances/gas-range-36in",
+  "version": "v001",
+  "name": "36-inch gas range \u2014 six burners, single oven",
+  "units": "meters",
+  "dimensions_m": [
+    0.9144,
+    0.794,
+    0.9515
+  ],
+  "bounds_m": {
+    "min": [
+      -0.4572,
+      -0.443,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.351,
+      0.9515
+    ]
+  },
+  "nominal_case_m": {
+    "width": 0.9144,
+    "depth": 0.7,
+    "cooktop_tray_height": 0.8855,
+    "pot_support_height": 0.9515
+  },
+  "blender": {
+    "collection": "gas-range-36in | v001"
+  },
+  "placement": {
+    "origin": "Floor-center XY, Z=0 at foot bottoms",
+    "front": "-Y",
+    "up": "+Z",
+    "mounting": "Freestanding level floor; side panels do not replace a cabinet opening",
+    "allowed_scaling": "None; create a new dimensional variant instead"
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed native source; open-preview renders hinged doors at +90 degrees around X",
+    "opening_basis": "Measured original concept geometry, not manufacturer clearance",
+    "door_angle_degrees": 90,
+    "open_bounds_m": {
+      "min": [
+        -0.4572,
+        -0.9115,
+        0.0
+      ],
+      "max": [
+        0.4572,
+        0.351,
+        0.9515
+      ]
+    },
+    "front_clearance_from_case_m": 0.5615,
+    "required_host_checks": [
+      "Door swing and handle sweep",
+      "Usable passage with oven door open",
+      "Landing counters on both sides",
+      "No carcass or drawer obscuring cavities"
+    ],
+    "host_open_state_checked": false,
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.4572,
+        -0.913252,
+        0.0
+      ],
+      "max": [
+        0.4572,
+        0.351,
+        0.9515
+      ]
+    },
+    "sweep_basis": "Door hinges sampled every 2 degrees from 0 to 90, unioned with fixed case; 1 mm front padding exceeds angular sampling error. Add operating-person space separately."
+  },
+  "installation": {
+    "concept_only": true,
+    "suggested_rough_opening_width_m": 0.9264,
+    "rear_service_reserve_m": 0.06,
+    "service_access": "Pull-out access after safe isolation; provide selected-product shutoffs and receptacles outside hot/obstructed zones",
+    "fuel": "Gas cooking surface and gas oven; electrical ignition and light assumption",
+    "electrical": "Supply rating, dedicated circuit and connection unselected; actual product determines requirements",
+    "ventilation": "Externally ducted capture hood concept required; width, height, airflow, make-up air and combustion compatibility remain unselected",
+    "heat_clearances": "No certified combustible clearances; coordinate exact listed appliance, hood, backsplash and adjacent tall cabinetry",
+    "anti_tip": "Host must provide the selected product anti-tip restraint; not certified or modeled here"
+  },
+  "design_basis": {
+    "kind": "Original nominal-size concept",
+    "dimensions_basis": "36 or 48 inch nominal width converted at 0.0254 meters/inch. All other geometry authored as an original visualization assumption; no manufacturer product copied.",
+    "commercial_specification": false
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_pro_ranges.py",
+    "command": "Blender --background --python tools/library/build_pro_ranges.py -- build --slug gas-range-36in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original geometry by Homes project contributors; attribution Homes project contributors",
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "usage": "Pinned linked steel, graphite (also used for gaskets), glass and marks materials; no object geometry copied"
+    }
+  ],
+  "files": {
+    "blender": "gas-range-36in.blend",
+    "preview": "preview.png",
+    "open_preview": "open-preview.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "No certification, installation drawing, thermal performance or appliance recommendation",
+    "Control markings illustrative; no branded interface",
+    "Preview is asset-only; host installation and circulation not checked"
+  ]
+}

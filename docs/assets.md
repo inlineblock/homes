@@ -39,3 +39,7 @@ Coastal and Mountain now adopt shared planting, paving and storage collections i
 For a cabinet, appliance or moving fixture, record the modeled state, intended open angle or travel, clearance envelope dimensions/origin, the basis of those values, and the host check. For example, an original cabinet may record `state: closed`, `opening_basis: concept door geometry`, and `host_open_state_checked: false` until its swept volume is actually checked. A closed preview is not evidence that doors open in the room. Manufacturer clearances should identify the exact product/manual rather than inherit an unrelated generic asset's assumptions.
 
 If a requested parent asset does not exist, say so. Derive from the nearest suitable real source or create a new original asset, and record the true provenance; never claim an unavailable source size/version was cloned.
+
+### Explicit native collection selection
+
+When a native asset file also contains a preview studio, declare the reusable collection in `asset.json` under `blender.collection` (or the existing top-level `collection` convention). Host tools must select that name rather than the first collection returned by Blender; the first may be a studio wall, light or camera. `common.library.linked_collection` honors the declaration and rejects ambiguous legacy files. A preview studio must never become part of the installed fixture.

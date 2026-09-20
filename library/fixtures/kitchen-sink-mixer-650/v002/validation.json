@@ -1,0 +1,44 @@
+{
+  "fresh_link": true,
+  "geometry_identical_to_v001": true,
+  "geometry_signature_sha256": "d9e7189ca8fd9d009fd40d448a6ccf11a72d2d85190891d5bdcaa5bd2fa45ed7",
+  "measured_outer_bowl_bounds_m": {
+    "min": [
+      -0.3269999921321869,
+      -0.22699999809265137,
+      -0.21800000965595245
+    ],
+    "max": [
+      0.3269999921321869,
+      0.22699999809265137,
+      0.0
+    ]
+  },
+  "measured_outer_bowl_dimensions_m": [
+    0.6539999842643738,
+    0.45399999618530273,
+    0.21800000965595245
+  ],
+  "countertop_cutout_m": [
+    0.664,
+    0.464
+  ],
+  "cutout_allowance_per_side_m": [
+    0.005,
+    0.005
+  ],
+  "measurement_objects": [
+    "Stainless sink bowl bottom",
+    "Sink end",
+    "Sink end.001",
+    "Sink side",
+    "Sink side.001"
+  ],
+  "preview": "Copied actual v001 native preview because all geometry and materials are unchanged.",
+  "host_installation_checked": false,
+  "manufacturer_specification": false,
+  "native_sha256": "3335b5ed6ae652446300e01555328d2e21d6ae81b7f4471f79f941bffde28f20",
+  "preview_sha256": {
+    "preview.png": "d816af244e61e68983112263b49253a16a7287584bf3ae03cb6e557a29467e6d"
+  }
+}

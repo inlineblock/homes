@@ -1,0 +1,95 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "source_sha256": "cec75d67ca8dfcacf54569261fe74ef5783075b6e72f58e06ef22e22e8e0b6a6",
+  "dimensions_m": [
+    0.762,
+    0.7159,
+    1.1938
+  ],
+  "origin_bottom_z_zero": true,
+  "front_direction": "-Y",
+  "objects": 249,
+  "dependencies": "No external files; all materials original and embedded",
+  "hollow_cavity_rays": [
+    {
+      "origin_m": [
+        0.1899999976158142,
+        -0.27000001072883606,
+        0.33160001039505005
+      ],
+      "first_hit": "Lower full oven insulated back",
+      "hit_y_m": 0.2584500312805176
+    },
+    {
+      "origin_m": [
+        0.1899999976158142,
+        -0.27000001072883606,
+        0.9284999966621399
+      ],
+      "first_hit": "Upper compact speed oven insulated back",
+      "hit_y_m": 0.2584499716758728
+    }
+  ],
+  "measured_body_dimensions_m": [
+    0.7239000201225281,
+    0.5969000160694122,
+    1.1818000487983227
+  ],
+  "door_hinges": 2,
+  "door_open_degrees": 90,
+  "door_open_bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.8696500062942505,
+      -0.03900003060698509
+    ],
+    "max": [
+      0.38100001215934753,
+      0.2984500229358673,
+      1.1937999725341797
+    ]
+  },
+  "sampled_swept_bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.8698435425758362,
+      -0.03900003060698509
+    ],
+    "max": [
+      0.38100001215934753,
+      0.2984500229358673,
+      1.1937999725341797
+    ]
+  },
+  "swept_sample_step_degrees": 5,
+  "required_front_projection_from_cabinet_m": 0.571394,
+  "operator_reservation_beyond_swing_m": 0.6,
+  "host_installation_checked": false,
+  "visual_review": {
+    "status": "reviewed_isolated_asset",
+    "views": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Both closed doors are aligned and show distinct controls, pulls, flange and ventilation detailing.",
+      "Open doors expose real recessed cavities, rack rails and rear convection grilles.",
+      "Both lower door pulls remain fully visible above the studio floor; no cropped or buried open geometry."
+    ],
+    "host_installation_checked": false,
+    "defects_fixed": [
+      "Reduced excessive bright glass reflection and denoising artifacts with restrained tint and 48-sample CPU renders.",
+      "Reframed the open-door view to include complete lower door and handle.",
+      "Raised the studio support to show the handle below-origin sweep without clipping it into the floor.",
+      "Replaced visually coarse bright window grid with fine dark illustrative mesh."
+    ],
+    "native_and_preview_hashes_rechecked": true
+  },
+  "preview_cpu_samples": 48,
+  "preview_sha256": {
+    "preview.png": "cec24c1bc8c99f8ddf024776f3bd8b863528c02da4dcd40e22eb5bbb548a7152",
+    "preview-open.png": "48bc40c8b4af553549beb15ddf7fb99c5089e7b2a0b27d9233ac85d231bc63e2"
+  },
+  "native_sha256": "cec75d67ca8dfcacf54569261fe74ef5783075b6e72f58e06ef22e22e8e0b6a6"
+}

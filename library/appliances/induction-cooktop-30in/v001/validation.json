@@ -1,0 +1,39 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_collection_link": true,
+  "evaluated_dimensions_m": [
+    0.7620000243186951,
+    0.5333999991416931,
+    0.075250003952533
+  ],
+  "evaluated_bounds_m": {
+    "min": [
+      -0.38100001215934753,
+      -0.26669999957084656,
+      -0.06800000369548798
+    ],
+    "max": [
+      0.38100001215934753,
+      0.26669999957084656,
+      0.007250000257045031
+    ]
+  },
+  "object_count": 75,
+  "unit_scale_checked": true,
+  "counter_mount_origin_checked": true,
+  "relative_dependencies": "No runtime external dependencies; induction source provenance hash verified.",
+  "preview_rendered": true,
+  "preview_visually_reviewed": true,
+  "host_integration_checked": false,
+  "native_sha256": "19d13072a69a5b42011b8438582332652fa566500ddb1c764a1dc4b02ede9f99",
+  "software": "4.5.14 LTS",
+  "reviewed_views": [
+    "preview.png",
+    "service-preview.png"
+  ],
+  "visual_review_notes": "Native top and underside views inspected: flange/counter support is legible, cooking elements and controls are distinct, service casing and connections are modeled. Temporary preview countertop has actual cutout, no opaque slab through the casing. Asset ready for host-specific placement review; no host integration claimed.",
+  "preview_sha256": {
+    "preview.png": "8919009c68885d28e6418156af655ceceabdb1555141d20672290dab25ea0dd3",
+    "service-preview.png": "7914a9f80b7f9747f2a90f71fa9b899a45dd63ab8bef598aa240dfde18ebb2d2"
+  }
+}

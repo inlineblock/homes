@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/smoked-oak-pantry-shelf-2ft",
+  "version": "v001",
+  "name": "Smoked oak pantry shelf 2ft",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.30480000376701355,
+    2.1335999965667725
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.15240000188350677,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.15240000188350677,
+      2.1335999965667725
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.6096,
+    0.3048,
+    2.1336
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-centered open shelf module, 24in wide x12in deep x84in high. Front -Y. Floor plinth reaches Z=0. Attach rear fixing plates to verified wall backing; model plates do not establish capacity.",
+    "operating_envelope": {
+      "modeled_state": "Open shelving; no doors",
+      "basis": "Original concept geometry and conservative planning allowance; no manufacturer selected",
+      "host_open_state_checked": false,
+      "reserve_front_operator_depth_m": 0.8,
+      "reserve_front_depth_m": 0.8
+    },
+    "service_requirements": [
+      "Host supplies countertop, wall fixing, selected product tolerances and access; these are concept modules, not construction specifications.",
+      "Reserve wall attachment access and confirm shelf loads and anti-tip anchorage. Shelf clear depths approximately278mm suit food storage and small items; deep countertop appliances require separate deeper storage.",
+      "Shelf intervals are approximately350-400mm clear; the model has concept adjustable supports, not a rated commercial system."
+    ],
+    "shelf_top_elevations_m": [
+      0.139,
+      0.509,
+      0.909,
+      1.309,
+      1.709,
+      2.1336
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../../materials/smoked-oak/v001/smoked-oak.blend"
+    }
+  ],
+  "derived_from": null,
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_timber_kitchen_cabinets.py",
+    "primitives": "tools/common/geometry.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "smoked-oak-pantry-shelf-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "smoked-oak-pantry-shelf-2ft"
+  }
+}

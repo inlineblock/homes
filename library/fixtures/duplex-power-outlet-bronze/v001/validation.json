@@ -1,0 +1,40 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "duplex-power-outlet-bronze | v001",
+  "bounds_m": {
+    "min": [
+      -0.034925,
+      -0.009,
+      -0.05715
+    ],
+    "max": [
+      0.034925,
+      0.05,
+      0.05715
+    ]
+  },
+  "object_count": 13,
+  "relative_dependencies": [
+    {
+      "path": "//../../../hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+      "relative": true,
+      "exists": true
+    }
+  ],
+  "host_cavity_checked": false,
+  "visual_review": {
+    "status": "passed_native_preview_inspection",
+    "findings": [
+      "Full satin bronze plate and center screw visible",
+      "Two warm ivory receptacles with actual polarized blade and ground apertures",
+      "Plate borders continuous and unbroken",
+      "No branding or rating invented"
+    ],
+    "preview_sha256": "f086fb39b3bc60b3598ecce1021639c2fdc9bf32ba59e6d40d637318f22e10f7"
+  },
+  "native_sha256": "5fa9c1108e9e12eaf298009983266c2c6f23589d4d6980389add1b1da9e5e379",
+  "preview_sha256": {
+    "preview.png": "f086fb39b3bc60b3598ecce1021639c2fdc9bf32ba59e6d40d637318f22e10f7"
+  }
+}

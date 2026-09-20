@@ -1,0 +1,76 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "gas-range-36in | v001",
+  "object_count": 272,
+  "closed_bounds_m": {
+    "min": [
+      -0.4572,
+      -0.443,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.351,
+      0.9515
+    ]
+  },
+  "open_bounds_m": {
+    "min": [
+      -0.4572,
+      -0.9115,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.351,
+      0.9515
+    ]
+  },
+  "conservative_swept_bounds_m": {
+    "min": [
+      -0.4572,
+      -0.913252,
+      0.0
+    ],
+    "max": [
+      0.4572,
+      0.351,
+      0.9515
+    ]
+  },
+  "oven_cavities": 1,
+  "door_rotation_checked_degrees": 90,
+  "relative_dependencies": [
+    {
+      "path": "//../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "relative": true,
+      "exists": true
+    }
+  ],
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed_asset_preview_review",
+    "images": [
+      "preview.png",
+      "open-preview.png"
+    ],
+    "findings": [
+      "Full appliance framed in closed and open views",
+      "Six burner caps, grates and control row visible",
+      "Actual cavity and two rack levels visible per oven",
+      "Hinged doors clear the cavity without a solid front block",
+      "No host installation tested"
+    ],
+    "image_sha256": {
+      "preview.png": "51555f468025460741c48b1d9ff5ba4d91dcabe5ac1bef3910e97017a3090732",
+      "open-preview.png": "c3efa04ca4c6a42d7fc6349c4a6770975bb480021ab6a0f2e928557db57b5787"
+    }
+  },
+  "source_sha256": "acb6971cbf19fc0d40f3ed80d55b21de8b304e7fca051ae5ef384fef558242e0",
+  "native_sha256": "acb6971cbf19fc0d40f3ed80d55b21de8b304e7fca051ae5ef384fef558242e0",
+  "preview_sha256": {
+    "preview.png": "51555f468025460741c48b1d9ff5ba4d91dcabe5ac1bef3910e97017a3090732",
+    "open-preview.png": "c3efa04ca4c6a42d7fc6349c4a6770975bb480021ab6a0f2e928557db57b5787"
+  }
+}

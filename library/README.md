@@ -2,6 +2,8 @@
 
 Original project components are stored here with explicit version pins. Homes link the actual Blender collections and materials; updates create a new version rather than changing geometry underneath another home.
 
+[Landscape expansion plan](landscape/README.md): 35 proposed plant families across mountain, desert, water-wise, coastal and suburban settings, plus citrus and other fruit trees, with three starting forms each. These are planned additions, separate from the available native assets below.
+
 ## Plants, paving and storage
 
 These are native Blender renders of the reusable source files. Each manifest records measured dimensions, origin, authoring source, license and relative dependencies.

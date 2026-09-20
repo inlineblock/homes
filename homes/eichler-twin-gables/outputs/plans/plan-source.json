@@ -1,0 +1,64 @@
+{
+  "native_snapshot": {
+    "path": "homes/eichler-twin-gables/model/eichler-twin-gables.blend",
+    "sha256": "2878593ab5f9ec7f37d45c3c261bbeed80067158ab8956abd0a6533825e85dac",
+    "scope": "Native snapshot at drawing generation; drawing geometry is tied to plan-data hash. Later camera/light resaves may differ."
+  },
+  "software": {
+    "python": "3.12.14",
+    "reportlab": "4.4.9",
+    "rasterizer": "pdftoppm version 26.05.0",
+    "raster_dpi": 144
+  },
+  "design_sha256": "ea1562494586eedfd5d732ba6f9e200b6a55c6c658e70f7e75845f8e00faff5f",
+  "generator_sha256": "ac9f596b189341c6a950101d405e7ea78ad46fdbf4be97cd9bcf1bb85d3523fd",
+  "model_plan_data": "homes/eichler-twin-gables/model/plan-data.json",
+  "model_plan_data_sha256": "ed26a2ea9f31fa9749edad60e6824130ac187c1828455c71e2dec7edc976eb6c",
+  "status": "reviewed concept drawings",
+  "review_note": "Both PDF pages rasterized at 144 dpi and visually reviewed after final WC/linen fit, signed door-angle receipt correction, road connection, living chairs and mechanical access changes. Main floor includes both double basins, WCs, bath linen, walk-in storage, full kitchen equipment labels and planted courtyard. Roof/site page distinguishes 17 ft 10 in lining from approximately 16 ft 4 in lowest peak beam cover and 10 ft 9 in cover at wall. Parent approved composition and promotion after model layout freeze; independent reviewer reviewed plan legibility and roof/site corrections. Concept, product, site and engineering limitations remain explicit. Final model freeze checked: exported dimensional plan data, shared design source and drawing generator hashes are unchanged; the reviewed pages remain current. Final native hash is recorded separately from the initial generation snapshot.",
+  "units": "feet",
+  "gross_planning_grid_area_sqft": 3360.0,
+  "limitations": [
+    "Gross planning-grid area includes wall allowances, not exact external cladding measurement.",
+    "Furnishing silhouettes derive from shared-asset manifest bounds and model placement. Plant symbols are indicative.",
+    "Roof/beam-cover section is a concept profile; steel, connections, weathering and services are unengineered.",
+    "No surveyed site, north, code approval or permit documentation is implied."
+  ],
+  "files": [
+    {
+      "path": "floor-plan.pdf",
+      "bytes": 14170,
+      "sha256": "f67427006c8df484bc2a802a4f2a52206a809d2209adb8487644fffd28ed3200"
+    },
+    {
+      "path": "floor-plan.png",
+      "bytes": 165360,
+      "sha256": "0a5d6bf6f440b91cd077384167477eea0936e5ae701852352b405c844a917f68"
+    },
+    {
+      "path": "floor-plan.svg",
+      "bytes": 80331,
+      "sha256": "3c73f991da3c402aa4b31a64a173d5a61a35cb404a2b6f13dfaa2ec9e7e3a5c9"
+    },
+    {
+      "path": "roof-and-section.pdf",
+      "bytes": 5040,
+      "sha256": "48858ab341c857cfa0ba225a9fd001466d946a82285c6630a5567d8b13fb3246"
+    },
+    {
+      "path": "roof-and-section.png",
+      "bytes": 192086,
+      "sha256": "a797ff2bb93f854c4f773ad039323decc4f3be945fe37452e7ef9b187e32768c"
+    },
+    {
+      "path": "roof-and-section.svg",
+      "bytes": 18098,
+      "sha256": "2cb0ffbf554271d4aefe80e1436efbd49f0c0b6cf4ca48311ee10b636326e128"
+    }
+  ],
+  "final_native_model": {
+    "path": "homes/eichler-twin-gables/model/eichler-twin-gables.blend",
+    "sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+    "verification": "Final frozen native received after bilateral door-hardware completion. Its freshly exported plan-data JSON is byte-identical to the reviewed drawing source; design.py and drawing generator also match their recorded hashes. All six published PDF/SVG/PNG artifacts match reviewed hashes. No drawing regeneration was necessary. Initial generation snapshot is retained separately rather than relabeled."
+  }
+}

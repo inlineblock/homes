@@ -1,0 +1,29 @@
+{
+  "schema": "IFC4",
+  "counts": {
+    "IfcSlab": 4,
+    "IfcWall": 140,
+    "IfcCovering": 621,
+    "IfcMember": 376,
+    "IfcWindow": 65,
+    "IfcDoor": 14,
+    "IfcRoof": 555,
+    "IfcBeam": 102,
+    "IfcColumn": 28,
+    "IfcBuildingElementProxy": 7,
+    "IfcFurnishingElement": 52,
+    "IfcSanitaryTerminal": 14,
+    "IfcLightFixture": 22
+  },
+  "storeys": [
+    "Ground floor"
+  ],
+  "schema_errors": 0,
+  "errors": [],
+  "source_blend_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "ifc_sha256": "43bf46d714d9a15f7335a9df71858ff59bf21875e8f8ef73190279bd715de6f2",
+  "exporter_sha256": "9f8a3948b13a5ace7da92406178a0abca95d8cf4a1ad0b3bd709758054d72422",
+  "blender": "4.5.14 LTS",
+  "ifcopenshell": "0.8.5",
+  "limits": "Classified concept mesh geometry; not complete parametric BIM, selected equipment, construction or engineering documentation."
+}

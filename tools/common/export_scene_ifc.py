@@ -43,11 +43,12 @@ for obj in bpy.context.scene.objects:
     rep=api('geometry.add_mesh_representation',f,context=body,vertices=[verts],faces=[faces]);api('geometry.assign_representation',f,product=e,representation=rep);api('spatial.assign_container',f,products=[e],relating_structure=storeys.get(obj.get('ifc_storey','Ground floor'),next(iter(storeys.values()))))
     if obj.data.materials:api('style.assign_representation_styles',f,shape_representation=rep,styles=[getstyle(obj.data.materials[0])])
     counts[cls]=counts.get(cls,0)+1
-# Linked windows and cladding panels are collection instances, not local meshes.
-# Include their evaluated geometry under the explicitly assigned IFC class.
+# Linked envelope components and explicitly opted-in fixed equipment use their
+# evaluated collection geometry. Decorative furniture remains excluded.
 depsgraph=bpy.context.evaluated_depsgraph_get()
 for parent in bpy.context.scene.objects:
-    if parent.instance_type!='COLLECTION' or parent.get('ifc_class') not in {'IfcWindow','IfcCovering'}:continue
+    if parent.instance_type!='COLLECTION':continue
+    if parent.get('ifc_class') not in {'IfcWindow','IfcCovering'} and not (parent.get('export_linked_geometry') and parent.get('ifc_class')):continue
     linked_class=parent['ifc_class']
     verts=[];faces=[];mats=[]
     for inst in depsgraph.object_instances:

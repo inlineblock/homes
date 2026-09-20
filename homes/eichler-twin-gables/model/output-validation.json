@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-20",
+  "native_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "native_views": [
+    {
+      "path": "outputs/images/01-front.png",
+      "sha256": "f11c6919235f386ba0268e251bd42715edcd0cb79de1c7b161e4141a30e6ffe3",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/02-rear.png",
+      "sha256": "24cc9d3c94a23cb89ffbc8869c08f11be1f641862df5132224cba56fd33f55d0",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/03-side.png",
+      "sha256": "680fae1680f765ce2e10905caa4277d410dde38e3fcf391ed0e047825b7b0f25",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/04-living.png",
+      "sha256": "04766e9e107b3b64afb4ae9c120200e47c28ffb7f1cc70451480eb111b7fd825",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "sha256": "0e2cdcd9f8f1d49aa8ce18a764817c3822eaf60adca7747e54f93eef2995d7ad",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/06-courtyard.png",
+      "sha256": "7cf118a4d0c89567372f271e3c1531cc0e421f7ce0627ae9aad2ebef9aad0e98",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/07-primary.png",
+      "sha256": "7d8e10e7ec66e0379458566c6154175717cf24f1d301d81935cb2635c612f079",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/08-primary-bath.png",
+      "sha256": "462f711b79fecfe7303a433f96563f7fe936a614ed70f9b11f5a02509f49bdd8",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/09-rear-terrace.png",
+      "sha256": "b61efa248d0cea9c88d2b0bf70516560b6b5ff833c722ff38cc143fb34e0a8df",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/10-roof-site.png",
+      "sha256": "40e39cd408101c38a9d45040f185715b282039f571a85177972e4ca41aa6fe9d",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/11-east-primary.png",
+      "sha256": "7bd56756d62c560898f26d73a17eafb9af659e0c88af94a274a1fad6a93fc324",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/12-east-bath.png",
+      "sha256": "47ac7fbcc814032d50f8e37a110a7ee2d50b5a04aec00b2284af4310988ac0a3",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/13-dressing.png",
+      "sha256": "e834f4db5a67c0dcc730ea55438891280fc823395dc0246a6b691e21f9dbb3bf",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    },
+    {
+      "path": "outputs/images/14-bath-detail.png",
+      "sha256": "69caf5167b479266a647e781d22831c51e7d48fdebdbb2a21c5f6d3018e5af14",
+      "width": 2000,
+      "height": 1333,
+      "visually_reviewed": true
+    }
+  ],
+  "render_settings": {
+    "engine": "Cycles",
+    "samples": 256,
+    "resolution": [
+      2000,
+      1333
+    ]
+  },
+  "current_reproduction_script": "../../tools/twin_gables/render.py",
+  "current_reproduction_script_sha256": "c036ad85c1f230e5257c6bec789baaa56d7f86d410aa170904786797b893142e",
+  "render_state_receipt": "outputs/render-receipt.json",
+  "notes": [
+    "All 14 selected native images were visually inspected; both PDF pages were rasterized and reviewed.",
+    "Views08 and12 close bathroom door assemblies transiently; view13 uses the documented camera override inside the aisle.",
+    "The corrected-view receipt contains per-job camera and render-script data; other views use frozen model cameras and the stated batch settings.",
+    "Photographic studies were reviewed against native sources; context, texture and incidental decoration are synthesized."
+  ],
+  "photographic_views": 8,
+  "scope": "Architectural concept presentation and modeled generic clearances, not engineering or code compliance."
+}

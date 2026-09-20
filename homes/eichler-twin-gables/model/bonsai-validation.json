@@ -1,0 +1,9 @@
+{
+  "bonsai_import": "passed",
+  "schema": "IFC4",
+  "imported_mesh_objects": 2000,
+  "project": "Twin Gables Courtyard | Concept",
+  "source_blend_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "ifc_sha256": "43bf46d714d9a15f7335a9df71858ff59bf21875e8f8ef73190279bd715de6f2",
+  "limits": "Fresh import of classified concept meshes, not engineering or complete semantic BIM"
+}

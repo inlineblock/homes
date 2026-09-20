@@ -1,0 +1,532 @@
+{
+  "model_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "blender": "4.5.14 LTS",
+  "area_sqft": 3360.0,
+  "room_program": [
+    [
+      "Primary suite west",
+      [
+        0,
+        0,
+        20,
+        15
+      ],
+      "vault"
+    ],
+    [
+      "West dressing",
+      [
+        0,
+        15,
+        8,
+        28
+      ],
+      10
+    ],
+    [
+      "West ensuite",
+      [
+        8,
+        15,
+        20,
+        28
+      ],
+      10
+    ],
+    [
+      "Primary suite east",
+      [
+        48,
+        0,
+        68,
+        15
+      ],
+      "vault"
+    ],
+    [
+      "East dressing",
+      [
+        48,
+        15,
+        56,
+        28
+      ],
+      10
+    ],
+    [
+      "East ensuite",
+      [
+        56,
+        15,
+        68,
+        28
+      ],
+      10
+    ],
+    [
+      "Office / guest",
+      [
+        0,
+        28,
+        20,
+        42
+      ],
+      10
+    ],
+    [
+      "Guest bath",
+      [
+        13,
+        28,
+        20,
+        36
+      ],
+      10
+    ],
+    [
+      "Laundry",
+      [
+        48,
+        28,
+        58,
+        42
+      ],
+      10
+    ],
+    [
+      "Pantry",
+      [
+        58,
+        32,
+        68,
+        42
+      ],
+      10
+    ],
+    [
+      "Mechanical",
+      [
+        58,
+        28,
+        68,
+        32
+      ],
+      10
+    ],
+    [
+      "West gallery",
+      [
+        20,
+        0,
+        24,
+        42
+      ],
+      10
+    ],
+    [
+      "East gallery",
+      [
+        44,
+        0,
+        48,
+        42
+      ],
+      10
+    ],
+    [
+      "Entry",
+      [
+        24,
+        0,
+        44,
+        6
+      ],
+      12
+    ],
+    [
+      "Living",
+      [
+        0,
+        42,
+        24,
+        60
+      ],
+      "vault"
+    ],
+    [
+      "Dining",
+      [
+        24,
+        42,
+        44,
+        60
+      ],
+      12
+    ],
+    [
+      "Kitchen",
+      [
+        44,
+        42,
+        68,
+        60
+      ],
+      "vault"
+    ]
+  ],
+  "scene_objects": 2424,
+  "cameras": [
+    "01-front",
+    "02-rear",
+    "03-side",
+    "04-living",
+    "05-kitchen",
+    "06-courtyard",
+    "07-primary",
+    "08-primary-bath",
+    "09-rear-terrace",
+    "11-east-primary",
+    "12-east-bath",
+    "14-bath-detail",
+    "13-dressing",
+    "10-roof-site"
+  ],
+  "asset_links": [
+    {
+      "id": "openings/angled-cedar-privacy-screen-2000x2800",
+      "version": "v001",
+      "path": "../../library/openings/angled-cedar-privacy-screen-2000x2800/v001/angled-cedar-privacy-screen-2000x2800.blend",
+      "sha256": "3bd96390015b41efd4e8b36c54d6b07f13a8ffbaf442ae7b9e88caf15b67193b"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+      "sha256": "b8f002f4b5ffc139fad0c3fbaf6b5af41b0b509f22b18d00aac543fabab09147"
+    },
+    {
+      "id": "landscape/broad-canopy-oak",
+      "version": "v001",
+      "path": "../../library/landscape/broad-canopy-oak/v001/broad-canopy-oak.blend",
+      "sha256": "4627efe4276b6b4d10469574eb1ec2298d3fec301601fc9ca622d3ba76a88555"
+    },
+    {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/bronze-gray-standing-seam/v001/bronze-gray-standing-seam.blend",
+      "sha256": "3fc2f9e7a5ab6d958e5472212bc1cfb13a425271a396a1ebd842e6b2adaf4650"
+    },
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "sha256": "4eb8322faac8c525989c955670cc1b6acf208aa0cf207fc047d3810c58f41935"
+    },
+    {
+      "id": "assemblies/cedar-steel-beam-cover-300x400",
+      "version": "v001",
+      "path": "../../library/assemblies/cedar-steel-beam-cover-300x400/v001/cedar-steel-beam-cover-300x400.blend",
+      "sha256": "535204acf23b67cbafb9ed4883d55ab871c82d1df13f3587cb281a90f14b4b05"
+    },
+    {
+      "id": "materials/charcoal-facade-panel",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-facade-panel/v001/charcoal-facade-panel.blend",
+      "sha256": "f76ea666644d231f96296ab7688ad3194557c269ed25c6c56b9955c3fcd990e9"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v002",
+      "path": "../../library/materials/charcoal-standing-seam/v002/charcoal-standing-seam.blend",
+      "sha256": "8b29753fdd25e1ce1e961a247bea394934aa93caa9b17d32411b3b7b4e5d970e"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
+      "sha256": "d48d36f0e76c274334346f0f133cd256676242c72200f0d5c826a49d51874162"
+    },
+    {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-lounge-chair/v001/coastal-outdoor-lounge-chair.blend",
+      "sha256": "aef2a991c01bef4608969d0cee26a759cf6878d0c02df6172d0cb6cb83bf9711"
+    },
+    {
+      "id": "furniture/coastal-outdoor-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-sofa/v001/coastal-outdoor-sofa.blend",
+      "sha256": "6e1e7c7131aed807b8331d2dc0f741efca9800d6bbe516b3c46e55e2c2b9d7c7"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
+      "sha256": "6ee0e89f44d0befb4d0721aa455c1b900f9f0033a69fa5d73cc37f53562eb6b5"
+    },
+    {
+      "id": "hardware/door-lever-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/door-lever-satin-bronze/v001/door-lever-satin-bronze.blend",
+      "sha256": "48e9268756f5e31521b71bfa74a1fcd3e5bc0f86ba2221dabb9679baba503b37"
+    },
+    {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001",
+      "path": "../../library/landscape/flowering-perennial-clump/v001/flowering-perennial-clump.blend",
+      "sha256": "53adcc099ade06885990a9447b0782317d1614ad8efa349a7a35aa41c176cb91"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend",
+      "sha256": "efdd8229a1bb95728403707696f0bdacf54ccf0dfa03a3335ba0aa6ace081117"
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "path": "../../library/appliances/front-loading-laundry-600/v001/front-loading-laundry-600.blend",
+      "sha256": "db5e664d6685252a9214a96406ac6a4193ecb7848108a3c751d28ed4158c4373"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend",
+      "sha256": "b12c1a0a3fc1d1dae16a1c87135b5b7cf486dc82fad6165ae3a52e3414b408ee"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+      "sha256": "7d21dd9ab4d086e30b783027c6f7426fe43f7823e90805780a3e481296d87e3a"
+    },
+    {
+      "id": "landscape/japanese-laceleaf-maple",
+      "version": "v001",
+      "path": "../../library/landscape/japanese-laceleaf-maple/v001/japanese-laceleaf-maple.blend",
+      "sha256": "7466bded96b40f9d3c8fb4fe760ecff3478d3e0fd24cbddd52ee3c63ba75f6bf"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend",
+      "sha256": "3335b5ed6ae652446300e01555328d2e21d6ae81b7f4471f79f941bffde28f20"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
+      "sha256": "6dc13157472109ec534b33bed53bff58456485fce4183d2ae18889feeb675e25"
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend",
+      "sha256": "7c04b4320d3538c3aab2fd908cae1b733136a4868d891681754a84dd6f291738"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend",
+      "sha256": "c73a04577bca8baa0fa589dba31cb0abc052b3c206938ffb151ce92d88f56d47"
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/oak-drawer-base-2ft.blend",
+      "sha256": "917240ff1861839ad0ba2cc7aa6355c8705526ce4e0657a4d9fa184814633860"
+    },
+    {
+      "id": "cabinetry/oak-linen-cabinet-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-linen-cabinet-2ft/v001/oak-linen-cabinet-2ft.blend",
+      "sha256": "2f088748453bb05c4fbd5c4293a999ccc86f68e40c7220cca1d7cb13c44934d7"
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-king-bed/v001/oak-linen-king-bed.blend",
+      "sha256": "6b5659876fad5be81ba62cd627e2fd14bfcf9d1e56838551c4ce3b32632f7112"
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-queen-bed/v001/oak-linen-queen-bed.blend",
+      "sha256": "f41a484de4f6e5c8251641910b5935cdbaa51210334b1027925b42fb66727166"
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "path": "../../library/furniture/oak-open-nightstand/v001/oak-open-nightstand.blend",
+      "sha256": "574fcfd3b9c7ef966e12166b3459a188d8d83424d6c499badf8a73c2f431ee9b"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend",
+      "sha256": "ae1ea50fce66217e66bdfc995996f361e5362c5616eb630c66238bfa998cc929"
+    },
+    {
+      "id": "cabinetry/oak-shelving-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-shelving-2ft/v001/oak-shelving-2ft.blend",
+      "sha256": "05165cfbf2bc95d570ec79dcdd404f8f63babda448a778399cb72ec98d0dcbf4"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend",
+      "sha256": "ce9c973cfa586d41dcefbd6de99cde72a76e8f17c3c17d4f02ef63556a2fb3ac"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/oak-wardrobe-2ft.blend",
+      "sha256": "634c769ae2083b4f8a7a7fccc429e60cfe09efe52603142c838528f063a4fb7a"
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "path": "../../library/furniture/oak-writing-desk/v001/oak-writing-desk.blend",
+      "sha256": "37e236056a26968a9c6a49bc5cfe3ebfa71b256e01fb1af123b39305eb5815b5"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../library/materials/olive-linen/v001/olive-linen.blend",
+      "sha256": "4875448b7aac5b85965d40f26dff01d5de58bdcf6f0cc26af06ad5f49b33b24b"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
+      "sha256": "63508ff52ab2591cad1cbcb864a028b4d81794125bd937dccbabaf000ce2a453"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
+      "sha256": "a53f2d7150afffa77295d3ebff7fb9b12539d19f1287fe810e6c5c87dfc94e7c"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/sage-shrub.blend",
+      "sha256": "c430d840ddf7a7a19f51c794def1e5389d104e84b193f706f56d4a2e95f0a506"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-1500x1200",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-1500x1200/v001/shower-tray-screen-1500x1200.blend",
+      "sha256": "53d72596dd9810a2ff41278817fe4cdaf80270afca685595abda3463f32f7092"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-900/v001/shower-tray-screen-900.blend",
+      "sha256": "f2183671f4d103c8682149b42ee0564176e76aec2df91b1d19395029716c97a3"
+    },
+    {
+      "id": "cabinetry/smoked-oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-drawer-base-2ft/v001/smoked-oak-drawer-base-2ft.blend",
+      "sha256": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb"
+    },
+    {
+      "id": "cabinetry/smoked-oak-oven-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-oven-base-36in/v001/smoked-oak-oven-base-36in.blend",
+      "sha256": "57ac289f30e397a465670be279317b7cc6b822d514bd4d6936ec3eac2e05cdce"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/smoked-oak-panel-ready-dishwasher-24in.blend",
+      "sha256": "5263065a4cf6b4cf06f1ccd40e35e7d7a9ae4de2e6af41e8fd0dfd7ba9d5ff69"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-fridge-48in/v001/smoked-oak-panel-ready-fridge-48in.blend",
+      "sha256": "5cdaa612d9fa43c5946ea0c27788359efa0d8a87525fadfaf6401161f14b5fed"
+    },
+    {
+      "id": "cabinetry/smoked-oak-pantry-shelf-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/smoked-oak-pantry-shelf-2ft.blend",
+      "sha256": "c53aec5c8139696bcdcdde32d92d9b13182e3f498685042651ce7eb55746ea3e"
+    },
+    {
+      "id": "cabinetry/smoked-oak-sink-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-sink-base-36in/v001/smoked-oak-sink-base-36in.blend",
+      "sha256": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c"
+    },
+    {
+      "id": "cabinetry/smoked-oak-waste-pullout-18in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-waste-pullout-18in/v001/smoked-oak-waste-pullout-18in.blend",
+      "sha256": "3b4a285256924c5ac2a04c9dea31467d88a7f4411a823101a952465fccec1651"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/smoked-oak.blend",
+      "sha256": "2ef1a4667c2c6f672ef5b7269a529a9624b6ea82f24fd4647a3b9bc4b1972ce5"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
+      "sha256": "9f0b645716077ce4b85707495294a5287a9b4dfa73a90a5b57f46ad29a8a3dab"
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/vanity-basin-mixer-mirror.blend",
+      "sha256": "42b3f83db777dd8e1ff7e713d30f704bac26b45baead775e3c1480a89d07a464"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
+      "sha256": "61a6861085f22f311d32fbe8ba3619473178b6b4ff00122944440f22ae1ca9c2"
+    },
+    {
+      "id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
+      "sha256": "6da3981eaf1b6a6465163f581c51772704d7358d3fb808a9e0706761421d71f4"
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../library/materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend",
+      "sha256": "28298beb36102d8ebdc52ddebb7d38dbffe70c9162f6bd9033a4436c9708be57"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../library/materials/warm-vertical-cedar/v003/warm-vertical-cedar.blend",
+      "sha256": "3e4563ecc55a891119e5eb62bbf8dcfe7183a48876bfd8619e446c20e6eef49c"
+    },
+    {
+      "id": "furniture/woven-oatmeal-rug",
+      "version": "v001",
+      "path": "../../library/furniture/woven-oatmeal-rug/v001/woven-oatmeal-rug.blend",
+      "sha256": "bf14f88ad22dbfb89aed827508643ed8cae2774e1d9c3a2d4ea743c1234fcb63"
+    },
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../library/materials/woven-oatmeal/v001/woven-oatmeal.blend",
+      "sha256": "f1831f58b7dd8d568a6e21a12fad49a71ffa78d68b4557f019cbd26a855db47f"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Architectural concept, not structural or permit documentation.",
+    "Door/fixture clearances use generic library envelopes, not selected product approvals.",
+    "Site context and parking are illustrative; survey, climate and jurisdiction unassigned."
+  ]
+}

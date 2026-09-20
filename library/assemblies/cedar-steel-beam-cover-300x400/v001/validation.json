@@ -1,0 +1,68 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "collection": "Hollow cedar-look steel beam cover 300x400 | v001",
+  "mesh_objects": 3,
+  "actual_dimensions_m": [
+    1.0,
+    0.30000001192092896,
+    0.3999999761581421
+  ],
+  "origin_at_soffit": true,
+  "thickness_verified_m": 0.02,
+  "open_cavity_rays": [
+    {
+      "y_m": -0.12,
+      "first_cover_z_m": 0.019999990239739418
+    },
+    {
+      "y_m": -0.08,
+      "first_cover_z_m": 0.020000049844384193
+    },
+    {
+      "y_m": -0.04,
+      "first_cover_z_m": 0.020000049844384193
+    },
+    {
+      "y_m": 0,
+      "first_cover_z_m": 0.020000049844384193
+    },
+    {
+      "y_m": 0.04,
+      "first_cover_z_m": 0.020000049844384193
+    },
+    {
+      "y_m": 0.08,
+      "first_cover_z_m": 0.020000049844384193
+    },
+    {
+      "y_m": 0.12,
+      "first_cover_z_m": 0.019999930635094643
+    }
+  ],
+  "native_sha256": "535204acf23b67cbafb9ed4883d55ab871c82d1df13f3587cb281a90f14b4b05",
+  "native_unchanged_by_review": true,
+  "preview_rendered": true,
+  "host_integration_checked": false,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 3,
+    "samples": 32,
+    "resolution_px": [
+      960,
+      720
+    ]
+  },
+  "preview_sha256": "20deb7bde206fb95d99bd5e43a0e2f601237f12d03116e830e739a9baaae5a5e",
+  "visual_review": {
+    "reviewed": true,
+    "method": "Opened actual CPU-rendered native preview",
+    "findings": [
+      "Three-sided hollow cover and open cut end clearly visible",
+      "Longitudinal muted umber grain follows length",
+      "No steel member is represented by this asset"
+    ],
+    "host_integration_checked": false
+  }
+}

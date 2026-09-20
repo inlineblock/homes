@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "path": "approved-front-concept.png",
+      "sha256": "28a3e866104ed041f376c549ca903f49e4bc0aba70b393079c0e7db5797fb44c",
+      "origin": "Built-in ImageGen in this conversation",
+      "original_generated_filename": "exec-6f3862ec-3803-4d95-96ee-479a5998a2cd.png",
+      "role": "User-approved architectural direction; generated before native modeling, not evidence of built geometry."
+    },
+    {
+      "path": "approved-rear-concept.png",
+      "sha256": "106419a5833b617215d6a07b9f62a3eae01d4e71c472668ae2438f2164ddfb0e",
+      "origin": "Built-in ImageGen in this conversation",
+      "original_generated_filename": "exec-00a56388-55cf-47fb-af25-5fbb0c04ac23.png",
+      "role": "User-approved architectural direction; generated before native modeling, not evidence of built geometry."
+    }
+  ],
+  "side_reference_status": "Rejected by user for awkward nonuniform elevation. Do not reproduce its window or roof irregularities.",
+  "prompt_record": "The generation prompts are in the conversation. This file records selected reference identity and summarized intent, not a verbatim prompt transcript."
+}

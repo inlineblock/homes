@@ -242,3 +242,13 @@ The shower is a dedicated dimensional sibling of the 900 mm tray, with original-
 [![Native preview of the fixed angled cedar facade screen](openings/angled-cedar-privacy-screen-2000x2800/v001/preview.png)](openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json)
 
 The original **2.0 × 0.30 × 2.8 m** fixed screen uses 23 solid vertical cedar fins at 45° and 84.09 mm pitch, captured by a slim bronze-gray perimeter frame. Its normal-view fin projections overlap; oblique views remain possible. The origin is bottom-center, front is -Y, and only rigid placement is allowed. Cedar v003 and bronze-gray finish v001 are linked exact dependencies. Reserve at least 300 mm behind the frame for concept service access and separately resolve safe cleaning, demountable fixings and operable-window clearance. Fresh native opening, dimensions, linked dependencies and an actual CPU preview are recorded in the asset receipt. Modern Block adopts this assembly as part of its [facade and privacy revision](../homes/modern-block/assets/README.md). Generator: `tools/library/publish_angled_cedar_screen.py`.
+
+## Twin Gables shared details
+
+| Wood-look cover for conceptual steel framing | Closed linen cabinet with real shelves |
+| --- | --- |
+| [![Hollow wood-look beam cover](assemblies/cedar-steel-beam-cover-300x400/v001/preview.png)](assemblies/cedar-steel-beam-cover-300x400/v001/asset.json) | [![Oak linen cabinet](cabinetry/oak-linen-cabinet-2ft/v001/preview.png)](cabinetry/oak-linen-cabinet-2ft/v001/asset.json) |
+
+The **300 × 400 mm hollow U-cover** is nonstructural, with 20 mm concept finish thickness and a separate cavity for host-owned steel. Only its 1 m stock length may scale along its length axis; its section stays fixed. The manifest records installation gaps, open ends and the wood-grain scaling limitation. Steel design, fire protection, fixings and weather performance remain unresolved.
+
+The **24 × 24 × 96-inch linen cabinet** preserves the shared wardrobe's closed doors and replaces the hanging rail with five storage shelves. Its [open-door native preview](cabinetry/oak-linen-cabinet-2ft/v001/open-preview.png) exposes the actual interior. Both assets have fresh native/link checks and inspected CPU previews; host installation remains a separate check in [Twin Gables Courtyard's asset schedule](../homes/eichler-twin-gables/assets/README.md).

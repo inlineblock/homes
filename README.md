@@ -60,6 +60,14 @@ Photos are AI architectural studies; plans and models are design concepts.
 
 [Full home: photo tour, all floor plans & 3D models](homes/atrium-01/README.md) · [Plan PDF](homes/atrium-01/outputs/plans/floor-plan.pdf)
 
+### Twin Gables Courtyard
+
+| AI photographic study | Floor plan |
+| --- | --- |
+| [![Twin Gables Courtyard — AI photographic study](homes/eichler-twin-gables/outputs/images/photo-hero.png)](homes/eichler-twin-gables/README.md) | [![Twin Gables Courtyard — ground floor plan](homes/eichler-twin-gables/outputs/plans/floor-plan.png)](homes/eichler-twin-gables/README.md) |
+
+[Full home: photo tour, all floor plans & 3D models](homes/eichler-twin-gables/README.md) · [Plan PDF](homes/eichler-twin-gables/outputs/plans/floor-plan.pdf)
+
 ## Resources
 
 [Websites](sites/README.md) · [Shared asset library](library/README.md) · [Design handbook](docs/design-guide/README.md) · [Create a home](.agents/skills/create-home/SKILL.md) · [Collaboration](docs/collaboration.md)

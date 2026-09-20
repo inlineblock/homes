@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "id": "eichler-twin-gables",
+  "name": "Twin Gables Courtyard",
+  "status": "reviewed architectural concept; native, IFC, plans and photographic gallery available",
+  "units": "meters",
+  "display_units": "feet-inches",
+  "target_area_sqft": 3360,
+  "bedrooms": 2,
+  "bathrooms": 3,
+  "office": true,
+  "software": {
+    "blender": "4.5.14 LTS",
+    "bonsai": "0.8.5"
+  },
+  "asset_dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/"
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "path": "../../library/appliances/front-loading-laundry-600/v001/"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/"
+    },
+    {
+      "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/smoked-oak-panel-ready-fridge-48in/v001/"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/"
+    },
+    {
+      "id": "assemblies/cedar-steel-beam-cover-300x400",
+      "version": "v001",
+      "path": "../../library/assemblies/cedar-steel-beam-cover-300x400/v001/"
+    },
+    {
+      "id": "cabinetry/oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-linen-cabinet-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-linen-cabinet-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-shelving-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-shelving-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-wardrobe-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-oven-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-oven-base-36in/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-pantry-shelf-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-sink-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-sink-base-36in/v001/"
+    },
+    {
+      "id": "cabinetry/smoked-oak-waste-pullout-18in",
+      "version": "v001",
+      "path": "../../library/cabinetry/smoked-oak-waste-pullout-18in/v001/"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v002/"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-1500x1200",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-1500x1200/v001/"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-900/v001/"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/"
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-lounge-chair/v001/"
+    },
+    {
+      "id": "furniture/coastal-outdoor-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-sofa/v001/"
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-king-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-queen-bed/v001/"
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "path": "../../library/furniture/oak-open-nightstand/v001/"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/"
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "path": "../../library/furniture/oak-writing-desk/v001/"
+    },
+    {
+      "id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-counter-stool/v001/"
+    },
+    {
+      "id": "furniture/woven-oatmeal-rug",
+      "version": "v001",
+      "path": "../../library/furniture/woven-oatmeal-rug/v001/"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-satin-bronze/v001/"
+    },
+    {
+      "id": "hardware/door-lever-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/door-lever-satin-bronze/v001/"
+    },
+    {
+      "id": "landscape/broad-canopy-oak",
+      "version": "v001",
+      "path": "../../library/landscape/broad-canopy-oak/v001/"
+    },
+    {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001",
+      "path": "../../library/landscape/flowering-perennial-clump/v001/"
+    },
+    {
+      "id": "landscape/japanese-laceleaf-maple",
+      "version": "v001",
+      "path": "../../library/landscape/japanese-laceleaf-maple/v001/"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/"
+    },
+    {
+      "id": "materials/bronze-gray-standing-seam",
+      "version": "v001",
+      "path": "../../library/materials/bronze-gray-standing-seam/v001/"
+    },
+    {
+      "id": "materials/charcoal-facade-panel",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-facade-panel/v001/"
+    },
+    {
+      "id": "materials/charcoal-standing-seam",
+      "version": "v002",
+      "path": "../../library/materials/charcoal-standing-seam/v002/"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../library/materials/olive-linen/v001/"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/"
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../library/materials/warm-limestone-plaster/v001/"
+    },
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../library/materials/warm-vertical-cedar/v003/"
+    },
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../library/materials/woven-oatmeal/v001/"
+    },
+    {
+      "id": "openings/angled-cedar-privacy-screen-2000x2800",
+      "version": "v001",
+      "path": "../../library/openings/angled-cedar-privacy-screen-2000x2800/v001/"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/"
+    }
+  ],
+  "deliverables": {
+    "presentation_model": "model/eichler-twin-gables.blend",
+    "classified_concept_ifc": "model/eichler-twin-gables.ifc",
+    "floor_plan_pdf": "outputs/plans/floor-plan.pdf",
+    "floor_plan_svg": "outputs/plans/floor-plan.svg",
+    "roof_section_site_pdf": "outputs/plans/roof-and-section.pdf",
+    "gallery": "gallery.json",
+    "output_index": "outputs/README.md",
+    "photographic_hero": "outputs/images/photo-hero.png"
+  },
+  "gross_enclosed_area_sqft": 3360,
+  "area_basis": "68 x 60 ft planning floorplate minus 20 x 36 ft open courtyard; gross concept area includes wall allowances, not net usable or surveyed external-face area; excludes courtyard, parking, terraces and overhangs",
+  "office_guest_room": true,
+  "storeys": [
+    {
+      "name": "Ground floor",
+      "elevation_m": 0.0
+    }
+  ],
+  "ceiling_heights": {
+    "flat_support_rooms_ft": 10,
+    "flat_entry_dining_ft": 12,
+    "vault_lining_eave_ft": 12.2,
+    "vault_lining_peak_ft": 17.8,
+    "rafter_cover_lower_chord_eave_ft": 10.73,
+    "rafter_cover_lower_chord_peak_ft": 16.33,
+    "ridge_cover_underside_ft": 16.45,
+    "basis": "Concept model datums; finished clear rays and generic member allowances recorded in functional-validation.json"
+  }
+}

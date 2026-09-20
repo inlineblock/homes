@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "assemblies/cedar-steel-beam-cover-300x400",
+  "version": "v001",
+  "name": "Hollow cedar-look steel beam cover 300x400 | v001",
+  "units": "meters",
+  "dimensions_m": [
+    1.0,
+    0.30000001192092896,
+    0.3999999761581421
+  ],
+  "bounds_m": {
+    "min": [
+      -0.5,
+      -0.15000000596046448,
+      0.0
+    ],
+    "max": [
+      0.5,
+      0.15000000596046448,
+      0.3999999761581421
+    ]
+  },
+  "blender": {
+    "collection": "Hollow cedar-look steel beam cover 300x400 | v001"
+  },
+  "placement": {
+    "origin": "Length/width center XY, bottom exposed soffit face Z=0",
+    "front_direction": "Length along X, section width Y, open top +Z",
+    "allowed_scaling": "Only local X length scaling 1.0 to 7.3152; Y and Z remain exactly 1. Rigid orientation may follow the host beam, including a roof pitch. Section and finish thickness cannot be scaled.",
+    "length_note": "Native stock is 1 m long. X scale equals installed length in meters. Cut ends remain open; host supplies fitted terminations."
+  },
+  "section": {
+    "overall_width_m": 0.3,
+    "overall_height_m": 0.4,
+    "finish_thickness_m": 0.02,
+    "clear_cavity_y_m": [
+      -0.13,
+      0.13
+    ],
+    "clear_cavity_z_m": [
+      0.02,
+      0.4
+    ],
+    "suggested_steel_installation_gap_m": 0.01,
+    "steel_envelope_with_gap_m": {
+      "y": [
+        -0.12,
+        0.12
+      ],
+      "z": [
+        0.03,
+        0.39
+      ]
+    },
+    "basis": "Geometric cover envelope only. Finish thickness and 10 mm steel gap are visualization assumptions, not a selected proprietary system."
+  },
+  "mounting": "Host-owned steel and concealed brackets support this non-load-bearing three-sided cover. Open top permits assembly around framing. Provide actual fastening, demountability, fire protection, movement allowance, end closures and weather detailing with selected materials.",
+  "operating_envelope": {
+    "state": "Fixed three-board hollow U section",
+    "moving_parts": false,
+    "host_checked": false,
+    "basis": "Host checks steel cavity, connection intersections and cover terminations."
+  },
+  "appearance": {
+    "material": "Linked warm-vertical-cedar v003; subdued umber wood appearance.",
+    "mapping": "Timber meters UV along native X. Cross-grain widths stay physical under permitted X scaling; longitudinal grain features elongate with stock length. This is an explicit visual approximation. For measured meter-scale longitudinal grain use a separately published length variant with regenerated UVs.",
+    "material_specification": "Wood-look appearance only; no actual species, veneer, composite, fire rating or outdoor durability product specified."
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-vertical-cedar",
+      "version": "v003",
+      "path": "../../../materials/warm-vertical-cedar/v003/warm-vertical-cedar.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_timber_beam_cover.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_timber_beam_cover.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and linked original material; attribution Homes project contributors. No manufacturer or third-party source geometry.",
+  "files": {
+    "blender": "cedar-steel-beam-cover-300x400.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "product_status": "Original concept cover only. Steel member selection and structural/fire/weather performance remain unverified. The cover is not a structural beam."
+}

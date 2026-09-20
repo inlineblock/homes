@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "home": "eichler-twin-gables",
+  "required_levels": [
+    "ground-floor"
+  ],
+  "renders": [
+    {
+      "path": "outputs/images/01-front.png",
+      "caption": "Private front arrival, twin gables and timber-covered framing",
+      "view": "exterior",
+      "sha256": "f11c6919235f386ba0268e251bd42715edcd0cb79de1c7b161e4141a30e6ffe3",
+      "exterior_role": "arrival"
+    },
+    {
+      "path": "outputs/images/02-rear.png",
+      "caption": "Vaulted living and kitchen opening to the rear garden terrace",
+      "view": "exterior",
+      "sha256": "24cc9d3c94a23cb89ffbc8869c08f11be1f641862df5132224cba56fd33f55d0",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/03-side.png",
+      "caption": "Coordinated side elevation, consistent eaves and window rhythm",
+      "view": "exterior",
+      "sha256": "680fae1680f765ce2e10905caa4277d410dde38e3fcf391ed0e047825b7b0f25",
+      "exterior_role": "site"
+    },
+    {
+      "path": "outputs/images/04-living.png",
+      "caption": "Vaulted living room and garden connection",
+      "view": "interior",
+      "sha256": "04766e9e107b3b64afb4ae9c120200e47c28ffb7f1cc70451480eb111b7fd825"
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "caption": "Complete kitchen, preparation island and fitted storage",
+      "view": "interior",
+      "sha256": "0e2cdcd9f8f1d49aa8ce18a764817c3822eaf60adca7747e54f93eef2995d7ad"
+    },
+    {
+      "path": "outputs/images/06-courtyard.png",
+      "caption": "Open-air courtyard and sheltered internal galleries",
+      "view": "exterior",
+      "sha256": "7cf118a4d0c89567372f271e3c1531cc0e421f7ce0627ae9aad2ebef9aad0e98",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/07-primary.png",
+      "caption": "Vaulted primary bedroom with screened street-facing glazing",
+      "view": "interior",
+      "sha256": "7d8e10e7ec66e0379458566c6154175717cf24f1d301d81935cb2635c612f079"
+    },
+    {
+      "path": "outputs/images/08-primary-bath.png",
+      "caption": "Primary ensuite double vanity and bathing finishes",
+      "view": "interior",
+      "sha256": "462f711b79fecfe7303a433f96563f7fe936a614ed70f9b11f5a02509f49bdd8"
+    },
+    {
+      "path": "outputs/images/09-rear-terrace.png",
+      "caption": "Rear terrace for outdoor dining and sitting",
+      "view": "exterior",
+      "sha256": "b61efa248d0cea9c88d2b0bf70516560b6b5ff833c722ff38cc143fb34e0a8df",
+      "exterior_role": "outdoor"
+    },
+    {
+      "path": "outputs/images/11-east-primary.png",
+      "caption": "Second equally complete primary bedroom",
+      "view": "interior",
+      "sha256": "7bd56756d62c560898f26d73a17eafb9af659e0c88af94a274a1fad6a93fc324"
+    },
+    {
+      "path": "outputs/images/12-east-bath.png",
+      "caption": "Matching double vanity in the second primary ensuite",
+      "view": "interior",
+      "sha256": "47ac7fbcc814032d50f8e37a110a7ee2d50b5a04aec00b2284af4310988ac0a3"
+    },
+    {
+      "path": "outputs/images/14-bath-detail.png",
+      "caption": "Closed bathroom linen closet beside the separate shower",
+      "view": "interior",
+      "sha256": "69caf5167b479266a647e781d22831c51e7d48fdebdbb2a21c5f6d3018e5af14"
+    },
+    {
+      "path": "outputs/images/13-dressing.png",
+      "caption": "Walk-in clothes storage with a usable central aisle",
+      "view": "interior",
+      "sha256": "e834f4db5a67c0dcc730ea55438891280fc823395dc0246a6b691e21f9dbb3bf"
+    },
+    {
+      "path": "outputs/images/10-roof-site.png",
+      "caption": "Two parallel roof ridges and the open courtyard",
+      "view": "exterior",
+      "sha256": "40e39cd408101c38a9d45040f185715b282039f571a85177972e4ca41aa6fe9d",
+      "exterior_role": "site"
+    }
+  ],
+  "plans": [
+    {
+      "level": "ground-floor",
+      "path": "outputs/plans/floor-plan.png",
+      "caption": "Dimensioned furnished ground-floor concept plan"
+    }
+  ],
+  "signature_features": [
+    {
+      "id": "courtyard",
+      "label": "Planted courtyard",
+      "renders": [
+        "outputs/images/06-courtyard.png"
+      ]
+    },
+    {
+      "id": "roof-framing",
+      "label": "Twin gables with wood-covered steel framing",
+      "renders": [
+        "outputs/images/01-front.png",
+        "outputs/images/04-living.png"
+      ]
+    },
+    {
+      "id": "dual-suites",
+      "label": "Two primary suites with ensuite and walk-in storage",
+      "renders": [
+        "outputs/images/07-primary.png",
+        "outputs/images/08-primary-bath.png",
+        "outputs/images/12-east-bath.png",
+        "outputs/images/13-dressing.png",
+        "outputs/images/14-bath-detail.png"
+      ]
+    }
+  ],
+  "photographic_hero": {
+    "path": "outputs/images/photo-hero.png",
+    "caption": "Private timber arrival beneath the twin gables",
+    "source_render": "outputs/images/01-front.png",
+    "source_sha256": "f11c6919235f386ba0268e251bd42715edcd0cb79de1c7b161e4141a30e6ffe3",
+    "image_sha256": "b850f2ec8b4ef2cfbe56b6cae09e1cc24d44feee16317789e7f582323c45d62e",
+    "kind": "ai-photographic-study",
+    "tool": "ImageGen (built-in)",
+    "provenance": "outputs/photo-provenance.json"
+  },
+  "photographic_exteriors": [
+    {
+      "path": "outputs/images/photo-rear.png",
+      "caption": "The glazed rear elevation opens to the garden terrace",
+      "source_render": "outputs/images/02-rear.png",
+      "source_sha256": "24cc9d3c94a23cb89ffbc8869c08f11be1f641862df5132224cba56fd33f55d0",
+      "image_sha256": "a46e151f936b005eea020dfb287d664ed9db09a2c2f9e41040f47ada74f9f9d6",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    },
+    {
+      "path": "outputs/images/photo-side.png",
+      "caption": "A continuous roofline and measured side-window rhythm",
+      "source_render": "outputs/images/03-side.png",
+      "source_sha256": "680fae1680f765ce2e10905caa4277d410dde38e3fcf391ed0e047825b7b0f25",
+      "image_sha256": "a0c5c08500536a566f406a1a6a354508903273b65d5869f70f95522cfc5861c6",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    },
+    {
+      "path": "outputs/images/photo-courtyard.png",
+      "caption": "A private planted courtyard between glazed galleries",
+      "source_render": "outputs/images/06-courtyard.png",
+      "source_sha256": "7cf118a4d0c89567372f271e3c1531cc0e421f7ce0627ae9aad2ebef9aad0e98",
+      "image_sha256": "b712d6d52cfeb11230eb38ce7039e801378a3b1b8bdf74850f206f9877cec9b0",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    }
+  ],
+  "photographic_interiors": [
+    {
+      "path": "outputs/images/photo-living.png",
+      "caption": "AI photographic study \u2014 vaulted living, dining and the garden-facing public rooms.",
+      "source_render": "outputs/images/04-living.png",
+      "source_sha256": "04766e9e107b3b64afb4ae9c120200e47c28ffb7f1cc70451480eb111b7fd825",
+      "image_sha256": "39798ceca5b8c2def95e82e5a15ee9b4de6abe28c7fb63348b6324df0ffb5fca",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    },
+    {
+      "path": "outputs/images/photo-kitchen.png",
+      "caption": "AI photographic study \u2014 complete cooking wall, paneled refrigeration and sink island beneath the wood-lined vault.",
+      "source_render": "outputs/images/05-kitchen.png",
+      "source_sha256": "0e2cdcd9f8f1d49aa8ce18a764817c3822eaf60adca7747e54f93eef2995d7ad",
+      "image_sha256": "2d6f618ca9af60c036ead71bca0f7f077ead36e1dc7a5e84f0fc394db40e37b1",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    },
+    {
+      "path": "outputs/images/photo-primary.png",
+      "caption": "AI photographic study \u2014 primary suite with a high wood-lined ceiling, clerestory daylight and screened front glazing.",
+      "source_render": "outputs/images/07-primary.png",
+      "source_sha256": "7d8e10e7ec66e0379458566c6154175717cf24f1d301d81935cb2635c612f079",
+      "image_sha256": "7593fa5bf89a07dd298d4c7b8fd798101b71ff17da36ecd7cf7b846ccbf63da8",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    },
+    {
+      "path": "outputs/images/photo-bath.png",
+      "caption": "AI photographic study \u2014 primary ensuite double vanity, with paired vessel basins, oak drawer storage and the closed wood door.",
+      "source_render": "outputs/images/08-primary-bath.png",
+      "source_sha256": "462f711b79fecfe7303a433f96563f7fe936a614ed70f9b11f5a02509f49bdd8",
+      "image_sha256": "cea66dd1bdf21452dc2129d1cfb03a3d04d51295d29b7204cd8b8debb953a791",
+      "kind": "ai-photographic-study",
+      "tool": "ImageGen (built-in)",
+      "provenance": "outputs/photo-provenance.json"
+    }
+  ],
+  "review_note": "Reviewed all 14 native views, both plan sheets and 8 model-derived photographic studies; corrected roof-cover intersections, camera/plant occlusion, appliance visibility, door/latch operation and driveway connection. Generic concept geometry and product/engineering limits remain documented."
+}

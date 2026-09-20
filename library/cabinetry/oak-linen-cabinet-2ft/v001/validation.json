@@ -1,0 +1,37 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "native_sha256": "2f088748453bb05c4fbd5c4293a999ccc86f68e40c7220cca1d7cb13c44934d7",
+  "native_preserved_by_review": true,
+  "actual_dimensions_m": [
+    0.6096000075340271,
+    0.6382512152194977,
+    2.4384000301361084
+  ],
+  "retained_editable_doors": 2,
+  "shelves": 5,
+  "shelf_tops_z_m": [
+    0.46990600880235434,
+    0.859906024299562,
+    1.2499060099944472,
+    1.6399059956893325,
+    2.0368260806426406
+  ],
+  "hanging_rails": 0,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "host_integration_checked": false,
+  "preview_sha256": "75079330604d17248614f604e2d772103f3366dc030da8157e67ec2e772b9232",
+  "open_preview_sha256": "5aa8526c320affd88dd2972a9535a52841d0b047067d5b01571d650923ecdd69",
+  "visual_review": {
+    "reviewed": true,
+    "method": "Opened actual closed and 90-degree open CPU-rendered native previews",
+    "findings": [
+      "Closed front has two aligned oak doors and usable pulls",
+      "Open study shows five real shelves plus bottom storage deck",
+      "Hanging rail absent; cabinet proportions and toe kick retained"
+    ],
+    "scope": "Isolated asset only; home installation review remains separate"
+  }
+}

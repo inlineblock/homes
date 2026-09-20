@@ -1,0 +1,347 @@
+{
+  "model_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "checks": [
+    {
+      "name": "Actual four floor plates planning area",
+      "measured": 3360.0,
+      "passed": true,
+      "basis": "Evaluated plate dimensions; includes planning wall allowances, not exterior cladding-face survey"
+    },
+    {
+      "name": "Dedicated bedrooms and flex guest",
+      "measured": {
+        "dedicated": 2,
+        "guest": 1
+      },
+      "passed": true,
+      "basis": "Actual instantiated beds, not room labels"
+    },
+    {
+      "name": "West gallery clear width inches",
+      "measured": 48.72,
+      "passed": true,
+      "basis": "Actual partition and courtyard mullion bounds; beam posts placed outside gallery glazing"
+    },
+    {
+      "name": "East gallery clear width inches",
+      "measured": 48.72,
+      "passed": true,
+      "basis": "Actual partition and courtyard mullion bounds; beam posts placed outside gallery glazing"
+    },
+    {
+      "name": "West WIC clear closed-pull aisle inches",
+      "measured": 40.34,
+      "passed": true,
+      "basis": "Actual evaluated wardrobe geometry including pulls. Libraryleafwidth.95ft gives additional individualopen-doorcheck below."
+    },
+    {
+      "name": "West WIC single90degreeleaf remaining bypass inches",
+      "measured": 28.94,
+      "passed": true,
+      "basis": "Actual aisle minus.95ftlibraryleaf projection; oneleafoperated, opposingdoorsclosed; notaccessibilityapproval"
+    },
+    {
+      "name": "West WC clear feet",
+      "measured": {
+        "width": 4.15,
+        "depth": 6.25
+      },
+      "passed": true,
+      "basis": "Fixed mesh innerfaces; actual east-wall pocket entry, no inward leaf"
+    },
+    {
+      "name": "West bath linen fitted beside shower",
+      "measured": {
+        "linen_bounds_ft": [
+          [
+            12.570000070286547,
+            25.605998952870607,
+            0.0
+          ],
+          [
+            14.57000029055778,
+            27.699999296133285,
+            8.000000098871746
+          ]
+        ],
+        "shower_bounds_ft": [
+          [
+            14.682807947394103,
+            23.42493358872381,
+            0.0
+          ],
+          [
+            19.610630558544567,
+            27.375067938656944,
+            6.725722410547451
+          ]
+        ]
+      },
+      "passed": true,
+      "basis": "Actual closed linen cabinet and shower bounds; cabinet remains inside ensuite"
+    },
+    {
+      "name": "East WIC clear closed-pull aisle inches",
+      "measured": 38.54,
+      "passed": true,
+      "basis": "Actual evaluated wardrobe geometry including pulls. Libraryleafwidth.95ft gives additional individualopen-doorcheck below."
+    },
+    {
+      "name": "East WIC single90degreeleaf remaining bypass inches",
+      "measured": 27.14,
+      "passed": true,
+      "basis": "Actual aisle minus.95ftlibraryleaf projection; oneleafoperated, opposingdoorsclosed; notaccessibilityapproval"
+    },
+    {
+      "name": "East WC clear feet",
+      "measured": {
+        "width": 4.15,
+        "depth": 6.25
+      },
+      "passed": true,
+      "basis": "Fixed mesh innerfaces; actual east-wall pocket entry, no inward leaf"
+    },
+    {
+      "name": "East bath linen fitted beside shower",
+      "measured": {
+        "linen_bounds_ft": [
+          [
+            60.5700022279434,
+            25.605998952870607,
+            0.0
+          ],
+          [
+            62.57000244821463,
+            27.699999296133285,
+            8.000000098871746
+          ]
+        ],
+        "shower_bounds_ft": [
+          [
+            62.682810105050955,
+            23.42493358872381,
+            0.0
+          ],
+          [
+            67.6106280229223,
+            27.375067938656944,
+            6.725722410547451
+          ]
+        ]
+      },
+      "passed": true,
+      "basis": "Actual closed linen cabinet and shower bounds; cabinet remains inside ensuite"
+    },
+    {
+      "name": "Kitchen counter working aisle inches",
+      "measured": 53.38,
+      "passed": true,
+      "basis": "Measured modeled stone edges, applianceopeningschecked separately"
+    },
+    {
+      "name": "Hinged doors sampled full90degree operation",
+      "measured": [],
+      "passed": true,
+      "basis": "5degree samples of realwidth/thickness against evaluated furniture/appliance AABBs; does not certify manufacturer clearance"
+    },
+    {
+      "name": "Refrigerator110degree leaves",
+      "measured": {
+        "sweep_bounds_ft": [
+          [
+            63.00354254214469,
+            41.659713730098694,
+            0.3805774168705377
+          ],
+          [
+            65.23451467198649,
+            47.04028915545446,
+            6.99999998873613
+          ]
+        ],
+        "obstructions": []
+      },
+      "passed": true,
+      "basis": "Pinned asset conservative sweep transformed by actual native installation; one appliance operated at a time"
+    },
+    {
+      "name": "Dishwasher90degree drop panel",
+      "measured": {
+        "sweep_bounds_ft": [
+          [
+            60.635038561082574,
+            47.799342573471264,
+            0.13123359286722547
+          ],
+          [
+            63.407346019594684,
+            49.800656911895025,
+            2.837926540474879
+          ]
+        ],
+        "obstructions": []
+      },
+      "passed": true,
+      "basis": "Pinned asset conservative sweep transformed by actual native installation; one appliance operated at a time"
+    },
+    {
+      "name": "Oven drop-door and operator gap inches",
+      "measured": 25.32,
+      "passed": true,
+      "basis": "Conservative28inleaf projection fromactual closedfront;24in remaining operatorallowance; genericconcept, productunselected"
+    },
+    {
+      "name": "Visible induction ceramic surface",
+      "measured": {
+        "object": "Induction ceramic glass surface",
+        "height_ft": 3.02
+      },
+      "passed": true,
+      "basis": "Downward nativegeometry ray through the cooking center; no worktop covers appliance"
+    },
+    {
+      "name": "Beam cover contained below outer roof",
+      "measured": {
+        "maximum_penetration_ft": 0.0,
+        "vertices_checked": 768
+      },
+      "passed": true,
+      "basis": "Actuallinkedcovermeshvertices transformed into pitchedroofsection; engineering notimplied"
+    },
+    {
+      "name": "Driveway road continuity",
+      "measured": {
+        "gap_ft": 0
+      },
+      "passed": true,
+      "basis": "Actualgroundslabedge bounds; turning/siteengineering unresolved"
+    },
+    {
+      "name": "Sampled finished headroom",
+      "measured": [
+        {
+          "position": "Living center",
+          "finished_height_ft": 16.45,
+          "first_fixed_element": "Cover bottom soffit"
+        },
+        {
+          "position": "Living rafter bay",
+          "finished_height_ft": 11.663,
+          "first_fixed_element": "Cover bottom soffit"
+        },
+        {
+          "position": "Kitchen center",
+          "finished_height_ft": 16.45,
+          "first_fixed_element": "Cover bottom soffit"
+        },
+        {
+          "position": "West primary",
+          "finished_height_ft": 16.45,
+          "first_fixed_element": "Cover bottom soffit"
+        },
+        {
+          "position": "West bathroom",
+          "finished_height_ft": 10.0,
+          "first_fixed_element": "West ensuite finished flat ceiling"
+        },
+        {
+          "position": "East bathroom",
+          "finished_height_ft": 10.0,
+          "first_fixed_element": "East ensuite finished flat ceiling"
+        },
+        {
+          "position": "Entry",
+          "finished_height_ft": 12.07,
+          "first_fixed_element": "Downlight | opal lens"
+        },
+        {
+          "position": "Dining",
+          "finished_height_ft": 12.0,
+          "first_fixed_element": "Low link cedar ceiling.001"
+        }
+      ],
+      "passed": true,
+      "basis": "Upward rays from5.5ft eye level atnamed clearfloor points; beamcoverundersidescount"
+    }
+  ],
+  "debug_assets": {
+    "West primary basin mixer and mirror": [
+      [
+        8.259907638619891,
+        15.797768365053992,
+        2.9999999393002565
+      ],
+      [
+        10.14999986633541,
+        17.60223093308176,
+        6.723752797745031
+      ]
+    ],
+    "West primary basin mixer and mirror.001": [
+      [
+        8.259907638619891,
+        18.797768695460842,
+        2.9999999393002565
+      ],
+      [
+        10.14999986633541,
+        20.60223126348861,
+        6.723752797745031
+      ]
+    ],
+    "East primary basin mixer and mirror": [
+      [
+        56.25990744963718,
+        15.797768365053992,
+        2.9999999393002565
+      ],
+      [
+        58.14999733071314,
+        17.60223093308176,
+        6.723752797745031
+      ]
+    ],
+    "East primary basin mixer and mirror.001": [
+      [
+        56.25990744963718,
+        18.797768695460842,
+        2.9999999393002565
+      ],
+      [
+        58.14999733071314,
+        20.60223126348861,
+        6.723752797745031
+      ]
+    ],
+    "Laundry household shelves": [
+      [
+        55.699999251077806,
+        34.00000061575822,
+        0.0
+      ],
+      [
+        57.69999947134904,
+        36.00000083602945,
+        8.000000098871746
+      ]
+    ],
+    "Laundry household shelves.001": [
+      [
+        55.699999251077806,
+        36.00000083602945,
+        0.0
+      ],
+      [
+        57.69999947134904,
+        38.00000105630068,
+        8.000000098871746
+      ]
+    ]
+  },
+  "failures": [],
+  "limitations": [
+    "Generic equipment and finite operating samples, not selected-product approval.",
+    "No structural, thermal, fire, localcode or site survey certification.",
+    "Roof/slab source geometry and clearances remain concept assumptions."
+  ]
+}

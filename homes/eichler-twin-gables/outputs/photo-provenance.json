@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "kind": "ai-photographic-study",
+  "date": "2026-09-20",
+  "limitations": [
+    "Illustrative photographic interpretations of an unbuilt architectural concept.",
+    "Surrounding trees, planting fullness, lighting and incidental decorative styling may be enriched; native model and plans govern geometry.",
+    "Not surveyed landscape, selected products, engineered envelope or photographs of an existing building."
+  ],
+  "views": [
+    {
+      "role": "hero",
+      "path": "outputs/images/photo-hero.png",
+      "caption": "Private timber arrival beneath the twin gables",
+      "source_render": "outputs/images/01-front.png",
+      "prompt": "Use case: sketch-to-render architectural photographic finishing. Input image is the exact edit target and geometric authority, not a loose inspiration. Make it look like a real high-end architectural photograph of this same completed home in the SAME camera, lens, crop and composition. Preserve massing, roof slopes, openings, posts, beam positions, furniture, room equipment, operating states and designed paving. Real warm natural cedar and timber-look beam covers with subtle believable grain; pale warm honed stone and plaster, slim dark window frames, charcoal metal roofing. Change only realism: refined material microtexture, natural daylight, balanced exposure, realistic reflections, soft contact shadows and lifelike planting. Enhance sparse surrounding landscape as a restrained coherent temperate garden with lawn, shrubs and distant mature trees, never blocking architecture or access. This landscape is illustrative context, not a surveyed new design. No people, cars, labels, watermark, painted CGI look, excessive HDR or oversaturated orange wood. Private front elevation. Preserve both symmetrical broad shallow Eichler gables, the full-height vertical walls, opaque centered timber entry door, two lower screened windows with closely spaced vertical fins, triangular clerestory glass, dark metal roof and exact paths. The front must remain private. Do not invent an open glass entry or extra windows.",
+      "generated_original": "exec-d2d34591-09b3-4ec5-9a26-91061b47785c.png",
+      "tool": "ImageGen (built-in)",
+      "review": "Compared against native source: same massing, openings, camera, roof and structural rhythm; photographic surface/light detail and contextual planting are interpretive.",
+      "source_sha256": "f11c6919235f386ba0268e251bd42715edcd0cb79de1c7b161e4141a30e6ffe3",
+      "sha256": "b850f2ec8b4ef2cfbe56b6cae09e1cc24d44feee16317789e7f582323c45d62e"
+    },
+    {
+      "role": "exterior",
+      "path": "outputs/images/photo-rear.png",
+      "caption": "The glazed rear elevation opens to the garden terrace",
+      "source_render": "outputs/images/02-rear.png",
+      "prompt": "Use case: sketch-to-render architectural photographic finishing. Input image is the exact edit target and geometric authority, not a loose inspiration. Make it look like a real high-end architectural photograph of this same completed home in the SAME camera, lens, crop and composition. Preserve massing, roof slopes, openings, posts, beam positions, furniture, room equipment, operating states and designed paving. Real warm natural cedar and timber-look beam covers with subtle believable grain; pale warm honed stone and plaster, slim dark window frames, charcoal metal roofing. Change only realism: refined material microtexture, natural daylight, balanced exposure, realistic reflections, soft contact shadows and lifelike planting. Enhance sparse surrounding landscape as a restrained coherent temperate garden with lawn, shrubs and distant mature trees, never blocking architecture or access. This landscape is illustrative context, not a surveyed new design. No people, cars, labels, watermark, painted CGI look, excessive HDR or oversaturated orange wood. Rear garden elevation. Preserve the exact two broad gables and low center connector, all glazed openings and slim frames, kitchen on image left and living on image right, central dining, outdoor furniture layout, flat stone terrace and central courtyard seen through the house. Keep all posts and beam covers; no new balconies, rooms, pools or pergolas.",
+      "generated_original": "exec-a2926690-8533-4b97-8113-84317891b2d3.png",
+      "tool": "ImageGen (built-in)",
+      "review": "Compared against native source: same massing, openings, camera, roof and structural rhythm; photographic surface/light detail and contextual planting are interpretive.",
+      "source_sha256": "24cc9d3c94a23cb89ffbc8869c08f11be1f641862df5132224cba56fd33f55d0",
+      "sha256": "a46e151f936b005eea020dfb287d664ed9db09a2c2f9e41040f47ada74f9f9d6"
+    },
+    {
+      "role": "exterior",
+      "path": "outputs/images/photo-side.png",
+      "caption": "A continuous roofline and measured side-window rhythm",
+      "source_render": "outputs/images/03-side.png",
+      "prompt": "Use case: sketch-to-render architectural photographic finishing. Input image is the exact edit target and geometric authority, not a loose inspiration. Make it look like a real high-end architectural photograph of this same completed home in the SAME camera, lens, crop and composition. Preserve massing, roof slopes, openings, posts, beam positions, furniture, room equipment, operating states and designed paving. Real warm natural cedar and timber-look beam covers with subtle believable grain; pale warm honed stone and plaster, slim dark window frames, charcoal metal roofing. Change only realism: refined material microtexture, natural daylight, balanced exposure, realistic reflections, soft contact shadows and lifelike planting. Enhance sparse surrounding landscape as a restrained coherent temperate garden with lawn, shrubs and distant mature trees, never blocking architecture or access. This landscape is illustrative context, not a surveyed new design. No people, cars, labels, watermark, painted CGI look, excessive HDR or oversaturated orange wood. Straight side elevation. Preserve the single long continuous roof edge in this view, same roof pitch, timber cladding and exposed covered-post rhythm, exact large window groups and the high horizontal privacy window. Keep the facade clearly visible; no foreground tree obscuring the building. Do not redesign the windows or create extra gables.",
+      "generated_original": "exec-5ab2c0b4-3980-4157-b4ef-540017ee7cb5.png",
+      "tool": "ImageGen (built-in)",
+      "review": "Compared against native source: same massing, openings, camera, roof and structural rhythm; photographic surface/light detail and contextual planting are interpretive. Corrected an invented stone side walkway back to the modeled planting band.",
+      "correction_prompt": "Edit image 1 with image 2 as the original geometry reference. Keep the completed photographic house, camera, lighting, timber, roof, exact windows, lawn, plants and background identical to image 1. Only correct the strip immediately along the side facade: remove the newly invented pale stone walkway/paving strip and restore a continuous dark natural soil/mulch planting bed in that same narrow band as image 2, retaining the shrubs and grasses. No other edits. No new hardscape. Preserve all building edges and proportions exactly.",
+      "correction_input_generated_original": "exec-0fe6329a-314e-43ef-aaa1-0fbc96921934.png",
+      "source_sha256": "680fae1680f765ce2e10905caa4277d410dde38e3fcf391ed0e047825b7b0f25",
+      "sha256": "a0c5c08500536a566f406a1a6a354508903273b65d5869f70f95522cfc5861c6"
+    },
+    {
+      "role": "exterior",
+      "path": "outputs/images/photo-courtyard.png",
+      "caption": "A private planted courtyard between glazed galleries",
+      "source_render": "outputs/images/06-courtyard.png",
+      "prompt": "Use case: sketch-to-render architectural photographic finishing. Input image is the exact edit target and geometric authority, not a loose inspiration. Make it look like a real high-end architectural photograph of this same completed home in the SAME camera, lens, crop and composition. Preserve massing, roof slopes, openings, posts, beam positions, furniture, room equipment, operating states and designed paving. Real warm natural cedar and timber-look beam covers with subtle believable grain; pale warm honed stone and plaster, slim dark window frames, charcoal metal roofing. Change only realism: refined material microtexture, natural daylight, balanced exposure, realistic reflections, soft contact shadows and lifelike planting. Enhance sparse surrounding landscape as a restrained coherent temperate garden with lawn, shrubs and distant mature trees, never blocking architecture or access. This landscape is illustrative context, not a surveyed new design. No people, cars, labels, watermark, painted CGI look, excessive HDR or oversaturated orange wood. Internal courtyard. Preserve the open-air void, exact surrounding galleries, glazing, wood-covered framing, low planted beds and Japanese maple in the supplied camera. Keep doors and walkways usable and preserve all rooflines. No added pool, furniture, roof over the courtyard, extra storey or invented access.",
+      "generated_original": "exec-b6c8c66e-cdff-4253-a418-08f21f45a265.png",
+      "tool": "ImageGen (built-in)",
+      "review": "Compared against native source: same massing, openings, camera, roof and structural rhythm; photographic surface/light detail and contextual planting are interpretive.",
+      "source_sha256": "7cf118a4d0c89567372f271e3c1531cc0e421f7ce0627ae9aad2ebef9aad0e98",
+      "sha256": "b712d6d52cfeb11230eb38ce7039e801378a3b1b8bdf74850f206f9877cec9b0"
+    },
+    {
+      "id": "living",
+      "role": "interior",
+      "path": "outputs/images/photo-living.png",
+      "source_render": "outputs/images/04-living.png",
+      "caption": "AI photographic study \u2014 vaulted living, dining and the garden-facing public rooms.",
+      "prompt": "Use case: sketch-to-render. Edit the provided native architectural render into a believable, beautifully exposed architectural interior photograph of this EXACT same room and view. Preserve camera position, lens, crop, perspective, all roof slopes and ceiling heights, wall/window/door boundaries, mullions, every post and wood-covered beam, all furniture counts and placements, and the material colors. Improve only photographic realism: fine natural wood grain, subtle mineral plaster and honed pale floor texture, physically believable glass, fabric weave, soft daylight and contact shadows. Keep the cedar wood ceilings and beam covers a muted warm medium-dark brown, slim dark window framing and warm pale limestone walls. Do not redesign, add architecture, change furniture, add shelves/appliances/accessories, add people, labels or watermark. Landscape visible beyond glazing can become believable soft woodland context while preserving existing trees, paving and sightlines. Specific invariants: retain the left glazed garden wall with high triangular gable glass, its exact black mullions, two dark timber lounge chairs with cream upholstery and muted green cushions in the foreground, cropped pale coffee table, pale dining table/chairs in the center, three visible globe pendants, kitchen in far background and glazed courtyard gallery on the right. Preserve the sheltered terrace dining furniture seen outside. Bright natural late-morning editorial photography, gently lifted shadow detail with no blown windows.",
+      "tool": "image_gen.imagegen",
+      "review": "Compared visually with native source: room geometry, framing, ceiling/beam positions, glazing, furniture and equipment retained. Photographic texture and daylight enriched.",
+      "limitations": [
+        "AI photographic interpretation, not a photograph of an existing building or exact dimensional model evidence.",
+        "Additional woodland context outside the glazing is illustrative and not modeled or surveyed.",
+        "Fine texture, reflections, fabric folds and illumination are synthesized."
+      ],
+      "source_sha256": "04766e9e107b3b64afb4ae9c120200e47c28ffb7f1cc70451480eb111b7fd825",
+      "sha256": "39798ceca5b8c2def95e82e5a15ee9b4de6abe28c7fb63348b6324df0ffb5fca",
+      "generated_original": "exec-3989bd72-180e-44f1-9571-d16c579c4670.png"
+    },
+    {
+      "id": "kitchen",
+      "role": "interior",
+      "path": "outputs/images/photo-kitchen.png",
+      "source_render": "outputs/images/05-kitchen.png",
+      "caption": "AI photographic study \u2014 complete cooking wall, paneled refrigeration and sink island beneath the wood-lined vault.",
+      "prompt": "Use case: sketch-to-render. Edit the provided native architectural render into a believable, beautifully exposed architectural interior photograph of this EXACT same room and view. Preserve camera position, lens, crop, perspective, all roof slopes and ceiling heights, wall/window/door boundaries, mullions, every post and wood-covered beam, all furniture counts and placements, and the material colors. Improve only photographic realism: fine natural wood grain, subtle mineral plaster and honed pale floor texture, physically believable glass, fabric weave, soft daylight and contact shadows. Keep the cedar wood ceilings and beam covers a muted warm medium-dark brown, slim dark window framing and warm pale limestone walls. Do not redesign, add architecture, change furniture, add shelves/appliances/accessories, add people, labels or watermark. Landscape visible beyond glazing can become believable soft woodland context while preserving existing trees, paving and sightlines. Specific invariants: retain the exact cooking wall with four sets of smoked-oak drawers, integrated oven beneath the induction cooktop and the metal hood and tall dark flue above; two high windows; tall double-door panel-ready refrigerator next to the open pantry doorway with its existing shelves. Retain the island dimensions and sink opening, stainless undermount sink and arched faucet, three tan leather stools (one cropped), two glowing white pendants, cream counters. Preserve all bronze handles and clear aisle. No new upper cabinets or additional ovens. Refine stainless steel, realistic pale induction glass and wood veneer grain without changing equipment shape or position.",
+      "tool": "image_gen.imagegen",
+      "review": "Compared visually with native source: room geometry, framing, ceiling/beam positions, glazing, furniture and equipment retained. Photographic texture and daylight enriched.",
+      "limitations": [
+        "AI photographic interpretation, not a photograph of an existing building or exact dimensional model evidence.",
+        "Additional woodland context outside the glazing is illustrative and not modeled or surveyed.",
+        "Fine texture, reflections, fabric folds and illumination are synthesized."
+      ],
+      "source_sha256": "0e2cdcd9f8f1d49aa8ce18a764817c3822eaf60adca7747e54f93eef2995d7ad",
+      "sha256": "2d6f618ca9af60c036ead71bca0f7f077ead36e1dc7a5e84f0fc394db40e37b1",
+      "generated_original": "exec-3b851114-8fe5-4b8a-b739-e60f4401c011.png"
+    },
+    {
+      "id": "primary",
+      "role": "interior",
+      "path": "outputs/images/photo-primary.png",
+      "source_render": "outputs/images/07-primary.png",
+      "caption": "AI photographic study \u2014 primary suite with a high wood-lined ceiling, clerestory daylight and screened front glazing.",
+      "prompt": "Use case: sketch-to-render. Edit the provided native architectural render into a believable, beautifully exposed architectural interior photograph of this EXACT same room and view. Preserve camera position, lens, crop, perspective, all roof slopes and ceiling heights, wall/window/door boundaries, mullions, every post and wood-covered beam, all furniture counts and placements, and the material colors. Improve only photographic realism: fine natural wood grain, subtle mineral plaster and honed pale floor texture, physically believable glass, fabric weave, soft daylight and contact shadows. Keep the cedar wood ceilings and beam covers a muted warm medium-dark brown, slim dark window framing and warm pale limestone walls. Do not redesign, add architecture, change furniture, add shelves/appliances/accessories, add people, labels or watermark. Landscape visible beyond glazing can become believable soft woodland context while preserving existing trees, paving and sightlines. Specific invariants: preserve this close corner view of the king bed with cream upholstered headboard, two pillows, pale duvet and folded beige throw, both existing oak nightstands with no added lamps. Preserve the two-panel wide window behind the headboard, the left full-height window with exterior vertical timber privacy fins and upper triangular clerestory glazing. Keep all screened privacy, the high cedar vault and its wood-covered ridge beam. Add realistic linen folds and fine upholstery weave while keeping the bedding simple and the exact bed position. Gentle daylight through timber fins, serene airy premium bedroom photograph.",
+      "tool": "image_gen.imagegen",
+      "review": "Compared visually with native source: room geometry, framing, ceiling/beam positions, glazing, furniture and equipment retained. Photographic texture and daylight enriched.",
+      "limitations": [
+        "AI photographic interpretation, not a photograph of an existing building or exact dimensional model evidence.",
+        "Additional woodland context outside the glazing is illustrative and not modeled or surveyed.",
+        "Fine texture, reflections, fabric folds and illumination are synthesized."
+      ],
+      "source_sha256": "7d8e10e7ec66e0379458566c6154175717cf24f1d301d81935cb2635c612f079",
+      "sha256": "7593fa5bf89a07dd298d4c7b8fd798101b71ff17da36ecd7cf7b846ccbf63da8",
+      "generated_original": "exec-134da8bc-5fa6-4cae-a176-c152b67a9dea.png"
+    },
+    {
+      "id": "bath",
+      "role": "interior",
+      "path": "outputs/images/photo-bath.png",
+      "source_render": "outputs/images/08-primary-bath.png",
+      "caption": "AI photographic study \u2014 primary ensuite double vanity, with paired vessel basins, oak drawer storage and the closed wood door.",
+      "prompt": "Use case: sketch-to-render. Edit this native architectural bathroom render into a believable premium architectural interior photograph of the EXACT same room and view. Lock camera position, lens, perspective, crop, wall and ceiling planes, recesses, door boundaries, furniture, plumbing fixture positions and proportions. Keep the two white round vessel basins, their two metal curved faucets, two separate black framed rectangular mirrors at exactly their current sizes/locations, the pale honed stone counter and three oak drawer banks with three drawers each and dark integrated horizontal pulls. Keep the closed full-height dark brown wood door at left with its single attached bronze lever at the actual height and location. Keep only the little cropped edge of the freestanding white bathtub at bottom left; do not reveal more or add another fixture. Preserve the right foreground partition and shadowed recess beyond it. Improve only realism with fine oak grain, natural mineral plaster texture, white ceramic, physically believable metal and mirror reflection, accurate contact shadows and soft natural bounced light from an off-camera window. Lightly brighten the existing warm pale limestone palette with daylight white balance, avoiding dingy yellow or glaring white. Do not invent sconces, ceiling fixtures, shelves, accessories, towels, people, cabinets, new doors, windows, tubs or additional plumbing. No text or watermark. Beautiful calm editorial photograph while maintaining every modeled architectural detail.",
+      "tool": "image_gen.imagegen",
+      "review": "Compared visually with corrected native source: two vessel basins and faucets, paired mirrors, three banks of three drawers, full-height closed wood door with attached bronze lever, right foreground partition and the cropped tub edge retained. No invented sconces, shelves or additional fixtures.",
+      "limitations": [
+        "AI photographic interpretation, not a photograph of an existing building or exact dimensional model evidence.",
+        "Fine wood grain, plaster/stone texture, reflections and illumination are synthesized; this close view does not show the entire ensuite or prove its full program."
+      ],
+      "source_sha256": "462f711b79fecfe7303a433f96563f7fe936a614ed70f9b11f5a02509f49bdd8",
+      "sha256": "cea66dd1bdf21452dc2129d1cfb03a3d04d51295d29b7204cd8b8debb953a791",
+      "generated_original": "exec-fe5e689d-555a-4aca-9957-d3c68cfc125f.png"
+    }
+  ],
+  "home": "eichler-twin-gables",
+  "model_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89"
+}

@@ -1,0 +1,124 @@
+{
+  "views": {
+    "08-primary-bath": {
+      "native_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+      "render_script_sha256": "c036ad85c1f230e5257c6bec789baaa56d7f86d410aa170904786797b893142e",
+      "image_sha256": "462f711b79fecfe7303a433f96563f7fe936a614ed70f9b11f5a02509f49bdd8",
+      "camera_matrix_world_m": [
+        [
+          -0.5046963691711426,
+          -0.12479966878890991,
+          0.854228675365448,
+          5.029200077056885
+        ],
+        [
+          0.8632969260215759,
+          -0.07295959442853928,
+          0.4993949830532074,
+          6.64463996887207
+        ],
+        [
+          -1.509535110244542e-07,
+          0.9894958138465881,
+          0.14456160366535187,
+          1.676400065422058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_lens_mm": 18.0,
+      "samples": 256,
+      "resolution": [
+        2000,
+        1333
+      ],
+      "transient_camera_override": false,
+      "transient_closed_bath_door": true,
+      "native_saved": false
+    },
+    "12-east-bath": {
+      "native_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+      "render_script_sha256": "c036ad85c1f230e5257c6bec789baaa56d7f86d410aa170904786797b893142e",
+      "image_sha256": "47ac7fbcc814032d50f8e37a110a7ee2d50b5a04aec00b2284af4310988ac0a3",
+      "camera_matrix_world_m": [
+        [
+          -0.5046963691711426,
+          -0.12479966878890991,
+          0.854228675365448,
+          19.65959930419922
+        ],
+        [
+          0.8632969260215759,
+          -0.07295959442853928,
+          0.4993949830532074,
+          6.64463996887207
+        ],
+        [
+          -1.509535110244542e-07,
+          0.9894958138465881,
+          0.14456160366535187,
+          1.676400065422058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_lens_mm": 18.0,
+      "samples": 256,
+      "resolution": [
+        2000,
+        1333
+      ],
+      "transient_camera_override": false,
+      "transient_closed_bath_door": true,
+      "native_saved": false
+    },
+    "13-dressing": {
+      "native_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+      "render_script_sha256": "c036ad85c1f230e5257c6bec789baaa56d7f86d410aa170904786797b893142e",
+      "image_sha256": "e834f4db5a67c0dcc730ea55438891280fc823395dc0246a6b691e21f9dbb3bf",
+      "camera_matrix_world_m": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.2344400882720947
+        ],
+        [
+          0.0,
+          0.10174206644296646,
+          -0.9948108196258545,
+          5.547360420227051
+        ],
+        [
+          0.0,
+          0.9948108196258545,
+          0.10174206644296646,
+          1.676400065422058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_lens_mm": 22.0,
+      "samples": 256,
+      "resolution": [
+        2000,
+        1333
+      ],
+      "transient_camera_override": true,
+      "transient_closed_bath_door": false,
+      "native_saved": false
+    }
+  }
+}

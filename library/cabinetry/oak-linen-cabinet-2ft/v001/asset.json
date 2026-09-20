@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-linen-cabinet-2ft",
+  "version": "v001",
+  "name": "Closed oak linen cabinet 2ft | v001",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6382512152194977,
+    2.4384000301361084
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.33345121145248413,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "blender": {
+    "collection": "Closed oak linen cabinet 2ft | v001"
+  },
+  "placement": {
+    "origin": "Floor center of nominal 24x24 inch carcass at Z=0",
+    "front_direction": "-Y; width X; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; no scaling"
+  },
+  "nominal_dimensions_inches": [
+    24,
+    24,
+    96
+  ],
+  "modeled_state": "Closed pair of individually editable oak doors, five actual internal shelves above bottom floor; no hanging rail. Shelves are fixed in visualization; selected hardware remains unspecified.",
+  "internal_storage": {
+    "added_shelf_centers_z_m": [
+      0.46,
+      0.85,
+      1.24,
+      1.63
+    ],
+    "retained_upper_shelf_center_z_m": 2.02692,
+    "shelf_thickness_m": 0.019812,
+    "shelf_width_m": 0.573024,
+    "shelf_depth_m": 0.54864,
+    "bottom_deck_top_z_m": 0.100584,
+    "shelf_count": 5,
+    "top_linen_compartment_note": "Upper compartment remains storage, not a wardrobe rail space."
+  },
+  "installation": {
+    "mounting": "Level floor plus host wall anti-tip fixing; cabinet is not a wall-mounted unit. Host supplies finish tolerance and moisture-compatible product selection.",
+    "operating_envelope": {
+      "modeled_state": "Closed",
+      "intended_open_angle_degrees": 90,
+      "hinges_m": [
+        [
+          -0.291084,
+          -0.294132,
+          0
+        ],
+        [
+          0.291084,
+          -0.294132,
+          0
+        ]
+      ],
+      "door_leaf_width_m": 0.28956,
+      "conservative_front_projection_m": 0.34,
+      "front_operator_space_beyond_swing_m": 0.6,
+      "basis": "Original concept leaf dimensions plus pulls; approximate planning envelope, not a manufacturer hinge specification.",
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Locate inside bathroom with dry access away from shower spray",
+      "Reserve floor and door clearance; anti-tip support and shelf capacity require actual specification"
+    ]
+  },
+  "derived_from": {
+    "id": "cabinetry/oak-wardrobe-2ft",
+    "version": "v001",
+    "path": "../../oak-wardrobe-2ft/v001/oak-wardrobe-2ft.blend",
+    "sha256": "634c769ae2083b4f8a7a7fccc429e60cfe09efe52603142c838528f063a4fb7a",
+    "method": "Append actual published collection; retain original carcass, toe kick, closed doors and pulls. Remove hanging rail and add four shelves below retained upper shelf. Relink original coastal-white-oak material."
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "source": {
+    "kind": "original derivative",
+    "generator": "tools/library/publish_oak_linen_cabinet.py",
+    "command": "blender -b --factory-startup --python tools/library/publish_oak_linen_cabinet.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural material; retain attribution. No manufacturer or third-party CAD.",
+  "files": {
+    "blender": "oak-linen-cabinet-2ft.blend",
+    "preview": "preview.png",
+    "open_preview": "open-preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original linen-storage visualization. Doors have editable geometry but no selected hinge hardware; shelf loads, moist-room suitability and installation remain unresolved."
+}

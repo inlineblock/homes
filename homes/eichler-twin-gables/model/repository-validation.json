@@ -1,0 +1,683 @@
+{
+  "home": "eichler-twin-gables",
+  "failures": [],
+  "native_model_reopened": true,
+  "relative_libraries": 55,
+  "measured_enclosed_floor_sqft": 3360.0,
+  "modeled_beds": 2,
+  "asset_use_schedule": "homes/eichler-twin-gables/assets/README.md",
+  "asset_adoption": {
+    "home": "eichler-twin-gables",
+    "native_library_pins_match_manifest": true,
+    "asset_versions": 55,
+    "assets": [
+      {
+        "id": "appliances/built-in-oven-30in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Built-in cooking oven"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/front-loading-laundry-600",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Laundry washer",
+          "Laundry dryer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/induction-cooktop-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Induction stove36inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/smoked-oak-panel-ready-dishwasher-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Island dishwasher"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Wide integrated refrigerator freezer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/wall-hood-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Extraction hood36inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "assemblies/cedar-steel-beam-cover-300x400",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 34,
+        "examples": [
+          "Cedar cover on assumed steel rafter",
+          "Cedar cover on assumed steel rafter.001",
+          "Cedar cover on assumed steel rafter.002",
+          "Cedar cover on assumed steel rafter.003",
+          "Cedar cover on assumed steel rafter.004",
+          "Cedar cover on assumed steel rafter.005",
+          "Cedar cover on assumed steel rafter.006",
+          "Cedar cover on assumed steel rafter.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-drawer-base-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 7,
+        "examples": [
+          "West primary vanity drawers",
+          "West primary vanity drawers.001",
+          "West primary vanity drawers.002",
+          "East primary vanity drawers",
+          "East primary vanity drawers.001",
+          "East primary vanity drawers.002",
+          "Guest bathroom vanity drawers"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-linen-cabinet-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "West primary linen closet inside bath",
+          "East primary linen closet inside bath"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-shelving-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Laundry household shelves",
+          "Laundry household shelves.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-wardrobe-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 25,
+        "examples": [
+          "West WIC west hanging bay",
+          "West WIC east hanging bay",
+          "West WIC west hanging bay.001",
+          "West WIC east hanging bay.001",
+          "West WIC west hanging bay.002",
+          "West WIC east hanging bay.002",
+          "West WIC west hanging bay.003",
+          "West WIC east hanging bay.003"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/smoked-oak-drawer-base-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "Cooking landing drawers south",
+          "Cooking wall storage drawers",
+          "Cooking wall storage drawers.001",
+          "Cooking wall storage drawers.002",
+          "Island deep drawers"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/smoked-oak-oven-base-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Cooking oven base cabinet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/smoked-oak-pantry-shelf-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 8,
+        "examples": [
+          "Pantry west food shelf",
+          "Pantry east food shelf",
+          "Pantry west food shelf.001",
+          "Pantry east food shelf.001",
+          "Pantry west food shelf.002",
+          "Pantry east food shelf.002",
+          "Pantry west food shelf.003",
+          "Pantry east food shelf.003"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/smoked-oak-sink-base-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Island sink cabinet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/smoked-oak-waste-pullout-18in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Island waste recycling"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/freestanding-tub-72in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "West primary separate72inch bathtub",
+          "East primary separate72inch bathtub"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/kitchen-sink-mixer-650",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Island sink and mixer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-recessed-downlight-3in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 18,
+        "examples": [
+          "Recessed architectural downlight",
+          "Recessed architectural downlight.001",
+          "Recessed architectural downlight.002",
+          "Recessed architectural downlight.003",
+          "Recessed architectural downlight.004",
+          "Recessed architectural downlight.005",
+          "Recessed architectural downlight.006",
+          "Recessed architectural downlight.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/opal-globe-pendant",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Kitchen opal feature pendant",
+          "Kitchen opal feature pendant.001",
+          "Dining opal pendant",
+          "Dining opal pendant.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-1500x1200",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "West primary separate shower",
+          "East primary separate shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-900",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Guest bathroom shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/toilet-elongated",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "West primary enclosed toilet",
+          "East primary enclosed toilet",
+          "Guest bathroom toilet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/vanity-basin-mixer-mirror",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "West primary basin mixer and mirror",
+          "West primary basin mixer and mirror.001",
+          "East primary basin mixer and mirror",
+          "East primary basin mixer and mirror.001",
+          "Guest bathroom basin"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-outdoor-lounge-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Living conversation lounge chair",
+          "Living conversation lounge chair.001",
+          "Rear garden lounge chair"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-outdoor-sofa",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Rear garden outdoor sofa"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/linen-three-seat-sofa",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living tailored linen sofa"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-dining-table-8ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Dining eight foot oak table",
+          "Terrace dining oak table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-king-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "West primary king bed",
+          "East primary king bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-queen-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Office guest queen bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-open-nightstand",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "West primary nightstand",
+          "West primary nightstand.001",
+          "East primary nightstand",
+          "East primary nightstand.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-rounded-coffee-table",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Living rounded coffee table",
+          "Rear outdoor coffee table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-upholstered-dining-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 13,
+        "examples": [
+          "Office desk chair",
+          "Dining upholstered chair",
+          "Dining upholstered chair.001",
+          "Dining upholstered chair.002",
+          "Dining upholstered chair.003",
+          "Dining upholstered chair.004",
+          "Dining upholstered chair.005",
+          "Terrace dining chair"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-writing-desk",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Office writing desk"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/walnut-counter-stool",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Island walnut counter seat",
+          "Island walnut counter seat.001",
+          "Island walnut counter seat.002"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/woven-oatmeal-rug",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living woven rug"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "hardware/bar-pull-satin-bronze",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "cabinetry/smoked-oak-drawer-base-2ft",
+          "cabinetry/smoked-oak-sink-base-36in",
+          "cabinetry/smoked-oak-waste-pullout-18in"
+        ]
+      },
+      {
+        "id": "hardware/door-lever-satin-bronze",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 18,
+        "examples": [
+          "West gallery partition lever",
+          "West gallery partition opposite lever",
+          "West gallery partition lever.001",
+          "West gallery partition opposite lever.001",
+          "East gallery partition lever",
+          "East gallery partition opposite lever",
+          "West bedroom services lever",
+          "West bedroom services opposite lever"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/broad-canopy-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 10,
+        "examples": [
+          "Woodland canopy context",
+          "Woodland canopy context.001",
+          "Woodland canopy context.002",
+          "Woodland canopy context.003",
+          "Woodland canopy context.004",
+          "Woodland canopy context.005",
+          "Woodland canopy context.006",
+          "Woodland canopy context.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/flowering-perennial-clump",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 52,
+        "examples": [
+          "Layered woodland garden planting.002",
+          "Layered woodland garden planting.005",
+          "Layered woodland garden planting.008",
+          "Layered woodland garden planting.013",
+          "Layered woodland garden planting.016",
+          "Layered woodland garden planting.018",
+          "Layered woodland garden planting.019",
+          "Layered woodland garden planting.021"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/japanese-laceleaf-maple",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Signature courtyard red maple"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/ornamental-grass-clump",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 65,
+        "examples": [
+          "Layered woodland garden planting.001",
+          "Layered woodland garden planting.004",
+          "Layered woodland garden planting.007",
+          "Layered woodland garden planting.010",
+          "Layered woodland garden planting.012",
+          "Layered woodland garden planting.015",
+          "Layered woodland garden planting.017",
+          "Layered woodland garden planting.023"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/sage-shrub",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 50,
+        "examples": [
+          "Layered woodland garden planting",
+          "Layered woodland garden planting.003",
+          "Layered woodland garden planting.006",
+          "Layered woodland garden planting.009",
+          "Layered woodland garden planting.011",
+          "Layered woodland garden planting.014",
+          "Layered woodland garden planting.020",
+          "Layered woodland garden planting.022"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/bronze-gray-standing-seam",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "openings/angled-cedar-privacy-screen-2000x2800"
+        ]
+      },
+      {
+        "id": "materials/charcoal-facade-panel",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 271,
+        "examples": [
+          "West side window mullion (material)",
+          "West side window mullion.001 (material)",
+          "West side window mullion.002 (material)",
+          "West side window rail (material)",
+          "West side window rail.001 (material)",
+          "West side window mullion.003 (material)",
+          "West side window mullion.004 (material)",
+          "West side window mullion.005 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/charcoal-standing-seam",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 210,
+        "examples": [
+          "Continuous standing seam roof (material)",
+          "Roof standing seam (material)",
+          "Roof standing seam.001 (material)",
+          "Roof standing seam.002 (material)",
+          "Roof standing seam.003 (material)",
+          "Roof standing seam.004 (material)",
+          "Roof standing seam.005 (material)",
+          "Roof standing seam.006 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-honed-limestone",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 23,
+        "examples": [
+          "West wing floor (material)",
+          "East wing floor (material)",
+          "Front link floor (material)",
+          "Rear link floor (material)",
+          "East cooking continuous stone (material)",
+          "Honed stone cooking backsplash (material)",
+          "Island preparation and social stone (material)",
+          "West primary double vanity stone (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-white-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/linen-three-seat-sofa",
+          "furniture/oak-dining-table-8ft",
+          "cabinetry/oak-drawer-base-2ft",
+          "cabinetry/oak-linen-cabinet-2ft",
+          "furniture/oak-linen-king-bed",
+          "furniture/oak-linen-queen-bed",
+          "furniture/oak-open-nightstand",
+          "furniture/oak-rounded-coffee-table",
+          "cabinetry/oak-shelving-2ft",
+          "furniture/oak-upholstered-dining-chair",
+          "cabinetry/oak-wardrobe-2ft",
+          "furniture/oak-writing-desk"
+        ]
+      },
+      {
+        "id": "materials/olive-linen",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "furniture/coastal-outdoor-sofa"
+        ]
+      },
+      {
+        "id": "materials/smoked-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 21,
+        "examples": [
+          "West gallery partition open door (material)",
+          "West gallery partition recessed sliding leaf (material)",
+          "West gallery partition open door.001 (material)",
+          "East gallery partition open door (material)",
+          "East gallery partition recessed sliding leaf (material)",
+          "West bedroom services open door (material)",
+          "West bedroom services open door.001 (material)",
+          "East bedroom services open door (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/warm-limestone-plaster",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 96,
+        "examples": [
+          "West side insulated wall (material)",
+          "West side insulated wall.001 (material)",
+          "West side insulated wall.002 (material)",
+          "West side insulated wall.003 (material)",
+          "West side insulated wall.004 (material)",
+          "West side insulated wall.005 (material)",
+          "West side insulated wall.006 (material)",
+          "West side insulated wall.007 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/warm-vertical-cedar",
+        "version": "v003",
+        "direct_placements_or_material_assignments": 1213,
+        "examples": [
+          "West side cedar board (material)",
+          "West side cedar board.001 (material)",
+          "West side cedar board.002 (material)",
+          "West side cedar board.003 (material)",
+          "West side cedar board.004 (material)",
+          "West side cedar board.005 (material)",
+          "West side cedar board.006 (material)",
+          "West side cedar board.007 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/woven-oatmeal",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "furniture/coastal-outdoor-sofa",
+          "furniture/woven-oatmeal-rug"
+        ]
+      },
+      {
+        "id": "openings/angled-cedar-privacy-screen-2000x2800",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Fixed front privacy screen",
+          "Fixed front privacy screen.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "surfaces/honed-limestone-paver-4ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 104,
+        "examples": [
+          "Shared rear terrace limestone paver",
+          "Shared rear terrace limestone paver.001",
+          "Shared rear terrace limestone paver.002",
+          "Shared rear terrace limestone paver.003",
+          "Shared rear terrace limestone paver.004",
+          "Shared rear terrace limestone paver.005",
+          "Shared rear terrace limestone paver.006",
+          "Shared rear terrace limestone paver.007"
+        ],
+        "adopted_parent_dependencies": []
+      }
+    ]
+  },
+  "model_sha256": "de8b42f5d457c2332b92658a116c562ca89da1e44168826c2c78be50ccd2fe89",
+  "command": "blender --factory-startup --background --python-exit-code 1 --python tools/common/verify_repository.py -- --homes eichler-twin-gables"
+}

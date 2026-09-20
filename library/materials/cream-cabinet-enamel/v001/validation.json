@@ -1,0 +1,14 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_material_link": true,
+  "dimensions_match_manifest": null,
+  "dimensions_validation_status": "not applicable - material-only asset with no fixed geometry",
+  "preview_rendered": true,
+  "host_integration_checked": false,
+  "visual_review": {
+    "reviewed": true,
+    "observations": [
+      "Actual neutral swatch and applied cabinet previews inspected: smooth warm cream satin enamel, no plaster-like texture."
+    ]
+  }
+}

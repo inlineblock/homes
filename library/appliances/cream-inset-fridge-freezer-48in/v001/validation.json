@@ -1,0 +1,72 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "cream-inset-fridge-freezer-48in | v001",
+  "closed_bounds_m": {
+    "min": [
+      -0.6096,
+      -0.4638,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.381,
+      2.1336
+    ]
+  },
+  "open_bounds_m": {
+    "min": [
+      -0.8453106,
+      -0.9547888,
+      0.0
+    ],
+    "max": [
+      0.8453106,
+      0.381,
+      2.1336
+    ]
+  },
+  "object_count": 130,
+  "relative_dependencies_resolved": [
+    {
+      "saved_relative_path": "//../../../materials/aged-brass/v001/aged-brass.blend",
+      "resolved_repository_path": "library/materials/aged-brass/v001/aged-brass.blend"
+    },
+    {
+      "saved_relative_path": "//../../../hardware/appliance-pull-aged-brass-24in/v001/appliance-pull-aged-brass-24in.blend",
+      "resolved_repository_path": "library/hardware/appliance-pull-aged-brass-24in/v001/appliance-pull-aged-brass-24in.blend"
+    },
+    {
+      "saved_relative_path": "//../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "resolved_repository_path": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "saved_relative_path": "//../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend",
+      "resolved_repository_path": "library/materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    }
+  ],
+  "all_saved_library_paths_relative": true,
+  "rigid_hardware_scale_verified": true,
+  "explicit_open_collection_verified": true,
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed",
+    "reviewed_images": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Two full-height doors each show two recessed painted sections and unscaled long brass pulls.",
+      "Open view exposes two hollow compartments, shelves, door bins and lower storage bins; toe ventilation stays unobstructed."
+    ]
+  },
+  "rendered_states": [
+    "closed",
+    "open/service"
+  ],
+  "preview_sha256": {
+    "preview.png": "2fc900afac565e9241c79ed60b9e63e6b5bcb096de2edcb370d1f172be818e5b",
+    "preview-open.png": "7ff395d0314e4e0c60ee5816aa34c5ec5d84ec0e97a494bbeb1fc05bc54d75a8"
+  },
+  "native_sha256": "5b93f90e1b85e40b82eae6c8ff6557c2dea2583fa85041dccff0e469dc32b8c3"
+}

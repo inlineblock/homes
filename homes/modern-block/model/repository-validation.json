@@ -2,30 +2,62 @@
   "home": "modern-block",
   "failures": [],
   "native_model_reopened": true,
-  "relative_libraries": 52,
+  "relative_libraries": 72,
   "measured_enclosed_floor_sqft": 6526.8,
   "modeled_beds": 4,
   "asset_use_schedule": "homes/modern-block/assets/README.md",
   "asset_adoption": {
     "home": "modern-block",
     "native_library_pins_match_manifest": true,
-    "asset_versions": 52,
+    "asset_versions": 72,
     "assets": [
       {
         "id": "appliances/built-in-oven-30in",
         "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "appliances/cream-brass-dual-fuel-range-48in",
+          "appliances/cream-inset-dishwasher-24in",
+          "appliances/cream-inset-fridge-freezer-48in",
+          "appliances/cream-plaster-wall-hood-48in",
+          "appliances/microwave-drawer-24in"
+        ]
+      },
+      {
+        "id": "appliances/cream-brass-dual-fuel-range-48in",
+        "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen built-in oven"
+          "Kitchen cream brass range"
         ],
         "adopted_parent_dependencies": []
       },
       {
-        "id": "appliances/dishwasher-24in",
+        "id": "appliances/cream-inset-dishwasher-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Kitchen concealed dishwasher 1",
+          "Kitchen concealed dishwasher 2"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/cream-inset-fridge-freezer-48in",
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen integrated dishwasher"
+          "Kitchen concealed refrigeration"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/cream-plaster-wall-hood-48in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen cream capture hood"
         ],
         "adopted_parent_dependencies": []
       },
@@ -40,59 +72,125 @@
         "adopted_parent_dependencies": []
       },
       {
-        "id": "appliances/induction-cooktop-36in",
+        "id": "appliances/microwave-drawer-24in",
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen induction cooktop"
+          "Kitchen island microwave"
         ],
         "adopted_parent_dependencies": []
       },
       {
-        "id": "appliances/panel-ready-fridge-48in",
+        "id": "cabinetry/cream-inset-appliance-garage-48in",
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen wide refrigeration"
+          "Pantry appliance garage"
         ],
         "adopted_parent_dependencies": []
       },
       {
-        "id": "appliances/wall-hood-36in",
+        "id": "cabinetry/cream-inset-drawer-base-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Kitchen refrigeration landing drawers",
+          "Pantry appliance garage base west",
+          "Pantry appliance garage base east"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/cream-inset-glazed-upper-36in",
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen wall hood"
+          "Kitchen refrigerator glazed display"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/cream-inset-pantry-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Pantry enclosed food storage"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/cream-inset-sink-base-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen cream sink base"
         ],
         "adopted_parent_dependencies": []
       },
       {
         "id": "cabinetry/oak-drawer-base-2ft",
         "version": "v001",
-        "direct_placements_or_material_assignments": 14,
+        "direct_placements_or_material_assignments": 7,
         "examples": [
-          "Kitchen north drawer",
-          "Kitchen north drawer.001",
-          "Kitchen north drawer.002",
-          "Kitchen north drawer.003",
-          "Kitchen island drawer",
-          "Kitchen island drawer.001",
-          "Kitchen island drawer.002",
-          "Ground powder vanity drawer 1"
+          "Ground powder vanity drawer 1",
+          "Primary double vanity drawer 1",
+          "Primary double vanity drawer 2",
+          "Upper shared vanity drawer 1",
+          "Upper shared vanity drawer 2",
+          "Guest bathroom vanity drawer 1",
+          "Guest bathroom vanity drawer 2"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-inset-drawer-base-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Kitchen island south drawers",
+          "Kitchen island prep drawers",
+          "Kitchen island north drawers"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-inset-island-back-panel-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "Kitchen island seating panel",
+          "Kitchen island seating panel.001",
+          "Kitchen island seating panel.002",
+          "Kitchen island seating panel.003",
+          "Kitchen island seating panel.004"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-inset-microwave-base-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen island microwave housing"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/oak-inset-waste-pullout-18in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen island waste and recycling"
         ],
         "adopted_parent_dependencies": []
       },
       {
         "id": "cabinetry/oak-shelving-2ft",
         "version": "v001",
-        "direct_placements_or_material_assignments": 8,
+        "direct_placements_or_material_assignments": 4,
         "examples": [
-          "Pantry storage",
-          "Pantry storage.001",
-          "Pantry storage.002",
           "Laundry tall linen",
           "Pantry side shelf",
-          "Pantry side shelf.001",
           "Upper landing linen",
           "Upper landing linen.001"
         ],
@@ -142,11 +240,39 @@
         "adopted_parent_dependencies": []
       },
       {
-        "id": "fixtures/kitchen-sink-mixer-650",
+        "id": "fixtures/kitchen-sink-bridge-faucet-brass-650",
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen island sink"
+          "Kitchen bridge sink"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-brass-double-shade-pendant",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Kitchen shaded island pendant",
+          "Kitchen shaded island pendant.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-brass-picture-light-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen window picture light"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-brass-shaded-sconce",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen cleanup sconce"
         ],
         "adopted_parent_dependencies": []
       },
@@ -180,7 +306,7 @@
         "version": "v001",
         "direct_placements_or_material_assignments": 1,
         "examples": [
-          "Kitchen task bar"
+          "Pantry task bar"
         ],
         "adopted_parent_dependencies": []
       },
@@ -393,12 +519,46 @@
         "adopted_parent_dependencies": []
       },
       {
+        "id": "hardware/appliance-pull-aged-brass-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "appliances/cream-inset-fridge-freezer-48in"
+        ]
+      },
+      {
+        "id": "hardware/bar-pull-aged-brass-6in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "appliances/cream-inset-dishwasher-24in",
+          "cabinetry/cream-inset-drawer-base-24in",
+          "cabinetry/oak-inset-drawer-base-24in",
+          "cabinetry/oak-inset-microwave-base-24in",
+          "cabinetry/oak-inset-waste-pullout-18in"
+        ]
+      },
+      {
         "id": "hardware/bar-pull-matte-black",
         "version": "v001",
         "direct_placements_or_material_assignments": 0,
         "examples": [],
         "adopted_parent_dependencies": [
           "openings/slim-dark-window"
+        ]
+      },
+      {
+        "id": "hardware/round-knob-aged-brass-1p125in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "cabinetry/cream-inset-appliance-garage-48in",
+          "cabinetry/cream-inset-glazed-upper-36in",
+          "cabinetry/cream-inset-pantry-36in",
+          "cabinetry/cream-inset-sink-base-36in"
         ]
       },
       {
@@ -450,6 +610,23 @@
         "adopted_parent_dependencies": []
       },
       {
+        "id": "materials/aged-brass",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "appliances/cream-brass-dual-fuel-range-48in",
+          "appliances/cream-inset-dishwasher-24in",
+          "appliances/cream-inset-fridge-freezer-48in",
+          "appliances/cream-plaster-wall-hood-48in",
+          "fixtures/kitchen-sink-bridge-faucet-brass-650",
+          "fixtures/lighting-brass-double-shade-pendant",
+          "fixtures/lighting-brass-picture-light-24in",
+          "fixtures/lighting-brass-shaded-sconce",
+          "appliances/microwave-drawer-24in"
+        ]
+      },
+      {
         "id": "materials/bronze-gray-standing-seam",
         "version": "v001",
         "direct_placements_or_material_assignments": 0,
@@ -461,13 +638,14 @@
       {
         "id": "materials/charcoal-facade-panel",
         "version": "v001",
-        "direct_placements_or_material_assignments": 7,
+        "direct_placements_or_material_assignments": 8,
         "examples": [
           "Main rear single-story roof insulation fall (material)",
           "Cedar upper bar roof insulation fall (material)",
           "Guest pavilion roof insulation fall (material)",
           "Garage roof insulation fall (material)",
           "Lanai roof insulation fall (material)",
+          "Kitchen hood exhaust to roof (material)",
           "Illustrative road (material)",
           "Covered balcony roof insulation fall (material)"
         ],
@@ -476,7 +654,7 @@
       {
         "id": "materials/coastal-honed-limestone",
         "version": "v001",
-        "direct_placements_or_material_assignments": 657,
+        "direct_placements_or_material_assignments": 648,
         "examples": [
           "Main occupied slab (material)",
           "Guest occupied slab (material)",
@@ -492,7 +670,7 @@
       {
         "id": "materials/coastal-white-oak",
         "version": "v001",
-        "direct_placements_or_material_assignments": 148,
+        "direct_placements_or_material_assignments": 144,
         "examples": [
           "Upper occupied slab (material)",
           "Guest corridor open door (material)",
@@ -502,6 +680,38 @@
           "Service west open door.001 (material)",
           "Service south open door (material)",
           "Service division open door (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/cream-cabinet-enamel",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 12,
+        "examples": [
+          "Kitchen fitted perimeter filler 0 (material)",
+          "Kitchen fitted perimeter filler 1 (material)",
+          "Kitchen fitted perimeter filler 2 (material)",
+          "Kitchen fitted perimeter filler 3 (material)",
+          "Kitchen fitted perimeter filler 4 (material)",
+          "Kitchen fitted perimeter filler 5 (material)",
+          "Kitchen refrigerator rear niche cheek (material)",
+          "Kitchen refrigerator rear niche cheek.001 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/cream-veined-stone",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 10,
+        "examples": [
+          "Kitchen cleanup counter stone 1 (material)",
+          "Kitchen cleanup counter stone 2 (material)",
+          "Kitchen cleanup counter stone 3 (material)",
+          "Kitchen cleanup counter stone 4 (material)",
+          "Kitchen refrigeration landing stone 1 (material)",
+          "Kitchen cleanup stone-look lining (material)",
+          "Kitchen range stone-look lining (material)",
+          "Kitchen landing stone-look lining (material)"
         ],
         "adopted_parent_dependencies": []
       },
@@ -525,6 +735,18 @@
           "furniture/coastal-outdoor-lounge-chair",
           "furniture/coastal-outdoor-sofa"
         ]
+      },
+      {
+        "id": "materials/warm-limestone-plaster",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Kitchen cream hood service chase (material)",
+          "Kitchen cream hood service chase.001 (material)",
+          "Kitchen cream hood service chase.002 (material)",
+          "Kitchen cream hood service chase.003 (material)"
+        ],
+        "adopted_parent_dependencies": []
       },
       {
         "id": "materials/warm-vertical-cedar",

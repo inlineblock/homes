@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "materials/aged-brass",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset aged-brass"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "aged-brass.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "name": "Aged brass | v001",
+  "blender": {
+    "material": "Aged brass | v001"
+  },
+  "dependencies": [],
+  "placement": "Material-only asset, world-coordinate physical-meter shader. Host owns geometry.",
+  "texture_scale": {
+    "base_color_linear_range": [
+      [
+        0.18,
+        0.096,
+        0.032
+      ],
+      [
+        0.53,
+        0.32,
+        0.115
+      ]
+    ],
+    "roughness": 0.34,
+    "metallic": 0.88,
+    "physical_scale": "World meters, gentle patina variation at8cycles/m, microtexture950cycles/m. Restrained warm satin finish, not corroded or mirror-polished."
+  }
+}

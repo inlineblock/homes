@@ -1,6 +1,6 @@
 # AI photographic studies
 
-Ten studies made with the built-in Imagegen editing tool from reviewed native renders. These are design illustrations, not photographs of a built property. The native model and native gallery govern dimensions and geometry. The selected studies were compared visually with their inputs; texture, sky, reflections and small material responses remain generative interpretations. Surrounding woodland, layered planting and landscape visible through glazing are intentionally enriched beyond the modeled planting to avoid an isolated setting; these additions are illustrative context, not surveyed conditions or modeled scope.
+13 studies made with the built-in Imagegen editing tool from reviewed native renders. These are design illustrations, not photographs of a built property. The native model and native gallery govern dimensions and geometry. The selected studies were compared visually with their inputs; texture, sky, reflections and small material responses remain generative interpretations. Surrounding woodland, layered planting and landscape visible through glazing are intentionally enriched beyond the modeled planting to avoid an isolated setting; these additions are illustrative context, not surveyed conditions or modeled scope.
 
 ## photo-hero
 
@@ -29,14 +29,14 @@ Actual prompt:
 ## photo-courtyard
 
 - Source: `outputs/images/02-courtyard-pool.png`
-- Source SHA-256: `3389ca3a65416b4d5c0fd7f22b4c3696c0f40740405055b665b9af79cdb2dd62`
+- Source SHA-256: `2e0fee5de33ff0560a8d099ce44bd1cbea7c008f863ed0fd513ce0f7a2c7a497`
 - Selected image: `outputs/images/photo-courtyard.png`
-- Image SHA-256: `54c5f0d1b31e61fa394936f26ef7e153a509e931cbd30640e8e1d74c92b93a32`
+- Image SHA-256: `a59efd768e481d41ed1c0b01d70c9098a8979c205f26c0c83c3c8247f1200760`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Keep the exact pool shape, supported covered balcony, glass guard, courtyard walls, covered lanai and every post. Fill the distant garden edges beyond the court with trees; do not put trees in the pool/deck route.  Preserve the revised vertical proportions precisely: twelve-foot clear ground floor and ten-foot clear upper floor, with ordinary human-scale furniture. The occupied cedar upper floor projects 1.2 meters (about four feet) forward beyond the ground front wall, with a continuous cedar soffit and a slim stone entrance header underneath. Do not flatten this cantilever into a flush facade. Keep the real recessed floor band and all window/door head heights. The covered balcony underside stays smooth pale plaster, with no added wood ceiling. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
+> Use case: sketch-to-render. Refine the supplied native architectural render into a believable high-end architectural photograph of exactly the same anonymous stone-and-cedar courtyard home and camera. Preserve all geometry: exact pool shape and steps, supported covered balcony and glass guard, all posts, windows, doors, rooflines, furniture, lanai and its five open timber pivot screens with fixed glazed transoms above. Warm honed limestone, muted cedar, slim dark bronze frames, realistic tactile textures, soft late-afternoon daylight and balanced warm interiors. The new kitchen visible through left glazing has an oak island, cream stone counter, four stools and two double-shade brass pendants: preserve those actual items and positions. Ground ceiling is twelve feet and upper ten feet; keep these tall proportions. The balcony and lanai undersides stay smooth pale plaster, no added wood ceilings or lights. Make the setting a lush mature dry-temperate wooded garden: retain key existing trees and generously fill background and side edges with overlapping mature oak-like canopies, layered shrubs, grasses and natural groundcover. Give the horizon depth, not an isolated bare plane. Keep trees and planting outside pool, deck paths and architecture, and avoid new buildings, mountains or landmarks. Preserve exact camera. No people, text, watermark, address or signs. Output one landscape3:2 image.
 
 ## photo-site
 
@@ -77,14 +77,50 @@ Actual prompt:
 ## photo-kitchen
 
 - Source: `outputs/images/05-kitchen.png`
-- Source SHA-256: `8abb4ac534d4d2c9f0a1efc6a4cff8d5ec5db59af38b9ddc757662ff60ac8bcd`
+- Source SHA-256: `ae0313e276580ff772db6e2baf62a01e0fe927c188803ae8eb37247958146546`
 - Selected image: `outputs/images/photo-kitchen.png`
-- Image SHA-256: `db3c6a77d05e6bb197777cdf275e57ea1d6d6d0fc9bad97f40d3d91ceb97e2b5`
+- Image SHA-256: `456c6e991caff58f1fc1cbb8eaab7b392674e14f6b3d5c89a8318011630e1267`
 - Tool: Imagegen (built-in)
 
 Actual prompt:
 
-> Use case: sketch-to-render. Edit the supplied native architectural render into a refined, believable architectural photograph of exactly the same home, design and camera. This is an anonymous luxury stone-and-cedar courtyard home. Warm pale honed limestone, natural muted cedar, slim dark bronze frames; believable tactile materials, soft late-afternoon daylight, subtle warm interiors, balanced exposure, no theatrical effects. Preserve massing, floors, roof edges, apertures, structural supports, furniture arrangement and designed outdoor spaces precisely. Preserve every cabinet and window, island, four stools, appliances, open room connections and the oak slatted rooflight ceiling. NO new partitions, walls, doors or glazing. Trees visible through existing openings should match the woodland setting.  Preserve the revised vertical proportions precisely: twelve-foot clear ground floor and ten-foot clear upper floor, with ordinary human-scale furniture. The occupied cedar upper floor projects 1.2 meters (about four feet) forward beyond the ground front wall, with a continuous cedar soffit and a slim stone entrance header underneath. Do not flatten this cantilever into a flush facade. Keep the real recessed floor band and all window/door head heights. Landscape direction: this home belongs in a mature wooded garden, not an isolated bare plane. Retain important existing trees; take creative liberty to add generous natural mature oak-like trees at the background and side edges, layered native-looking shrubs, grasses, groundcover and soft garden transitions. Create overlapping canopies and a credible wooded horizon with depth. Keep the front view and design readable, access/driveway/steps/terraces/pool clear, existing grades and ground contact believable. Use the same coherent temperate dry woodland setting across angles, without landmarks, new buildings or mountains. Interiors receive this context only through existing openings. No text, watermark, signage, address or people. Output a single landscape 3:2 photograph.
+> Use case: sketch-to-render. Turn this exact supplied native kitchen rendering into a refined, believable luxury interior architectural photograph. Lock the camera, room envelope, all openings, cream cabinetry and panel seams, oak island dimensions, four stools, all appliances and their states. Preserve the twelve-foot clear timber-slat ceiling and real dark-framed rooflight opening. Keep exactly TWO brass pendants, each with TWO cream fabric shades, four shades total, at the shown long-stem heights. Preserve cream inset rear cabinets, two disguised drawer-front dishwashers beside rear sink, brass bridge faucet, cream and brass gas range, cream plaster hood with enclosed chase, paneled double-door refrigerator with glazed display above, oak island drawer/microwave working face, and open room doorway. Keep tall ceiling and ordinary human furniture scale. Refine materials into fine tactile natural oak, softly satin cream paint, subtle irregular pale warm-gray mineral veins in cream honed stone (replace the crude squiggly procedural pattern), aged brass and natural linen shades. Clean editorial daylight, soft warm lamps, realistic glass, no blown highlights or dramatic effects. Through EXISTING glazing enrich a generous mature oak woodland garden with overlapping tree canopies, shrubs, grasses and depth; preserve built courtyard/paving and keep routes clear. No new walls, beams, fixtures, windows or furniture; no people, text, logos or watermark. One landscape3:2 image.
+
+## photo-kitchen-wall
+
+- Source: `outputs/images/14-kitchen-wall.png`
+- Source SHA-256: `001393e5ad22f7297412087b239c9013bcaa0f1e3e262a2bbfab6852dbcf99d5`
+- Selected image: `outputs/images/photo-kitchen-wall.png`
+- Image SHA-256: `82cfea0ec1103ee608475100bfda71c51335a8119ce102012b765966508d1722`
+- Tool: Imagegen (built-in)
+
+Actual prompt:
+
+> Use case: sketch-to-render. Create a believable luxury interior architectural photograph from this exact native kitchen view. Preserve camera, geometry, cabinet counts and appliance positions and CLOSED states. Rear wall left-to-right: disguised three-drawer-front dishwasher, inset sink cabinet and brass bridge faucet, second disguised three-drawer-front dishwasher, cream/brass48in range with two unequal ovens and dark grates, cream landing drawers, cream paneled double-door fridge/freezer and glazed cabinet above. Keep all brass pulls/knobs, cream plaster hood and enclosed chase, window picture light, left fabric-shade sconce, ceiling oak slats, foreground island edge and partly cropped pendant exactly where shown. Twelve-foot clear ceiling; no lowering or extra trim/cabinet banks. Refine satin cream paint and natural oak, restrained aged brass, glass and cream honed stone with subtle pale gray/taupe mineral veining, replacing the crude squiggly shader. Soft natural daylight with warm practical light, balanced exposure and clear inset reveals. Outside existing glazing show a mature wooded garden with layered oak canopies, shrubs and depth rather than blank background; keep windows unobstructed and avoid new architecture. No rearrangement, props hiding equipment, people, lettering, branding or watermark. One landscape3:2 photograph.
+
+## photo-kitchen-island
+
+- Source: `outputs/images/16-kitchen-island.png`
+- Source SHA-256: `fe85e455d9d10ef1acc0f4c03ee793a6c2e6225a64ca24accf2868ef0ecb12df`
+- Selected image: `outputs/images/photo-kitchen-island.png`
+- Image SHA-256: `e0de603c3374e15a0c1270a7d14350234041612220ab9104b650b6444364b47e`
+- Tool: Imagegen (built-in)
+
+Actual prompt:
+
+> Use case: sketch-to-render. Refine this exact native kitchen island view into a believable high-end interior architectural photograph. Lock camera, all geometry and openings, oak island proportions and every panel seam, countertop thickness, stools, dining furniture, glass wall and courtyard beyond. IMPORTANT: preserve the visible stainless MICROWAVE DRAWER OPEN on the left with its dark actual cavity, and the OAK WASTE PULLOUT OPEN near center with TWO separate dark bins; do not close, replace or merge these or add appliance doors. Exactly two brass two-shade pendants (four cream linen shades total), at the shown long-stem heights, beneath twelve-foot clear oak slatted ceiling. Preserve existing linear dining light and clear doorways. Natural tactile pale oak with fine grain, restrained satin aged brass, subtle cream honed stone with restrained irregular pale-gray/taupe mineral veins replacing the crude procedural pattern. Balanced natural daylight, warm shade glow, realistic reflections and soft shadows, no washed-out whites. Enrich mature wooded garden foliage only beyond existing courtyard architecture and windows; keep pool, paving, buildings and routes precisely where shown. No new furnishings, fixtures, walls or architecture, no people, text, logos or watermark. One landscape3:2 photograph.
+
+## photo-pantry
+
+- Source: `outputs/images/17-pantry-open.png`
+- Source SHA-256: `fbc95412c18031638388ac9b21776b98f0202c81fb6bf9cc05048bb73b807382`
+- Selected image: `outputs/images/photo-pantry.png`
+- Image SHA-256: `bef1de0e3bc2bd229e3e66631d9f02f5c29ea6153e19587ed322417521c7fae2`
+- Tool: Imagegen (built-in)
+
+Actual prompt:
+
+> Use case: sketch-to-render. Refine this native pantry view into a believable luxury interior architectural photograph of exactly the same cabinets, camera and room. Preserve the OPEN four-leaf folding appliance garage on left, the cream counter and six drawers below, the interior ventilation slots at top and bottom, and the OPEN tall pantry cupboard on right with its exact shelves and door leaves. Keep the garage cavity empty and unobscured so its construction and storage depth are clear; do not invent countertop appliances. Keep the tall cupboard shelves mostly empty; no containers that obscure shelves. Exact cream inset door and drawer profiles, aged brass handles and knobs, thin pale veined stone counter, natural subtle paint texture, soft warm task light inside garage and balanced bright indirect daylight. Retain clear floor around opened leaves and the doorway glimpse of the existing kitchen at left, with no added windows or architecture. No extra cabinets, fixtures or doors, no people, text, logos or watermark. One landscape3:2 image.
 
 ## photo-living
 
@@ -127,3 +163,9 @@ Actual prompt:
 The initial photographic result was the edit target, with the current native render supplied again as the geometry/material reference. Actual correction prompt:
 
 > Use case: precise-object-edit. Image 1 is the photographic edit target; image 2 is the native geometry and material reference. Change ONLY the thin soffit strip under the long lanai roof, directly above the glazed transom row: replace the invented cedar boards with smooth warm off-white plaster and remove the tiny added downlights in that strip, matching the native reference. Keep the separate occupied upper cedar volume and its soffit at the extreme upper-right unchanged. Preserve the five closed timber screens, glass transoms, all posts, limestone steps, garden, trees, sunlight, camera and all other materials and geometry exactly. No other changes, no text.
+
+## Targeted correction — photo-pantry
+
+The initial photographic result was the edit target, with the current native render supplied again as the geometry/material reference. Actual correction prompt:
+
+> Targeted material correction only. The first image is the selected pantry photograph to edit; the second is its native geometry reference. Replace ALL wood plank flooring in the pantry and kitchen doorway glimpse with the same warm pale honed LIMESTONE large-format stone floor used throughout the home. No wood flooring anywhere. Preserve every cabinet, opened door, vent, shelf, handle, countertop, lighting, camera and all geometry exactly as in the first image; do not add or remove anything else. Retain natural photographic texture and shadow. One landscape3:2 image.

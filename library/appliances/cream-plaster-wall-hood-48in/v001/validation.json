@@ -1,0 +1,64 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "cream-plaster-wall-hood-48in | v001",
+  "closed_bounds_m": {
+    "min": [
+      -0.6096,
+      -0.3302,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.3302,
+      0.95
+    ]
+  },
+  "open_bounds_m": {
+    "min": [
+      -0.6096,
+      -0.3302,
+      -0.1535
+    ],
+    "max": [
+      0.6096,
+      0.3302,
+      0.95
+    ]
+  },
+  "object_count": 44,
+  "relative_dependencies_resolved": [
+    {
+      "saved_relative_path": "//../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "resolved_repository_path": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "saved_relative_path": "//../../../materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend",
+      "resolved_repository_path": "library/materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend"
+    }
+  ],
+  "all_saved_library_paths_relative": true,
+  "rigid_hardware_scale_verified": true,
+  "explicit_open_collection_verified": true,
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed",
+    "reviewed_images": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Full-width cream plaster shell is hollow with an actual top duct opening.",
+      "Service view shows the separated removable baffle cassette, capture opening and underside task lenses."
+    ]
+  },
+  "rendered_states": [
+    "closed",
+    "open/service"
+  ],
+  "preview_sha256": {
+    "preview.png": "8efed671ff2cfcb125d8fb3aec6a037c6f3bc63f80cd83857f51cab4ef743a4e",
+    "preview-open.png": "b52fa84988a0337f1c6cd50dba41bd56e0ca69f2f9fdee1e4f832b95d679454c"
+  },
+  "native_sha256": "0debed2ac8639cc8cf7baafa808725e886b798641d57155972be7c5ce6c24a9e"
+}

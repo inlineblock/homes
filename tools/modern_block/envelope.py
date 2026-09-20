@@ -124,7 +124,14 @@ def build_envelope(root,M):
     if start>cur:wall(name,Vector(a)+u*cur,Vector(a)+u*start,z,h,M['plaster'],.14,level)
     wall(name+' lintel',Vector(a)+u*start,Vector(a)+u*(start+width),z+2.44,h-2.44,M['plaster'],.14,level)
     # Open perpendicular leaf stops outside principal clear opening.
-    hinge=Vector(a)+u*start;n=Vector((-u.y,u.x));p=hinge+n*(width-.05)/2
+    hinge=Vector(a)+u*start;n=Vector((-u.y,u.x))
+    if lev=='ground' and name=='Service west' and abs(start-3.15)<.001:
+     # North hinge keeps the east-swinging leaf clear of the pantry hall door.
+     hinge=Vector(a)+u*(start+width-.05);n=-n
+    elif lev=='ground' and name=='Service hall south' and abs(start-.8)<.001:
+     # East hinge separates both service-door sweeps without entering cabinetry.
+     hinge=Vector(a)+u*(start+width-.05)
+    p=hinge+n*(width-.05)/2
     obj=box(name+' open door',(p.x,p.y,z+1.205),(width-.05,.04,2.41),M['oak'],.006);obj.rotation_euler.z=math.atan2(n.y,n.x);tag(obj,'IfcDoor',level)
     cur=start+width
    if length>cur:wall(name,Vector(a)+u*cur,b,z,h,M['plaster'],.14,level)

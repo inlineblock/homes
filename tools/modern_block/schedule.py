@@ -25,16 +25,27 @@ GROUPS=[
  ]),
  ('Cabinetry and useful storage',[
   ('cabinetry/oak-wardrobe-2ft','v001','Reused','18 bays across bedroom/dressing storage, foyer coats and pavilion office storage; hanging rails retained.'),
-  ('cabinetry/oak-drawer-base-2ft','v001','Reused','14 kitchen and vanity drawer modules beneath bespoke continuous counters.'),
-  ('cabinetry/oak-shelving-2ft','v001','New variation','Eight open pantry/laundry/landing linen bays; wardrobe-derived carcass with shelf decks and no cabinet doors.'),
+  ('cabinetry/oak-drawer-base-2ft','v001','Reused','Vanity drawer modules beneath fitted stone counters.'),
+  ('cabinetry/oak-shelving-2ft','v001','New variation','Open laundry/landing linen and pantry side shelving; closed pantry joinery listed separately.'),
+ ]),
+ ('Concealed kitchen joinery',[
+  ('cabinetry/cream-inset-sink-base-36in', 'v001', 'New original concept variation', 'Perimeter cleanup sink cavity.'),
+  ('cabinetry/cream-inset-drawer-base-24in', 'v001', 'New original concept variation', 'Refrigerator landing and pantry garage bases.'),
+  ('cabinetry/cream-inset-glazed-upper-36in', 'v001', 'New original concept variation', 'Glazed display above refrigeration.'),
+  ('cabinetry/cream-inset-pantry-36in', 'v001', 'New original concept variation', 'Enclosed pantry food storage.'),
+  ('cabinetry/cream-inset-appliance-garage-48in', 'v001', 'New original concept variation', 'Counter-mounted pantry appliance garage.'),
+  ('cabinetry/oak-inset-drawer-base-24in', 'v001', 'New original concept variation', 'Three island drawer stacks.'),
+  ('cabinetry/oak-inset-waste-pullout-18in', 'v001', 'New original concept variation', 'Island waste and recycling.'),
+  ('cabinetry/oak-inset-microwave-base-24in', 'v001', 'New original concept variation', 'Island microwave housing and lower drawer.'),
+  ('cabinetry/oak-inset-island-back-panel-24in', 'v001', 'New original concept variation', 'Five rigid inset panels facing island seats.'),
  ]),
  ('Kitchen and laundry equipment',[
-  ('appliances/panel-ready-fridge-48in','v001','Reused','Wide kitchen refrigeration, rigid full-size placement.'),
-  ('appliances/built-in-oven-30in','v001','Reused','Kitchen oven bay, rigid full-size placement.'),
-  ('appliances/induction-cooktop-36in','v001','Reused','Kitchen cooktop in the host counter.'),
-  ('appliances/wall-hood-36in','v001','Reused','Kitchen extraction hood with a modeled conceptual duct to roof.'),
-  ('appliances/dishwasher-24in','v001','Reused','Kitchen island appliance bay beside sink.'),
-  ('fixtures/kitchen-sink-mixer-650','v001','Reused','Island sink and mixer with a real host counter aperture.'),
+  ('appliances/cream-inset-fridge-freezer-48in', 'v001', 'New original concept variation', 'Two cold compartments with cream inset doors and rear hinge relief.'),
+  ('appliances/cream-brass-dual-fuel-range-48in', 'v001', 'New original concept variation', 'Full-size range with independently operable ovens.'),
+  ('appliances/cream-plaster-wall-hood-48in', 'v001', 'New original concept variation', 'Capture hood clear of the rear window; conceptual duct to roof.'),
+  ('appliances/cream-inset-dishwasher-24in', 'v001', 'New original concept variation', 'Two concealed dishwashers flanking the perimeter cleanup sink.'),
+  ('appliances/microwave-drawer-24in', 'v001', 'New original concept variation', 'Island microwave in a fitted shared cabinet cavity.'),
+  ('fixtures/kitchen-sink-bridge-faucet-brass-650', 'v001', 'New original concept variation', 'Rear-window cleanup sink with real counter opening.'),
   ('appliances/front-loading-laundry-600','v001','Reused','Two original appliance proxies labeled washer and dryer; commercial products/services unresolved.'),
  ]),
  ('Bathing and sanitation',[
@@ -69,7 +80,20 @@ GROUPS=[
   ('fixtures/lighting-undercabinet-bar-4ft','v001','Reused','Kitchen task lighting.'),
   ('fixtures/lighting-linear-pendant-4ft','v001','Reused','Dining focal pendant.'),
  ]),
+ ('Kitchen finishes and detail',[
+  ('fixtures/lighting-brass-picture-light-24in', 'v001', 'New original', 'Rear-window picture light.'),
+  ('fixtures/lighting-brass-shaded-sconce', 'v001', 'New original', 'Solid-wall cleanup sconce.'),
+  ('fixtures/lighting-brass-double-shade-pendant', 'v001', 'New original', 'Two shaded island focal fixtures.'),
+  ('hardware/bar-pull-aged-brass-6in', 'v001', 'New original', 'Nested inset drawer pulls.'),
+  ('hardware/round-knob-aged-brass-1p125in', 'v001', 'New original', 'Nested paired cabinet knobs.'),
+  ('hardware/appliance-pull-aged-brass-24in', 'v001', 'New original', 'Nested refrigeration handles.'),
+  ('materials/aged-brass', 'v001', 'New original', 'Nested hardware and kitchen lighting finish.'),
+  ('materials/cream-cabinet-enamel', 'v001', 'New original', 'Shared inset cream joinery finish.'),
+  ('materials/cream-veined-stone', 'v001', 'New original', 'Fitted kitchen counter and backsplash finish.'),
+ ]),
  ('Pinned material dependencies',[
+  ('appliances/built-in-oven-30in','v001','Reused nested material source','Only the source appliance shaders are linked by the new equipment; no separate oven instance is installed.'),
+  ('materials/warm-limestone-plaster','v001','Reused','Hood shell and fitted service chase finish.'),
   ('materials/bronze-gray-standing-seam','v001','Reused nested dependency','Fixed privacy-screen frame finish.'),
   ('materials/warm-vertical-cedar','v003','Reused','Upper facade boards, doors and linked screen timber; physical aligned grain.'),
   ('materials/charcoal-facade-panel','v001','Reused','Low-roof/dark exterior finish and selected host surfaces.'),
@@ -90,7 +114,7 @@ def write_schedule(root=ROOT,deps=None):
  for id,version in expected:
   m=json.loads((root/'library'/id/version/'asset.json').read_text());assert (m['id'],m['version'])==(id,version)
  text='# Adopted asset families\n\n'
- text+='Audited against the current `project.json` pins, native reopening receipt and interior placement records: **52 exact dependencies**, including **six newly contributed assets**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.\n\n'
+ text+=f'Audited against the current `project.json` pins, native reopening receipt and interior placement records: **{len(expected)} exact dependencies**. New means published for this concept; reused includes nested material/hardware dependencies. All are original shared library assets with recorded rights. Each link opens its placement and installation contract.\n\n'
  text+='Furniture, cabinetry, equipment and the new screen/pool assemblies use rigid native scale. Plants use recorded uniform variation. Facade windows are explicitly resized appearance studies; their frame sightlines and operating envelopes remain approximate. A dependency check or closed asset preview does not establish installation approval.\n\n'
  for title,entries in GROUPS:
   text+='## '+title+'\n\n| Exact adopted ID / version | Status | Host use |\n| --- | --- | --- |\n'
@@ -98,7 +122,7 @@ def write_schedule(root=ROOT,deps=None):
   text+='\n'
  text+='## Host geometry and review limits\n\n'
  text+='Bespoke geometry is limited to the pavilion layout, slabs/foundations, walls and actual openings, roof falls/gutters/rooflights, terrace and facade boundary cuts, fitted continuous kitchen/vanity counters and their apertures, service-route allowances, stairs/guards, projecting entrance/reveals, external flue pier, supported driveway alignment and parking reservations. These depend on the specific home dimensions. Full stone modules, plants, furniture and standard fixtures remain linked collections.\n\n'
- text+='Native verification records four bed instances, 18 wardrobe bays, eight shelf modules, linked pool geometry, five louver instances and 2 m louver spacing. The pool shell and water require the modeled opening in terrain/deck; louver rotation requires its 0.903 m swept radius. Larger shower and open pantry variants preserve true product-concept dimensions. Inspect the host model and plans for circulation, shelving access, door movement, counter cutouts and service fit. Actual engineering, weatherproofing, mechanical capacity, pool barriers, code approval and selected commercial products remain unresolved.\n\n'
+ text+='Native verification records four bed instances, 18 wardrobe bays, open shelf modules and enclosed pantry storage, linked pool geometry, five louver instances and 2 m louver spacing. The pool shell and water require the modeled opening in terrain/deck; louver rotation requires its 0.903 m swept radius. Larger shower and open pantry variants preserve true product-concept dimensions. Inspect the host model and plans for circulation, shelving access, door movement, counter cutouts and service fit. Actual engineering, weatherproofing, mechanical capacity, pool barriers, code approval and selected commercial products remain unresolved.\n\n'
  text+='This schedule is reproducible with `python3 tools/modern_block/schedule.py`. Its writer checks exact equality with the project dependency pins; update the grouped records whenever adoption changes. Generated placements are in `tools/modern_block/interiors-layout.json`, and native verification is in `model/native-validation.json`.\n'
  (home/'assets/README.md').write_text(text)
  return len(expected)

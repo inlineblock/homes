@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/cream-inset-appliance-garage-48in",
+  "version": "v001",
+  "name": "Cream Inset Appliance Garage 48In",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192000150680542,
+    0.6759400367736816,
+    1.2000000476837158
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.3509400188922882,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.32500001788139343,
+      1.2000000476837158
+    ]
+  },
+  "blender": {
+    "collection": "cream-inset-appliance-garage-48in | v001",
+    "operating_collections": {
+      "open": "cream-inset-appliance-garage-48in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom-center at floor or mounting plane Z=0",
+    "front_direction": "-Y; width along X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch"
+  },
+  "installation": {
+    "mounting": "Counter-mounted appliance garage, bottomZ0; host fixing and outlets required",
+    "nominal_carcass_dimensions_m": [
+      1.2192,
+      0.65,
+      1.2
+    ],
+    "countertop_top_m": null,
+    "operating_envelope": {
+      "closed_collection": "cream-inset-appliance-garage-48in | v001",
+      "open_collection": "cream-inset-appliance-garage-48in | open v001",
+      "motions": [
+        {
+          "object": "Left garage outer hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": -1.7453292519943295,
+          "hinge_or_origin_m": [
+            -0.5950999855995178,
+            -0.3449999988079071,
+            0.03400000184774399
+          ]
+        },
+        {
+          "object": "Left garage folding hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": 2.8797932657906435,
+          "hinge_or_origin_m": [
+            -0.2870500087738037,
+            -0.28999999165534973,
+            0.03400000184774399
+          ]
+        },
+        {
+          "object": "Right garage outer hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": 1.7453292519943295,
+          "hinge_or_origin_m": [
+            0.5950999855995178,
+            -0.3449999988079071,
+            0.03400000184774399
+          ]
+        },
+        {
+          "object": "Right garage folding hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": -2.8797932657906435,
+          "hinge_or_origin_m": [
+            0.2870500087738037,
+            -0.28999999165534973,
+            0.03400000184774399
+          ]
+        }
+      ],
+      "open_bounds_m": {
+        "min": [
+          -0.6257631182670593,
+          -0.670108437538147,
+          0.0
+        ],
+        "max": [
+          0.6257631182670593,
+          0.32500001788139343,
+          1.2000000476837158
+        ]
+      },
+      "reserve_operator_depth_m": 0.8,
+      "basis": "Original measured closed/open concept geometry, no manufacturer mechanism selected",
+      "host_open_state_checked": false,
+      "required_sequence": [
+        "Open both outer hinges from0to100degrees while each folding hinge stays0",
+        "Then fold inner leaves from0to165degrees; reverse this sequence to close",
+        "Do not drive all four hinge angles proportionally at once: opposite inner leaves can meet during motion"
+      ]
+    },
+    "services": [
+      "Host must check neighboring doors/drawers, approach, anchorage, support, moisture detailing and actual product selection."
+    ],
+    "appliance_bay_clear_m": [
+      1.1552,
+      0.6,
+      0.83
+    ],
+    "bifold_leaf_width_m": 0.28405,
+    "ventilation": "Two actual rear slotted grille bands atZ.055..145and1.05..1.14m; no rated ventilation capacity",
+    "outlet_reserve_m": {
+      "center": [
+        0,
+        0.265,
+        0.3
+      ],
+      "box": [
+        0.22,
+        0.12,
+        0.18
+      ]
+    },
+    "counter_mount": "Z0 is host countertop, not floor"
+  },
+  "dependencies": [
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "hardware/round-knob-aged-brass-1p125in",
+      "version": "v001",
+      "path": "../../../hardware/round-knob-aged-brass-1p125in/v001/round-knob-aged-brass-1p125in.blend"
+    }
+  ],
+  "derived_from": null,
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py",
+    "command": "blender -b --factory-startup --python tools/library/build_inset_kitchen_cabinets.py -- --asset cream-inset-appliance-garage-48in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors. No manufacturer CAD or selected product compliance claim.",
+  "files": {
+    "blender": "cream-inset-appliance-garage-48in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  }
+}

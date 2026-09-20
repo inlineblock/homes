@@ -1,0 +1,964 @@
+{
+  "status": "passed",
+  "native_reopened": true,
+  "blender": "4.5.14 LTS",
+  "failures": [],
+  "limitations": [
+    "Concept geometry only; no manufacturer, electrical, gas, ventilation or code certification.",
+    "Surface intersections and sampled containment use 0.6mm broad-phase tolerance; exact fittings remain unselected.",
+    "Open collections verify explicit final operating states. Only the refrigerator additionally checks its published sampled full-sweep bound against the east partition.",
+    "Operator zones reserve 600mm width and 800mm depth beyond open equipment against scoped kitchen/pantry assets and adjacent host partitions. A null clear_m means no obstacle was found in the scanned geometry, not unlimited clearance; these checks do not certify accessibility or concurrent human movement.",
+    "Microwave shelf allows up to 10mm fitting/shim space; exact anchorage and ventilation require product selection."
+  ],
+  "native_sha256": "b37ffeab3711128d1e44334f759b1d22b51e1da50f4728ede32aae0a2ff2ed3f",
+  "closed_instances": {
+    "Kitchen cream sink base": {
+      "asset_id": "cabinetry/cream-inset-sink-base-36in",
+      "version": "v001",
+      "parts": 44,
+      "actual_world_bounds_m": {
+        "min": [
+          10.882800102233887,
+          19.119260787963867,
+          0.0
+        ],
+        "max": [
+          11.797200202941895,
+          19.75480079650879,
+          0.8799999952316284
+        ]
+      }
+    },
+    "Kitchen bridge sink": {
+      "asset_id": "fixtures/kitchen-sink-bridge-faucet-brass-650",
+      "version": "v001",
+      "parts": 19,
+      "actual_world_bounds_m": {
+        "min": [
+          10.982500076293945,
+          19.16499900817871,
+          0.7001000046730042
+        ],
+        "max": [
+          11.697500228881836,
+          19.730998992919922,
+          1.2090998888015747
+        ]
+      }
+    },
+    "Kitchen concealed dishwasher 1": {
+      "asset_id": "appliances/cream-inset-dishwasher-24in",
+      "version": "v001",
+      "parts": 177,
+      "actual_world_bounds_m": {
+        "min": [
+          10.259010314941406,
+          19.091251373291016,
+          0.0
+        ],
+        "max": [
+          10.860990524291992,
+          19.754501342773438,
+          0.8629999756813049
+        ]
+      }
+    },
+    "Kitchen concealed dishwasher 2": {
+      "asset_id": "appliances/cream-inset-dishwasher-24in",
+      "version": "v001",
+      "parts": 177,
+      "actual_world_bounds_m": {
+        "min": [
+          11.839010238647461,
+          19.091251373291016,
+          0.0
+        ],
+        "max": [
+          12.440990447998047,
+          19.754501342773438,
+          0.8629999756813049
+        ]
+      }
+    },
+    "Kitchen refrigeration landing drawers": {
+      "asset_id": "cabinetry/cream-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          13.820199966430664,
+          19.11545181274414,
+          0.0
+        ],
+        "max": [
+          14.429800033569336,
+          19.75480079650879,
+          0.8799999952316284
+        ]
+      }
+    },
+    "Kitchen cream brass range": {
+      "asset_id": "appliances/cream-brass-dual-fuel-range-48in",
+      "version": "v001",
+      "parts": 365,
+      "actual_world_bounds_m": {
+        "min": [
+          12.57040023803711,
+          19.006999969482422,
+          0.0
+        ],
+        "max": [
+          13.789600372314453,
+          19.801000595092773,
+          0.9514999985694885
+        ]
+      }
+    },
+    "Kitchen cream capture hood": {
+      "asset_id": "appliances/cream-plaster-wall-hood-48in",
+      "version": "v001",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          12.57040023803711,
+          19.119800567626953,
+          1.7899999618530273
+        ],
+        "max": [
+          13.789600372314453,
+          19.780200958251953,
+          2.740000009536743
+        ]
+      }
+    },
+    "Kitchen concealed refrigeration": {
+      "asset_id": "appliances/cream-inset-fridge-freezer-48in",
+      "version": "v001",
+      "parts": 136,
+      "actual_world_bounds_m": {
+        "min": [
+          14.455399513244629,
+          18.84619903564453,
+          0.0
+        ],
+        "max": [
+          15.674599647521973,
+          19.69099998474121,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Kitchen refrigerator glazed display": {
+      "asset_id": "cabinetry/cream-inset-glazed-upper-36in",
+      "version": "v001",
+      "parts": 34,
+      "actual_world_bounds_m": {
+        "min": [
+          14.607799530029297,
+          19.376258850097656,
+          2.239999771118164
+        ],
+        "max": [
+          15.522199630737305,
+          19.757801055908203,
+          3.0
+        ]
+      }
+    },
+    "Kitchen island south drawers": {
+      "asset_id": "cabinetry/oak-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          13.17020034790039,
+          14.220000267028809,
+          0.0
+        ],
+        "max": [
+          13.809550285339355,
+          14.82960033416748,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island microwave housing": {
+      "asset_id": "cabinetry/oak-inset-microwave-base-24in",
+      "version": "v001",
+      "parts": 31,
+      "actual_world_bounds_m": {
+        "min": [
+          13.17020034790039,
+          14.82979965209961,
+          0.0
+        ],
+        "max": [
+          13.809550285339355,
+          15.489799499511719,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island microwave": {
+      "asset_id": "appliances/microwave-drawer-24in",
+      "version": "v001",
+      "parts": 27,
+      "actual_world_bounds_m": {
+        "min": [
+          13.175000190734863,
+          14.854999542236328,
+          0.44699999690055847
+        ],
+        "max": [
+          13.858000755310059,
+          15.464599609375,
+          0.847000002861023
+        ]
+      }
+    },
+    "Kitchen island prep drawers": {
+      "asset_id": "cabinetry/oak-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          13.17020034790039,
+          15.489999771118164,
+          0.0
+        ],
+        "max": [
+          13.809550285339355,
+          16.099599838256836,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island waste and recycling": {
+      "asset_id": "cabinetry/oak-inset-waste-pullout-18in",
+      "version": "v001",
+      "parts": 40,
+      "actual_world_bounds_m": {
+        "min": [
+          13.17020034790039,
+          16.099597930908203,
+          0.0
+        ],
+        "max": [
+          13.809550285339355,
+          16.556800842285156,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island north drawers": {
+      "asset_id": "cabinetry/oak-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          13.17020034790039,
+          16.556800842285156,
+          0.0
+        ],
+        "max": [
+          13.809550285339355,
+          17.166400909423828,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island seating panel": {
+      "asset_id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          12.782500267028809,
+          13.871199607849121,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          12.817500114440918,
+          14.480799674987793,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island seating panel.001": {
+      "asset_id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          12.782500267028809,
+          14.480799674987793,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          12.817500114440918,
+          15.090399742126465,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island seating panel.002": {
+      "asset_id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          12.782500267028809,
+          15.090399742126465,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          12.817500114440918,
+          15.699999809265137,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island seating panel.003": {
+      "asset_id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          12.782500267028809,
+          15.700000762939453,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          12.817500114440918,
+          16.309600830078125,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen island seating panel.004": {
+      "asset_id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          12.782500267028809,
+          16.309600830078125,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          12.817500114440918,
+          16.919200897216797,
+          0.8800000548362732
+        ]
+      }
+    },
+    "Kitchen oak stool": {
+      "asset_id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          11.748539924621582,
+          14.206159591674805,
+          0.01982811465859413
+        ],
+        "max": [
+          12.251460075378418,
+          14.693840026855469,
+          0.9437099695205688
+        ]
+      }
+    },
+    "Kitchen oak stool.001": {
+      "asset_id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          11.748539924621582,
+          15.006159782409668,
+          0.01982811465859413
+        ],
+        "max": [
+          12.251460075378418,
+          15.493840217590332,
+          0.9437099695205688
+        ]
+      }
+    },
+    "Kitchen oak stool.002": {
+      "asset_id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          11.748539924621582,
+          15.806159019470215,
+          0.01982811465859413
+        ],
+        "max": [
+          12.251460075378418,
+          16.293838500976562,
+          0.9437099695205688
+        ]
+      }
+    },
+    "Kitchen oak stool.003": {
+      "asset_id": "furniture/coastal-oak-counter-stool",
+      "version": "v001",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          11.748539924621582,
+          16.60616111755371,
+          0.01982811465859413
+        ],
+        "max": [
+          12.251460075378418,
+          17.093839645385742,
+          0.9437099695205688
+        ]
+      }
+    },
+    "Kitchen shaded island pendant": {
+      "asset_id": "fixtures/lighting-brass-double-shade-pendant",
+      "version": "v001",
+      "parts": 15,
+      "actual_world_bounds_m": {
+        "min": [
+          12.880000114440918,
+          14.239999771118164,
+          2.3076000213623047
+        ],
+        "max": [
+          13.320000648498535,
+          15.479999542236328,
+          3.657599925994873
+        ]
+      }
+    },
+    "Kitchen shaded island pendant.001": {
+      "asset_id": "fixtures/lighting-brass-double-shade-pendant",
+      "version": "v001",
+      "parts": 15,
+      "actual_world_bounds_m": {
+        "min": [
+          12.880000114440918,
+          15.90000057220459,
+          2.3076000213623047
+        ],
+        "max": [
+          13.320000648498535,
+          17.14000129699707,
+          3.657599925994873
+        ]
+      }
+    },
+    "Kitchen window picture light": {
+      "asset_id": "fixtures/lighting-brass-picture-light-24in",
+      "version": "v001",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          11.195199966430664,
+          19.6560001373291,
+          3.192500114440918
+        ],
+        "max": [
+          11.804800033569336,
+          19.8700008392334,
+          3.312000036239624
+        ]
+      }
+    },
+    "Kitchen cleanup sconce": {
+      "asset_id": "fixtures/lighting-brass-shaded-sconce",
+      "version": "v001",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          10.194999694824219,
+          19.503000259399414,
+          2.118000030517578
+        ],
+        "max": [
+          10.444999694824219,
+          19.8700008392334,
+          2.5199999809265137
+        ]
+      }
+    },
+    "Pantry appliance garage base west": {
+      "asset_id": "cabinetry/cream-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          16.285200119018555,
+          15.165450096130371,
+          0.0
+        ],
+        "max": [
+          16.894800186157227,
+          15.804800033569336,
+          0.8799999952316284
+        ]
+      }
+    },
+    "Pantry appliance garage base east": {
+      "asset_id": "cabinetry/cream-inset-drawer-base-24in",
+      "version": "v001",
+      "parts": 82,
+      "actual_world_bounds_m": {
+        "min": [
+          16.894800186157227,
+          15.165450096130371,
+          0.0
+        ],
+        "max": [
+          17.5044002532959,
+          15.804800033569336,
+          0.8799999952316284
+        ]
+      }
+    },
+    "Pantry appliance garage": {
+      "asset_id": "cabinetry/cream-inset-appliance-garage-48in",
+      "version": "v001",
+      "parts": 60,
+      "actual_world_bounds_m": {
+        "min": [
+          16.285200119018555,
+          15.139060020446777,
+          0.9180999994277954
+        ],
+        "max": [
+          17.5044002532959,
+          15.8149995803833,
+          2.118100166320801
+        ]
+      }
+    },
+    "Pantry enclosed food storage": {
+      "asset_id": "cabinetry/cream-inset-pantry-36in",
+      "version": "v001",
+      "parts": 46,
+      "actual_world_bounds_m": {
+        "min": [
+          17.752798080444336,
+          15.169260025024414,
+          0.0
+        ],
+        "max": [
+          18.667200088500977,
+          15.804800033569336,
+          2.440000057220459
+        ]
+      }
+    },
+    "Pantry task bar": {
+      "asset_id": "fixtures/lighting-undercabinet-bar-4ft",
+      "version": "v001",
+      "parts": 4,
+      "actual_world_bounds_m": {
+        "min": [
+          16.285200119018555,
+          15.185978889465332,
+          1.8532359600067139
+        ],
+        "max": [
+          17.5044002532959,
+          15.214020729064941,
+          1.8700000047683716
+        ]
+      }
+    },
+    "Pantry side shelf": {
+      "asset_id": "cabinetry/oak-shelving-2ft",
+      "version": "v001",
+      "parts": 11,
+      "actual_world_bounds_m": {
+        "min": [
+          18.195199966430664,
+          13.245200157165527,
+          0.0
+        ],
+        "max": [
+          18.804800033569336,
+          13.8548002243042,
+          2.4384000301361084
+        ]
+      }
+    }
+  },
+  "hood_service_chase_objects": [
+    "Kitchen cream hood service chase",
+    "Kitchen cream hood service chase.001",
+    "Kitchen cream hood service chase.002",
+    "Kitchen cream hood service chase.003"
+  ],
+  "sink": {
+    "counter_regions": 4,
+    "aperture_rays": 9,
+    "bowl_parts": 5,
+    "bowl_host_collisions": []
+  },
+  "microwave_cavity": {
+    "actual_local_bounds_m": [
+      -0.3047996759414673,
+      -0.38300010561943054,
+      0.44699999690055847,
+      0.3048003911972046,
+      0.30000048875808716,
+      0.847000002861023
+    ],
+    "opening_m": {
+      "width": 0.624,
+      "bottom_z": 0.44,
+      "top_z": 0.862,
+      "rear": "Open; service reserve beyond cabinet"
+    },
+    "support_gap_m": 0.006999999284744263,
+    "collisions": []
+  },
+  "cooking": {
+    "range_bounds_m": [
+      12.57040023803711,
+      19.006999969482422,
+      0.0,
+      13.789600372314453,
+      19.801000595092773,
+      0.9514999985694885
+    ],
+    "hood_bounds_m": [
+      12.57040023803711,
+      19.119800567626953,
+      1.7899999618530273,
+      13.789600372314453,
+      19.780200958251953,
+      2.740000009536743
+    ],
+    "hood_to_window_horizontal_m": 0.07040023803710938
+  },
+  "simultaneous_open_groups": {
+    "rear_equipment": {
+      "instances": [
+        "Kitchen concealed dishwasher 1",
+        "Kitchen concealed dishwasher 2",
+        "Kitchen cream brass range",
+        "Kitchen concealed refrigeration"
+      ],
+      "collisions": []
+    },
+    "island_equipment": {
+      "instances": [
+        "Kitchen island microwave",
+        "Kitchen island waste and recycling"
+      ],
+      "collisions": []
+    },
+    "pantry_equipment": {
+      "instances": [
+        "Pantry appliance garage",
+        "Pantry enclosed food storage"
+      ],
+      "collisions": []
+    }
+  },
+  "operator_spaces": {
+    "Kitchen concealed dishwasher 1": {
+      "clear_m": null,
+      "target_zone_clear": true,
+      "nearest_obstacle": null,
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Kitchen concealed dishwasher 2": {
+      "clear_m": 0.9760017395019531,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Kitchen island stone 1",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Kitchen cream brass range": {
+      "clear_m": 1.1385021209716797,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Kitchen island stone 1",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Kitchen concealed refrigeration": {
+      "clear_m": 4.535208702087402,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Service west open door",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Kitchen island microwave": {
+      "clear_m": 1.6919994092941693,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Service west.001",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Kitchen island waste and recycling": {
+      "clear_m": 1.6004504457720259,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Service west.001",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Pantry appliance garage": {
+      "clear_m": 1.7498912811279297,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Service south",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    },
+    "Pantry enclosed food storage": {
+      "clear_m": 0.8906993865966797,
+      "target_zone_clear": true,
+      "nearest_obstacle": "Pantry side shelf",
+      "reserved_width_m": 0.6,
+      "required_depth_m": 0.8
+    }
+  },
+  "refrigerator_sweep": {
+    "actual_open_bounds_m": [
+      14.21968936920166,
+      18.355209350585938,
+      0.0,
+      15.910309791564941,
+      19.69099998474121,
+      2.1335999965667725
+    ],
+    "published_conservative_sweep_world_bounds_m": [
+      14.21868896484375,
+      18.324594497680664,
+      -0.0010000000474974513,
+      15.911310195922852,
+      19.691999435424805,
+      2.1345999240875244
+    ],
+    "east_partition_clearance_m": 0.018690109252929688,
+    "basis": "Published sampled mechanism envelope transformed by actual rigid installation; actual final-state moving meshes checked separately."
+  },
+  "open_states": {
+    "Kitchen cream sink base": {
+      "moving_meshes": 24,
+      "actual_open_bounds_m": [
+        10.81039047241211,
+        18.695499420166016,
+        0.0,
+        11.869609832763672,
+        19.75480079650879,
+        0.8799999952316284
+      ],
+      "collisions": []
+    },
+    "Kitchen concealed dishwasher 1": {
+      "moving_meshes": 48,
+      "actual_open_bounds_m": [
+        10.259010314941406,
+        18.376001358032227,
+        0.0,
+        10.860990524291992,
+        19.754501342773438,
+        0.8610000014305115
+      ],
+      "collisions": []
+    },
+    "Kitchen concealed dishwasher 2": {
+      "moving_meshes": 48,
+      "actual_open_bounds_m": [
+        11.839010238647461,
+        18.376001358032227,
+        0.0,
+        12.440990447998047,
+        19.754501342773438,
+        0.8610000014305115
+      ],
+      "collisions": []
+    },
+    "Kitchen refrigeration landing drawers": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        13.820199966430664,
+        18.61545181274414,
+        0.0,
+        14.429800033569336,
+        19.75480079650879,
+        0.8799999952316284
+      ],
+      "collisions": []
+    },
+    "Kitchen cream brass range": {
+      "moving_meshes": 24,
+      "actual_open_bounds_m": [
+        12.57040023803711,
+        18.538501739501953,
+        0.0,
+        13.789600372314453,
+        19.801000595092773,
+        0.9514999985694885
+      ],
+      "collisions": []
+    },
+    "Kitchen cream capture hood": {
+      "moving_meshes": 28,
+      "actual_open_bounds_m": [
+        12.57040023803711,
+        19.119800567626953,
+        1.6365000009536743,
+        13.789600372314453,
+        19.780200958251953,
+        2.740000009536743
+      ],
+      "collisions": []
+    },
+    "Kitchen concealed refrigeration": {
+      "moving_meshes": 80,
+      "actual_open_bounds_m": [
+        14.21968936920166,
+        18.355209350585938,
+        0.0,
+        15.910309791564941,
+        19.69099998474121,
+        2.1335999965667725
+      ],
+      "collisions": []
+    },
+    "Kitchen refrigerator glazed display": {
+      "moving_meshes": 24,
+      "actual_open_bounds_m": [
+        14.53538990020752,
+        18.952499389648438,
+        2.239999771118164,
+        15.594609260559082,
+        19.757801055908203,
+        3.0
+      ],
+      "collisions": []
+    },
+    "Kitchen island south drawers": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        13.17020034790039,
+        14.220000267028809,
+        0.0,
+        14.309550285339355,
+        14.82960033416748,
+        0.8800000548362732
+      ],
+      "collisions": []
+    },
+    "Kitchen island microwave housing": {
+      "moving_meshes": 21,
+      "actual_open_bounds_m": [
+        13.17020034790039,
+        14.82979965209961,
+        0.0,
+        14.289549827575684,
+        15.489799499511719,
+        0.8800000548362732
+      ],
+      "collisions": []
+    },
+    "Kitchen island microwave": {
+      "moving_meshes": 11,
+      "actual_open_bounds_m": [
+        13.175000190734863,
+        14.854999542236328,
+        0.44699999690055847,
+        14.238000869750977,
+        15.464599609375,
+        0.847000002861023
+      ],
+      "collisions": []
+    },
+    "Kitchen island prep drawers": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        13.17020034790039,
+        15.489999771118164,
+        0.0,
+        14.309550285339355,
+        16.099599838256836,
+        0.8800000548362732
+      ],
+      "collisions": []
+    },
+    "Kitchen island waste and recycling": {
+      "moving_meshes": 27,
+      "actual_open_bounds_m": [
+        13.17020034790039,
+        16.099597930908203,
+        0.0,
+        14.329549789428711,
+        16.556800842285156,
+        0.8800000548362732
+      ],
+      "collisions": []
+    },
+    "Kitchen island north drawers": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        13.17020034790039,
+        16.556800842285156,
+        0.0,
+        14.309550285339355,
+        17.166400909423828,
+        0.8800000548362732
+      ],
+      "collisions": []
+    },
+    "Pantry appliance garage base west": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        16.285200119018555,
+        14.665450096130371,
+        0.0,
+        16.894800186157227,
+        15.804800033569336,
+        0.8799999952316284
+      ],
+      "collisions": []
+    },
+    "Pantry appliance garage base east": {
+      "moving_meshes": 63,
+      "actual_open_bounds_m": [
+        16.894800186157227,
+        14.665450096130371,
+        0.0,
+        17.5044002532959,
+        15.804800033569336,
+        0.8799999952316284
+      ],
+      "collisions": []
+    },
+    "Pantry appliance garage": {
+      "moving_meshes": 42,
+      "actual_open_bounds_m": [
+        16.2690372467041,
+        14.819890975952148,
+        0.9180999994277954,
+        17.52056312561035,
+        15.8149995803833,
+        2.118100166320801
+      ],
+      "collisions": []
+    },
+    "Pantry enclosed food storage": {
+      "moving_meshes": 30,
+      "actual_open_bounds_m": [
+        17.680387496948242,
+        14.745499610900879,
+        0.0,
+        18.73961067199707,
+        15.804800033569336,
+        2.440000057220459
+      ],
+      "collisions": []
+    }
+  }
+}

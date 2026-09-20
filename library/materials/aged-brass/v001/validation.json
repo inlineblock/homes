@@ -1,0 +1,36 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 2,
+  "actual_bounds_m": {
+    "min": [
+      -0.11999999731779099,
+      -0.13500000536441803,
+      0.0
+    ],
+    "max": [
+      0.32499998807907104,
+      0.13500000536441803,
+      0.10999999940395355
+    ]
+  },
+  "dimensions_match_manifest": null,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Warm satin brass preview shows restrained irregular patina and soft reflections; no mirror-polished or corroded appearance.",
+    "host_adoption_status": "Separate host installation and view review required."
+  },
+  "dimension_check_scope": "Not applicable: material-only asset; rendered swatch dimensions are illustrative and are not a product-size contract"
+}

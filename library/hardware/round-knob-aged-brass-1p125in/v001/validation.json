@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 3,
+  "actual_bounds_m": {
+    "min": [
+      -0.014287499710917473,
+      -0.02794000133872032,
+      -0.014287499710917473
+    ],
+    "max": [
+      0.014287499710917473,
+      3.441834595108162e-10,
+      0.014287499710917473
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Uncropped preview shows round finger grip, neck and host-face contact. Preview camera near-clipping was corrected.",
+    "host_adoption_status": "Separate host installation and view review required."
+  }
+}

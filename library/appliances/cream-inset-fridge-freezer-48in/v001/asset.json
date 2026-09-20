@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "appliances/cream-inset-fridge-freezer-48in",
+  "version": "v001",
+  "name": "Cream inset refrigerator / freezer, 48 inch",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.8448,
+    2.1336
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096,
+      -0.4638,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.381,
+      2.1336
+    ]
+  },
+  "nominal_case_m": {
+    "width": 1.2192,
+    "depth": 0.762,
+    "height": 2.1336
+  },
+  "blender": {
+    "collection": "cream-inset-fridge-freezer-48in | v001",
+    "operating_collections": {
+      "open": "cream-inset-fridge-freezer-48in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom/floor center XY at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and rotation only; no appliance or hardware scaling."
+  },
+  "features": {
+    "compartments": 2,
+    "door_panels_per_leaf": 2,
+    "glass_shelves": 10,
+    "door_storage_bins": 8,
+    "cold_storage_bins": 4
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed by default; articulated native mechanisms tested in full-open or service state",
+    "mechanisms": [
+      {
+        "object": "Left freezer door hinge",
+        "kind": "rotation",
+        "axis": "Z",
+        "open_value": -110,
+        "value_units": "degrees",
+        "origin_m": [
+          -0.599,
+          -0.389,
+          0.145
+        ]
+      },
+      {
+        "object": "Right refrigerator door hinge",
+        "kind": "rotation",
+        "axis": "Z",
+        "open_value": 110,
+        "value_units": "degrees",
+        "origin_m": [
+          0.599,
+          -0.389,
+          0.145
+        ]
+      }
+    ],
+    "open_bounds_m": {
+      "min": [
+        -0.8453106,
+        -0.9547888,
+        0.0
+      ],
+      "max": [
+        0.8453106,
+        0.381,
+        2.1336
+      ]
+    },
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.846311,
+        -0.985405,
+        -0.001
+      ],
+      "max": [
+        0.846311,
+        0.382,
+        2.1346
+      ]
+    },
+    "sweep_basis": "All moving assemblies sampled in 55 intervals over their full travel; 1mm padding. Concept geometry, not manufacturer data. Add person and circulation space separately.",
+    "host_open_state_checked": false
+  },
+  "installation": {
+    "clear_opening_concept_m": [
+      1.232,
+      0.8,
+      2.15
+    ],
+    "rear_service_reserve_m": 0.03,
+    "front_person_space_m": 1.22,
+    "side_hinge_relief_m_each": 0.23,
+    "services": [
+      "Electrical supply",
+      "Optional water connection",
+      "Unobstructed recessed toe ventilation and anti-tip restraint"
+    ],
+    "host_integration_checked": false,
+    "concept_only": true
+  },
+  "derived_from": {
+    "id": "appliances/panel-ready-fridge-48in",
+    "version": "v001",
+    "path": "../../panel-ready-fridge-48in/v001/panel-ready-fridge-48in.blend",
+    "method": "Append published casing/top/ventilation pieces, replacing solid interior and plain faces with true compartments and articulated doors."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    },
+    {
+      "id": "hardware/appliance-pull-aged-brass-24in",
+      "version": "v001",
+      "path": "../../../hardware/appliance-pull-aged-brass-24in/v001/appliance-pull-aged-brass-24in.blend"
+    }
+  ],
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_concealed_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_concealed_kitchen_appliances.py -- build --slug cream-inset-fridge-freezer-48in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; preserve ancestor attribution. No third-party appliance CAD, trademark, commercial model or product certification.",
+  "files": {
+    "blender": "cream-inset-fridge-freezer-48in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "Original concept geometry; selected-product services and installation remain unresolved.",
+    "Native asset-only closed/open verification does not establish host circulation or installation approval."
+  ]
+}

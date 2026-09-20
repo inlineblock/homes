@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 20,
+  "actual_bounds_m": {
+    "min": [
+      -0.35750001668930054,
+      -0.2549999952316284,
+      -0.21800000965595245
+    ],
+    "max": [
+      0.35750001668930054,
+      0.3135127127170563,
+      0.4522024989128113
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Open inherited bowl and flange remain intact; original brass bridge tap has two deck feet, crossbar, handles and a slender gooseneck over the bowl.",
+    "host_adoption_status": "Separate host installation and view review required."
+  }
+}

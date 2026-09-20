@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "appliances/microwave-drawer-24in",
+  "version": "v001",
+  "name": "Stainless microwave drawer, 24 inch",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096,
+    0.683,
+    0.4
+  ],
+  "bounds_m": {
+    "min": [
+      -0.3048,
+      -0.383,
+      0.0
+    ],
+    "max": [
+      0.3048,
+      0.3,
+      0.4
+    ]
+  },
+  "nominal_case_m": {
+    "width": 0.6096,
+    "depth": 0.6,
+    "height": 0.4
+  },
+  "blender": {
+    "collection": "microwave-drawer-24in | v001",
+    "operating_collections": {
+      "open": "microwave-drawer-24in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom/floor center XY at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and rotation only; no appliance or hardware scaling."
+  },
+  "features": {
+    "drawer_travel_m": 0.38,
+    "open_topped_cavity": true,
+    "clear_cavity_concept_m": [
+      0.486,
+      0.444,
+      0.19
+    ]
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed by default; articulated native mechanisms tested in full-open or service state",
+    "mechanisms": [
+      {
+        "object": "Microwave drawer carriage",
+        "kind": "translation",
+        "axis": "Y",
+        "open_value": -0.38,
+        "value_units": "meters",
+        "origin_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "open_bounds_m": {
+      "min": [
+        -0.3048,
+        -0.763,
+        0.0
+      ],
+      "max": [
+        0.3048,
+        0.3,
+        0.4
+      ]
+    },
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.3058,
+        -0.764,
+        -0.001
+      ],
+      "max": [
+        0.3058,
+        0.301,
+        0.401
+      ]
+    },
+    "sweep_basis": "All moving assemblies sampled in 55 intervals over their full travel; 1mm padding. Concept geometry, not manufacturer data. Add person and circulation space separately.",
+    "host_open_state_checked": false
+  },
+  "installation": {
+    "clear_opening_concept_m": [
+      0.62,
+      0.625,
+      0.415
+    ],
+    "support_base_required": true,
+    "front_person_space_m": 0.9,
+    "suggested_bottom_above_floor_m": 0.4,
+    "services": [
+      "Selected-product power, cooling openings and isolation",
+      "Drawer reach, landing counter and child-safety review"
+    ],
+    "host_integration_checked": false,
+    "concept_only": true
+  },
+  "derived_from": {
+    "id": "appliances/built-in-oven-30in",
+    "version": "v001",
+    "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+    "method": "Reuse pinned published oven materials; original 24-inch drawer enclosure and mechanism replace the 30-inch oven architecture."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_concealed_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_concealed_kitchen_appliances.py -- build --slug microwave-drawer-24in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; preserve ancestor attribution. No third-party appliance CAD, trademark, commercial model or product certification.",
+  "files": {
+    "blender": "microwave-drawer-24in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "Original concept geometry; selected-product services and installation remain unresolved.",
+    "Native asset-only closed/open verification does not establish host circulation or installation approval."
+  ]
+}

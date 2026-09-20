@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-inset-sink-base-36in",
+  "version": "v001",
+  "name": "Oak Inset Sink Base 36In",
+  "units": "meters",
+  "dimensions_m": [
+    0.9143999814987183,
+    0.6355400085449219,
+    0.8800000548362732
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.3307400047779083,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.30480000376701355,
+      0.8800000548362732
+    ]
+  },
+  "blender": {
+    "collection": "oak-inset-sink-base-36in | v001",
+    "operating_collections": {
+      "open": "oak-inset-sink-base-36in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom-center at floor or mounting plane Z=0",
+    "front_direction": "-Y; width along X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch"
+  },
+  "installation": {
+    "mounting": "Floor supported; host countertop excluded",
+    "nominal_carcass_dimensions_m": [
+      0.9144,
+      0.6096,
+      0.88
+    ],
+    "countertop_top_m": 0.9,
+    "operating_envelope": {
+      "closed_collection": "oak-inset-sink-base-36in | v001",
+      "open_collection": "oak-inset-sink-base-36in | open v001",
+      "motions": [
+        {
+          "object": "Left door hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": -1.7453292519943295,
+          "hinge_or_origin_m": [
+            -0.44269999861717224,
+            -0.3147999942302704,
+            0.1340000033378601
+          ]
+        },
+        {
+          "object": "Right door hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": 1.7453292519943295,
+          "hinge_or_origin_m": [
+            0.44269999861717224,
+            -0.3147999942302704,
+            0.1340000033378601
+          ]
+        }
+      ],
+      "open_bounds_m": {
+        "min": [
+          -0.5296105146408081,
+          -0.7545005083084106,
+          0.0
+        ],
+        "max": [
+          0.5296105146408081,
+          0.30480000376701355,
+          0.8800000548362732
+        ]
+      },
+      "reserve_operator_depth_m": 0.8,
+      "basis": "Original measured closed/open concept geometry, no manufacturer mechanism selected",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Host must check neighboring doors/drawers, approach, anchorage, support, moisture detailing and actual product selection."
+    ],
+    "countertop_cutout_m": [
+      0.664,
+      0.464
+    ],
+    "sink_bowl_reserve": {
+      "compatible_id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "mounting_center_xy_m": [
+        0,
+        -0.03
+      ],
+      "below_counter_depth_m": 0.218,
+      "cavity": "Open top/rear, no drawers or shelves in bowl and plumbing envelope"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    },
+    {
+      "id": "hardware/round-knob-aged-brass-1p125in",
+      "version": "v001",
+      "path": "../../../hardware/round-knob-aged-brass-1p125in/v001/round-knob-aged-brass-1p125in.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-sink-base-36in",
+    "version": "v001",
+    "basis": "Original rebuilt dimensional/functional sibling: retained parent interface intent, added true face frames, inset beaded panels, articulated fronts and linked finish/hardware; not a private copy of parent meshes"
+  },
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py",
+    "command": "blender -b --factory-startup --python tools/library/build_inset_kitchen_cabinets.py -- --asset oak-inset-sink-base-36in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors. No manufacturer CAD or selected product compliance claim.",
+  "files": {
+    "blender": "oak-inset-sink-base-36in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  }
+}

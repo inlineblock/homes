@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-09-20T01:55:13.827582+00:00",
+  "checked_at_utc": "2026-09-20T17:56:23.640444+00:00",
   "native_file": "model/modern-block.blend",
-  "native_sha256": "c4307d742937bf36b56852326a65b15935681225fe71e0ab213cd5a3bc9fe45c",
+  "native_sha256": "b37ffeab3711128d1e44334f759b1d22b51e1da50f4728ede32aae0a2ff2ed3f",
   "native_reopened": true,
   "native_mutated": false,
   "software": {
@@ -21,65 +21,43 @@
     "new_and_modified_repository_text": true,
     "new_asset_manifests_and_validation_metadata": true
   },
-  "native_datablocks_checked": 12959,
-  "string_fields_checked": 68813,
-  "repository_text_files_checked": 30,
-  "repository_text_scope_sha256": "87151a77835ef5aded0e42bbb717b3cc1c11d9c71770f2c46be4339554df75d1",
-  "png_metadata_files_checked": 25,
+  "additional_shared_native_files_checked": [
+    "library/appliances/cream-brass-dual-fuel-range-48in/v001/cream-brass-dual-fuel-range-48in.blend",
+    "library/appliances/cream-inset-dishwasher-24in/v001/cream-inset-dishwasher-24in.blend",
+    "library/appliances/cream-inset-fridge-freezer-48in/v001/cream-inset-fridge-freezer-48in.blend",
+    "library/appliances/cream-plaster-wall-hood-48in/v001/cream-plaster-wall-hood-48in.blend",
+    "library/appliances/microwave-drawer-24in/v001/microwave-drawer-24in.blend",
+    "library/cabinetry/cream-inset-appliance-garage-48in/v001/cream-inset-appliance-garage-48in.blend",
+    "library/cabinetry/cream-inset-drawer-base-24in/v001/cream-inset-drawer-base-24in.blend",
+    "library/cabinetry/cream-inset-glazed-upper-36in/v001/cream-inset-glazed-upper-36in.blend",
+    "library/cabinetry/cream-inset-pantry-36in/v001/cream-inset-pantry-36in.blend",
+    "library/cabinetry/cream-inset-sink-base-36in/v001/cream-inset-sink-base-36in.blend",
+    "library/cabinetry/cream-inset-waste-pullout-18in/v001/cream-inset-waste-pullout-18in.blend",
+    "library/cabinetry/oak-inset-drawer-base-24in/v001/oak-inset-drawer-base-24in.blend",
+    "library/cabinetry/oak-inset-island-back-panel-24in/v001/oak-inset-island-back-panel-24in.blend",
+    "library/cabinetry/oak-inset-microwave-base-24in/v001/oak-inset-microwave-base-24in.blend",
+    "library/cabinetry/oak-inset-oven-base-30in/v001/oak-inset-oven-base-30in.blend",
+    "library/cabinetry/oak-inset-sink-base-36in/v001/oak-inset-sink-base-36in.blend",
+    "library/cabinetry/oak-inset-waste-pullout-18in/v001/oak-inset-waste-pullout-18in.blend",
+    "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/kitchen-sink-bridge-faucet-brass-650.blend",
+    "library/fixtures/lighting-brass-double-shade-pendant/v001/lighting-brass-double-shade-pendant.blend",
+    "library/fixtures/lighting-brass-picture-light-24in/v001/lighting-brass-picture-light-24in.blend",
+    "library/fixtures/lighting-brass-shaded-sconce/v001/lighting-brass-shaded-sconce.blend",
+    "library/hardware/appliance-pull-aged-brass-24in/v001/appliance-pull-aged-brass-24in.blend",
+    "library/hardware/bar-pull-aged-brass-6in/v001/bar-pull-aged-brass-6in.blend",
+    "library/hardware/round-knob-aged-brass-1p125in/v001/round-knob-aged-brass-1p125in.blend",
+    "library/materials/aged-brass/v001/aged-brass.blend",
+    "library/materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend",
+    "library/materials/cream-veined-stone/v001/cream-veined-stone.blend"
+  ],
+  "native_datablocks_checked": 16545,
+  "string_fields_checked": 85620,
+  "repository_text_files_checked": 123,
+  "repository_text_scope_sha256": "cbb0d8ade2b2d7c11dfb1ac8b8f6f6ac71a54eaa18accf726e9ae99e90c6ce4c",
+  "png_metadata_files_checked": 58,
   "png_metadata_scope": [
     {
-      "path": "homes/modern-block/outputs/images/01-front-arrival.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
       "path": "homes/modern-block/outputs/images/02-courtyard-pool.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/03-roof-and-site.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/04-lanai-open.png",
       "metadata_chunks_checked": [
         "eXIf",
         "tEXt",
@@ -113,74 +91,6 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/06-living.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/07-primary-bedroom.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/08-primary-bath.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/09-lanai-closed.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
-    },
-    {
       "path": "homes/modern-block/outputs/images/10-pool-and-balcony.png",
       "metadata_chunks_checked": [
         "eXIf",
@@ -198,7 +108,7 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/11-stair-gallery.png",
+      "path": "homes/modern-block/outputs/images/14-kitchen-wall.png",
       "metadata_chunks_checked": [
         "eXIf",
         "tEXt",
@@ -215,7 +125,7 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/12-bath-tub-shower.png",
+      "path": "homes/modern-block/outputs/images/15-kitchen-open.png",
       "metadata_chunks_checked": [
         "eXIf",
         "tEXt",
@@ -232,7 +142,7 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/13-east-arrival.png",
+      "path": "homes/modern-block/outputs/images/16-kitchen-island.png",
       "metadata_chunks_checked": [
         "eXIf",
         "tEXt",
@@ -249,15 +159,20 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/photo-bath.png",
+      "path": "homes/modern-block/outputs/images/17-pantry-open.png",
       "metadata_chunks_checked": [
-        "caBX"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/photo-bedroom.png",
-      "metadata_chunks_checked": [
-        "caBX"
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
       ]
     },
     {
@@ -267,13 +182,13 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/photo-east.png",
+      "path": "homes/modern-block/outputs/images/photo-kitchen-island.png",
       "metadata_chunks_checked": [
         "caBX"
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/photo-hero.png",
+      "path": "homes/modern-block/outputs/images/photo-kitchen-wall.png",
       "metadata_chunks_checked": [
         "caBX"
       ]
@@ -285,25 +200,7 @@
       ]
     },
     {
-      "path": "homes/modern-block/outputs/images/photo-lanai-closed.png",
-      "metadata_chunks_checked": [
-        "caBX"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/photo-lanai.png",
-      "metadata_chunks_checked": [
-        "caBX"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/photo-living.png",
-      "metadata_chunks_checked": [
-        "caBX"
-      ]
-    },
-    {
-      "path": "homes/modern-block/outputs/images/photo-site.png",
+      "path": "homes/modern-block/outputs/images/photo-pantry.png",
       "metadata_chunks_checked": [
         "caBX"
       ]
@@ -319,24 +216,990 @@
       "metadata_chunks_checked": [
         "tEXt"
       ]
+    },
+    {
+      "path": "library/appliances/cream-brass-dual-fuel-range-48in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-brass-dual-fuel-range-48in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-inset-dishwasher-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-inset-dishwasher-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-inset-fridge-freezer-48in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-inset-fridge-freezer-48in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-plaster-wall-hood-48in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/cream-plaster-wall-hood-48in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/microwave-drawer-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/appliances/microwave-drawer-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-appliance-garage-48in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-appliance-garage-48in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-drawer-base-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-drawer-base-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-glazed-upper-36in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-glazed-upper-36in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-pantry-36in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-pantry-36in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-sink-base-36in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-sink-base-36in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-waste-pullout-18in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/cream-inset-waste-pullout-18in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-drawer-base-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-drawer-base-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-island-back-panel-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-island-back-panel-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-microwave-base-24in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-microwave-base-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-oven-base-30in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-oven-base-30in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-sink-base-36in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-sink-base-36in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-waste-pullout-18in/v001/preview-open.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/cabinetry/oak-inset-waste-pullout-18in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/lighting-brass-double-shade-pendant/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/lighting-brass-picture-light-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/fixtures/lighting-brass-shaded-sconce/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/hardware/appliance-pull-aged-brass-24in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/hardware/bar-pull-aged-brass-6in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/hardware/round-knob-aged-brass-1p125in/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/materials/aged-brass/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/materials/cream-cabinet-enamel/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "library/materials/cream-veined-stone/v001/preview.png",
+      "metadata_chunks_checked": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
     }
   ],
   "new_asset_provenance_status": "passed",
-  "new_asset_provenance_scope": [],
-  "binary_files_excluded_from_text_scan": 28,
+  "new_asset_provenance_scope": [
+    {
+      "path": "library/appliances/cream-brass-dual-fuel-range-48in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/appliances/cream-inset-dishwasher-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/appliances/cream-inset-fridge-freezer-48in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/appliances/cream-plaster-wall-hood-48in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/appliances/microwave-drawer-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-appliance-garage-48in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-drawer-base-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-glazed-upper-36in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-pantry-36in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-sink-base-36in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/cream-inset-waste-pullout-18in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-drawer-base-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-island-back-panel-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-microwave-base-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-oven-base-30in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-sink-base-36in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/cabinetry/oak-inset-waste-pullout-18in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/lighting-brass-double-shade-pendant/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/lighting-brass-picture-light-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/fixtures/lighting-brass-shaded-sconce/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/hardware/appliance-pull-aged-brass-24in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/hardware/bar-pull-aged-brass-6in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/hardware/round-knob-aged-brass-1p125in/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/materials/aged-brass/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/materials/cream-cabinet-enamel/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    },
+    {
+      "path": "library/materials/cream-veined-stone/v001/asset.json",
+      "declared_license": "CC-BY-4.0",
+      "original_source_declared": true,
+      "generator_exists": true,
+      "declared_parent_exists": true,
+      "status": "passed"
+    }
+  ],
+  "binary_files_excluded_from_text_scan": 88,
   "text_file_scope": [
-    ".agents/skills/create-home/SKILL.md",
     "README.md",
     "homes/modern-block/README.md",
+    "homes/modern-block/assets/README.md",
     "homes/modern-block/design-intent.md",
-    "homes/modern-block/design-review-notes.md",
     "homes/modern-block/design-review.md",
     "homes/modern-block/gallery.json",
+    "homes/modern-block/kitchen-components.md",
     "homes/modern-block/model/bonsai-validation.json",
     "homes/modern-block/model/ifc-validation.json",
+    "homes/modern-block/model/kitchen-validation.json",
+    "homes/modern-block/model/kitchen-visual-review.json",
     "homes/modern-block/model/modern-block.ifc",
     "homes/modern-block/model/native-validation.json",
-    "homes/modern-block/model/opening-schedule.json",
     "homes/modern-block/model/repository-validation.json",
     "homes/modern-block/outputs/README.md",
     "homes/modern-block/outputs/photo-prompts.json",
@@ -345,16 +1208,108 @@
     "homes/modern-block/outputs/plans/upper-floor.svg",
     "homes/modern-block/program.md",
     "homes/modern-block/project.json",
-    "homes/modern-block/visual-review-notes.md",
+    "library/README.md",
+    "library/appliances/cream-brass-dual-fuel-range-48in/v001/README.md",
+    "library/appliances/cream-brass-dual-fuel-range-48in/v001/asset.json",
+    "library/appliances/cream-brass-dual-fuel-range-48in/v001/validation.json",
+    "library/appliances/cream-inset-dishwasher-24in/v001/README.md",
+    "library/appliances/cream-inset-dishwasher-24in/v001/asset.json",
+    "library/appliances/cream-inset-dishwasher-24in/v001/validation.json",
+    "library/appliances/cream-inset-fridge-freezer-48in/v001/README.md",
+    "library/appliances/cream-inset-fridge-freezer-48in/v001/asset.json",
+    "library/appliances/cream-inset-fridge-freezer-48in/v001/validation.json",
+    "library/appliances/cream-plaster-wall-hood-48in/v001/README.md",
+    "library/appliances/cream-plaster-wall-hood-48in/v001/asset.json",
+    "library/appliances/cream-plaster-wall-hood-48in/v001/validation.json",
+    "library/appliances/microwave-drawer-24in/v001/README.md",
+    "library/appliances/microwave-drawer-24in/v001/asset.json",
+    "library/appliances/microwave-drawer-24in/v001/validation.json",
+    "library/cabinetry/cream-inset-appliance-garage-48in/v001/README.md",
+    "library/cabinetry/cream-inset-appliance-garage-48in/v001/asset.json",
+    "library/cabinetry/cream-inset-appliance-garage-48in/v001/validation.json",
+    "library/cabinetry/cream-inset-drawer-base-24in/v001/README.md",
+    "library/cabinetry/cream-inset-drawer-base-24in/v001/asset.json",
+    "library/cabinetry/cream-inset-drawer-base-24in/v001/validation.json",
+    "library/cabinetry/cream-inset-glazed-upper-36in/v001/README.md",
+    "library/cabinetry/cream-inset-glazed-upper-36in/v001/asset.json",
+    "library/cabinetry/cream-inset-glazed-upper-36in/v001/validation.json",
+    "library/cabinetry/cream-inset-pantry-36in/v001/README.md",
+    "library/cabinetry/cream-inset-pantry-36in/v001/asset.json",
+    "library/cabinetry/cream-inset-pantry-36in/v001/validation.json",
+    "library/cabinetry/cream-inset-sink-base-36in/v001/README.md",
+    "library/cabinetry/cream-inset-sink-base-36in/v001/asset.json",
+    "library/cabinetry/cream-inset-sink-base-36in/v001/validation.json",
+    "library/cabinetry/cream-inset-waste-pullout-18in/v001/README.md",
+    "library/cabinetry/cream-inset-waste-pullout-18in/v001/asset.json",
+    "library/cabinetry/cream-inset-waste-pullout-18in/v001/validation.json",
+    "library/cabinetry/oak-inset-drawer-base-24in/v001/README.md",
+    "library/cabinetry/oak-inset-drawer-base-24in/v001/asset.json",
+    "library/cabinetry/oak-inset-drawer-base-24in/v001/validation.json",
+    "library/cabinetry/oak-inset-island-back-panel-24in/v001/README.md",
+    "library/cabinetry/oak-inset-island-back-panel-24in/v001/asset.json",
+    "library/cabinetry/oak-inset-island-back-panel-24in/v001/validation.json",
+    "library/cabinetry/oak-inset-microwave-base-24in/v001/README.md",
+    "library/cabinetry/oak-inset-microwave-base-24in/v001/asset.json",
+    "library/cabinetry/oak-inset-microwave-base-24in/v001/validation.json",
+    "library/cabinetry/oak-inset-oven-base-30in/v001/README.md",
+    "library/cabinetry/oak-inset-oven-base-30in/v001/asset.json",
+    "library/cabinetry/oak-inset-oven-base-30in/v001/validation.json",
+    "library/cabinetry/oak-inset-sink-base-36in/v001/README.md",
+    "library/cabinetry/oak-inset-sink-base-36in/v001/asset.json",
+    "library/cabinetry/oak-inset-sink-base-36in/v001/validation.json",
+    "library/cabinetry/oak-inset-waste-pullout-18in/v001/README.md",
+    "library/cabinetry/oak-inset-waste-pullout-18in/v001/asset.json",
+    "library/cabinetry/oak-inset-waste-pullout-18in/v001/validation.json",
+    "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/README.md",
+    "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/asset.json",
+    "library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/validation.json",
+    "library/fixtures/lighting-brass-double-shade-pendant/v001/README.md",
+    "library/fixtures/lighting-brass-double-shade-pendant/v001/asset.json",
+    "library/fixtures/lighting-brass-double-shade-pendant/v001/validation.json",
+    "library/fixtures/lighting-brass-picture-light-24in/v001/README.md",
+    "library/fixtures/lighting-brass-picture-light-24in/v001/asset.json",
+    "library/fixtures/lighting-brass-picture-light-24in/v001/validation.json",
+    "library/fixtures/lighting-brass-shaded-sconce/v001/README.md",
+    "library/fixtures/lighting-brass-shaded-sconce/v001/asset.json",
+    "library/fixtures/lighting-brass-shaded-sconce/v001/validation.json",
+    "library/hardware/appliance-pull-aged-brass-24in/v001/README.md",
+    "library/hardware/appliance-pull-aged-brass-24in/v001/asset.json",
+    "library/hardware/appliance-pull-aged-brass-24in/v001/validation.json",
+    "library/hardware/bar-pull-aged-brass-6in/v001/README.md",
+    "library/hardware/bar-pull-aged-brass-6in/v001/asset.json",
+    "library/hardware/bar-pull-aged-brass-6in/v001/validation.json",
+    "library/hardware/round-knob-aged-brass-1p125in/v001/README.md",
+    "library/hardware/round-knob-aged-brass-1p125in/v001/asset.json",
+    "library/hardware/round-knob-aged-brass-1p125in/v001/validation.json",
+    "library/kitchen-inset-kit.md",
+    "library/materials/aged-brass/v001/README.md",
+    "library/materials/aged-brass/v001/asset.json",
+    "library/materials/aged-brass/v001/validation.json",
+    "library/materials/cream-cabinet-enamel/v001/asset.json",
+    "library/materials/cream-cabinet-enamel/v001/validation.json",
+    "library/materials/cream-veined-stone/v001/README.md",
+    "library/materials/cream-veined-stone/v001/asset.json",
+    "library/materials/cream-veined-stone/v001/validation.json",
+    "tools/library/build_brass_kitchen_details.py",
+    "tools/library/build_concealed_kitchen_appliances.py",
+    "tools/library/build_inset_kitchen_cabinets.py",
+    "tools/modern_block/AGENTS.md",
     "tools/modern_block/build.py",
-    "tools/modern_block/design.py",
     "tools/modern_block/draw_plans.py",
     "tools/modern_block/envelope.py",
-    "tools/modern_block/facade_details.py",
     "tools/modern_block/interiors-layout.json",
     "tools/modern_block/interiors.py",
+    "tools/modern_block/kitchen.py",
+    "tools/modern_block/kitchen_layout.py",
+    "tools/modern_block/render.py",
+    "tools/modern_block/schedule.py",
     "tools/modern_block/verify.py",
-    "tools/modern_block/write_gallery.py"
+    "tools/modern_block/verify_kitchen.py",
+    "tools/modern_block/write_gallery.py",
+    "tools/timber02/AGENTS.md",
+    "tools/timber02/verify_walkthrough.py",
+    "tools/timber02/verify_walkthrough_support.py",
+    "tools/timber02/walkthrough.py"
   ],
   "finding_count": 0,
   "finding_locations": [],

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "id": "appliances/cream-inset-dishwasher-24in",
+  "version": "v001",
+  "name": "Concealed cream inset dishwasher, 24 inch",
+  "units": "meters",
+  "dimensions_m": [
+    0.60198,
+    0.66325,
+    0.863
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30099,
+      -0.35875,
+      0.0
+    ],
+    "max": [
+      0.30099,
+      0.3045,
+      0.863
+    ]
+  },
+  "nominal_case_m": {
+    "width": 0.6096,
+    "depth": 0.6096,
+    "height": 0.86106
+  },
+  "blender": {
+    "collection": "cream-inset-dishwasher-24in | v001",
+    "operating_collections": {
+      "open": "cream-inset-dishwasher-24in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom/floor center XY at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and rotation only; no appliance or hardware scaling."
+  },
+  "features": {
+    "functional_doors": 1,
+    "decorative_drawer_faces": 3,
+    "dish_racks": 2,
+    "tub_is_hollow": true
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed by default; articulated native mechanisms tested in full-open or service state",
+    "mechanisms": [
+      {
+        "object": "Dishwasher bottom hinge",
+        "kind": "rotation",
+        "axis": "X",
+        "open_value": 90,
+        "value_units": "degrees",
+        "origin_m": [
+          0.0,
+          -0.303,
+          0.092
+        ]
+      }
+    ],
+    "open_bounds_m": {
+      "min": [
+        -0.30099,
+        -1.074,
+        0.0
+      ],
+      "max": [
+        0.30099,
+        0.3045,
+        0.861
+      ]
+    },
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.30199,
+        -1.075,
+        -0.001
+      ],
+      "max": [
+        0.30199,
+        0.3055,
+        0.864328
+      ]
+    },
+    "sweep_basis": "All moving assemblies sampled in 55 intervals over their full travel; 1mm padding. Concept geometry, not manufacturer data. Add person and circulation space separately.",
+    "host_open_state_checked": false
+  },
+  "installation": {
+    "clear_opening_concept_m": [
+      0.61,
+      0.635,
+      0.88
+    ],
+    "counter_underside_min_m": 0.88,
+    "front_person_space_m": 1.0,
+    "services": [
+      "Water supply, drainage and electrical access from adjacent sink bay",
+      "No opaque cabinet carcass or false drawer occupies the appliance bay"
+    ],
+    "host_integration_checked": false,
+    "concept_only": true
+  },
+  "derived_from": {
+    "id": "appliances/dishwasher-24in",
+    "version": "v001",
+    "path": "../../dishwasher-24in/v001/dishwasher-24in.blend",
+    "method": "Append the actual published toe recess; replace opaque enclosure and plain face with a hollow tub, wire racks and one articulated paneled door."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    },
+    {
+      "id": "hardware/bar-pull-aged-brass-6in",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-aged-brass-6in/v001/bar-pull-aged-brass-6in.blend"
+    }
+  ],
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_concealed_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_concealed_kitchen_appliances.py -- build --slug cream-inset-dishwasher-24in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; preserve ancestor attribution. No third-party appliance CAD, trademark, commercial model or product certification.",
+  "files": {
+    "blender": "cream-inset-dishwasher-24in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "Original concept geometry; selected-product services and installation remain unresolved.",
+    "Native asset-only closed/open verification does not establish host circulation or installation approval."
+  ]
+}

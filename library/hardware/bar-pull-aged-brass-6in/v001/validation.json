@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 5,
+  "actual_bounds_m": {
+    "min": [
+      -0.0815339982509613,
+      -0.03175000101327896,
+      -0.00533400010317564
+    ],
+    "max": [
+      0.0815339982509613,
+      2.3315654962274834e-10,
+      0.00533400010317564
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Original-scale six-inch fixing centers, slim grip, two mounting feet and consistent aged-brass finish are visible.",
+    "host_adoption_status": "Separate host installation and view review required."
+  }
+}

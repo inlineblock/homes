@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 4,
+  "actual_bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.20200002193450928,
+      -0.03750000149011612
+    ],
+    "max": [
+      0.30480000376701355,
+      0.012000000104308128,
+      0.0820000097155571
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Narrow 24-inch barrel, rear arm and wall plate plus downward warm diffuser visible.",
+    "host_adoption_status": "Separate host installation and view review required."
+  }
+}

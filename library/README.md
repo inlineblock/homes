@@ -52,6 +52,14 @@ Read [asset conventions](../docs/assets.md) before adding or changing an asset. 
 
 Original assets use CC BY 4.0 with attribution to Homes project contributors; generators use MIT. No collection above is manufacturer CAD or a certification of building/product compliance.
 
+## Inset kitchen kit
+
+**[Browse the 27-part inset kitchen kit](kitchen-inset-kit.md)**: 12 cream/oak cabinet modules, five appliances, seven hardware/fixture assemblies and three finishes, all at v001. The catalog includes measured sizes, manifests, native previews and open/service states. Asset reopening and isolated visual reviews are complete; Modern Block’s selected components also passed [host installation checks](../homes/modern-block/model/kitchen-validation.json). These are original reusable concepts, not commercial product specifications.
+
+| Cream appliance garage · open | Concealed 48-inch refrigerator/freezer | Brass double-shade pendant · 1.35 m drop |
+| --- | --- | --- |
+| [![Cream inset appliance garage with bifolding doors open](cabinetry/cream-inset-appliance-garage-48in/v001/preview-open.png)](cabinetry/cream-inset-appliance-garage-48in/v001/asset.json) | [![Cream inset refrigerator/freezer with long brass pulls](appliances/cream-inset-fridge-freezer-48in/v001/preview.png)](appliances/cream-inset-fridge-freezer-48in/v001/asset.json) | [![Brass double-shade pendant with extended solid suspension stem](fixtures/lighting-brass-double-shade-pendant/v001/preview.png)](fixtures/lighting-brass-double-shade-pendant/v001/asset.json) |
+
 ## Complete kitchen and bathing components
 
 These original editable appliances are shared across projects. The host home supplies appliance openings, accessible operating space, plumbing, electrical services and a continuous hood exhaust route. Nominal widths are given below; measured dimensions including handles are in each manifest.

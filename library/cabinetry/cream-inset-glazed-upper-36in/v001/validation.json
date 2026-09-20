@@ -1,0 +1,60 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.45719999074935913,
+        -0.20374000072479248,
+        0.0
+      ],
+      "max": [
+        0.45719999074935913,
+        0.1777999997138977,
+        0.7599999904632568
+      ]
+    },
+    "open": {
+      "min": [
+        -0.5296105742454529,
+        -0.6275004744529724,
+        0.0
+      ],
+      "max": [
+        0.5296105742454529,
+        0.1777999997138977,
+        0.7599999904632568
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": null,
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "8fe6dbd8ff0c9f2693e513e8b2fa82fdc18bcbb45b8a0e4502ad636a049d1157",
+  "preview_sha256": "1e386be23c5441df63ac9c07c3a9966637d525eba9db537636ebdc00e3a1d1ee",
+  "open_preview_sha256": "cfd0fbeab083d12a676f961c553c6a634c1ede51d5ff11fd8179d5b9cb0f479d",
+  "analytic_motion_review": {
+    "checked": true,
+    "basis": "Plan rectangles for door leaf/frame/carcass and paired meeting edges sampled at0.01degree increments from0to100degrees",
+    "minimum_meeting_edge_separation_m": 0.00138,
+    "pivot_offset_m": {
+      "outward_x": 0.02,
+      "ahead_of_face_y": 0.01
+    },
+    "limitations": "Original concept geometry; no manufacturer hinge specification or load rating."
+  }
+}

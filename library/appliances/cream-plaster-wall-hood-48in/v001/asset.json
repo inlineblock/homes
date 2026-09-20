@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "appliances/cream-plaster-wall-hood-48in",
+  "version": "v001",
+  "name": "Cream plaster capture hood, 48 inch",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.6604,
+    0.95
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096,
+      -0.3302,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.3302,
+      0.95
+    ]
+  },
+  "nominal_case_m": {
+    "width": 1.2192,
+    "depth": 0.6604,
+    "height": 0.95
+  },
+  "blender": {
+    "collection": "cream-plaster-wall-hood-48in | v001",
+    "operating_collections": {
+      "open": "cream-plaster-wall-hood-48in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom/floor center XY at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and rotation only; no appliance or hardware scaling."
+  },
+  "features": {
+    "capture_width_m": 1.2192,
+    "capture_depth_m": 0.6604,
+    "duct_socket_m": {
+      "center": [
+        0,
+        0.16,
+        0.95
+      ],
+      "width": 0.254,
+      "depth": 0.254
+    },
+    "filter_removal_drop_m": 0.18
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed by default; articulated native mechanisms tested in full-open or service state",
+    "mechanisms": [
+      {
+        "object": "Hood removable filter cassette",
+        "kind": "translation",
+        "axis": "Z",
+        "open_value": -0.18,
+        "value_units": "meters",
+        "origin_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "open_bounds_m": {
+      "min": [
+        -0.6096,
+        -0.3302,
+        -0.1535
+      ],
+      "max": [
+        0.6096,
+        0.3302,
+        0.95
+      ]
+    },
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.6106,
+        -0.3312,
+        -0.1545
+      ],
+      "max": [
+        0.6106,
+        0.3312,
+        0.951
+      ]
+    },
+    "sweep_basis": "All moving assemblies sampled in 55 intervals over their full travel; 1mm padding. Concept geometry, not manufacturer data. Add person and circulation space separately.",
+    "host_open_state_checked": false
+  },
+  "installation": {
+    "mounting": "Noncombustible host wall and independent structural support",
+    "suggested_bottom_above_floor_m": 1.79,
+    "capture_clearance_above_pot_support_m": 0.8385,
+    "services": [
+      "Continuous host duct from the top socket to outdoors",
+      "Selected appliance compatibility, capture airflow, heat clearances and make-up air unverified"
+    ],
+    "host_integration_checked": false,
+    "concept_only": true
+  },
+  "derived_from": {
+    "id": "appliances/wall-hood-36in",
+    "version": "v001",
+    "path": "../../wall-hood-36in/v001/wall-hood-36in.blend",
+    "method": "New full-width hollow 48-inch shell and removable baffles, derived from the published 36-inch hood concept; source appliance materials retained."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../../materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend"
+    }
+  ],
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_concealed_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_concealed_kitchen_appliances.py -- build --slug cream-plaster-wall-hood-48in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; preserve ancestor attribution. No third-party appliance CAD, trademark, commercial model or product certification.",
+  "files": {
+    "blender": "cream-plaster-wall-hood-48in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "Original concept geometry; selected-product services and installation remain unresolved.",
+    "Native asset-only closed/open verification does not establish host circulation or installation approval."
+  ]
+}

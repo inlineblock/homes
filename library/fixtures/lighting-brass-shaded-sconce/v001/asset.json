@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-brass-shaded-sconce",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset lighting-brass-shaded-sconce"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "lighting-brass-shaded-sconce.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "dependencies": [
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Host mounting-face center at XY0 Z0",
+    "front_direction": "-Y; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; keep exact dimensions and fixing centers."
+  },
+  "operating_envelope": {
+    "state": "Static concept geometry",
+    "basis": "Original concept, no commercial product selected",
+    "host_open_state_checked": false
+  },
+  "mounting": "Wall mounting face Y=0 at rosecenterZ0; backplate +Y12mm requires recess or host spacer. Shade centered Y-.23, opens downward; safe electrical connection and support supplied by host.",
+  "clearances": {
+    "shade_front_projection_m": 0.355,
+    "service_basis": "Allow bulb removal below open shade and keep shade clear of open doors and heat sources.",
+    "host_checked": false
+  },
+  "name": "lighting-brass-shaded-sconce | shared v001",
+  "dimensions_m": [
+    0.25,
+    0.3669999921694398,
+    0.4020000025629997
+  ],
+  "bounds_m": {
+    "min": [
+      -0.125,
+      -0.35499998927116394,
+      -0.06199999898672104
+    ],
+    "max": [
+      0.125,
+      0.012000002898275852,
+      0.3400000035762787
+    ]
+  },
+  "blender": {
+    "collection": "lighting-brass-shaded-sconce | shared v001"
+  }
+}

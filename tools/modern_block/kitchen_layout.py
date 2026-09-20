@@ -1,0 +1,13 @@
+"""Coordinated kitchen dimensions in meters; original concept equipment."""
+ISLAND = (12.4, 14.0, 13.85, 17.4)
+COUNTER_TOP = .9181
+COUNTER_THICKNESS = .0381
+WALL_RUN_Y = 19.45
+SINK = (11.34, 19.42)
+DISHWASHERS = (10.56, 12.14)
+RANGE_X = 13.18
+FRIDGE = (15.065, 19.31)
+LANDING_DRAWER_X = 14.125
+HOOD_BOTTOM = 1.79
+ISLAND_CORE_X = 13.475
+STOOL_Y = (14.45, 15.25, 16.05, 16.85)

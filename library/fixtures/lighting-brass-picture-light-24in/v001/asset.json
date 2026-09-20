@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/lighting-brass-picture-light-24in",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset lighting-brass-picture-light-24in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "lighting-brass-picture-light-24in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "dependencies": [
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Host mounting-face center at XY0 Z0",
+    "front_direction": "-Y; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; keep exact dimensions and fixing centers."
+  },
+  "operating_envelope": {
+    "state": "Static concept geometry",
+    "basis": "Original concept, no commercial product selected",
+    "host_open_state_checked": false
+  },
+  "mounting": "Wall mounting face Y=0. Backplate extends+Y12mm into shallow wall recess; host supplies recess or surface mounting spacer. Light projects toward-Y;24inch barrel axisX; aperture faces downward-Z. Mount above glazing or artwork with independent support and electrical route.",
+  "clearances": {
+    "projection_m": 0.202,
+    "service_basis": "Reach diffuser/barrel screws from below; no glazing contact. Fixture output is illustrative, not a photometric specification.",
+    "host_checked": false
+  },
+  "name": "lighting-brass-picture-light-24in | shared v001",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.2140000220388174,
+    0.11950001120567322
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.20200002193450928,
+      -0.03750000149011612
+    ],
+    "max": [
+      0.30480000376701355,
+      0.012000000104308128,
+      0.0820000097155571
+    ]
+  },
+  "blender": {
+    "collection": "lighting-brass-picture-light-24in | shared v001"
+  }
+}

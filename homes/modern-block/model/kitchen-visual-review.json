@@ -1,0 +1,110 @@
+{
+  "native_sha256": "b37ffeab3711128d1e44334f759b1d22b51e1da50f4728ede32aae0a2ff2ed3f",
+  "reviewed_draft_views": [
+    "05-kitchen",
+    "14-kitchen-wall",
+    "15-kitchen-open",
+    "16-kitchen-island",
+    "17-pantry-open"
+  ],
+  "findings": [
+    "Cream hood chase now encloses the visible exhaust above the hood.",
+    "Kitchen wall comparison retains actual closed and open appliance states; island occludes portions of oven doors, with standalone component previews documenting those full assemblies.",
+    "Island view clearly shows microwave drawer, two waste bins, cabinet reveals and four pendant shades.",
+    "Pantry view shows open folding garage leaves, storage shelves and usable cavities with corrected lighting.",
+    "Ground plan reflects rear-wall cleanup and cooking equipment, shortened island, pantry counter and coordinated door handings.",
+    "Ground and upper PNG, PDF and independently rasterized SVG reviewed for legibility and matching layout."
+  ],
+  "scope": "Seven affected final Cycles views and both occupied-level PNG/PDF/SVG plans reviewed; photographic selections and their exact source hashes recorded separately in photo-study.md.",
+  "final_native_views": [
+    {
+      "path": "outputs/images/02-courtyard-pool.png",
+      "sha256": "2e0fee5de33ff0560a8d099ce44bd1cbea7c008f863ed0fd513ce0f7a2c7a497",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/10-pool-and-balcony.png",
+      "sha256": "46dfc17b0a9c77d523a1c47810271c9bd49aa49274fb3625fa1cd3e80ef36bf8",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/05-kitchen.png",
+      "sha256": "ae0313e276580ff772db6e2baf62a01e0fe927c188803ae8eb37247958146546",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/14-kitchen-wall.png",
+      "sha256": "001393e5ad22f7297412087b239c9013bcaa0f1e3e262a2bbfab6852dbcf99d5",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/15-kitchen-open.png",
+      "sha256": "3adda3eb2ad326361adb9c93b48e34d710cfb60786828cb5b5861da344ff039a",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/16-kitchen-island.png",
+      "sha256": "fe85e455d9d10ef1acc0f4c03ee793a6c2e6225a64ca24accf2868ef0ecb12df",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    },
+    {
+      "path": "outputs/images/17-pantry-open.png",
+      "sha256": "fbc95412c18031638388ac9b21776b98f0202c81fb6bf9cc05048bb73b807382",
+      "resolution_px": [
+        1800,
+        1200
+      ],
+      "samples": 96,
+      "inspected": true
+    }
+  ],
+  "native_visual_status": "passed",
+  "photographic_status": "passed",
+  "photographic_review": {
+    "compared_to_native": true,
+    "refreshed_views": [
+      "photo-courtyard",
+      "photo-kitchen",
+      "photo-kitchen-wall",
+      "photo-kitchen-island",
+      "photo-pantry"
+    ],
+    "correction": "Pantry flooring restored to pale honed limestone after initial study introduced timber planks.",
+    "preserved_features": [
+      "Twelve-foot kitchen ceiling and four shades across two long-stem pendants",
+      "Cream closed equipment fronts and actual visible open microwave, paired waste bins, folding garage and pantry shelves",
+      "Existing courtyard massing, pool, glass guard and pale balcony soffit"
+    ],
+    "generative_limits": "Materials, small props, foliage and glass reflections are illustrative; native geometry and dimensions govern."
+  }
+}

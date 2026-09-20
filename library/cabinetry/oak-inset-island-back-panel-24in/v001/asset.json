@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/oak-inset-island-back-panel-24in",
+  "version": "v001",
+  "name": "Oak Inset Island Back Panel 24In",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.03500000014901161,
+    0.8800000662711733
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.017500000074505806,
+      -1.1434900137885506e-08
+    ],
+    "max": [
+      0.30480000376701355,
+      0.017500000074505806,
+      0.8800000548362732
+    ]
+  },
+  "blender": {
+    "collection": "oak-inset-island-back-panel-24in | v001",
+    "operating_collections": {
+      "open": "oak-inset-island-back-panel-24in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom-center at floor or mounting plane Z=0",
+    "front_direction": "-Y; width along X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch"
+  },
+  "installation": {
+    "mounting": "Bottom-center decorative island panel; host rear support required",
+    "nominal_carcass_dimensions_m": [
+      0.6096,
+      0.035,
+      0.88
+    ],
+    "countertop_top_m": null,
+    "operating_envelope": {
+      "closed_collection": "oak-inset-island-back-panel-24in | v001",
+      "open_collection": "oak-inset-island-back-panel-24in | open v001",
+      "motions": [],
+      "open_bounds_m": {
+        "min": [
+          -0.30480000376701355,
+          -0.017500000074505806,
+          -1.1434900137885506e-08
+        ],
+        "max": [
+          0.30480000376701355,
+          0.017500000074505806,
+          0.8800000548362732
+        ]
+      },
+      "reserve_operator_depth_m": 0.8,
+      "basis": "Original measured closed/open concept geometry, no manufacturer mechanism selected",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Host must check neighboring doors/drawers, approach, anchorage, support, moisture detailing and actual product selection."
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../../materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    }
+  ],
+  "derived_from": null,
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py",
+    "command": "blender -b --factory-startup --python tools/library/build_inset_kitchen_cabinets.py -- --asset oak-inset-island-back-panel-24in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors. No manufacturer CAD or selected product compliance claim.",
+  "files": {
+    "blender": "oak-inset-island-back-panel-24in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  }
+}

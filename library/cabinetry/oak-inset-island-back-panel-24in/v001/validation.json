@@ -1,0 +1,50 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.30480000376701355,
+        -0.017500000074505806,
+        -1.1434900137885506e-08
+      ],
+      "max": [
+        0.30480000376701355,
+        0.017500000074505806,
+        0.8800000548362732
+      ]
+    },
+    "open": {
+      "min": [
+        -0.30480000376701355,
+        -0.017500000074505806,
+        -1.1434900137885506e-08
+      ],
+      "max": [
+        0.30480000376701355,
+        0.017500000074505806,
+        0.8800000548362732
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": null,
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "30b79785f04a6ad9538571b45d4aadef8ea2831033f6b8c5cbcaa7f2845ca689",
+  "preview_sha256": "fe2aa6ac2711b613c26feb3a11131ae50ddb03fb6949fcb18f41531f292e08c4",
+  "open_preview_sha256": "8e2725bc6c1efe70a3d413b3550a71948be36f71191d8af0e0e7f9c9e32aaa4f"
+}

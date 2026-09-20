@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "materials/cream-veined-stone",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset cream-veined-stone"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "cream-veined-stone.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "name": "Cream veined stone | v001",
+  "blender": {
+    "material": "Cream veined stone | v001"
+  },
+  "dependencies": [],
+  "placement": "Material-only asset, world-coordinate physical-meter shader. Host owns geometry.",
+  "texture_scale": {
+    "base_color_linear_range": [
+      [
+        0.39,
+        0.31,
+        0.21
+      ],
+      [
+        0.81,
+        0.77,
+        0.65
+      ]
+    ],
+    "roughness": 0.27,
+    "physical_scale": "World-meter coordinates, noise-warped irregular narrow mineral boundaries with quiet cream body. Host owns stone slab joints, cutouts, thickness and edge returns. No claim of a specific natural stone species or product."
+  }
+}

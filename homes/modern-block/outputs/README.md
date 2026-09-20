@@ -4,11 +4,11 @@
 
 *Projecting cedar upper floor, sheltered stone arrival and private screened bath — AI photographic study.*
 
-A four-foot occupied upper projection shelters arrival beneath a continuous cedar soffit. Twelve-foot clear ground ceilings and ten-foot upper ceilings give the rooms generous proportions. A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
+A four-foot occupied upper projection shelters arrival beneath a continuous cedar soffit. Twelve-foot clear ground ceilings and ten-foot upper ceilings give the rooms generous proportions. A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a cream inset kitchen with two concealed dishwashers, a cream-and-brass range, integrated refrigeration and an oak prep island, primary bathing suite, generous storage and a two-car garage.
 
 **Concept areas:** approximately 5,838 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
-[Editable Blender model](../model/modern-block.blend) · [Classified concept IFC](../model/modern-block.ifc) · [Design intent](../design-intent.md) · [Program](../program.md) · [Review and limitations](../design-review.md) · [Assets](../assets/README.md)
+[Editable Blender model](../model/modern-block.blend) · [Classified concept IFC](../model/modern-block.ifc) · [Design intent](../design-intent.md) · [Program](../program.md) · [Review and limitations](../design-review.md) · [Assets](../assets/README.md) · [Kitchen component kit](../kitchen-components.md)
 
 ## Photographic tour
 
@@ -34,13 +34,37 @@ AI photographic studies derived from the native views below. [Prompts and proven
 
 *The same five screens closed, from the identical camera — AI photographic study.*
 
-![Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study](../outputs/images/photo-kitchen.png)
+![Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling — AI photographic study](../outputs/images/photo-kitchen.png)
 
-*Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling — AI photographic study.*
+*Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling — AI photographic study.*
 
-![Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling](../outputs/images/05-kitchen.png)
+![Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling](../outputs/images/05-kitchen.png)
 
-*Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling.*
+*Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling.*
+
+![Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration — AI photographic study](../outputs/images/photo-kitchen-wall.png)
+
+*Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration — AI photographic study.*
+
+![Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration](../outputs/images/14-kitchen-wall.png)
+
+*Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration.*
+
+![Oak island with microwave drawer and waste/recycling pullout open — AI photographic study](../outputs/images/photo-kitchen-island.png)
+
+*Oak island with microwave drawer and waste/recycling pullout open — AI photographic study.*
+
+![Oak island with microwave drawer and waste/recycling pullout open](../outputs/images/16-kitchen-island.png)
+
+*Oak island with microwave drawer and waste/recycling pullout open.*
+
+![Pantry appliance garage and enclosed food storage in their open states — AI photographic study](../outputs/images/photo-pantry.png)
+
+*Pantry appliance garage and enclosed food storage in their open states — AI photographic study.*
+
+![Pantry appliance garage and enclosed food storage in their open states](../outputs/images/17-pantry-open.png)
+
+*Pantry appliance garage and enclosed food storage in their open states.*
 
 ![Living room with limestone hearth, charcoal chimney face and oak seating — AI photographic study](../outputs/images/photo-living.png)
 
@@ -98,6 +122,10 @@ The following images are direct renders of the editable Blender model.
 
 *Pool steps, covered upper balcony and continuous courtyard glazing.*
 
+![The same kitchen wall with appliance doors open, showing real interior cavities](../outputs/images/15-kitchen-open.png)
+
+*The same kitchen wall with appliance doors open, showing real interior cavities.*
+
 ![Primary double vanity and separate dressing and enclosed toilet-room entries](../outputs/images/08-primary-bath.png)
 
 *Primary double vanity and separate dressing and enclosed toilet-room entries.*
@@ -122,6 +150,6 @@ The following images are direct renders of the editable Blender model.
 
 ## Reproduce and inspect
 
-[Authoring instructions](../../../tools/modern_block/AGENTS.md) document generation, reopening and review. Blender 4.5.14 LTS; Bonsai and IfcOpenShell 0.8.5. Fifty-two exact library versions are pinned. Native file, IFC and plans reopened successfully; see the [verification record](../design-review.md).
+[Authoring instructions](../../../tools/modern_block/AGENTS.md) document generation, reopening and review. Blender 4.5.14 LTS; Bonsai and IfcOpenShell 0.8.5. 72 exact library versions are pinned. Native file, IFC and plans reopened successfully; see the [verification record](../design-review.md).
 
 Engineering, surveyed site conditions, product selection, privacy/shading specifications, MEP sizing, pool safety and approvals remain unresolved. No permit or construction readiness is claimed.

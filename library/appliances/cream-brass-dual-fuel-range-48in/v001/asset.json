@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "appliances/cream-brass-dual-fuel-range-48in",
+  "version": "v001",
+  "name": "Cream and brass dual-fuel range, 48 inch",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192,
+    0.794,
+    0.9515
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096,
+      -0.443,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.351,
+      0.9515
+    ]
+  },
+  "nominal_case_m": {
+    "width": 1.2192,
+    "depth": 0.7,
+    "height": 0.9515
+  },
+  "blender": {
+    "collection": "cream-brass-dual-fuel-range-48in | v001",
+    "operating_collections": {
+      "open": "cream-brass-dual-fuel-range-48in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom/floor center XY at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and rotation only; no appliance or hardware scaling."
+  },
+  "features": {
+    "gas_burners": 6,
+    "electric_griddle": 1,
+    "independent_electric_oven_cavities": 2,
+    "preserved_ancestor_geometry": true
+  },
+  "operating_envelope": {
+    "modeled_state": "Closed by default; articulated native mechanisms tested in full-open or service state",
+    "mechanisms": [
+      {
+        "object": "Main electric oven door hinge - rotate X +90 degrees",
+        "kind": "rotation",
+        "axis": "X",
+        "open_value": 90,
+        "value_units": "degrees",
+        "origin_m": [
+          -0.2199999988079071,
+          -0.3610000014305115,
+          0.17499999701976776
+        ]
+      },
+      {
+        "object": "Companion electric oven door hinge - rotate X +90 degrees",
+        "kind": "rotation",
+        "axis": "X",
+        "open_value": 90,
+        "value_units": "degrees",
+        "origin_m": [
+          0.3700000047683716,
+          -0.3610000014305115,
+          0.17499999701976776
+        ]
+      }
+    ],
+    "open_bounds_m": {
+      "min": [
+        -0.6096,
+        -0.9115,
+        0.0
+      ],
+      "max": [
+        0.6096,
+        0.351,
+        0.9515
+      ]
+    },
+    "conservative_swept_bounds_m": {
+      "min": [
+        -0.6106,
+        -0.913201,
+        -0.001
+      ],
+      "max": [
+        0.6106,
+        0.352,
+        0.9525
+      ]
+    },
+    "sweep_basis": "All moving assemblies sampled in 55 intervals over their full travel; 1mm padding. Concept geometry, not manufacturer data. Add person and circulation space separately.",
+    "host_open_state_checked": false
+  },
+  "installation": {
+    "clear_opening_concept_m": [
+      1.232,
+      0.76,
+      0.96
+    ],
+    "rear_service_reserve_m": 0.06,
+    "front_person_space_m": 1.0,
+    "fuel": "Gas burners; two electric ovens and electric griddle",
+    "services": [
+      "Selected-product electrical/gas isolation, anti-tip restraint and heat clearances",
+      "Full-width ducted extraction and unresolved make-up-air needs"
+    ],
+    "host_integration_checked": false,
+    "concept_only": true
+  },
+  "derived_from": {
+    "id": "appliances/dual-fuel-range-48in",
+    "version": "v001",
+    "path": "../../dual-fuel-range-48in/v001/dual-fuel-range-48in.blend",
+    "method": "Append and recolor the actual published ancestor geometry, retaining full-size cavities, grates and hinges."
+  },
+  "dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_concealed_kitchen_appliances.py",
+    "command": "Blender --background --python tools/library/build_concealed_kitchen_appliances.py -- build --slug cream-brass-dual-fuel-range-48in"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry; preserve ancestor attribution. No third-party appliance CAD, trademark, commercial model or product certification.",
+  "files": {
+    "blender": "cream-brass-dual-fuel-range-48in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": [
+    "Original concept geometry; selected-product services and installation remain unresolved.",
+    "Native asset-only closed/open verification does not establish host circulation or installation approval."
+  ]
+}

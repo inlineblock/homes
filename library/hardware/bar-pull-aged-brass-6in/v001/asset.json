@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "hardware/bar-pull-aged-brass-6in",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset bar-pull-aged-brass-6in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "bar-pull-aged-brass-6in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "dependencies": [
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Host mounting-face center at XY0 Z0",
+    "front_direction": "-Y; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; keep exact dimensions and fixing centers."
+  },
+  "operating_envelope": {
+    "state": "Static concept geometry",
+    "basis": "Original concept, no commercial product selected",
+    "host_open_state_checked": false
+  },
+  "derived_from": {
+    "id": "hardware/bar-pull-satin-bronze",
+    "version": "v001",
+    "changes": "Preserves exact original shared geometry and mounting origin; substitutes linked aged-brass v001 finish."
+  },
+  "mounting": "Origin on host face, projection toward-Y. 152.4mm fixing centers, 163.068mm overall bar width,31.75mm projection. Original axisX; rotate localY90degrees for vertical.",
+  "clearances": {
+    "basis": "Concept hardware, reserve finger grip and full host door/drawer sweep. Host supplies exact drilling and concealed fasteners.",
+    "host_checked": false
+  },
+  "name": "bar-pull-aged-brass-6in | shared v001",
+  "dimensions_m": [
+    0.1630679965019226,
+    0.03175000124643551,
+    0.01066800020635128
+  ],
+  "bounds_m": {
+    "min": [
+      -0.0815339982509613,
+      -0.03175000101327896,
+      -0.00533400010317564
+    ],
+    "max": [
+      0.0815339982509613,
+      2.3315654962274834e-10,
+      0.00533400010317564
+    ]
+  },
+  "blender": {
+    "collection": "bar-pull-aged-brass-6in | shared v001"
+  }
+}

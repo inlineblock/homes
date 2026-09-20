@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/cream-inset-glazed-upper-36in",
+  "version": "v001",
+  "name": "Cream Inset Glazed Upper 36In",
+  "units": "meters",
+  "dimensions_m": [
+    0.9143999814987183,
+    0.3815400004386902,
+    0.7599999904632568
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.20374000072479248,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.1777999997138977,
+      0.7599999904632568
+    ]
+  },
+  "blender": {
+    "collection": "cream-inset-glazed-upper-36in | v001",
+    "operating_collections": {
+      "open": "cream-inset-glazed-upper-36in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom-center at floor or mounting plane Z=0",
+    "front_direction": "-Y; width along X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch"
+  },
+  "installation": {
+    "mounting": "Bottom-center wall-mount origin; host fixing/backing required",
+    "nominal_carcass_dimensions_m": [
+      0.9144,
+      0.3556,
+      0.76
+    ],
+    "countertop_top_m": null,
+    "operating_envelope": {
+      "closed_collection": "cream-inset-glazed-upper-36in | v001",
+      "open_collection": "cream-inset-glazed-upper-36in | open v001",
+      "motions": [
+        {
+          "object": "Left door hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": -1.7453292519943295,
+          "hinge_or_origin_m": [
+            -0.44269999861717224,
+            -0.18780000507831573,
+            0.03400000184774399
+          ]
+        },
+        {
+          "object": "Right door hinge",
+          "kind": "hinge",
+          "axis": "Z rotation",
+          "open_amount": 1.7453292519943295,
+          "hinge_or_origin_m": [
+            0.44269999861717224,
+            -0.18780000507831573,
+            0.03400000184774399
+          ]
+        }
+      ],
+      "open_bounds_m": {
+        "min": [
+          -0.5296105742454529,
+          -0.6275004744529724,
+          0.0
+        ],
+        "max": [
+          0.5296105742454529,
+          0.1777999997138977,
+          0.7599999904632568
+        ]
+      },
+      "reserve_operator_depth_m": 0.8,
+      "basis": "Original measured closed/open concept geometry, no manufacturer mechanism selected",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Host must check neighboring doors/drawers, approach, anchorage, support, moisture detailing and actual product selection."
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "hardware/round-knob-aged-brass-1p125in",
+      "version": "v001",
+      "path": "../../../hardware/round-knob-aged-brass-1p125in/v001/round-knob-aged-brass-1p125in.blend"
+    }
+  ],
+  "derived_from": null,
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py",
+    "command": "blender -b --factory-startup --python tools/library/build_inset_kitchen_cabinets.py -- --asset cream-inset-glazed-upper-36in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors. No manufacturer CAD or selected product compliance claim.",
+  "files": {
+    "blender": "cream-inset-glazed-upper-36in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  }
+}

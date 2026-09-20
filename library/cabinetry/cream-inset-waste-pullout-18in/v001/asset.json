@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/cream-inset-waste-pullout-18in",
+  "version": "v001",
+  "name": "Cream Inset Waste Pullout 18In",
+  "units": "meters",
+  "dimensions_m": [
+    0.4572000205516815,
+    0.6393499970436096,
+    0.8799999952316284
+  ],
+  "bounds_m": {
+    "min": [
+      -0.22860001027584076,
+      -0.33454999327659607,
+      0.0
+    ],
+    "max": [
+      0.22860001027584076,
+      0.30480000376701355,
+      0.8799999952316284
+    ]
+  },
+  "blender": {
+    "collection": "cream-inset-waste-pullout-18in | v001",
+    "operating_collections": {
+      "open": "cream-inset-waste-pullout-18in | open v001"
+    }
+  },
+  "placement": {
+    "origin": "Bottom-center at floor or mounting plane Z=0",
+    "front_direction": "-Y; width along X; Z up",
+    "allowed_scaling": "Rigid placement and Z rotation only; do not stretch"
+  },
+  "installation": {
+    "mounting": "Floor supported; host countertop excluded",
+    "nominal_carcass_dimensions_m": [
+      0.4572,
+      0.6096,
+      0.88
+    ],
+    "countertop_top_m": 0.9,
+    "operating_envelope": {
+      "closed_collection": "cream-inset-waste-pullout-18in | v001",
+      "open_collection": "cream-inset-waste-pullout-18in | open v001",
+      "motions": [
+        {
+          "object": "Waste carriage motion",
+          "kind": "slide",
+          "axis": "Y translation",
+          "open_amount": -0.52,
+          "hinge_or_origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "open_bounds_m": {
+        "min": [
+          -0.22860001027584076,
+          -0.8545500040054321,
+          0.0
+        ],
+        "max": [
+          0.22860001027584076,
+          0.30480000376701355,
+          0.8799999952316284
+        ]
+      },
+      "reserve_operator_depth_m": 0.8,
+      "basis": "Original measured closed/open concept geometry, no manufacturer mechanism selected",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Host must check neighboring doors/drawers, approach, anchorage, support, moisture detailing and actual product selection."
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    },
+    {
+      "id": "hardware/bar-pull-aged-brass-6in",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-aged-brass-6in/v001/bar-pull-aged-brass-6in.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-waste-pullout-18in",
+    "version": "v001",
+    "basis": "Original rebuilt dimensional/functional sibling: retained parent interface intent, added true face frames, inset beaded panels, articulated fronts and linked finish/hardware; not a private copy of parent meshes"
+  },
+  "source": {
+    "kind": "original-variation",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py",
+    "command": "blender -b --factory-startup --python tools/library/build_inset_kitchen_cabinets.py -- --asset cream-inset-waste-pullout-18in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors. No manufacturer CAD or selected product compliance claim.",
+  "files": {
+    "blender": "cream-inset-waste-pullout-18in.blend",
+    "preview": "preview.png",
+    "open_preview": "preview-open.png",
+    "validation": "validation.json"
+  }
+}

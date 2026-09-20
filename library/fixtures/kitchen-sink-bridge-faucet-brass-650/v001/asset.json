@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "fixtures/kitchen-sink-bridge-faucet-brass-650",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset kitchen-sink-bridge-faucet-brass-650"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "kitchen-sink-bridge-faucet-brass-650.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "dependencies": [
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Countertop planeZ0, bowl-centerXY0; front-Y, bridgefaucet at rear+Y",
+    "front_direction": "-Y; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; keep exact dimensions and fixing centers."
+  },
+  "operating_envelope": {
+    "state": "Static concept geometry",
+    "basis": "Original concept, no commercial product selected",
+    "host_open_state_checked": false
+  },
+  "derived_from": {
+    "id": "fixtures/kitchen-sink-mixer-650",
+    "version": "v002",
+    "changes": "Original source bowl and flange geometry appended unchanged; replaces mixer and lever with original brass bridge supply legs, crossbar, valve controls and slender curved gooseneck."
+  },
+  "installation": {
+    "countertop_cutout_m": [
+      0.664,
+      0.464
+    ],
+    "measured_outer_bowl_m": [
+      0.654,
+      0.454,
+      0.218
+    ],
+    "below_counter_bowl_depth_m": 0.218,
+    "faucet_hole_centers_m": [
+      [
+        -0.1,
+        0.285
+      ],
+      [
+        0.1,
+        0.285
+      ]
+    ],
+    "concept_faucet_hole_diameter_m": 0.025,
+    "mounting": "Support flange continuously; 664\u00d7464mm bowl opening with separately coordinated rear faucet bores. Exact product and fixing design unresolved.",
+    "service_requirements": [
+      "Drain/trap and hot/cold routes below bowl.",
+      "Removable front access for service; clear rear valve/hand space."
+    ],
+    "operating_envelope": {
+      "basis": "Original concept geometry",
+      "reserve_front_standing_depth_m": 0.8,
+      "host_open_state_checked": false,
+      "modeled_state": "Open bowl, fixed shown faucet position"
+    }
+  },
+  "name": "kitchen-sink-bridge-faucet-brass-650 | shared v001",
+  "dimensions_m": [
+    0.7150000333786011,
+    0.5685127079486847,
+    0.6702025085687637
+  ],
+  "bounds_m": {
+    "min": [
+      -0.35750001668930054,
+      -0.2549999952316284,
+      -0.21800000965595245
+    ],
+    "max": [
+      0.35750001668930054,
+      0.3135127127170563,
+      0.4522024989128113
+    ]
+  },
+  "blender": {
+    "collection": "kitchen-sink-bridge-faucet-brass-650 | shared v001"
+  }
+}

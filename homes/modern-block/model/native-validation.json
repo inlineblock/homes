@@ -20,7 +20,7 @@
     "upper_clear_height": 3.047999858856201
   },
   "blender": "4.5.14 LTS",
-  "relative_libraries": 52,
+  "relative_libraries": 72,
   "measured_floor_areas_m2": {
     "Main occupied slab": 240.0,
     "Guest occupied slab": 96.0,
@@ -30,7 +30,7 @@
   "conditioned_gross_m2": 542.36,
   "bed_instances": 4,
   "wardrobe_bays": 18,
-  "shelf_modules": 8,
+  "shelf_modules": 4,
   "stair_risers": 24,
   "stair_treads": 22,
   "treads_per_flight": [

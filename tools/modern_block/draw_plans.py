@@ -12,6 +12,7 @@ from matplotlib.patches import Rectangle, Polygon, Circle, Arc, FancyArrowPatch
 from matplotlib.transforms import Affine2D
 from design import *
 import design as design_source
+import kitchen_layout as kitchen_source
 ROOT=Path(__file__).resolve().parents[2]
 HOME=ROOT/'homes/modern-block'
 INK='#343a36'; MUTED='#6d746b'; PAPER='#fbfaf6'; STONE='#e5dfd1'; WOOD='#c4a98b'; LINE='#7f776b'
@@ -27,7 +28,7 @@ def dim(ax,a,b,label,offset=.8):
         x=a[0]+offset;ax.plot([a[0],x],[a[1],a[1]],color=MUTED,lw=.45);ax.plot([b[0],x],[b[1],b[1]],color=MUTED,lw=.45)
         ax.annotate('',(x,a[1]),(x,b[1]),arrowprops=dict(arrowstyle='|-|',color=MUTED,lw=.65));ax.text(x+.16,(a[1]+b[1])/2,label,rotation=90,ha='left',va='center',fontsize=8,color=INK)
 
-def segment_wall(ax,a,b,openings=(),width=.15,glazed=False):
+def segment_wall(ax,a,b,openings=(),width=.15,glazed=False,door_handings=None):
     dx=b[0]-a[0];dy=b[1]-a[1];length=math.hypot(dx,dy);ux=dx/length;uy=dy/length
     cursor=0
     normalized=[(o[0],o[1],o[2] if len(o)>2 else ('window' if glazed else 'door')) for o in openings]
@@ -42,6 +43,17 @@ def segment_wall(ax,a,b,openings=(),width=.15,glazed=False):
                 pass
             elif kind=='garage':
                 ax.plot([p[0],q[0]],[p[1],q[1]],color=WOOD,lw=3,zorder=6)
+            elif door_handings and off in door_handings:
+                # Coordinated service leaves match the native inset end hinges.
+                normal_sign=door_handings[off];leaf=w-.05
+                hinge=(p[0]+ux*leaf,p[1]+uy*leaf)
+                nx,ny=-uy*normal_sign,ux*normal_sign
+                end=(hinge[0]+nx*leaf,hinge[1]+ny*leaf)
+                ax.plot([hinge[0],end[0]],[hinge[1],end[1]],color=LINE,lw=.7,zorder=6)
+                closed=math.degrees(math.atan2(-uy,-ux))%360
+                opened=math.degrees(math.atan2(ny,nx))%360
+                swept=closed+(opened-closed+180)%360-180
+                ax.add_patch(Arc(hinge,leaf*2,leaf*2,theta1=min(closed,swept),theta2=max(closed,swept),color=LINE,lw=.45,ls='--',zorder=6))
             else:
                 # Concept door leaf and swing at measured opening; handing is illustrative.
                 end=(p[0]-uy*w,p[1]+ux*w)
@@ -98,7 +110,8 @@ def furniture(ax,record):
         record['rotation']=record.get('rotation_rad',0)
         record['kind']=record.get('asset_id',record.get('name','furniture'))
     if 'polygon' in record:
-        ax.add_patch(Polygon(record['polygon'],closed=True,fc=record.get('color',WOOD),ec=LINE,lw=.55,zorder=3));return
+        zorder=1.5 if record.get('kind')=='counter' else 3
+        ax.add_patch(Polygon(record['polygon'],closed=True,fc=record.get('color',WOOD),ec=LINE,lw=.55,zorder=zorder));return
     x=record.get('x',0);y=record.get('y',0);w=record.get('width',record.get('w',1));d=record.get('depth',record.get('d',1));angle=record.get('rotation_deg',math.degrees(record.get('rotation',0)))
     kind=record.get('kind','furniture').lower();trans=Affine2D().rotate_deg_around(x,y,angle)+ax.transData
     color='#f3f0e8' if any(k in kind for k in ['bed','sofa','chair','bath','toilet','sink','shower','tub','basin']) else WOOD
@@ -112,7 +125,7 @@ def furniture(ax,record):
         ax.add_patch(Rectangle((x-w*.36,y-d*.32),w*.72,d*.64,facecolor='#fff',edgecolor=LINE,lw=.4,transform=trans,zorder=4))
     if 'shower' in kind:
         ax.plot([x-w*.4,x+w*.4],[y-d*.4,y+d*.4],color=LINE,lw=.5,transform=trans,zorder=4)
-    if 'cook' in kind:
+    if 'cook' in kind or 'range' in kind:
         for px in [-w*.25,w*.25]:
             for py in [-d*.23,d*.23]:ax.add_patch(Circle((x+px,y+py),min(w,d)*.14,fc='none',ec=LINE,lw=.5,transform=trans,zorder=4))
     tag=record.get('tag')
@@ -167,9 +180,17 @@ def draw(level,out,layout,openings):
             hinge=(a[0]+ux*.05,a[1]+uy*.05);dv=(ux*math.cos(.22)-uy*math.sin(.22),uy*math.cos(.22)+ux*math.sin(.22))
             end=(hinge[0]+dv[0]*(length-.1),hinge[1]+dv[1]*(length-.1))
             ax.plot([hinge[0],end[0]],[hinge[1],end[1]],color=WOOD,lw=1.3,zorder=6)
-    for name,a,b,ops in PARTITIONS[level]:segment_wall(ax,a,b,ops)
+    for name,a,b,ops in PARTITIONS[level]:
+        handings=({3.15:-1} if name=='Service west' else {.8:1} if name=='Service hall south' else None) if level=='ground' else None
+        segment_wall(ax,a,b,ops,door_handings=handings)
     if level=='ground':
-        footprint(ax,(10.33,19.06,14.13,19.78),'#e8e3d8');footprint(ax,(12.4,14,13.85,18.1),'#e8e3d8')
+        sx,sy=kitchen_source.SINK
+        # Same four stone regions around the actual sink aperture as the host.
+        for r in [(10.23,19.075,sx-.332,19.82),(sx+.332,19.075,12.558,19.82),
+                  (sx-.332,19.075,sx+.332,sy-.232),(sx-.332,sy+.232,sx+.332,19.82),
+                  (13.802,19.075,14.437,19.82),kitchen_source.ISLAND,
+                  (16.2652,15.14,17.5244,15.84)]:
+            footprint(ax,r,'#e8e3d8')
     for record in layout:
         if record.get('level')==level:furniture(ax,record)
     if level=='upper':
@@ -222,6 +243,8 @@ def draw(level,out,layout,openings):
     fig.text(.975,.043,'METERS IN MODEL  /  FEET + INCHES SHOWN',ha='right',fontsize=8,color=MUTED)
     out.mkdir(parents=True,exist_ok=True)
     for suffix in ['png','svg','pdf']:fig.savefig(out/f'{level}-floor.{suffix}',dpi=180,facecolor=PAPER,metadata={'Title':f'Modern Block {level} concept plan'} if suffix=='pdf' else None)
+    svg=out/f'{level}-floor.svg'
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     plt.close(fig)
 
 if __name__=='__main__':

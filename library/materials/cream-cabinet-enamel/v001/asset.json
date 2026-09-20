@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "materials/cream-cabinet-enamel",
+  "version": "v001",
+  "name": "Warm cream satin cabinet enamel",
+  "units": "meters",
+  "blender": {
+    "material": "Cream cabinet enamel | v001"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_inset_kitchen_cabinets.py"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original procedural material; attribution Homes project contributors. Not a commercial coating specification.",
+  "dependencies": [],
+  "files": {
+    "blender": "cream-cabinet-enamel.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "texture_scale": {
+    "coordinates": "Object coordinates in meters",
+    "microtexture_scale_per_m": 1100,
+    "bump_distance_m": 4e-05
+  },
+  "placement": "Material only; smooth enamel for cabinet frames and recessed panels, not a plaster surface."
+}

@@ -1,0 +1,61 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.6096000075340271,
+        -0.3509400188922882,
+        0.0
+      ],
+      "max": [
+        0.6096000075340271,
+        0.32500001788139343,
+        1.2000000476837158
+      ]
+    },
+    "open": {
+      "min": [
+        -0.6257631182670593,
+        -0.670108437538147,
+        0.0
+      ],
+      "max": [
+        0.6257631182670593,
+        0.32500001788139343,
+        1.2000000476837158
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": null,
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "e57af202340662ecde9344ac17909d34de883cb4a4308ff671ba18bec3cd40c0",
+  "preview_sha256": "759e4ddbe7e059b5a2537a15d3e6e9d5dd958223525a7ea5fc792a58d038bc61",
+  "open_preview_sha256": "bd89f4e86ec99db7beacaa39be38e4337a594f7a6325e0726c0855de160cf12f",
+  "analytic_motion_review": {
+    "checked": true,
+    "basis": "Leaf/frame plan rectangles checked through the recorded staged100degree outer/165degree inner motion",
+    "required_sequence": [
+      "Open both outer hinges from0to100degrees while each folding hinge stays0",
+      "Then fold inner leaves from0to165degrees; reverse this sequence to close",
+      "Do not drive all four hinge angles proportionally at once: opposite inner leaves can meet during motion"
+    ],
+    "simultaneous_proportional_motion_approved": false,
+    "limitations": "Original staged concept mechanism; no manufacturer hinge specification or load rating."
+  }
+}

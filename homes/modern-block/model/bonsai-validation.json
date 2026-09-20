@@ -3,6 +3,6 @@
   "schema": "IFC4",
   "imported_mesh_objects": 1899,
   "project": "Modern Block | Concept",
-  "ifc_sha256": "021ea76f6aae9c2de26e3629b2689b9d84cd49ea4b0e9f855a4b52fcf9d4b55e",
+  "ifc_sha256": "8411b0f5f796c489de44ac806ad4e5b4327194c6d00a25045fc3edb859734560",
   "runtime": "Isolated temporary extraction of the installed Bonsai 0.8.5 bundled wheels; saved preferences unchanged."
 }

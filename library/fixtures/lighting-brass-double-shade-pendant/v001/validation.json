@@ -1,0 +1,36 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 17,
+  "actual_bounds_m": {
+    "min": [
+      -0.6200000047683716,
+      -0.2199999988079071,
+      -1.350000023841858
+    ],
+    "max": [
+      0.6200000047683716,
+      0.2199999988079071,
+      0.0
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "dimension_check_scope": "Measured collection bounds compared against manifest",
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Revised native preview shows a true longer solid central suspension stem, with unchanged two-arm bar, open tapered fabric shades, sockets and ceiling canopy. Actual bounds verify1.35m total drop; no scaled hardware or shades.",
+    "host_adoption_status": "Parent must rebuild the host using this final initial-publication file and inspect the installed counter clearance."
+  }
+}

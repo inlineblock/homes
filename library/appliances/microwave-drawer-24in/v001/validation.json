@@ -1,0 +1,60 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "microwave-drawer-24in | v001",
+  "closed_bounds_m": {
+    "min": [
+      -0.3048,
+      -0.383,
+      0.0
+    ],
+    "max": [
+      0.3048,
+      0.3,
+      0.4
+    ]
+  },
+  "open_bounds_m": {
+    "min": [
+      -0.3048,
+      -0.763,
+      0.0
+    ],
+    "max": [
+      0.3048,
+      0.3,
+      0.4
+    ]
+  },
+  "object_count": 28,
+  "relative_dependencies_resolved": [
+    {
+      "saved_relative_path": "//../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "resolved_repository_path": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend"
+    }
+  ],
+  "all_saved_library_paths_relative": true,
+  "rigid_hardware_scale_verified": true,
+  "explicit_open_collection_verified": true,
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed",
+    "reviewed_images": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Closed face shows stainless trim and black control/glass surfaces.",
+      "The 0.38m translated drawer exposes an open-topped cavity with sides and bottom; hardware and housing remain aligned."
+    ]
+  },
+  "rendered_states": [
+    "closed",
+    "open/service"
+  ],
+  "preview_sha256": {
+    "preview.png": "4f2d9fd178bcce5e00e288853099d8e715a5b9e8269296fc3b50b313d82f34b8",
+    "preview-open.png": "dbb79c46b5fbd3dac7254200d3604819305aba3d81ac6ab220baa5f73f68c0a6"
+  },
+  "native_sha256": "f28d2fb45e2b1170b53a15bcf7b0d5659cb03953f084fb0fc8964bfcac4e3a00"
+}

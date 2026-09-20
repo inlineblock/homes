@@ -41,7 +41,27 @@
     },
     {
       "path": "outputs/images/05-kitchen.png",
-      "caption": "Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling",
+      "caption": "Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/14-kitchen-wall.png",
+      "caption": "Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/15-kitchen-open.png",
+      "caption": "The same kitchen wall with appliance doors open, showing real interior cavities",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/16-kitchen-island.png",
+      "caption": "Oak island with microwave drawer and waste/recycling pullout open",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/17-pantry-open.png",
+      "caption": "Pantry appliance garage and enclosed food storage in their open states",
       "view": "interior"
     },
     {
@@ -87,6 +107,16 @@
     }
   ],
   "signature_features": [
+    {
+      "id": "concealed-kitchen",
+      "label": "Concealed equipment, shared inset joinery and operating states",
+      "renders": [
+        "outputs/images/14-kitchen-wall.png",
+        "outputs/images/15-kitchen-open.png",
+        "outputs/images/16-kitchen-island.png",
+        "outputs/images/17-pantry-open.png"
+      ]
+    },
     {
       "id": "arrival-and-privacy",
       "label": "Sheltered entry, screened bath and functional east stone pier",
@@ -152,8 +182,8 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/02-courtyard-pool.png",
-      "source_sha256": "3389ca3a65416b4d5c0fd7f22b4c3696c0f40740405055b665b9af79cdb2dd62",
-      "image_sha256": "54c5f0d1b31e61fa394936f26ef7e153a509e931cbd30640e8e1d74c92b93a32",
+      "source_sha256": "2e0fee5de33ff0560a8d099ce44bd1cbea7c008f863ed0fd513ce0f7a2c7a497",
+      "image_sha256": "a59efd768e481d41ed1c0b01d70c9098a8979c205f26c0c83c3c8247f1200760",
       "provenance": "outputs/photo-study.md",
       "caption": "Courtyard pool, sheltered seating and supported glass-guarded balcony \u2014 AI photographic study"
     },
@@ -194,10 +224,40 @@
       "kind": "ai-photographic-study",
       "tool": "Imagegen (built-in)",
       "source_render": "outputs/images/05-kitchen.png",
-      "source_sha256": "8abb4ac534d4d2c9f0a1efc6a4cff8d5ec5db59af38b9ddc757662ff60ac8bcd",
-      "image_sha256": "db3c6a77d05e6bb197777cdf275e57ea1d6d6d0fc9bad97f40d3d91ceb97e2b5",
+      "source_sha256": "ae0313e276580ff772db6e2baf62a01e0fe927c188803ae8eb37247958146546",
+      "image_sha256": "456c6e991caff58f1fc1cbb8eaab7b392674e14f6b3d5c89a8318011630e1267",
       "provenance": "outputs/photo-study.md",
-      "caption": "Oak kitchen, wide refrigeration, island seating and slatted rooflight ceiling \u2014 AI photographic study"
+      "caption": "Cream inset kitchen, oak prep island, shaded brass lighting and twelve-foot slatted ceiling \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-kitchen-wall.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/14-kitchen-wall.png",
+      "source_sha256": "001393e5ad22f7297412087b239c9013bcaa0f1e3e262a2bbfab6852dbcf99d5",
+      "image_sha256": "82cfea0ec1103ee608475100bfda71c51335a8119ce102012b765966508d1722",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Concealed cleanup and cooking wall: two paneled dishwashers, bridge sink, range and refrigeration \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-kitchen-island.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/16-kitchen-island.png",
+      "source_sha256": "fe85e455d9d10ef1acc0f4c03ee793a6c2e6225a64ca24accf2868ef0ecb12df",
+      "image_sha256": "e0de603c3374e15a0c1270a7d14350234041612220ab9104b650b6444364b47e",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Oak island with microwave drawer and waste/recycling pullout open \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-pantry.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/17-pantry-open.png",
+      "source_sha256": "fbc95412c18031638388ac9b21776b98f0202c81fb6bf9cc05048bb73b807382",
+      "image_sha256": "bef1de0e3bc2bd229e3e66631d9f02f5c29ea6153e19587ed322417521c7fae2",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Pantry appliance garage and enclosed food storage in their open states \u2014 AI photographic study"
     },
     {
       "path": "outputs/images/photo-living.png",

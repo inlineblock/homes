@@ -1,0 +1,36 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 1,
+  "actual_bounds_m": {
+    "min": [
+      -0.8999999761581421,
+      -0.6000000238418579,
+      0.0
+    ],
+    "max": [
+      0.8999999761581421,
+      0.6000000238418579,
+      0.05999999865889549
+    ]
+  },
+  "dimensions_match_manifest": null,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Final preview shows a quiet cream body and fine irregular warm mineral veins without repeated parallel bands. Initial unapproved patterns were refined before adoption.",
+    "host_adoption_status": "Separate host installation and view review required."
+  },
+  "dimension_check_scope": "Not applicable: material-only asset; rendered swatch dimensions are illustrative and are not a product-size contract"
+}

@@ -1,0 +1,62 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.33000001311302185,
+        -0.33454999327659607,
+        0.0
+      ],
+      "max": [
+        0.33000001311302185,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    },
+    "open": {
+      "min": [
+        -0.33000001311302185,
+        -0.81454998254776,
+        0.0
+      ],
+      "max": [
+        0.33000001311302185,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": {
+    "checked": true,
+    "id": "appliances/microwave-drawer-24in",
+    "version": "v001",
+    "origin_m": [
+      0,
+      0,
+      0.447
+    ],
+    "fixture_meshes_checked": 27,
+    "positive_mesh_aabb_intersections": [],
+    "basis": "Actual native rigid component mesh bounds against closed cabinet meshes; countertop, service routes and home installation are separate checks"
+  },
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "417511d54ac8393bb40bbece94eae019fc21919afc59222d37988867aebb9802",
+  "preview_sha256": "0069a8572db65ac9d0b760bec2ed5da95e5d0830a64d43db537e795225b84014",
+  "open_preview_sha256": "37907adf577a797a33e86e014c8ee547964d35c63e910182fdbf398b2703477d"
+}

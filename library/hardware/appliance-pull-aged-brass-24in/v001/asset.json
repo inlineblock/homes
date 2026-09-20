@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "hardware/appliance-pull-aged-brass-24in",
+  "version": "v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributor geometry and procedural appearance; attribution Homes project contributors.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/build_brass_kitchen_details.py",
+    "command": "blender -b --factory-startup --python tools/library/build_brass_kitchen_details.py -- --asset appliance-pull-aged-brass-24in"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "appliance-pull-aged-brass-24in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "limitations": "Original concept appearance and geometry, not a commercial product, certified electrical/plumbing assembly, code approval or construction specification.",
+  "dependencies": [
+    {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../../materials/aged-brass/v001/aged-brass.blend"
+    }
+  ],
+  "placement": {
+    "origin": "Host mounting-face center at XY0 Z0",
+    "front_direction": "-Y; Z up",
+    "allowed_scaling": "Rigid placement and rotation only; keep exact dimensions and fixing centers."
+  },
+  "operating_envelope": {
+    "state": "Static concept geometry",
+    "basis": "Original concept, no commercial product selected",
+    "host_open_state_checked": false
+  },
+  "mounting": "Origin on host face, bar axisX, front-Y. 609.6mm fixing centers,647.7mm overall bar width,50.8mm projection,19.05mm grip diameter. Rotate localY90degrees for vertical. Host supplies through-bolts, door reinforcement and exact appliance clearance.",
+  "clearances": {
+    "basis": "Dedicated original appliance-scale pull. Do not enlarge cabinet hardware or scale this assembly. Host must check all appliance door swings and hand clearances.",
+    "host_checked": false
+  },
+  "name": "appliance-pull-aged-brass-24in | shared v001",
+  "dimensions_m": [
+    0.6477000117301941,
+    0.05080001854545291,
+    0.024383999407291412
+  ],
+  "bounds_m": {
+    "min": [
+      -0.32385000586509705,
+      -0.05080001801252365,
+      -0.012191999703645706
+    ],
+    "max": [
+      0.32385000586509705,
+      5.329292562805676e-10,
+      0.012191999703645706
+    ]
+  },
+  "blender": {
+    "collection": "appliance-pull-aged-brass-24in | shared v001"
+  }
+}

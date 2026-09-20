@@ -127,42 +127,14 @@ def build_interiors(root, M):
     for yy in [8.0,8.61]:wardrobe('Foyer coats',18.35,yy,d.GROUND,-PI/2)
 
     g.collection('Interior | kitchen and service')
-    # North wall run. Full-size appliance bays interrupt cabinetry.
-    for x in [10.65,11.26,13.19,13.80]:base('Kitchen north drawer',x,19.43)
-    asset('appliances','built-in-oven-30in','Kitchen built-in oven',(12.22,19.43,d.GROUND+.11))
-    for x in [11.78,12.66]:box('Kitchen oven bay side',(x,19.43,d.GROUND+.455),(.045,.65,.87),oak)
-    counter_hole('Kitchen rear stone top',10.33,14.13,19.06,19.78,11.78,12.66,19.175,19.685)
-    asset('appliances','induction-cooktop-36in','Kitchen induction cooktop',(12.22,19.43,d.GROUND+.934))
-    asset('appliances','wall-hood-36in','Kitchen wall hood',(12.22,19.55,d.GROUND+1.68))
-    hood_duct_bottom = d.GROUND + 2.34
-    hood_duct_top = ground_roof + .35
-    box('Kitchen hood exhaust to roof',(12.22,19.7,(hood_duct_bottom+hood_duct_top)/2),(.29,.26,hood_duct_top-hood_duct_bottom),dark)
-    asset('appliances','panel-ready-fridge-48in','Kitchen wide refrigeration',(15.08,19.31,d.GROUND+.02))
-    # Project-specific refrigerator niche, no solid obstruction in the appliance volume.
-    for xx in [14.4,15.76]:box('Kitchen refrigerator niche cheek',(xx,19.4,d.GROUND+1.32),(.055,.83,2.64),oak)
-    box('Kitchen refrigerator overhead',(15.08,19.4,d.GROUND+2.43),(1.30,.83,.42),oak,.01)
-    # True under-mount sink hole in the long island; sink working face is east.
-    counter_hole('Kitchen island top',12.4,13.85,14.0,18.10,12.955,13.445,16.665,17.335)
-    fixture('kitchen-sink-mixer-650','Kitchen island sink',(13.2,17.0,d.GROUND+.934),PI/2)
-    asset('appliances','dishwasher-24in','Kitchen integrated dishwasher',(13.48,16.08,d.GROUND+.02),PI/2)
-    for yy in [14.36,14.97,17.76]:base('Kitchen island drawer',13.48,yy,d.GROUND,PI/2)
-    # Closed sink cabinet front belongs to this bespoke island; interior recess remains empty.
-    box('Kitchen sink false apron',(13.81,17.0,d.GROUND+.50),(.035,.74,.73),oak,.008)
-    for yy in [16.62,17.37]:box('Kitchen sink cabinet cheek',(13.44,yy,d.GROUND+.445),(.70,.04,.87),oak)
-    box('Kitchen island continuous back',(12.80,16.05,d.GROUND+.44),(.045,4.02,.85),oak)
-    for yy in [14.035,18.065]:box('Kitchen stone waterfall',(13.125,yy,d.GROUND+.47),(1.45,.07,.92),stone,.012)
-    for yy in [14.5,15.5,16.5,17.5]:furniture('coastal-oak-counter-stool','Kitchen oak stool',(12.05,yy,d.GROUND+.02),PI/2)
-    # Linked task-light bars are mounted beneath the shelf rather than buried in it.
-    box('Kitchen floating display shelf',(11.05,19.65,d.GROUND+1.59),(1.48,.29,.05),oak,.01)
-    fixture('lighting-undercabinet-bar-4ft','Kitchen task bar',(11.05,19.49,d.GROUND+1.555))
-    area('Kitchen task light',(11.05,19.45,d.GROUND+1.54),(11.05,19.42,d.GROUND+.93),45,1.1)
-    for x in [16.48,17.09,17.70]:shelving('Pantry storage',x,15.52)
+    from kitchen import build_kitchen
+    build_kitchen(root, asset, box, area, plan)
     for yy in [14.13,14.8]:asset('appliances','front-loading-laundry-600','Laundry washer' if yy<14.5 else 'Laundry dryer',(21.48,yy,d.GROUND+.02),-PI/2)
     box('Laundry work surface',(21.45,14.465,d.GROUND+.92),(.76,1.41,.05),stone,.012)
     shelving('Laundry tall linen',19.45,15.48)
     vanity('Ground powder vanity',16.95,19.52)
     fixture('toilet-elongated','Ground powder WC',(18.3,19.4,d.GROUND+.02))
-    for yy in [13.72,14.33]:shelving('Pantry side shelf',18.5,yy,d.GROUND,-PI/2)
+    for yy in [13.55]:shelving('Pantry side shelf',18.5,yy,d.GROUND,-PI/2)
 
     g.collection('Interior | upper bedrooms')
     bed('Primary king bed','king',(13.45,2.05+primary_front_shift,d.UPPER+.02))

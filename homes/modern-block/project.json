@@ -38,9 +38,24 @@
   },
   "asset_dependencies": [
     {
+      "id": "materials/aged-brass",
+      "version": "v001",
+      "path": "../../library/materials/aged-brass/v001/"
+    },
+    {
       "id": "openings/angled-cedar-privacy-screen-2000x2800",
       "version": "v001",
       "path": "../../library/openings/angled-cedar-privacy-screen-2000x2800/v001/"
+    },
+    {
+      "id": "hardware/appliance-pull-aged-brass-24in",
+      "version": "v001",
+      "path": "../../library/hardware/appliance-pull-aged-brass-24in/v001/"
+    },
+    {
+      "id": "hardware/bar-pull-aged-brass-6in",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-aged-brass-6in/v001/"
     },
     {
       "id": "hardware/bar-pull-matte-black",
@@ -103,9 +118,59 @@
       "path": "../../library/fixtures/courtyard-pool-4x8m/v001/"
     },
     {
-      "id": "appliances/dishwasher-24in",
+      "id": "appliances/cream-brass-dual-fuel-range-48in",
       "version": "v001",
-      "path": "../../library/appliances/dishwasher-24in/v001/"
+      "path": "../../library/appliances/cream-brass-dual-fuel-range-48in/v001/"
+    },
+    {
+      "id": "materials/cream-cabinet-enamel",
+      "version": "v001",
+      "path": "../../library/materials/cream-cabinet-enamel/v001/"
+    },
+    {
+      "id": "cabinetry/cream-inset-appliance-garage-48in",
+      "version": "v001",
+      "path": "../../library/cabinetry/cream-inset-appliance-garage-48in/v001/"
+    },
+    {
+      "id": "appliances/cream-inset-dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/cream-inset-dishwasher-24in/v001/"
+    },
+    {
+      "id": "cabinetry/cream-inset-drawer-base-24in",
+      "version": "v001",
+      "path": "../../library/cabinetry/cream-inset-drawer-base-24in/v001/"
+    },
+    {
+      "id": "appliances/cream-inset-fridge-freezer-48in",
+      "version": "v001",
+      "path": "../../library/appliances/cream-inset-fridge-freezer-48in/v001/"
+    },
+    {
+      "id": "cabinetry/cream-inset-glazed-upper-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/cream-inset-glazed-upper-36in/v001/"
+    },
+    {
+      "id": "cabinetry/cream-inset-pantry-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/cream-inset-pantry-36in/v001/"
+    },
+    {
+      "id": "cabinetry/cream-inset-sink-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/cream-inset-sink-base-36in/v001/"
+    },
+    {
+      "id": "appliances/cream-plaster-wall-hood-48in",
+      "version": "v001",
+      "path": "../../library/appliances/cream-plaster-wall-hood-48in/v001/"
+    },
+    {
+      "id": "materials/cream-veined-stone",
+      "version": "v001",
+      "path": "../../library/materials/cream-veined-stone/v001/"
     },
     {
       "id": "fixtures/freestanding-tub-72in",
@@ -128,14 +193,24 @@
       "path": "../../library/surfaces/honed-limestone-wall-panel-4x2/v001/"
     },
     {
-      "id": "appliances/induction-cooktop-36in",
+      "id": "fixtures/kitchen-sink-bridge-faucet-brass-650",
       "version": "v001",
-      "path": "../../library/appliances/induction-cooktop-36in/v001/"
+      "path": "../../library/fixtures/kitchen-sink-bridge-faucet-brass-650/v001/"
     },
     {
-      "id": "fixtures/kitchen-sink-mixer-650",
+      "id": "fixtures/lighting-brass-double-shade-pendant",
       "version": "v001",
-      "path": "../../library/fixtures/kitchen-sink-mixer-650/v001/"
+      "path": "../../library/fixtures/lighting-brass-double-shade-pendant/v001/"
+    },
+    {
+      "id": "fixtures/lighting-brass-picture-light-24in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-brass-picture-light-24in/v001/"
+    },
+    {
+      "id": "fixtures/lighting-brass-shaded-sconce",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-brass-shaded-sconce/v001/"
     },
     {
       "id": "fixtures/lighting-linear-pendant-4ft",
@@ -158,6 +233,11 @@
       "path": "../../library/furniture/linen-three-seat-sofa/v001/"
     },
     {
+      "id": "appliances/microwave-drawer-24in",
+      "version": "v001",
+      "path": "../../library/appliances/microwave-drawer-24in/v001/"
+    },
+    {
       "id": "furniture/oak-dining-table-8ft",
       "version": "v001",
       "path": "../../library/furniture/oak-dining-table-8ft/v001/"
@@ -166,6 +246,26 @@
       "id": "cabinetry/oak-drawer-base-2ft",
       "version": "v001",
       "path": "../../library/cabinetry/oak-drawer-base-2ft/v001/"
+    },
+    {
+      "id": "cabinetry/oak-inset-drawer-base-24in",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-inset-drawer-base-24in/v001/"
+    },
+    {
+      "id": "cabinetry/oak-inset-island-back-panel-24in",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-inset-island-back-panel-24in/v001/"
+    },
+    {
+      "id": "cabinetry/oak-inset-microwave-base-24in",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-inset-microwave-base-24in/v001/"
+    },
+    {
+      "id": "cabinetry/oak-inset-waste-pullout-18in",
+      "version": "v001",
+      "path": "../../library/cabinetry/oak-inset-waste-pullout-18in/v001/"
     },
     {
       "id": "furniture/oak-linen-king-bed",
@@ -228,9 +328,9 @@
       "path": "../../library/landscape/ornamental-grass-clump/v002/"
     },
     {
-      "id": "appliances/panel-ready-fridge-48in",
+      "id": "hardware/round-knob-aged-brass-1p125in",
       "version": "v001",
-      "path": "../../library/appliances/panel-ready-fridge-48in/v001/"
+      "path": "../../library/hardware/round-knob-aged-brass-1p125in/v001/"
     },
     {
       "id": "landscape/sage-shrub",
@@ -278,9 +378,9 @@
       "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/"
     },
     {
-      "id": "appliances/wall-hood-36in",
+      "id": "materials/warm-limestone-plaster",
       "version": "v001",
-      "path": "../../library/appliances/wall-hood-36in/v001/"
+      "path": "../../library/materials/warm-limestone-plaster/v001/"
     },
     {
       "id": "materials/warm-vertical-cedar",

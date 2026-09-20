@@ -24,7 +24,8 @@ for o in scene.objects:
 assert abs(sum(areas.values())-(d.CONDITIONED_M2+d.GARAGE_M2))<.001,areas
 beds=[o for o in scene.objects if o.get('bed_count')==1];assert len(beds)==4,[o.name for o in beds]
 wardrobes=[o for o in scene.objects if o.instance_type=='COLLECTION' and 'wardrobe' in (o.get('asset_id','')+o.get('shared_asset_id',''))];assert len(wardrobes)>=13
-shelves=[o for o in scene.objects if o.instance_type=='COLLECTION' and 'shelving' in o.get('asset_id','')];assert len(shelves)>=5
+shelves=[o for o in scene.objects if o.instance_type=='COLLECTION' and 'shelving' in o.get('asset_id','')];assert len(shelves)>=4
+assert bpy.data.objects.get('Pantry enclosed food storage') is not None
 stairs=[o for o in scene.objects if 'stair oak tread' in o.name];assert len(stairs)==22,len(stairs)
 lower_stairs=[o for o in stairs if o.name.startswith('Lower stair oak tread')]
 upper_stairs=[o for o in stairs if o.name.startswith('Upper stair oak tread')]

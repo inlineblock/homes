@@ -5,6 +5,7 @@
 - Follow [parent tooling guidance](../AGENTS.md), the [home brief](../../homes/modern-block/brief.md) and [design intent](../../homes/modern-block/design-intent.md). Keep identifying reference names, people, locations, addresses, social links and source-property URLs out of every repository artifact and metadata field.
 - `design.py` owns meter dimensions, room zones, stair/void geometry and area constants. `envelope.py` builds walls, actual openings, stone module placement, roofs and drainage intent. `interiors.py` places linked equipment/storage/furniture and writes measured plan records. `utils.py` provides metric adapters; shared `common.geometry` helpers use feet and must be converted explicitly.
 - `build.py` owns full scene assembly, site, planting, screens, cameras, illumination and save. `facade_details.py` owns projecting entry/reveals and the external pier; `site_context.py` owns connected driveway and grouped garden-edge placement. `draw_plans.py` reads the same design constants, generated `interiors-layout.json` and `model/opening-schedule.json`. Never repair a coordinated layout only in a drawing. `schedule.py` owns the grouped adoption record and checks exact project/library pin equality.
+- `kitchen_layout.py` owns the revised kitchen's module coordinates, counter height and island footprint. `kitchen.py` installs the versioned concealed-equipment kit and records its actual plan placements through `interiors.py`. Run `verify_kitchen.py` against the saved native model after changing equipment, mounting or operation space; the library's isolated preview does not establish host fit.
 - Assign one agent/person as owner of `model/modern-block.blend` and generated IFC for a run. Other contributors own separate text modules. Serialize scene builds and coordinate GPU rendering; no competing writers to either binary or one draft image path.
 - Inspect Git status and preserve manual model edits before rebuilding. Existing adopted library versions are immutable. Publish missing reusable geometry under `library/` and explicitly change adoption pins; do not make private repeated plant, equipment or furniture copies here.
 
@@ -22,6 +23,7 @@ Build the current native scene, then verify it in a separate process:
 ```sh
 "${MODERN_BLOCK_BLENDER:-blender}" --background --factory-startup --python-exit-code 1 --python tools/modern_block/build.py
 "${MODERN_BLOCK_BLENDER:-blender}" --background --factory-startup homes/modern-block/model/modern-block.blend --python-exit-code 1 --python tools/modern_block/verify.py
+"${MODERN_BLOCK_BLENDER:-blender}" --background --factory-startup homes/modern-block/model/modern-block.blend --python-exit-code 1 --python tools/modern_block/verify_kitchen.py
 "${MODERN_BLOCK_PYTHON:-python3}" tools/modern_block/schedule.py
 ```
 
@@ -35,6 +37,8 @@ Render drafts to ignored work, inspect the actual images, then render final-qual
 ```
 
 `--views` accepts the saved camera names; omission renders all cameras. `--draft` uses half resolution and 20 samples. Full work uses saved 1800 × 1200 resolution and selected sample count. The renderer attempts Metal and otherwise uses CPU; verify actual device availability on the target machine. It writes `outputs/work/<camera>.png`, switches five screen leaves between closed and 75° open states, and does not save those transient states into the native file. Review useful composition, materials, actual openings, room access and both screen states before copying selected images into stable `outputs/images/` names.
+
+Kitchen cameras 14 and 15 use identical framing for closed/open appliance comparison. Camera 16 shows the island microwave and waste pullout open; camera 17 shows the pantry garage and storage open. These temporary states link the library's declared `blender.operating_collections.open` collections. The saved home remains in its closed presentation state, and no renderer mutates the published library assets.
 
 Export classified IFC and import it through Bonsai in separate normal-startup processes:
 

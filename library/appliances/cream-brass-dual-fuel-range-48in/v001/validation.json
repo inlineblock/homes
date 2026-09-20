@@ -1,0 +1,68 @@
+{
+  "status": "fresh_reopen_pass",
+  "blender": "4.5.14 LTS",
+  "collection": "cream-brass-dual-fuel-range-48in | v001",
+  "closed_bounds_m": {
+    "min": [
+      -0.6096,
+      -0.443,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.351,
+      0.9515
+    ]
+  },
+  "open_bounds_m": {
+    "min": [
+      -0.6096,
+      -0.9115,
+      0.0
+    ],
+    "max": [
+      0.6096,
+      0.351,
+      0.9515
+    ]
+  },
+  "object_count": 367,
+  "relative_dependencies_resolved": [
+    {
+      "saved_relative_path": "//../../../materials/aged-brass/v001/aged-brass.blend",
+      "resolved_repository_path": "library/materials/aged-brass/v001/aged-brass.blend"
+    },
+    {
+      "saved_relative_path": "//../../built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "resolved_repository_path": "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "saved_relative_path": "//../../../materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend",
+      "resolved_repository_path": "library/materials/cream-cabinet-enamel/v001/cream-cabinet-enamel.blend"
+    }
+  ],
+  "all_saved_library_paths_relative": true,
+  "rigid_hardware_scale_verified": true,
+  "explicit_open_collection_verified": true,
+  "host_integration_checked": false,
+  "visual_review": {
+    "status": "passed",
+    "reviewed_images": [
+      "preview.png",
+      "preview-open.png"
+    ],
+    "observations": [
+      "Cream panels and brass controls/pulls coordinate with unchanged dark grates, six burners and griddle.",
+      "Both independently hinged oven doors reveal real cavities and racks; physical ancestor bounds are unchanged."
+    ]
+  },
+  "rendered_states": [
+    "closed",
+    "open/service"
+  ],
+  "preview_sha256": {
+    "preview.png": "62df6fd6879539b9514ea77c21c865059ada899b68c2378fe0445f7c052734d6",
+    "preview-open.png": "4c8431768c7edfe9543e73ee1225e23028bdae52fea4ab7f46c1b18696726227"
+  },
+  "native_sha256": "4f37c207b78ae14c00df1aa7441c44d82c5704c97aea5c9d4cbb16945d66bc93"
+}

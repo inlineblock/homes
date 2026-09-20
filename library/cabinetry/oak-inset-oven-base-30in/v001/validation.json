@@ -1,0 +1,62 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.40639999508857727,
+        -0.30480000376701355,
+        0.0
+      ],
+      "max": [
+        0.40639999508857727,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    },
+    "open": {
+      "min": [
+        -0.40639999508857727,
+        -0.30480000376701355,
+        0.0
+      ],
+      "max": [
+        0.40639999508857727,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": {
+    "checked": true,
+    "id": "appliances/built-in-oven-30in",
+    "version": "v001",
+    "origin_m": [
+      0,
+      0,
+      0.148
+    ],
+    "fixture_meshes_checked": 62,
+    "positive_mesh_aabb_intersections": [],
+    "basis": "Actual native rigid component mesh bounds against closed cabinet meshes; countertop, service routes and home installation are separate checks"
+  },
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "5bd6d6061884e57fd69118877484d30e7b5107a7912908d9c6e7c06bc3dc1e93",
+  "preview_sha256": "d197491de73b3d70cf72b7da83da8d3ded1008d63d0c71fd79516bb863781fa6",
+  "open_preview_sha256": "66a23db291ff2895f98bd88345ab6fa3d09bfea74cc642fc677d6ae922ec9303"
+}

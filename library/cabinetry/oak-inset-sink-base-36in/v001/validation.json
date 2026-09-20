@@ -1,0 +1,72 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_closed_and_open_collection_links": true,
+  "relative_dependencies_resolved": true,
+  "dimensions_match_manifest": true,
+  "measured_state_bounds_m": {
+    "closed": {
+      "min": [
+        -0.45719999074935913,
+        -0.3307400047779083,
+        0.0
+      ],
+      "max": [
+        0.45719999074935913,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    },
+    "open": {
+      "min": [
+        -0.5296105146408081,
+        -0.7545005083084106,
+        0.0
+      ],
+      "max": [
+        0.5296105146408081,
+        0.30480000376701355,
+        0.8800000548362732
+      ]
+    }
+  },
+  "floor_or_mount_contact": true,
+  "preview_rendered": true,
+  "open_preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24
+  },
+  "host_installation_checked": false,
+  "isolated_component_fit": {
+    "checked": true,
+    "id": "fixtures/kitchen-sink-mixer-650",
+    "version": "v002",
+    "origin_m": [
+      0,
+      -0.03,
+      0.9
+    ],
+    "fixture_meshes_checked": 5,
+    "positive_mesh_aabb_intersections": [],
+    "basis": "Actual native rigid component mesh bounds against closed cabinet meshes; countertop, service routes and home installation are separate checks"
+  },
+  "visual_review": {
+    "reviewed": true,
+    "basis": "Actual neutral native closed/open previews inspected; attachment, inset reveal, cavity/shelf and operating-state corrections reviewed.",
+    "limits": "Isolated asset presentation; host circulation, product engineering and actual installation remain separate."
+  },
+  "native_sha256": "7fda260c3d470fffc89dd3e7f99bcd1005beeda684035d60967983d08ce71e53",
+  "preview_sha256": "9f48dd192b53fa4fc5026509d802d1986a071a516d65a7697b68c322176d6001",
+  "open_preview_sha256": "2f92a1a15d51b3b88463f6c36ab1295e587be8da4b6a73adb8a67d86aa6993ad",
+  "analytic_motion_review": {
+    "checked": true,
+    "basis": "Plan rectangles for door leaf/frame/carcass and paired meeting edges sampled at0.01degree increments from0to100degrees",
+    "minimum_meeting_edge_separation_m": 0.00138,
+    "pivot_offset_m": {
+      "outward_x": 0.02,
+      "ahead_of_face_y": 0.01
+    },
+    "limitations": "Original concept geometry; no manufacturer hinge specification or load rating."
+  }
+}

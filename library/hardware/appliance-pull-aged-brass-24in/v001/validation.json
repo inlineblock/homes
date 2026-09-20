@@ -1,0 +1,35 @@
+{
+  "fresh_native_open": true,
+  "fresh_link": true,
+  "relative_dependencies_resolve": true,
+  "objects": 5,
+  "actual_bounds_m": {
+    "min": [
+      -0.32385000586509705,
+      -0.05080001801252365,
+      -0.012191999703645706
+    ],
+    "max": [
+      0.32385000586509705,
+      5.329292562805676e-10,
+      0.012191999703645706
+    ]
+  },
+  "dimensions_match_manifest": true,
+  "preview_rendered": true,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 24,
+    "resolution_px": [
+      760,
+      650
+    ]
+  },
+  "host_integration_checked": false,
+  "visual_review": {
+    "inspected": true,
+    "findings": "Dedicated full-size appliance bar, two broad fixing feet and original-scale standoffs visible; no stretched cabinet hardware.",
+    "host_adoption_status": "Separate host installation and view review required."
+  }
+}

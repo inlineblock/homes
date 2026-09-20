@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/parry-agave",
+  "version": "v001",
+  "native_sha256": "4a32663817291cc131e897d2389f2a370d2df6ac93dea01ed2c5bc45e1dfdde8",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 20,
+  "variants": [
+    {
+      "id": "compact-rosette",
+      "collection": "parry_agave__compact_rosette",
+      "bounds_m": {
+        "min": [
+          -0.906120240688324,
+          -0.8428876399993896,
+          0.0
+        ],
+        "max": [
+          0.7762089967727661,
+          0.7074305415153503,
+          0.5573151707649231
+        ],
+        "dimensions": [
+          1.68232923746109,
+          1.55031818151474,
+          0.5573151707649231
+        ]
+      },
+      "vertices": 7380,
+      "faces": 5932,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "offset-colony",
+      "collection": "parry_agave__offset_colony",
+      "bounds_m": {
+        "min": [
+          -1.0968667268753052,
+          -1.2229853868484497,
+          0.0
+        ],
+        "max": [
+          1.1105245351791382,
+          1.0281716585159302,
+          0.6746317744255066
+        ],
+        "dimensions": [
+          2.2073912620544434,
+          2.25115704536438,
+          0.6746317744255066
+        ]
+      },
+      "vertices": 36900,
+      "faces": 29660,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "flowering-stalk",
+      "collection": "parry_agave__flowering_stalk",
+      "bounds_m": {
+        "min": [
+          -1.0968667268753052,
+          -1.0203227996826172,
+          0.0
+        ],
+        "max": [
+          0.9396070241928101,
+          0.8563497066497803,
+          4.0008649826049805
+        ],
+        "dimensions": [
+          2.0364737510681152,
+          1.8766725063323975,
+          4.0008649826049805
+        ]
+      },
+      "vertices": 75935,
+      "faces": 69149,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Desert author visual review",
+    "notes": "Rosette and offset forms are distinct. Flowering stalk has flared flower mouths and stamens; floral branching remains somewhat regular at close range.",
+    "image_sha256": {
+      "preview.png": "f236970d1d8cab77a80218f4dbc5c9f3bdf2b1e32cefc6ad5f35087695d2a672",
+      "detail.png": "3b7798b08db6550c64063c40c974b175dd80eeab6046bf736cf3298ed7fff4b0"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

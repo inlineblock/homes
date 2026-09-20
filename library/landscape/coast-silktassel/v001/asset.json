@@ -1,0 +1,145 @@
+{
+  "botanical_name": "Garrya elliptica",
+  "climate_notes": "Mild Pacific gardens; sheltered siting unless exposure is verified.",
+  "reference_urls": [
+    "https://landscapeplants.oregonstate.edu/plants/garrya-elliptica"
+  ],
+  "category_tags": [
+    "coastal",
+    "landscape"
+  ],
+  "limitations": [
+    "Original architectural visualization geometry; no botanical survey or horticultural specification.",
+    "Modeled dimensions describe this specimen; not guaranteed mature size.",
+    "No site adoption claimed; preview and host review recorded separately."
+  ],
+  "schema_version": 1,
+  "id": "landscape/coast-silktassel",
+  "version": "v001",
+  "name": "Coast Silktassel",
+  "units": "meters",
+  "dimensions_m": [
+    2.563302516937256,
+    2.744690775871277,
+    2.2884299755096436
+  ],
+  "bounds_m": {
+    "min": [
+      -1.2607942819595337,
+      -1.377457857131958,
+      0.0
+    ],
+    "max": [
+      1.3025082349777222,
+      1.3672329187393188,
+      2.2884299755096436
+    ]
+  },
+  "blender": {
+    "collection": "coast-silktassel-leafy-screen",
+    "variants": [
+      {
+        "id": "leafy-screen",
+        "collection": "coast-silktassel-leafy-screen",
+        "description": "Dense leafy evergreen screen.",
+        "dimensions_m": [
+          2.563302516937256,
+          2.744690775871277,
+          2.2884299755096436
+        ],
+        "bounds_m": {
+          "min": [
+            -1.2607942819595337,
+            -1.377457857131958,
+            0.0
+          ],
+          "max": [
+            1.3025082349777222,
+            1.3672329187393188,
+            2.2884299755096436
+          ]
+        }
+      },
+      {
+        "id": "winter-male-catkins",
+        "collection": "coast-silktassel-winter-male-catkins",
+        "description": "Winter male flowering specimen with pendulous catkins.",
+        "dimensions_m": [
+          3.133228302001953,
+          3.165077328681946,
+          2.764810562133789
+        ],
+        "bounds_m": {
+          "min": [
+            -1.5629055500030518,
+            -1.5910266637802124,
+            0.0
+          ],
+          "max": [
+            1.5703227519989014,
+            1.5740506649017334,
+            2.764810562133789
+          ]
+        }
+      },
+      {
+        "id": "open-small-tree",
+        "collection": "coast-silktassel-open-small-tree",
+        "description": "Pruned small tree with visible lower stems.",
+        "dimensions_m": [
+          3.519276976585388,
+          3.6733245849609375,
+          3.8389170169830322
+        ],
+        "bounds_m": {
+          "min": [
+            -1.8338830471038818,
+            -1.8295469284057617,
+            0.0
+          ],
+          "max": [
+            1.6853939294815063,
+            1.8437776565551758,
+            3.8389170169830322
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/coastal.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/coastal.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "coast-silktassel.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

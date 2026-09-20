@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/kinnikinnick",
+  "version": "v001",
+  "native_sha256": "f8a932d4095e6eff6fd1ad3b5b05dd5e467509f94546b0f0845814c8591b6791",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 16,
+  "variants": [
+    {
+      "id": "small-mat",
+      "collection": "Kinnikinnick_small_mat",
+      "bounds_m": {
+        "min": [
+          -0.48678821325302124,
+          -0.5057913064956665,
+          -0.006806065794080496
+        ],
+        "max": [
+          0.47302141785621643,
+          0.5005869269371033,
+          0.21213369071483612
+        ],
+        "dimensions": [
+          0.9598096311092377,
+          1.0063782334327698,
+          0.21893975650891662
+        ]
+      },
+      "vertices": 131208,
+      "faces": 113080,
+      "ground_min_z_m": -0.006806065794080496
+    },
+    {
+      "id": "broad-mat",
+      "collection": "Kinnikinnick_broad_mat",
+      "bounds_m": {
+        "min": [
+          -0.8927270174026489,
+          -0.8559809923171997,
+          -0.006894976366311312
+        ],
+        "max": [
+          0.871605396270752,
+          0.8452590703964233,
+          0.21545079350471497
+        ],
+        "dimensions": [
+          1.7643324136734009,
+          1.701240062713623,
+          0.22234576987102628
+        ]
+      },
+      "vertices": 268380,
+      "faces": 231300,
+      "ground_min_z_m": -0.006894976366311312
+    },
+    {
+      "id": "berry-edge",
+      "collection": "Kinnikinnick_berry_edge",
+      "bounds_m": {
+        "min": [
+          -0.43757373094558716,
+          -0.5950820446014404,
+          -0.006870201788842678
+        ],
+        "max": [
+          0.7018641233444214,
+          0.5930041670799255,
+          0.20250678062438965
+        ],
+        "dimensions": [
+          1.1394378542900085,
+          1.188086211681366,
+          0.20937698241323233
+        ]
+      },
+      "vertices": 215508,
+      "faces": 186812,
+      "ground_min_z_m": -0.006870201788842678
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct seasonal and growth forms, continuous leafy crowns where appropriate, grounded bases and connected visible detail. Finer leaf edges and bark microdetail remain simplified.",
+    "image_sha256": {
+      "preview.png": "0b5c9044fc04b58ce00a9d1c3638f7da7e90c711fce5f58367cd13139a47a244",
+      "detail.png": "658974a68ed35b21d8d72080e16c23ca32ddabb72fcbb40931878d711281b728"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

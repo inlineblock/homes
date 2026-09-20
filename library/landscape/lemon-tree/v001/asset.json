@@ -1,0 +1,204 @@
+{
+  "botanical_name": "Citrus \u00d7 meyeri; Citrus \u00d7 limon",
+  "cultivars": [
+    "Improved Meyer",
+    "Eureka (Cook reference form)",
+    "Improved Meyer"
+  ],
+  "rootstock": "Unspecified; compact forms represent age and training, not a guaranteed dwarf rootstock.",
+  "browse_tags": [
+    "fruit tree",
+    "citrus",
+    "sheltered garden",
+    "patio-trained option"
+  ],
+  "preferred_detail_variant": "meyer-blossom-fruit",
+  "variant_metadata": {
+    "meyer-patio": {
+      "cultivar": "Improved Meyer",
+      "seed": 713,
+      "training_and_season": "Winter fruit; patio-trained small standard, no container supplied",
+      "nominal_fruit_diameter_length_m": [
+        0.059,
+        0.078
+      ],
+      "fruit_profile": "meyer",
+      "rootstock": "unspecified"
+    },
+    "eureka-garden": {
+      "cultivar": "Eureka (Cook reference form)",
+      "seed": 732,
+      "training_and_season": "Winter fruit; open spreading Eureka with longer outer shoots",
+      "nominal_fruit_diameter_length_m": [
+        0.059,
+        0.078
+      ],
+      "fruit_profile": "eureka",
+      "rootstock": "unspecified"
+    },
+    "meyer-blossom-fruit": {
+      "cultivar": "Improved Meyer",
+      "seed": 751,
+      "training_and_season": "Spring bloom with retained winter fruit; irregular low-branched Meyer",
+      "nominal_fruit_diameter_length_m": [
+        0.059,
+        0.078
+      ],
+      "fruit_profile": "meyer",
+      "rootstock": "unspecified"
+    }
+  },
+  "source_urls": [
+    "https://citrusvariety.ucr.edu/crc3737",
+    "https://citrusvariety.ucr.edu/crc3837"
+  ],
+  "botanical_sources": [
+    "https://citrusvariety.ucr.edu/crc3737",
+    "https://citrusvariety.ucr.edu/crc3837"
+  ],
+  "reference_checked": "2026-09-19",
+  "visual_accuracy": "Original architectural botanical interpretation. Named citrus selections differentiated in crown habit, leaf dimensions, fruit profile and fruit clusters. Not a taxonomic specimen or horticultural performance model.",
+  "modeled_size_basis": "Actual measured asset bounds describe pruned/young/garden specimens, not published maximum mature dimensions.",
+  "climate_notes": "Sheltered citrus-suitable garden; verify local winter cold and cultivar/rootstock. This library is not an outdoor mountain planting specification.",
+  "site_selection": {
+    "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+    "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+    "soil": "Free drainage assumed; soil suitability requires local verification.",
+    "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+    "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+    "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+    "saline_inundation": "Unknown; not specified."
+  },
+  "dependencies": [],
+  "materials": "Embedded original procedural bark, four subtly varied waxy foliage tones, rind pores, petals and calyx materials; no external textures.",
+  "allowed_variation": "Rotate freely about Z; uniform scale 0.9\u20131.1 only. Choose actual collection for growth habit; do not squash into another species.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "review_notes": "Fruit stalks connect to twig nodes; attached petioles, ground-root flare, real calyces, and species-specific fruit dimensions. Blossoming variants explicitly permit retained earlier-season citrus fruit.",
+  "schema_version": 1,
+  "id": "landscape/lemon-tree",
+  "version": "v001",
+  "name": "Lemon trees \u2014 Improved Meyer and Eureka",
+  "units": "meters",
+  "dimensions_m": [
+    2.042328417301178,
+    1.9890319108963013,
+    2.238750457763672
+  ],
+  "bounds_m": {
+    "min": [
+      -1.0643157958984375,
+      -0.9849362373352051,
+      0.0
+    ],
+    "max": [
+      0.9780126214027405,
+      1.0040956735610962,
+      2.238750457763672
+    ]
+  },
+  "blender": {
+    "collection": "lemon_tree__meyer_patio",
+    "variants": [
+      {
+        "id": "meyer-patio",
+        "collection": "lemon_tree__meyer_patio",
+        "description": "Winter fruit; patio-trained small standard, no container supplied",
+        "dimensions_m": [
+          2.042328417301178,
+          1.9890319108963013,
+          2.238750457763672
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0643157958984375,
+            -0.9849362373352051,
+            0.0
+          ],
+          "max": [
+            0.9780126214027405,
+            1.0040956735610962,
+            2.238750457763672
+          ]
+        }
+      },
+      {
+        "id": "eureka-garden",
+        "collection": "lemon_tree__eureka_garden",
+        "description": "Winter fruit; open spreading Eureka with longer outer shoots",
+        "dimensions_m": [
+          3.1951193809509277,
+          3.1272830963134766,
+          3.4177560806274414
+        ],
+        "bounds_m": {
+          "min": [
+            -1.6401976346969604,
+            -1.639198899269104,
+            0.0
+          ],
+          "max": [
+            1.5549217462539673,
+            1.4880841970443726,
+            3.4177560806274414
+          ]
+        }
+      },
+      {
+        "id": "meyer-blossom-fruit",
+        "collection": "lemon_tree__meyer_blossom_fruit",
+        "description": "Spring bloom with retained winter fruit; irregular low-branched Meyer",
+        "dimensions_m": [
+          2.5520094633102417,
+          2.4346824884414673,
+          2.5789096355438232
+        ],
+        "bounds_m": {
+          "min": [
+            -1.2619926929473877,
+            -1.1912660598754883,
+            0.0
+          ],
+          "max": [
+            1.290016770362854,
+            1.243416428565979,
+            2.5789096355438232
+          ]
+        }
+      }
+    ]
+  },
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/citrus.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/citrus.py -- lemon-tree"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "lemon-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

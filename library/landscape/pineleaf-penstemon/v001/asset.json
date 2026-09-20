@@ -1,0 +1,160 @@
+{
+  "botanical_name": "Penstemon pinifolius",
+  "browse_tags": [
+    "xeriscape",
+    "water-wise"
+  ],
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/herbaceous-perennials/",
+      "supports": "Dry garden perennial selection."
+    },
+    {
+      "url": "https://www.rhs.org.uk/plants/99125/penstemon-pinifolius-mersea-yellow/details",
+      "supports": "Named yellow selection, needle foliage, spreading subshrub and narrow 2.5 cm yellow tubes."
+    }
+  ],
+  "source_notes": "Original deterministic species-informed geometry; no external images or meshes.",
+  "visual_accuracy_limitations": "Floral tube and lobes modeled; reproductive organs simplified. Mersea Yellow form is a cultivar interpretation, not nursery provenance.",
+  "site_selection": {
+    "climate_basis": "Sunny well-drained gravel and dry garden; winter moisture and frost tolerance require locality review.",
+    "sun": "Full sun; verify actual site exposure",
+    "soil": "Well-drained; site-specific soil suitability requires local review",
+    "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "fire_safety": "not evaluated"
+  },
+  "modeled_size_basis": "Dimensions measured from the native meshes; not a mature spacing recommendation.",
+  "rootstock": "not applicable",
+  "cultivar": "Mersea Yellow only for mersea-yellow collection; other forms unspecified species.",
+  "schema_version": 1,
+  "id": "landscape/pineleaf-penstemon",
+  "version": "v001",
+  "name": "Pineleaf penstemon",
+  "units": "meters",
+  "dimensions_m": [
+    0.4557890146970749,
+    0.4506095349788666,
+    0.2560247030341998
+  ],
+  "bounds_m": {
+    "min": [
+      -0.23486939072608948,
+      -0.2174357771873474,
+      -0.0011526193702593446
+    ],
+    "max": [
+      0.2209196239709854,
+      0.23317375779151917,
+      0.25487208366394043
+    ]
+  },
+  "blender": {
+    "collection": "pineleaf-penstemon__needle-cushion",
+    "variants": [
+      {
+        "id": "needle-cushion",
+        "collection": "pineleaf-penstemon__needle-cushion",
+        "description": "Low evergreen needle-leaf cushion without flower stems.",
+        "dimensions_m": [
+          0.4557890146970749,
+          0.4506095349788666,
+          0.2560247030341998
+        ],
+        "bounds_m": {
+          "min": [
+            -0.23486939072608948,
+            -0.2174357771873474,
+            -0.0011526193702593446
+          ],
+          "max": [
+            0.2209196239709854,
+            0.23317375779151917,
+            0.25487208366394043
+          ]
+        }
+      },
+      {
+        "id": "orange-red-bloom",
+        "collection": "pineleaf-penstemon__orange-red-bloom",
+        "description": "Loose orange-red tubular flower spikes above a needle-leaf cushion.",
+        "dimensions_m": [
+          0.4973054528236389,
+          0.4832262694835663,
+          0.39529069897253066
+        ],
+        "bounds_m": {
+          "min": [
+            -0.24072769284248352,
+            -0.23770427703857422,
+            -0.0010749363573268056
+          ],
+          "max": [
+            0.2565777599811554,
+            0.24552199244499207,
+            0.39421576261520386
+          ]
+        }
+      },
+      {
+        "id": "mersea-yellow",
+        "collection": "pineleaf-penstemon__mersea-yellow",
+        "description": "Mersea Yellow cultivar interpretation with upward narrow yellow tubular flowers.",
+        "dimensions_m": [
+          0.4913024455308914,
+          0.47718730568885803,
+          0.3907605599379167
+        ],
+        "bounds_m": {
+          "min": [
+            -0.2598416209220886,
+            -0.23996849358081818,
+            -0.0011456202482804656
+          ],
+          "max": [
+            0.2314608246088028,
+            0.23721881210803986,
+            0.38961493968963623
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/xeric.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/xeric.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "pineleaf-penstemon.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

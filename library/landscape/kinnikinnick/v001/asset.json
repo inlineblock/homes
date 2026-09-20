@@ -1,0 +1,168 @@
+{
+  "botanical_name": "Arctostaphylos uva-ursi",
+  "common_name": "Kinnikinnick",
+  "source_generator": "tools/library/plants/mountain.py",
+  "browse_tags": [
+    "mountain"
+  ],
+  "deterministic_seeds": [
+    550,
+    551,
+    552
+  ],
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+      "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+    }
+  ],
+  "cultivar": "species habit; no named cultivar claimed",
+  "rootstock": "not applicable / seedling species concept",
+  "modeling_notes": "Prostrate reddish woody runners with small leathery evergreen leaves and attached red fruit. Root-centered patch has all woody trails attached; rock-edge is asymmetric geometry, not a hidden rock prop.",
+  "variant_intents": [
+    "Small leathery evergreen mat",
+    "Wide irregular prostrate branching groundcover",
+    "Asymmetric berry-bearing rock-edge patch"
+  ],
+  "site_selection": {
+    "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "water": "Match species and regional source; provide establishment water",
+    "sun_soil": "Well-drained gravelly ground; select local light and moisture conditions."
+  },
+  "visual_accuracy_limitations": "Original architectural botanical interpretation; branch placement is seeded, leaves are simplified folded blades. Not a nursery product or plant performance specification.",
+  "host_adoption": {
+    "status": "not adopted",
+    "host_placement_reviewed": false
+  },
+  "schema_version": 1,
+  "id": "landscape/kinnikinnick",
+  "version": "v001",
+  "name": "Kinnikinnick / common bearberry",
+  "units": "meters",
+  "dimensions_m": [
+    0.9598096311092377,
+    1.0063782334327698,
+    0.21893975650891662
+  ],
+  "bounds_m": {
+    "min": [
+      -0.48678821325302124,
+      -0.5057913064956665,
+      -0.006806065794080496
+    ],
+    "max": [
+      0.47302141785621643,
+      0.5005869269371033,
+      0.21213369071483612
+    ]
+  },
+  "blender": {
+    "collection": "Kinnikinnick_small_mat",
+    "variants": [
+      {
+        "id": "small-mat",
+        "collection": "Kinnikinnick_small_mat",
+        "description": "Small leathery evergreen mat",
+        "dimensions_m": [
+          0.9598096311092377,
+          1.0063782334327698,
+          0.21893975650891662
+        ],
+        "bounds_m": {
+          "min": [
+            -0.48678821325302124,
+            -0.5057913064956665,
+            -0.006806065794080496
+          ],
+          "max": [
+            0.47302141785621643,
+            0.5005869269371033,
+            0.21213369071483612
+          ]
+        }
+      },
+      {
+        "id": "broad-mat",
+        "collection": "Kinnikinnick_broad_mat",
+        "description": "Wide irregular prostrate branching groundcover",
+        "dimensions_m": [
+          1.7643324136734009,
+          1.701240062713623,
+          0.22234576987102628
+        ],
+        "bounds_m": {
+          "min": [
+            -0.8927270174026489,
+            -0.8559809923171997,
+            -0.006894976366311312
+          ],
+          "max": [
+            0.871605396270752,
+            0.8452590703964233,
+            0.21545079350471497
+          ]
+        }
+      },
+      {
+        "id": "berry-edge",
+        "collection": "Kinnikinnick_berry_edge",
+        "description": "Asymmetric berry-bearing rock-edge patch",
+        "dimensions_m": [
+          1.1394378542900085,
+          1.188086211681366,
+          0.20937698241323233
+        ],
+        "bounds_m": {
+          "min": [
+            -0.43757373094558716,
+            -0.5950820446014404,
+            -0.006870201788842678
+          ],
+          "max": [
+            0.7018641233444214,
+            0.5930041670799255,
+            0.20250678062438965
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/mountain.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/mountain.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "kinnikinnick.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

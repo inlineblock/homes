@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/fernbush",
+  "version": "v001",
+  "native_sha256": "55a1da7495ed4453b0f235a5d71b8dca2e3a2fd06f949245adb95c4e41c7a7d1",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 11,
+  "variants": [
+    {
+      "id": "young-lacy",
+      "collection": "fernbush__young-lacy",
+      "bounds_m": {
+        "min": [
+          -0.46666213870048523,
+          -0.4593523144721985,
+          -0.004457844886928797
+        ],
+        "max": [
+          0.4458519220352173,
+          0.48485714197158813,
+          0.6635621786117554
+        ],
+        "dimensions": [
+          0.9125140607357025,
+          0.9442094564437866,
+          0.6680200234986842
+        ]
+      },
+      "vertices": 756925,
+      "faces": 368424,
+      "ground_min_z_m": -0.004457844886928797
+    },
+    {
+      "id": "mature-white-bloom",
+      "collection": "fernbush__mature-white-bloom",
+      "bounds_m": {
+        "min": [
+          -0.8265380859375,
+          -0.8210906982421875,
+          -0.01050961297005415
+        ],
+        "max": [
+          0.9441261887550354,
+          0.9419942498207092,
+          1.5046508312225342
+        ],
+        "dimensions": [
+          1.7706642746925354,
+          1.7630849480628967,
+          1.5151604441925883
+        ]
+      },
+      "vertices": 965413,
+      "faces": 495040,
+      "ground_min_z_m": -0.01050961297005415
+    },
+    {
+      "id": "winter-structure",
+      "collection": "fernbush__winter-structure",
+      "bounds_m": {
+        "min": [
+          -0.5180871486663818,
+          -0.6482170820236206,
+          -0.00881535466760397
+        ],
+        "max": [
+          0.6083619594573975,
+          0.6161665320396423,
+          1.2529579401016235
+        ],
+        "dimensions": [
+          1.1264491081237793,
+          1.264383614063263,
+          1.2617732947692275
+        ]
+      },
+      "vertices": 44121,
+      "faces": 22484,
+      "ground_min_z_m": -0.00881535466760397
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct grass, cushion, shrub and flowering silhouettes. Whole plants and details show adequate density and attachment. Flower mouths, seedheads and leaf edges remain geometric at macro scale.",
+    "image_sha256": {
+      "preview.png": "020975da2c3ff9c5525e26fce65b241dc301ee16210008b0f65c82d8867200dd",
+      "detail.png": "58d6352d60652ff6034d96b16998d4c87f658554fdd8b23f11642730f95c326a"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

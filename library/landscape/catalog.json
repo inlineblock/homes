@@ -1,0 +1,3535 @@
+{
+  "schema_version": 1,
+  "description": "Native landscape assets; availability, reviewed status and home adoption are separate. All dimensions are modeled meters, not expected mature spread.",
+  "new_family_count": 35,
+  "new_variant_count": 105,
+  "legacy_family_count": 6,
+  "groups": {
+    "mountain": "Mountain",
+    "desert": "Desert",
+    "xeric": "Xeriscape / water-wise",
+    "coastal": "Beach / coastal",
+    "suburban": "Suburban gardens",
+    "fruit": "Citrus and other fruit trees"
+  },
+  "families": [
+    {
+      "id": "landscape/quaking-aspen",
+      "version": "v001",
+      "name": "Quaking aspen",
+      "group": "mountain",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "quaking-aspen/v001/asset.json",
+      "blender": "quaking-aspen/v001/quaking-aspen.blend",
+      "preview": "quaking-aspen/v001/preview.png",
+      "detail": "quaking-aspen/v001/detail.png",
+      "validation": "quaking-aspen/v001/validation.json",
+      "botanical_name": "Populus tremuloides",
+      "variants": [
+        {
+          "id": "young",
+          "collection": "QuakingAspen_young",
+          "description": "Slender young tree, cool-season green foliage",
+          "dimensions_m": [
+            2.326101779937744,
+            2.292798399925232,
+            4.096986762946472
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1540662050247192,
+              -1.1471712589263916,
+              -0.0013651771005243063
+            ],
+            "max": [
+              1.172035574913025,
+              1.1456271409988403,
+              4.095621585845947
+            ]
+          }
+        },
+        {
+          "id": "grove",
+          "collection": "QuakingAspen_grove",
+          "description": "Three mature pale-trunk trees with staggered crowns",
+          "dimensions_m": [
+            4.687134504318237,
+            4.400636434555054,
+            6.916698065935634
+          ],
+          "bounds_m": {
+            "min": [
+              -2.5962300300598145,
+              -2.0817439556121826,
+              -0.0016828452935442328
+            ],
+            "max": [
+              2.090904474258423,
+              2.318892478942871,
+              6.91501522064209
+            ]
+          }
+        },
+        {
+          "id": "autumn-grove",
+          "collection": "QuakingAspen_autumn_grove",
+          "description": "Three differently arranged gold-leaf autumn stems",
+          "dimensions_m": [
+            4.570837736129761,
+            4.115681171417236,
+            6.417176835006103
+          ],
+          "bounds_m": {
+            "min": [
+              -2.282991886138916,
+              -2.105759859085083,
+              -0.0016828698571771383
+            ],
+            "max": [
+              2.2878458499908447,
+              2.0099213123321533,
+              6.415493965148926
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "water": "Match species and regional source; provide establishment water",
+        "sun_soil": "Cool moist mountain setting; avoid hot dry valleys. Full sun; moist soil."
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.usu.edu/forestry/tree-identification/poplar-aspen/quaking-aspen",
+          "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "b3e1477970bfcaa7d1443aa9c2d1ebb0ddfd52e5e16978558535a45a7588bcef",
+      "preview_sha256": {
+        "preview.png": "7cf57200d979e3cbb4c80740d83bba8c429cd5747703e06b9258c50887dd19e7",
+        "detail.png": "64fbfd7a8b9cf44569aaec118ce0a05ee766a12e9f132c9970893e3fc07efef4"
+      }
+    },
+    {
+      "id": "landscape/rocky-mountain-maple",
+      "version": "v001",
+      "name": "Rocky Mountain maple",
+      "group": "mountain",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "rocky-mountain-maple/v001/asset.json",
+      "blender": "rocky-mountain-maple/v001/rocky-mountain-maple.blend",
+      "preview": "rocky-mountain-maple/v001/preview.png",
+      "detail": "rocky-mountain-maple/v001/detail.png",
+      "validation": "rocky-mountain-maple/v001/validation.json",
+      "botanical_name": "Acer glabrum",
+      "variants": [
+        {
+          "id": "small-tree",
+          "collection": "RockyMountainMaple_small_tree",
+          "description": "Small branching understory tree",
+          "dimensions_m": [
+            2.359640955924988,
+            2.4329999685287476,
+            3.5915946746245027
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1197941303253174,
+              -1.2833948135375977,
+              -0.011153914965689182
+            ],
+            "max": [
+              1.2398468255996704,
+              1.14960515499115,
+              3.5804407596588135
+            ]
+          }
+        },
+        {
+          "id": "multi-stem",
+          "collection": "RockyMountainMaple_multi_stem",
+          "description": "Broad multi-stem montane shrub",
+          "dimensions_m": [
+            2.599235773086548,
+            2.587679386138916,
+            2.5967634469270706
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3276035785675049,
+              -1.2973617315292358,
+              -0.011438444256782532
+            ],
+            "max": [
+              1.271632194519043,
+              1.2903176546096802,
+              2.585325002670288
+            ]
+          }
+        },
+        {
+          "id": "autumn",
+          "collection": "RockyMountainMaple_autumn",
+          "description": "Yellow autumn shrub with staggered scaffold limbs",
+          "dimensions_m": [
+            2.443696141242981,
+            2.4313710927963257,
+            2.96020024176687
+          ],
+          "bounds_m": {
+            "min": [
+              -1.2406680583953857,
+              -1.1843507289886475,
+              -0.009134463034570217
+            ],
+            "max": [
+              1.2030280828475952,
+              1.2470203638076782,
+              2.9510657787323
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "water": "Match species and regional source; provide establishment water",
+        "sun_soil": "Foothill to montane understory; low to moderate moisture; tolerates shade."
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+          "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "a17c50076a78dd190dd0f294162995c091f9ec5e69baaa0fc5cb86d69e0903f9",
+      "preview_sha256": {
+        "preview.png": "61b05f937736354caa840ce0f81330b8cc3149b36480f5f37f6e0b198ccc47f5",
+        "detail.png": "f3b6af727b7672a4244f4a9621f9996117f55f64f49d35434842a5a08ae84517"
+      }
+    },
+    {
+      "id": "landscape/saskatoon-serviceberry",
+      "version": "v001",
+      "name": "Saskatoon serviceberry",
+      "group": "mountain",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "saskatoon-serviceberry/v001/asset.json",
+      "blender": "saskatoon-serviceberry/v001/saskatoon-serviceberry.blend",
+      "preview": "saskatoon-serviceberry/v001/preview.png",
+      "detail": "saskatoon-serviceberry/v001/detail.png",
+      "validation": "saskatoon-serviceberry/v001/validation.json",
+      "botanical_name": "Amelanchier alnifolia",
+      "variants": [
+        {
+          "id": "flowering",
+          "collection": "SaskatoonServiceberry_flowering",
+          "description": "Upright shrub, spring white racemes and emerging leaves",
+          "dimensions_m": [
+            2.25837641954422,
+            2.4009718894958496,
+            2.8559670741669834
+          ],
+          "bounds_m": {
+            "min": [
+              -0.9899930357933044,
+              -1.1489349603652954,
+              -0.00711968494579196
+            ],
+            "max": [
+              1.2683833837509155,
+              1.2520369291305542,
+              2.8488473892211914
+            ]
+          }
+        },
+        {
+          "id": "berry-thicket",
+          "collection": "SaskatoonServiceberry_berry_thicket",
+          "description": "Open multi-stem thicket bearing blue-purple fruit",
+          "dimensions_m": [
+            2.432007074356079,
+            2.2367613315582275,
+            2.4743087720125914
+          ],
+          "bounds_m": {
+            "min": [
+              -1.16526460647583,
+              -1.0515254735946655,
+              -0.008120579645037651
+            ],
+            "max": [
+              1.266742467880249,
+              1.185235857963562,
+              2.4661881923675537
+            ]
+          }
+        },
+        {
+          "id": "autumn",
+          "collection": "SaskatoonServiceberry_autumn",
+          "description": "Broad arching orange-red autumn shrub",
+          "dimensions_m": [
+            2.4170167446136475,
+            2.151184916496277,
+            2.72215323895216
+          ],
+          "bounds_m": {
+            "min": [
+              -1.2230745553970337,
+              -0.9815722703933716,
+              -0.007955364882946014
+            ],
+            "max": [
+              1.1939421892166138,
+              1.1696126461029053,
+              2.714197874069214
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "water": "Match species and regional source; provide establishment water",
+        "sun_soil": "Foothill through subalpine candidate; low to moderate moisture. Verify local soil and sun."
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+          "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "27232eaae93e33e8f9d922f4fb5bda9e67a36b3970826101e55bab42c4bc42d6",
+      "preview_sha256": {
+        "preview.png": "5354f04a114b69bb45feec038a7fe6b8e9bf7be4b71c633a25b5c259f3f8e501",
+        "detail.png": "c7d9d554ec47fd2b1f72c10745735b09674580a1f84695b1b4fb6a2526cdbb94"
+      }
+    },
+    {
+      "id": "landscape/red-osier-dogwood",
+      "version": "v001",
+      "name": "Red-osier dogwood",
+      "group": "mountain",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "red-osier-dogwood/v001/asset.json",
+      "blender": "red-osier-dogwood/v001/red-osier-dogwood.blend",
+      "preview": "red-osier-dogwood/v001/preview.png",
+      "detail": "red-osier-dogwood/v001/detail.png",
+      "validation": "red-osier-dogwood/v001/validation.json",
+      "botanical_name": "Cornus sericea",
+      "variants": [
+        {
+          "id": "leafy",
+          "collection": "RedOsierDogwood_leafy",
+          "description": "Leafy arching red-stem shrub",
+          "dimensions_m": [
+            1.5988094806671143,
+            1.6145126819610596,
+            1.956354483962059
+          ],
+          "bounds_m": {
+            "min": [
+              -0.8329095840454102,
+              -0.8066975474357605,
+              -0.007827743887901306
+            ],
+            "max": [
+              0.7658998966217041,
+              0.8078151345252991,
+              1.9485267400741577
+            ]
+          }
+        },
+        {
+          "id": "flowering",
+          "collection": "RedOsierDogwood_flowering",
+          "description": "Broad white flat-topped flowering mass",
+          "dimensions_m": [
+            1.6601364016532898,
+            1.773915708065033,
+            1.8002045657485723
+          ],
+          "bounds_m": {
+            "min": [
+              -0.7768566608428955,
+              -0.8356998562812805,
+              -0.008457591757178307
+            ],
+            "max": [
+              0.8832797408103943,
+              0.9382158517837524,
+              1.791746973991394
+            ]
+          }
+        },
+        {
+          "id": "winter",
+          "collection": "RedOsierDogwood_winter",
+          "description": "Dormant dense red cane structure with bare twigs",
+          "dimensions_m": [
+            1.6536018252372742,
+            1.627940833568573,
+            2.015035114251077
+          ],
+          "bounds_m": {
+            "min": [
+              -0.7453134059906006,
+              -0.7500948905944824,
+              -0.007502994500100613
+            ],
+            "max": [
+              0.9082884192466736,
+              0.8778459429740906,
+              2.0075321197509766
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "water": "Match species and regional source; provide establishment water",
+        "sun_soil": "Moist streamside understory; moderate to high moisture; shade tolerant."
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+          "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "651bd55a5871d0f41e74c4a3fee4f5fde5910fcdd2b10361e5281f5b4c48c012",
+      "preview_sha256": {
+        "preview.png": "73b8c819e3850c78cd9dfc313a3fc6a14c536baa6a7ab0563c2821e2fa7c8d0f",
+        "detail.png": "410b9b3eca4a91ae49c5f85539c522ed01adf4b7d17090f58fe589e7f9a3b875"
+      }
+    },
+    {
+      "id": "landscape/kinnikinnick",
+      "version": "v001",
+      "name": "Kinnikinnick / common bearberry",
+      "group": "mountain",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "kinnikinnick/v001/asset.json",
+      "blender": "kinnikinnick/v001/kinnikinnick.blend",
+      "preview": "kinnikinnick/v001/preview.png",
+      "detail": "kinnikinnick/v001/detail.png",
+      "validation": "kinnikinnick/v001/validation.json",
+      "botanical_name": "Arctostaphylos uva-ursi",
+      "variants": [
+        {
+          "id": "small-mat",
+          "collection": "Kinnikinnick_small_mat",
+          "description": "Small leathery evergreen mat",
+          "dimensions_m": [
+            0.9598096311092377,
+            1.0063782334327698,
+            0.21893975650891662
+          ],
+          "bounds_m": {
+            "min": [
+              -0.48678821325302124,
+              -0.5057913064956665,
+              -0.006806065794080496
+            ],
+            "max": [
+              0.47302141785621643,
+              0.5005869269371033,
+              0.21213369071483612
+            ]
+          }
+        },
+        {
+          "id": "broad-mat",
+          "collection": "Kinnikinnick_broad_mat",
+          "description": "Wide irregular prostrate branching groundcover",
+          "dimensions_m": [
+            1.7643324136734009,
+            1.701240062713623,
+            0.22234576987102628
+          ],
+          "bounds_m": {
+            "min": [
+              -0.8927270174026489,
+              -0.8559809923171997,
+              -0.006894976366311312
+            ],
+            "max": [
+              0.871605396270752,
+              0.8452590703964233,
+              0.21545079350471497
+            ]
+          }
+        },
+        {
+          "id": "berry-edge",
+          "collection": "Kinnikinnick_berry_edge",
+          "description": "Asymmetric berry-bearing rock-edge patch",
+          "dimensions_m": [
+            1.1394378542900085,
+            1.188086211681366,
+            0.20937698241323233
+          ],
+          "bounds_m": {
+            "min": [
+              -0.43757373094558716,
+              -0.5950820446014404,
+              -0.006870201788842678
+            ],
+            "max": [
+              0.7018641233444214,
+              0.5930041670799255,
+              0.20250678062438965
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "water": "Match species and regional source; provide establishment water",
+        "sun_soil": "Well-drained gravelly ground; select local light and moisture conditions."
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+          "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "f8a932d4095e6eff6fd1ad3b5b05dd5e467509f94546b0f0845814c8591b6791",
+      "preview_sha256": {
+        "preview.png": "0b5c9044fc04b58ce00a9d1c3638f7da7e90c711fce5f58367cd13139a47a244",
+        "detail.png": "658974a68ed35b21d8d72080e16c23ca32ddabb72fcbb40931878d711281b728"
+      }
+    },
+    {
+      "id": "landscape/blue-palo-verde",
+      "version": "v001",
+      "name": "Blue palo verde",
+      "group": "desert",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "blue-palo-verde/v001/asset.json",
+      "blender": "blue-palo-verde/v001/blue-palo-verde.blend",
+      "preview": "blue-palo-verde/v001/preview.png",
+      "detail": "blue-palo-verde/v001/detail.png",
+      "validation": "blue-palo-verde/v001/validation.json",
+      "botanical_name": "Parkinsonia florida",
+      "variants": [
+        {
+          "id": "young-open",
+          "collection": "blue_palo_verde__young_open",
+          "description": "Young airy single-trunk leaf-on tree",
+          "dimensions_m": [
+            4.046094655990601,
+            4.15296483039856,
+            3.854520559310913
+          ],
+          "bounds_m": {
+            "min": [
+              -2.0138680934906006,
+              -2.0033676624298096,
+              0.0
+            ],
+            "max": [
+              2.0322265625,
+              2.14959716796875,
+              3.854520559310913
+            ]
+          }
+        },
+        {
+          "id": "mature-spreading",
+          "collection": "blue_palo_verde__mature_spreading",
+          "description": "Mature multi-leader green bark canopy",
+          "dimensions_m": [
+            6.207355499267578,
+            5.514963626861572,
+            5.933369159698486
+          ],
+          "bounds_m": {
+            "min": [
+              -3.127897262573242,
+              -2.5908517837524414,
+              0.0
+            ],
+            "max": [
+              3.079458236694336,
+              2.924111843109131,
+              5.933369159698486
+            ]
+          }
+        },
+        {
+          "id": "yellow-bloom",
+          "collection": "blue_palo_verde__yellow_bloom",
+          "description": "Mature yellow-flowering spreading crown",
+          "dimensions_m": [
+            5.6045005321502686,
+            5.828211784362793,
+            5.6930999755859375
+          ],
+          "bounds_m": {
+            "min": [
+              -3.1017611026763916,
+              -3.043487071990967,
+              0.0
+            ],
+            "max": [
+              2.502739429473877,
+              2.784724712371826,
+              5.6930999755859375
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Sonoran desert; thorns and pod litter require setback from paths.",
+        "sun": "Sunny landscape intent; confirm local exposure before planting",
+        "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+        "establishment_water": "Local horticultural specification required",
+        "ongoing_water": "Dryland concept; irrigation needs not engineered",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown"
+      },
+      "botanical_sources": [
+        "https://extension.arizona.edu/publication/mesquite-and-palo-verde-trees-urban-landscape"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent coastal specialist",
+      "native_sha256": "e6260cfb9e90a011e19f5ef17222ce8fb664e4c24f1204e500cf7c28f0563a84",
+      "preview_sha256": {
+        "preview.png": "3ad6e6273b0826354700fa91bf20ecd4a232cd27cbaf0b1fad0e68c2342cddf5",
+        "detail.png": "d48c69b2b4bc477baf8c74aed33baf534782fadeb02b0dc2e27b332dd73a6ef7"
+      }
+    },
+    {
+      "id": "landscape/desert-willow",
+      "version": "v001",
+      "name": "Desert willow",
+      "group": "desert",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "desert-willow/v001/asset.json",
+      "blender": "desert-willow/v001/desert-willow.blend",
+      "preview": "desert-willow/v001/preview.png",
+      "detail": "desert-willow/v001/detail.png",
+      "validation": "desert-willow/v001/validation.json",
+      "botanical_name": "Chilopsis linearis",
+      "variants": [
+        {
+          "id": "single-trunk-bloom",
+          "collection": "desert_willow__single_trunk_bloom",
+          "description": "Single-trunk flowering tree with lance leaves and pink trumpets",
+          "dimensions_m": [
+            4.5890467166900635,
+            4.413990020751953,
+            3.5490562915802
+          ],
+          "bounds_m": {
+            "min": [
+              -1.8621852397918701,
+              -2.186222791671753,
+              0.0
+            ],
+            "max": [
+              2.7268614768981934,
+              2.2277672290802,
+              3.5490562915802
+            ]
+          }
+        },
+        {
+          "id": "multi-stem",
+          "collection": "desert_willow__multi_stem",
+          "description": "Leafy multi-stem canopy",
+          "dimensions_m": [
+            5.277377605438232,
+            5.785632848739624,
+            4.468147277832031
+          ],
+          "bounds_m": {
+            "min": [
+              -2.6412389278411865,
+              -3.1028497219085693,
+              0.0
+            ],
+            "max": [
+              2.636138677597046,
+              2.6827831268310547,
+              4.468147277832031
+            ]
+          }
+        },
+        {
+          "id": "dormant-capsules",
+          "collection": "desert_willow__dormant_capsules",
+          "description": "Bare winter multi-stem tree with attached slender capsules",
+          "dimensions_m": [
+            5.065835952758789,
+            5.106261968612671,
+            4.572103500366211
+          ],
+          "bounds_m": {
+            "min": [
+              -2.562221050262451,
+              -2.328812837600708,
+              0.0
+            ],
+            "max": [
+              2.503614902496338,
+              2.777449131011963,
+              4.572103500366211
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Dry-wash and Southwest foothill character; deciduous, not a true willow.",
+        "sun": "Sunny landscape intent; confirm local exposure before planting",
+        "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+        "establishment_water": "Local horticultural specification required",
+        "ongoing_water": "Dryland concept; irrigation needs not engineered",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown"
+      },
+      "botanical_sources": [
+        "https://yavapaiplants.extension.arizona.edu/chilopsis-linearis"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent coastal specialist",
+      "native_sha256": "0195b1a1f9a61f958768cb987826a52d251d83296bec79baca022f96935bcbb5",
+      "preview_sha256": {
+        "preview.png": "78ab55b3f0cae51446df25425079173bc147d8cc9912fb9f1562886f276bf8b5",
+        "detail.png": "61395b8b3bfd3d297b6a4f23c2a86c4cee636cb8a1d4bc989370eab5719fe3b1"
+      }
+    },
+    {
+      "id": "landscape/ocotillo",
+      "version": "v001",
+      "name": "Ocotillo",
+      "group": "desert",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "ocotillo/v001/asset.json",
+      "blender": "ocotillo/v001/ocotillo.blend",
+      "preview": "ocotillo/v001/preview.png",
+      "detail": "ocotillo/v001/detail.png",
+      "validation": "ocotillo/v001/validation.json",
+      "botanical_name": "Fouquieria splendens",
+      "variants": [
+        {
+          "id": "leafless-canes",
+          "collection": "ocotillo__leafless_canes",
+          "description": "Sparse leafless jointed canes with woody spines",
+          "dimensions_m": [
+            2.192356824874878,
+            2.595355987548828,
+            3.3811025619506836
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1451905965805054,
+              -1.2858269214630127,
+              0.0
+            ],
+            "max": [
+              1.0471662282943726,
+              1.3095290660858154,
+              3.3811025619506836
+            ]
+          }
+        },
+        {
+          "id": "rain-leafed",
+          "collection": "ocotillo__rain_leafed",
+          "description": "Rain-responsive small oval foliage on canes",
+          "dimensions_m": [
+            2.8087140321731567,
+            2.466700553894043,
+            3.372910976409912
+          ],
+          "bounds_m": {
+            "min": [
+              -1.4420374631881714,
+              -1.4010529518127441,
+              0.0
+            ],
+            "max": [
+              1.3666765689849854,
+              1.0656476020812988,
+              3.372910976409912
+            ]
+          }
+        },
+        {
+          "id": "scarlet-tips",
+          "collection": "ocotillo__scarlet_tips",
+          "description": "Dry canes with terminal scarlet tubular bloom clusters",
+          "dimensions_m": [
+            2.4299354553222656,
+            2.40625536441803,
+            4.226574897766113
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3790820837020874,
+              -1.194922685623169,
+              0.0
+            ],
+            "max": [
+              1.0508533716201782,
+              1.2113326787948608,
+              4.226574897766113
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Southwest dryland; foliage responds to moisture, never assume permanent lush foliage.",
+        "sun": "Sunny landscape intent; confirm local exposure before planting",
+        "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+        "establishment_water": "Local horticultural specification required",
+        "ongoing_water": "Dryland concept; irrigation needs not engineered",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown"
+      },
+      "botanical_sources": [
+        "https://extension.arizona.edu/publication/cactus-agave-yucca-and-ocotillo"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent coastal specialist",
+      "native_sha256": "b92fa2fe43fe8310e5c8deee28317f764973070c4249b7a90c3f4d3902fef687",
+      "preview_sha256": {
+        "preview.png": "1ad90aea4cee77808b38dade67db4b6ae64ea39d4fa785e09f5bff28e24e8c8a",
+        "detail.png": "12bde6fe0e1715300a04b99b12abe56e048c54a59285c83f0f32244f627cc69a"
+      }
+    },
+    {
+      "id": "landscape/parry-agave",
+      "version": "v001",
+      "name": "Parry\u2019s agave",
+      "group": "desert",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "parry-agave/v001/asset.json",
+      "blender": "parry-agave/v001/parry-agave.blend",
+      "preview": "parry-agave/v001/preview.png",
+      "detail": "parry-agave/v001/detail.png",
+      "validation": "parry-agave/v001/validation.json",
+      "botanical_name": "Agave parryi",
+      "variants": [
+        {
+          "id": "compact-rosette",
+          "collection": "parry_agave__compact_rosette",
+          "description": "Compact powder-blue fleshy rosette",
+          "dimensions_m": [
+            1.68232923746109,
+            1.55031818151474,
+            0.5573151707649231
+          ],
+          "bounds_m": {
+            "min": [
+              -0.906120240688324,
+              -0.8428876399993896,
+              0.0
+            ],
+            "max": [
+              0.7762089967727661,
+              0.7074305415153503,
+              0.5573151707649231
+            ]
+          }
+        },
+        {
+          "id": "offset-colony",
+          "collection": "parry_agave__offset_colony",
+          "description": "Mature rosette with four smaller offsets",
+          "dimensions_m": [
+            2.2073912620544434,
+            2.25115704536438,
+            0.6746317744255066
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0968667268753052,
+              -1.2229853868484497,
+              0.0
+            ],
+            "max": [
+              1.1105245351791382,
+              1.0281716585159302,
+              0.6746317744255066
+            ]
+          }
+        },
+        {
+          "id": "flowering-stalk",
+          "collection": "parry_agave__flowering_stalk",
+          "description": "Mature terminal flowering rosette and branched stalk",
+          "dimensions_m": [
+            2.0364737510681152,
+            1.8766725063323975,
+            4.0008649826049805
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0968667268753052,
+              -1.0203227996826172,
+              0.0
+            ],
+            "max": [
+              0.9396070241928101,
+              0.8563497066497803,
+              4.0008649826049805
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Upland Southwest; site suitability differs from low desert; sharp teeth require path setbacks.",
+        "sun": "Sunny landscape intent; confirm local exposure before planting",
+        "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+        "establishment_water": "Local horticultural specification required",
+        "ongoing_water": "Dryland concept; irrigation needs not engineered",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown"
+      },
+      "botanical_sources": [
+        "https://arboretum.arizona.edu/agave-parryi-parrys-agave"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Desert author visual review",
+      "native_sha256": "4a32663817291cc131e897d2389f2a370d2df6ac93dea01ed2c5bc45e1dfdde8",
+      "preview_sha256": {
+        "preview.png": "f236970d1d8cab77a80218f4dbc5c9f3bdf2b1e32cefc6ad5f35087695d2a672",
+        "detail.png": "3b7798b08db6550c64063c40c974b175dd80eeab6046bf736cf3298ed7fff4b0"
+      }
+    },
+    {
+      "id": "landscape/fishhook-barrel-cactus",
+      "version": "v001",
+      "name": "Fishhook barrel cactus",
+      "group": "desert",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "fishhook-barrel-cactus/v001/asset.json",
+      "blender": "fishhook-barrel-cactus/v001/fishhook-barrel-cactus.blend",
+      "preview": "fishhook-barrel-cactus/v001/preview.png",
+      "detail": "fishhook-barrel-cactus/v001/detail.png",
+      "validation": "fishhook-barrel-cactus/v001/validation.json",
+      "botanical_name": "Ferocactus wislizeni",
+      "variants": [
+        {
+          "id": "small-barrel",
+          "collection": "fishhook_barrel_cactus__small_barrel",
+          "description": "Small rounded barrel with ribbed skin and hooks",
+          "dimensions_m": [
+            0.7295481860637665,
+            0.7379066348075867,
+            0.5199999809265137
+          ],
+          "bounds_m": {
+            "min": [
+              -0.36764800548553467,
+              -0.36540117859840393,
+              0.0
+            ],
+            "max": [
+              0.3619001805782318,
+              0.37250545620918274,
+              0.5199999809265137
+            ]
+          }
+        },
+        {
+          "id": "leaning-column",
+          "collection": "fishhook_barrel_cactus__leaning_column",
+          "description": "Mature gently leaning column with hooked central spines",
+          "dimensions_m": [
+            0.942121684551239,
+            0.9181656837463379,
+            1.350000023841858
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4175904393196106,
+              -0.45655226707458496,
+              0.0
+            ],
+            "max": [
+              0.5245312452316284,
+              0.46161341667175293,
+              1.350000023841858
+            ]
+          }
+        },
+        {
+          "id": "flower-ring",
+          "collection": "fishhook_barrel_cactus__flower_ring",
+          "description": "Mature barrel with orange-yellow flower ring",
+          "dimensions_m": [
+            0.8698013126850128,
+            0.859607994556427,
+            0.9399999976158142
+          ],
+          "bounds_m": {
+            "min": [
+              -0.4355410635471344,
+              -0.42648839950561523,
+              0.0
+            ],
+            "max": [
+              0.4342602491378784,
+              0.43311959505081177,
+              0.9399999976158142
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Sonoran and Southwest hot-dry accent; substantial hook spines must stay outside circulation.",
+        "sun": "Sunny landscape intent; confirm local exposure before planting",
+        "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+        "establishment_water": "Local horticultural specification required",
+        "ongoing_water": "Dryland concept; irrigation needs not engineered",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown"
+      },
+      "botanical_sources": [
+        "https://www.nps.gov/tont/learn/nature/cacti.htm"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent coastal specialist",
+      "native_sha256": "af103f8d58e309bfe25dc21c07a8eab0636fedfcadeeded0b0e47921fa0f0204",
+      "preview_sha256": {
+        "preview.png": "08f05f8e2e24cec887a4c230d52b4bda97bf5376ec0502df18b816d959e4005f",
+        "detail.png": "cf1147f64ae2a04e0f7c69ae29d06952ef5992f9c0ca335a5956ec83493c7967"
+      }
+    },
+    {
+      "id": "landscape/blue-grama",
+      "version": "v001",
+      "name": "Blue grama",
+      "group": "xeric",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "blue-grama/v001/asset.json",
+      "blender": "blue-grama/v001/blue-grama.blend",
+      "preview": "blue-grama/v001/preview.png",
+      "detail": "blue-grama/v001/detail.png",
+      "validation": "blue-grama/v001/validation.json",
+      "botanical_name": "Bouteloua gracilis",
+      "variants": [
+        {
+          "id": "young-green",
+          "collection": "blue-grama__young-green",
+          "description": "Young green bunch; lower narrow arching blades, no mature seedheads.",
+          "dimensions_m": [
+            0.44007375836372375,
+            0.39288048446178436,
+            0.22975827753543854
+          ],
+          "bounds_m": {
+            "min": [
+              -0.21781598031520844,
+              -0.1994895040988922,
+              0.0
+            ],
+            "max": [
+              0.22225777804851532,
+              0.19339098036289215,
+              0.22975827753543854
+            ]
+          }
+        },
+        {
+          "id": "eyelash-seedheads",
+          "collection": "blue-grama__eyelash-seedheads",
+          "description": "Mature arching blue-green bunch with one-sided comb-like eyelash seedheads.",
+          "dimensions_m": [
+            0.683076411485672,
+            0.6388490200042725,
+            0.6583529766940046
+          ],
+          "bounds_m": {
+            "min": [
+              -0.3392842411994934,
+              -0.34139546751976013,
+              -0.00031036700238473713
+            ],
+            "max": [
+              0.3437921702861786,
+              0.29745355248451233,
+              0.6580426096916199
+            ]
+          }
+        },
+        {
+          "id": "dormant-straw",
+          "collection": "blue-grama__dormant-straw",
+          "description": "Dormant straw bunch with splayed stems and retained dry asymmetric seedheads.",
+          "dimensions_m": [
+            0.5737575888633728,
+            0.6004936099052429,
+            0.5769036520796362
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2845509648323059,
+              -0.28456345200538635,
+              -0.0003747452574316412
+            ],
+            "max": [
+              0.2892066240310669,
+              0.31593015789985657,
+              0.5765289068222046
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "climate_basis": "Sunny prairie and steppe; water-wise is a browse tag, not approval for every dry climate.",
+        "sun": "Full sun; verify actual site exposure",
+        "soil": "Well-drained; site-specific soil suitability requires local review",
+        "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "fire_safety": "not evaluated"
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/native-grasses-for-use-in-colorado-landscapes/",
+          "supports": "Prairie grass selection; narrow bunch habit and distinctive seedheads."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "33d23857e06ecad28a694dcab8de3cb36e26cb9246739b0e54fe34d610aa3aa0",
+      "preview_sha256": {
+        "preview.png": "55616b0577a6f336ff93e4df5b725b2fb5cd3c2604bd856d1461d8cbf2ffaa01",
+        "detail.png": "9cd4947ac19cdedfb99ff1ce7ee117edee26d8489b8eb1cd4ed3c5d1a29f0db6"
+      }
+    },
+    {
+      "id": "landscape/little-bluestem",
+      "version": "v001",
+      "name": "Little bluestem",
+      "group": "xeric",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "little-bluestem/v001/asset.json",
+      "blender": "little-bluestem/v001/little-bluestem.blend",
+      "preview": "little-bluestem/v001/preview.png",
+      "detail": "little-bluestem/v001/detail.png",
+      "validation": "little-bluestem/v001/validation.json",
+      "botanical_name": "Schizachyrium scoparium",
+      "variants": [
+        {
+          "id": "summer-blue",
+          "collection": "little-bluestem__summer-blue",
+          "description": "Upright blue-green summer tussock with narrow folded blades.",
+          "dimensions_m": [
+            0.511803075671196,
+            0.5072953402996063,
+            1.1192031217506155
+          ],
+          "bounds_m": {
+            "min": [
+              -0.24185948073863983,
+              -0.25836381316185,
+              -0.000427157967351377
+            ],
+            "max": [
+              0.26994359493255615,
+              0.24893152713775635,
+              1.1187759637832642
+            ]
+          }
+        },
+        {
+          "id": "copper-autumn",
+          "collection": "little-bluestem__copper-autumn",
+          "description": "Copper autumn clump with taller reddish jointed stems and developing racemes.",
+          "dimensions_m": [
+            0.5215849131345749,
+            0.5332175493240356,
+            1.1178116804512683
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2903394401073456,
+              -0.2726030647754669,
+              -0.0003197199257556349
+            ],
+            "max": [
+              0.2312454730272293,
+              0.2606144845485687,
+              1.1174919605255127
+            ]
+          }
+        },
+        {
+          "id": "winter-seed",
+          "collection": "little-bluestem__winter-seed",
+          "description": "Open standing winter clump with tan blades and retained pale hairy seeds.",
+          "dimensions_m": [
+            0.5388070344924927,
+            0.5164722949266434,
+            1.1174881325860042
+          ],
+          "bounds_m": {
+            "min": [
+              -0.25405317544937134,
+              -0.21665923297405243,
+              -0.0003800259728450328
+            ],
+            "max": [
+              0.28475385904312134,
+              0.29981306195259094,
+              1.1171081066131592
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "climate_basis": "Sunny prairie garden with drainage; selection for region and soil remains site-specific.",
+        "sun": "Full sun; verify actual site exposure",
+        "soil": "Well-drained; site-specific soil suitability requires local review",
+        "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "fire_safety": "not evaluated"
+      },
+      "botanical_sources": [
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/",
+          "supports": "Upright bunchgrass; blue-green summer, copper seasonal change and persistent hairy seeds."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "284d3fe7ef384c3252e1a29df579f7d55d5505ef9e4b1b01ead81fe45c95cbc9",
+      "preview_sha256": {
+        "preview.png": "da4606106a70931d6903d8acded2ab71a09beda1bccafd035a8abe7f51e7f156",
+        "detail.png": "4f72ddda9203f57496a104eb3a12ddff80f9be6648c3b33c88620fb8e604e606"
+      }
+    },
+    {
+      "id": "landscape/pineleaf-penstemon",
+      "version": "v001",
+      "name": "Pineleaf penstemon",
+      "group": "xeric",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "pineleaf-penstemon/v001/asset.json",
+      "blender": "pineleaf-penstemon/v001/pineleaf-penstemon.blend",
+      "preview": "pineleaf-penstemon/v001/preview.png",
+      "detail": "pineleaf-penstemon/v001/detail.png",
+      "validation": "pineleaf-penstemon/v001/validation.json",
+      "botanical_name": "Penstemon pinifolius",
+      "variants": [
+        {
+          "id": "needle-cushion",
+          "collection": "pineleaf-penstemon__needle-cushion",
+          "description": "Low evergreen needle-leaf cushion without flower stems.",
+          "dimensions_m": [
+            0.4557890146970749,
+            0.4506095349788666,
+            0.2560247030341998
+          ],
+          "bounds_m": {
+            "min": [
+              -0.23486939072608948,
+              -0.2174357771873474,
+              -0.0011526193702593446
+            ],
+            "max": [
+              0.2209196239709854,
+              0.23317375779151917,
+              0.25487208366394043
+            ]
+          }
+        },
+        {
+          "id": "orange-red-bloom",
+          "collection": "pineleaf-penstemon__orange-red-bloom",
+          "description": "Loose orange-red tubular flower spikes above a needle-leaf cushion.",
+          "dimensions_m": [
+            0.4973054528236389,
+            0.4832262694835663,
+            0.39529069897253066
+          ],
+          "bounds_m": {
+            "min": [
+              -0.24072769284248352,
+              -0.23770427703857422,
+              -0.0010749363573268056
+            ],
+            "max": [
+              0.2565777599811554,
+              0.24552199244499207,
+              0.39421576261520386
+            ]
+          }
+        },
+        {
+          "id": "mersea-yellow",
+          "collection": "pineleaf-penstemon__mersea-yellow",
+          "description": "Mersea Yellow cultivar interpretation with upward narrow yellow tubular flowers.",
+          "dimensions_m": [
+            0.4913024455308914,
+            0.47718730568885803,
+            0.3907605599379167
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2598416209220886,
+              -0.23996849358081818,
+              -0.0011456202482804656
+            ],
+            "max": [
+              0.2314608246088028,
+              0.23721881210803986,
+              0.38961493968963623
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "climate_basis": "Sunny well-drained gravel and dry garden; winter moisture and frost tolerance require locality review.",
+        "sun": "Full sun; verify actual site exposure",
+        "soil": "Well-drained; site-specific soil suitability requires local review",
+        "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "fire_safety": "not evaluated"
+      },
+      "botanical_sources": [
+        {
+          "url": "https://extension.colostate.edu/resource/herbaceous-perennials/",
+          "supports": "Dry garden perennial selection."
+        },
+        {
+          "url": "https://www.rhs.org.uk/plants/99125/penstemon-pinifolius-mersea-yellow/details",
+          "supports": "Named yellow selection, needle foliage, spreading subshrub and narrow 2.5 cm yellow tubes."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "036dcca78be1a7160925f6ddd7497281316ae7d0a45ead39e8f8478e38f0d1d5",
+      "preview_sha256": {
+        "preview.png": "a62e48f2fbadc9056f9c65c9ebd127b487488ebd03903888f87a83b7bb40c381",
+        "detail.png": "b30f0c496b2ec8e4e00b85f0a757323295b3936e70e0f7fd6703992d7d4f3670"
+      }
+    },
+    {
+      "id": "landscape/fernbush",
+      "version": "v001",
+      "name": "Fernbush",
+      "group": "xeric",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "fernbush/v001/asset.json",
+      "blender": "fernbush/v001/fernbush.blend",
+      "preview": "fernbush/v001/preview.png",
+      "detail": "fernbush/v001/detail.png",
+      "validation": "fernbush/v001/validation.json",
+      "botanical_name": "Chamaebatiaria millefolium",
+      "variants": [
+        {
+          "id": "young-lacy",
+          "collection": "fernbush__young-lacy",
+          "description": "Young open lacy shrub with twice-divided fern-like foliage.",
+          "dimensions_m": [
+            0.9125140607357025,
+            0.9442094564437866,
+            0.6680200234986842
+          ],
+          "bounds_m": {
+            "min": [
+              -0.46666213870048523,
+              -0.4593523144721985,
+              -0.004457844886928797
+            ],
+            "max": [
+              0.4458519220352173,
+              0.48485714197158813,
+              0.6635621786117554
+            ]
+          }
+        },
+        {
+          "id": "mature-white-bloom",
+          "collection": "fernbush__mature-white-bloom",
+          "description": "Spreading mature shrub with many white terminal panicles and lacy foliage.",
+          "dimensions_m": [
+            1.7706642746925354,
+            1.7630849480628967,
+            1.5151604441925883
+          ],
+          "bounds_m": {
+            "min": [
+              -0.8265380859375,
+              -0.8210906982421875,
+              -0.01050961297005415
+            ],
+            "max": [
+              0.9441261887550354,
+              0.9419942498207092,
+              1.5046508312225342
+            ]
+          }
+        },
+        {
+          "id": "winter-structure",
+          "collection": "fernbush__winter-structure",
+          "description": "Sparse winter branching shrub with reduced dry foliage and spent panicles.",
+          "dimensions_m": [
+            1.1264491081237793,
+            1.264383614063263,
+            1.2617732947692275
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5180871486663818,
+              -0.6482170820236206,
+              -0.00881535466760397
+            ],
+            "max": [
+              0.6083619594573975,
+              0.6161665320396423,
+              1.2529579401016235
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "climate_basis": "Intermountain western garden shrub; allow mature spreading habit and verify local hardiness.",
+        "sun": "Full sun; verify actual site exposure",
+        "soil": "Well-drained; site-specific soil suitability requires local review",
+        "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "fire_safety": "not evaluated"
+      },
+      "botanical_sources": [
+        {
+          "url": "https://arapahoe.extension.colostate.edu/2025/09/03/from-the-hort-desk-23/",
+          "supports": "Intermountain shrub selection; fern-like foliage and white flowers."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "55a1da7495ed4453b0f235a5d71b8dca2e3a2fd06f949245adb95c4e41c7a7d1",
+      "preview_sha256": {
+        "preview.png": "020975da2c3ff9c5525e26fce65b241dc301ee16210008b0f65c82d8867200dd",
+        "detail.png": "58d6352d60652ff6034d96b16998d4c87f658554fdd8b23f11642730f95c326a"
+      }
+    },
+    {
+      "id": "landscape/prairie-coneflower",
+      "version": "v001",
+      "name": "Prairie coneflower",
+      "group": "xeric",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "prairie-coneflower/v001/asset.json",
+      "blender": "prairie-coneflower/v001/prairie-coneflower.blend",
+      "preview": "prairie-coneflower/v001/preview.png",
+      "detail": "prairie-coneflower/v001/detail.png",
+      "validation": "prairie-coneflower/v001/validation.json",
+      "botanical_name": "Ratibida columnifera",
+      "variants": [
+        {
+          "id": "yellow-rays",
+          "collection": "prairie-coneflower__yellow-rays",
+          "description": "Yellow ray flowers with elongated brown-green centers and finely divided foliage.",
+          "dimensions_m": [
+            0.3957754224538803,
+            0.48280948400497437,
+            0.845679490827024
+          ],
+          "bounds_m": {
+            "min": [
+              -0.1830146610736847,
+              -0.24014981091022491,
+              -0.0007028868421912193
+            ],
+            "max": [
+              0.21276076138019562,
+              0.24265967309474945,
+              0.8449766039848328
+            ]
+          }
+        },
+        {
+          "id": "red-yellow-rays",
+          "collection": "prairie-coneflower__red-yellow-rays",
+          "description": "Red-brown ray bases with yellow tips; distinctly drooping rays around tall cones.",
+          "dimensions_m": [
+            0.42190787196159363,
+            0.4392911195755005,
+            0.8288874084828421
+          ],
+          "bounds_m": {
+            "min": [
+              -0.21992109715938568,
+              -0.2144467532634735,
+              -0.0006820018170401454
+            ],
+            "max": [
+              0.20198677480220795,
+              0.22484436631202698,
+              0.828205406665802
+            ]
+          }
+        },
+        {
+          "id": "dry-cones",
+          "collection": "prairie-coneflower__dry-cones",
+          "description": "Dry elongated seed cones above sparse dormant tan stems and foliage.",
+          "dimensions_m": [
+            0.3780934065580368,
+            0.4494338929653168,
+            0.7843580774497241
+          ],
+          "bounds_m": {
+            "min": [
+              -0.2293643057346344,
+              -0.23243920505046844,
+              -0.0007453493308275938
+            ],
+            "max": [
+              0.1487291008234024,
+              0.21699468791484833,
+              0.7836127281188965
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "climate_basis": "Sunny prairie and low-water garden with suitable drainage; verify local range and soil.",
+        "sun": "Full sun; verify actual site exposure",
+        "soil": "Well-drained; site-specific soil suitability requires local review",
+        "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+        "salt_spray": "unknown",
+        "saline_inundation": "unknown",
+        "fire_safety": "not evaluated"
+      },
+      "botanical_sources": [
+        {
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=277224",
+          "supports": "Clump-forming 1\u20133 foot habit, long central disk and drooping rays; brownish-purple form pulcherrima."
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "da009807003f1c9b57fb4e51267c2d2434eb4c77d401daa3b47d694f68b98f97",
+      "preview_sha256": {
+        "preview.png": "90e9f9054f2fad2b8dc98c1c0494c5b45dad394b07d8e87fbe38a1e2d087c626",
+        "detail.png": "71efac3692e459b40e96b3d8c4e080efd2dee6452c32865c27dad89369d51e2d"
+      }
+    },
+    {
+      "id": "landscape/shore-pine",
+      "version": "v001",
+      "name": "Shore Pine",
+      "group": "coastal",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "shore-pine/v001/asset.json",
+      "blender": "shore-pine/v001/shore-pine.blend",
+      "preview": "shore-pine/v001/preview.png",
+      "detail": "shore-pine/v001/detail.png",
+      "validation": "shore-pine/v001/validation.json",
+      "botanical_name": "Pinus contorta var. contorta",
+      "variants": [
+        {
+          "id": "young-open",
+          "collection": "shore-pine-young-open",
+          "description": "Young open crown with visible branching and paired needles.",
+          "dimensions_m": [
+            2.642008662223816,
+            2.6819121837615967,
+            3.4018001556396484
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3279361724853516,
+              -1.4258183240890503,
+              0.0
+            ],
+            "max": [
+              1.3140724897384644,
+              1.2560938596725464,
+              3.4018001556396484
+            ]
+          }
+        },
+        {
+          "id": "irregular-mature",
+          "collection": "shore-pine-irregular-mature",
+          "description": "Irregular mature open crown with woody cones.",
+          "dimensions_m": [
+            4.678683042526245,
+            4.549400329589844,
+            5.706737041473389
+          ],
+          "bounds_m": {
+            "min": [
+              -2.205561876296997,
+              -2.528367042541504,
+              0.0
+            ],
+            "max": [
+              2.473121166229248,
+              2.02103328704834,
+              5.706737041473389
+            ]
+          }
+        },
+        {
+          "id": "wind-shaped",
+          "collection": "shore-pine-wind-shaped",
+          "description": "Wind-shaped leaning trunk and asymmetric spread; stylized coastal exposure.",
+          "dimensions_m": [
+            3.118011884391308,
+            4.163380861282349,
+            4.470401763916016
+          ],
+          "bounds_m": {
+            "min": [
+              -0.09845750778913498,
+              -2.0150201320648193,
+              0.0
+            ],
+            "max": [
+              3.019554376602173,
+              2.1483607292175293,
+              4.470401763916016
+            ]
+          }
+        }
+      ],
+      "site_selection": "Cool Pacific coastal exposure; not a universal warm-beach tree.",
+      "botanical_sources": [
+        "https://landscapeplants.oregonstate.edu/plants/pinus-contorta-var-contorta"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "89ace8c3e8d95577ee7e48772c498a11fd2fa30a4b51a433ffa400ff30edc19c",
+      "preview_sha256": {
+        "preview.png": "6794e58375fba8f096d4d5aa5707fb228822fac6c233f193b78a0d7d5c0e8588",
+        "detail.png": "78bb20d98c694309e33900fa310bae62a2c9f1e4a858b639c4b50fca9da66b19"
+      }
+    },
+    {
+      "id": "landscape/coast-silktassel",
+      "version": "v001",
+      "name": "Coast Silktassel",
+      "group": "coastal",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "coast-silktassel/v001/asset.json",
+      "blender": "coast-silktassel/v001/coast-silktassel.blend",
+      "preview": "coast-silktassel/v001/preview.png",
+      "detail": "coast-silktassel/v001/detail.png",
+      "validation": "coast-silktassel/v001/validation.json",
+      "botanical_name": "Garrya elliptica",
+      "variants": [
+        {
+          "id": "leafy-screen",
+          "collection": "coast-silktassel-leafy-screen",
+          "description": "Dense leafy evergreen screen.",
+          "dimensions_m": [
+            2.563302516937256,
+            2.744690775871277,
+            2.2884299755096436
+          ],
+          "bounds_m": {
+            "min": [
+              -1.2607942819595337,
+              -1.377457857131958,
+              0.0
+            ],
+            "max": [
+              1.3025082349777222,
+              1.3672329187393188,
+              2.2884299755096436
+            ]
+          }
+        },
+        {
+          "id": "winter-male-catkins",
+          "collection": "coast-silktassel-winter-male-catkins",
+          "description": "Winter male flowering specimen with pendulous catkins.",
+          "dimensions_m": [
+            3.133228302001953,
+            3.165077328681946,
+            2.764810562133789
+          ],
+          "bounds_m": {
+            "min": [
+              -1.5629055500030518,
+              -1.5910266637802124,
+              0.0
+            ],
+            "max": [
+              1.5703227519989014,
+              1.5740506649017334,
+              2.764810562133789
+            ]
+          }
+        },
+        {
+          "id": "open-small-tree",
+          "collection": "coast-silktassel-open-small-tree",
+          "description": "Pruned small tree with visible lower stems.",
+          "dimensions_m": [
+            3.519276976585388,
+            3.6733245849609375,
+            3.8389170169830322
+          ],
+          "bounds_m": {
+            "min": [
+              -1.8338830471038818,
+              -1.8295469284057617,
+              0.0
+            ],
+            "max": [
+              1.6853939294815063,
+              1.8437776565551758,
+              3.8389170169830322
+            ]
+          }
+        }
+      ],
+      "site_selection": "Mild Pacific gardens; sheltered siting unless exposure is verified.",
+      "botanical_sources": [
+        "https://landscapeplants.oregonstate.edu/plants/garrya-elliptica"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "bfc77e411426a04553cd483f23ff18f520425852495625c1cd217e3275eee15d",
+      "preview_sha256": {
+        "preview.png": "4888d4e081efb9bd60f2ab8c258e894e52b32207c0a0ccff1edc26383d2b5112",
+        "detail.png": "0872578e984f9e729e7467b3259db42b0fcf112842d0fa86799fe56e31e2d881"
+      }
+    },
+    {
+      "id": "landscape/beach-strawberry",
+      "version": "v001",
+      "name": "Beach Strawberry",
+      "group": "coastal",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "beach-strawberry/v001/asset.json",
+      "blender": "beach-strawberry/v001/beach-strawberry.blend",
+      "preview": "beach-strawberry/v001/preview.png",
+      "detail": "beach-strawberry/v001/detail.png",
+      "validation": "beach-strawberry/v001/validation.json",
+      "botanical_name": "Fragaria chiloensis",
+      "variants": [
+        {
+          "id": "glossy-low-mat",
+          "collection": "beach-strawberry-glossy-low-mat",
+          "description": "Dense low mat of visibly separate rounded, finely serrated three-part leaves.",
+          "dimensions_m": [
+            1.0583220720291138,
+            1.0571703910827637,
+            0.0766497477889061
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5282739400863647,
+              -0.5407658815383911,
+              0.0
+            ],
+            "max": [
+              0.530048131942749,
+              0.5164045095443726,
+              0.0766497477889061
+            ]
+          }
+        },
+        {
+          "id": "white-flowering",
+          "collection": "beach-strawberry-white-flowering",
+          "description": "White five-petal flowers over a dense trifoliate mat.",
+          "dimensions_m": [
+            1.0256335139274597,
+            1.030629575252533,
+            0.10999999195337296
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5066456198692322,
+              -0.5036642551422119,
+              0.0
+            ],
+            "max": [
+              0.5189878940582275,
+              0.526965320110321,
+              0.10999999195337296
+            ]
+          }
+        },
+        {
+          "id": "runner-edge-colony",
+          "collection": "beach-strawberry-runner-edge-colony",
+          "description": "Trailing colony with ground-hugging runners and rooted juvenile trifoliate rosettes.",
+          "dimensions_m": [
+            1.0514422059059143,
+            1.0420539379119873,
+            0.07647179067134857
+          ],
+          "bounds_m": {
+            "min": [
+              -0.45086604356765747,
+              -0.5098667144775391,
+              0.0
+            ],
+            "max": [
+              0.6005761623382568,
+              0.5321872234344482,
+              0.07647179067134857
+            ]
+          }
+        }
+      ],
+      "site_selection": "Cool Pacific coastal groundcover; no crop production promise.",
+      "botanical_sources": [
+        "https://depts.washington.edu/propplnt/Plants/fragariachiloensis.htm"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "64938255ecc05413467b261e3f47bfc86bdd7c0d4861b06e1392573faf26cbf6",
+      "preview_sha256": {
+        "preview.png": "43526493d876b8933d2563dd8a0546bae63711e394fa5aadddf891d003a85da2",
+        "detail.png": "89896c334d2deda9494eaa39b511f5f13a298cc2286547314b37a7304cbb11bd"
+      }
+    },
+    {
+      "id": "landscape/sea-oats",
+      "version": "v001",
+      "name": "Sea Oats",
+      "group": "coastal",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "sea-oats/v001/asset.json",
+      "blender": "sea-oats/v001/sea-oats.blend",
+      "preview": "sea-oats/v001/preview.png",
+      "detail": "sea-oats/v001/detail.png",
+      "validation": "sea-oats/v001/validation.json",
+      "botanical_name": "Uniola paniculata",
+      "variants": [
+        {
+          "id": "young-dune-clump",
+          "collection": "sea-oats-young-dune-clump",
+          "description": "Young dune grass clump without mature seedheads.",
+          "dimensions_m": [
+            1.16891211271286,
+            1.1653677225112915,
+            0.7985816597938538
+          ],
+          "bounds_m": {
+            "min": [
+              -0.561653733253479,
+              -0.5944967865943909,
+              0.0
+            ],
+            "max": [
+              0.6072583794593811,
+              0.5708709359169006,
+              0.7985816597938538
+            ]
+          }
+        },
+        {
+          "id": "green-seed-panicles",
+          "collection": "sea-oats-green-seed-panicles",
+          "description": "Summer green flattened spikelet panicles.",
+          "dimensions_m": [
+            1.243819236755371,
+            1.2021694779396057,
+            1.78751802444458
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5956109762191772,
+              -0.5901010036468506,
+              0.0
+            ],
+            "max": [
+              0.6482082605361938,
+              0.6120684742927551,
+              1.78751802444458
+            ]
+          }
+        },
+        {
+          "id": "tan-flattened-seedheads",
+          "collection": "sea-oats-tan-flattened-seedheads",
+          "description": "Late-season tan flattened spikelets above green to straw culms.",
+          "dimensions_m": [
+            1.1492144465446472,
+            1.1059725880622864,
+            1.7861822843551636
+          ],
+          "bounds_m": {
+            "min": [
+              -0.5391623973846436,
+              -0.5517552495002747,
+              0.0
+            ],
+            "max": [
+              0.6100520491600037,
+              0.5542173385620117,
+              1.7861822843551636
+            ]
+          }
+        }
+      ],
+      "site_selection": "Warm Atlantic and Gulf dune planting; nursery material and local restoration rules apply.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/uniola-paniculata/common-name/sea-oats/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "231229bdf2209d9beb57b5bf858cc3f61cd0e2c50d797bdaa57a4e085694a090",
+      "preview_sha256": {
+        "preview.png": "0a451e99a2e5fe69f7ecdacfcff9a13bee30530a231987733b6bab2680b66b0d",
+        "detail.png": "6c6c807e113bed0ae03837a25a16a15833c2659373bd07f54d35ee1b581e001e"
+      }
+    },
+    {
+      "id": "landscape/yaupon-holly",
+      "version": "v001",
+      "name": "Yaupon Holly",
+      "group": "coastal",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "yaupon-holly/v001/asset.json",
+      "blender": "yaupon-holly/v001/yaupon-holly.blend",
+      "preview": "yaupon-holly/v001/preview.png",
+      "detail": "yaupon-holly/v001/detail.png",
+      "validation": "yaupon-holly/v001/validation.json",
+      "botanical_name": "Ilex vomitoria",
+      "variants": [
+        {
+          "id": "natural-multistem",
+          "collection": "yaupon-holly-natural-multistem",
+          "description": "Natural multi-stem evergreen small tree.",
+          "dimensions_m": [
+            3.629668951034546,
+            3.6192084550857544,
+            4.246337890625
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7711105346679688,
+              -1.8160632848739624,
+              0.0
+            ],
+            "max": [
+              1.8585584163665771,
+              1.803145170211792,
+              4.246337890625
+            ]
+          }
+        },
+        {
+          "id": "dwarf-yaupon-nana",
+          "collection": "yaupon-holly-dwarf-yaupon-nana",
+          "description": "Compact mounded form representing dwarf cultivar Nana; no fruit claim.",
+          "dimensions_m": [
+            2.0634580850601196,
+            1.9853260517120361,
+            1.1288552284240723
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0470284223556519,
+              -0.9877435564994812,
+              0.0
+            ],
+            "max": [
+              1.0164296627044678,
+              0.9975824952125549,
+              1.1288552284240723
+            ]
+          }
+        },
+        {
+          "id": "fruiting-female",
+          "collection": "yaupon-holly-fruiting-female",
+          "description": "Female fruiting specimen; red berries imply compatible pollination, not guaranteed yield.",
+          "dimensions_m": [
+            3.0270960330963135,
+            2.9991657733917236,
+            3.2752010822296143
+          ],
+          "bounds_m": {
+            "min": [
+              -1.4848333597183228,
+              -1.497312307357788,
+              0.0
+            ],
+            "max": [
+              1.5422626733779907,
+              1.5018534660339355,
+              3.2752010822296143
+            ]
+          }
+        }
+      ],
+      "site_selection": "Warm southeastern coastal garden; fruiting requires female stock and compatible pollination.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/ilex-vomitoria/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent mountain specialist",
+      "native_sha256": "bf3e9174809a34c8fa026ba0228af5d54d13bce9c107c567feb8bea1e4bff580",
+      "preview_sha256": {
+        "preview.png": "704db34f6440d9ac20c0af7ad994339e39f21b59a1fd5df4cfd22700b22ab9f7",
+        "detail.png": "9e7da055571831bbae896faa612568ed695157f9454409e5d39f7e4c1ea12b8d"
+      }
+    },
+    {
+      "id": "landscape/eastern-redbud",
+      "version": "v001",
+      "name": "Eastern redbud",
+      "group": "suburban",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "eastern-redbud/v001/asset.json",
+      "blender": "eastern-redbud/v001/eastern-redbud.blend",
+      "preview": "eastern-redbud/v001/preview.png",
+      "detail": "eastern-redbud/v001/detail.png",
+      "validation": "eastern-redbud/v001/validation.json",
+      "botanical_name": "Cercis canadensis",
+      "variants": [
+        {
+          "id": "summer-multistem",
+          "collection": "eastern-redbud__summer-multistem",
+          "description": "Airy leafy multi-stem summer tree with broad cordate blades",
+          "dimensions_m": [
+            6.4279749393463135,
+            6.207519054412842,
+            4.493832718580961
+          ],
+          "bounds_m": {
+            "min": [
+              -3.3027141094207764,
+              -3.1279988288879395,
+              -0.02955831214785576
+            ],
+            "max": [
+              3.125260829925537,
+              3.0795202255249023,
+              4.4642744064331055
+            ]
+          }
+        },
+        {
+          "id": "spring-flowering",
+          "collection": "eastern-redbud__spring-flowering",
+          "description": "Single trunk early spring specimen; pea-like magenta flowers on leafless branch wood",
+          "dimensions_m": [
+            5.309410095214844,
+            5.279510974884033,
+            4.335091304033995
+          ],
+          "bounds_m": {
+            "min": [
+              -2.618957042694092,
+              -2.676469087600708,
+              -0.022851180285215378
+            ],
+            "max": [
+              2.690453052520752,
+              2.603041887283325,
+              4.312240123748779
+            ]
+          }
+        },
+        {
+          "id": "winter-branching",
+          "collection": "eastern-redbud__winter-branching",
+          "description": "Exposed dormant branch structure; no leaves or blossom",
+          "dimensions_m": [
+            6.109739065170288,
+            5.643609285354614,
+            4.7073832005262375
+          ],
+          "bounds_m": {
+            "min": [
+              -3.1487298011779785,
+              -2.7508132457733154,
+              -0.03126196563243866
+            ],
+            "max": [
+              2.9610092639923096,
+              2.892796039581299,
+              4.676121234893799
+            ]
+          }
+        }
+      ],
+      "site_selection": "Regional eastern North American garden candidate; verify local sun, moisture and form before selection. No coastal inundation or universal xeric suitability claim.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent orchard specialist",
+      "native_sha256": "8354204ba1d3686ac13fb82e573e6c603d09a9eb3e1a650b4da38494b8a89652",
+      "preview_sha256": {
+        "preview.png": "b489103597774378b3e5852d8cf230c774a74fe06eafa933071a5d656525f359",
+        "detail.png": "5e02862d105bcf9aea16aa995b67e55fcedc4a67068958fa6400b4cebc576e56"
+      }
+    },
+    {
+      "id": "landscape/panicle-hydrangea",
+      "version": "v001",
+      "name": "Panicle hydrangea",
+      "group": "suburban",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "panicle-hydrangea/v001/asset.json",
+      "blender": "panicle-hydrangea/v001/panicle-hydrangea.blend",
+      "preview": "panicle-hydrangea/v001/preview.png",
+      "detail": "panicle-hydrangea/v001/detail.png",
+      "validation": "panicle-hydrangea/v001/validation.json",
+      "botanical_name": "Hydrangea paniculata",
+      "variants": [
+        {
+          "id": "white-shrub",
+          "collection": "panicle-hydrangea__white-shrub",
+          "description": "Rounded white cone-flowering shrub",
+          "dimensions_m": [
+            1.738322377204895,
+            1.9716414213180542,
+            1.5142282648012042
+          ],
+          "bounds_m": {
+            "min": [
+              -0.9808586239814758,
+              -1.0415091514587402,
+              -0.012243668548762798
+            ],
+            "max": [
+              0.7574637532234192,
+              0.930132269859314,
+              1.5019845962524414
+            ]
+          }
+        },
+        {
+          "id": "late-pink-hedge",
+          "collection": "panicle-hydrangea__late-pink-hedge",
+          "description": "Loose late-season pinking panicle shrub; untrimmed hedge building block",
+          "dimensions_m": [
+            2.069679856300354,
+            2.0261553525924683,
+            1.4638326009735465
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0560650825500488,
+              -1.0259164571762085,
+              -0.01306746806949377
+            ],
+            "max": [
+              1.0136147737503052,
+              1.0002388954162598,
+              1.4507651329040527
+            ]
+          }
+        },
+        {
+          "id": "trained-tree",
+          "collection": "panicle-hydrangea__trained-tree",
+          "description": "Young trained standard; explicit trunk below cone-flowering crown",
+          "dimensions_m": [
+            1.9133018851280212,
+            1.7175440788269043,
+            2.536893660435453
+          ],
+          "bounds_m": {
+            "min": [
+              -0.9766684770584106,
+              -0.796551525592804,
+              -0.002346808323636651
+            ],
+            "max": [
+              0.9366334080696106,
+              0.9209925532341003,
+              2.5345468521118164
+            ]
+          }
+        }
+      ],
+      "site_selection": "Sun/partial shade and adequate moisture; cultivar, pruning and locality affect ultimate size. Late pink tones represent aging panicles, not a named cultivar claim.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/hydrangea-paniculata/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "a6a65cb24f2ff86e983a8cdad5688f1326c95e5dceb12735c4fb1ee9f86311bc",
+      "preview_sha256": {
+        "preview.png": "67b866e03586e4503d6450394e9c0d5d63d65969dd612ef08bd40755180114bf",
+        "detail.png": "d8c252a2663cbeb87715c9b92284494fa9e945720acff45e808b55096c7ccaa0"
+      }
+    },
+    {
+      "id": "landscape/ninebark",
+      "version": "v001",
+      "name": "Ninebark",
+      "group": "suburban",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "ninebark/v001/asset.json",
+      "blender": "ninebark/v001/ninebark.blend",
+      "preview": "ninebark/v001/preview.png",
+      "detail": "ninebark/v001/detail.png",
+      "validation": "ninebark/v001/validation.json",
+      "botanical_name": "Physocarpus opulifolius",
+      "variants": [
+        {
+          "id": "arching-green",
+          "collection": "ninebark__arching-green",
+          "description": "Arching green-leaf shrub",
+          "dimensions_m": [
+            2.879672050476074,
+            2.9128167629241943,
+            2.132628527469933
+          ],
+          "bounds_m": {
+            "min": [
+              -1.4432713985443115,
+              -1.4542495012283325,
+              -0.015202847309410572
+            ],
+            "max": [
+              1.4364006519317627,
+              1.4585672616958618,
+              2.1174256801605225
+            ]
+          }
+        },
+        {
+          "id": "compact-burgundy",
+          "collection": "ninebark__compact-burgundy",
+          "description": "Little Devil cultivar habit study; compact burgundy foliage",
+          "dimensions_m": [
+            2.069864273071289,
+            2.063062071800232,
+            1.4375516157597303
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0414944887161255,
+              -1.0463268756866455,
+              -0.010922430083155632
+            ],
+            "max": [
+              1.0283697843551636,
+              1.0167351961135864,
+              1.4266291856765747
+            ]
+          }
+        },
+        {
+          "id": "winter-exfoliating",
+          "collection": "ninebark__winter-exfoliating",
+          "description": "Dormant arching canes with actual curled exfoliating bark ribbons",
+          "dimensions_m": [
+            2.7756534814834595,
+            2.7843621969223022,
+            2.100719769485295
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3969523906707764,
+              -1.3925831317901611,
+              -0.014550288207828999
+            ],
+            "max": [
+              1.378701090812683,
+              1.3917790651321411,
+              2.086169481277466
+            ]
+          }
+        }
+      ],
+      "site_selection": "Select for actual summer heat, sun, soil and water. Foliage color is cultivar-specific; modeled compact size is not a species-wide mature size.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/physocarpus-opulifolius/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "5436a8624c69a5bf62c611a96ee14301a56bb466c7f750295460d95ec76e2a35",
+      "preview_sha256": {
+        "preview.png": "e3f07e8f0f9696efeb5bddf2c641cfff7e341b3cd2ba8169bf99ebb73f0e653e",
+        "detail.png": "d2dedae1d6c5c8269b388fe8fb1ebdb9a1d3f2915aa154b8b43a802514928cff"
+      }
+    },
+    {
+      "id": "landscape/american-hornbeam",
+      "version": "v001",
+      "name": "American hornbeam",
+      "group": "suburban",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "american-hornbeam/v001/asset.json",
+      "blender": "american-hornbeam/v001/american-hornbeam.blend",
+      "preview": "american-hornbeam/v001/preview.png",
+      "detail": "american-hornbeam/v001/detail.png",
+      "validation": "american-hornbeam/v001/validation.json",
+      "botanical_name": "Carpinus caroliniana",
+      "variants": [
+        {
+          "id": "young-slender",
+          "collection": "american-hornbeam__young-slender",
+          "description": "Slender young green tree",
+          "dimensions_m": [
+            3.915342092514038,
+            3.864800810813904,
+            4.321166688576341
+          ],
+          "bounds_m": {
+            "min": [
+              -1.9087672233581543,
+              -1.882415771484375,
+              -0.02280491031706333
+            ],
+            "max": [
+              2.006574869155884,
+              1.9823850393295288,
+              4.298361778259277
+            ]
+          }
+        },
+        {
+          "id": "mature-sculpted",
+          "collection": "american-hornbeam__mature-sculpted",
+          "description": "Mature crown over fluted muscle-like trunk",
+          "dimensions_m": [
+            7.965662002563477,
+            7.654965400695801,
+            6.132151994854212
+          ],
+          "bounds_m": {
+            "min": [
+              -4.106783866882324,
+              -3.8172106742858887,
+              -0.023005399852991104
+            ],
+            "max": [
+              3.8588781356811523,
+              3.837754726409912,
+              6.109146595001221
+            ]
+          }
+        },
+        {
+          "id": "autumn-multistem",
+          "collection": "american-hornbeam__autumn-multistem",
+          "description": "Multistem autumn orange canopy with sculpted trunks",
+          "dimensions_m": [
+            6.653518915176392,
+            6.882174491882324,
+            5.31946861371398
+          ],
+          "bounds_m": {
+            "min": [
+              -3.185201406478882,
+              -3.348784923553467,
+              -0.031549569219350815
+            ],
+            "max": [
+              3.4683175086975098,
+              3.5333895683288574,
+              5.287919044494629
+            ]
+          }
+        }
+      ],
+      "site_selection": "Moist woodland/understory character; verify drought exposure and soil before placement. Autumn coloring varies by specimen and site.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/carpinus-caroliniana/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent orchard specialist",
+      "native_sha256": "46ad44f44d5b30ce1e07bf2dd0ae1f0f31a021af670f9efe640e75d06eaf9de2",
+      "preview_sha256": {
+        "preview.png": "322770c542b0e8954fc0b10abf9f26685aaad46397391f511e787baafcdc3cc9",
+        "detail.png": "70e8f7784c1bf2091047d1be390affdd8fe10975c1544e2104b0985f3761487b"
+      }
+    },
+    {
+      "id": "landscape/japanese-laceleaf-maple",
+      "version": "v001",
+      "name": "Japanese laceleaf maple",
+      "group": "suburban",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "japanese-laceleaf-maple/v001/asset.json",
+      "blender": "japanese-laceleaf-maple/v001/japanese-laceleaf-maple.blend",
+      "preview": "japanese-laceleaf-maple/v001/preview.png",
+      "detail": "japanese-laceleaf-maple/v001/detail.png",
+      "validation": "japanese-laceleaf-maple/v001/validation.json",
+      "botanical_name": "Acer palmatum Dissectum Group",
+      "variants": [
+        {
+          "id": "green-cascade",
+          "collection": "japanese-laceleaf-maple__green-cascade",
+          "description": "Viridis habit study: broad green cascading dissected foliage",
+          "dimensions_m": [
+            4.816848278045654,
+            4.861944675445557,
+            1.9243578258901834
+          ],
+          "bounds_m": {
+            "min": [
+              -2.31414794921875,
+              -2.48746919631958,
+              -0.022072726860642433
+            ],
+            "max": [
+              2.5027003288269043,
+              2.3744754791259766,
+              1.902285099029541
+            ]
+          }
+        },
+        {
+          "id": "burgundy-weeping",
+          "collection": "japanese-laceleaf-maple__burgundy-weeping",
+          "description": "Crimson Queen habit study: low sweeping burgundy branch canopy",
+          "dimensions_m": [
+            4.6432788372039795,
+            4.6944146156311035,
+            1.6342395655810833
+          ],
+          "bounds_m": {
+            "min": [
+              -2.3390121459960938,
+              -2.284146785736084,
+              -0.022007714956998825
+            ],
+            "max": [
+              2.3042666912078857,
+              2.4102678298950195,
+              1.6122318506240845
+            ]
+          }
+        },
+        {
+          "id": "upright-dissected",
+          "collection": "japanese-laceleaf-maple__upright-dissected",
+          "description": "Seiryu habit study: upright airy branching with deeply dissected leaves",
+          "dimensions_m": [
+            4.130905270576477,
+            4.250404596328735,
+            3.85813825763762
+          ],
+          "bounds_m": {
+            "min": [
+              -1.935745120048523,
+              -2.1122140884399414,
+              -0.02280491031706333
+            ],
+            "max": [
+              2.195160150527954,
+              2.138190507888794,
+              3.8353333473205566
+            ]
+          }
+        }
+      ],
+      "site_selection": "Sheltered garden placement; assess afternoon sun, desiccating wind, drainage and climate. Fine dissected foliage and architectural habit are modeled; cultivar-specific cultivation remains a site selection decision.",
+      "botanical_sources": [
+        "https://plants.ces.ncsu.edu/plants/acer-palmatum-subsp-matsumurae/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "7466bded96b40f9d3c8fb4fe760ecff3478d3e0fd24cbddd52ee3c63ba75f6bf",
+      "preview_sha256": {
+        "preview.png": "7f8d3a455719f1c021407a847ef9e96de67144fb473f4392293c0f79810dc893",
+        "detail.png": "92df50b1edbfe2de5eb5f274967b26d8ec049fa04bcb97b19fbd99499160fc7d"
+      }
+    },
+    {
+      "id": "landscape/lemon-tree",
+      "version": "v001",
+      "name": "Lemon trees \u2014 Improved Meyer and Eureka",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "lemon-tree/v001/asset.json",
+      "blender": "lemon-tree/v001/lemon-tree.blend",
+      "preview": "lemon-tree/v001/preview.png",
+      "detail": "lemon-tree/v001/detail.png",
+      "validation": "lemon-tree/v001/validation.json",
+      "botanical_name": "Citrus \u00d7 meyeri; Citrus \u00d7 limon",
+      "variants": [
+        {
+          "id": "meyer-patio",
+          "collection": "lemon_tree__meyer_patio",
+          "description": "Winter fruit; patio-trained small standard, no container supplied",
+          "dimensions_m": [
+            2.042328417301178,
+            1.9890319108963013,
+            2.238750457763672
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0643157958984375,
+              -0.9849362373352051,
+              0.0
+            ],
+            "max": [
+              0.9780126214027405,
+              1.0040956735610962,
+              2.238750457763672
+            ]
+          }
+        },
+        {
+          "id": "eureka-garden",
+          "collection": "lemon_tree__eureka_garden",
+          "description": "Winter fruit; open spreading Eureka with longer outer shoots",
+          "dimensions_m": [
+            3.1951193809509277,
+            3.1272830963134766,
+            3.4177560806274414
+          ],
+          "bounds_m": {
+            "min": [
+              -1.6401976346969604,
+              -1.639198899269104,
+              0.0
+            ],
+            "max": [
+              1.5549217462539673,
+              1.4880841970443726,
+              3.4177560806274414
+            ]
+          }
+        },
+        {
+          "id": "meyer-blossom-fruit",
+          "collection": "lemon_tree__meyer_blossom_fruit",
+          "description": "Spring bloom with retained winter fruit; irregular low-branched Meyer",
+          "dimensions_m": [
+            2.5520094633102417,
+            2.4346824884414673,
+            2.5789096355438232
+          ],
+          "bounds_m": {
+            "min": [
+              -1.2619926929473877,
+              -1.1912660598754883,
+              0.0
+            ],
+            "max": [
+              1.290016770362854,
+              1.243416428565979,
+              2.5789096355438232
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc3737",
+        "https://citrusvariety.ucr.edu/crc3837"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "9acca1bcf0d186b46773d10237c5b7b3542976d07b61067f23d3aa3d9d89a1b9",
+      "preview_sha256": {
+        "preview.png": "08c612c6e83aa95ca8297ece5560765f58d3c9678ac333c84dcea1ba65180e4b",
+        "detail.png": "8cdae0b1b61635e760a7ca423716a731a9c945aa076ca6c8fa0a2d3c24f789a9"
+      }
+    },
+    {
+      "id": "landscape/lime-tree",
+      "version": "v001",
+      "name": "Bearss lime trees",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "lime-tree/v001/asset.json",
+      "blender": "lime-tree/v001/lime-tree.blend",
+      "preview": "lime-tree/v001/preview.png",
+      "detail": "lime-tree/v001/detail.png",
+      "validation": "lime-tree/v001/validation.json",
+      "botanical_name": "Citrus \u00d7 latifolia",
+      "variants": [
+        {
+          "id": "bearss-trained",
+          "collection": "lime_tree__bearss_trained",
+          "description": "Late summer; compact trained standard with harvest-green fruit",
+          "dimensions_m": [
+            2.1868211030960083,
+            2.341092824935913,
+            2.454859495162964
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1091033220291138,
+              -1.2215832471847534,
+              0.0
+            ],
+            "max": [
+              1.0777177810668945,
+              1.1195095777511597,
+              2.454859495162964
+            ]
+          }
+        },
+        {
+          "id": "bearss-natural",
+          "collection": "lime_tree__bearss_natural",
+          "description": "Late summer; low-branched spreading natural shrub with green fruit",
+          "dimensions_m": [
+            3.5149312019348145,
+            3.3204110860824585,
+            3.015103578567505
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7469394207000732,
+              -1.8416681289672852,
+              0.0
+            ],
+            "max": [
+              1.7679917812347412,
+              1.4787429571151733,
+              3.015103578567505
+            ]
+          }
+        },
+        {
+          "id": "bearss-ripe",
+          "collection": "lime_tree__bearss_ripe",
+          "description": "Late autumn; full-ripening yellow-green fruit, open garden crown",
+          "dimensions_m": [
+            2.7540407180786133,
+            3.0245848894119263,
+            2.830914258956909
+          ],
+          "bounds_m": {
+            "min": [
+              -1.4009913206100464,
+              -1.4639405012130737,
+              0.0
+            ],
+            "max": [
+              1.353049397468567,
+              1.5606443881988525,
+              2.830914258956909
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc3772"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "cfbdb7b80552c7df26c39e316d5cc739f519e7d8e133a17defff8fa437982e67",
+      "preview_sha256": {
+        "preview.png": "0f48cf1f37bd7b9a30577516296339ee76dcd481624ee1a2f07655a17d3c3a70",
+        "detail.png": "ab88fff72389d3dbded3cea8250ae4d70a0c595c5c01c8539c7f70c613e4dee0"
+      }
+    },
+    {
+      "id": "landscape/sweet-orange-tree",
+      "version": "v001",
+      "name": "Washington navel sweet orange trees",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "sweet-orange-tree/v001/asset.json",
+      "blender": "sweet-orange-tree/v001/sweet-orange-tree.blend",
+      "preview": "sweet-orange-tree/v001/preview.png",
+      "detail": "sweet-orange-tree/v001/detail.png",
+      "validation": "sweet-orange-tree/v001/validation.json",
+      "botanical_name": "Citrus sinensis",
+      "variants": [
+        {
+          "id": "washington-young",
+          "collection": "sweet_orange_tree__washington_young",
+          "description": "Summer; young open rounded crown, sparse small immature fruit",
+          "dimensions_m": [
+            2.1689453125,
+            2.3071151971817017,
+            2.7840137481689453
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1191171407699585,
+              -1.2472208738327026,
+              0.0
+            ],
+            "max": [
+              1.0498281717300415,
+              1.059894323348999,
+              2.7840137481689453
+            ]
+          }
+        },
+        {
+          "id": "washington-mature",
+          "collection": "sweet_orange_tree__washington_mature",
+          "description": "Winter fruit; rounded mature garden crown with drooping branch tips",
+          "dimensions_m": [
+            3.702190637588501,
+            3.65424382686615,
+            3.8632583618164062
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7537415027618408,
+              -1.8441768884658813,
+              0.0
+            ],
+            "max": [
+              1.9484491348266602,
+              1.8100669384002686,
+              3.8632583618164062
+            ]
+          }
+        },
+        {
+          "id": "washington-blossom",
+          "collection": "sweet_orange_tree__washington_blossom",
+          "description": "Spring bloom with a few retained mature fruits; maintained garden tree",
+          "dimensions_m": [
+            2.735264301300049,
+            3.0524091720581055,
+            3.07497239112854
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3273836374282837,
+              -1.5072828531265259,
+              0.0
+            ],
+            "max": [
+              1.4078806638717651,
+              1.5451263189315796,
+              3.07497239112854
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc1241A"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "48e4519bcaca38bedc19063e15232febd89ede872b2c6bd68b211bde0060fd6b",
+      "preview_sha256": {
+        "preview.png": "20ccf066add996796a3dcdd9f447ce1fb1a148cd95ed40c486b4ded5a71b8c1f",
+        "detail.png": "a381c07ff64d4ac5363832c5ad0d6d288422ae4f2af182d8c8ca93c431eabf40"
+      }
+    },
+    {
+      "id": "landscape/satsuma-mandarin-tree",
+      "version": "v001",
+      "name": "Owari satsuma mandarin trees",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "satsuma-mandarin-tree/v001/asset.json",
+      "blender": "satsuma-mandarin-tree/v001/satsuma-mandarin-tree.blend",
+      "preview": "satsuma-mandarin-tree/v001/preview.png",
+      "detail": "satsuma-mandarin-tree/v001/detail.png",
+      "validation": "satsuma-mandarin-tree/v001/validation.json",
+      "botanical_name": "Citrus unshiu",
+      "variants": [
+        {
+          "id": "owari-spreading",
+          "collection": "satsuma_mandarin_tree__owari_spreading",
+          "description": "Early winter; low spreading tree carrying oblate orange fruit",
+          "dimensions_m": [
+            3.40616512298584,
+            2.9611915349960327,
+            2.38991117477417
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7916808128356934,
+              -1.4874796867370605,
+              0.0
+            ],
+            "max": [
+              1.6144843101501465,
+              1.4737118482589722,
+              2.38991117477417
+            ]
+          }
+        },
+        {
+          "id": "owari-loaded",
+          "collection": "satsuma_mandarin_tree__owari_loaded",
+          "description": "Early winter harvest; fruit-loaded pendant terminal branches",
+          "dimensions_m": [
+            3.544059634208679,
+            3.616170048713684,
+            2.5466885566711426
+          ],
+          "bounds_m": {
+            "min": [
+              -1.8796539306640625,
+              -1.9058979749679565,
+              0.0
+            ],
+            "max": [
+              1.6644057035446167,
+              1.7102720737457275,
+              2.5466885566711426
+            ]
+          }
+        },
+        {
+          "id": "owari-patio",
+          "collection": "satsuma_mandarin_tree__owari_patio",
+          "description": "Early winter; patio-trained standard, compact by training, rootstock unspecified",
+          "dimensions_m": [
+            2.1918444633483887,
+            1.9965401887893677,
+            2.0830817222595215
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0740137100219727,
+              -0.9975882172584534,
+              0.0
+            ],
+            "max": [
+              1.117830753326416,
+              0.9989519715309143,
+              2.0830817222595215
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc3178"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "472ff32dd6ca2c446b57d789f1485c608f945c25ed6fa9170bceccabc72ede20",
+      "preview_sha256": {
+        "preview.png": "414e3fe034248f5375143ad8072bf0544e29d4619421e85fe8e843a10ee90a44",
+        "detail.png": "56c9f328774699196d24444b570b7a84e9b432d1d66500a0a6e8ec55ed66e3d6"
+      }
+    },
+    {
+      "id": "landscape/grapefruit-tree",
+      "version": "v001",
+      "name": "Marsh grapefruit trees",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "grapefruit-tree/v001/asset.json",
+      "blender": "grapefruit-tree/v001/grapefruit-tree.blend",
+      "preview": "grapefruit-tree/v001/preview.png",
+      "detail": "grapefruit-tree/v001/detail.png",
+      "validation": "grapefruit-tree/v001/validation.json",
+      "botanical_name": "Citrus \u00d7 paradisi",
+      "variants": [
+        {
+          "id": "marsh-young",
+          "collection": "grapefruit_tree__marsh_young",
+          "description": "Summer; upright young tree, foliage only before modeled fruit-bearing stage",
+          "dimensions_m": [
+            2.7309361696243286,
+            2.716065764427185,
+            3.5630924701690674
+          ],
+          "bounds_m": {
+            "min": [
+              -1.357148289680481,
+              -1.3546961545944214,
+              0.0
+            ],
+            "max": [
+              1.3737878799438477,
+              1.3613696098327637,
+              3.5630924701690674
+            ]
+          }
+        },
+        {
+          "id": "marsh-spreading",
+          "collection": "grapefruit_tree__marsh_spreading",
+          "description": "Late winter; large spreading garden crown, not maximum mature size",
+          "dimensions_m": [
+            4.793061971664429,
+            4.542731523513794,
+            4.621550559997559
+          ],
+          "bounds_m": {
+            "min": [
+              -2.4917657375335693,
+              -2.1432626247406006,
+              0.0
+            ],
+            "max": [
+              2.3012962341308594,
+              2.3994688987731934,
+              4.621550559997559
+            ]
+          }
+        },
+        {
+          "id": "marsh-clusters",
+          "collection": "grapefruit_tree__marsh_clusters",
+          "description": "Late winter; lower trained fruiting crown with hanging fruit clusters",
+          "dimensions_m": [
+            4.052999019622803,
+            4.123819351196289,
+            3.615513801574707
+          ],
+          "bounds_m": {
+            "min": [
+              -2.063560962677002,
+              -2.152533531188965,
+              0.0
+            ],
+            "max": [
+              1.9894380569458008,
+              1.9712858200073242,
+              3.615513801574707
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc3184"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "53eff4617c63860ecfa1a98af738cf8acb84590cb4c6a351d97bfabb0c5e9ce8",
+      "preview_sha256": {
+        "preview.png": "0e17b03231efe915b388a9b69cd980b6008d1e7f809b8eec1c18ce84653dba40",
+        "detail.png": "82e2408051cb3aae2d7538dfb9f262a0249ab6a6ee526f415cc358f5ae52b13d"
+      }
+    },
+    {
+      "id": "landscape/kumquat-tree",
+      "version": "v001",
+      "name": "Nagami kumquat trees",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "kumquat-tree/v001/asset.json",
+      "blender": "kumquat-tree/v001/kumquat-tree.blend",
+      "preview": "kumquat-tree/v001/preview.png",
+      "detail": "kumquat-tree/v001/detail.png",
+      "validation": "kumquat-tree/v001/validation.json",
+      "botanical_name": "Fortunella margarita / Citrus japonica",
+      "variants": [
+        {
+          "id": "nagami-shrub",
+          "collection": "kumquat_tree__nagami_shrub",
+          "description": "Late winter; dense fine-leaved multistem shrub with sparse fruit",
+          "dimensions_m": [
+            2.2007416486740112,
+            1.9283875226974487,
+            1.9937139749526978
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0310118198394775,
+              -0.9733937382698059,
+              0.0
+            ],
+            "max": [
+              1.1697298288345337,
+              0.9549937844276428,
+              1.9937139749526978
+            ]
+          }
+        },
+        {
+          "id": "nagami-standard",
+          "collection": "kumquat_tree__nagami_standard",
+          "description": "Late winter; patio standard trained above a clear stem",
+          "dimensions_m": [
+            1.8172207474708557,
+            1.8003905415534973,
+            2.3222451210021973
+          ],
+          "bounds_m": {
+            "min": [
+              -0.8835986852645874,
+              -0.9467427134513855,
+              0.0
+            ],
+            "max": [
+              0.9336220622062683,
+              0.8536478281021118,
+              2.3222451210021973
+            ]
+          }
+        },
+        {
+          "id": "nagami-fruiting",
+          "collection": "kumquat_tree__nagami_fruiting",
+          "description": "Late winter; upright fine twigging and abundant small oval fruits",
+          "dimensions_m": [
+            2.2345755100250244,
+            2.319018244743347,
+            2.6236424446105957
+          ],
+          "bounds_m": {
+            "min": [
+              -1.0565268993377686,
+              -1.1467421054840088,
+              0.0
+            ],
+            "max": [
+              1.1780486106872559,
+              1.1722761392593384,
+              2.6236424446105957
+            ]
+          }
+        }
+      ],
+      "site_selection": {
+        "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+        "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+        "soil": "Free drainage assumed; soil suitability requires local verification.",
+        "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+        "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+        "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+        "saline_inundation": "Unknown; not specified."
+      },
+      "botanical_sources": [
+        "https://citrusvariety.ucr.edu/crc3877"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent xeric specialist",
+      "native_sha256": "80f1b9dcf9b7b747e149113bf4454edcc725f99bad5d674ea755619ea49f6c6b",
+      "preview_sha256": {
+        "preview.png": "c5d5fd5b6a62e709e5155a49a3fedcd6c9fd40c0d687ca2e9e68a8a5fb2e6d4b",
+        "detail.png": "0668b6a6e494ddd04dc9234c76e1c1a080a8011bb04968ee1ca554a2814327cc"
+      }
+    },
+    {
+      "id": "landscape/avocado-tree",
+      "version": "v001",
+      "name": "Avocado tree",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "avocado-tree/v001/asset.json",
+      "blender": "avocado-tree/v001/avocado-tree.blend",
+      "preview": "avocado-tree/v001/preview.png",
+      "detail": "avocado-tree/v001/detail.png",
+      "validation": "avocado-tree/v001/validation.json",
+      "botanical_name": "Persea americana",
+      "variants": [
+        {
+          "id": "young-orchard",
+          "collection": "avocado-tree__young-orchard",
+          "description": "Young single-leader orchard tree, vegetative",
+          "dimensions_m": [
+            2.3217039108276367,
+            2.376273512840271,
+            2.310149669647217
+          ],
+          "bounds_m": {
+            "min": [
+              -1.1175123453140259,
+              -1.2008689641952515,
+              0.0
+            ],
+            "max": [
+              1.2041915655136108,
+              1.1754045486450195,
+              2.310149669647217
+            ]
+          }
+        },
+        {
+          "id": "maintained-garden",
+          "collection": "avocado-tree__maintained-garden",
+          "description": "Maintained garden crown with attached fruit",
+          "dimensions_m": [
+            3.8630295991897583,
+            3.9060570001602173,
+            3.7525477409362793
+          ],
+          "bounds_m": {
+            "min": [
+              -1.9987156391143799,
+              -1.941485047340393,
+              0.0
+            ],
+            "max": [
+              1.8643139600753784,
+              1.9645719528198242,
+              3.7525477409362793
+            ]
+          }
+        },
+        {
+          "id": "mature-fruiting",
+          "collection": "avocado-tree__mature-fruiting",
+          "description": "Large spreading mature fruiting crown",
+          "dimensions_m": [
+            5.18715500831604,
+            5.109163761138916,
+            5.3560333251953125
+          ],
+          "bounds_m": {
+            "min": [
+              -2.423368215560913,
+              -2.8001596927642822,
+              0.0
+            ],
+            "max": [
+              2.763786792755127,
+              2.309004068374634,
+              5.3560333251953125
+            ]
+          }
+        }
+      ],
+      "site_selection": "Frost-sensitive orchard/garden concept. Drainage, cultivar and site govern suitability and pollination; not a two-tree guarantee.",
+      "botanical_sources": [
+        "https://ask.ifas.ufl.edu/publication/MG213"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "333d41102871e1b1a7bcc018304c04fd49dbcf3284febb97b9364e04d8998d25",
+      "preview_sha256": {
+        "preview.png": "3981f8197115930caa84688c6432bae46103481892c881bf1833d630a27ec1db",
+        "detail.png": "7730cf873d5204f26c8c5e40b1ef722da8b2a10107d4cf8bf5d0a64a5bf1f4be"
+      }
+    },
+    {
+      "id": "landscape/fig-tree",
+      "version": "v001",
+      "name": "Common fig",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "fig-tree/v001/asset.json",
+      "blender": "fig-tree/v001/fig-tree.blend",
+      "preview": "fig-tree/v001/preview.png",
+      "detail": "fig-tree/v001/detail.png",
+      "validation": "fig-tree/v001/validation.json",
+      "botanical_name": "Ficus carica",
+      "variants": [
+        {
+          "id": "low-branching",
+          "collection": "fig-tree__low-branching",
+          "description": "Low branching summer tree with broad lobed leaves",
+          "dimensions_m": [
+            5.273436784744263,
+            4.7415478229522705,
+            3.5455098152160645
+          ],
+          "bounds_m": {
+            "min": [
+              -2.710212469100952,
+              -2.6209797859191895,
+              0.0
+            ],
+            "max": [
+              2.5632243156433105,
+              2.120568037033081,
+              3.5455098152160645
+            ]
+          }
+        },
+        {
+          "id": "fruiting-bush",
+          "collection": "fig-tree__fruiting-bush",
+          "description": "Multi-stem summer bush with figs at leaf axils",
+          "dimensions_m": [
+            4.895861387252808,
+            5.245818376541138,
+            2.99947190284729
+          ],
+          "bounds_m": {
+            "min": [
+              -2.3382129669189453,
+              -2.6719634532928467,
+              0.0
+            ],
+            "max": [
+              2.5576484203338623,
+              2.573854923248291,
+              2.99947190284729
+            ]
+          }
+        },
+        {
+          "id": "bare-dormant",
+          "collection": "fig-tree__bare-dormant",
+          "description": "Bare winter branch structure",
+          "dimensions_m": [
+            4.949786424636841,
+            5.5347044467926025,
+            3.698625326156616
+          ],
+          "bounds_m": {
+            "min": [
+              -2.4626071453094482,
+              -2.7730722427368164,
+              0.0
+            ],
+            "max": [
+              2.4871792793273926,
+              2.761632204055786,
+              3.698625326156616
+            ]
+          }
+        }
+      ],
+      "site_selection": "Climate and cultivar dependent; deciduous summer and dormant states are separate. Maintained size is not a mature-size prediction.",
+      "botanical_sources": [
+        "https://extension.uga.edu/content/dam/extension-county-offices/madison-county/4h/fruit-tree-sale/Home%20Garden%20Figs.PDF"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "55f34a929b56bfba395be637f7443b71b1845e10e9e5b9c6f8e947faa9e9016f",
+      "preview_sha256": {
+        "preview.png": "7b8c04cc2d1a1ceda0fc36b4ce7a24a8aeabc31f69075a30a793cc3af6ec83f2",
+        "detail.png": "ef9f58e5a99f24454091a77b502c73828356b02d0027b9a8436f24bfc505e1da"
+      }
+    },
+    {
+      "id": "landscape/pomegranate-tree",
+      "version": "v001",
+      "name": "Pomegranate",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "pomegranate-tree/v001/asset.json",
+      "blender": "pomegranate-tree/v001/pomegranate-tree.blend",
+      "preview": "pomegranate-tree/v001/preview.png",
+      "detail": "pomegranate-tree/v001/detail.png",
+      "validation": "pomegranate-tree/v001/validation.json",
+      "botanical_name": "Punica granatum",
+      "variants": [
+        {
+          "id": "natural-shrub",
+          "collection": "pomegranate-tree__natural-shrub",
+          "description": "Natural multi-stem leafy shrub",
+          "dimensions_m": [
+            3.3509175777435303,
+            3.2246930599212646,
+            2.394359827041626
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7465254068374634,
+              -1.590276837348938,
+              0.0
+            ],
+            "max": [
+              1.604392170906067,
+              1.6344162225723267,
+              2.394359827041626
+            ]
+          }
+        },
+        {
+          "id": "flowering-standard",
+          "collection": "pomegranate-tree__flowering-standard",
+          "description": "Single-trunk trained tree with red tubular flowers",
+          "dimensions_m": [
+            3.2364914417266846,
+            3.093571186065674,
+            2.7590699195861816
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7466307878494263,
+              -1.5845056772232056,
+              0.0
+            ],
+            "max": [
+              1.4898606538772583,
+              1.5090655088424683,
+              2.7590699195861816
+            ]
+          }
+        },
+        {
+          "id": "fruit-loaded",
+          "collection": "pomegranate-tree__fruit-loaded",
+          "description": "Maintained multi-stem ripe fruit crown",
+          "dimensions_m": [
+            3.3374103307724,
+            3.3713293075561523,
+            2.619663953781128
+          ],
+          "bounds_m": {
+            "min": [
+              -1.6309394836425781,
+              -1.7736616134643555,
+              0.0
+            ],
+            "max": [
+              1.7064708471298218,
+              1.5976676940917969,
+              2.619663953781128
+            ]
+          }
+        }
+      ],
+      "site_selection": "Warm-site concept; check local cold exposure and fruit ripening. Flowering and ripe-fruit states intentionally separate.",
+      "botanical_sources": [
+        "https://site.extension.uga.edu/fultonag/2020/12/pomegranates/"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "9f85149c3db9cfc4831385925afd7c82d0b736d5dddeb034bc9f3600941541f8",
+      "preview_sha256": {
+        "preview.png": "7e16ce34f97e5b444c3971c3acee147dbd2672ee2ceb943024c9013613ebe33a",
+        "detail.png": "e4530c9329f9a82baffc09258a06418673a1e6c10b8ebb277e474684d239edce"
+      }
+    },
+    {
+      "id": "landscape/apple-tree",
+      "version": "v001",
+      "name": "Apple tree",
+      "group": "fruit",
+      "status": "reviewed library asset for architectural concept landscaping",
+      "manifest": "apple-tree/v001/asset.json",
+      "blender": "apple-tree/v001/apple-tree.blend",
+      "preview": "apple-tree/v001/preview.png",
+      "detail": "apple-tree/v001/detail.png",
+      "validation": "apple-tree/v001/validation.json",
+      "botanical_name": "Malus domestica",
+      "variants": [
+        {
+          "id": "gala-m9-dwarf",
+          "collection": "apple-tree__gala-m9-dwarf",
+          "description": "Gala on M.9 illustrative dwarf central-leader training; needs site-specific support",
+          "dimensions_m": [
+            2.6536060571670532,
+            2.559693455696106,
+            2.271092176437378
+          ],
+          "bounds_m": {
+            "min": [
+              -1.3307669162750244,
+              -1.4194663763046265,
+              0.0
+            ],
+            "max": [
+              1.3228391408920288,
+              1.1402270793914795,
+              2.271092176437378
+            ]
+          }
+        },
+        {
+          "id": "orchard-open-crown",
+          "collection": "apple-tree__orchard-open-crown",
+          "description": "Freestanding maintained orchard tree, cultivar unspecified",
+          "dimensions_m": [
+            4.057065486907959,
+            3.682784914970398,
+            3.6861488819122314
+          ],
+          "bounds_m": {
+            "min": [
+              -1.9515151977539062,
+              -1.9047141075134277,
+              0.0
+            ],
+            "max": [
+              2.1055502891540527,
+              1.7780708074569702,
+              3.6861488819122314
+            ]
+          }
+        },
+        {
+          "id": "espalier-three-tier",
+          "collection": "apple-tree__espalier-three-tier",
+          "description": "Three-tier espalier with spur foliage and fruit, support wall excluded",
+          "dimensions_m": [
+            3.537777304649353,
+            0.44754041731357574,
+            2.325078849797137
+          ],
+          "bounds_m": {
+            "min": [
+              -1.7574052810668945,
+              -0.23773616552352905,
+              -0.0006662654923275113
+            ],
+            "max": [
+              1.7803720235824585,
+              0.2098042517900467,
+              2.3244125843048096
+            ]
+          }
+        }
+      ],
+      "site_selection": "Illustrative training and fruiting forms. Match cultivar/rootstock, chill, support and pollenizer to site; no cultivar performance claim.",
+      "botanical_sources": [
+        "https://yardandgarden.extension.iastate.edu/how-to/growing-apples-home-garden"
+      ],
+      "license": "CC-BY-4.0",
+      "home_adoption": "not adopted in an existing home; comparative nursery demonstration only",
+      "review_scope": "Architectural concept landscape use; not photographic macro vegetation",
+      "reviewer": "Independent citrus specialist",
+      "native_sha256": "7732caf83b47d4f42115ec746626c534bf245a258849560a239c651e786bf8b4",
+      "preview_sha256": {
+        "preview.png": "378c659f74c3378a6e42cfa74a415e5de53a579881d70a39acb8d4d4aee18f8f",
+        "detail.png": "30a6f557de131d357813eadc00e82e6a47cfcadd26e6faa6b093fa581b2fb057"
+      }
+    }
+  ],
+  "legacy_families": [
+    {
+      "id": "landscape/mountain-conifer",
+      "version": "v002",
+      "manifest": "mountain-conifer/v002/asset.json"
+    },
+    {
+      "id": "landscape/broad-canopy-oak",
+      "version": "v001",
+      "manifest": "broad-canopy-oak/v001/asset.json"
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "manifest": "olive-tree/v001/asset.json"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "manifest": "sage-shrub/v002/asset.json"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "manifest": "ornamental-grass-clump/v002/asset.json"
+    },
+    {
+      "id": "landscape/flowering-perennial-clump",
+      "version": "v001",
+      "manifest": "flowering-perennial-clump/v001/asset.json"
+    }
+  ],
+  "nursery": "nursery/nursery.blend",
+  "reviewed_family_count": 35,
+  "review_scope": "Native family models and whole/detail previews reviewed for architectural concept landscaping. Simplified botanical geometry; not photoreal foreground macro vegetation."
+}

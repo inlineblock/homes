@@ -1,0 +1,145 @@
+{
+  "botanical_name": "Pinus contorta var. contorta",
+  "climate_notes": "Cool Pacific coastal exposure; not a universal warm-beach tree.",
+  "reference_urls": [
+    "https://landscapeplants.oregonstate.edu/plants/pinus-contorta-var-contorta"
+  ],
+  "category_tags": [
+    "coastal",
+    "landscape"
+  ],
+  "limitations": [
+    "Original architectural visualization geometry; no botanical survey or horticultural specification.",
+    "Modeled dimensions describe this specimen; not guaranteed mature size.",
+    "No site adoption claimed; preview and host review recorded separately."
+  ],
+  "schema_version": 1,
+  "id": "landscape/shore-pine",
+  "version": "v001",
+  "name": "Shore Pine",
+  "units": "meters",
+  "dimensions_m": [
+    2.642008662223816,
+    2.6819121837615967,
+    3.4018001556396484
+  ],
+  "bounds_m": {
+    "min": [
+      -1.3279361724853516,
+      -1.4258183240890503,
+      0.0
+    ],
+    "max": [
+      1.3140724897384644,
+      1.2560938596725464,
+      3.4018001556396484
+    ]
+  },
+  "blender": {
+    "collection": "shore-pine-young-open",
+    "variants": [
+      {
+        "id": "young-open",
+        "collection": "shore-pine-young-open",
+        "description": "Young open crown with visible branching and paired needles.",
+        "dimensions_m": [
+          2.642008662223816,
+          2.6819121837615967,
+          3.4018001556396484
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3279361724853516,
+            -1.4258183240890503,
+            0.0
+          ],
+          "max": [
+            1.3140724897384644,
+            1.2560938596725464,
+            3.4018001556396484
+          ]
+        }
+      },
+      {
+        "id": "irregular-mature",
+        "collection": "shore-pine-irregular-mature",
+        "description": "Irregular mature open crown with woody cones.",
+        "dimensions_m": [
+          4.678683042526245,
+          4.549400329589844,
+          5.706737041473389
+        ],
+        "bounds_m": {
+          "min": [
+            -2.205561876296997,
+            -2.528367042541504,
+            0.0
+          ],
+          "max": [
+            2.473121166229248,
+            2.02103328704834,
+            5.706737041473389
+          ]
+        }
+      },
+      {
+        "id": "wind-shaped",
+        "collection": "shore-pine-wind-shaped",
+        "description": "Wind-shaped leaning trunk and asymmetric spread; stylized coastal exposure.",
+        "dimensions_m": [
+          3.118011884391308,
+          4.163380861282349,
+          4.470401763916016
+        ],
+        "bounds_m": {
+          "min": [
+            -0.09845750778913498,
+            -2.0150201320648193,
+            0.0
+          ],
+          "max": [
+            3.019554376602173,
+            2.1483607292175293,
+            4.470401763916016
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/coastal.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/coastal.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "shore-pine.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

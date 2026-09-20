@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/panicle-hydrangea",
+  "version": "v001",
+  "native_sha256": "a6a65cb24f2ff86e983a8cdad5688f1326c95e5dceb12735c4fb1ee9f86311bc",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 19,
+  "variants": [
+    {
+      "id": "white-shrub",
+      "collection": "panicle-hydrangea__white-shrub",
+      "bounds_m": {
+        "min": [
+          -0.9808586239814758,
+          -1.0415091514587402,
+          -0.012243668548762798
+        ],
+        "max": [
+          0.7574637532234192,
+          0.930132269859314,
+          1.5019845962524414
+        ],
+        "dimensions": [
+          1.738322377204895,
+          1.9716414213180542,
+          1.5142282648012042
+        ]
+      },
+      "vertices": 149675,
+      "faces": 137050,
+      "ground_min_z_m": -0.012243668548762798
+    },
+    {
+      "id": "late-pink-hedge",
+      "collection": "panicle-hydrangea__late-pink-hedge",
+      "bounds_m": {
+        "min": [
+          -1.0560650825500488,
+          -1.0259164571762085,
+          -0.01306746806949377
+        ],
+        "max": [
+          1.0136147737503052,
+          1.0002388954162598,
+          1.4507651329040527
+        ],
+        "dimensions": [
+          2.069679856300354,
+          2.0261553525924683,
+          1.4638326009735465
+        ]
+      },
+      "vertices": 149675,
+      "faces": 137050,
+      "ground_min_z_m": -0.01306746806949377
+    },
+    {
+      "id": "trained-tree",
+      "collection": "panicle-hydrangea__trained-tree",
+      "bounds_m": {
+        "min": [
+          -0.9766684770584106,
+          -0.796551525592804,
+          -0.002346808323636651
+        ],
+        "max": [
+          0.9366334080696106,
+          0.9209925532341003,
+          2.5345468521118164
+        ],
+        "dimensions": [
+          1.9133018851280212,
+          1.7175440788269043,
+          2.536893660435453
+        ]
+      },
+      "vertices": 113780,
+      "faces": 104178,
+      "ground_min_z_m": -0.002346808323636651
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct flowering, trained, cascading or seasonal forms. Adequate foliage coverage and readable leaf/flower shapes; close geometry remains illustrative.",
+    "image_sha256": {
+      "preview.png": "67b866e03586e4503d6450394e9c0d5d63d65969dd612ef08bd40755180114bf",
+      "detail.png": "d8c252a2663cbeb87715c9b92284494fa9e945720acff45e808b55096c7ccaa0"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

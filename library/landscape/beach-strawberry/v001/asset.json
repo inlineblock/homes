@@ -1,0 +1,145 @@
+{
+  "botanical_name": "Fragaria chiloensis",
+  "climate_notes": "Cool Pacific coastal groundcover; no crop production promise.",
+  "reference_urls": [
+    "https://depts.washington.edu/propplnt/Plants/fragariachiloensis.htm"
+  ],
+  "category_tags": [
+    "coastal",
+    "landscape"
+  ],
+  "limitations": [
+    "Original architectural visualization geometry; no botanical survey or horticultural specification.",
+    "Modeled dimensions describe this specimen; not guaranteed mature size.",
+    "No site adoption claimed; preview and host review recorded separately."
+  ],
+  "schema_version": 1,
+  "id": "landscape/beach-strawberry",
+  "version": "v001",
+  "name": "Beach Strawberry",
+  "units": "meters",
+  "dimensions_m": [
+    1.0583220720291138,
+    1.0571703910827637,
+    0.0766497477889061
+  ],
+  "bounds_m": {
+    "min": [
+      -0.5282739400863647,
+      -0.5407658815383911,
+      0.0
+    ],
+    "max": [
+      0.530048131942749,
+      0.5164045095443726,
+      0.0766497477889061
+    ]
+  },
+  "blender": {
+    "collection": "beach-strawberry-glossy-low-mat",
+    "variants": [
+      {
+        "id": "glossy-low-mat",
+        "collection": "beach-strawberry-glossy-low-mat",
+        "description": "Dense low mat of visibly separate rounded, finely serrated three-part leaves.",
+        "dimensions_m": [
+          1.0583220720291138,
+          1.0571703910827637,
+          0.0766497477889061
+        ],
+        "bounds_m": {
+          "min": [
+            -0.5282739400863647,
+            -0.5407658815383911,
+            0.0
+          ],
+          "max": [
+            0.530048131942749,
+            0.5164045095443726,
+            0.0766497477889061
+          ]
+        }
+      },
+      {
+        "id": "white-flowering",
+        "collection": "beach-strawberry-white-flowering",
+        "description": "White five-petal flowers over a dense trifoliate mat.",
+        "dimensions_m": [
+          1.0256335139274597,
+          1.030629575252533,
+          0.10999999195337296
+        ],
+        "bounds_m": {
+          "min": [
+            -0.5066456198692322,
+            -0.5036642551422119,
+            0.0
+          ],
+          "max": [
+            0.5189878940582275,
+            0.526965320110321,
+            0.10999999195337296
+          ]
+        }
+      },
+      {
+        "id": "runner-edge-colony",
+        "collection": "beach-strawberry-runner-edge-colony",
+        "description": "Trailing colony with ground-hugging runners and rooted juvenile trifoliate rosettes.",
+        "dimensions_m": [
+          1.0514422059059143,
+          1.0420539379119873,
+          0.07647179067134857
+        ],
+        "bounds_m": {
+          "min": [
+            -0.45086604356765747,
+            -0.5098667144775391,
+            0.0
+          ],
+          "max": [
+            0.6005761623382568,
+            0.5321872234344482,
+            0.07647179067134857
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/coastal.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/coastal.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "beach-strawberry.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

@@ -1,0 +1,152 @@
+{
+  "botanical_name": "Fouquieria splendens",
+  "seed": 83200,
+  "browse_tags": [
+    "desert",
+    "southwest"
+  ],
+  "sources": [
+    "https://extension.arizona.edu/publication/cactus-agave-yucca-and-ocotillo"
+  ],
+  "selection_notes": "Southwest dryland; foliage responds to moisture, never assume permanent lush foliage.",
+  "cultivar": "Species concept; no named cultivar or rootstock asserted",
+  "site_selection": {
+    "region": "Southwest dryland; foliage responds to moisture, never assume permanent lush foliage.",
+    "sun": "Sunny landscape intent; confirm local exposure before planting",
+    "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+    "establishment_water": "Local horticultural specification required",
+    "ongoing_water": "Dryland concept; irrigation needs not engineered",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown"
+  },
+  "visual_accuracy_limitations": "Original botanical visualization, not a taxonomic specimen or nursery specification; measured size is modeled size, not guaranteed mature spread. Species cues modeled as actual geometry.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "schema_version": 1,
+  "id": "landscape/ocotillo",
+  "version": "v001",
+  "name": "Ocotillo",
+  "units": "meters",
+  "dimensions_m": [
+    2.192356824874878,
+    2.595355987548828,
+    3.3811025619506836
+  ],
+  "bounds_m": {
+    "min": [
+      -1.1451905965805054,
+      -1.2858269214630127,
+      0.0
+    ],
+    "max": [
+      1.0471662282943726,
+      1.3095290660858154,
+      3.3811025619506836
+    ]
+  },
+  "blender": {
+    "collection": "ocotillo__leafless_canes",
+    "variants": [
+      {
+        "id": "leafless-canes",
+        "collection": "ocotillo__leafless_canes",
+        "description": "Sparse leafless jointed canes with woody spines",
+        "dimensions_m": [
+          2.192356824874878,
+          2.595355987548828,
+          3.3811025619506836
+        ],
+        "bounds_m": {
+          "min": [
+            -1.1451905965805054,
+            -1.2858269214630127,
+            0.0
+          ],
+          "max": [
+            1.0471662282943726,
+            1.3095290660858154,
+            3.3811025619506836
+          ]
+        }
+      },
+      {
+        "id": "rain-leafed",
+        "collection": "ocotillo__rain_leafed",
+        "description": "Rain-responsive small oval foliage on canes",
+        "dimensions_m": [
+          2.8087140321731567,
+          2.466700553894043,
+          3.372910976409912
+        ],
+        "bounds_m": {
+          "min": [
+            -1.4420374631881714,
+            -1.4010529518127441,
+            0.0
+          ],
+          "max": [
+            1.3666765689849854,
+            1.0656476020812988,
+            3.372910976409912
+          ]
+        }
+      },
+      {
+        "id": "scarlet-tips",
+        "collection": "ocotillo__scarlet_tips",
+        "description": "Dry canes with terminal scarlet tubular bloom clusters",
+        "dimensions_m": [
+          2.4299354553222656,
+          2.40625536441803,
+          4.226574897766113
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3790820837020874,
+            -1.194922685623169,
+            0.0
+          ],
+          "max": [
+            1.0508533716201782,
+            1.2113326787948608,
+            4.226574897766113
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/desert.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/desert.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "ocotillo.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "botanical_name": "Ferocactus wislizeni",
+  "seed": 83400,
+  "browse_tags": [
+    "desert",
+    "southwest"
+  ],
+  "sources": [
+    "https://www.nps.gov/tont/learn/nature/cacti.htm"
+  ],
+  "selection_notes": "Sonoran and Southwest hot-dry accent; substantial hook spines must stay outside circulation.",
+  "cultivar": "Species concept; no named cultivar or rootstock asserted",
+  "site_selection": {
+    "region": "Sonoran and Southwest hot-dry accent; substantial hook spines must stay outside circulation.",
+    "sun": "Sunny landscape intent; confirm local exposure before planting",
+    "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+    "establishment_water": "Local horticultural specification required",
+    "ongoing_water": "Dryland concept; irrigation needs not engineered",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown"
+  },
+  "visual_accuracy_limitations": "Original botanical visualization, not a taxonomic specimen or nursery specification; measured size is modeled size, not guaranteed mature spread. Species cues modeled as actual geometry.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "schema_version": 1,
+  "id": "landscape/fishhook-barrel-cactus",
+  "version": "v001",
+  "name": "Fishhook barrel cactus",
+  "units": "meters",
+  "dimensions_m": [
+    0.7295481860637665,
+    0.7379066348075867,
+    0.5199999809265137
+  ],
+  "bounds_m": {
+    "min": [
+      -0.36764800548553467,
+      -0.36540117859840393,
+      0.0
+    ],
+    "max": [
+      0.3619001805782318,
+      0.37250545620918274,
+      0.5199999809265137
+    ]
+  },
+  "blender": {
+    "collection": "fishhook_barrel_cactus__small_barrel",
+    "variants": [
+      {
+        "id": "small-barrel",
+        "collection": "fishhook_barrel_cactus__small_barrel",
+        "description": "Small rounded barrel with ribbed skin and hooks",
+        "dimensions_m": [
+          0.7295481860637665,
+          0.7379066348075867,
+          0.5199999809265137
+        ],
+        "bounds_m": {
+          "min": [
+            -0.36764800548553467,
+            -0.36540117859840393,
+            0.0
+          ],
+          "max": [
+            0.3619001805782318,
+            0.37250545620918274,
+            0.5199999809265137
+          ]
+        }
+      },
+      {
+        "id": "leaning-column",
+        "collection": "fishhook_barrel_cactus__leaning_column",
+        "description": "Mature gently leaning column with hooked central spines",
+        "dimensions_m": [
+          0.942121684551239,
+          0.9181656837463379,
+          1.350000023841858
+        ],
+        "bounds_m": {
+          "min": [
+            -0.4175904393196106,
+            -0.45655226707458496,
+            0.0
+          ],
+          "max": [
+            0.5245312452316284,
+            0.46161341667175293,
+            1.350000023841858
+          ]
+        }
+      },
+      {
+        "id": "flower-ring",
+        "collection": "fishhook_barrel_cactus__flower_ring",
+        "description": "Mature barrel with orange-yellow flower ring",
+        "dimensions_m": [
+          0.8698013126850128,
+          0.859607994556427,
+          0.9399999976158142
+        ],
+        "bounds_m": {
+          "min": [
+            -0.4355410635471344,
+            -0.42648839950561523,
+            0.0
+          ],
+          "max": [
+            0.4342602491378784,
+            0.43311959505081177,
+            0.9399999976158142
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/desert.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/desert.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "fishhook-barrel-cactus.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

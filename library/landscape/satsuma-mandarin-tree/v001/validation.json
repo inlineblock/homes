@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/satsuma-mandarin-tree",
+  "version": "v001",
+  "native_sha256": "472ff32dd6ca2c446b57d789f1485c608f945c25ed6fa9170bceccabc72ede20",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 21,
+  "variants": [
+    {
+      "id": "owari-spreading",
+      "collection": "satsuma_mandarin_tree__owari_spreading",
+      "bounds_m": {
+        "min": [
+          -1.7916808128356934,
+          -1.4874796867370605,
+          0.0
+        ],
+        "max": [
+          1.6144843101501465,
+          1.4737118482589722,
+          2.38991117477417
+        ],
+        "dimensions": [
+          3.40616512298584,
+          2.9611915349960327,
+          2.38991117477417
+        ]
+      },
+      "vertices": 219689,
+      "faces": 143151,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "owari-loaded",
+      "collection": "satsuma_mandarin_tree__owari_loaded",
+      "bounds_m": {
+        "min": [
+          -1.8796539306640625,
+          -1.9058979749679565,
+          0.0
+        ],
+        "max": [
+          1.6644057035446167,
+          1.7102720737457275,
+          2.5466885566711426
+        ],
+        "dimensions": [
+          3.544059634208679,
+          3.616170048713684,
+          2.5466885566711426
+        ]
+      },
+      "vertices": 243497,
+      "faces": 162735,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "owari-patio",
+      "collection": "satsuma_mandarin_tree__owari_patio",
+      "bounds_m": {
+        "min": [
+          -1.0740137100219727,
+          -0.9975882172584534,
+          0.0
+        ],
+        "max": [
+          1.117830753326416,
+          0.9989519715309143,
+          2.0830817222595215
+        ],
+        "dimensions": [
+          2.1918444633483887,
+          1.9965401887893677,
+          2.0830817222595215
+        ]
+      },
+      "vertices": 224897,
+      "faces": 147435,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent xeric specialist",
+    "notes": "Full three-dimensional crowns, attached branchlets and species-specific fruit forms. Satsuma spreading habit and kumquat fine foliage are distinct. Smooth fruit shaders and angular leaf edges remain visible close up.",
+    "image_sha256": {
+      "preview.png": "414e3fe034248f5375143ad8072bf0544e29d4619421e85fe8e843a10ee90a44",
+      "detail.png": "56c9f328774699196d24444b570b7a84e9b432d1d66500a0a6e8ec55ed66e3d6"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "botanical_name": "Uniola paniculata",
+  "climate_notes": "Warm Atlantic and Gulf dune planting; nursery material and local restoration rules apply.",
+  "reference_urls": [
+    "https://plants.ces.ncsu.edu/plants/uniola-paniculata/common-name/sea-oats/"
+  ],
+  "category_tags": [
+    "coastal",
+    "landscape"
+  ],
+  "limitations": [
+    "Original architectural visualization geometry; no botanical survey or horticultural specification.",
+    "Modeled dimensions describe this specimen; not guaranteed mature size.",
+    "No site adoption claimed; preview and host review recorded separately."
+  ],
+  "schema_version": 1,
+  "id": "landscape/sea-oats",
+  "version": "v001",
+  "name": "Sea Oats",
+  "units": "meters",
+  "dimensions_m": [
+    1.16891211271286,
+    1.1653677225112915,
+    0.7985816597938538
+  ],
+  "bounds_m": {
+    "min": [
+      -0.561653733253479,
+      -0.5944967865943909,
+      0.0
+    ],
+    "max": [
+      0.6072583794593811,
+      0.5708709359169006,
+      0.7985816597938538
+    ]
+  },
+  "blender": {
+    "collection": "sea-oats-young-dune-clump",
+    "variants": [
+      {
+        "id": "young-dune-clump",
+        "collection": "sea-oats-young-dune-clump",
+        "description": "Young dune grass clump without mature seedheads.",
+        "dimensions_m": [
+          1.16891211271286,
+          1.1653677225112915,
+          0.7985816597938538
+        ],
+        "bounds_m": {
+          "min": [
+            -0.561653733253479,
+            -0.5944967865943909,
+            0.0
+          ],
+          "max": [
+            0.6072583794593811,
+            0.5708709359169006,
+            0.7985816597938538
+          ]
+        }
+      },
+      {
+        "id": "green-seed-panicles",
+        "collection": "sea-oats-green-seed-panicles",
+        "description": "Summer green flattened spikelet panicles.",
+        "dimensions_m": [
+          1.243819236755371,
+          1.2021694779396057,
+          1.78751802444458
+        ],
+        "bounds_m": {
+          "min": [
+            -0.5956109762191772,
+            -0.5901010036468506,
+            0.0
+          ],
+          "max": [
+            0.6482082605361938,
+            0.6120684742927551,
+            1.78751802444458
+          ]
+        }
+      },
+      {
+        "id": "tan-flattened-seedheads",
+        "collection": "sea-oats-tan-flattened-seedheads",
+        "description": "Late-season tan flattened spikelets above green to straw culms.",
+        "dimensions_m": [
+          1.1492144465446472,
+          1.1059725880622864,
+          1.7861822843551636
+        ],
+        "bounds_m": {
+          "min": [
+            -0.5391623973846436,
+            -0.5517552495002747,
+            0.0
+          ],
+          "max": [
+            0.6100520491600037,
+            0.5542173385620117,
+            1.7861822843551636
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/coastal.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/coastal.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "sea-oats.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

@@ -1,0 +1,1532 @@
+{
+  "purpose": "Comparative linked-asset placement test. Climate groups are separate demonstrations, not a combined proposed garden.",
+  "native_reopened": true,
+  "native_sha256": "2ceed80d49e7289c0b86489f3a31955d6a484b71a2f855af45809eb0167676c4",
+  "family_count": 35,
+  "group_count": 6,
+  "relative_library_links": 35,
+  "minimum_measured_canopy_gap_m": 0.9999961853027344,
+  "origin_grade_m": 0,
+  "paths_clear_of_measured_canopies": true,
+  "groups": [
+    {
+      "group": "mountain",
+      "bed_bounds_xy": [
+        0.0,
+        0.0,
+        13.718377351760864,
+        9.174552142620087
+      ],
+      "camera": "Nursery_mountain"
+    },
+    {
+      "group": "desert",
+      "bed_bounds_xy": [
+        28.609018445014954,
+        0.0,
+        46.90246558189392,
+        11.036789894104004
+      ],
+      "camera": "Nursery_desert"
+    },
+    {
+      "group": "xeric",
+      "bed_bounds_xy": [
+        0.0,
+        22.582847118377686,
+        6.789554640650749,
+        27.984781086444855
+      ],
+      "camera": "Nursery_xeric"
+    },
+    {
+      "group": "coastal",
+      "bed_bounds_xy": [
+        28.609018445014954,
+        22.582847118377686,
+        41.44656330347061,
+        32.117573499679565
+      ],
+      "camera": "Nursery_coastal"
+    },
+    {
+      "group": "suburban",
+      "bed_bounds_xy": [
+        0.0,
+        45.16569423675537,
+        18.678805112838745,
+        61.100170612335205
+      ],
+      "camera": "Nursery_suburban"
+    },
+    {
+      "group": "fruit",
+      "bed_bounds_xy": [
+        28.609018445014954,
+        45.16569423675537,
+        51.21803689002991,
+        61.74854135513306
+      ],
+      "camera": "Nursery_fruit"
+    }
+  ],
+  "placements": [
+    {
+      "family": "quaking-aspen",
+      "group": "mountain",
+      "variant": "grove",
+      "collection": "QuakingAspen_grove",
+      "object": "Plant | quaking-aspen",
+      "location_m": [
+        3.5962300300598145,
+        5.855659663677216,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          3.773915708065033,
+          -0.0016828452935442328
+        ],
+        "max": [
+          5.687134504318237,
+          8.174552142620087,
+          6.91501522064209
+        ]
+      },
+      "source": "library/landscape/quaking-aspen/v001/quaking-aspen.blend",
+      "source_sha256": "b3e1477970bfcaa7d1443aa9c2d1ebb0ddfd52e5e16978558535a45a7588bcef",
+      "evaluated": {
+        "min": [
+          1.0,
+          3.7739155292510986,
+          -0.0016828452935442328
+        ],
+        "max": [
+          5.687134742736816,
+          8.174551963806152,
+          6.91501522064209
+        ],
+        "meshes": 6,
+        "vertices": 287229
+      },
+      "maximum_bounds_error_m": 2.384185791015625e-07
+    },
+    {
+      "family": "rocky-mountain-maple",
+      "group": "mountain",
+      "variant": "multi-stem",
+      "collection": "RockyMountainMaple_multi_stem",
+      "object": "Plant | rocky-mountain-maple",
+      "location_m": [
+        8.014738082885742,
+        6.8842344880104065,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          6.687134504318237,
+          5.586872756481171,
+          -0.011438444256782532
+        ],
+        "max": [
+          9.286370277404785,
+          8.174552142620087,
+          2.585325002670288
+        ]
+      },
+      "source": "library/landscape/rocky-mountain-maple/v001/rocky-mountain-maple.blend",
+      "source_sha256": "a17c50076a78dd190dd0f294162995c091f9ec5e69baaa0fc5cb86d69e0903f9",
+      "evaluated": {
+        "min": [
+          6.687134742736816,
+          5.586872577667236,
+          -0.011438444256782532
+        ],
+        "max": [
+          9.286370277404785,
+          8.174551963806152,
+          2.585325002670288
+        ],
+        "meshes": 5,
+        "vertices": 185367
+      },
+      "maximum_bounds_error_m": 2.384185791015625e-07
+    },
+    {
+      "family": "saskatoon-serviceberry",
+      "group": "mountain",
+      "variant": "berry-thicket",
+      "collection": "SaskatoonServiceberry_berry_thicket",
+      "object": "Plant | saskatoon-serviceberry",
+      "location_m": [
+        11.451634883880615,
+        2.0515254735946655,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          10.286370277404785,
+          1.0,
+          -0.008120579645037651
+        ],
+        "max": [
+          12.718377351760864,
+          3.2367613315582275,
+          2.4661881923675537
+        ]
+      },
+      "source": "library/landscape/saskatoon-serviceberry/v001/saskatoon-serviceberry.blend",
+      "source_sha256": "27232eaae93e33e8f9d922f4fb5bda9e67a36b3970826101e55bab42c4bc42d6",
+      "evaluated": {
+        "min": [
+          10.286371231079102,
+          1.0000001192092896,
+          -0.008120579645037651
+        ],
+        "max": [
+          12.718378067016602,
+          3.2367615699768066,
+          2.4661881923675537
+        ],
+        "meshes": 6,
+        "vertices": 412728
+      },
+      "maximum_bounds_error_m": 9.5367431640625e-07
+    },
+    {
+      "family": "red-osier-dogwood",
+      "group": "mountain",
+      "variant": "flowering",
+      "collection": "RedOsierDogwood_flowering",
+      "object": "Plant | red-osier-dogwood",
+      "location_m": [
+        1.7768566608428955,
+        1.8356998562812805,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          1.0,
+          -0.008457591757178307
+        ],
+        "max": [
+          2.66013640165329,
+          2.773915708065033,
+          1.791746973991394
+        ]
+      },
+      "source": "library/landscape/red-osier-dogwood/v001/red-osier-dogwood.blend",
+      "source_sha256": "651bd55a5871d0f41e74c4a3fee4f5fde5910fcdd2b10361e5281f5b4c48c012",
+      "evaluated": {
+        "min": [
+          1.0,
+          0.9999999403953552,
+          -0.008457591757178307
+        ],
+        "max": [
+          2.6601364612579346,
+          2.7739157676696777,
+          1.791746973991394
+        ],
+        "meshes": 6,
+        "vertices": 372180
+      },
+      "maximum_bounds_error_m": 5.960464477539063e-08
+    },
+    {
+      "family": "kinnikinnick",
+      "group": "mountain",
+      "variant": "broad-mat",
+      "collection": "Kinnikinnick_broad_mat",
+      "object": "Plant | kinnikinnick",
+      "location_m": [
+        7.579861521720886,
+        1.8559809923171997,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          6.687134504318237,
+          1.0,
+          -0.006894976366311312
+        ],
+        "max": [
+          8.451466917991638,
+          2.701240062713623,
+          0.21545079350471497
+        ]
+      },
+      "source": "library/landscape/kinnikinnick/v001/kinnikinnick.blend",
+      "source_sha256": "f8a932d4095e6eff6fd1ad3b5b05dd5e467509f94546b0f0845814c8591b6791",
+      "evaluated": {
+        "min": [
+          6.687134742736816,
+          1.0,
+          -0.006894976366311312
+        ],
+        "max": [
+          8.451467514038086,
+          2.701240062713623,
+          0.21545079350471497
+        ],
+        "meshes": 5,
+        "vertices": 268380
+      },
+      "maximum_bounds_error_m": 5.960464477539062e-07
+    },
+    {
+      "family": "blue-palo-verde",
+      "group": "desert",
+      "variant": "mature-spreading",
+      "collection": "blue_palo_verde__mature_spreading",
+      "object": "Plant | blue-palo-verde",
+      "location_m": [
+        32.736915707588196,
+        7.112678050994873,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          4.521826267242432,
+          0.0
+        ],
+        "max": [
+          35.81637394428253,
+          10.036789894104004,
+          5.933369159698486
+        ]
+      },
+      "source": "library/landscape/blue-palo-verde/v001/blue-palo-verde.blend",
+      "source_sha256": "e6260cfb9e90a011e19f5ef17222ce8fb664e4c24f1204e500cf7c28f0563a84",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          4.521826267242432,
+          0.0
+        ],
+        "max": [
+          35.816375732421875,
+          10.036789894104004,
+          5.933369159698486
+        ],
+        "meshes": 4,
+        "vertices": 797932
+      },
+      "maximum_bounds_error_m": 1.7881393432617188e-06
+    },
+    {
+      "family": "desert-willow",
+      "group": "desert",
+      "variant": "multi-stem",
+      "collection": "desert_willow__multi_stem",
+      "object": "Plant | desert-willow",
+      "location_m": [
+        39.45761287212372,
+        7.354006767272949,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          36.81637394428253,
+          4.25115704536438,
+          0.0
+        ],
+        "max": [
+          42.093751549720764,
+          10.036789894104004,
+          4.468147277832031
+        ]
+      },
+      "source": "library/landscape/desert-willow/v001/desert-willow.blend",
+      "source_sha256": "0195b1a1f9a61f958768cb987826a52d251d83296bec79baca022f96935bcbb5",
+      "evaluated": {
+        "min": [
+          36.81637191772461,
+          4.251156806945801,
+          0.0
+        ],
+        "max": [
+          42.09375,
+          10.036789894104004,
+          4.468147277832031
+        ],
+        "meshes": 4,
+        "vertices": 420480
+      },
+      "maximum_bounds_error_m": 2.0265579223632812e-06
+    },
+    {
+      "family": "ocotillo",
+      "group": "desert",
+      "variant": "rain-leafed",
+      "collection": "ocotillo__rain_leafed",
+      "object": "Plant | ocotillo",
+      "location_m": [
+        44.535789012908936,
+        2.401052951812744,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          43.093751549720764,
+          1.0,
+          0.0
+        ],
+        "max": [
+          45.90246558189392,
+          3.466700553894043,
+          3.372910976409912
+        ]
+      },
+      "source": "library/landscape/ocotillo/v001/ocotillo.blend",
+      "source_sha256": "b92fa2fe43fe8310e5c8deee28317f764973070c4249b7a90c3f4d3902fef687",
+      "evaluated": {
+        "min": [
+          43.093753814697266,
+          1.0,
+          0.0
+        ],
+        "max": [
+          45.9024658203125,
+          3.466700553894043,
+          3.372910976409912
+        ],
+        "meshes": 3,
+        "vertices": 64155
+      },
+      "maximum_bounds_error_m": 2.2649765014648438e-06
+    },
+    {
+      "family": "parry-agave",
+      "group": "desert",
+      "variant": "offset-colony",
+      "collection": "parry_agave__offset_colony",
+      "object": "Plant | parry-agave",
+      "location_m": [
+        30.70588517189026,
+        2.2229853868484497,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          1.0,
+          0.0
+        ],
+        "max": [
+          31.816409707069397,
+          3.25115704536438,
+          0.6746317744255066
+        ]
+      },
+      "source": "library/landscape/parry-agave/v001/parry-agave.blend",
+      "source_sha256": "4a32663817291cc131e897d2389f2a370d2df6ac93dea01ed2c5bc45e1dfdde8",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          0.9999998807907104,
+          0.0
+        ],
+        "max": [
+          31.816410064697266,
+          3.251156806945801,
+          0.6746317744255066
+        ],
+        "meshes": 11,
+        "vertices": 36900
+      },
+      "maximum_bounds_error_m": 3.5762786865234375e-07
+    },
+    {
+      "family": "fishhook-barrel-cactus",
+      "group": "desert",
+      "variant": "leaning-column",
+      "collection": "fishhook_barrel_cactus__leaning_column",
+      "object": "Plant | fishhook-barrel-cactus",
+      "location_m": [
+        37.23396438360214,
+        1.456552267074585,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          36.81637394428253,
+          1.0,
+          0.0
+        ],
+        "max": [
+          37.75849562883377,
+          1.918165683746338,
+          1.350000023841858
+        ]
+      },
+      "source": "library/landscape/fishhook-barrel-cactus/v001/fishhook-barrel-cactus.blend",
+      "source_sha256": "af103f8d58e309bfe25dc21c07a8eab0636fedfcadeeded0b0e47921fa0f0204",
+      "evaluated": {
+        "min": [
+          36.81637191772461,
+          1.0,
+          0.0
+        ],
+        "max": [
+          37.75849533081055,
+          1.918165683746338,
+          1.350000023841858
+        ],
+        "meshes": 3,
+        "vertices": 134458
+      },
+      "maximum_bounds_error_m": 2.0265579223632812e-06
+    },
+    {
+      "family": "blue-grama",
+      "group": "xeric",
+      "variant": "eyelash-seedheads",
+      "collection": "blue-grama__eyelash-seedheads",
+      "object": "Plant | blue-grama",
+      "location_m": [
+        1.3392842411994934,
+        23.924242585897446,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          23.582847118377686,
+          -0.00031036700238473713
+        ],
+        "max": [
+          1.683076411485672,
+          24.221696138381958,
+          0.6580426096916199
+        ]
+      },
+      "source": "library/landscape/blue-grama/v001/blue-grama.blend",
+      "source_sha256": "33d23857e06ecad28a694dcab8de3cb36e26cb9246739b0e54fe34d610aa3aa0",
+      "evaluated": {
+        "min": [
+          0.9999999403953552,
+          23.58284568786621,
+          -0.00031036700238473713
+        ],
+        "max": [
+          1.6830763816833496,
+          24.221694946289062,
+          0.6580426096916199
+        ],
+        "meshes": 5,
+        "vertices": 18490
+      },
+      "maximum_bounds_error_m": 1.430511474609375e-06
+    },
+    {
+      "family": "little-bluestem",
+      "group": "xeric",
+      "variant": "copper-autumn",
+      "collection": "little-bluestem__copper-autumn",
+      "object": "Plant | little-bluestem",
+      "location_m": [
+        4.061003714799881,
+        23.855450183153152,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          3.7706642746925354,
+          23.582847118377686,
+          -0.0003197199257556349
+        ],
+        "max": [
+          4.29224918782711,
+          24.11606466770172,
+          1.1174919605255127
+        ]
+      },
+      "source": "library/landscape/little-bluestem/v001/little-bluestem.blend",
+      "source_sha256": "284d3fe7ef384c3252e1a29df579f7d55d5505ef9e4b1b01ead81fe45c95cbc9",
+      "evaluated": {
+        "min": [
+          3.7706642150878906,
+          23.58284568786621,
+          -0.0003197199257556349
+        ],
+        "max": [
+          4.2922492027282715,
+          24.116064071655273,
+          1.1174919605255127
+        ],
+        "meshes": 5,
+        "vertices": 14679
+      },
+      "maximum_bounds_error_m": 1.430511474609375e-06
+    },
+    {
+      "family": "pineleaf-penstemon",
+      "group": "xeric",
+      "variant": "orange-red-bloom",
+      "collection": "pineleaf-penstemon__orange-red-bloom",
+      "object": "Plant | pineleaf-penstemon",
+      "location_m": [
+        5.532976880669594,
+        23.82055139541626,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          5.29224918782711,
+          23.582847118377686,
+          -0.0010749363573268056
+        ],
+        "max": [
+          5.789554640650749,
+          24.066073387861252,
+          0.39421576261520386
+        ]
+      },
+      "source": "library/landscape/pineleaf-penstemon/v001/pineleaf-penstemon.blend",
+      "source_sha256": "036dcca78be1a7160925f6ddd7497281316ae7d0a45ead39e8f8478e38f0d1d5",
+      "evaluated": {
+        "min": [
+          5.2922492027282715,
+          23.582847595214844,
+          -0.0010749363573268056
+        ],
+        "max": [
+          5.789555072784424,
+          24.066072463989258,
+          0.39421576261520386
+        ],
+        "meshes": 6,
+        "vertices": 308560
+      },
+      "maximum_bounds_error_m": 9.238719940185547e-07
+    },
+    {
+      "family": "fernbush",
+      "group": "xeric",
+      "variant": "mature-white-bloom",
+      "collection": "fernbush__mature-white-bloom",
+      "object": "Plant | fernbush",
+      "location_m": [
+        1.8265380859375,
+        26.042786836624146,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          25.221696138381958,
+          -0.01050961297005415
+        ],
+        "max": [
+          2.7706642746925354,
+          26.984781086444855,
+          1.5046508312225342
+        ]
+      },
+      "source": "library/landscape/fernbush/v001/fernbush.blend",
+      "source_sha256": "55a1da7495ed4453b0f235a5d71b8dca2e3a2fd06f949245adb95c4e41c7a7d1",
+      "evaluated": {
+        "min": [
+          1.0,
+          25.221696853637695,
+          -0.01050961297005415
+        ],
+        "max": [
+          2.7706642150878906,
+          26.98478126525879,
+          1.5046508312225342
+        ],
+        "meshes": 5,
+        "vertices": 965413
+      },
+      "maximum_bounds_error_m": 7.152557373046875e-07
+    },
+    {
+      "family": "prairie-coneflower",
+      "group": "xeric",
+      "variant": "red-yellow-rays",
+      "collection": "prairie-coneflower__red-yellow-rays",
+      "object": "Plant | prairie-coneflower",
+      "location_m": [
+        3.990585371851921,
+        25.43614289164543,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          3.7706642746925354,
+          25.221696138381958,
+          -0.0006820018170401454
+        ],
+        "max": [
+          4.192572146654129,
+          25.66098725795746,
+          0.828205406665802
+        ]
+      },
+      "source": "library/landscape/prairie-coneflower/v001/prairie-coneflower.blend",
+      "source_sha256": "da009807003f1c9b57fb4e51267c2d2434eb4c77d401daa3b47d694f68b98f97",
+      "evaluated": {
+        "min": [
+          3.7706642150878906,
+          25.221694946289062,
+          -0.0006820018170401454
+        ],
+        "max": [
+          4.192572116851807,
+          25.660985946655273,
+          0.828205406665802
+        ],
+        "meshes": 6,
+        "vertices": 35568
+      },
+      "maximum_bounds_error_m": 1.3113021850585938e-06
+    },
+    {
+      "family": "shore-pine",
+      "group": "coastal",
+      "variant": "irregular-mature",
+      "collection": "shore-pine-irregular-mature",
+      "object": "Plant | shore-pine",
+      "location_m": [
+        31.81458032131195,
+        29.096540212631226,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          26.56817317008972,
+          0.0
+        ],
+        "max": [
+          34.2877014875412,
+          31.117573499679565,
+          5.706737041473389
+        ]
+      },
+      "source": "library/landscape/shore-pine/v001/shore-pine.blend",
+      "source_sha256": "89ace8c3e8d95577ee7e48772c498a11fd2fa30a4b51a433ffa400ff30edc19c",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          26.568172454833984,
+          0.0
+        ],
+        "max": [
+          34.28770065307617,
+          31.117572784423828,
+          5.706737041473389
+        ],
+        "meshes": 4,
+        "vertices": 728092
+      },
+      "maximum_bounds_error_m": 8.344650268554688e-07
+    },
+    {
+      "family": "coast-silktassel",
+      "group": "coastal",
+      "variant": "winter-male-catkins",
+      "collection": "coast-silktassel-winter-male-catkins",
+      "object": "Plant | coast-silktassel",
+      "location_m": [
+        36.85060703754425,
+        29.543522834777832,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          35.2877014875412,
+          27.95249617099762,
+          0.0
+        ],
+        "max": [
+          38.42092978954315,
+          31.117573499679565,
+          2.764810562133789
+        ]
+      },
+      "source": "library/landscape/coast-silktassel/v001/coast-silktassel.blend",
+      "source_sha256": "bfc77e411426a04553cd483f23ff18f520425852495625c1cd217e3275eee15d",
+      "evaluated": {
+        "min": [
+          35.28770446777344,
+          27.952495574951172,
+          0.0
+        ],
+        "max": [
+          38.42093276977539,
+          31.117572784423828,
+          2.764810562133789
+        ],
+        "meshes": 4,
+        "vertices": 299964
+      },
+      "maximum_bounds_error_m": 2.9802322387695312e-06
+    },
+    {
+      "family": "beach-strawberry",
+      "group": "coastal",
+      "variant": "white-flowering",
+      "collection": "beach-strawberry-white-flowering",
+      "object": "Plant | beach-strawberry",
+      "location_m": [
+        39.927575409412384,
+        24.086511373519897,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          39.42092978954315,
+          23.582847118377686,
+          0.0
+        ],
+        "max": [
+          40.44656330347061,
+          24.61347669363022,
+          0.10999999195337296
+        ]
+      },
+      "source": "library/landscape/beach-strawberry/v001/beach-strawberry.blend",
+      "source_sha256": "64938255ecc05413467b261e3f47bfc86bdd7c0d4861b06e1392573faf26cbf6",
+      "evaluated": {
+        "min": [
+          39.420928955078125,
+          23.582847595214844,
+          0.0
+        ],
+        "max": [
+          40.446563720703125,
+          24.61347770690918,
+          0.10999999195337296
+        ],
+        "meshes": 4,
+        "vertices": 59318
+      },
+      "maximum_bounds_error_m": 1.0132789611816406e-06
+    },
+    {
+      "family": "sea-oats",
+      "group": "coastal",
+      "variant": "green-seed-panicles",
+      "collection": "sea-oats-green-seed-panicles",
+      "object": "Plant | sea-oats",
+      "location_m": [
+        30.20462942123413,
+        24.172948122024536,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          23.582847118377686,
+          0.0
+        ],
+        "max": [
+          30.852837681770325,
+          24.78501659631729,
+          1.78751802444458
+        ]
+      },
+      "source": "library/landscape/sea-oats/v001/sea-oats.blend",
+      "source_sha256": "231229bdf2209d9beb57b5bf858cc3f61cd0e2c50d797bdaa57a4e085694a090",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          23.582847595214844,
+          0.0
+        ],
+        "max": [
+          30.85283851623535,
+          24.785017013549805,
+          1.78751802444458
+        ],
+        "meshes": 3,
+        "vertices": 68005
+      },
+      "maximum_bounds_error_m": 8.344650268554688e-07
+    },
+    {
+      "family": "yaupon-holly",
+      "group": "coastal",
+      "variant": "dwarf-yaupon-nana",
+      "collection": "yaupon-holly-dwarf-yaupon-nana",
+      "object": "Plant | yaupon-holly",
+      "location_m": [
+        36.33472990989685,
+        24.570590674877167,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          35.2877014875412,
+          23.582847118377686,
+          0.0
+        ],
+        "max": [
+          37.35115957260132,
+          25.56817317008972,
+          1.1288552284240723
+        ]
+      },
+      "source": "library/landscape/yaupon-holly/v001/yaupon-holly.blend",
+      "source_sha256": "bf3e9174809a34c8fa026ba0228af5d54d13bce9c107c567feb8bea1e4bff580",
+      "evaluated": {
+        "min": [
+          35.28770065307617,
+          23.582847595214844,
+          0.0
+        ],
+        "max": [
+          37.351158142089844,
+          25.568174362182617,
+          1.1288552284240723
+        ],
+        "meshes": 3,
+        "vertices": 632128
+      },
+      "maximum_bounds_error_m": 1.430511474609375e-06
+    },
+    {
+      "family": "eastern-redbud",
+      "group": "suburban",
+      "variant": "spring-flowering",
+      "collection": "eastern-redbud__spring-flowering",
+      "object": "Plant | eastern-redbud",
+      "location_m": [
+        3.618957042694092,
+        48.84216332435608,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          46.16569423675537,
+          -0.022851180285215378
+        ],
+        "max": [
+          6.309410095214844,
+          51.445205211639404,
+          4.312240123748779
+        ]
+      },
+      "source": "library/landscape/eastern-redbud/v001/eastern-redbud.blend",
+      "source_sha256": "8354204ba1d3686ac13fb82e573e6c603d09a9eb3e1a650b4da38494b8a89652",
+      "evaluated": {
+        "min": [
+          1.0,
+          46.16569519042969,
+          -0.022851180285215378
+        ],
+        "max": [
+          6.309410095214844,
+          51.44520568847656,
+          4.312240123748779
+        ],
+        "meshes": 2,
+        "vertices": 196111
+      },
+      "maximum_bounds_error_m": 9.5367431640625e-07
+    },
+    {
+      "family": "panicle-hydrangea",
+      "group": "suburban",
+      "variant": "late-pink-hedge",
+      "collection": "panicle-hydrangea__late-pink-hedge",
+      "object": "Plant | panicle-hydrangea",
+      "location_m": [
+        11.021727085113525,
+        47.19161069393158,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          9.965662002563477,
+          46.16569423675537,
+          -0.01306746806949377
+        ],
+        "max": [
+          12.03534185886383,
+          48.19184958934784,
+          1.4507651329040527
+        ]
+      },
+      "source": "library/landscape/panicle-hydrangea/v001/panicle-hydrangea.blend",
+      "source_sha256": "a6a65cb24f2ff86e983a8cdad5688f1326c95e5dceb12735c4fb1ee9f86311bc",
+      "evaluated": {
+        "min": [
+          9.965662002563477,
+          46.16569519042969,
+          -0.01306746806949377
+        ],
+        "max": [
+          12.035341262817383,
+          48.19185256958008,
+          1.4507651329040527
+        ],
+        "meshes": 7,
+        "vertices": 149675
+      },
+      "maximum_bounds_error_m": 2.9802322387695312e-06
+    },
+    {
+      "family": "ninebark",
+      "group": "suburban",
+      "variant": "compact-burgundy",
+      "collection": "ninebark__compact-burgundy",
+      "object": "Plant | ninebark",
+      "location_m": [
+        16.65043532848358,
+        47.21202111244202,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          15.608940839767456,
+          46.16569423675537,
+          -0.010922430083155632
+        ],
+        "max": [
+          17.678805112838745,
+          48.2287563085556,
+          1.4266291856765747
+        ]
+      },
+      "source": "library/landscape/ninebark/v001/ninebark.blend",
+      "source_sha256": "5436a8624c69a5bf62c611a96ee14301a56bb466c7f750295460d95ec76e2a35",
+      "evaluated": {
+        "min": [
+          15.608940124511719,
+          46.16569519042969,
+          -0.010922430083155632
+        ],
+        "max": [
+          17.678804397583008,
+          48.228755950927734,
+          1.4266291856765747
+        ],
+        "meshes": 5,
+        "vertices": 125466
+      },
+      "maximum_bounds_error_m": 9.5367431640625e-07
+    },
+    {
+      "family": "american-hornbeam",
+      "group": "suburban",
+      "variant": "mature-sculpted",
+      "collection": "american-hornbeam__mature-sculpted",
+      "object": "Plant | american-hornbeam",
+      "location_m": [
+        5.106783866882324,
+        56.26241588592529,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          1.0,
+          52.445205211639404,
+          -0.023005399852991104
+        ],
+        "max": [
+          8.965662002563477,
+          60.100170612335205,
+          6.109146595001221
+        ]
+      },
+      "source": "library/landscape/american-hornbeam/v001/american-hornbeam.blend",
+      "source_sha256": "46ad44f44d5b30ce1e07bf2dd0ae1f0f31a021af670f9efe640e75d06eaf9de2",
+      "evaluated": {
+        "min": [
+          1.0,
+          52.44520568847656,
+          -0.023005399852991104
+        ],
+        "max": [
+          8.965662002563477,
+          60.10017013549805,
+          6.109146595001221
+        ],
+        "meshes": 4,
+        "vertices": 465264
+      },
+      "maximum_bounds_error_m": 4.76837158203125e-07
+    },
+    {
+      "family": "japanese-laceleaf-maple",
+      "group": "suburban",
+      "variant": "burgundy-weeping",
+      "collection": "japanese-laceleaf-maple__burgundy-weeping",
+      "object": "Plant | japanese-laceleaf-maple",
+      "location_m": [
+        12.30467414855957,
+        54.72935199737549,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          9.965662002563477,
+          52.445205211639404,
+          -0.022007714956998825
+        ],
+        "max": [
+          14.608940839767456,
+          57.13961982727051,
+          1.6122318506240845
+        ]
+      },
+      "source": "library/landscape/japanese-laceleaf-maple/v001/japanese-laceleaf-maple.blend",
+      "source_sha256": "7466bded96b40f9d3c8fb4fe760ecff3478d3e0fd24cbddd52ee3c63ba75f6bf",
+      "evaluated": {
+        "min": [
+          9.965662002563477,
+          52.44520568847656,
+          -0.022007714956998825
+        ],
+        "max": [
+          14.608941078186035,
+          57.139617919921875,
+          1.6122318506240845
+        ],
+        "meshes": 4,
+        "vertices": 409323
+      },
+      "maximum_bounds_error_m": 1.9073486328125e-06
+    },
+    {
+      "family": "lemon-tree",
+      "group": "fruit",
+      "variant": "eureka-garden",
+      "collection": "lemon_tree__eureka_garden",
+      "object": "Plant | lemon-tree",
+      "location_m": [
+        31.249216079711914,
+        47.804893136024475,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          46.16569423675537,
+          0.0
+        ],
+        "max": [
+          32.80413782596588,
+          49.29297733306885,
+          3.4177560806274414
+        ]
+      },
+      "source": "library/landscape/lemon-tree/v001/lemon-tree.blend",
+      "source_sha256": "9acca1bcf0d186b46773d10237c5b7b3542976d07b61067f23d3aa3d9d89a1b9",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          46.16569519042969,
+          0.0
+        ],
+        "max": [
+          32.80413818359375,
+          49.29297637939453,
+          3.4177560806274414
+        ],
+        "meshes": 7,
+        "vertices": 290697
+      },
+      "maximum_bounds_error_m": 9.5367431640625e-07
+    },
+    {
+      "family": "lime-tree",
+      "group": "fruit",
+      "variant": "bearss-natural",
+      "collection": "lime_tree__bearss_natural",
+      "object": "Plant | lime-tree",
+      "location_m": [
+        37.149019837379456,
+        48.007362365722656,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          35.40208041667938,
+          46.16569423675537,
+          0.0
+        ],
+        "max": [
+          38.9170116186142,
+          49.48610532283783,
+          3.015103578567505
+        ]
+      },
+      "source": "library/landscape/lime-tree/v001/lime-tree.blend",
+      "source_sha256": "cfbdb7b80552c7df26c39e316d5cc739f519e7d8e133a17defff8fa437982e67",
+      "evaluated": {
+        "min": [
+          35.40208053588867,
+          46.16569519042969,
+          0.0
+        ],
+        "max": [
+          38.91701126098633,
+          49.486106872558594,
+          3.015103578567505
+        ],
+        "meshes": 7,
+        "vertices": 301485
+      },
+      "maximum_bounds_error_m": 1.5497207641601562e-06
+    },
+    {
+      "family": "sweet-orange-tree",
+      "group": "fruit",
+      "variant": "washington-mature",
+      "collection": "sweet_orange_tree__washington_mature",
+      "object": "Plant | sweet-orange-tree",
+      "location_m": [
+        42.21288740634918,
+        48.00987112522125,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          40.45914590358734,
+          46.16569423675537,
+          0.0
+        ],
+        "max": [
+          44.16133654117584,
+          49.81993806362152,
+          3.8632583618164062
+        ]
+      },
+      "source": "library/landscape/sweet-orange-tree/v001/sweet-orange-tree.blend",
+      "source_sha256": "48e4519bcaca38bedc19063e15232febd89ede872b2c6bd68b211bde0060fd6b",
+      "evaluated": {
+        "min": [
+          40.459144592285156,
+          46.16569519042969,
+          0.0
+        ],
+        "max": [
+          44.16133499145508,
+          49.81993865966797,
+          3.8632583618164062
+        ],
+        "meshes": 7,
+        "vertices": 305509
+      },
+      "maximum_bounds_error_m": 1.5497207641601562e-06
+    },
+    {
+      "family": "satsuma-mandarin-tree",
+      "group": "fruit",
+      "variant": "owari-loaded",
+      "collection": "satsuma_mandarin_tree__owari_loaded",
+      "object": "Plant | satsuma-mandarin-tree",
+      "location_m": [
+        47.20182943344116,
+        48.07159221172333,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          45.3221755027771,
+          46.16569423675537,
+          0.0
+        ],
+        "max": [
+          48.86623513698578,
+          49.781864285469055,
+          2.5466885566711426
+        ]
+      },
+      "source": "library/landscape/satsuma-mandarin-tree/v001/satsuma-mandarin-tree.blend",
+      "source_sha256": "472ff32dd6ca2c446b57d789f1485c608f945c25ed6fa9170bceccabc72ede20",
+      "evaluated": {
+        "min": [
+          45.322174072265625,
+          46.16569137573242,
+          0.0
+        ],
+        "max": [
+          48.866233825683594,
+          49.781864166259766,
+          2.5466885566711426
+        ],
+        "meshes": 7,
+        "vertices": 243497
+      },
+      "maximum_bounds_error_m": 2.86102294921875e-06
+    },
+    {
+      "family": "grapefruit-tree",
+      "group": "fruit",
+      "variant": "marsh-spreading",
+      "collection": "grapefruit_tree__marsh_spreading",
+      "object": "Plant | grapefruit-tree",
+      "location_m": [
+        32.10078418254852,
+        52.96320068836212,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          50.81993806362152,
+          0.0
+        ],
+        "max": [
+          34.40208041667938,
+          55.362669587135315,
+          4.621550559997559
+        ]
+      },
+      "source": "library/landscape/grapefruit-tree/v001/grapefruit-tree.blend",
+      "source_sha256": "53eff4617c63860ecfa1a98af738cf8acb84590cb4c6a351d97bfabb0c5e9ce8",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          50.81993865966797,
+          0.0
+        ],
+        "max": [
+          34.40208053588867,
+          55.362667083740234,
+          4.621550559997559
+        ],
+        "meshes": 7,
+        "vertices": 484569
+      },
+      "maximum_bounds_error_m": 2.5033950805664062e-06
+    },
+    {
+      "family": "kumquat-tree",
+      "group": "fruit",
+      "variant": "nagami-standard",
+      "collection": "kumquat_tree__nagami_standard",
+      "object": "Plant | kumquat-tree",
+      "location_m": [
+        36.28567910194397,
+        51.76668077707291,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          35.40208041667938,
+          50.81993806362152,
+          0.0
+        ],
+        "max": [
+          37.21930116415024,
+          52.62032860517502,
+          2.3222451210021973
+        ]
+      },
+      "source": "library/landscape/kumquat-tree/v001/kumquat-tree.blend",
+      "source_sha256": "80f1b9dcf9b7b747e149113bf4454edcc725f99bad5d674ea755619ea49f6c6b",
+      "evaluated": {
+        "min": [
+          35.40208053588867,
+          50.81993865966797,
+          0.0
+        ],
+        "max": [
+          37.21929931640625,
+          52.620330810546875,
+          2.3222451210021973
+        ],
+        "meshes": 7,
+        "vertices": 311445
+      },
+      "maximum_bounds_error_m": 2.205371856689453e-06
+    },
+    {
+      "family": "avocado-tree",
+      "group": "fruit",
+      "variant": "maintained-garden",
+      "collection": "avocado-tree__maintained-garden",
+      "object": "Plant | avocado-tree",
+      "location_m": [
+        42.45786154270172,
+        52.761423110961914,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          40.45914590358734,
+          50.81993806362152,
+          0.0
+        ],
+        "max": [
+          44.3221755027771,
+          54.72599506378174,
+          3.7525477409362793
+        ]
+      },
+      "source": "library/landscape/avocado-tree/v001/avocado-tree.blend",
+      "source_sha256": "333d41102871e1b1a7bcc018304c04fd49dbcf3284febb97b9364e04d8998d25",
+      "evaluated": {
+        "min": [
+          40.45914840698242,
+          50.8199348449707,
+          0.0
+        ],
+        "max": [
+          44.32217788696289,
+          54.72599411010742,
+          3.7525477409362793
+        ],
+        "meshes": 5,
+        "vertices": 253299
+      },
+      "maximum_bounds_error_m": 3.2186508178710938e-06
+    },
+    {
+      "family": "fig-tree",
+      "group": "fruit",
+      "variant": "fruiting-bush",
+      "collection": "fig-tree__fruiting-bush",
+      "object": "Plant | fig-tree",
+      "location_m": [
+        47.660388469696045,
+        53.49190151691437,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          45.3221755027771,
+          50.81993806362152,
+          0.0
+        ],
+        "max": [
+          50.21803689002991,
+          56.06575644016266,
+          2.99947190284729
+        ]
+      },
+      "source": "library/landscape/fig-tree/v001/fig-tree.blend",
+      "source_sha256": "55f34a929b56bfba395be637f7443b71b1845e10e9e5b9c6f8e947faa9e9016f",
+      "evaluated": {
+        "min": [
+          45.322174072265625,
+          50.81993865966797,
+          0.0
+        ],
+        "max": [
+          50.21803665161133,
+          56.065757751464844,
+          2.99947190284729
+        ],
+        "meshes": 5,
+        "vertices": 193260
+      },
+      "maximum_bounds_error_m": 1.430511474609375e-06
+    },
+    {
+      "family": "pomegranate-tree",
+      "group": "fruit",
+      "variant": "flowering-standard",
+      "collection": "pomegranate-tree__flowering-standard",
+      "object": "Plant | pomegranate-tree",
+      "location_m": [
+        31.35564923286438,
+        58.650262117385864,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          29.609018445014954,
+          57.06575644016266,
+          0.0
+        ],
+        "max": [
+          32.84550988674164,
+          60.15932762622833,
+          2.7590699195861816
+        ]
+      },
+      "source": "library/landscape/pomegranate-tree/v001/pomegranate-tree.blend",
+      "source_sha256": "9f85149c3db9cfc4831385925afd7c82d0b736d5dddeb034bc9f3600941541f8",
+      "evaluated": {
+        "min": [
+          29.609018325805664,
+          57.06575393676758,
+          0.0
+        ],
+        "max": [
+          32.84551239013672,
+          60.159324645996094,
+          2.7590699195861816
+        ],
+        "meshes": 5,
+        "vertices": 363219
+      },
+      "maximum_bounds_error_m": 2.9802322387695312e-06
+    },
+    {
+      "family": "apple-tree",
+      "group": "fruit",
+      "variant": "orchard-open-crown",
+      "collection": "apple-tree__orchard-open-crown",
+      "object": "Plant | apple-tree",
+      "location_m": [
+        37.35359561443329,
+        58.970470547676086,
+        0
+      ],
+      "bounds_m": {
+        "min": [
+          35.40208041667938,
+          57.06575644016266,
+          0.0
+        ],
+        "max": [
+          39.45914590358734,
+          60.74854135513306,
+          3.6861488819122314
+        ]
+      },
+      "source": "library/landscape/apple-tree/v001/apple-tree.blend",
+      "source_sha256": "7732caf83b47d4f42115ec746626c534bf245a258849560a239c651e786bf8b4",
+      "evaluated": {
+        "min": [
+          35.40208053588867,
+          57.065757751464844,
+          0.0
+        ],
+        "max": [
+          39.459144592285156,
+          60.74854278564453,
+          3.6861488819122314
+        ],
+        "meshes": 6,
+        "vertices": 264596
+      },
+      "maximum_bounds_error_m": 1.430511474609375e-06
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "reviewers": [
+      "Parent: overview and corrected mountain, desert, coastal",
+      "Independent mountain specialist: xeric",
+      "Independent coastal specialist: suburban, fruit"
+    ],
+    "notes": "All 35 specimens readable in six group views. Smaller plants moved forward in mountain, desert and coastal beds to resolve occlusion. Ground contact, uncropped specimens and clear perimeter paths inspected. Separate comparative beds, not a combined climate planting recommendation.",
+    "image_sha256": {
+      "coastal.png": "0018dfa01e29bbca1491d68d45d33b9cb0255986156eefa6e49f4354dc9ef344",
+      "desert.png": "4cfaebc45a51dde690927e635f611d6bdff27352c56466a7659af996629755b0",
+      "fruit.png": "8bbf853d1d9fac7a575cc5194668f5554d0d8dcf3e192d1e42473a6e94ded371",
+      "mountain.png": "3e5871cb2d0533e7de56ca931477c05e4643d555b11cc736eb54a1b8780310f8",
+      "overview.png": "ff164e829cbf0de778323ea91a23e2814bc05026743ed46006fb870cb0e87d90",
+      "suburban.png": "5dd8b65b6c0535615ce79173d301aa79cb6af01d3111abba147b60c63464b550",
+      "xeric.png": "6c4107b30219ba6a723828b47dee1a502ea331f3acc1b2af66e245c46178d16a"
+    }
+  },
+  "home_adoption": "None; comparative linked nursery placement demonstration only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

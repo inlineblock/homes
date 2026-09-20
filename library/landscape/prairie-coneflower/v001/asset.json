@@ -1,0 +1,156 @@
+{
+  "botanical_name": "Ratibida columnifera",
+  "browse_tags": [
+    "xeriscape",
+    "water-wise"
+  ],
+  "sources": [
+    {
+      "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=277224",
+      "supports": "Clump-forming 1\u20133 foot habit, long central disk and drooping rays; brownish-purple form pulcherrima."
+    }
+  ],
+  "source_notes": "Original deterministic species-informed geometry; no external images or meshes.",
+  "visual_accuracy_limitations": "Species-informed architectural asset; ray color variation is a form interpretation, not a nursery cultivar guarantee. Individual disk florets simplified.",
+  "site_selection": {
+    "climate_basis": "Sunny prairie and low-water garden with suitable drainage; verify local range and soil.",
+    "sun": "Full sun; verify actual site exposure",
+    "soil": "Well-drained; site-specific soil suitability requires local review",
+    "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "fire_safety": "not evaluated"
+  },
+  "modeled_size_basis": "Dimensions measured from the native meshes; not a mature spacing recommendation.",
+  "rootstock": "not applicable",
+  "cultivar": "species-inspired unspecified seed strain unless variant states otherwise",
+  "schema_version": 1,
+  "id": "landscape/prairie-coneflower",
+  "version": "v001",
+  "name": "Prairie coneflower",
+  "units": "meters",
+  "dimensions_m": [
+    0.3957754224538803,
+    0.48280948400497437,
+    0.845679490827024
+  ],
+  "bounds_m": {
+    "min": [
+      -0.1830146610736847,
+      -0.24014981091022491,
+      -0.0007028868421912193
+    ],
+    "max": [
+      0.21276076138019562,
+      0.24265967309474945,
+      0.8449766039848328
+    ]
+  },
+  "blender": {
+    "collection": "prairie-coneflower__yellow-rays",
+    "variants": [
+      {
+        "id": "yellow-rays",
+        "collection": "prairie-coneflower__yellow-rays",
+        "description": "Yellow ray flowers with elongated brown-green centers and finely divided foliage.",
+        "dimensions_m": [
+          0.3957754224538803,
+          0.48280948400497437,
+          0.845679490827024
+        ],
+        "bounds_m": {
+          "min": [
+            -0.1830146610736847,
+            -0.24014981091022491,
+            -0.0007028868421912193
+          ],
+          "max": [
+            0.21276076138019562,
+            0.24265967309474945,
+            0.8449766039848328
+          ]
+        }
+      },
+      {
+        "id": "red-yellow-rays",
+        "collection": "prairie-coneflower__red-yellow-rays",
+        "description": "Red-brown ray bases with yellow tips; distinctly drooping rays around tall cones.",
+        "dimensions_m": [
+          0.42190787196159363,
+          0.4392911195755005,
+          0.8288874084828421
+        ],
+        "bounds_m": {
+          "min": [
+            -0.21992109715938568,
+            -0.2144467532634735,
+            -0.0006820018170401454
+          ],
+          "max": [
+            0.20198677480220795,
+            0.22484436631202698,
+            0.828205406665802
+          ]
+        }
+      },
+      {
+        "id": "dry-cones",
+        "collection": "prairie-coneflower__dry-cones",
+        "description": "Dry elongated seed cones above sparse dormant tan stems and foliage.",
+        "dimensions_m": [
+          0.3780934065580368,
+          0.4494338929653168,
+          0.7843580774497241
+        ],
+        "bounds_m": {
+          "min": [
+            -0.2293643057346344,
+            -0.23243920505046844,
+            -0.0007453493308275938
+          ],
+          "max": [
+            0.1487291008234024,
+            0.21699468791484833,
+            0.7836127281188965
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/xeric.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/xeric.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "prairie-coneflower.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

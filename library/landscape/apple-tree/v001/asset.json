@@ -1,0 +1,138 @@
+{
+  "botanical_name": "Malus domestica",
+  "botanical_sources": [
+    "https://yardandgarden.extension.iastate.edu/how-to/growing-apples-home-garden"
+  ],
+  "climate_notes": "Illustrative training and fruiting forms. Match cultivar/rootstock, chill, support and pollenizer to site; no cultivar performance claim.",
+  "geometry_notes": "Original connected branch scaffolds, attached leaf petioles and species-specific foliage/fruit. Seasonal/trained forms use distinct deterministic geometry. Botanical visualization, not a verified cultivar specimen.",
+  "host_adoption": "No home adoption claimed. Library-only geometry; site placement review required.",
+  "schema_version": 1,
+  "id": "landscape/apple-tree",
+  "version": "v001",
+  "name": "Apple tree",
+  "units": "meters",
+  "dimensions_m": [
+    2.6536060571670532,
+    2.559693455696106,
+    2.271092176437378
+  ],
+  "bounds_m": {
+    "min": [
+      -1.3307669162750244,
+      -1.4194663763046265,
+      0.0
+    ],
+    "max": [
+      1.3228391408920288,
+      1.1402270793914795,
+      2.271092176437378
+    ]
+  },
+  "blender": {
+    "collection": "apple-tree__gala-m9-dwarf",
+    "variants": [
+      {
+        "id": "gala-m9-dwarf",
+        "collection": "apple-tree__gala-m9-dwarf",
+        "description": "Gala on M.9 illustrative dwarf central-leader training; needs site-specific support",
+        "dimensions_m": [
+          2.6536060571670532,
+          2.559693455696106,
+          2.271092176437378
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3307669162750244,
+            -1.4194663763046265,
+            0.0
+          ],
+          "max": [
+            1.3228391408920288,
+            1.1402270793914795,
+            2.271092176437378
+          ]
+        }
+      },
+      {
+        "id": "orchard-open-crown",
+        "collection": "apple-tree__orchard-open-crown",
+        "description": "Freestanding maintained orchard tree, cultivar unspecified",
+        "dimensions_m": [
+          4.057065486907959,
+          3.682784914970398,
+          3.6861488819122314
+        ],
+        "bounds_m": {
+          "min": [
+            -1.9515151977539062,
+            -1.9047141075134277,
+            0.0
+          ],
+          "max": [
+            2.1055502891540527,
+            1.7780708074569702,
+            3.6861488819122314
+          ]
+        }
+      },
+      {
+        "id": "espalier-three-tier",
+        "collection": "apple-tree__espalier-three-tier",
+        "description": "Three-tier espalier with spur foliage and fruit, support wall excluded",
+        "dimensions_m": [
+          3.537777304649353,
+          0.44754041731357574,
+          2.325078849797137
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7574052810668945,
+            -0.23773616552352905,
+            -0.0006662654923275113
+          ],
+          "max": [
+            1.7803720235824585,
+            0.2098042517900467,
+            2.3244125843048096
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/orchard.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/orchard.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "apple-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

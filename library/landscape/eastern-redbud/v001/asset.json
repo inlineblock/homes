@@ -1,0 +1,150 @@
+{
+  "botanical_name": "Cercis canadensis",
+  "cultivar_or_training": "Species concept; no cultivar asserted",
+  "browse_tags": [
+    "suburban"
+  ],
+  "deterministic_seeds": {
+    "summer-multistem": 301,
+    "spring-flowering": 302,
+    "winter-branching": 303
+  },
+  "sources": [
+    "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+  ],
+  "site_selection": "Regional eastern North American garden candidate; verify local sun, moisture and form before selection. No coastal inundation or universal xeric suitability claim.",
+  "visual_accuracy_limits": "Original architectural visualization geometry, not botanical scanning. Modeled dimensions are specimen sizes, not mature spacing or performance claims. Native preview and host adoption are separate review stages.",
+  "phenology": "Each named collection is a separate coherent state; do not combine spring, autumn and dormant variants indiscriminately.",
+  "license": "CC-BY-4.0",
+  "author": "Homes project contributors",
+  "external_textures": false,
+  "host_adoption": "not adopted; site placement unverified",
+  "schema_version": 1,
+  "id": "landscape/eastern-redbud",
+  "version": "v001",
+  "name": "Eastern redbud",
+  "units": "meters",
+  "dimensions_m": [
+    6.4279749393463135,
+    6.207519054412842,
+    4.493832718580961
+  ],
+  "bounds_m": {
+    "min": [
+      -3.3027141094207764,
+      -3.1279988288879395,
+      -0.02955831214785576
+    ],
+    "max": [
+      3.125260829925537,
+      3.0795202255249023,
+      4.4642744064331055
+    ]
+  },
+  "blender": {
+    "collection": "eastern-redbud__summer-multistem",
+    "variants": [
+      {
+        "id": "summer-multistem",
+        "collection": "eastern-redbud__summer-multistem",
+        "description": "Airy leafy multi-stem summer tree with broad cordate blades",
+        "dimensions_m": [
+          6.4279749393463135,
+          6.207519054412842,
+          4.493832718580961
+        ],
+        "bounds_m": {
+          "min": [
+            -3.3027141094207764,
+            -3.1279988288879395,
+            -0.02955831214785576
+          ],
+          "max": [
+            3.125260829925537,
+            3.0795202255249023,
+            4.4642744064331055
+          ]
+        }
+      },
+      {
+        "id": "spring-flowering",
+        "collection": "eastern-redbud__spring-flowering",
+        "description": "Single trunk early spring specimen; pea-like magenta flowers on leafless branch wood",
+        "dimensions_m": [
+          5.309410095214844,
+          5.279510974884033,
+          4.335091304033995
+        ],
+        "bounds_m": {
+          "min": [
+            -2.618957042694092,
+            -2.676469087600708,
+            -0.022851180285215378
+          ],
+          "max": [
+            2.690453052520752,
+            2.603041887283325,
+            4.312240123748779
+          ]
+        }
+      },
+      {
+        "id": "winter-branching",
+        "collection": "eastern-redbud__winter-branching",
+        "description": "Exposed dormant branch structure; no leaves or blossom",
+        "dimensions_m": [
+          6.109739065170288,
+          5.643609285354614,
+          4.7073832005262375
+        ],
+        "bounds_m": {
+          "min": [
+            -3.1487298011779785,
+            -2.7508132457733154,
+            -0.03126196563243866
+          ],
+          "max": [
+            2.9610092639923096,
+            2.892796039581299,
+            4.676121234893799
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/suburban.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/suburban.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "eastern-redbud.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

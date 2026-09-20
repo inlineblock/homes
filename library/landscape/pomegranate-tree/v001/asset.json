@@ -1,0 +1,138 @@
+{
+  "botanical_name": "Punica granatum",
+  "botanical_sources": [
+    "https://site.extension.uga.edu/fultonag/2020/12/pomegranates/"
+  ],
+  "climate_notes": "Warm-site concept; check local cold exposure and fruit ripening. Flowering and ripe-fruit states intentionally separate.",
+  "geometry_notes": "Original connected branch scaffolds, attached leaf petioles and species-specific foliage/fruit. Seasonal/trained forms use distinct deterministic geometry. Botanical visualization, not a verified cultivar specimen.",
+  "host_adoption": "No home adoption claimed. Library-only geometry; site placement review required.",
+  "schema_version": 1,
+  "id": "landscape/pomegranate-tree",
+  "version": "v001",
+  "name": "Pomegranate",
+  "units": "meters",
+  "dimensions_m": [
+    3.3509175777435303,
+    3.2246930599212646,
+    2.394359827041626
+  ],
+  "bounds_m": {
+    "min": [
+      -1.7465254068374634,
+      -1.590276837348938,
+      0.0
+    ],
+    "max": [
+      1.604392170906067,
+      1.6344162225723267,
+      2.394359827041626
+    ]
+  },
+  "blender": {
+    "collection": "pomegranate-tree__natural-shrub",
+    "variants": [
+      {
+        "id": "natural-shrub",
+        "collection": "pomegranate-tree__natural-shrub",
+        "description": "Natural multi-stem leafy shrub",
+        "dimensions_m": [
+          3.3509175777435303,
+          3.2246930599212646,
+          2.394359827041626
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7465254068374634,
+            -1.590276837348938,
+            0.0
+          ],
+          "max": [
+            1.604392170906067,
+            1.6344162225723267,
+            2.394359827041626
+          ]
+        }
+      },
+      {
+        "id": "flowering-standard",
+        "collection": "pomegranate-tree__flowering-standard",
+        "description": "Single-trunk trained tree with red tubular flowers",
+        "dimensions_m": [
+          3.2364914417266846,
+          3.093571186065674,
+          2.7590699195861816
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7466307878494263,
+            -1.5845056772232056,
+            0.0
+          ],
+          "max": [
+            1.4898606538772583,
+            1.5090655088424683,
+            2.7590699195861816
+          ]
+        }
+      },
+      {
+        "id": "fruit-loaded",
+        "collection": "pomegranate-tree__fruit-loaded",
+        "description": "Maintained multi-stem ripe fruit crown",
+        "dimensions_m": [
+          3.3374103307724,
+          3.3713293075561523,
+          2.619663953781128
+        ],
+        "bounds_m": {
+          "min": [
+            -1.6309394836425781,
+            -1.7736616134643555,
+            0.0
+          ],
+          "max": [
+            1.7064708471298218,
+            1.5976676940917969,
+            2.619663953781128
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/orchard.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/orchard.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "pomegranate-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

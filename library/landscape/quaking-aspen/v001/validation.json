@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/quaking-aspen",
+  "version": "v001",
+  "native_sha256": "b3e1477970bfcaa7d1443aa9c2d1ebb0ddfd52e5e16978558535a45a7588bcef",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 18,
+  "variants": [
+    {
+      "id": "young",
+      "collection": "QuakingAspen_young",
+      "bounds_m": {
+        "min": [
+          -1.1540662050247192,
+          -1.1471712589263916,
+          -0.0013651771005243063
+        ],
+        "max": [
+          1.172035574913025,
+          1.1456271409988403,
+          4.095621585845947
+        ],
+        "dimensions": [
+          2.326101779937744,
+          2.292798399925232,
+          4.096986762946472
+        ]
+      },
+      "vertices": 95743,
+      "faces": 60782,
+      "ground_min_z_m": -0.0013651771005243063
+    },
+    {
+      "id": "grove",
+      "collection": "QuakingAspen_grove",
+      "bounds_m": {
+        "min": [
+          -2.5962300300598145,
+          -2.0817439556121826,
+          -0.0016828452935442328
+        ],
+        "max": [
+          2.090904474258423,
+          2.318892478942871,
+          6.91501522064209
+        ],
+        "dimensions": [
+          4.687134504318237,
+          4.400636434555054,
+          6.916698065935634
+        ]
+      },
+      "vertices": 287229,
+      "faces": 182346,
+      "ground_min_z_m": -0.0016828452935442328
+    },
+    {
+      "id": "autumn-grove",
+      "collection": "QuakingAspen_autumn_grove",
+      "bounds_m": {
+        "min": [
+          -2.282991886138916,
+          -2.105759859085083,
+          -0.0016828698571771383
+        ],
+        "max": [
+          2.2878458499908447,
+          2.0099213123321533,
+          6.415493965148926
+        ],
+        "dimensions": [
+          4.570837736129761,
+          4.115681171417236,
+          6.417176835006103
+        ]
+      },
+      "vertices": 287229,
+      "faces": 182346,
+      "ground_min_z_m": -0.0016828698571771383
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct seasonal and growth forms, continuous leafy crowns where appropriate, grounded bases and connected visible detail. Finer leaf edges and bark microdetail remain simplified.",
+    "image_sha256": {
+      "preview.png": "7cf57200d979e3cbb4c80740d83bba8c429cd5747703e06b9258c50887dd19e7",
+      "detail.png": "64fbfd7a8b9cf44569aaec118ce0a05ee766a12e9f132c9970893e3fc07efef4"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

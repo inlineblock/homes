@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/shore-pine",
+  "version": "v001",
+  "native_sha256": "89ace8c3e8d95577ee7e48772c498a11fd2fa30a4b51a433ffa400ff30edc19c",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 12,
+  "variants": [
+    {
+      "id": "young-open",
+      "collection": "shore-pine-young-open",
+      "bounds_m": {
+        "min": [
+          -1.3279361724853516,
+          -1.4258183240890503,
+          0.0
+        ],
+        "max": [
+          1.3140724897384644,
+          1.2560938596725464,
+          3.4018001556396484
+        ],
+        "dimensions": [
+          2.642008662223816,
+          2.6819121837615967,
+          3.4018001556396484
+        ]
+      },
+      "vertices": 728092,
+      "faces": 647505,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "irregular-mature",
+      "collection": "shore-pine-irregular-mature",
+      "bounds_m": {
+        "min": [
+          -2.205561876296997,
+          -2.528367042541504,
+          0.0
+        ],
+        "max": [
+          2.473121166229248,
+          2.02103328704834,
+          5.706737041473389
+        ],
+        "dimensions": [
+          4.678683042526245,
+          4.549400329589844,
+          5.706737041473389
+        ]
+      },
+      "vertices": 728092,
+      "faces": 647505,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "wind-shaped",
+      "collection": "shore-pine-wind-shaped",
+      "bounds_m": {
+        "min": [
+          -0.09845750778913498,
+          -2.0150201320648193,
+          0.0
+        ],
+        "max": [
+          3.019554376602173,
+          2.1483607292175293,
+          4.470401763916016
+        ],
+        "dimensions": [
+          3.118011884391308,
+          4.163380861282349,
+          4.470401763916016
+        ]
+      },
+      "vertices": 728092,
+      "faces": 647505,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct growth forms with grounded bases and attached foliage. Revised pine has fuller irregular crown volumes; strawberry forms a low overlapping mat with separate toothed leaflets. Fine twig, needle and leaf patterns remain simplified.",
+    "image_sha256": {
+      "preview.png": "6794e58375fba8f096d4d5aa5707fb228822fac6c233f193b78a0d7d5c0e8588",
+      "detail.png": "78bb20d98c694309e33900fa310bae62a2c9f1e4a858b639c4b50fca9da66b19"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

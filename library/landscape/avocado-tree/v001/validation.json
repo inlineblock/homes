@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/avocado-tree",
+  "version": "v001",
+  "native_sha256": "333d41102871e1b1a7bcc018304c04fd49dbcf3284febb97b9364e04d8998d25",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 14,
+  "variants": [
+    {
+      "id": "young-orchard",
+      "collection": "avocado-tree__young-orchard",
+      "bounds_m": {
+        "min": [
+          -1.1175123453140259,
+          -1.2008689641952515,
+          0.0
+        ],
+        "max": [
+          1.2041915655136108,
+          1.1754045486450195,
+          2.310149669647217
+        ],
+        "dimensions": [
+          2.3217039108276367,
+          2.376273512840271,
+          2.310149669647217
+        ]
+      },
+      "vertices": 248019,
+      "faces": 152279,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "maintained-garden",
+      "collection": "avocado-tree__maintained-garden",
+      "bounds_m": {
+        "min": [
+          -1.9987156391143799,
+          -1.941485047340393,
+          0.0
+        ],
+        "max": [
+          1.8643139600753784,
+          1.9645719528198242,
+          3.7525477409362793
+        ],
+        "dimensions": [
+          3.8630295991897583,
+          3.9060570001602173,
+          3.7525477409362793
+        ]
+      },
+      "vertices": 253299,
+      "faces": 156789,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "mature-fruiting",
+      "collection": "avocado-tree__mature-fruiting",
+      "bounds_m": {
+        "min": [
+          -2.423368215560913,
+          -2.8001596927642822,
+          0.0
+        ],
+        "max": [
+          2.763786792755127,
+          2.309004068374634,
+          5.3560333251953125
+        ],
+        "dimensions": [
+          5.18715500831604,
+          5.109163761138916,
+          5.3560333251953125
+        ]
+      },
+      "vertices": 253491,
+      "faces": 156953,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Fuller natural crowns and distinct trained, fruiting or dormant forms. Broad avocado leaves, lobed fig foliage, pomegranate calyces and apple espalier are visible. Fruit surfaces and branching retain concept-level simplification.",
+    "image_sha256": {
+      "preview.png": "3981f8197115930caa84688c6432bae46103481892c881bf1833d630a27ec1db",
+      "detail.png": "7730cf873d5204f26c8c5e40b1ef722da8b2a10107d4cf8bf5d0a64a5bf1f4be"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

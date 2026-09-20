@@ -1,0 +1,156 @@
+{
+  "botanical_name": "Schizachyrium scoparium",
+  "browse_tags": [
+    "xeriscape",
+    "water-wise"
+  ],
+  "sources": [
+    {
+      "url": "https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/",
+      "supports": "Upright bunchgrass; blue-green summer, copper seasonal change and persistent hairy seeds."
+    }
+  ],
+  "source_notes": "Original deterministic species-informed geometry; no external images or meshes.",
+  "visual_accuracy_limitations": "Awn/hair density simplified for architectural scene performance.",
+  "site_selection": {
+    "climate_basis": "Sunny prairie garden with drainage; selection for region and soil remains site-specific.",
+    "sun": "Full sun; verify actual site exposure",
+    "soil": "Well-drained; site-specific soil suitability requires local review",
+    "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "fire_safety": "not evaluated"
+  },
+  "modeled_size_basis": "Dimensions measured from the native meshes; not a mature spacing recommendation.",
+  "rootstock": "not applicable",
+  "cultivar": "species-inspired unspecified seed strain unless variant states otherwise",
+  "schema_version": 1,
+  "id": "landscape/little-bluestem",
+  "version": "v001",
+  "name": "Little bluestem",
+  "units": "meters",
+  "dimensions_m": [
+    0.511803075671196,
+    0.5072953402996063,
+    1.1192031217506155
+  ],
+  "bounds_m": {
+    "min": [
+      -0.24185948073863983,
+      -0.25836381316185,
+      -0.000427157967351377
+    ],
+    "max": [
+      0.26994359493255615,
+      0.24893152713775635,
+      1.1187759637832642
+    ]
+  },
+  "blender": {
+    "collection": "little-bluestem__summer-blue",
+    "variants": [
+      {
+        "id": "summer-blue",
+        "collection": "little-bluestem__summer-blue",
+        "description": "Upright blue-green summer tussock with narrow folded blades.",
+        "dimensions_m": [
+          0.511803075671196,
+          0.5072953402996063,
+          1.1192031217506155
+        ],
+        "bounds_m": {
+          "min": [
+            -0.24185948073863983,
+            -0.25836381316185,
+            -0.000427157967351377
+          ],
+          "max": [
+            0.26994359493255615,
+            0.24893152713775635,
+            1.1187759637832642
+          ]
+        }
+      },
+      {
+        "id": "copper-autumn",
+        "collection": "little-bluestem__copper-autumn",
+        "description": "Copper autumn clump with taller reddish jointed stems and developing racemes.",
+        "dimensions_m": [
+          0.5215849131345749,
+          0.5332175493240356,
+          1.1178116804512683
+        ],
+        "bounds_m": {
+          "min": [
+            -0.2903394401073456,
+            -0.2726030647754669,
+            -0.0003197199257556349
+          ],
+          "max": [
+            0.2312454730272293,
+            0.2606144845485687,
+            1.1174919605255127
+          ]
+        }
+      },
+      {
+        "id": "winter-seed",
+        "collection": "little-bluestem__winter-seed",
+        "description": "Open standing winter clump with tan blades and retained pale hairy seeds.",
+        "dimensions_m": [
+          0.5388070344924927,
+          0.5164722949266434,
+          1.1174881325860042
+        ],
+        "bounds_m": {
+          "min": [
+            -0.25405317544937134,
+            -0.21665923297405243,
+            -0.0003800259728450328
+          ],
+          "max": [
+            0.28475385904312134,
+            0.29981306195259094,
+            1.1171081066131592
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/xeric.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/xeric.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "little-bluestem.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

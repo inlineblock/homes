@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/red-osier-dogwood",
+  "version": "v001",
+  "native_sha256": "651bd55a5871d0f41e74c4a3fee4f5fde5910fcdd2b10361e5281f5b4c48c012",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 12,
+  "variants": [
+    {
+      "id": "leafy",
+      "collection": "RedOsierDogwood_leafy",
+      "bounds_m": {
+        "min": [
+          -0.8329095840454102,
+          -0.8066975474357605,
+          -0.007827743887901306
+        ],
+        "max": [
+          0.7658998966217041,
+          0.8078151345252991,
+          1.9485267400741577
+        ],
+        "dimensions": [
+          1.5988094806671143,
+          1.6145126819610596,
+          1.956354483962059
+        ]
+      },
+      "vertices": 101520,
+      "faces": 64788,
+      "ground_min_z_m": -0.007827743887901306
+    },
+    {
+      "id": "flowering",
+      "collection": "RedOsierDogwood_flowering",
+      "bounds_m": {
+        "min": [
+          -0.7768566608428955,
+          -0.8356998562812805,
+          -0.008457591757178307
+        ],
+        "max": [
+          0.8832797408103943,
+          0.9382158517837524,
+          1.791746973991394
+        ],
+        "dimensions": [
+          1.6601364016532898,
+          1.773915708065033,
+          1.8002045657485723
+        ]
+      },
+      "vertices": 372180,
+      "faces": 250185,
+      "ground_min_z_m": -0.008457591757178307
+    },
+    {
+      "id": "winter",
+      "collection": "RedOsierDogwood_winter",
+      "bounds_m": {
+        "min": [
+          -0.7453134059906006,
+          -0.7500948905944824,
+          -0.007502994500100613
+        ],
+        "max": [
+          0.9082884192466736,
+          0.8778459429740906,
+          2.0075321197509766
+        ],
+        "dimensions": [
+          1.6536018252372742,
+          1.627940833568573,
+          2.015035114251077
+        ]
+      },
+      "vertices": 21756,
+      "faces": 16611,
+      "ground_min_z_m": -0.007502994500100613
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct seasonal and growth forms, continuous leafy crowns where appropriate, grounded bases and connected visible detail. Finer leaf edges and bark microdetail remain simplified.",
+    "image_sha256": {
+      "preview.png": "73b8c819e3850c78cd9dfc313a3fc6a14c536baa6a7ab0563c2821e2fa7c8d0f",
+      "detail.png": "410b9b3eca4a91ae49c5f85539c522ed01adf4b7d17090f58fe589e7f9a3b875"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

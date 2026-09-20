@@ -1,0 +1,202 @@
+{
+  "botanical_name": "Citrus unshiu",
+  "cultivars": [
+    "Owari satsuma (Frost reference form)",
+    "Owari satsuma (Frost reference form)",
+    "Owari satsuma (Frost reference form)"
+  ],
+  "rootstock": "Unspecified; compact forms represent age and training, not a guaranteed dwarf rootstock.",
+  "browse_tags": [
+    "fruit tree",
+    "citrus",
+    "sheltered garden",
+    "patio-trained option"
+  ],
+  "preferred_detail_variant": "owari-patio",
+  "variant_metadata": {
+    "owari-spreading": {
+      "cultivar": "Owari satsuma (Frost reference form)",
+      "seed": 1013,
+      "training_and_season": "Early winter; low spreading tree carrying oblate orange fruit",
+      "nominal_fruit_diameter_length_m": [
+        0.068,
+        0.047
+      ],
+      "fruit_profile": "satsuma",
+      "rootstock": "unspecified"
+    },
+    "owari-loaded": {
+      "cultivar": "Owari satsuma (Frost reference form)",
+      "seed": 1032,
+      "training_and_season": "Early winter harvest; fruit-loaded pendant terminal branches",
+      "nominal_fruit_diameter_length_m": [
+        0.068,
+        0.047
+      ],
+      "fruit_profile": "satsuma-loaded",
+      "rootstock": "unspecified"
+    },
+    "owari-patio": {
+      "cultivar": "Owari satsuma (Frost reference form)",
+      "seed": 1051,
+      "training_and_season": "Early winter; patio-trained standard, compact by training, rootstock unspecified",
+      "nominal_fruit_diameter_length_m": [
+        0.068,
+        0.047
+      ],
+      "fruit_profile": "satsuma",
+      "rootstock": "unspecified"
+    }
+  },
+  "source_urls": [
+    "https://citrusvariety.ucr.edu/crc3178"
+  ],
+  "botanical_sources": [
+    "https://citrusvariety.ucr.edu/crc3178"
+  ],
+  "reference_checked": "2026-09-19",
+  "visual_accuracy": "Original architectural botanical interpretation. Named citrus selections differentiated in crown habit, leaf dimensions, fruit profile and fruit clusters. Not a taxonomic specimen or horticultural performance model.",
+  "modeled_size_basis": "Actual measured asset bounds describe pruned/young/garden specimens, not published maximum mature dimensions.",
+  "climate_notes": "Sheltered citrus-suitable garden; verify local winter cold and cultivar/rootstock. This library is not an outdoor mountain planting specification.",
+  "site_selection": {
+    "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+    "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+    "soil": "Free drainage assumed; soil suitability requires local verification.",
+    "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+    "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+    "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+    "saline_inundation": "Unknown; not specified."
+  },
+  "dependencies": [],
+  "materials": "Embedded original procedural bark, four subtly varied waxy foliage tones, rind pores, petals and calyx materials; no external textures.",
+  "allowed_variation": "Rotate freely about Z; uniform scale 0.9\u20131.1 only. Choose actual collection for growth habit; do not squash into another species.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "review_notes": "Fruit stalks connect to twig nodes; attached petioles, ground-root flare, real calyces, and species-specific fruit dimensions. Blossoming variants explicitly permit retained earlier-season citrus fruit.",
+  "schema_version": 1,
+  "id": "landscape/satsuma-mandarin-tree",
+  "version": "v001",
+  "name": "Owari satsuma mandarin trees",
+  "units": "meters",
+  "dimensions_m": [
+    3.40616512298584,
+    2.9611915349960327,
+    2.38991117477417
+  ],
+  "bounds_m": {
+    "min": [
+      -1.7916808128356934,
+      -1.4874796867370605,
+      0.0
+    ],
+    "max": [
+      1.6144843101501465,
+      1.4737118482589722,
+      2.38991117477417
+    ]
+  },
+  "blender": {
+    "collection": "satsuma_mandarin_tree__owari_spreading",
+    "variants": [
+      {
+        "id": "owari-spreading",
+        "collection": "satsuma_mandarin_tree__owari_spreading",
+        "description": "Early winter; low spreading tree carrying oblate orange fruit",
+        "dimensions_m": [
+          3.40616512298584,
+          2.9611915349960327,
+          2.38991117477417
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7916808128356934,
+            -1.4874796867370605,
+            0.0
+          ],
+          "max": [
+            1.6144843101501465,
+            1.4737118482589722,
+            2.38991117477417
+          ]
+        }
+      },
+      {
+        "id": "owari-loaded",
+        "collection": "satsuma_mandarin_tree__owari_loaded",
+        "description": "Early winter harvest; fruit-loaded pendant terminal branches",
+        "dimensions_m": [
+          3.544059634208679,
+          3.616170048713684,
+          2.5466885566711426
+        ],
+        "bounds_m": {
+          "min": [
+            -1.8796539306640625,
+            -1.9058979749679565,
+            0.0
+          ],
+          "max": [
+            1.6644057035446167,
+            1.7102720737457275,
+            2.5466885566711426
+          ]
+        }
+      },
+      {
+        "id": "owari-patio",
+        "collection": "satsuma_mandarin_tree__owari_patio",
+        "description": "Early winter; patio-trained standard, compact by training, rootstock unspecified",
+        "dimensions_m": [
+          2.1918444633483887,
+          1.9965401887893677,
+          2.0830817222595215
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0740137100219727,
+            -0.9975882172584534,
+            0.0
+          ],
+          "max": [
+            1.117830753326416,
+            0.9989519715309143,
+            2.0830817222595215
+          ]
+        }
+      }
+    ]
+  },
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/citrus.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/citrus.py -- satsuma-mandarin-tree"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "satsuma-mandarin-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

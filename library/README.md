@@ -2,7 +2,7 @@
 
 Original project components are stored here with explicit version pins. Homes link the actual Blender collections and materials; updates create a new version rather than changing geometry underneath another home.
 
-[Landscape expansion plan](landscape/README.md): 35 proposed plant families across mountain, desert, water-wise, coastal and suburban settings, plus citrus and other fruit trees, with three starting forms each. These are planned additions, separate from the available native assets below.
+[Landscape plant gallery](landscape/gallery.md): **35 new built families and 105 named variants**, across mountain, desert, water-wise, coastal, suburban and fruit-tree groups. [Selection notes](landscape/README.md), [catalog data](landscape/catalog.json), and a [linked comparative nursery](landscape/nursery/README.md) sit beside the models. All 35 new families passed native reopen/link checks and whole/detail image review for architectural concept landscaping; they retain simplified botanical geometry rather than photoreal foreground macro detail. Reviews and source/image hashes are recorded per asset. Existing-home adoption remains separate, and the six existing families remain unchanged.
 
 ## Plants, paving and storage
 

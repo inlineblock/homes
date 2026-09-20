@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/pineleaf-penstemon",
+  "version": "v001",
+  "native_sha256": "036dcca78be1a7160925f6ddd7497281316ae7d0a45ead39e8f8478e38f0d1d5",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 16,
+  "variants": [
+    {
+      "id": "needle-cushion",
+      "collection": "pineleaf-penstemon__needle-cushion",
+      "bounds_m": {
+        "min": [
+          -0.23486939072608948,
+          -0.2174357771873474,
+          -0.0011526193702593446
+        ],
+        "max": [
+          0.2209196239709854,
+          0.23317375779151917,
+          0.25487208366394043
+        ],
+        "dimensions": [
+          0.4557890146970749,
+          0.4506095349788666,
+          0.2560247030341998
+        ]
+      },
+      "vertices": 275360,
+      "faces": 124800,
+      "ground_min_z_m": -0.0011526193702593446
+    },
+    {
+      "id": "orange-red-bloom",
+      "collection": "pineleaf-penstemon__orange-red-bloom",
+      "bounds_m": {
+        "min": [
+          -0.24072769284248352,
+          -0.23770427703857422,
+          -0.0010749363573268056
+        ],
+        "max": [
+          0.2565777599811554,
+          0.24552199244499207,
+          0.39421576261520386
+        ],
+        "dimensions": [
+          0.4973054528236389,
+          0.4832262694835663,
+          0.39529069897253066
+        ]
+      },
+      "vertices": 308560,
+      "faces": 147800,
+      "ground_min_z_m": -0.0010749363573268056
+    },
+    {
+      "id": "mersea-yellow",
+      "collection": "pineleaf-penstemon__mersea-yellow",
+      "bounds_m": {
+        "min": [
+          -0.2598416209220886,
+          -0.23996849358081818,
+          -0.0011456202482804656
+        ],
+        "max": [
+          0.2314608246088028,
+          0.23721881210803986,
+          0.38961493968963623
+        ],
+        "dimensions": [
+          0.4913024455308914,
+          0.47718730568885803,
+          0.3907605599379167
+        ]
+      },
+      "vertices": 308560,
+      "faces": 147800,
+      "ground_min_z_m": -0.0011456202482804656
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct grass, cushion, shrub and flowering silhouettes. Whole plants and details show adequate density and attachment. Flower mouths, seedheads and leaf edges remain geometric at macro scale.",
+    "image_sha256": {
+      "preview.png": "a62e48f2fbadc9056f9c65c9ebd127b487488ebd03903888f87a83b7bb40c381",
+      "detail.png": "b30f0c496b2ec8e4e00b85f0a757323295b3936e70e0f7fd6703992d7d4f3670"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

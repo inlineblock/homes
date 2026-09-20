@@ -1,0 +1,168 @@
+{
+  "botanical_name": "Populus tremuloides",
+  "common_name": "Quaking aspen",
+  "source_generator": "tools/library/plants/mountain.py",
+  "browse_tags": [
+    "mountain"
+  ],
+  "sources": [
+    {
+      "url": "https://extension.usu.edu/forestry/tree-identification/poplar-aspen/quaking-aspen",
+      "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+    }
+  ],
+  "cultivar": "species habit; no named cultivar claimed",
+  "rootstock": "not applicable / seedling species concept",
+  "modeling_notes": "Round/ovate blades on long petioles; pale trunks with horizontal dark lenticels; three-stem groves have individual ground-contact origins.",
+  "variant_intents": [
+    "Slender young tree, cool-season green foliage",
+    "Three mature pale-trunk trees with staggered crowns",
+    "Three differently arranged gold-leaf autumn stems"
+  ],
+  "site_selection": {
+    "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "water": "Match species and regional source; provide establishment water",
+    "sun_soil": "Cool moist mountain setting; avoid hot dry valleys. Full sun; moist soil."
+  },
+  "visual_accuracy_limitations": "Original architectural botanical interpretation; branch placement is seeded, leaves are simplified folded blades. Not a nursery product or plant performance specification.",
+  "host_adoption": {
+    "status": "not adopted",
+    "host_placement_reviewed": false
+  },
+  "schema_version": 1,
+  "id": "landscape/quaking-aspen",
+  "version": "v001",
+  "name": "Quaking aspen",
+  "units": "meters",
+  "dimensions_m": [
+    2.326101779937744,
+    2.292798399925232,
+    4.096986762946472
+  ],
+  "bounds_m": {
+    "min": [
+      -1.1540662050247192,
+      -1.1471712589263916,
+      -0.0013651771005243063
+    ],
+    "max": [
+      1.172035574913025,
+      1.1456271409988403,
+      4.095621585845947
+    ]
+  },
+  "blender": {
+    "collection": "QuakingAspen_young",
+    "variants": [
+      {
+        "id": "young",
+        "collection": "QuakingAspen_young",
+        "description": "Slender young tree, cool-season green foliage",
+        "dimensions_m": [
+          2.326101779937744,
+          2.292798399925232,
+          4.096986762946472
+        ],
+        "bounds_m": {
+          "min": [
+            -1.1540662050247192,
+            -1.1471712589263916,
+            -0.0013651771005243063
+          ],
+          "max": [
+            1.172035574913025,
+            1.1456271409988403,
+            4.095621585845947
+          ]
+        }
+      },
+      {
+        "id": "grove",
+        "collection": "QuakingAspen_grove",
+        "description": "Three mature pale-trunk trees with staggered crowns",
+        "dimensions_m": [
+          4.687134504318237,
+          4.400636434555054,
+          6.916698065935634
+        ],
+        "bounds_m": {
+          "min": [
+            -2.5962300300598145,
+            -2.0817439556121826,
+            -0.0016828452935442328
+          ],
+          "max": [
+            2.090904474258423,
+            2.318892478942871,
+            6.91501522064209
+          ]
+        }
+      },
+      {
+        "id": "autumn-grove",
+        "collection": "QuakingAspen_autumn_grove",
+        "description": "Three differently arranged gold-leaf autumn stems",
+        "dimensions_m": [
+          4.570837736129761,
+          4.115681171417236,
+          6.417176835006103
+        ],
+        "bounds_m": {
+          "min": [
+            -2.282991886138916,
+            -2.105759859085083,
+            -0.0016828698571771383
+          ],
+          "max": [
+            2.2878458499908447,
+            2.0099213123321533,
+            6.415493965148926
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/mountain.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/mountain.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "quaking-aspen.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "deterministic_seeds": [
+    110,
+    111,
+    112
+  ],
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

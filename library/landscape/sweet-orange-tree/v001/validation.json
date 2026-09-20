@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/sweet-orange-tree",
+  "version": "v001",
+  "native_sha256": "48e4519bcaca38bedc19063e15232febd89ede872b2c6bd68b211bde0060fd6b",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 23,
+  "variants": [
+    {
+      "id": "washington-young",
+      "collection": "sweet_orange_tree__washington_young",
+      "bounds_m": {
+        "min": [
+          -1.1191171407699585,
+          -1.2472208738327026,
+          0.0
+        ],
+        "max": [
+          1.0498281717300415,
+          1.059894323348999,
+          2.7840137481689453
+        ],
+        "dimensions": [
+          2.1689453125,
+          2.3071151971817017,
+          2.7840137481689453
+        ]
+      },
+      "vertices": 208205,
+      "faces": 133809,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "washington-mature",
+      "collection": "sweet_orange_tree__washington_mature",
+      "bounds_m": {
+        "min": [
+          -1.7537415027618408,
+          -1.8441768884658813,
+          0.0
+        ],
+        "max": [
+          1.9484491348266602,
+          1.8100669384002686,
+          3.8632583618164062
+        ],
+        "dimensions": [
+          3.702190637588501,
+          3.65424382686615,
+          3.8632583618164062
+        ]
+      },
+      "vertices": 305509,
+      "faces": 201058,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "washington-blossom",
+      "collection": "sweet_orange_tree__washington_blossom",
+      "bounds_m": {
+        "min": [
+          -1.3273836374282837,
+          -1.5072828531265259,
+          0.0
+        ],
+        "max": [
+          1.4078806638717651,
+          1.5451263189315796,
+          3.07497239112854
+        ],
+        "dimensions": [
+          2.735264301300049,
+          3.0524091720581055,
+          3.07497239112854
+        ]
+      },
+      "vertices": 309102,
+      "faces": 200785,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent xeric specialist",
+    "notes": "Full three-dimensional crowns, attached branchlets and species-specific fruit forms. Satsuma spreading habit and kumquat fine foliage are distinct. Smooth fruit shaders and angular leaf edges remain visible close up.",
+    "image_sha256": {
+      "preview.png": "20ccf066add996796a3dcdd9f447ce1fb1a148cd95ed40c486b4ded5a71b8c1f",
+      "detail.png": "a381c07ff64d4ac5363832c5ad0d6d288422ae4f2af182d8c8ca93c431eabf40"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

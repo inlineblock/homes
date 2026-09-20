@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/kumquat-tree",
+  "version": "v001",
+  "native_sha256": "80f1b9dcf9b7b747e149113bf4454edcc725f99bad5d674ea755619ea49f6c6b",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 21,
+  "variants": [
+    {
+      "id": "nagami-shrub",
+      "collection": "kumquat_tree__nagami_shrub",
+      "bounds_m": {
+        "min": [
+          -1.0310118198394775,
+          -0.9733937382698059,
+          0.0
+        ],
+        "max": [
+          1.1697298288345337,
+          0.9549937844276428,
+          1.9937139749526978
+        ],
+        "dimensions": [
+          2.2007416486740112,
+          1.9283875226974487,
+          1.9937139749526978
+        ]
+      },
+      "vertices": 321117,
+      "faces": 209448,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "nagami-standard",
+      "collection": "kumquat_tree__nagami_standard",
+      "bounds_m": {
+        "min": [
+          -0.8835986852645874,
+          -0.9467427134513855,
+          0.0
+        ],
+        "max": [
+          0.9336220622062683,
+          0.8536478281021118,
+          2.3222451210021973
+        ],
+        "dimensions": [
+          1.8172207474708557,
+          1.8003905415534973,
+          2.3222451210021973
+        ]
+      },
+      "vertices": 311445,
+      "faces": 201492,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "nagami-fruiting",
+      "collection": "kumquat_tree__nagami_fruiting",
+      "bounds_m": {
+        "min": [
+          -1.0565268993377686,
+          -1.1467421054840088,
+          0.0
+        ],
+        "max": [
+          1.1780486106872559,
+          1.1722761392593384,
+          2.6236424446105957
+        ],
+        "dimensions": [
+          2.2345755100250244,
+          2.319018244743347,
+          2.6236424446105957
+        ]
+      },
+      "vertices": 319257,
+      "faces": 207918,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent xeric specialist",
+    "notes": "Full three-dimensional crowns, attached branchlets and species-specific fruit forms. Satsuma spreading habit and kumquat fine foliage are distinct. Smooth fruit shaders and angular leaf edges remain visible close up.",
+    "image_sha256": {
+      "preview.png": "c5d5fd5b6a62e709e5155a49a3fedcd6c9fd40c0d687ca2e9e68a8a5fb2e6d4b",
+      "detail.png": "0668b6a6e494ddd04dc9234c76e1c1a080a8011bb04968ee1ca554a2814327cc"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

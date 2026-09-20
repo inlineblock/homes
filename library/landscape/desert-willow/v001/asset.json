@@ -1,0 +1,152 @@
+{
+  "botanical_name": "Chilopsis linearis",
+  "seed": 83100,
+  "browse_tags": [
+    "desert",
+    "southwest"
+  ],
+  "sources": [
+    "https://yavapaiplants.extension.arizona.edu/chilopsis-linearis"
+  ],
+  "selection_notes": "Dry-wash and Southwest foothill character; deciduous, not a true willow.",
+  "cultivar": "Species concept; no named cultivar or rootstock asserted",
+  "site_selection": {
+    "region": "Dry-wash and Southwest foothill character; deciduous, not a true willow.",
+    "sun": "Sunny landscape intent; confirm local exposure before planting",
+    "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+    "establishment_water": "Local horticultural specification required",
+    "ongoing_water": "Dryland concept; irrigation needs not engineered",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown"
+  },
+  "visual_accuracy_limitations": "Original botanical visualization, not a taxonomic specimen or nursery specification; measured size is modeled size, not guaranteed mature spread. Species cues modeled as actual geometry.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "schema_version": 1,
+  "id": "landscape/desert-willow",
+  "version": "v001",
+  "name": "Desert willow",
+  "units": "meters",
+  "dimensions_m": [
+    4.5890467166900635,
+    4.413990020751953,
+    3.5490562915802
+  ],
+  "bounds_m": {
+    "min": [
+      -1.8621852397918701,
+      -2.186222791671753,
+      0.0
+    ],
+    "max": [
+      2.7268614768981934,
+      2.2277672290802,
+      3.5490562915802
+    ]
+  },
+  "blender": {
+    "collection": "desert_willow__single_trunk_bloom",
+    "variants": [
+      {
+        "id": "single-trunk-bloom",
+        "collection": "desert_willow__single_trunk_bloom",
+        "description": "Single-trunk flowering tree with lance leaves and pink trumpets",
+        "dimensions_m": [
+          4.5890467166900635,
+          4.413990020751953,
+          3.5490562915802
+        ],
+        "bounds_m": {
+          "min": [
+            -1.8621852397918701,
+            -2.186222791671753,
+            0.0
+          ],
+          "max": [
+            2.7268614768981934,
+            2.2277672290802,
+            3.5490562915802
+          ]
+        }
+      },
+      {
+        "id": "multi-stem",
+        "collection": "desert_willow__multi_stem",
+        "description": "Leafy multi-stem canopy",
+        "dimensions_m": [
+          5.277377605438232,
+          5.785632848739624,
+          4.468147277832031
+        ],
+        "bounds_m": {
+          "min": [
+            -2.6412389278411865,
+            -3.1028497219085693,
+            0.0
+          ],
+          "max": [
+            2.636138677597046,
+            2.6827831268310547,
+            4.468147277832031
+          ]
+        }
+      },
+      {
+        "id": "dormant-capsules",
+        "collection": "desert_willow__dormant_capsules",
+        "description": "Bare winter multi-stem tree with attached slender capsules",
+        "dimensions_m": [
+          5.065835952758789,
+          5.106261968612671,
+          4.572103500366211
+        ],
+        "bounds_m": {
+          "min": [
+            -2.562221050262451,
+            -2.328812837600708,
+            0.0
+          ],
+          "max": [
+            2.503614902496338,
+            2.777449131011963,
+            4.572103500366211
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/desert.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/desert.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "desert-willow.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "botanical_name": "Acer glabrum",
+  "common_name": "Rocky Mountain maple",
+  "source_generator": "tools/library/plants/mountain.py",
+  "browse_tags": [
+    "mountain"
+  ],
+  "deterministic_seeds": [
+    220,
+    221,
+    222
+  ],
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+      "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+    }
+  ],
+  "cultivar": "species habit; no named cultivar claimed",
+  "rootstock": "not applicable / seedling species concept",
+  "modeling_notes": "Multi-stem smooth gray branching and paired lobed blades. Lobes are simplified; preserve natural broad shrub versus taller small-tree habit.",
+  "variant_intents": [
+    "Small branching understory tree",
+    "Broad multi-stem montane shrub",
+    "Yellow autumn shrub with staggered scaffold limbs"
+  ],
+  "site_selection": {
+    "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "water": "Match species and regional source; provide establishment water",
+    "sun_soil": "Foothill to montane understory; low to moderate moisture; tolerates shade."
+  },
+  "visual_accuracy_limitations": "Original architectural botanical interpretation; branch placement is seeded, leaves are simplified folded blades. Not a nursery product or plant performance specification.",
+  "host_adoption": {
+    "status": "not adopted",
+    "host_placement_reviewed": false
+  },
+  "schema_version": 1,
+  "id": "landscape/rocky-mountain-maple",
+  "version": "v001",
+  "name": "Rocky Mountain maple",
+  "units": "meters",
+  "dimensions_m": [
+    2.359640955924988,
+    2.4329999685287476,
+    3.5915946746245027
+  ],
+  "bounds_m": {
+    "min": [
+      -1.1197941303253174,
+      -1.2833948135375977,
+      -0.011153914965689182
+    ],
+    "max": [
+      1.2398468255996704,
+      1.14960515499115,
+      3.5804407596588135
+    ]
+  },
+  "blender": {
+    "collection": "RockyMountainMaple_small_tree",
+    "variants": [
+      {
+        "id": "small-tree",
+        "collection": "RockyMountainMaple_small_tree",
+        "description": "Small branching understory tree",
+        "dimensions_m": [
+          2.359640955924988,
+          2.4329999685287476,
+          3.5915946746245027
+        ],
+        "bounds_m": {
+          "min": [
+            -1.1197941303253174,
+            -1.2833948135375977,
+            -0.011153914965689182
+          ],
+          "max": [
+            1.2398468255996704,
+            1.14960515499115,
+            3.5804407596588135
+          ]
+        }
+      },
+      {
+        "id": "multi-stem",
+        "collection": "RockyMountainMaple_multi_stem",
+        "description": "Broad multi-stem montane shrub",
+        "dimensions_m": [
+          2.599235773086548,
+          2.587679386138916,
+          2.5967634469270706
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3276035785675049,
+            -1.2973617315292358,
+            -0.011438444256782532
+          ],
+          "max": [
+            1.271632194519043,
+            1.2903176546096802,
+            2.585325002670288
+          ]
+        }
+      },
+      {
+        "id": "autumn",
+        "collection": "RockyMountainMaple_autumn",
+        "description": "Yellow autumn shrub with staggered scaffold limbs",
+        "dimensions_m": [
+          2.443696141242981,
+          2.4313710927963257,
+          2.96020024176687
+        ],
+        "bounds_m": {
+          "min": [
+            -1.2406680583953857,
+            -1.1843507289886475,
+            -0.009134463034570217
+          ],
+          "max": [
+            1.2030280828475952,
+            1.2470203638076782,
+            2.9510657787323
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/mountain.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/mountain.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "rocky-mountain-maple.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

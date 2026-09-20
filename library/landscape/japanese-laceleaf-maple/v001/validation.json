@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/japanese-laceleaf-maple",
+  "version": "v001",
+  "native_sha256": "7466bded96b40f9d3c8fb4fe760ecff3478d3e0fd24cbddd52ee3c63ba75f6bf",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 12,
+  "variants": [
+    {
+      "id": "green-cascade",
+      "collection": "japanese-laceleaf-maple__green-cascade",
+      "bounds_m": {
+        "min": [
+          -2.31414794921875,
+          -2.48746919631958,
+          -0.022072726860642433
+        ],
+        "max": [
+          2.5027003288269043,
+          2.3744754791259766,
+          1.902285099029541
+        ],
+        "dimensions": [
+          4.816848278045654,
+          4.861944675445557,
+          1.9243578258901834
+        ]
+      },
+      "vertices": 339409,
+      "faces": 324312,
+      "ground_min_z_m": -0.022072726860642433
+    },
+    {
+      "id": "burgundy-weeping",
+      "collection": "japanese-laceleaf-maple__burgundy-weeping",
+      "bounds_m": {
+        "min": [
+          -2.3390121459960938,
+          -2.284146785736084,
+          -0.022007714956998825
+        ],
+        "max": [
+          2.3042666912078857,
+          2.4102678298950195,
+          1.6122318506240845
+        ],
+        "dimensions": [
+          4.6432788372039795,
+          4.6944146156311035,
+          1.6342395655810833
+        ]
+      },
+      "vertices": 409323,
+      "faces": 390738,
+      "ground_min_z_m": -0.022007714956998825
+    },
+    {
+      "id": "upright-dissected",
+      "collection": "japanese-laceleaf-maple__upright-dissected",
+      "bounds_m": {
+        "min": [
+          -1.935745120048523,
+          -2.1122140884399414,
+          -0.02280491031706333
+        ],
+        "max": [
+          2.195160150527954,
+          2.138190507888794,
+          3.8353333473205566
+        ],
+        "dimensions": [
+          4.130905270576477,
+          4.250404596328735,
+          3.85813825763762
+        ]
+      },
+      "vertices": 339409,
+      "faces": 324312,
+      "ground_min_z_m": -0.02280491031706333
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct flowering, trained, cascading or seasonal forms. Adequate foliage coverage and readable leaf/flower shapes; close geometry remains illustrative.",
+    "image_sha256": {
+      "preview.png": "7f8d3a455719f1c021407a847ef9e96de67144fb473f4392293c0f79810dc893",
+      "detail.png": "92df50b1edbfe2de5eb5f274967b26d8ec049fa04bcb97b19fbd99499160fc7d"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

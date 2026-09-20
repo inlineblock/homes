@@ -1,0 +1,150 @@
+{
+  "botanical_name": "Physocarpus opulifolius",
+  "cultivar_or_training": "Green species and compact Little Devil ('Donna May') visual habit study; cultivar performance not verified",
+  "browse_tags": [
+    "suburban"
+  ],
+  "deterministic_seeds": {
+    "arching-green": 331,
+    "compact-burgundy": 332,
+    "winter-exfoliating": 333
+  },
+  "sources": [
+    "https://plants.ces.ncsu.edu/plants/physocarpus-opulifolius/"
+  ],
+  "site_selection": "Select for actual summer heat, sun, soil and water. Foliage color is cultivar-specific; modeled compact size is not a species-wide mature size.",
+  "visual_accuracy_limits": "Original architectural visualization geometry, not botanical scanning. Modeled dimensions are specimen sizes, not mature spacing or performance claims. Native preview and host adoption are separate review stages.",
+  "phenology": "Each named collection is a separate coherent state; do not combine spring, autumn and dormant variants indiscriminately.",
+  "license": "CC-BY-4.0",
+  "author": "Homes project contributors",
+  "external_textures": false,
+  "host_adoption": "not adopted; site placement unverified",
+  "schema_version": 1,
+  "id": "landscape/ninebark",
+  "version": "v001",
+  "name": "Ninebark",
+  "units": "meters",
+  "dimensions_m": [
+    2.879672050476074,
+    2.9128167629241943,
+    2.132628527469933
+  ],
+  "bounds_m": {
+    "min": [
+      -1.4432713985443115,
+      -1.4542495012283325,
+      -0.015202847309410572
+    ],
+    "max": [
+      1.4364006519317627,
+      1.4585672616958618,
+      2.1174256801605225
+    ]
+  },
+  "blender": {
+    "collection": "ninebark__arching-green",
+    "variants": [
+      {
+        "id": "arching-green",
+        "collection": "ninebark__arching-green",
+        "description": "Arching green-leaf shrub",
+        "dimensions_m": [
+          2.879672050476074,
+          2.9128167629241943,
+          2.132628527469933
+        ],
+        "bounds_m": {
+          "min": [
+            -1.4432713985443115,
+            -1.4542495012283325,
+            -0.015202847309410572
+          ],
+          "max": [
+            1.4364006519317627,
+            1.4585672616958618,
+            2.1174256801605225
+          ]
+        }
+      },
+      {
+        "id": "compact-burgundy",
+        "collection": "ninebark__compact-burgundy",
+        "description": "Little Devil cultivar habit study; compact burgundy foliage",
+        "dimensions_m": [
+          2.069864273071289,
+          2.063062071800232,
+          1.4375516157597303
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0414944887161255,
+            -1.0463268756866455,
+            -0.010922430083155632
+          ],
+          "max": [
+            1.0283697843551636,
+            1.0167351961135864,
+            1.4266291856765747
+          ]
+        }
+      },
+      {
+        "id": "winter-exfoliating",
+        "collection": "ninebark__winter-exfoliating",
+        "description": "Dormant arching canes with actual curled exfoliating bark ribbons",
+        "dimensions_m": [
+          2.7756534814834595,
+          2.7843621969223022,
+          2.100719769485295
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3969523906707764,
+            -1.3925831317901611,
+            -0.014550288207828999
+          ],
+          "max": [
+            1.378701090812683,
+            1.3917790651321411,
+            2.086169481277466
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/suburban.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/suburban.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "ninebark.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

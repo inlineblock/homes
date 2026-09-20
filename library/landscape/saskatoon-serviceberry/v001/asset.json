@@ -1,0 +1,168 @@
+{
+  "botanical_name": "Amelanchier alnifolia",
+  "common_name": "Saskatoon serviceberry",
+  "source_generator": "tools/library/plants/mountain.py",
+  "browse_tags": [
+    "mountain"
+  ],
+  "deterministic_seeds": [
+    330,
+    331,
+    332
+  ],
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+      "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+    }
+  ],
+  "cultivar": "species habit; no named cultivar claimed",
+  "rootstock": "not applicable / seedling species concept",
+  "modeling_notes": "Upright/open thicket habit, small rounded leaves and terminal white racemes. Fruit represented as attached small blue-purple pomes; autumn uses independent branch arrangement.",
+  "variant_intents": [
+    "Upright shrub, spring white racemes and emerging leaves",
+    "Open multi-stem thicket bearing blue-purple fruit",
+    "Broad arching orange-red autumn shrub"
+  ],
+  "site_selection": {
+    "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "water": "Match species and regional source; provide establishment water",
+    "sun_soil": "Foothill through subalpine candidate; low to moderate moisture. Verify local soil and sun."
+  },
+  "visual_accuracy_limitations": "Original architectural botanical interpretation; branch placement is seeded, leaves are simplified folded blades. Not a nursery product or plant performance specification.",
+  "host_adoption": {
+    "status": "not adopted",
+    "host_placement_reviewed": false
+  },
+  "schema_version": 1,
+  "id": "landscape/saskatoon-serviceberry",
+  "version": "v001",
+  "name": "Saskatoon serviceberry",
+  "units": "meters",
+  "dimensions_m": [
+    2.25837641954422,
+    2.4009718894958496,
+    2.8559670741669834
+  ],
+  "bounds_m": {
+    "min": [
+      -0.9899930357933044,
+      -1.1489349603652954,
+      -0.00711968494579196
+    ],
+    "max": [
+      1.2683833837509155,
+      1.2520369291305542,
+      2.8488473892211914
+    ]
+  },
+  "blender": {
+    "collection": "SaskatoonServiceberry_flowering",
+    "variants": [
+      {
+        "id": "flowering",
+        "collection": "SaskatoonServiceberry_flowering",
+        "description": "Upright shrub, spring white racemes and emerging leaves",
+        "dimensions_m": [
+          2.25837641954422,
+          2.4009718894958496,
+          2.8559670741669834
+        ],
+        "bounds_m": {
+          "min": [
+            -0.9899930357933044,
+            -1.1489349603652954,
+            -0.00711968494579196
+          ],
+          "max": [
+            1.2683833837509155,
+            1.2520369291305542,
+            2.8488473892211914
+          ]
+        }
+      },
+      {
+        "id": "berry-thicket",
+        "collection": "SaskatoonServiceberry_berry_thicket",
+        "description": "Open multi-stem thicket bearing blue-purple fruit",
+        "dimensions_m": [
+          2.432007074356079,
+          2.2367613315582275,
+          2.4743087720125914
+        ],
+        "bounds_m": {
+          "min": [
+            -1.16526460647583,
+            -1.0515254735946655,
+            -0.008120579645037651
+          ],
+          "max": [
+            1.266742467880249,
+            1.185235857963562,
+            2.4661881923675537
+          ]
+        }
+      },
+      {
+        "id": "autumn",
+        "collection": "SaskatoonServiceberry_autumn",
+        "description": "Broad arching orange-red autumn shrub",
+        "dimensions_m": [
+          2.4170167446136475,
+          2.151184916496277,
+          2.72215323895216
+        ],
+        "bounds_m": {
+          "min": [
+            -1.2230745553970337,
+            -0.9815722703933716,
+            -0.007955364882946014
+          ],
+          "max": [
+            1.1939421892166138,
+            1.1696126461029053,
+            2.714197874069214
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/mountain.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/mountain.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "saskatoon-serviceberry.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

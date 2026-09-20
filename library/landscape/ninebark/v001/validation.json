@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/ninebark",
+  "version": "v001",
+  "native_sha256": "5436a8624c69a5bf62c611a96ee14301a56bb466c7f750295460d95ec76e2a35",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 12,
+  "variants": [
+    {
+      "id": "arching-green",
+      "collection": "ninebark__arching-green",
+      "bounds_m": {
+        "min": [
+          -1.4432713985443115,
+          -1.4542495012283325,
+          -0.015202847309410572
+        ],
+        "max": [
+          1.4364006519317627,
+          1.4585672616958618,
+          2.1174256801605225
+        ],
+        "dimensions": [
+          2.879672050476074,
+          2.9128167629241943,
+          2.132628527469933
+        ]
+      },
+      "vertices": 165387,
+      "faces": 152134,
+      "ground_min_z_m": -0.015202847309410572
+    },
+    {
+      "id": "compact-burgundy",
+      "collection": "ninebark__compact-burgundy",
+      "bounds_m": {
+        "min": [
+          -1.0414944887161255,
+          -1.0463268756866455,
+          -0.010922430083155632
+        ],
+        "max": [
+          1.0283697843551636,
+          1.0167351961135864,
+          1.4266291856765747
+        ],
+        "dimensions": [
+          2.069864273071289,
+          2.063062071800232,
+          1.4375516157597303
+        ]
+      },
+      "vertices": 125466,
+      "faces": 115412,
+      "ground_min_z_m": -0.010922430083155632
+    },
+    {
+      "id": "winter-exfoliating",
+      "collection": "ninebark__winter-exfoliating",
+      "bounds_m": {
+        "min": [
+          -1.3969523906707764,
+          -1.3925831317901611,
+          -0.014550288207828999
+        ],
+        "max": [
+          1.378701090812683,
+          1.3917790651321411,
+          2.086169481277466
+        ],
+        "dimensions": [
+          2.7756534814834595,
+          2.7843621969223022,
+          2.100719769485295
+        ]
+      },
+      "vertices": 5249,
+      "faces": 4437,
+      "ground_min_z_m": -0.014550288207828999
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct flowering, trained, cascading or seasonal forms. Adequate foliage coverage and readable leaf/flower shapes; close geometry remains illustrative.",
+    "image_sha256": {
+      "preview.png": "e3f07e8f0f9696efeb5bddf2c641cfff7e341b3cd2ba8169bf99ebb73f0e653e",
+      "detail.png": "d2dedae1d6c5c8269b388fe8fb1ebdb9a1d3f2915aa154b8b43a802514928cff"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

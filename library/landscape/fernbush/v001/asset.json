@@ -1,0 +1,157 @@
+{
+  "botanical_name": "Chamaebatiaria millefolium",
+  "browse_tags": [
+    "xeriscape",
+    "water-wise"
+  ],
+  "sources": [
+    {
+      "url": "https://arapahoe.extension.colostate.edu/2025/09/03/from-the-hort-desk-23/",
+      "supports": "Intermountain shrub selection; fern-like foliage and white flowers."
+    }
+  ],
+  "source_notes": "Original deterministic species-informed geometry; no external images or meshes.",
+  "visual_accuracy_limitations": "Foliage twice divided, white five-petal flowers aggregated into panicles; tiny leaflet serrations simplified.",
+  "site_selection": {
+    "climate_basis": "Intermountain western garden shrub; allow mature spreading habit and verify local hardiness.",
+    "sun": "Full sun; verify actual site exposure",
+    "soil": "Well-drained; site-specific soil suitability requires local review",
+    "water": "Establishment irrigation required; ongoing needs depend on climate and soil",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "fire_safety": "not evaluated"
+  },
+  "preferred_detail_variant": null,
+  "modeled_size_basis": "Dimensions measured from the native meshes; not a mature spacing recommendation.",
+  "rootstock": "not applicable",
+  "cultivar": "species-inspired unspecified seed strain unless variant states otherwise",
+  "schema_version": 1,
+  "id": "landscape/fernbush",
+  "version": "v001",
+  "name": "Fernbush",
+  "units": "meters",
+  "dimensions_m": [
+    0.9125140607357025,
+    0.9442094564437866,
+    0.6680200234986842
+  ],
+  "bounds_m": {
+    "min": [
+      -0.46666213870048523,
+      -0.4593523144721985,
+      -0.004457844886928797
+    ],
+    "max": [
+      0.4458519220352173,
+      0.48485714197158813,
+      0.6635621786117554
+    ]
+  },
+  "blender": {
+    "collection": "fernbush__young-lacy",
+    "variants": [
+      {
+        "id": "young-lacy",
+        "collection": "fernbush__young-lacy",
+        "description": "Young open lacy shrub with twice-divided fern-like foliage.",
+        "dimensions_m": [
+          0.9125140607357025,
+          0.9442094564437866,
+          0.6680200234986842
+        ],
+        "bounds_m": {
+          "min": [
+            -0.46666213870048523,
+            -0.4593523144721985,
+            -0.004457844886928797
+          ],
+          "max": [
+            0.4458519220352173,
+            0.48485714197158813,
+            0.6635621786117554
+          ]
+        }
+      },
+      {
+        "id": "mature-white-bloom",
+        "collection": "fernbush__mature-white-bloom",
+        "description": "Spreading mature shrub with many white terminal panicles and lacy foliage.",
+        "dimensions_m": [
+          1.7706642746925354,
+          1.7630849480628967,
+          1.5151604441925883
+        ],
+        "bounds_m": {
+          "min": [
+            -0.8265380859375,
+            -0.8210906982421875,
+            -0.01050961297005415
+          ],
+          "max": [
+            0.9441261887550354,
+            0.9419942498207092,
+            1.5046508312225342
+          ]
+        }
+      },
+      {
+        "id": "winter-structure",
+        "collection": "fernbush__winter-structure",
+        "description": "Sparse winter branching shrub with reduced dry foliage and spent panicles.",
+        "dimensions_m": [
+          1.1264491081237793,
+          1.264383614063263,
+          1.2617732947692275
+        ],
+        "bounds_m": {
+          "min": [
+            -0.5180871486663818,
+            -0.6482170820236206,
+            -0.00881535466760397
+          ],
+          "max": [
+            0.6083619594573975,
+            0.6161665320396423,
+            1.2529579401016235
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/xeric.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/xeric.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "fernbush.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

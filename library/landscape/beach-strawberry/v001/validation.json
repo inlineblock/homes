@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/beach-strawberry",
+  "version": "v001",
+  "native_sha256": "64938255ecc05413467b261e3f47bfc86bdd7c0d4861b06e1392573faf26cbf6",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 8,
+  "variants": [
+    {
+      "id": "glossy-low-mat",
+      "collection": "beach-strawberry-glossy-low-mat",
+      "bounds_m": {
+        "min": [
+          -0.5282739400863647,
+          -0.5407658815383911,
+          0.0
+        ],
+        "max": [
+          0.530048131942749,
+          0.5164045095443726,
+          0.0766497477889061
+        ],
+        "dimensions": [
+          1.0583220720291138,
+          1.0571703910827637,
+          0.0766497477889061
+        ]
+      },
+      "vertices": 63168,
+      "faces": 47616,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "white-flowering",
+      "collection": "beach-strawberry-white-flowering",
+      "bounds_m": {
+        "min": [
+          -0.5066456198692322,
+          -0.5036642551422119,
+          0.0
+        ],
+        "max": [
+          0.5189878940582275,
+          0.526965320110321,
+          0.10999999195337296
+        ],
+        "dimensions": [
+          1.0256335139274597,
+          1.030629575252533,
+          0.10999999195337296
+        ]
+      },
+      "vertices": 59318,
+      "faces": 44786,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "runner-edge-colony",
+      "collection": "beach-strawberry-runner-edge-colony",
+      "bounds_m": {
+        "min": [
+          -0.45086604356765747,
+          -0.5098667144775391,
+          0.0
+        ],
+        "max": [
+          0.6005761623382568,
+          0.5321872234344482,
+          0.07647179067134857
+        ],
+        "dimensions": [
+          1.0514422059059143,
+          1.0420539379119873,
+          0.07647179067134857
+        ]
+      },
+      "vertices": 39488,
+      "faces": 29666,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct growth forms with grounded bases and attached foliage. Revised pine has fuller irregular crown volumes; strawberry forms a low overlapping mat with separate toothed leaflets. Fine twig, needle and leaf patterns remain simplified.",
+    "image_sha256": {
+      "preview.png": "43526493d876b8933d2563dd8a0546bae63711e394fa5aadddf891d003a85da2",
+      "detail.png": "89896c334d2deda9494eaa39b511f5f13a298cc2286547314b37a7304cbb11bd"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

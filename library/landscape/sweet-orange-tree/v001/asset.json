@@ -1,0 +1,202 @@
+{
+  "botanical_name": "Citrus sinensis",
+  "cultivars": [
+    "Washington navel",
+    "Washington navel",
+    "Washington navel"
+  ],
+  "rootstock": "Unspecified; compact forms represent age and training, not a guaranteed dwarf rootstock.",
+  "browse_tags": [
+    "fruit tree",
+    "citrus",
+    "sheltered garden",
+    "patio-trained option"
+  ],
+  "preferred_detail_variant": "washington-blossom",
+  "variant_metadata": {
+    "washington-young": {
+      "cultivar": "Washington navel",
+      "seed": 913,
+      "training_and_season": "Summer; young open rounded crown, sparse small immature fruit",
+      "nominal_fruit_diameter_length_m": [
+        0.084,
+        0.088
+      ],
+      "fruit_profile": "navel-young",
+      "rootstock": "unspecified"
+    },
+    "washington-mature": {
+      "cultivar": "Washington navel",
+      "seed": 932,
+      "training_and_season": "Winter fruit; rounded mature garden crown with drooping branch tips",
+      "nominal_fruit_diameter_length_m": [
+        0.084,
+        0.088
+      ],
+      "fruit_profile": "navel",
+      "rootstock": "unspecified"
+    },
+    "washington-blossom": {
+      "cultivar": "Washington navel",
+      "seed": 951,
+      "training_and_season": "Spring bloom with a few retained mature fruits; maintained garden tree",
+      "nominal_fruit_diameter_length_m": [
+        0.084,
+        0.088
+      ],
+      "fruit_profile": "navel-blossom",
+      "rootstock": "unspecified"
+    }
+  },
+  "source_urls": [
+    "https://citrusvariety.ucr.edu/crc1241A"
+  ],
+  "botanical_sources": [
+    "https://citrusvariety.ucr.edu/crc1241A"
+  ],
+  "reference_checked": "2026-09-19",
+  "visual_accuracy": "Original architectural botanical interpretation. Named citrus selections differentiated in crown habit, leaf dimensions, fruit profile and fruit clusters. Not a taxonomic specimen or horticultural performance model.",
+  "modeled_size_basis": "Actual measured asset bounds describe pruned/young/garden specimens, not published maximum mature dimensions.",
+  "climate_notes": "Sheltered citrus-suitable garden; verify local winter cold and cultivar/rootstock. This library is not an outdoor mountain planting specification.",
+  "site_selection": {
+    "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+    "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+    "soil": "Free drainage assumed; soil suitability requires local verification.",
+    "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+    "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+    "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+    "saline_inundation": "Unknown; not specified."
+  },
+  "dependencies": [],
+  "materials": "Embedded original procedural bark, four subtly varied waxy foliage tones, rind pores, petals and calyx materials; no external textures.",
+  "allowed_variation": "Rotate freely about Z; uniform scale 0.9\u20131.1 only. Choose actual collection for growth habit; do not squash into another species.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "review_notes": "Fruit stalks connect to twig nodes; attached petioles, ground-root flare, real calyces, and species-specific fruit dimensions. Blossoming variants explicitly permit retained earlier-season citrus fruit.",
+  "schema_version": 1,
+  "id": "landscape/sweet-orange-tree",
+  "version": "v001",
+  "name": "Washington navel sweet orange trees",
+  "units": "meters",
+  "dimensions_m": [
+    2.1689453125,
+    2.3071151971817017,
+    2.7840137481689453
+  ],
+  "bounds_m": {
+    "min": [
+      -1.1191171407699585,
+      -1.2472208738327026,
+      0.0
+    ],
+    "max": [
+      1.0498281717300415,
+      1.059894323348999,
+      2.7840137481689453
+    ]
+  },
+  "blender": {
+    "collection": "sweet_orange_tree__washington_young",
+    "variants": [
+      {
+        "id": "washington-young",
+        "collection": "sweet_orange_tree__washington_young",
+        "description": "Summer; young open rounded crown, sparse small immature fruit",
+        "dimensions_m": [
+          2.1689453125,
+          2.3071151971817017,
+          2.7840137481689453
+        ],
+        "bounds_m": {
+          "min": [
+            -1.1191171407699585,
+            -1.2472208738327026,
+            0.0
+          ],
+          "max": [
+            1.0498281717300415,
+            1.059894323348999,
+            2.7840137481689453
+          ]
+        }
+      },
+      {
+        "id": "washington-mature",
+        "collection": "sweet_orange_tree__washington_mature",
+        "description": "Winter fruit; rounded mature garden crown with drooping branch tips",
+        "dimensions_m": [
+          3.702190637588501,
+          3.65424382686615,
+          3.8632583618164062
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7537415027618408,
+            -1.8441768884658813,
+            0.0
+          ],
+          "max": [
+            1.9484491348266602,
+            1.8100669384002686,
+            3.8632583618164062
+          ]
+        }
+      },
+      {
+        "id": "washington-blossom",
+        "collection": "sweet_orange_tree__washington_blossom",
+        "description": "Spring bloom with a few retained mature fruits; maintained garden tree",
+        "dimensions_m": [
+          2.735264301300049,
+          3.0524091720581055,
+          3.07497239112854
+        ],
+        "bounds_m": {
+          "min": [
+            -1.3273836374282837,
+            -1.5072828531265259,
+            0.0
+          ],
+          "max": [
+            1.4078806638717651,
+            1.5451263189315796,
+            3.07497239112854
+          ]
+        }
+      }
+    ]
+  },
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/citrus.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/citrus.py -- sweet-orange-tree"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "sweet-orange-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

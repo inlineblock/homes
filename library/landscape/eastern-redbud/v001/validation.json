@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/eastern-redbud",
+  "version": "v001",
+  "native_sha256": "8354204ba1d3686ac13fb82e573e6c603d09a9eb3e1a650b4da38494b8a89652",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 7,
+  "variants": [
+    {
+      "id": "summer-multistem",
+      "collection": "eastern-redbud__summer-multistem",
+      "bounds_m": {
+        "min": [
+          -3.3027141094207764,
+          -3.1279988288879395,
+          -0.02955831214785576
+        ],
+        "max": [
+          3.125260829925537,
+          3.0795202255249023,
+          4.4642744064331055
+        ],
+        "dimensions": [
+          6.4279749393463135,
+          6.207519054412842,
+          4.493832718580961
+        ]
+      },
+      "vertices": 562773,
+      "faces": 519378,
+      "ground_min_z_m": -0.02955831214785576
+    },
+    {
+      "id": "spring-flowering",
+      "collection": "eastern-redbud__spring-flowering",
+      "bounds_m": {
+        "min": [
+          -2.618957042694092,
+          -2.676469087600708,
+          -0.022851180285215378
+        ],
+        "max": [
+          2.690453052520752,
+          2.603041887283325,
+          4.312240123748779
+        ],
+        "dimensions": [
+          5.309410095214844,
+          5.279510974884033,
+          4.335091304033995
+        ]
+      },
+      "vertices": 196111,
+      "faces": 218806,
+      "ground_min_z_m": -0.022851180285215378
+    },
+    {
+      "id": "winter-branching",
+      "collection": "eastern-redbud__winter-branching",
+      "bounds_m": {
+        "min": [
+          -3.1487298011779785,
+          -2.7508132457733154,
+          -0.03126196563243866
+        ],
+        "max": [
+          2.9610092639923096,
+          2.892796039581299,
+          4.676121234893799
+        ],
+        "dimensions": [
+          6.109739065170288,
+          5.643609285354614,
+          4.7073832005262375
+        ]
+      },
+      "vertices": 16149,
+      "faces": 14874,
+      "ground_min_z_m": -0.03126196563243866
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent orchard specialist",
+    "notes": "Full seasonal crowns, connected scaffold branches and grounded bases. Corrected branch junctions no longer leave dangling capped ends. Macro branch collars, twig tips and blossoms remain simplified.",
+    "image_sha256": {
+      "preview.png": "b489103597774378b3e5852d8cf230c774a74fe06eafa933071a5d656525f359",
+      "detail.png": "5e02862d105bcf9aea16aa995b67e55fcedc4a67068958fa6400b4cebc576e56"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

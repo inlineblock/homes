@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/ocotillo",
+  "version": "v001",
+  "native_sha256": "b92fa2fe43fe8310e5c8deee28317f764973070c4249b7a90c3f4d3902fef687",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 8,
+  "variants": [
+    {
+      "id": "leafless-canes",
+      "collection": "ocotillo__leafless_canes",
+      "bounds_m": {
+        "min": [
+          -1.1451905965805054,
+          -1.2858269214630127,
+          0.0
+        ],
+        "max": [
+          1.0471662282943726,
+          1.3095290660858154,
+          3.3811025619506836
+        ],
+        "dimensions": [
+          2.192356824874878,
+          2.595355987548828,
+          3.3811025619506836
+        ]
+      },
+      "vertices": 8078,
+      "faces": 6356,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "rain-leafed",
+      "collection": "ocotillo__rain_leafed",
+      "bounds_m": {
+        "min": [
+          -1.4420374631881714,
+          -1.4010529518127441,
+          0.0
+        ],
+        "max": [
+          1.3666765689849854,
+          1.0656476020812988,
+          3.372910976409912
+        ],
+        "dimensions": [
+          2.8087140321731567,
+          2.466700553894043,
+          3.372910976409912
+        ]
+      },
+      "vertices": 64155,
+      "faces": 39270,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "scarlet-tips",
+      "collection": "ocotillo__scarlet_tips",
+      "bounds_m": {
+        "min": [
+          -1.3790820837020874,
+          -1.194922685623169,
+          0.0
+        ],
+        "max": [
+          1.0508533716201782,
+          1.2113326787948608,
+          4.226574897766113
+        ],
+        "dimensions": [
+          2.4299354553222656,
+          2.40625536441803,
+          4.226574897766113
+        ]
+      },
+      "vertices": 73542,
+      "faces": 45234,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent coastal specialist",
+    "notes": "Actual whole plants and details reviewed. Airy palo verde foliage, fuller willow crown and tubular flowers, attached ocotillo thorn bases, and continuous cactus ribs with rounded areoles are visible. Procedural repetition and simplified close surfaces remain; captions slightly overlap some studio plinths.",
+    "image_sha256": {
+      "preview.png": "1ad90aea4cee77808b38dade67db4b6ae64ea39d4fa785e09f5bff28e24e8c8a",
+      "detail.png": "12bde6fe0e1715300a04b99b12abe56e048c54a59285c83f0f32244f627cc69a"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

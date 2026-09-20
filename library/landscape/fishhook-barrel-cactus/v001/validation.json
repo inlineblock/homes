@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/fishhook-barrel-cactus",
+  "version": "v001",
+  "native_sha256": "af103f8d58e309bfe25dc21c07a8eab0636fedfcadeeded0b0e47921fa0f0204",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 10,
+  "variants": [
+    {
+      "id": "small-barrel",
+      "collection": "fishhook_barrel_cactus__small_barrel",
+      "bounds_m": {
+        "min": [
+          -0.36764800548553467,
+          -0.36540117859840393,
+          0.0
+        ],
+        "max": [
+          0.3619001805782318,
+          0.37250545620918274,
+          0.5199999809265137
+        ],
+        "dimensions": [
+          0.7295481860637665,
+          0.7379066348075867,
+          0.5199999809265137
+        ]
+      },
+      "vertices": 134458,
+      "faces": 130826,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "leaning-column",
+      "collection": "fishhook_barrel_cactus__leaning_column",
+      "bounds_m": {
+        "min": [
+          -0.4175904393196106,
+          -0.45655226707458496,
+          0.0
+        ],
+        "max": [
+          0.5245312452316284,
+          0.46161341667175293,
+          1.350000023841858
+        ],
+        "dimensions": [
+          0.942121684551239,
+          0.9181656837463379,
+          1.350000023841858
+        ]
+      },
+      "vertices": 134458,
+      "faces": 130826,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "flower-ring",
+      "collection": "fishhook_barrel_cactus__flower_ring",
+      "bounds_m": {
+        "min": [
+          -0.4355410635471344,
+          -0.42648839950561523,
+          0.0
+        ],
+        "max": [
+          0.4342602491378784,
+          0.43311959505081177,
+          0.9399999976158142
+        ],
+        "dimensions": [
+          0.8698013126850128,
+          0.859607994556427,
+          0.9399999976158142
+        ]
+      },
+      "vertices": 140002,
+      "faces": 133994,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent coastal specialist",
+    "notes": "Actual whole plants and details reviewed. Airy palo verde foliage, fuller willow crown and tubular flowers, attached ocotillo thorn bases, and continuous cactus ribs with rounded areoles are visible. Procedural repetition and simplified close surfaces remain; captions slightly overlap some studio plinths.",
+    "image_sha256": {
+      "preview.png": "08f05f8e2e24cec887a4c230d52b4bda97bf5376ec0502df18b816d959e4005f",
+      "detail.png": "cf1147f64ae2a04e0f7c69ae29d06952ef5992f9c0ca335a5956ec83493c7967"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

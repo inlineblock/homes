@@ -1,0 +1,150 @@
+{
+  "botanical_name": "Carpinus caroliniana",
+  "cultivar_or_training": "Species habit studies; young/mature/multistem",
+  "browse_tags": [
+    "suburban"
+  ],
+  "deterministic_seeds": {
+    "young-slender": 341,
+    "mature-sculpted": 342,
+    "autumn-multistem": 343
+  },
+  "sources": [
+    "https://plants.ces.ncsu.edu/plants/carpinus-caroliniana/"
+  ],
+  "site_selection": "Moist woodland/understory character; verify drought exposure and soil before placement. Autumn coloring varies by specimen and site.",
+  "visual_accuracy_limits": "Original architectural visualization geometry, not botanical scanning. Modeled dimensions are specimen sizes, not mature spacing or performance claims. Native preview and host adoption are separate review stages.",
+  "phenology": "Each named collection is a separate coherent state; do not combine spring, autumn and dormant variants indiscriminately.",
+  "license": "CC-BY-4.0",
+  "author": "Homes project contributors",
+  "external_textures": false,
+  "host_adoption": "not adopted; site placement unverified",
+  "schema_version": 1,
+  "id": "landscape/american-hornbeam",
+  "version": "v001",
+  "name": "American hornbeam",
+  "units": "meters",
+  "dimensions_m": [
+    3.915342092514038,
+    3.864800810813904,
+    4.321166688576341
+  ],
+  "bounds_m": {
+    "min": [
+      -1.9087672233581543,
+      -1.882415771484375,
+      -0.02280491031706333
+    ],
+    "max": [
+      2.006574869155884,
+      1.9823850393295288,
+      4.298361778259277
+    ]
+  },
+  "blender": {
+    "collection": "american-hornbeam__young-slender",
+    "variants": [
+      {
+        "id": "young-slender",
+        "collection": "american-hornbeam__young-slender",
+        "description": "Slender young green tree",
+        "dimensions_m": [
+          3.915342092514038,
+          3.864800810813904,
+          4.321166688576341
+        ],
+        "bounds_m": {
+          "min": [
+            -1.9087672233581543,
+            -1.882415771484375,
+            -0.02280491031706333
+          ],
+          "max": [
+            2.006574869155884,
+            1.9823850393295288,
+            4.298361778259277
+          ]
+        }
+      },
+      {
+        "id": "mature-sculpted",
+        "collection": "american-hornbeam__mature-sculpted",
+        "description": "Mature crown over fluted muscle-like trunk",
+        "dimensions_m": [
+          7.965662002563477,
+          7.654965400695801,
+          6.132151994854212
+        ],
+        "bounds_m": {
+          "min": [
+            -4.106783866882324,
+            -3.8172106742858887,
+            -0.023005399852991104
+          ],
+          "max": [
+            3.8588781356811523,
+            3.837754726409912,
+            6.109146595001221
+          ]
+        }
+      },
+      {
+        "id": "autumn-multistem",
+        "collection": "american-hornbeam__autumn-multistem",
+        "description": "Multistem autumn orange canopy with sculpted trunks",
+        "dimensions_m": [
+          6.653518915176392,
+          6.882174491882324,
+          5.31946861371398
+        ],
+        "bounds_m": {
+          "min": [
+            -3.185201406478882,
+            -3.348784923553467,
+            -0.031549569219350815
+          ],
+          "max": [
+            3.4683175086975098,
+            3.5333895683288574,
+            5.287919044494629
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/suburban.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/suburban.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "american-hornbeam.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

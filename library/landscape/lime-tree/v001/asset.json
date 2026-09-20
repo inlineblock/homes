@@ -1,0 +1,202 @@
+{
+  "botanical_name": "Citrus \u00d7 latifolia",
+  "cultivars": [
+    "Bearss",
+    "Bearss",
+    "Bearss"
+  ],
+  "rootstock": "Unspecified; compact forms represent age and training, not a guaranteed dwarf rootstock.",
+  "browse_tags": [
+    "fruit tree",
+    "citrus",
+    "sheltered garden",
+    "patio-trained option"
+  ],
+  "preferred_detail_variant": "bearss-ripe",
+  "variant_metadata": {
+    "bearss-trained": {
+      "cultivar": "Bearss",
+      "seed": 813,
+      "training_and_season": "Late summer; compact trained standard with harvest-green fruit",
+      "nominal_fruit_diameter_length_m": [
+        0.054,
+        0.064
+      ],
+      "fruit_profile": "lime",
+      "rootstock": "unspecified"
+    },
+    "bearss-natural": {
+      "cultivar": "Bearss",
+      "seed": 832,
+      "training_and_season": "Late summer; low-branched spreading natural shrub with green fruit",
+      "nominal_fruit_diameter_length_m": [
+        0.054,
+        0.064
+      ],
+      "fruit_profile": "lime",
+      "rootstock": "unspecified"
+    },
+    "bearss-ripe": {
+      "cultivar": "Bearss",
+      "seed": 851,
+      "training_and_season": "Late autumn; full-ripening yellow-green fruit, open garden crown",
+      "nominal_fruit_diameter_length_m": [
+        0.054,
+        0.064
+      ],
+      "fruit_profile": "lime-ripe",
+      "rootstock": "unspecified"
+    }
+  },
+  "source_urls": [
+    "https://citrusvariety.ucr.edu/crc3772"
+  ],
+  "botanical_sources": [
+    "https://citrusvariety.ucr.edu/crc3772"
+  ],
+  "reference_checked": "2026-09-19",
+  "visual_accuracy": "Original architectural botanical interpretation. Named citrus selections differentiated in crown habit, leaf dimensions, fruit profile and fruit clusters. Not a taxonomic specimen or horticultural performance model.",
+  "modeled_size_basis": "Actual measured asset bounds describe pruned/young/garden specimens, not published maximum mature dimensions.",
+  "climate_notes": "Sheltered citrus-suitable garden; verify local winter cold and cultivar/rootstock. This library is not an outdoor mountain planting specification.",
+  "site_selection": {
+    "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+    "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+    "soil": "Free drainage assumed; soil suitability requires local verification.",
+    "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+    "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+    "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+    "saline_inundation": "Unknown; not specified."
+  },
+  "dependencies": [],
+  "materials": "Embedded original procedural bark, four subtly varied waxy foliage tones, rind pores, petals and calyx materials; no external textures.",
+  "allowed_variation": "Rotate freely about Z; uniform scale 0.9\u20131.1 only. Choose actual collection for growth habit; do not squash into another species.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "review_notes": "Fruit stalks connect to twig nodes; attached petioles, ground-root flare, real calyces, and species-specific fruit dimensions. Blossoming variants explicitly permit retained earlier-season citrus fruit.",
+  "schema_version": 1,
+  "id": "landscape/lime-tree",
+  "version": "v001",
+  "name": "Bearss lime trees",
+  "units": "meters",
+  "dimensions_m": [
+    2.1868211030960083,
+    2.341092824935913,
+    2.454859495162964
+  ],
+  "bounds_m": {
+    "min": [
+      -1.1091033220291138,
+      -1.2215832471847534,
+      0.0
+    ],
+    "max": [
+      1.0777177810668945,
+      1.1195095777511597,
+      2.454859495162964
+    ]
+  },
+  "blender": {
+    "collection": "lime_tree__bearss_trained",
+    "variants": [
+      {
+        "id": "bearss-trained",
+        "collection": "lime_tree__bearss_trained",
+        "description": "Late summer; compact trained standard with harvest-green fruit",
+        "dimensions_m": [
+          2.1868211030960083,
+          2.341092824935913,
+          2.454859495162964
+        ],
+        "bounds_m": {
+          "min": [
+            -1.1091033220291138,
+            -1.2215832471847534,
+            0.0
+          ],
+          "max": [
+            1.0777177810668945,
+            1.1195095777511597,
+            2.454859495162964
+          ]
+        }
+      },
+      {
+        "id": "bearss-natural",
+        "collection": "lime_tree__bearss_natural",
+        "description": "Late summer; low-branched spreading natural shrub with green fruit",
+        "dimensions_m": [
+          3.5149312019348145,
+          3.3204110860824585,
+          3.015103578567505
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7469394207000732,
+            -1.8416681289672852,
+            0.0
+          ],
+          "max": [
+            1.7679917812347412,
+            1.4787429571151733,
+            3.015103578567505
+          ]
+        }
+      },
+      {
+        "id": "bearss-ripe",
+        "collection": "lime_tree__bearss_ripe",
+        "description": "Late autumn; full-ripening yellow-green fruit, open garden crown",
+        "dimensions_m": [
+          2.7540407180786133,
+          3.0245848894119263,
+          2.830914258956909
+        ],
+        "bounds_m": {
+          "min": [
+            -1.4009913206100464,
+            -1.4639405012130737,
+            0.0
+          ],
+          "max": [
+            1.353049397468567,
+            1.5606443881988525,
+            2.830914258956909
+          ]
+        }
+      }
+    ]
+  },
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/citrus.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/citrus.py -- lime-tree"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "lime-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

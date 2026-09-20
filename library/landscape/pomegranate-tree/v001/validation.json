@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/pomegranate-tree",
+  "version": "v001",
+  "native_sha256": "9f85149c3db9cfc4831385925afd7c82d0b736d5dddeb034bc9f3600941541f8",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 15,
+  "variants": [
+    {
+      "id": "natural-shrub",
+      "collection": "pomegranate-tree__natural-shrub",
+      "bounds_m": {
+        "min": [
+          -1.7465254068374634,
+          -1.590276837348938,
+          0.0
+        ],
+        "max": [
+          1.604392170906067,
+          1.6344162225723267,
+          2.394359827041626
+        ],
+        "dimensions": [
+          3.3509175777435303,
+          3.2246930599212646,
+          2.394359827041626
+        ]
+      },
+      "vertices": 766200,
+      "faces": 468100,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "flowering-standard",
+      "collection": "pomegranate-tree__flowering-standard",
+      "bounds_m": {
+        "min": [
+          -1.7466307878494263,
+          -1.5845056772232056,
+          0.0
+        ],
+        "max": [
+          1.4898606538772583,
+          1.5090655088424683,
+          2.7590699195861816
+        ],
+        "dimensions": [
+          3.2364914417266846,
+          3.093571186065674,
+          2.7590699195861816
+        ]
+      },
+      "vertices": 363219,
+      "faces": 221463,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "fruit-loaded",
+      "collection": "pomegranate-tree__fruit-loaded",
+      "bounds_m": {
+        "min": [
+          -1.6309394836425781,
+          -1.7736616134643555,
+          0.0
+        ],
+        "max": [
+          1.7064708471298218,
+          1.5976676940917969,
+          2.619663953781128
+        ],
+        "dimensions": [
+          3.3374103307724,
+          3.3713293075561523,
+          2.619663953781128
+        ]
+      },
+      "vertices": 483500,
+      "faces": 299543,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Fuller natural crowns and distinct trained, fruiting or dormant forms. Broad avocado leaves, lobed fig foliage, pomegranate calyces and apple espalier are visible. Fruit surfaces and branching retain concept-level simplification.",
+    "image_sha256": {
+      "preview.png": "7e16ce34f97e5b444c3971c3acee147dbd2672ee2ceb943024c9013613ebe33a",
+      "detail.png": "e4530c9329f9a82baffc09258a06418673a1e6c10b8ebb277e474684d239edce"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

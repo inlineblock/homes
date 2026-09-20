@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/lime-tree",
+  "version": "v001",
+  "native_sha256": "cfbdb7b80552c7df26c39e316d5cc739f519e7d8e133a17defff8fa437982e67",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 21,
+  "variants": [
+    {
+      "id": "bearss-trained",
+      "collection": "lime_tree__bearss_trained",
+      "bounds_m": {
+        "min": [
+          -1.1091033220291138,
+          -1.2215832471847534,
+          0.0
+        ],
+        "max": [
+          1.0777177810668945,
+          1.1195095777511597,
+          2.454859495162964
+        ],
+        "dimensions": [
+          2.1868211030960083,
+          2.341092824935913,
+          2.454859495162964
+        ]
+      },
+      "vertices": 222293,
+      "faces": 145293,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "bearss-natural",
+      "collection": "lime_tree__bearss_natural",
+      "bounds_m": {
+        "min": [
+          -1.7469394207000732,
+          -1.8416681289672852,
+          0.0
+        ],
+        "max": [
+          1.7679917812347412,
+          1.4787429571151733,
+          3.015103578567505
+        ],
+        "dimensions": [
+          3.5149312019348145,
+          3.3204110860824585,
+          3.015103578567505
+        ]
+      },
+      "vertices": 301485,
+      "faces": 197266,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "bearss-ripe",
+      "collection": "lime_tree__bearss_ripe",
+      "bounds_m": {
+        "min": [
+          -1.4009913206100464,
+          -1.4639405012130737,
+          0.0
+        ],
+        "max": [
+          1.353049397468567,
+          1.5606443881988525,
+          2.830914258956909
+        ],
+        "dimensions": [
+          2.7540407180786133,
+          3.0245848894119263,
+          2.830914258956909
+        ]
+      },
+      "vertices": 219689,
+      "faces": 143151,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent xeric specialist",
+    "notes": "Full three-dimensional crowns, attached branchlets and species-specific fruit forms. Satsuma spreading habit and kumquat fine foliage are distinct. Smooth fruit shaders and angular leaf edges remain visible close up.",
+    "image_sha256": {
+      "preview.png": "0f48cf1f37bd7b9a30577516296339ee76dcd481624ee1a2f07655a17d3c3a70",
+      "detail.png": "ab88fff72389d3dbded3cea8250ae4d70a0c595c5c01c8539c7f70c613e4dee0"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

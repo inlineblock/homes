@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/american-hornbeam",
+  "version": "v001",
+  "native_sha256": "46ad44f44d5b30ce1e07bf2dd0ae1f0f31a021af670f9efe640e75d06eaf9de2",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 12,
+  "variants": [
+    {
+      "id": "young-slender",
+      "collection": "american-hornbeam__young-slender",
+      "bounds_m": {
+        "min": [
+          -1.9087672233581543,
+          -1.882415771484375,
+          -0.02280491031706333
+        ],
+        "max": [
+          2.006574869155884,
+          1.9823850393295288,
+          4.298361778259277
+        ],
+        "dimensions": [
+          3.915342092514038,
+          3.864800810813904,
+          4.321166688576341
+        ]
+      },
+      "vertices": 465264,
+      "faces": 429424,
+      "ground_min_z_m": -0.02280491031706333
+    },
+    {
+      "id": "mature-sculpted",
+      "collection": "american-hornbeam__mature-sculpted",
+      "bounds_m": {
+        "min": [
+          -4.106783866882324,
+          -3.8172106742858887,
+          -0.023005399852991104
+        ],
+        "max": [
+          3.8588781356811523,
+          3.837754726409912,
+          6.109146595001221
+        ],
+        "dimensions": [
+          7.965662002563477,
+          7.654965400695801,
+          6.132151994854212
+        ]
+      },
+      "vertices": 465264,
+      "faces": 429424,
+      "ground_min_z_m": -0.023005399852991104
+    },
+    {
+      "id": "autumn-multistem",
+      "collection": "american-hornbeam__autumn-multistem",
+      "bounds_m": {
+        "min": [
+          -3.185201406478882,
+          -3.348784923553467,
+          -0.031549569219350815
+        ],
+        "max": [
+          3.4683175086975098,
+          3.5333895683288574,
+          5.287919044494629
+        ],
+        "dimensions": [
+          6.653518915176392,
+          6.882174491882324,
+          5.31946861371398
+        ]
+      },
+      "vertices": 565272,
+      "faces": 521772,
+      "ground_min_z_m": -0.031549569219350815
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent orchard specialist",
+    "notes": "Full seasonal crowns, connected scaffold branches and grounded bases. Corrected branch junctions no longer leave dangling capped ends. Macro branch collars, twig tips and blossoms remain simplified.",
+    "image_sha256": {
+      "preview.png": "322770c542b0e8954fc0b10abf9f26685aaad46397391f511e787baafcdc3cc9",
+      "detail.png": "70e8f7784c1bf2091047d1be390affdd8fe10975c1544e2104b0985f3761487b"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "botanical_name": "Cornus sericea",
+  "common_name": "Red-osier dogwood",
+  "source_generator": "tools/library/plants/mountain.py",
+  "browse_tags": [
+    "mountain"
+  ],
+  "sources": [
+    {
+      "url": "https://extension.colostate.edu/resource/native-shrubs-for-colorado-landscapes/",
+      "purpose": "Plant habit, foliage and seasonal selection; no copied geometry or photographs."
+    }
+  ],
+  "cultivar": "species habit; no named cultivar claimed",
+  "rootstock": "not applicable / seedling species concept",
+  "modeling_notes": "Arching suckering canes with opposite elliptical blades; spring flat white corymbs and a genuinely leafless winter network. Moist understory/streamside concept, not dry-slope filler.",
+  "variant_intents": [
+    "Leafy arching red-stem shrub",
+    "Broad white flat-topped flowering mass",
+    "Dormant dense red cane structure with bare twigs"
+  ],
+  "site_selection": {
+    "region": "Suitable mountain/foothill sites; browse tag is not blanket approval",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown",
+    "water": "Match species and regional source; provide establishment water",
+    "sun_soil": "Moist streamside understory; moderate to high moisture; shade tolerant."
+  },
+  "visual_accuracy_limitations": "Original architectural botanical interpretation; branch placement is seeded, leaves are simplified folded blades. Not a nursery product or plant performance specification.",
+  "host_adoption": {
+    "status": "not adopted",
+    "host_placement_reviewed": false
+  },
+  "schema_version": 1,
+  "id": "landscape/red-osier-dogwood",
+  "version": "v001",
+  "name": "Red-osier dogwood",
+  "units": "meters",
+  "dimensions_m": [
+    1.5988094806671143,
+    1.6145126819610596,
+    1.956354483962059
+  ],
+  "bounds_m": {
+    "min": [
+      -0.8329095840454102,
+      -0.8066975474357605,
+      -0.007827743887901306
+    ],
+    "max": [
+      0.7658998966217041,
+      0.8078151345252991,
+      1.9485267400741577
+    ]
+  },
+  "blender": {
+    "collection": "RedOsierDogwood_leafy",
+    "variants": [
+      {
+        "id": "leafy",
+        "collection": "RedOsierDogwood_leafy",
+        "description": "Leafy arching red-stem shrub",
+        "dimensions_m": [
+          1.5988094806671143,
+          1.6145126819610596,
+          1.956354483962059
+        ],
+        "bounds_m": {
+          "min": [
+            -0.8329095840454102,
+            -0.8066975474357605,
+            -0.007827743887901306
+          ],
+          "max": [
+            0.7658998966217041,
+            0.8078151345252991,
+            1.9485267400741577
+          ]
+        }
+      },
+      {
+        "id": "flowering",
+        "collection": "RedOsierDogwood_flowering",
+        "description": "Broad white flat-topped flowering mass",
+        "dimensions_m": [
+          1.6601364016532898,
+          1.773915708065033,
+          1.8002045657485723
+        ],
+        "bounds_m": {
+          "min": [
+            -0.7768566608428955,
+            -0.8356998562812805,
+            -0.008457591757178307
+          ],
+          "max": [
+            0.8832797408103943,
+            0.9382158517837524,
+            1.791746973991394
+          ]
+        }
+      },
+      {
+        "id": "winter",
+        "collection": "RedOsierDogwood_winter",
+        "description": "Dormant dense red cane structure with bare twigs",
+        "dimensions_m": [
+          1.6536018252372742,
+          1.627940833568573,
+          2.015035114251077
+        ],
+        "bounds_m": {
+          "min": [
+            -0.7453134059906006,
+            -0.7500948905944824,
+            -0.007502994500100613
+          ],
+          "max": [
+            0.9082884192466736,
+            0.8778459429740906,
+            2.0075321197509766
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/mountain.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/mountain.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "red-osier-dogwood.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "deterministic_seeds": [
+    440,
+    441,
+    442
+  ],
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

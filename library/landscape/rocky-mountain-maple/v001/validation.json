@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/rocky-mountain-maple",
+  "version": "v001",
+  "native_sha256": "a17c50076a78dd190dd0f294162995c091f9ec5e69baaa0fc5cb86d69e0903f9",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 15,
+  "variants": [
+    {
+      "id": "small-tree",
+      "collection": "RockyMountainMaple_small_tree",
+      "bounds_m": {
+        "min": [
+          -1.1197941303253174,
+          -1.2833948135375977,
+          -0.011153914965689182
+        ],
+        "max": [
+          1.2398468255996704,
+          1.14960515499115,
+          3.5804407596588135
+        ],
+        "dimensions": [
+          2.359640955924988,
+          2.4329999685287476,
+          3.5915946746245027
+        ]
+      },
+      "vertices": 79443,
+      "faces": 71544,
+      "ground_min_z_m": -0.011153914965689182
+    },
+    {
+      "id": "multi-stem",
+      "collection": "RockyMountainMaple_multi_stem",
+      "bounds_m": {
+        "min": [
+          -1.3276035785675049,
+          -1.2973617315292358,
+          -0.011438444256782532
+        ],
+        "max": [
+          1.271632194519043,
+          1.2903176546096802,
+          2.585325002670288
+        ],
+        "dimensions": [
+          2.599235773086548,
+          2.587679386138916,
+          2.5967634469270706
+        ]
+      },
+      "vertices": 185367,
+      "faces": 166936,
+      "ground_min_z_m": -0.011438444256782532
+    },
+    {
+      "id": "autumn",
+      "collection": "RockyMountainMaple_autumn",
+      "bounds_m": {
+        "min": [
+          -1.2406680583953857,
+          -1.1843507289886475,
+          -0.009134463034570217
+        ],
+        "max": [
+          1.2030280828475952,
+          1.2470203638076782,
+          2.9510657787323
+        ],
+        "dimensions": [
+          2.443696141242981,
+          2.4313710927963257,
+          2.96020024176687
+        ]
+      },
+      "vertices": 132405,
+      "faces": 119240,
+      "ground_min_z_m": -0.009134463034570217
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent citrus specialist",
+    "notes": "Distinct seasonal and growth forms, continuous leafy crowns where appropriate, grounded bases and connected visible detail. Finer leaf edges and bark microdetail remain simplified.",
+    "image_sha256": {
+      "preview.png": "61b05f937736354caa840ce0f81330b8cc3149b36480f5f37f6e0b198ccc47f5",
+      "detail.png": "f3b6af727b7672a4244f4a9621f9996117f55f64f49d35434842a5a08ae84517"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

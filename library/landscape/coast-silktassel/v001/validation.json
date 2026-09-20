@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/coast-silktassel",
+  "version": "v001",
+  "native_sha256": "bfc77e411426a04553cd483f23ff18f520425852495625c1cd217e3275eee15d",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 10,
+  "variants": [
+    {
+      "id": "leafy-screen",
+      "collection": "coast-silktassel-leafy-screen",
+      "bounds_m": {
+        "min": [
+          -1.2607942819595337,
+          -1.377457857131958,
+          0.0
+        ],
+        "max": [
+          1.3025082349777222,
+          1.3672329187393188,
+          2.2884299755096436
+        ],
+        "dimensions": [
+          2.563302516937256,
+          2.744690775871277,
+          2.2884299755096436
+        ]
+      },
+      "vertices": 248304,
+      "faces": 145752,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "winter-male-catkins",
+      "collection": "coast-silktassel-winter-male-catkins",
+      "bounds_m": {
+        "min": [
+          -1.5629055500030518,
+          -1.5910266637802124,
+          0.0
+        ],
+        "max": [
+          1.5703227519989014,
+          1.5740506649017334,
+          2.764810562133789
+        ],
+        "dimensions": [
+          3.133228302001953,
+          3.165077328681946,
+          2.764810562133789
+        ]
+      },
+      "vertices": 299964,
+      "faces": 207240,
+      "ground_min_z_m": 0.0
+    },
+    {
+      "id": "open-small-tree",
+      "collection": "coast-silktassel-open-small-tree",
+      "bounds_m": {
+        "min": [
+          -1.8338830471038818,
+          -1.8295469284057617,
+          0.0
+        ],
+        "max": [
+          1.6853939294815063,
+          1.8437776565551758,
+          3.8389170169830322
+        ],
+        "dimensions": [
+          3.519276976585388,
+          3.6733245849609375,
+          3.8389170169830322
+        ]
+      },
+      "vertices": 248304,
+      "faces": 145752,
+      "ground_min_z_m": 0.0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct growth forms with grounded bases and attached foliage. Revised pine has fuller irregular crown volumes; strawberry forms a low overlapping mat with separate toothed leaflets. Fine twig, needle and leaf patterns remain simplified.",
+    "image_sha256": {
+      "preview.png": "4888d4e081efb9bd60f2ab8c258e894e52b32207c0a0ccff1edc26383d2b5112",
+      "detail.png": "0872578e984f9e729e7467b3259db42b0fcf112842d0fa86799fe56e31e2d881"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

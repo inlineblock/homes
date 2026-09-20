@@ -1,0 +1,98 @@
+{
+  "asset": "landscape/prairie-coneflower",
+  "version": "v001",
+  "native_sha256": "da009807003f1c9b57fb4e51267c2d2434eb4c77d401daa3b47d694f68b98f97",
+  "native_reopened": true,
+  "variant_count": 3,
+  "portable_dependencies": true,
+  "fresh_linked_host_instances": 3,
+  "evaluated_mesh_instances": 15,
+  "variants": [
+    {
+      "id": "yellow-rays",
+      "collection": "prairie-coneflower__yellow-rays",
+      "bounds_m": {
+        "min": [
+          -0.1830146610736847,
+          -0.24014981091022491,
+          -0.0007028868421912193
+        ],
+        "max": [
+          0.21276076138019562,
+          0.24265967309474945,
+          0.8449766039848328
+        ],
+        "dimensions": [
+          0.3957754224538803,
+          0.48280948400497437,
+          0.845679490827024
+        ]
+      },
+      "vertices": 34596,
+      "faces": 30330,
+      "ground_min_z_m": -0.0007028868421912193
+    },
+    {
+      "id": "red-yellow-rays",
+      "collection": "prairie-coneflower__red-yellow-rays",
+      "bounds_m": {
+        "min": [
+          -0.21992109715938568,
+          -0.2144467532634735,
+          -0.0006820018170401454
+        ],
+        "max": [
+          0.20198677480220795,
+          0.22484436631202698,
+          0.828205406665802
+        ],
+        "dimensions": [
+          0.42190787196159363,
+          0.4392911195755005,
+          0.8288874084828421
+        ]
+      },
+      "vertices": 35568,
+      "faces": 30762,
+      "ground_min_z_m": -0.0006820018170401454
+    },
+    {
+      "id": "dry-cones",
+      "collection": "prairie-coneflower__dry-cones",
+      "bounds_m": {
+        "min": [
+          -0.2293643057346344,
+          -0.23243920505046844,
+          -0.0007453493308275938
+        ],
+        "max": [
+          0.1487291008234024,
+          0.21699468791484833,
+          0.7836127281188965
+        ],
+        "dimensions": [
+          0.3780934065580368,
+          0.4494338929653168,
+          0.7843580774497241
+        ]
+      },
+      "vertices": 24282,
+      "faces": 24390,
+      "ground_min_z_m": -0.0007453493308275938
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "scope": "Architectural concept landscape use; not photographic macro vegetation",
+    "reviewer": "Independent mountain specialist",
+    "notes": "Distinct grass, cushion, shrub and flowering silhouettes. Whole plants and details show adequate density and attachment. Flower mouths, seedheads and leaf edges remain geometric at macro scale.",
+    "image_sha256": {
+      "preview.png": "90e9f9054f2fad2b8dc98c1c0494c5b45dad394b07d8e87fbe38a1e2d087c626",
+      "detail.png": "71efac3692e459b40e96b3d8c4e080efd2dee6452c32865c27dad89369d51e2d"
+    }
+  },
+  "home_adoption": "not adopted; linked nursery test only",
+  "software": {
+    "blender": "4.5.14 LTS"
+  }
+}

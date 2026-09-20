@@ -1,0 +1,152 @@
+{
+  "botanical_name": "Parkinsonia florida",
+  "seed": 83000,
+  "browse_tags": [
+    "desert",
+    "southwest"
+  ],
+  "sources": [
+    "https://extension.arizona.edu/publication/mesquite-and-palo-verde-trees-urban-landscape"
+  ],
+  "selection_notes": "Sonoran desert; thorns and pod litter require setback from paths.",
+  "cultivar": "Species concept; no named cultivar or rootstock asserted",
+  "site_selection": {
+    "region": "Sonoran desert; thorns and pod litter require setback from paths.",
+    "sun": "Sunny landscape intent; confirm local exposure before planting",
+    "soil_drainage": "Well-drained concept setting; verify species/site requirements",
+    "establishment_water": "Local horticultural specification required",
+    "ongoing_water": "Dryland concept; irrigation needs not engineered",
+    "salt_spray": "unknown",
+    "saline_inundation": "unknown"
+  },
+  "visual_accuracy_limitations": "Original botanical visualization, not a taxonomic specimen or nursery specification; measured size is modeled size, not guaranteed mature spread. Species cues modeled as actual geometry.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "schema_version": 1,
+  "id": "landscape/blue-palo-verde",
+  "version": "v001",
+  "name": "Blue palo verde",
+  "units": "meters",
+  "dimensions_m": [
+    4.046094655990601,
+    4.15296483039856,
+    3.854520559310913
+  ],
+  "bounds_m": {
+    "min": [
+      -2.0138680934906006,
+      -2.0033676624298096,
+      0.0
+    ],
+    "max": [
+      2.0322265625,
+      2.14959716796875,
+      3.854520559310913
+    ]
+  },
+  "blender": {
+    "collection": "blue_palo_verde__young_open",
+    "variants": [
+      {
+        "id": "young-open",
+        "collection": "blue_palo_verde__young_open",
+        "description": "Young airy single-trunk leaf-on tree",
+        "dimensions_m": [
+          4.046094655990601,
+          4.15296483039856,
+          3.854520559310913
+        ],
+        "bounds_m": {
+          "min": [
+            -2.0138680934906006,
+            -2.0033676624298096,
+            0.0
+          ],
+          "max": [
+            2.0322265625,
+            2.14959716796875,
+            3.854520559310913
+          ]
+        }
+      },
+      {
+        "id": "mature-spreading",
+        "collection": "blue_palo_verde__mature_spreading",
+        "description": "Mature multi-leader green bark canopy",
+        "dimensions_m": [
+          6.207355499267578,
+          5.514963626861572,
+          5.933369159698486
+        ],
+        "bounds_m": {
+          "min": [
+            -3.127897262573242,
+            -2.5908517837524414,
+            0.0
+          ],
+          "max": [
+            3.079458236694336,
+            2.924111843109131,
+            5.933369159698486
+          ]
+        }
+      },
+      {
+        "id": "yellow-bloom",
+        "collection": "blue_palo_verde__yellow_bloom",
+        "description": "Mature yellow-flowering spreading crown",
+        "dimensions_m": [
+          5.6045005321502686,
+          5.828211784362793,
+          5.6930999755859375
+        ],
+        "bounds_m": {
+          "min": [
+            -3.1017611026763916,
+            -3.043487071990967,
+            0.0
+          ],
+          "max": [
+            2.502739429473877,
+            2.784724712371826,
+            5.6930999755859375
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/desert.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/desert.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "blue-palo-verde.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

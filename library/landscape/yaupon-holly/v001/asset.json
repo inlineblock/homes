@@ -1,0 +1,145 @@
+{
+  "botanical_name": "Ilex vomitoria",
+  "climate_notes": "Warm southeastern coastal garden; fruiting requires female stock and compatible pollination.",
+  "reference_urls": [
+    "https://plants.ces.ncsu.edu/plants/ilex-vomitoria/"
+  ],
+  "category_tags": [
+    "coastal",
+    "landscape"
+  ],
+  "limitations": [
+    "Original architectural visualization geometry; no botanical survey or horticultural specification.",
+    "Modeled dimensions describe this specimen; not guaranteed mature size.",
+    "No site adoption claimed; preview and host review recorded separately."
+  ],
+  "schema_version": 1,
+  "id": "landscape/yaupon-holly",
+  "version": "v001",
+  "name": "Yaupon Holly",
+  "units": "meters",
+  "dimensions_m": [
+    3.629668951034546,
+    3.6192084550857544,
+    4.246337890625
+  ],
+  "bounds_m": {
+    "min": [
+      -1.7711105346679688,
+      -1.8160632848739624,
+      0.0
+    ],
+    "max": [
+      1.8585584163665771,
+      1.803145170211792,
+      4.246337890625
+    ]
+  },
+  "blender": {
+    "collection": "yaupon-holly-natural-multistem",
+    "variants": [
+      {
+        "id": "natural-multistem",
+        "collection": "yaupon-holly-natural-multistem",
+        "description": "Natural multi-stem evergreen small tree.",
+        "dimensions_m": [
+          3.629668951034546,
+          3.6192084550857544,
+          4.246337890625
+        ],
+        "bounds_m": {
+          "min": [
+            -1.7711105346679688,
+            -1.8160632848739624,
+            0.0
+          ],
+          "max": [
+            1.8585584163665771,
+            1.803145170211792,
+            4.246337890625
+          ]
+        }
+      },
+      {
+        "id": "dwarf-yaupon-nana",
+        "collection": "yaupon-holly-dwarf-yaupon-nana",
+        "description": "Compact mounded form representing dwarf cultivar Nana; no fruit claim.",
+        "dimensions_m": [
+          2.0634580850601196,
+          1.9853260517120361,
+          1.1288552284240723
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0470284223556519,
+            -0.9877435564994812,
+            0.0
+          ],
+          "max": [
+            1.0164296627044678,
+            0.9975824952125549,
+            1.1288552284240723
+          ]
+        }
+      },
+      {
+        "id": "fruiting-female",
+        "collection": "yaupon-holly-fruiting-female",
+        "description": "Female fruiting specimen; red berries imply compatible pollination, not guaranteed yield.",
+        "dimensions_m": [
+          3.0270960330963135,
+          2.9991657733917236,
+          3.2752010822296143
+        ],
+        "bounds_m": {
+          "min": [
+            -1.4848333597183228,
+            -1.497312307357788,
+            0.0
+          ],
+          "max": [
+            1.5422626733779907,
+            1.5018534660339355,
+            3.2752010822296143
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/coastal.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/coastal.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "yaupon-holly.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

@@ -1,0 +1,202 @@
+{
+  "botanical_name": "Fortunella margarita / Citrus japonica",
+  "cultivars": [
+    "Nagami",
+    "Nagami",
+    "Nagami"
+  ],
+  "rootstock": "Unspecified; compact forms represent age and training, not a guaranteed dwarf rootstock.",
+  "browse_tags": [
+    "fruit tree",
+    "citrus",
+    "sheltered garden",
+    "patio-trained option"
+  ],
+  "preferred_detail_variant": "nagami-fruiting",
+  "variant_metadata": {
+    "nagami-shrub": {
+      "cultivar": "Nagami",
+      "seed": 1213,
+      "training_and_season": "Late winter; dense fine-leaved multistem shrub with sparse fruit",
+      "nominal_fruit_diameter_length_m": [
+        0.019,
+        0.032
+      ],
+      "fruit_profile": "kumquat",
+      "rootstock": "unspecified"
+    },
+    "nagami-standard": {
+      "cultivar": "Nagami",
+      "seed": 1232,
+      "training_and_season": "Late winter; patio standard trained above a clear stem",
+      "nominal_fruit_diameter_length_m": [
+        0.019,
+        0.032
+      ],
+      "fruit_profile": "kumquat",
+      "rootstock": "unspecified"
+    },
+    "nagami-fruiting": {
+      "cultivar": "Nagami",
+      "seed": 1251,
+      "training_and_season": "Late winter; upright fine twigging and abundant small oval fruits",
+      "nominal_fruit_diameter_length_m": [
+        0.019,
+        0.032
+      ],
+      "fruit_profile": "kumquat-loaded",
+      "rootstock": "unspecified"
+    }
+  },
+  "source_urls": [
+    "https://citrusvariety.ucr.edu/crc3877"
+  ],
+  "botanical_sources": [
+    "https://citrusvariety.ucr.edu/crc3877"
+  ],
+  "reference_checked": "2026-09-19",
+  "visual_accuracy": "Original architectural botanical interpretation. Named citrus selections differentiated in crown habit, leaf dimensions, fruit profile and fruit clusters. Not a taxonomic specimen or horticultural performance model.",
+  "modeled_size_basis": "Actual measured asset bounds describe pruned/young/garden specimens, not published maximum mature dimensions.",
+  "climate_notes": "Sheltered citrus-suitable garden; verify local winter cold and cultivar/rootstock. This library is not an outdoor mountain planting specification.",
+  "site_selection": {
+    "region": "Frost exposure and cultivar-specific heat requirements require local verification; UCR reference forms are California accessions.",
+    "sun": "Concept assumes a sunny, sheltered garden; verify local conditions.",
+    "soil": "Free drainage assumed; soil suitability requires local verification.",
+    "water_establishment": "Regular establishment care required; no irrigation rate specified.",
+    "water_ongoing": "Site, rootstock and season dependent; not classified as unirrigated xeriscape.",
+    "salt_spray": "Unknown; no direct ocean-front exposure claim.",
+    "saline_inundation": "Unknown; not specified."
+  },
+  "dependencies": [],
+  "materials": "Embedded original procedural bark, four subtly varied waxy foliage tones, rind pores, petals and calyx materials; no external textures.",
+  "allowed_variation": "Rotate freely about Z; uniform scale 0.9\u20131.1 only. Choose actual collection for growth habit; do not squash into another species.",
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed.",
+  "review_notes": "Fruit stalks connect to twig nodes; attached petioles, ground-root flare, real calyces, and species-specific fruit dimensions. Blossoming variants explicitly permit retained earlier-season citrus fruit.",
+  "schema_version": 1,
+  "id": "landscape/kumquat-tree",
+  "version": "v001",
+  "name": "Nagami kumquat trees",
+  "units": "meters",
+  "dimensions_m": [
+    2.2007416486740112,
+    1.9283875226974487,
+    1.9937139749526978
+  ],
+  "bounds_m": {
+    "min": [
+      -1.0310118198394775,
+      -0.9733937382698059,
+      0.0
+    ],
+    "max": [
+      1.1697298288345337,
+      0.9549937844276428,
+      1.9937139749526978
+    ]
+  },
+  "blender": {
+    "collection": "kumquat_tree__nagami_shrub",
+    "variants": [
+      {
+        "id": "nagami-shrub",
+        "collection": "kumquat_tree__nagami_shrub",
+        "description": "Late winter; dense fine-leaved multistem shrub with sparse fruit",
+        "dimensions_m": [
+          2.2007416486740112,
+          1.9283875226974487,
+          1.9937139749526978
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0310118198394775,
+            -0.9733937382698059,
+            0.0
+          ],
+          "max": [
+            1.1697298288345337,
+            0.9549937844276428,
+            1.9937139749526978
+          ]
+        }
+      },
+      {
+        "id": "nagami-standard",
+        "collection": "kumquat_tree__nagami_standard",
+        "description": "Late winter; patio standard trained above a clear stem",
+        "dimensions_m": [
+          1.8172207474708557,
+          1.8003905415534973,
+          2.3222451210021973
+        ],
+        "bounds_m": {
+          "min": [
+            -0.8835986852645874,
+            -0.9467427134513855,
+            0.0
+          ],
+          "max": [
+            0.9336220622062683,
+            0.8536478281021118,
+            2.3222451210021973
+          ]
+        }
+      },
+      {
+        "id": "nagami-fruiting",
+        "collection": "kumquat_tree__nagami_fruiting",
+        "description": "Late winter; upright fine twigging and abundant small oval fruits",
+        "dimensions_m": [
+          2.2345755100250244,
+          2.319018244743347,
+          2.6236424446105957
+        ],
+        "bounds_m": {
+          "min": [
+            -1.0565268993377686,
+            -1.1467421054840088,
+            0.0
+          ],
+          "max": [
+            1.1780486106872559,
+            1.1722761392593384,
+            2.6236424446105957
+          ]
+        }
+      }
+    ]
+  },
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/citrus.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/citrus.py -- kumquat-tree"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "kumquat-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  }
+}

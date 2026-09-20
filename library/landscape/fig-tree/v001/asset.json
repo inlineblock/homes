@@ -1,0 +1,138 @@
+{
+  "botanical_name": "Ficus carica",
+  "botanical_sources": [
+    "https://extension.uga.edu/content/dam/extension-county-offices/madison-county/4h/fruit-tree-sale/Home%20Garden%20Figs.PDF"
+  ],
+  "climate_notes": "Climate and cultivar dependent; deciduous summer and dormant states are separate. Maintained size is not a mature-size prediction.",
+  "geometry_notes": "Original connected branch scaffolds, attached leaf petioles and species-specific foliage/fruit. Seasonal/trained forms use distinct deterministic geometry. Botanical visualization, not a verified cultivar specimen.",
+  "host_adoption": "No home adoption claimed. Library-only geometry; site placement review required.",
+  "schema_version": 1,
+  "id": "landscape/fig-tree",
+  "version": "v001",
+  "name": "Common fig",
+  "units": "meters",
+  "dimensions_m": [
+    5.273436784744263,
+    4.7415478229522705,
+    3.5455098152160645
+  ],
+  "bounds_m": {
+    "min": [
+      -2.710212469100952,
+      -2.6209797859191895,
+      0.0
+    ],
+    "max": [
+      2.5632243156433105,
+      2.120568037033081,
+      3.5455098152160645
+    ]
+  },
+  "blender": {
+    "collection": "fig-tree__low-branching",
+    "variants": [
+      {
+        "id": "low-branching",
+        "collection": "fig-tree__low-branching",
+        "description": "Low branching summer tree with broad lobed leaves",
+        "dimensions_m": [
+          5.273436784744263,
+          4.7415478229522705,
+          3.5455098152160645
+        ],
+        "bounds_m": {
+          "min": [
+            -2.710212469100952,
+            -2.6209797859191895,
+            0.0
+          ],
+          "max": [
+            2.5632243156433105,
+            2.120568037033081,
+            3.5455098152160645
+          ]
+        }
+      },
+      {
+        "id": "fruiting-bush",
+        "collection": "fig-tree__fruiting-bush",
+        "description": "Multi-stem summer bush with figs at leaf axils",
+        "dimensions_m": [
+          4.895861387252808,
+          5.245818376541138,
+          2.99947190284729
+        ],
+        "bounds_m": {
+          "min": [
+            -2.3382129669189453,
+            -2.6719634532928467,
+            0.0
+          ],
+          "max": [
+            2.5576484203338623,
+            2.573854923248291,
+            2.99947190284729
+          ]
+        }
+      },
+      {
+        "id": "bare-dormant",
+        "collection": "fig-tree__bare-dormant",
+        "description": "Bare winter branch structure",
+        "dimensions_m": [
+          4.949786424636841,
+          5.5347044467926025,
+          3.698625326156616
+        ],
+        "bounds_m": {
+          "min": [
+            -2.4626071453094482,
+            -2.7730722427368164,
+            0.0
+          ],
+          "max": [
+            2.4871792793273926,
+            2.761632204055786,
+            3.698625326156616
+          ]
+        }
+      }
+    ]
+  },
+  "dependencies": [],
+  "placement": {
+    "origin": "Ground-contact point at XY 0,0 and planting grade Z=0",
+    "front_direction": "No prescribed front; Z up",
+    "allowed_scaling": "Uniform 0.9 to 1.1 and Z rotation; choose a modeled variant for substantial size or growth-form changes"
+  },
+  "mounting": "Place at actual host planting grade in a suitable open soil volume.",
+  "clearances": {
+    "host_checked": false,
+    "basis": "Modeled canopy bounds are measurable geometry, not mature spread or a root-zone prescription. Confirm real site requirements separately."
+  },
+  "product_status": "Original illustrative botanical geometry; not a certified species identification, nursery specification, or climate suitability approval.",
+  "modeled_state": "Individually attached branching stems and shaped mesh leaves, with species-specific flowers or fruit where described; no billboard textures.",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry and procedural materials. Attribution: Homes project contributors. No third-party mesh, photographs or textures.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/plants/orchard.py",
+    "command": "blender -b --factory-startup -t 2 --python tools/library/plants/orchard.py"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "files": {
+    "blender": "fig-tree.blend",
+    "preview": "preview.png",
+    "detail": "detail.png",
+    "validation": "validation.json"
+  },
+  "review": {
+    "native_reopen_checked": true,
+    "native_preview_checked": true,
+    "host_placement_checked": false,
+    "scope": "Isolated native and linked-host checks; nursery evidence is separate; no home adoption"
+  },
+  "adoption_status": "Reviewed shared concept asset; no existing home adoption claimed."
+}

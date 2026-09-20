@@ -30,6 +30,7 @@
 
 ## Reusable project skills
 - Start new homes and substantial architectural revisions with `.agents/skills/create-home/`: explore and critique tailored directions, record a concise `design-intent.md` before modeling, then follow the existing program, asset and output-review skills. Keep cosmetic edits scoped.
+- Home delivery includes refreshing its collection entry and individual page in `sites/home-collection/`; follow [Create a home — website delivery](.agents/skills/create-home/SKILL.md#update-the-home-website) for content, validation and existing-Site publication. Respect explicit local-only requests.
 - Use `.agents/skills/home-program-review/` for briefs, completeness and coordinated layout reviews.
 - Use `.agents/skills/home-asset-contribution/` for library selection, adaptation and contribution.
 - Use `.agents/skills/home-model-output-qa/` for native/IFC/render/plan verification and current-output promotion.

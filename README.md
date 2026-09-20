@@ -62,7 +62,7 @@ Photos are AI architectural studies; plans and models are design concepts.
 
 ## Resources
 
-[Shared asset library](library/README.md) · [Design handbook](docs/design-guide/README.md) · [Create a home](.agents/skills/create-home/SKILL.md) · [Collaboration](docs/collaboration.md)
+[Websites](sites/README.md) · [Shared asset library](library/README.md) · [Design handbook](docs/design-guide/README.md) · [Create a home](.agents/skills/create-home/SKILL.md) · [Collaboration](docs/collaboration.md)
 
 Clone with Git LFS and run `git lfs pull` to retrieve full models and images. Keep the folder structure intact so linked assets resolve.
 

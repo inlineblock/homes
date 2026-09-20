@@ -7,18 +7,28 @@
   "display_units": "feet-inches",
   "bedrooms": 4,
   "bathrooms": 3.5,
-  "gross_enclosed_area_sqft": 6371.8044,
-  "conditioned_gross_area_sqft": 5682.9,
+  "gross_enclosed_area_sqft": 6526.8047,
+  "conditioned_gross_area_sqft": 5837.9,
   "garage_area_sqft": 688.9,
   "area_basis": "Gross occupied floor plates including wall footprints, minus upper stair void; gross enclosed adds garage. Excludes courtyard, pool, lanai, balcony, roof and exterior terraces. Concept dimensions.",
   "storeys": [
     {
       "name": "Ground floor",
-      "elevation_m": 0
+      "elevation_m": 0.0,
+      "clear_ceiling_height_m": 3.6576
     },
     {
       "name": "Upper floor",
-      "elevation_m": 3.6
+      "elevation_m": 4.1148,
+      "clear_ceiling_height_m": 3.048
+    }
+  ],
+  "upper_front_projection_m": 1.2,
+  "ceiling_exceptions": [
+    {
+      "area": "Rear service rooms beyond the kitchen slats",
+      "clear_ceiling_height_m": 3.7776,
+      "reason": "Recessed rear roof backing; kitchen slat undersides remain at the ground clear-height datum."
     }
   ],
   "software": {

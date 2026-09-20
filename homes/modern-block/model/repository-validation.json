@@ -3,7 +3,7 @@
   "failures": [],
   "native_model_reopened": true,
   "relative_libraries": 52,
-  "measured_enclosed_floor_sqft": 6371.8,
+  "measured_enclosed_floor_sqft": 6526.8,
   "modeled_beds": 4,
   "asset_use_schedule": "homes/modern-block/assets/README.md",
   "asset_adoption": {
@@ -461,14 +461,13 @@
       {
         "id": "materials/charcoal-facade-panel",
         "version": "v001",
-        "direct_placements_or_material_assignments": 8,
+        "direct_placements_or_material_assignments": 7,
         "examples": [
           "Main rear single-story roof insulation fall (material)",
           "Cedar upper bar roof insulation fall (material)",
           "Guest pavilion roof insulation fall (material)",
           "Garage roof insulation fall (material)",
           "Lanai roof insulation fall (material)",
-          "Arrival positive fall roof (material)",
           "Illustrative road (material)",
           "Covered balcony roof insulation fall (material)"
         ],
@@ -477,7 +476,7 @@
       {
         "id": "materials/coastal-honed-limestone",
         "version": "v001",
-        "direct_placements_or_material_assignments": 609,
+        "direct_placements_or_material_assignments": 657,
         "examples": [
           "Main occupied slab (material)",
           "Guest occupied slab (material)",
@@ -530,7 +529,7 @@
       {
         "id": "materials/warm-vertical-cedar",
         "version": "v003",
-        "direct_placements_or_material_assignments": 715,
+        "direct_placements_or_material_assignments": 734,
         "examples": [
           "Main street entry door (material)",
           "Main courtyard entry door (material)",
@@ -567,7 +566,7 @@
       {
         "id": "openings/slim-dark-window",
         "version": "v002",
-        "direct_placements_or_material_assignments": 41,
+        "direct_placements_or_material_assignments": 46,
         "examples": [
           "Main street linked glazing",
           "Main street linked glazing.001",
@@ -612,16 +611,16 @@
       {
         "id": "surfaces/honed-limestone-wall-panel-4x2",
         "version": "v001",
-        "direct_placements_or_material_assignments": 156,
+        "direct_placements_or_material_assignments": 183,
         "examples": [
           "Main street limestone linked limestone",
           "Main street limestone linked limestone.001",
           "Main street limestone linked limestone.002",
           "Main street limestone linked limestone.003",
           "Main street limestone linked limestone.004",
+          "Main street limestone linked limestone.005",
           "Main east limestone linked limestone",
-          "Main east limestone linked limestone.001",
-          "Main east limestone linked limestone.002"
+          "Main east limestone linked limestone.001"
         ],
         "adopted_parent_dependencies": []
       }

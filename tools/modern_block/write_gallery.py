@@ -3,7 +3,7 @@ from pathlib import Path
 import json,hashlib
 ROOT=Path(__file__).resolve().parents[2];H=ROOT/'homes/modern-block'
 rows=[
-('01-front-arrival','Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath','exterior','arrival'),
+('01-front-arrival','Projecting cedar upper floor, sheltered stone arrival and private screened bath','exterior','arrival'),
 ('13-east-arrival','East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance','exterior',None),
 ('02-courtyard-pool','Courtyard pool, sheltered seating and supported glass-guarded balcony','exterior','outdoor'),
 ('03-roof-and-site','Elevated roof and site view, skylights, guest pavilion and two-car garage','exterior','site'),
@@ -38,7 +38,7 @@ for spec in specs:
  if spec.get('correction_prompt'):
   prov+=f"## Targeted correction — {Path(spec['output']).stem}\n\nThe initial photographic result was the edit target, with the current native render supplied again as the geometry/material reference. Actual correction prompt:\n\n> {spec['correction_prompt']}\n\n"
 (H/'outputs/photo-study.md').write_text(prov.rstrip()+'\n')
-intro='A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.\n\n**Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.\n\n'
+intro='A four-foot occupied upper projection shelters arrival beneath a continuous cedar soffit. Twelve-foot clear ground ceilings and ten-foot upper ceilings give the rooms generous proportions. A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.\n\n**Concept areas:** approximately 5,838 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.\n\n'
 def img(item,prefix):return f"![{item['caption']}]({prefix}{item['path']})\n\n*{item['caption']}.*\n\n"
 def page(prefix,homeprefix,title):
  text=f'# {title}\n\n'+img(photos[0],prefix)+intro

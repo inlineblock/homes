@@ -8,20 +8,39 @@
     "front_partition_clear_of_glazing": true,
     "flue_outside_upper_wc": true
   },
+  "measured_section_m": {
+    "upper_floor_top": 4.114799976348877,
+    "occupied_upper_front_y": -1.2000000476837158,
+    "occupied_front_projection": 1.2000000476837158,
+    "main_ceiling_underside": 3.657599925994873,
+    "main_clear_height": 3.657599925994873,
+    "kitchen_slat_bottom_min": 3.657600164413452,
+    "kitchen_slat_bottom_max": 3.657600164413452,
+    "upper_ceiling_underside": 7.162799835205078,
+    "upper_clear_height": 3.047999858856201
+  },
   "blender": "4.5.14 LTS",
   "relative_libraries": 52,
   "measured_floor_areas_m2": {
     "Main occupied slab": 240.0,
     "Guest occupied slab": 96.0,
-    "Upper occupied slab": 191.95999455451965,
+    "Upper occupied slab": 206.35997867584229,
     "Garage occupied slab": 64.0
   },
-  "conditioned_gross_m2": 527.96,
+  "conditioned_gross_m2": 542.36,
   "bed_instances": 4,
   "wardrobe_bays": 18,
   "shelf_modules": 8,
-  "stair_risers": 22,
-  "riser_m": 0.16363636363636364,
+  "stair_risers": 24,
+  "stair_treads": 22,
+  "treads_per_flight": [
+    11,
+    11
+  ],
+  "riser_m": 0.17145,
+  "half_landing_elevation_m": 2.0573999881744385,
+  "highest_tread_elevation_m": 3.943350076675415,
+  "stair_convention": "24 equal rises; 11 separate treads per flight, with half landing and upper floor completing each flight.",
   "tread_depth_m": 0.28,
   "flight_width_m": 1.2,
   "landing_depth_m": 1.22,
@@ -43,7 +62,25 @@
   },
   "limitations": [
     "Concept geometry and route reservations only; manufacturer selection, engineering and local approval unresolved.",
+    "Structural calculations and support capacity for the occupied projection are not verified.",
+    "Ceiling checks measure the selected main, kitchen slat and upper-bar undersides; they do not certify every local soffit or equipment clearance.",
     "Window modules explicitly resized; frame sightlines vary from source nominal.",
     "No exact existing-building dimensions or original layout claimed."
-  ]
+  ],
+  "shower_host_support": {
+    "wall_bounds_xy_m": [
+      20.200000762939453,
+      0.020000003278255463,
+      21.860000610351562,
+      0.18000000715255737
+    ],
+    "wall_bottom_m": 4.114799976348877,
+    "wall_top_m": 6.41480016708374,
+    "wall_height_m": 2.3000001907348633,
+    "controls_back_to_wall_face_m": {
+      "Mixer plate": -0.0020000487565994263,
+      "Shower rail": 0.007999986410140991
+    },
+    "scope": "Geometric host backing only; waterproofing, anchorage and plumbing installation are not certified."
+  }
 }

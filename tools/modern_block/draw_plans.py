@@ -57,7 +57,7 @@ def outline(ax,r,color=LINE,dashed=False,lw=.8,zorder=6):
     ax.add_patch(Rectangle((x0,y0),x1-x0,y1-y0,fill=False,edgecolor=color,lw=lw,ls='--' if dashed else '-',zorder=zorder))
 
 def exterior_projections(ax,level):
-    """Occupied enclosure stays unchanged; project-owned exterior geometry reads from design.py."""
+    """Distinguish occupied cantilever, ground enclosure and exterior shading geometry."""
     pier=design_source.EAST_FLUE_PIER
     footprint(ax,pier,'#cfc7b7')
     outline(ax,pier,INK,lw=1)
@@ -71,19 +71,23 @@ def exterior_projections(ax,level):
             yy=y0+i*(y1-y0)/3
             footprint(ax,(x0,yy,x1,yy+(y1-y0)/3),'#ebe5d9')
         outline(ax,design_source.ENTRY_PORTAL,WOOD,dashed=True,lw=1.1)
-        ax.annotate('SHELTERED PORCH\n3 EQUAL RISERS',xy=(20.4,-.7),xytext=(15.8,-2.55),
+        outline(ax,(UPPER_RECT[0],UPPER_RECT[1],UPPER_RECT[2],MAIN[1]),WOOD,dashed=True,lw=1.1)
+        ax.text(13.2,UPPER_RECT[1]-.4,'UPPER FLOOR ABOVE\n'+feet(MAIN[1]-UPPER_RECT[1])+' PROJECTION',ha='center',va='top',fontsize=6.4,color=MUTED)
+        ax.annotate('SHELTERED PORCH\n3 EQUAL RISERS',xy=(20.4,-.7),xytext=(17.8,-2.75),
                     ha='center',fontsize=6.5,color=MUTED,
                     arrowprops=dict(arrowstyle='-',color=MUTED,lw=.55),zorder=8)
     else:
         depth=design_source.FRONT_REVEAL_DEPTH
-        outline(ax,(10.4,-depth,16.7,0),WOOD,dashed=True)
+        outline(ax,(10.4,UPPER_RECT[1]-depth,16.7,UPPER_RECT[1]),WOOD,dashed=True)
+        ax.plot([UPPER_RECT[0],UPPER_RECT[2]],[MAIN[1],MAIN[1]],color=MUTED,ls='--',lw=.65,zorder=4)
+        ax.annotate('GROUND WALL BELOW',xy=(10.7,MAIN[1]),xytext=(8.8,-1.65),ha='center',fontsize=6.3,color=MUTED,arrowprops=dict(arrowstyle='-',color=MUTED,lw=.45),zorder=8)
         screen=design_source.PRIMARY_BATH_SCREEN
         footprint(ax,screen,'#d9c3a7')
         x0,y0,x1,y1=screen
         for i in range(24):
             xx=x0+(i+.5)*(x1-x0)/24
             ax.plot([xx-.035,xx+.035],[y0,y1],color=WOOD,lw=.65,zorder=7)
-        ax.text((x0+x1)/2,-.85,'RAISED-SILL BATH GLAZING\nEXTERNAL PRIVACY SCREEN',
+        ax.text((x0+x1)/2,y0-.10,'RAISED-SILL BATH GLAZING\nEXTERNAL PRIVACY SCREEN',
                 ha='center',va='top',fontsize=6.4,color=MUTED)
 
 def furniture(ax,record):
@@ -138,9 +142,12 @@ def draw(level,out,layout,openings):
         ax.set_xlim(-9.5,27);ax.set_ylim(-4.1,22.5)
     else:
         footprint(ax,(7,9,10,17),'#ddd6c8');ax.text(8.5,13.8,'COVERED\nBALCONY',ha='center',va='center',fontsize=8,color=MUTED)
-        footprint(ax,UPPER_RECT,'#f6f2e9');ext=[('upper-south',(10,0),(22,0)),('upper-west',(10,0),(10,17)),('upper-east',(22,0),(22,17)),('upper-north',(10,17),(22,17))]
-        dim(ax,(10,17),(22,17),feet(12),1.1);dim(ax,(22,0),(22,17),feet(17),3.3)
-        ax.set_xlim(5.8,27);ax.set_ylim(-1.8,19)
+        footprint(ax,UPPER_RECT,'#f6f2e9')
+        ux0,uy0,ux1,uy1=UPPER_RECT
+        ext=[('upper-south',(ux0,uy0),(ux1,uy0)),('upper-west',(ux0,uy0),(ux0,uy1)),('upper-east',(ux1,uy0),(ux1,uy1)),('upper-north',(ux0,uy1),(ux1,uy1))]
+        dim(ax,(ux0,uy1),(ux1,uy1),feet(ux1-ux0),1.1);dim(ax,(ux1,uy0),(ux1,uy1),feet(uy1-uy0),3.3)
+        dim(ax,(ux1,uy0),(ux1,MAIN[1]),feet(MAIN[1]-uy0),1.45)
+        ax.set_xlim(5.8,27);ax.set_ylim(UPPER_RECT[1]-2.0,19)
     exterior_projections(ax,level)
     for name,a,b in ext:
         if isinstance(openings,list):
@@ -165,6 +172,13 @@ def draw(level,out,layout,openings):
         footprint(ax,(10.33,19.06,14.13,19.78),'#e8e3d8');footprint(ax,(12.4,14,13.85,18.1),'#e8e3d8')
     for record in layout:
         if record.get('level')==level:furniture(ax,record)
+    if level=='upper':
+        r=design_source.SHOWER_SERVICE_WALL
+        footprint(ax,r,'#cfc7b7');outline(ax,r,INK,lw=1.1)
+        ax.annotate('SHOWER PLUMBING WALL\n'+feet(design_source.SHOWER_SERVICE_HEIGHT)+' HIGH',
+                    xy=((r[0]+r[2])/2,(r[1]+r[3])/2),xytext=(19.2,-.64),
+                    ha='center',va='center',fontsize=6.4,color=MUTED,
+                    arrowprops=dict(arrowstyle='-',color=MUTED,lw=.55),zorder=8)
     for slug,x,y,angle in ([('coastal-outdoor-sofa',4.9,3.9,math.pi),('coastal-outdoor-lounge-chair',1.8,3.6,-.5),('slatted-outdoor-chaise',1.35,10.3,0),('slatted-outdoor-chaise',1.35,14.2,0)] if level=='ground' else [('coastal-outdoor-lounge-chair',8.4,10.6,math.pi/2),('coastal-outdoor-lounge-chair',8.4,15,math.pi/2)]):
         meta=json.loads((ROOT/'library/furniture'/slug/'v001/asset.json').read_text());w,dep,_=meta['dimensions_m'];furniture(ax,{'x':x,'y':y,'width':w,'depth':dep,'rotation':angle,'kind':slug})
     if level=='ground':
@@ -198,10 +212,12 @@ def draw(level,out,layout,openings):
     side.text(0,.217,'Low roofs fall 1:80 toward +Y.\nRear collection to planted-strip concept.\nOverflow, capacity and lawful discharge\nremain unresolved.',fontsize=7.6,color=MUTED,linespacing=1.45,va='top')
     side.text(0,.055,'Outer room zones shown.\nNet room sizes depend on wall thickness.\nExterior doors shown at modeled angle.\nDashed outline: overhead projection.\nOrientation is not surveyed.',fontsize=7.6,color=MUTED,linespacing=1.5,va='bottom')
     fig.text(.04,.953,'MODERN BLOCK',fontsize=25,fontweight='bold',color=INK)
-    fig.text(.04,.921,('Ground floor + courtyard' if level=='ground' else 'Upper floor + private rooms'),fontsize=15,color=MUTED)
+    fig.text(.04,.921,(f'Ground floor + courtyard  ·  {feet(design_source.GROUND_CLEAR)} minimum clear ceiling' if level=='ground' else f'Upper floor + private rooms  ·  {feet(design_source.UPPER_CLEAR)} clear ceiling'),fontsize=15,color=MUTED)
     fig.text(.975,.945,'CONCEPT PLAN  /  '+('01' if level=='ground' else '02'),ha='right',fontsize=10,color=MUTED)
+    if level=='ground':fig.text(.04,.111,"Rear service ceiling: 3.7776 m / approx. 12′5″ clear  •  Garage: 3.7576 m / approx. 12′4″ clear  •  Lanai: 12 ft clear with glazed transoms above 3 m leaves",fontsize=8.3,color=MUTED)
+    fig.text(.04,.089,f'Upper finished floor +{feet(design_source.UPPER)}  •  {design_source.FLOOR_ASSEMBLY/.0254:.0f} in floor/services reserve  •  24 equal stair rises at 6¾ in; 11 treads per flight',fontsize=8.8,color=MUTED)
     fig.text(.04,.065,'4 bedrooms  •  3 full baths + powder  •  2-car garage',fontsize=10,color=INK)
-    fig.text(.04,.04,f'Conditioned gross: {CONDITIONED_M2:,.2f} m² / {CONDITIONED_M2/0.09290304:,.0f} sq ft. Excludes garage, lanai, pool, balcony, porch, facade projections, terraces and upper stair void.',fontsize=8.6,color=MUTED)
+    fig.text(.04,.04,f'Conditioned gross: {CONDITIONED_M2:,.2f} m² / {CONDITIONED_M2/0.09290304:,.0f} sq ft. Excludes garage, lanai, pool, balcony, porch, screens/reveals, terraces and upper stair void; occupied cantilever included.',fontsize=8.6,color=MUTED)
     fig.text(.04,.021,'Creative architectural study. Dimensions are concept choices; not an as-built record, permit drawing or code approval.',fontsize=8,color=MUTED)
     fig.text(.975,.043,'METERS IN MODEL  /  FEET + INCHES SHOWN',ha='right',fontsize=8,color=MUTED)
     out.mkdir(parents=True,exist_ok=True)

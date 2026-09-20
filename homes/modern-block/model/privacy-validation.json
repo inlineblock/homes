@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-09-19T23:42:02.868286+00:00",
+  "checked_at_utc": "2026-09-20T01:55:13.827582+00:00",
   "native_file": "model/modern-block.blend",
-  "native_sha256": "8c18a6a70b74a0c1db6ce3950a5fb4510969a6c8d7ca3532f08e78e6e81b6470",
+  "native_sha256": "c4307d742937bf36b56852326a65b15935681225fe71e0ab213cd5a3bc9fe45c",
   "native_reopened": true,
   "native_mutated": false,
   "software": {
@@ -21,11 +21,11 @@
     "new_and_modified_repository_text": true,
     "new_asset_manifests_and_validation_metadata": true
   },
-  "native_datablocks_checked": 12783,
-  "string_fields_checked": 67463,
-  "repository_text_files_checked": 38,
-  "repository_text_scope_sha256": "f3f728c4be8adfb855c93ac92f7e46ea06f31fd35c2ceeafd407046209650f50",
-  "png_metadata_files_checked": 26,
+  "native_datablocks_checked": 12959,
+  "string_fields_checked": 68813,
+  "repository_text_files_checked": 30,
+  "repository_text_scope_sha256": "87151a77835ef5aded0e42bbb717b3cc1c11d9c71770f2c46be4339554df75d1",
+  "png_metadata_files_checked": 25,
   "png_metadata_scope": [
     {
       "path": "homes/modern-block/outputs/images/01-front-arrival.png",
@@ -319,42 +319,15 @@
       "metadata_chunks_checked": [
         "tEXt"
       ]
-    },
-    {
-      "path": "library/openings/angled-cedar-privacy-screen-2000x2800/v001/preview.png",
-      "metadata_chunks_checked": [
-        "eXIf",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt",
-        "tEXt"
-      ]
     }
   ],
   "new_asset_provenance_status": "passed",
-  "new_asset_provenance_scope": [
-    {
-      "path": "library/openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json",
-      "declared_license": "CC-BY-4.0",
-      "original_source_declared": true,
-      "generator_exists": true,
-      "declared_parent_exists": true,
-      "status": "passed"
-    }
-  ],
-  "binary_files_excluded_from_text_scan": 30,
+  "new_asset_provenance_scope": [],
+  "binary_files_excluded_from_text_scan": 28,
   "text_file_scope": [
+    ".agents/skills/create-home/SKILL.md",
     "README.md",
     "homes/modern-block/README.md",
-    "homes/modern-block/assets/README.md",
-    "homes/modern-block/brief.md",
     "homes/modern-block/design-intent.md",
     "homes/modern-block/design-review-notes.md",
     "homes/modern-block/design-review.md",
@@ -373,20 +346,13 @@
     "homes/modern-block/program.md",
     "homes/modern-block/project.json",
     "homes/modern-block/visual-review-notes.md",
-    "library/README.md",
-    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/README.md",
-    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/asset.json",
-    "library/openings/angled-cedar-privacy-screen-2000x2800/v001/validation.json",
-    "tools/library/publish_angled_cedar_screen.py",
-    "tools/modern_block/AGENTS.md",
     "tools/modern_block/build.py",
     "tools/modern_block/design.py",
     "tools/modern_block/draw_plans.py",
     "tools/modern_block/envelope.py",
     "tools/modern_block/facade_details.py",
+    "tools/modern_block/interiors-layout.json",
     "tools/modern_block/interiors.py",
-    "tools/modern_block/schedule.py",
-    "tools/modern_block/site_context.py",
     "tools/modern_block/verify.py",
     "tools/modern_block/write_gallery.py"
   ],

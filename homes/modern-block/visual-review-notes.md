@@ -1,5 +1,7 @@
 # Modern Block — independent visual review
 
+Current status: **all thirteen native views and ten photographic studies are accepted for concept presentation**. Final closure is recorded below; earlier acceptance records describe prior geometry.
+
 Baseline status: **the original twelve native views were accepted for concept presentation**. The arrival and landscape revision is reviewed separately below. This review does not establish construction readiness. Source identities and third-party imagery are excluded from this record.
 
 ## Review coverage
@@ -43,3 +45,27 @@ The native site remains an illustrative, simplified setting. Photographic finish
 ## Coordinated final interior review
 
 The primary author inspected all six regenerated interior images: kitchen, living/hearth, primary bedroom, double vanity, tub/shower and stair gallery. The widened bedroom opening and high-sill bathroom apertures agree with the revised plans. Stair glazing remains split by the occupied floor edge, and the stair/guards and storage remain visible. All thirteen native images are accepted for concept presentation.
+
+## Upper projection and ceiling revision
+
+Independent review inspected all thirteen fresh 1800 × 1200 native images after the 1.2 m occupied front projection, 12 ft lower clear ceilings and 10 ft upper clear ceilings were modeled. Actual pixels were compared with seven refreshed photographic studies: hero, courtyard, site, open lanai, kitchen, living and bedroom. Unrefreshed east, closed-lanai and bathroom photographic studies were excluded from this pass.
+
+- The continuous upper volume, integrated stone entrance portal, taller glazing and fixed lanai clerestory are coherent. The five rigid pivot leaves retain their count and open/closed states. Courtyard supports, balcony guards, pool steps, rooflights and garage approach remain legible.
+- Kitchen slats and rooflight preserve the taller ceiling character; living and bedroom furnishings remain human-scaled. The revised stair meets its landing, and the floor edge and guards remain visible.
+- Six photographic studies (courtyard, site, open lanai, kitchen, living and bedroom) retain the modeled architecture while adding authorized woodland, underplanting, material detail and daylight. No architectural-drift blocker was observed in these six.
+- **Interim shower finding — closed below:** the primary shower remained at its former location after the front wall moved. That tub/shower view showed its controls and head without a supporting plumbing wall. The pinned shower manifest requires that wall. A deliberately designed wet-services wall was selected; the affected native and photographic bathing views and placement record were subsequently revised.
+- **Interim presentation finding — closed below:** the earlier hero and east cameras were close to or above the overhang soffit, understating the requested projection. Lower exterior viewpoints and corresponding photographic studies were requested and subsequently supplied.
+
+These interim findings were held open until the corrections and replacement views were inspected, as recorded below. Pixel review does not verify structural capacity or numerical ceiling heights; those require the separate native geometry checks and documented concept limitations.
+
+### Native correction closure
+
+The fresh final front-arrival, east-arrival, vanity and tub/shower renders were inspected after all four render-completion markers were present. The shower now has a 2.3 m-high solid services fin, joining the east wall and visibly supporting its controls and head. The north approach, tub and route around the fin remain clear. The lower front and east viewpoints improve the reading of the occupied projection and its timber underside. These native corrections are accepted; no outstanding native visual blocker remains in the thirteen-view set.
+
+The first refreshed closed-lanai photographic study preserved five closed leaves, the fixed clerestory, supporting posts and terrace steps. A minor finishing mismatch was identified: it turned the narrow pale roof soffit into timber and added small lights absent from the corresponding open study and native view. A targeted photographic correction and replacements derived from the corrected front/east and bathing renders were requested. The six studies accepted above remained accepted.
+
+### Final photographic closure
+
+The final stable hero, east-arrival, bath and closed-lanai studies were independently inspected against their reviewed native views. The exterior pair retains the occupied cedar projection, stone portal and flue pier, privacy-screen bay, taller openings and fixed lanai clerestory. The bathing study retains the new solid shower-services fin, its mounted controls and head, separate tub and clear approach. The closed-lanai study now has the matching pale soffit without the added lights, while preserving all five leaves and the modeled supports and steps.
+
+Together with the six previously accepted studies, all ten photographic studies are accepted. Authorized landscape enrichment gives the home a coherent wooded setting; it does not establish a surveyed site or botanical specification. All recorded visual findings in this revision are closed. There are no outstanding native or photographic visual blockers; engineering, product and site limitations remain as stated above.

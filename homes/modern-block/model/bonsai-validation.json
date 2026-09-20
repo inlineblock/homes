@@ -1,6 +1,8 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 1795,
-  "project": "Modern Block | Concept"
+  "imported_mesh_objects": 1899,
+  "project": "Modern Block | Concept",
+  "ifc_sha256": "021ea76f6aae9c2de26e3629b2689b9d84cd49ea4b0e9f855a4b52fcf9d4b55e",
+  "runtime": "Isolated temporary extraction of the installed Bonsai 0.8.5 bundled wheels; saved preferences unchanged."
 }

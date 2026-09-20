@@ -1,12 +1,12 @@
 # Modern Block — current outputs
 
-![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study](../outputs/images/photo-hero.png)
+![Projecting cedar upper floor, sheltered stone arrival and private screened bath — AI photographic study](../outputs/images/photo-hero.png)
 
-*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study.*
+*Projecting cedar upper floor, sheltered stone arrival and private screened bath — AI photographic study.*
 
-A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
+A four-foot occupied upper projection shelters arrival beneath a continuous cedar soffit. Twelve-foot clear ground ceilings and ten-foot upper ceilings give the rooms generous proportions. A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
 
-**Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
+**Concept areas:** approximately 5,838 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
 [Editable Blender model](../model/modern-block.blend) · [Classified concept IFC](../model/modern-block.ifc) · [Design intent](../design-intent.md) · [Program](../program.md) · [Review and limitations](../design-review.md) · [Assets](../assets/README.md)
 
@@ -70,9 +70,9 @@ AI photographic studies derived from the native views below. [Prompts and proven
 
 The following images are direct renders of the editable Blender model.
 
-![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath](../outputs/images/01-front-arrival.png)
+![Projecting cedar upper floor, sheltered stone arrival and private screened bath](../outputs/images/01-front-arrival.png)
 
-*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath.*
+*Projecting cedar upper floor, sheltered stone arrival and private screened bath.*
 
 ![East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance](../outputs/images/13-east-arrival.png)
 

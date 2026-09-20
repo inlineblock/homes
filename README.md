@@ -8,13 +8,13 @@ Each project below includes multiple exterior angles, interiors, defining featur
 
 ### Modern Block
 
-![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study](homes/modern-block/outputs/images/photo-hero.png)
+![Projecting cedar upper floor, sheltered stone arrival and private screened bath — AI photographic study](homes/modern-block/outputs/images/photo-hero.png)
 
-*Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath — AI photographic study.*
+*Projecting cedar upper floor, sheltered stone arrival and private screened bath — AI photographic study.*
 
-A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
+A four-foot occupied upper projection shelters arrival beneath a continuous cedar soffit. Twelve-foot clear ground ceilings and ten-foot upper ceilings give the rooms generous proportions. A sheltered limestone entrance, deep bedroom opening and screened bathing bay give the warm stone and cedar composition depth. A functional stone fireplace pier and aligned stair windows articulate the east side. The pavilions frame a private pool court within a wooded garden setting. Five pivoting timber screens open the covered lanai between the main house and a guest/office pavilion. The four-bedroom concept includes a complete kitchen, primary bathing suite, generous storage and a two-car garage.
 
-**Concept areas:** approximately 5,683 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
+**Concept areas:** approximately 5,838 sq ft conditioned gross, plus 689 sq ft garage. Conditioned area includes wall footprints and excludes the upper stair void, lanai, pool, balcony and exterior terraces. Dimensions and unseen layout are creative design choices; this is not a measured as-built model or construction documentation.
 
 [Full project and editable models](homes/modern-block/README.md) · [Current outputs](homes/modern-block/outputs/README.md)
 
@@ -42,9 +42,9 @@ A sheltered limestone entrance, deep bedroom opening and screened bathing bay gi
 | --- | --- |
 | ![Primary bedroom with a king bed, oak nightstands and tree-level glazing](homes/modern-block/outputs/images/07-primary-bedroom.png) | ![Freestanding tub and separate glass shower in the primary bathroom — AI photographic study](homes/modern-block/outputs/images/photo-bath.png) |
 
-| Freestanding tub and separate glass shower in the primary bathroom | Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath |
+| Freestanding tub and separate glass shower in the primary bathroom | Projecting cedar upper floor, sheltered stone arrival and private screened bath |
 | --- | --- |
-| ![Freestanding tub and separate glass shower in the primary bathroom](homes/modern-block/outputs/images/12-bath-tub-shower.png) | ![Sheltered stone arrival, deep bedroom reveal and private cedar-screened bath](homes/modern-block/outputs/images/01-front-arrival.png) |
+| ![Freestanding tub and separate glass shower in the primary bathroom](homes/modern-block/outputs/images/12-bath-tub-shower.png) | ![Projecting cedar upper floor, sheltered stone arrival and private screened bath](homes/modern-block/outputs/images/01-front-arrival.png) |
 
 | East elevation: limestone fireplace pier, aligned stair glazing and sheltered entrance | Courtyard pool, sheltered seating and supported glass-guarded balcony |
 | --- | --- |

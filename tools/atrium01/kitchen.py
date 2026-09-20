@@ -1,98 +1,166 @@
-"""Kitchen-focused joinery, appliances, and the reusable original ceramic tile."""
-import bpy, math, json
-from common.geometry import box,cyl,sphere,rod,curve,area,collection,F
+"""Measured walnut kitchen, using rigid, pinned shared equipment collections.
 
-def tile_library(root,M):
-    folder=root/'library/materials/sage-fluted-tile/v001';folder.mkdir(parents=True,exist_ok=True)
-    path=folder/'sage-fluted-tile.blend'
-    if path.exists():
-        with bpy.data.libraries.load(str(path),link=True) as (src,dst):dst.collections=[src.collections[0]]
-        return dst.collections[0]
-    c=collection('Sage fluted tile | 3 x 12 in | v001')
-    box('Ceramic tile body',(0,0,0),(.24,.045,.99),M['sage'],.008)
-    for i in range(6):cyl('Glazed vertical flute',(-.1+i*.04,.019,0),.018,.976,M['sage'],12)
-    bpy.data.libraries.write(str(path),{c},fake_user=True)
-    for o in list(c.objects):bpy.data.objects.remove(o,do_unlink=True)
-    bpy.data.collections.remove(c)
-    with bpy.data.libraries.load(str(path),link=True) as (src,dst):dst.collections=[src.collections[0]]
-    # Library links are made repository-relative when the house is saved.
-    data={'schema_version':1,'id':'materials/sage-fluted-tile','version':'v001','name':'Sage fluted ceramic','units':'meters','dimensions_m':[.073152,.0181356,.301752],'nominal_module_inches':[3,12],'grout_inches':.12,'source':{'kind':'original','author':'Homes project','generator':'tools/atrium01/kitchen.py:tile_library'},'license':'CC-BY-4.0','rights':'Original project asset; CC BY 4.0; attribution: Homes project contributors','files':{'blender':'sage-fluted-tile.blend'},'dependencies':[]}
-    (folder/'asset.json').write_text(json.dumps(data,indent=2)+'\n')
-    return dst.collections[0]
+All native coordinates are meters. One-off counters and installation fillers are
+host geometry; cabinets, appliances, tile, stools and lighting stay linked.
+"""
+import math
+import design as d
 
-def cabinet(name,x,y,w,d,h,M,front='north'):
-    box(name+' carcass',(x,y,h/2+.35),(w,d,h),M['walnut'],.025)
-    # A thin recessed toe kick grounds the joinery.
-    box(name+' plinth',(x,y,.2),(w-.12,d-.18,.4),M['black'],.01)
-    if front=='north':
-        for dz,hz in [(2.48,.72),(1.62,.88),(.7,.85)]:
-            box(name+' drawer',(x,y+d/2+.025,dz),(w-.045,.075,hz),M['walnut'],.018)
-            box(name+' pull',(x,y+d/2+.09,dz+hz/2-.09),(w*.44,.05,.045),M['black'],.01)
-    else:
-        for dz,hz in [(2.48,.72),(1.62,.88),(.7,.85)]:
-            box(name+' drawer',(x-d/2-.025,y,dz),(.075,w-.045,hz),M['walnut'],.018)
-            box(name+' pull',(x-d/2-.09,y,dz+hz/2-.09),(.05,w*.44,.045),M['black'],.01)
+F = d.FT
+TOP = .9144
+TOP_THICK = .0381
 
-def build(root,M):
-    tiles=tile_library(root,M);collection('03 Kitchen | detailed joinery')
-    # South cooking wall; modules are 30 inches wide.
-    for i in range(5):cabinet('South cabinet %02d'%i,45.4+i*2.5,1.4,2.5,2.3,2.45,M)
-    box('South limestone worktop',(51.3,1.45,3.01),(13.6,2.6,.16),M['stone'],.035)
-    for row in range(3):
-        for col in range(53):
-            o=bpy.data.objects.new('Sage tile %02d-%02d'%(row,col),None);o.instance_type='COLLECTION';o.instance_collection=tiles
-            bpy.data.collections['03 Kitchen | detailed joinery'].objects.link(o);o.location=( (44.7+col*.25)*F, .55*F, (3.64+row)*F)
-    box('Walnut floating display shelf',(51.25,.78,6.6),(13.5,1.15,.15),M['walnut'],.03)
-    # Thin concealed range extraction rather than a bulky dropped hood.
-    box('Slim integrated range canopy',(51.1,1.05,6.47),(3.4,1.6,.17),M['black'],.04)
-    box('Induction glass cooktop',(51.1,1.48,3.115),(2.8,1.78,.035),M['black'],.035)
-    for x in [50.42,51.8]:
-        for y in [1.05,1.91]:
-            bpy.ops.mesh.primitive_torus_add(major_radius=.25*F,minor_radius=.008*F,location=(x*F,y*F,3.14*F));o=bpy.context.object;o.name='Induction ring';o.data.materials.append(M['steel'])
-    # East wall: appliance bank, prep drawers and an undermount sink.
-    for y,label in [(2.4,'Integrated refrigerator'),(5.6,'Oven tower')]:
-        box(label,(58.7,y,4.2),(2.3,3,8),M['walnut'],.035)
-        for z,h in [(2.45,3.8),(6.45,3.8)]:box(label+' front',(57.49,y,z),(.10,2.94,h),M['walnut'],.018)
-        rod(label+' handle',(57.35,y-1.12,3.5),(57.35,y-1.12,5),.025,M['black'])
-    for z in [3.4,5.1]:
-        box('Wall oven glass',(57.40,5.6,z),(.08,2.62,1.35),M['black'],.04)
-        rod('Oven handle',(57.27,4.48,z+.44),(57.27,6.72,z+.44),.045,M['steel'])
-    for y in [8.45,11.05,13.65,16.25,18.85]:cabinet('East drawer module',58.7,y,2.6,2.3,2.45,M,'west')
-    # Separate stone pieces leave a real sink opening.
-    for ya,yb in [(7.1,11.8),(14.3,20.2)]:box('East worktop',(58.7,(ya+yb)/2,3.01),(2.65,yb-ya,.16),M['stone'],.025)
-    for x in [57.52,59.87]:box('Sink surround',(x,13.05,3.01),(.30,2.5,.16),M['stone'],.02)
-    box('Sink basin bottom',(58.68,13.05,2.52),(1.94,2.45,.07),M['steel'],.13)
-    for x in [57.73,59.64]:box('Sink side',(x,13.05,2.75),(.07,2.45,.5),M['steel'],.045)
-    for y in [11.86,14.25]:box('Sink end',(58.68,y,2.75),(1.96,.07,.5),M['steel'],.045)
-    cyl('Drain',(58.68,13.05,2.565),.12,.02,M['black'])
-    curve('Gooseneck faucet',[(59.62,13.1,3.1),(59.62,13.1,4.25),(59.4,13.1,4.45),(58.96,13.1,4.4),(58.91,13.1,4.06)],.05,M['steel'])
-    rod('Faucet lever',(59.63,13.42,3.2),(59.63,13.42,3.55),.035,M['steel'])
-    # 10 x 4 ft island. West overhang and four seats face the courtyard.
-    box('Island recessed plinth',(50.35,11,.23),(2.95,9.5,.46),M['black'],.02)
-    box('Island walnut core',(50.35,11,1.67),(3.15,9.7,2.58),M['walnut'],.035)
-    for y in [7.35,9.79,12.23,14.67]:
-        for z in [.92,2.13]:box('Island working drawer',(51.96,y,z),(.08,2.4,1.13),M['walnut'],.014)
-    box('Island limestone top',(50,11,3.04),(4.3,10.1,.20),M['stone'],.045)
-    for y in [6.02,15.98]:box('Island stone waterfall',(50,y,1.51),(4.3,.18,3.02),M['stone'],.025)
-    for y in [7.3,9.75,12.2,14.65]:
-        cyl('Walnut stool seat',(46.8,y,2.05),.69,.16,M['walnut'])
-        for dx,dy in [(-.42,-.4),(-.42,.4),(.42,-.4),(.42,.4)]:rod('Stool leg',(46.8+dx,y+dy,.08),(46.8+dx*.78,y+dy*.78,2),.045,M['black'])
-        rod('Stool footrest',(46.38,y-.4,.72),(47.22,y-.4,.72),.025,M['black'])
-        curve('Stool bentwood back',[(46.22,y-.5,2.17),(46.14,y-.48,2.73),(46.14,y,2.91),(46.14,y+.48,2.73),(46.22,y+.5,2.17)],.065,M['walnut'])
-    for y in [7.6,11,14.4]:
-        rod('Pendant cable',(50,y,8.9),(50,y,6.7),.014,M['black'])
-        cyl('Pendant cap',(50,y,6.77),.12,.18,M['black'])
-        sphere('Opal globe pendant',(50,y,6.33),(.49,.49,.49),M['glow'])
-        area('Pendant pool',(50,y,6),(50,y,2.8),45,1.1)
-    area('Under-shelf wash',(51,1.2,6.45),(51,.25,4.1),95,10,shape='RECTANGLE',size_y=.25)
-    # Human-scale countertop and shelf objects.
-    cyl('Serving bowl foot',(50,12,3.2),.33,.08,M['white'])
-    sphere('Low stoneware fruit bowl',(50,12,3.29),(.68,.68,.20),M['terracotta'])
-    for x,y,z in [(49.75,11.85,3.5),(50.18,12.15,3.51),(50.08,11.79,3.52)]:sphere('Orange',(x,y,z),(.18,.18,.18),M['orange'])
-    box('Linen board',(49.8,8.6,3.18),(1.6,.9,.065),M['walnut'],.13)
-    for x in [49.5,50.1]:cyl('Ceramic espresso cup',(x,8.6,3.35),.13,.28,M['white'])
-    for x,h in [(46.1,.58),(47,.87),(55.1,.65),(56.3,.47)]:
-        cyl('Shelf ceramic vessel',(x,.78,6.72+h/2),.19,h,M['white'])
-    for i in range(4):box('Cookbook',(53.7+i*.12,.75,7.11),(.10,.62,.84),M['terracotta'] if i%2 else M['fabric'],.012)
-    cyl('Utensil crock',(55.9,1.15,3.5),.27,.70,M['white'])
-    for dx in [-.11,0,.12]:rod('Walnut utensil',(55.9+dx,1.15,3.52),(56+dx,1.11,4.13),.032,M['walnut'])
+
+def build(root, M, asset, box, rod, cyl, area):
+    from api import host_footprint
+    records = {'equipment': [], 'clearances': [], 'counter_openings': []}
+
+    def put(cat, slug, name, x, y, z=0, rotation=0, version='v001'):
+        ob = asset(cat, slug, name, (x*F, y*F, z), math.radians(rotation), version)
+        if cat == 'appliances' or 'sink' in slug:
+            records['equipment'].append({'name': name, 'asset': f'{cat}/{slug}/{version}',
+                                         'origin_m': [x*F,y*F,z], 'rotation_degrees': rotation})
+        return ob
+
+    def top(name, rect, holes=(), z=TOP, thickness=TOP_THICK):
+        """Partition a rectangular slab around actual rectangular installation holes."""
+        x0,y0,x1,y1 = rect
+        xs = sorted(set([x0,x1]+[v for h in holes for v in [h[0],h[2]]]))
+        ys = sorted(set([y0,y1]+[v for h in holes for v in [h[1],h[3]]]))
+        for a,b in zip(xs,xs[1:]):
+            for c,e in zip(ys,ys[1:]):
+                if any(h[0] < (a+b)/2 < h[2] and h[1] < (c+e)/2 < h[3] for h in holes):
+                    continue
+                box(name,((a+b)/2,(c+e)/2,z-thickness/2),(b-a,e-c,thickness),M['stone'])
+        host_footprint(name,[(x0,y0),(x1,y0),(x1,y1),(x0,y1)],'counter')
+        for h in holes:
+            records['counter_openings'].append({'counter': name, 'bounds_m': list(h), 'top_m': z})
+
+    # South cooking wall. Pantry access remains west of the first cabinet.
+    for x in [47.75,52.75]:
+        put('cabinetry','walnut-drawer-base-2ft','Kitchen cooking landing drawers',x,9.4,rotation=180)
+    put('cabinetry','walnut-oven-base-36in','Kitchen open oven housing',50.25,9.4,rotation=180)
+    put('appliances','built-in-oven-30in','Kitchen oven 30 inch',50.25,9.4,.14,180)
+    cook_x,cook_y=50.25*F,9.4*F
+    cook_hole=(cook_x-.44,cook_y-.2475,cook_x+.44,cook_y+.2475)
+    top('Kitchen cooking worktop',d.box(46.74,8.32,53.85,10.65),[cook_hole])
+    put('appliances','induction-cooktop-36in','Kitchen induction 36 inch',50.25,9.4,TOP,180)
+    put('appliances','wall-hood-36in','Kitchen extraction hood 36 inch',50.25,9.25,1.70,180)
+    # A continuous hollow duct connects the hood chimney to an open-sided cowl.
+    # The architecture module cuts the actual340×300mm roof/ceiling bore around
+    # this320×280mm outer envelope. Flow, fire protection and product sizing are
+    # unresolved engineering decisions, not inferred from the visual route.
+    ex,ey=50.25*F,8.78*F
+    duct_bottom,duct_top,wall=2.455,3.66,.003
+    for side,xoff,yoff,wid,dep in [('west',-.16+wall/2,0,wall,.28),
+                                 ('east',.16-wall/2,0,wall,.28),
+                                 ('south',0,-.14+wall/2,.32-2*wall,wall),
+                                 ('north',0,.14-wall/2,.32-2*wall,wall)]:
+        ob=box('Kitchen dedicated exhaust duct '+side,(ex+xoff,ey+yoff,(duct_bottom+duct_top)/2),
+               (wid,dep,duct_top-duct_bottom),M['steel'])
+        ob['concept_system_role']='continuous_kitchen_exhaust_duct'
+    # Four flashing strips form a genuine central opening instead of a sealed box.
+    for side,xoff,yoff,wid,dep in [('west',-.206,0,.088,.47),('east',.206,0,.088,.47),
+                                 ('south',0,-.1885,.324,.093),('north',0,.1885,.324,.093)]:
+        box('Kitchen exhaust flashing '+side,(ex+xoff,ey+yoff,3.58),(wid,dep,.018),M['dark'])
+    for dx in [-.222,.222]:
+        for dy in [-.207,.207]:
+            box('Kitchen exhaust cowl corner support',(ex+dx,ey+dy,3.68075),(.018,.018,.1835),M['dark'],.002)
+    box('Kitchen roof exhaust rain cap',(ex,ey,3.79),(.52,.49,.035),M['dark'],.008)
+    records['exhaust']={
+        'center_m':[ex,ey], 'roof_bore_m':[.34,.30],
+        'outer_duct_rectangle_m':[ex-.16,ey-.14,ex+.16,ey+.14],
+        'inner_duct_rectangle_m':[ex-.157,ey-.137,ex+.157,ey+.137],
+        'continuous_duct_z_m':[duct_bottom,duct_top],
+        'hood_chimney_top_m':1.70+.762,
+        'hood_to_duct_overlap_m':1.70+.762-duct_bottom,
+        'cowl_cap_underside_m':3.7725, 'open_side_outlet_height_m':3.7725-duct_top,
+        'route':'Hood capture and chimney; continuous open-ended four-wall riser through reserved roof bore; four open lateral outlets below rain cap.',
+        'status':'Modeled concept route; selected product, exhaust sizing, makeup air, flashings and weather/fire performance unresolved.'}
+    area('Cooking task illumination',(50.25*F,9.25*F,1.68),(50.25*F,9.4*F,TOP),65,.75)
+    # Immovable 48-inch fridge has its own landing and door-use bay.
+    put('appliances','walnut-panel-ready-fridge-48in','Kitchen refrigerator freezer 48 inch',56.6,9.55,rotation=180)
+    # An exposed space between cold and hot equipment gives hinge relief; no filler
+    # crosses the refrigerator leaf sweep. The cooking top provides its landing.
+    for x in [46.78,53.81]:
+        box('Cooking counter support cheek',(x*F,9.42*F,.438),(.022,2.2*F,.876),M['walnut'],.004)
+
+    # East cleanup run: full-size sink, dishwasher and separate waste pullout.
+    east_x=58.4
+    for y in [24.5,26.5]:
+        put('cabinetry','walnut-drawer-base-2ft','Kitchen east drawer storage',east_x,y,rotation=-90)
+    put('cabinetry','walnut-sink-base-36in',
+        'Kitchen accessible sink cabinet',east_x,17.5,rotation=-90)
+    put('appliances','walnut-panel-ready-dishwasher-24in','Kitchen integrated dishwasher',east_x,20.05,rotation=-90)
+    put('cabinetry','walnut-waste-pullout-18in','Kitchen waste and recycling',east_x,21.90,rotation=-90)
+    # Nominal sink mounting offset is30mm toward the cabinet front.
+    sink_x=east_x*F-.03; sink_y=17.5*F
+    sink_hole=(sink_x-.232,sink_y-.332,sink_x+.232,sink_y+.332)
+    top('Kitchen cleanup worktop',d.box(57.3,15.85,59.48,27.6),[sink_hole])
+    asset('fixtures','kitchen-sink-mixer-650','Kitchen real bowl and mixer',(sink_x,sink_y,TOP),-math.pi/2,'v002')
+    records['equipment'].append({'name':'Kitchen real bowl and mixer','asset':'fixtures/kitchen-sink-mixer-650/v002','origin_m':[sink_x,sink_y,TOP],'rotation_degrees':-90})
+    for y in [15.90,27.57]:
+        box('Cleanup counter end support',(58.4*F,y*F,.438),(2.1*F,.022,.876),M['walnut'],.004)
+    # Small installation gaps remain visible as deliberate walnut filler panels.
+    for y,w in [(21.10,.05),(23.125,.75)]:
+        box('Cleanup run fitted spacer',(58.4*F,y*F,.436),(2*F,w*F,.872),M['walnut'],.003)
+
+    # A single coherent field reaches the refrigerator's2.134m top datum.
+    # Whole original3×12in tiles remain rigidly linked. Four rows terminate at
+    #2.131m; equal18mm plaster reveals finish the two worktop ends.
+    tile_top=TOP+.301752+3*.3048
+    box('Sage ceramic backing bed',(50.295*F,8.2075*F,(TOP+tile_top)/2),
+        (7.11*F,.065*F,tile_top-TOP),M['plaster'])
+    for row in range(4):
+        for col in range(28):
+            put('materials','sage-fluted-tile','Sage fluted cooking tile',46.92+col*.25,8.25,TOP+.150876+row*.3048)
+    # The hood sits forward of the ceramic face instead of intersecting tiles.
+    # Two installation stand-offs connect its chimney to wall backing; appliance
+    # fixings, loads and the selected commercial installation remain unresolved.
+    for x in [49.9,50.6]:
+        box('Hood concealed mounting stand-off',(x*F,8.26*F,2.31),(.035,.17*F,.12),M['steel'],.003)
+
+    # Four working-side cabinet modules leave a generous15-inch-plus knee recess.
+    ix0,iy0,ix1,iy1=d.KITCHEN_ISLAND
+    cab_x=ix1-.36
+    for i in range(4):
+        cy=iy0+(.5+i*2+1)*F
+        asset('cabinetry','walnut-drawer-base-2ft','Island working drawers',(cab_x,cy,0),math.pi/2)
+    top('Island pale stone worktop',d.KITCHEN_ISLAND)
+    # Site-specific continuous rear/end panels are the island host, not new cabinets.
+    box('Island walnut back',(cab_x-.325,(iy0+iy1)/2,.436),(.027,iy1-iy0-.10,.872),M['walnut'],.006)
+    for yy in [iy0+.05,iy1-.05]:
+        box('Island fitted walnut end',(cab_x,yy,.436),(.66,.028,.872),M['walnut'],.005)
+    for i in range(4):
+        # The historic shared stool's bent back is at-X; its original orientation
+        # already faces the island from its west side.
+        sy=iy0+(.5+i*2.5+.75)*F
+        asset('furniture','walnut-counter-stool','Courtyard facing walnut counter seat',(ix0-1.2*F,sy,0))
+    for yy in [iy0+2*F,(iy0+iy1)/2,iy1-2*F]:
+        asset('fixtures','opal-globe-pendant','Island opal globe',( (ix0+ix1)/2,yy,d.HEIGHT))
+        area('Island warm task pool',((ix0+ix1)/2,yy,2.08),((ix0+ix1)/2,yy,TOP),55,.85)
+
+    # The pantry L keeps its southwest corner open so each shelf has its own
+    # standing approach; three full two-foot bays retain useful dry-food capacity.
+    for x in [44.55]:
+        put('cabinetry','walnut-pantry-shelf-2ft','Pantry dry food shelves',x,1.02,rotation=180)
+    for y in [3.0,5.05]:
+        put('cabinetry','walnut-pantry-shelf-2ft','Pantry west food shelves',41.74,y,rotation=90)
+    # A separate landing supports deep portable appliances; pantry shelves are not
+    # falsely counted as full-depth appliance counters.
+    put('cabinetry','walnut-drawer-base-2ft','Pantry small appliance drawers',47.55,1.50,rotation=180)
+    top('Pantry appliance landing',d.box(46.48,.52,48.63,2.62))
+
+    records['clearances']=[
+        {'name':'East working aisle','measured_m':57.3*F-ix1,'basis':'Stone edge to island stone; closed fixtures'},
+        {'name':'Oven full door plus operator','measured_m':iy0-10.65*F,'required_m':1.52,'basis':'Concept0.72m open leaf plus0.8m operator'},
+        {'name':'West route behind stools','measured_m':ix0-1.2*F-.75*F-41*F,'required_m':1.1176,'basis':'Stool conservative back envelope to courtyard glazing'},
+        {'name':'Island seating width per place','measured_m':2.5*F,'required_m':.6096,'basis':'Four fixed place centers'},
+        {'name':'Island knee depth','measured_m':cab_x-.338-ix0,'required_m':.381,'basis':'Stone edge to rear panel face'},
+    ]
+    records['sage_wall']={'tile_top_m':tile_top,'rows':4,'columns':28,'hood_rear_plane_m':(9.25-11/12)*F,'tile_front_plane_m':8.287*F,'minimum_hood_to_tile_m':(9.25-11/12-8.287)*F,'basis':'Original tile collection and measured hood rear plane; mounting stand-offs above tile field.'}
+    records['sink_cutout_m']=[.464,.664]
+    records['sink_service']={'cabinet_open_cavity':True,'drain_trap_routes':'Reserved within linked open sink base; product rough-in unresolved'}
+    records['refrigerator_operation']={'origin_m':[56.6*F,9.55*F,0],'rotation_degrees':180,
+        'leaf_angle_degrees':110,'basis':'Published concept swept geometry; verify native host before acceptance'}
+    return records

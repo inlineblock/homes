@@ -1,0 +1,66 @@
+{
+  "status": "reviewed concept drawings",
+  "scope": "Plan graphics, measured-source consistency and current native furniture footprints; not a replacement for native operating-envelope or professional review.",
+  "source_hashes": {
+    "tools/atrium01/design.py": "ff4a122e2d69712cd33c61718806a6c76dc45e995c01ff004531f7a81bb7d7f8",
+    "tools/atrium01/draw_plan.py": "2e60a6fe58918dc57a708709b9b8d883ebae33f8d424275743848768464af244",
+    "tools/atrium01/interiors-layout.json": "ecde07ac0858ea1248fec1f508c415dd6d1719ebd7c8b775edd729157c9f92ef"
+  },
+  "outputs": {
+    "homes/atrium-01/outputs/plans/floor-plan.svg": {
+      "sha256": "7b3a355d0fc4c1f4f1013c455fa9f0948fdaedb0f43972b8029696dd46f53735",
+      "bytes": 52295
+    },
+    "homes/atrium-01/outputs/plans/floor-plan.png": {
+      "sha256": "03b41b3e94daa69ed60ac6bc94980695ffff2962692018f4d0822b17eca9b4b6",
+      "bytes": 159771
+    },
+    "homes/atrium-01/outputs/plans/floor-plan.pdf": {
+      "sha256": "f53d7b642453b0e193f826740c157adca82a2c82ab3b7ca94e9af84c7e46bf21",
+      "bytes": 49692
+    },
+    "homes/atrium-01/outputs/plans/site-plan.svg": {
+      "sha256": "500d10d91f07fa38cf46533b2eb66a0739d13979e2b9330892f7692a2b9e3bba",
+      "bytes": 10873
+    },
+    "homes/atrium-01/outputs/plans/site-plan.png": {
+      "sha256": "f26f8a5e0aedacb242dbad39c079b57a1be80ea1915d92a42640995cc6380c47",
+      "bytes": 128415
+    },
+    "homes/atrium-01/outputs/plans/site-plan.pdf": {
+      "sha256": "a7b64d066f3a96e2d36d656a9b61fb9735070b26f70edd2d33a3fca45ad17566",
+      "bytes": 42899
+    }
+  },
+  "checks": {
+    "layout_opening_ranges": true,
+    "gross_enclosed_sqft": 2400,
+    "house_overall_ft": [
+      60,
+      44
+    ],
+    "open_atrium_ft": [
+      16,
+      15
+    ],
+    "carport_ft": [
+      24,
+      22
+    ],
+    "plan_pdf_pages": {
+      "floor-plan": 1,
+      "site-plan": 1
+    },
+    "furniture_placement_records": 90,
+    "native_host_footprints": 13
+  },
+  "visual_review": [
+    "Inspected actual PNGs and rasterized PDF pages for both sheets; no clipping or omitted labels.",
+    "Adjusted bathroom, laundry and utility labels and moved gallery width dimension clear of cabinetry.",
+    "Furniture outlines derive from final native placement manifest.",
+    "Laundry north-hinge arc, ensuite westward south-hinge arc, primary entry end hinge and west-storing primary bath pocket match current design metadata.",
+    "Rear terrace slider has an explicit sliding symbol.",
+    "Drawings identify nominal dimensions, gross-area exclusions and illustrative site limitations.",
+    "Refreshed after the final native layout moved the living credenza two feet north; the kitchen-to-dining route south of that cabinet remains visibly open. Source and output hashes refreshed after removal of the obsolete camera placeholder."
+  ]
+}

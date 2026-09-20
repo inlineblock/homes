@@ -1,0 +1,44 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "relative_dependencies_resolved": true,
+  "geometry_identical_to_parent": true,
+  "geometry_signature_sha256": "189b931f2cfa019f4a37a390be7e44c33a56f484c780516d0b56ddf0996a1215",
+  "dimensions_m": [
+    0.914400041103363,
+    0.6096000075340271,
+    0.8712199926376343
+  ],
+  "floor_contact": true,
+  "wood_meshes_with_meter_uv": 7,
+  "linked_walnut_material": true,
+  "host_installation_checked": false,
+  "operating_state": "Closed or open shelf; no host motion verification",
+  "blend_sha256": "c2bd7b869c07cdb93b934f6960ad888cfc6569bf9c7cd7175bbdeb77884d3e5b",
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key, fill and world"
+  },
+  "preview_rendered": true,
+  "preview_sha256": "0f195e24966d572be63350eccc1d6707b580757355bc2081842c1300af77923c",
+  "dependency_sha256": {
+    "materials/warm-walnut/v001": "2630910fe3f497ce0d53d1b63a15da21a43e2d4f542ffabdbe8701f944d73295"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png"
+    ],
+    "notes": "Reviewed actual native preview: consistent warm-brown walnut, grain direction aligned with individual boards, intact geometry and hardware, clean base contact.",
+    "host_integration_checked": false
+  }
+}

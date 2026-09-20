@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-drawer-base-2ft",
+  "version": "v001",
+  "name": "Walnut drawer base 2ft",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.3365499973297119,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.6096,
+    0.6096,
+    0.87122
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-supported; countertop excluded. Nominal 24-inch depth and 34.3-inch height. Finish front plane Y=-0.3048m; rear Y=+0.3048m. Bronze pulls project a further 31.75mm where used.",
+    "operating_envelope": {
+      "modeled_state": "Closed; components individually editable, not animated",
+      "basis": "Original concept geometry and conservative planning allowance; no manufacturer selected",
+      "host_open_state_checked": false,
+      "reserve_front_operator_depth_m": 0.8,
+      "intended_drawer_travel_m": 0.5,
+      "reserve_front_depth_including_operator_m": 1.3
+    },
+    "service_requirements": [
+      "Host supplies countertop, wall fixing, selected product tolerances and access; these are concept modules, not construction specifications."
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-drawer-base-2ft",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb",
+    "geometry_signature_sha256": "71dde1b53f829b2f051fd0220d22a7d313ef5a563a920c6ee9aeaf82558b0b2f"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "walnut-drawer-base-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "walnut-drawer-base-2ft | v001"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  }
+}

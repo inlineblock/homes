@@ -2,42 +2,77 @@
   "schema_version": 1,
   "renders": [
     {
-      "path": "outputs/images/01-kitchen.png",
-      "caption": "Walnut-and-sage kitchen with island seating",
-      "view": "interior"
-    },
-    {
-      "path": "outputs/images/02-kitchen-courtyard.png",
-      "caption": "Kitchen opening toward the planted atrium",
-      "view": "interior"
-    },
-    {
       "path": "outputs/images/03-exterior.png",
-      "caption": "Arrival elevation and low post-and-beam roofline",
+      "caption": "Sheltered arrival, continuous low timber roof and separate two-car carport",
       "view": "exterior",
       "exterior_role": "arrival"
     },
     {
-      "path": "outputs/images/04-cutaway.png",
-      "caption": "Roof-off whole-home cutaway",
-      "view": "cutaway"
-    },
-    {
       "path": "outputs/images/05-rear-terrace.png",
-      "caption": "Rear terrace and complete garden elevation",
+      "caption": "Garden elevation, supported canopy and outdoor living terrace",
       "view": "exterior",
       "exterior_role": "outdoor"
     },
     {
       "path": "outputs/images/06-west-roof-atrium.png",
-      "caption": "Elevated west view of the low roof and atrium",
+      "caption": "Roof, open courtyard and parking relationship",
       "view": "exterior",
       "exterior_role": "site"
     },
     {
-      "path": "outputs/images/07-open-air-atrium.png",
-      "caption": "Dedicated view of the planted open-air atrium",
+      "path": "outputs/images/11-sheltered-arrival.png",
+      "caption": "Human-scale covered entrance and timber door",
       "view": "exterior"
+    },
+    {
+      "path": "outputs/images/12-entry-gallery.png",
+      "caption": "Foyer with coat storage and direct indoor courtyard gallery",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/01-kitchen.png",
+      "caption": "Walnut-and-sage kitchen with pale stone island and generous working aisle",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/02-kitchen-courtyard.png",
+      "caption": "Kitchen looking into the open planted courtyard",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/08-living.png",
+      "caption": "Garden-facing living room and dining connection",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/07-open-air-atrium.png",
+      "caption": "Open-air planted atrium with actual sliding-door access",
+      "view": "exterior"
+    },
+    {
+      "path": "outputs/images/09-primary-bedroom.png",
+      "caption": "Primary bedroom with full-size bed and dedicated wardrobes",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/10-primary-bath.png",
+      "caption": "Double vanity and freestanding tub in the primary bathing suite",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/13-tub-and-shower.png",
+      "caption": "Separate tub and generous shower in the primary bathroom",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/14-primary-privacy.png",
+      "caption": "Primary bedroom with the same opaque roller blinds fully lowered",
+      "view": "interior"
+    },
+    {
+      "path": "outputs/images/04-cutaway.png",
+      "caption": "Roof-off furnished layout and enclosed circulation around the atrium",
+      "view": "cutaway"
     }
   ],
   "required_levels": [
@@ -47,7 +82,7 @@
     {
       "path": "outputs/plans/floor-plan.png",
       "level": "main",
-      "caption": "Single-level dimensioned furnished concept plan"
+      "caption": "Dimensioned furnished main-floor concept plan"
     }
   ],
   "signature_features": [
@@ -55,14 +90,23 @@
       "id": "kitchen",
       "label": "Walnut-and-sage kitchen",
       "renders": [
-        "outputs/images/01-kitchen.png"
+        "outputs/images/01-kitchen.png",
+        "outputs/images/02-kitchen-courtyard.png"
       ]
     },
     {
       "id": "atrium",
-      "label": "Planted open-air atrium",
+      "label": "Planted open-air courtyard",
       "renders": [
         "outputs/images/07-open-air-atrium.png"
+      ]
+    },
+    {
+      "id": "sheltered-arrival",
+      "label": "Covered arrival and indoor gallery",
+      "renders": [
+        "outputs/images/11-sheltered-arrival.png",
+        "outputs/images/12-entry-gallery.png"
       ]
     }
   ],
@@ -71,9 +115,103 @@
     "kind": "ai-photographic-study",
     "tool": "Imagegen (built-in)",
     "source_render": "outputs/images/03-exterior.png",
-    "source_sha256": "f0ae72a4292a89be5a1fa2f3a3b4cee4645600a2777cd7b40af81d9e2db5a284",
-    "image_sha256": "98d5f3816b7f35edf61ed528c2b7803cc2dd6e64fb3f4835ab6ce30ecab23203",
+    "source_sha256": "92bcc359f09c83c357758ba04f303b130c60989397b27b673c2b11ff7c9e33bc",
+    "image_sha256": "737d7038eaca99179434489d5c21539057997f61d1e590ae4c7732bca78154ea",
     "provenance": "outputs/photo-study.md",
-    "caption": "Atrium 01 — Imagegen photographic study"
-  }
+    "caption": "Sheltered arrival, continuous low timber roof and separate two-car carport \u2014 AI photographic study"
+  },
+  "photographic_exteriors": [
+    {
+      "path": "outputs/images/photo-rear.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/05-rear-terrace.png",
+      "source_sha256": "f620bcf48c961cdba6f41c0f8f06b0610e7469a73ac18e9e0fb581c449fc40b6",
+      "image_sha256": "1951b5740dc18f7d5d64a923b84a1bbf58b23545b9bc00ec24daca00a3853a23",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Garden elevation, supported canopy and outdoor living terrace \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-roof.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/06-west-roof-atrium.png",
+      "source_sha256": "e9e014c010a42c8057897ec416622676768ce2b527c70dce42b914ce652a421f",
+      "image_sha256": "fc856f317d28c2bb9b36a4d5ef1e9c2f36d8eddb1522cd1a0df05fb66aa8f8b0",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Roof, open courtyard and parking relationship \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-atrium.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/07-open-air-atrium.png",
+      "source_sha256": "bdf7a947178f5e55b77a13814a5c774030060347622318ea6922c38b4bf5b727",
+      "image_sha256": "3cb911961cf5cbce2cc3ebfae8061c2d77733e3e842e8c9151ad0596138247d4",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Open-air planted atrium with actual sliding-door access \u2014 AI photographic study"
+    }
+  ],
+  "photographic_interiors": [
+    {
+      "path": "outputs/images/photo-interior.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/01-kitchen.png",
+      "source_sha256": "160d19aab84ef0a41ea71978138e4f26ccdb62d9b1ae2c0d091fd1227f12e3e2",
+      "image_sha256": "df86c15cee088f20d88cbfade4e1f8b0a5fd847634efba53045a99de581d2524",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Walnut-and-sage kitchen with pale stone island and generous working aisle \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-kitchen-courtyard.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/02-kitchen-courtyard.png",
+      "source_sha256": "eaa6431f802fe5fc1480d741b254fc0db5e9ad98dfcded929d0827ebf840d52f",
+      "image_sha256": "20aaeb05a311b2781d0cb4874bb980837bcc3107bf0099ab2611790a3a9c5517",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Kitchen looking into the open planted courtyard \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-living.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/08-living.png",
+      "source_sha256": "427d0a15738e0567c014fbfa61dadb1271671c3d2c843c9c4f7a7416fde852fc",
+      "image_sha256": "ea47eb3bbfa0fed821e5488d6c00abcca118d9cea451961c6bad423fe2e251d2",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Garden-facing living room and dining connection \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-primary-bedroom.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/09-primary-bedroom.png",
+      "source_sha256": "122290acc330971921b7ba00212e4c7b92c2f94a1ec5cf04375e6a184a503ebf",
+      "image_sha256": "981e16eaa611a4d180cbccc153542da7babc1f0cfdae5b0638b484cd84b6edec",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Primary bedroom with full-size bed and dedicated wardrobes \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-primary-bath.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/10-primary-bath.png",
+      "source_sha256": "be651a55907e76dcd536b4326ff6398ad10a2c2da7d456b01e35ca8c62f2414f",
+      "image_sha256": "d09c1c8f2b1e39a172848bb60576a1abe0773d0c94b89f060a959537c1890996",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Double vanity and freestanding tub in the primary bathing suite \u2014 AI photographic study"
+    },
+    {
+      "path": "outputs/images/photo-tub-shower.png",
+      "kind": "ai-photographic-study",
+      "tool": "Imagegen (built-in)",
+      "source_render": "outputs/images/13-tub-and-shower.png",
+      "source_sha256": "d9ca836661f77514db9b27175c512f0afa8fc52a75e1603a339e9d0483411858",
+      "image_sha256": "e5f03f0b976b381cacf9167f296e28b83fe20c957dbe5fb1c2ebe7250452559c",
+      "provenance": "outputs/photo-study.md",
+      "caption": "Separate tub and generous shower in the primary bathroom \u2014 AI photographic study"
+    }
+  ]
 }

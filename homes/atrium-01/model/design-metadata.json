@@ -1,0 +1,1182 @@
+{
+  "site": {
+    "door_states": [
+      {
+        "id": "south opening 02",
+        "type": "hinged",
+        "width_m": 1.1542000000000008,
+        "hinge_m": [
+          10.398200000000001,
+          0.0762
+        ],
+        "height_m": 2.5558,
+        "closed_rotation_rad": 0.0,
+        "angle_degrees": 70.0
+      },
+      {
+        "id": "north opening 03",
+        "type": "exterior sliding pair",
+        "modeled_state": "first half open; second half fixed and parked",
+        "clear_opening_m": 1.9062,
+        "track_width_m": 0.15,
+        "clear_start_m": [
+          7.9648,
+          13.335
+        ],
+        "clear_end_m": [
+          9.871,
+          13.335
+        ]
+      },
+      {
+        "id": "bedroom-gallery opening 01",
+        "type": "hinged",
+        "width_m": 0.9103600000000003,
+        "hinge_m": [
+          6.096,
+          3.2049200000000004
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": 90.0
+      },
+      {
+        "id": "bedroom-gallery opening 02",
+        "type": "hinged",
+        "width_m": 0.9103600000000003,
+        "hinge_m": [
+          6.096,
+          5.87812
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 4.71238898038469,
+        "angle_degrees": -90.0
+      },
+      {
+        "id": "bedroom-gallery opening 03",
+        "type": "hinged",
+        "width_m": 0.9103600000000003,
+        "hinge_m": [
+          6.096,
+          7.47212
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": 90.0
+      },
+      {
+        "id": "ensuite-2-west opening 01",
+        "type": "hinged",
+        "width_m": 0.9103600000000001,
+        "hinge_m": [
+          3.9624,
+          1.07132
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": 90.0
+      },
+      {
+        "id": "primary-south opening 01",
+        "type": "hinged",
+        "width_m": 0.97132,
+        "hinge_m": [
+          7.219239999999999,
+          8.59536
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 3.141592653589793,
+        "angle_degrees": -90.0
+      },
+      {
+        "id": "primary-east opening 01",
+        "type": "hinged",
+        "width_m": 0.8494000000000006,
+        "hinge_m": [
+          4.2672,
+          8.752279999999999
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": 90.0
+      },
+      {
+        "id": "primary-bath-south opening 01",
+        "type": "pocket",
+        "modeled_state": "closed",
+        "width_m": 0.9144000000000001,
+        "reserved_travel_m": 0.9544000000000001,
+        "signed_translation_m": [
+          -0.9344000000000001,
+          -0.0,
+          0
+        ]
+      },
+      {
+        "id": "primary-wc-west opening 01",
+        "type": "hinged",
+        "width_m": 0.7884399999999991,
+        "hinge_m": [
+          6.5532,
+          9.971480000000001
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": -90.0
+      },
+      {
+        "id": "shared-bath-north opening 01",
+        "type": "pocket",
+        "modeled_state": "closed",
+        "width_m": 0.9753600000000001,
+        "reserved_travel_m": 1.01536,
+        "signed_translation_m": [
+          0.9953600000000001,
+          0.0,
+          0
+        ]
+      },
+      {
+        "id": "pantry-east opening 01",
+        "type": "hinged",
+        "width_m": 0.9103600000000001,
+        "hinge_m": [
+          14.9352,
+          0.7665200000000001
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 1.5707963267948966,
+        "angle_degrees": -90.0
+      },
+      {
+        "id": "service-north opening 01",
+        "type": "hinged",
+        "width_m": 0.9103600000000003,
+        "hinge_m": [
+          13.293800000000001,
+          2.4384
+        ],
+        "height_m": 2.4034,
+        "closed_rotation_rad": 0.0,
+        "angle_degrees": -90.0
+      },
+      {
+        "id": "atrium-east",
+        "type": "one moving and one fixed sliding light",
+        "modeled_state": "first half open; moving leaf parked over second half",
+        "clear_opening_m": 1.1442,
+        "track_width_m": 0.15,
+        "clear_start_m": [
+          12.4968,
+          5.831200000000001
+        ],
+        "clear_end_m": [
+          12.4968,
+          6.9754000000000005
+        ]
+      },
+      {
+        "id": "atrium-north",
+        "type": "one moving and one fixed sliding light",
+        "modeled_state": "first half open; moving leaf parked over second half",
+        "clear_opening_m": 1.1442,
+        "track_width_m": 0.15,
+        "clear_start_m": [
+          9.7936,
+          8.5344
+        ],
+        "clear_end_m": [
+          10.9378,
+          8.5344
+        ]
+      }
+    ],
+    "ceiling_plane_m": 3.2004,
+    "beam_clear_m": 2.8956,
+    "service_clear_m": 2.7432000000000003,
+    "roof_top_m": 3.5554,
+    "eave_projection_m": 0.6096,
+    "carport_rect_m": [
+      0.0,
+      -8.2296,
+      7.315200000000001,
+      -1.524
+    ],
+    "covered_walk_rect_m": [
+      0.0,
+      -1.524,
+      12.4968,
+      0.0
+    ],
+    "parking_reserves_m": [
+      [
+        0.3048,
+        -7.62,
+        3.3528000000000002,
+        -2.1336
+      ],
+      [
+        3.9624,
+        -7.62,
+        7.010400000000001,
+        -2.1336
+      ]
+    ],
+    "vehicle_clearance_records": [
+      {
+        "id": 1,
+        "body_rect_m": [
+          0.8788000000000002,
+          -7.2768,
+          2.7788000000000004,
+          -2.4768000000000003
+        ],
+        "bay_rect_m": [
+          0.3048,
+          -7.62,
+          3.3528000000000002,
+          -2.1336
+        ],
+        "body_size_m": [
+          1.9,
+          4.8,
+          1.6
+        ],
+        "side_door_reserve_m": 0.75,
+        "front_access_m": 0.8,
+        "rear_access_m": 0.8,
+        "bay_side_margin_m": 0.5739999999999998,
+        "bay_end_margin_m": 0.3432000000000004,
+        "carport_front_margin_m": 0.9528000000000003,
+        "carport_rear_margin_m": 0.9527999999999999,
+        "body_to_sheltered_walk_m": 0.9528000000000003
+      },
+      {
+        "id": 2,
+        "body_rect_m": [
+          4.5364,
+          -7.2768,
+          6.436400000000001,
+          -2.4768000000000003
+        ],
+        "bay_rect_m": [
+          3.9624,
+          -7.62,
+          7.010400000000001,
+          -2.1336
+        ],
+        "body_size_m": [
+          1.9,
+          4.8,
+          1.6
+        ],
+        "side_door_reserve_m": 0.75,
+        "front_access_m": 0.8,
+        "rear_access_m": 0.8,
+        "bay_side_margin_m": 0.5739999999999998,
+        "bay_end_margin_m": 0.3432000000000004,
+        "carport_front_margin_m": 0.9528000000000003,
+        "carport_rear_margin_m": 0.9527999999999999,
+        "body_to_sheltered_walk_m": 0.9528000000000003
+      }
+    ],
+    "sheltered_route_clearance": {
+      "walk_width_m": 1.524,
+      "minimum_canopy_post_gap_m": 0.04716000000000009,
+      "vehicle_body_gap_m": 1.7576,
+      "simultaneous_inner_door_reserve_gap_m": 0.25760000000000005,
+      "front_access_to_walk_gap_m": 0.15280000000000027,
+      "checked": "Axis-aligned vehicle, side-door, canopy-post and covered-walk geometry",
+      "limits": "0.75m conservative side clearance envelopes; exact vehicle door arcs, turning, road access and grades require selected vehicles and site design"
+    },
+    "illustrative_road_rect_m": [
+      -4.2672,
+      -14.630400000000002,
+      23.4696,
+      -10.668000000000001
+    ],
+    "site_basis": "Illustrative level terrain; no surveyed parcel or climate claim",
+    "glazing_basis": "Bespoke host post-and-beam infill; court east and north doors half open",
+    "drainage_basis": "Concept roof collection/downpipes, court channels and accessible sumps; sizing and discharge unresolved"
+  },
+  "interiors": {
+    "kitchen": {
+      "equipment": [
+        {
+          "name": "Kitchen oven 30 inch",
+          "asset": "appliances/built-in-oven-30in/v001",
+          "origin_m": [
+            15.3162,
+            2.86512,
+            0.14
+          ],
+          "rotation_degrees": 180
+        },
+        {
+          "name": "Kitchen induction 36 inch",
+          "asset": "appliances/induction-cooktop-36in/v001",
+          "origin_m": [
+            15.3162,
+            2.86512,
+            0.9144
+          ],
+          "rotation_degrees": 180
+        },
+        {
+          "name": "Kitchen extraction hood 36 inch",
+          "asset": "appliances/wall-hood-36in/v001",
+          "origin_m": [
+            15.3162,
+            2.8194000000000004,
+            1.7
+          ],
+          "rotation_degrees": 180
+        },
+        {
+          "name": "Kitchen refrigerator freezer 48 inch",
+          "asset": "appliances/walnut-panel-ready-fridge-48in/v001",
+          "origin_m": [
+            17.25168,
+            2.9108400000000003,
+            0
+          ],
+          "rotation_degrees": 180
+        },
+        {
+          "name": "Kitchen accessible sink cabinet",
+          "asset": "cabinetry/walnut-sink-base-36in/v001",
+          "origin_m": [
+            17.80032,
+            5.3340000000000005,
+            0
+          ],
+          "rotation_degrees": -90
+        },
+        {
+          "name": "Kitchen integrated dishwasher",
+          "asset": "appliances/walnut-panel-ready-dishwasher-24in/v001",
+          "origin_m": [
+            17.80032,
+            6.1112400000000004,
+            0
+          ],
+          "rotation_degrees": -90
+        },
+        {
+          "name": "Kitchen real bowl and mixer",
+          "asset": "fixtures/kitchen-sink-mixer-650/v002",
+          "origin_m": [
+            17.770319999999998,
+            5.3340000000000005,
+            0.9144
+          ],
+          "rotation_degrees": -90
+        }
+      ],
+      "clearances": [
+        {
+          "name": "East working aisle",
+          "measured_m": 1.6392399999999974,
+          "basis": "Stone edge to island stone; closed fixtures"
+        },
+        {
+          "name": "Oven full door plus operator",
+          "measured_m": 1.5544799999999999,
+          "required_m": 1.52,
+          "basis": "Concept0.72m open leaf plus0.8m operator"
+        },
+        {
+          "name": "West route behind stools",
+          "measured_m": 1.4392400000000016,
+          "required_m": 1.1176,
+          "basis": "Stool conservative back envelope to courtyard glazing"
+        },
+        {
+          "name": "Island seating width per place",
+          "measured_m": 0.762,
+          "required_m": 0.6096,
+          "basis": "Four fixed place centers"
+        },
+        {
+          "name": "Island knee depth",
+          "measured_m": 0.5974000000000004,
+          "required_m": 0.381,
+          "basis": "Stone edge to rear panel face"
+        }
+      ],
+      "counter_openings": [
+        {
+          "counter": "Kitchen cooking worktop",
+          "bounds_m": [
+            14.8762,
+            2.61762,
+            15.7562,
+            3.11262
+          ],
+          "top_m": 0.9144
+        },
+        {
+          "counter": "Kitchen cleanup worktop",
+          "bounds_m": [
+            17.53832,
+            5.002000000000001,
+            18.002319999999997,
+            5.666
+          ],
+          "top_m": 0.9144
+        }
+      ],
+      "exhaust": {
+        "center_m": [
+          15.3162,
+          2.676144
+        ],
+        "roof_bore_m": [
+          0.34,
+          0.3
+        ],
+        "outer_duct_rectangle_m": [
+          15.1562,
+          2.5361439999999997,
+          15.4762,
+          2.816144
+        ],
+        "inner_duct_rectangle_m": [
+          15.1592,
+          2.539144,
+          15.4732,
+          2.813144
+        ],
+        "continuous_duct_z_m": [
+          2.455,
+          3.66
+        ],
+        "hood_chimney_top_m": 2.4619999999999997,
+        "hood_to_duct_overlap_m": 0.006999999999999673,
+        "cowl_cap_underside_m": 3.7725,
+        "open_side_outlet_height_m": 0.11249999999999982,
+        "route": "Hood capture and chimney; continuous open-ended four-wall riser through reserved roof bore; four open lateral outlets below rain cap.",
+        "status": "Modeled concept route; selected product, exhaust sizing, makeup air, flashings and weather/fire performance unresolved."
+      },
+      "sage_wall": {
+        "tile_top_m": 2.1305520000000002,
+        "rows": 4,
+        "columns": 28,
+        "hood_rear_plane_m": 2.5400000000000005,
+        "tile_front_plane_m": 2.5258776000000003,
+        "minimum_hood_to_tile_m": 0.014122399999999934,
+        "basis": "Original tile collection and measured hood rear plane; mounting stand-offs above tile field."
+      },
+      "sink_cutout_m": [
+        0.464,
+        0.664
+      ],
+      "sink_service": {
+        "cabinet_open_cavity": true,
+        "drain_trap_routes": "Reserved within linked open sink base; product rough-in unresolved"
+      },
+      "refrigerator_operation": {
+        "origin_m": [
+          17.25168,
+          2.9108400000000003,
+          0
+        ],
+        "rotation_degrees": 180,
+        "leaf_angle_degrees": 110,
+        "basis": "Published concept swept geometry; verify native host before acceptance"
+      }
+    },
+    "bedrooms": [
+      {
+        "bedroom": 2,
+        "bed": "queen",
+        "wardrobe_bays": 3,
+        "wardrobe_origin_y_m": 2.8194000000000004,
+        "nominal_storage_width_m": 1.8288000000000002,
+        "wardrobe_front_clear_m": 1.121968799999999,
+        "usable_rail_note": "Six feet nominal bay frontage; actual internal rails exclude shared side panels."
+      },
+      {
+        "bedroom": 3,
+        "bed": "queen",
+        "wardrobe_bays": 3,
+        "wardrobe_origin_y_m": 7.086600000000001,
+        "nominal_storage_width_m": 1.8288000000000002,
+        "wardrobe_front_clear_m": 1.1219687999999985,
+        "usable_rail_note": "Six feet nominal bay frontage; actual internal rails exclude shared side panels."
+      },
+      {
+        "bedroom": "primary",
+        "bed": "king",
+        "wardrobe_bays": 4,
+        "nominal_storage_width_m": 2.4384,
+        "wardrobe_front_clear_m": 1.1168888,
+        "headboard": "Faces solid east bathroom wall; garden glazing remains alongside bed."
+      }
+    ],
+    "bathrooms": [
+      {
+        "name": "Ensuite 02",
+        "vanity": {
+          "name": "Ensuite 02 vanity",
+          "counter_top_m": 0.75,
+          "basin_origin_m": [
+            4.36324,
+            0.49377600000000005,
+            0.75
+          ],
+          "rotation_degrees": 90,
+          "drain_opening_m": 0.09
+        },
+        "shower_approach": "South of tray;900mmtray original concept, no accessibility claim"
+      },
+      {
+        "name": "Shared bath",
+        "vanity": {
+          "name": "Shared bath vanity",
+          "counter_top_m": 0.75,
+          "basin_origin_m": [
+            8.020840000000002,
+            2.04216,
+            0.75
+          ],
+          "rotation_degrees": 90,
+          "drain_opening_m": 0.09
+        }
+      },
+      {
+        "name": "Primary",
+        "vanities": [
+          {
+            "name": "Primary south vanity",
+            "counter_top_m": 0.75,
+            "basin_origin_m": [
+              4.66804,
+              10.14984,
+              0.75
+            ],
+            "rotation_degrees": 90,
+            "drain_opening_m": 0.09
+          },
+          {
+            "name": "Primary north vanity",
+            "counter_top_m": 0.75,
+            "basin_origin_m": [
+              4.66804,
+              11.06424,
+              0.75
+            ],
+            "rotation_degrees": 90,
+            "drain_opening_m": 0.09
+          }
+        ],
+        "basin_centers_m": 0.9144000000000001,
+        "shower_approach_m": 0.9372400000000004,
+        "toilet_front_clear_m": 0.8442959999999999,
+        "bath_filler": "Bespoke conceptual wall-fed spout; commercial controls, rough-in and certification unresolved."
+      }
+    ],
+    "storage": [
+      {
+        "role": "Bedroom clothes",
+        "modules": 10,
+        "nominal_frontage_m": 6.096
+      },
+      {
+        "role": "Entry coats and shoes",
+        "modules": 2,
+        "nominal_frontage_m": 1.2192
+      },
+      {
+        "role": "Linen and spare bedding",
+        "modules": 3,
+        "nominal_shelf_depth_m": 0.278
+      },
+      {
+        "role": "Cleaning and vacuum",
+        "modules": 2,
+        "asset": "cabinetry/walnut-cleaning-cabinet-2ft/v001"
+      },
+      {
+        "role": "Bulk and seasonal storage",
+        "modules": 5,
+        "location": "Utility; independent of reserved equipment footprints"
+      }
+    ],
+    "ceiling_cutouts": [
+      {
+        "name": "Entry",
+        "center_m": [
+          10.972800000000001,
+          1.3716000000000002,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Cross gallery",
+        "center_m": [
+          8.8392,
+          3.2004,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Bedroom 02",
+        "center_m": [
+          1.9812,
+          3.3223200000000004,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Bedroom 03",
+        "center_m": [
+          2.1336,
+          7.74192,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Primary bedroom",
+        "center_m": [
+          2.1336,
+          10.668000000000001,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Ensuite 02",
+        "center_m": [
+          5.0292,
+          1.31064,
+          2.7432000000000003
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Shared bath",
+        "center_m": [
+          8.90016,
+          1.4630400000000001,
+          2.7432000000000003
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Laundry",
+        "center_m": [
+          5.0292,
+          5.69976,
+          2.7432000000000003
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Pantry",
+        "center_m": [
+          13.563600000000001,
+          1.2192,
+          2.7432000000000003
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Utility",
+        "center_m": [
+          17.0688,
+          1.24968,
+          2.7432000000000003
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Primary bath",
+        "center_m": [
+          5.821680000000001,
+          10.972800000000001,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Kitchen cleanup",
+        "center_m": [
+          16.82496,
+          5.54736,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Kitchen north",
+        "center_m": [
+          16.82496,
+          7.62,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      },
+      {
+        "name": "Living east",
+        "center_m": [
+          17.61744,
+          10.91184,
+          3.2004
+        ],
+        "radius_m": 0.04318,
+        "housing_depth_m": 0.096
+      }
+    ],
+    "laundry": {
+      "front_operator_and_basket_m": 1.15198,
+      "machine_origins_m": [
+        [
+          4.51104,
+          4.77012,
+          0
+        ],
+        [
+          5.1419760000000005,
+          4.77012,
+          0
+        ]
+      ],
+      "rear_hose_clearance_m": 0.06862000000000013,
+      "drying_rail_m": {
+        "start": [
+          4.2672,
+          4.84632,
+          1.9
+        ],
+        "end": [
+          5.37972,
+          4.84632,
+          1.9
+        ],
+        "location": "Over folding counter; ceiling supported"
+      },
+      "dryer": "Heat-pump concept; condensate route to laundry drain reserved; performance and selected installation unresolved."
+    },
+    "living": {
+      "east_route_clear_m": 1.0058400000000003,
+      "dining_west_chair_back_to_wall_m": 1.29498,
+      "living_storage": "Two linked walnut drawer bays with a continuous walnut top; fronts face west toward the dining approach.",
+      "living_storage_operator_target_m": 1.3,
+      "living_storage_closed_front_to_dining_chair_m": 1.4689699999999994,
+      "reading_corner": "Shared side table and opal pendant beside the west lounge chair.",
+      "rug": "Large20ftlibraryrug deliberately omitted because it exceeds this19ftlivingzone; no scaled substitute."
+    },
+    "exhaust_roof_aperture": {
+      "center_xy_m": [
+        15.3162,
+        2.676144
+      ],
+      "size_xy_m": [
+        0.35,
+        0.31
+      ],
+      "cut_meshes": [
+        "Tapered roof membrane toward perimeter",
+        "Roof insulated assembly 1",
+        "Pale tongue-and-groove ceiling.079",
+        "Pale tongue-and-groove ceiling.080"
+      ]
+    },
+    "modeled_ceiling_apertures": [
+      {
+        "name": "Entry",
+        "center_m": [
+          10.972800000000001,
+          1.3716000000000002,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 1",
+          "Pale tongue-and-groove ceiling.057",
+          "Pale tongue-and-groove ceiling.058"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Cross gallery",
+        "center_m": [
+          8.8392,
+          3.2004,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 1",
+          "Pale tongue-and-groove ceiling.047"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Bedroom 02",
+        "center_m": [
+          1.9812,
+          3.3223200000000004,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 1",
+          "Pale tongue-and-groove ceiling.012",
+          "Pale tongue-and-groove ceiling.013"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Bedroom 03",
+        "center_m": [
+          2.1336,
+          7.74192,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 2",
+          "Pale tongue-and-groove ceiling.111",
+          "Pale tongue-and-groove ceiling.112"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Primary bedroom",
+        "center_m": [
+          2.1336,
+          10.668000000000001,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 4",
+          "Pale tongue-and-groove ceiling.186"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Ensuite 02",
+        "center_m": [
+          5.0292,
+          1.31064,
+          2.7432000000000003
+        ],
+        "cut_meshes": [
+          "Service zone ceiling 1"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Shared bath",
+        "center_m": [
+          8.90016,
+          1.4630400000000001,
+          2.7432000000000003
+        ],
+        "cut_meshes": [
+          "Service zone ceiling 3"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Laundry",
+        "center_m": [
+          5.0292,
+          5.69976,
+          2.7432000000000003
+        ],
+        "cut_meshes": [
+          "Service zone ceiling 2"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Pantry",
+        "center_m": [
+          13.563600000000001,
+          1.2192,
+          2.7432000000000003
+        ],
+        "cut_meshes": [
+          "Service zone ceiling 4"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Utility",
+        "center_m": [
+          17.0688,
+          1.24968,
+          2.7432000000000003
+        ],
+        "cut_meshes": [
+          "Service zone ceiling 4"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Primary bath",
+        "center_m": [
+          5.821680000000001,
+          10.972800000000001,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 4",
+          "Pale tongue-and-groove ceiling.205"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Kitchen cleanup",
+        "center_m": [
+          16.82496,
+          5.54736,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 3",
+          "Pale tongue-and-groove ceiling.162"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Kitchen north",
+        "center_m": [
+          16.82496,
+          7.62,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 3",
+          "Pale tongue-and-groove ceiling.162"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      },
+      {
+        "name": "Living east",
+        "center_m": [
+          17.61744,
+          10.91184,
+          3.2004
+        ],
+        "cut_meshes": [
+          "Roof insulated assembly 4",
+          "Pale tongue-and-groove ceiling.264"
+        ],
+        "diameter_m": 0.08836000000000001,
+        "housing_depth_m": 0.1
+      }
+    ],
+    "bedroom_shades": [
+      {
+        "id": "Bedroom 02 south bay 1 privacy blind",
+        "room": "Bedroom 02",
+        "asset": "openings/roller-blackout-54in-78in/v001",
+        "open_instance": "Bedroom 02 south bay 1 privacy blind open",
+        "closed_instance": "Bedroom 02 south bay 1 privacy blind closed",
+        "origin_m": [
+          1.2954,
+          0.2262,
+          2.8194000000000004
+        ],
+        "rotation_rad": 3.141592653589793,
+        "nominal_bay_pitch_m": 1.3716000000000002,
+        "glass_clear_width_m": 1.2876,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Bedroom 02 south bay 2 privacy blind",
+        "room": "Bedroom 02",
+        "asset": "openings/roller-blackout-54in-78in/v001",
+        "open_instance": "Bedroom 02 south bay 2 privacy blind open",
+        "closed_instance": "Bedroom 02 south bay 2 privacy blind closed",
+        "origin_m": [
+          2.6670000000000003,
+          0.2262,
+          2.8194000000000004
+        ],
+        "rotation_rad": 3.141592653589793,
+        "nominal_bay_pitch_m": 1.3716000000000002,
+        "glass_clear_width_m": 1.2876,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Bedroom 02 west bay 1 privacy blind",
+        "room": "Bedroom 02",
+        "asset": "openings/roller-blackout-42in-78in/v001",
+        "open_instance": "Bedroom 02 west bay 1 privacy blind open",
+        "closed_instance": "Bedroom 02 west bay 1 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          1.4478,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.0668,
+        "glass_clear_width_m": 0.9828,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Bedroom 02 west bay 2 privacy blind",
+        "room": "Bedroom 02",
+        "asset": "openings/roller-blackout-42in-78in/v001",
+        "open_instance": "Bedroom 02 west bay 2 privacy blind open",
+        "closed_instance": "Bedroom 02 west bay 2 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          2.5146,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.0668,
+        "glass_clear_width_m": 0.9828,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Bedroom 03 west bay 1 privacy blind",
+        "room": "Bedroom 03",
+        "asset": "openings/roller-blackout-42in-78in/v001",
+        "open_instance": "Bedroom 03 west bay 1 privacy blind open",
+        "closed_instance": "Bedroom 03 west bay 1 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          5.715000000000001,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.0668,
+        "glass_clear_width_m": 0.9828,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Bedroom 03 west bay 2 privacy blind",
+        "room": "Bedroom 03",
+        "asset": "openings/roller-blackout-42in-78in/v001",
+        "open_instance": "Bedroom 03 west bay 2 privacy blind open",
+        "closed_instance": "Bedroom 03 west bay 2 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          6.7818000000000005,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.0668,
+        "glass_clear_width_m": 0.9828,
+        "glass_sill_m": 0.9052000000000001,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Primary west bay 1 privacy blind",
+        "room": "Primary",
+        "asset": "openings/roller-blackout-48in-107p4in/v001",
+        "open_instance": "Primary west bay 1 privacy blind open",
+        "closed_instance": "Primary west bay 1 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          10.972800000000001,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.2192,
+        "glass_clear_width_m": 1.1352,
+        "glass_sill_m": 0.15844000000000003,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Primary west bay 2 privacy blind",
+        "room": "Primary",
+        "asset": "openings/roller-blackout-48in-107p4in/v001",
+        "open_instance": "Primary west bay 2 privacy blind open",
+        "closed_instance": "Primary west bay 2 privacy blind closed",
+        "origin_m": [
+          0.2262,
+          12.192,
+          2.8194000000000004
+        ],
+        "rotation_rad": 1.5707963267948966,
+        "nominal_bay_pitch_m": 1.2192,
+        "glass_clear_width_m": 1.1352,
+        "glass_sill_m": 0.15844000000000003,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Primary north bay 1 privacy blind",
+        "room": "Primary",
+        "asset": "openings/roller-blackout-60in-107p4in/v001",
+        "open_instance": "Primary north bay 1 privacy blind open",
+        "closed_instance": "Primary north bay 1 privacy blind closed",
+        "origin_m": [
+          1.3716,
+          13.185,
+          2.8194000000000004
+        ],
+        "rotation_rad": 0,
+        "nominal_bay_pitch_m": 1.524,
+        "glass_clear_width_m": 1.44,
+        "glass_sill_m": 0.15844000000000003,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      },
+      {
+        "id": "Primary north bay 2 privacy blind",
+        "room": "Primary",
+        "asset": "openings/roller-blackout-60in-107p4in/v001",
+        "open_instance": "Primary north bay 2 privacy blind open",
+        "closed_instance": "Primary north bay 2 privacy blind closed",
+        "origin_m": [
+          2.8956,
+          13.185,
+          2.8194000000000004
+        ],
+        "rotation_rad": 0,
+        "nominal_bay_pitch_m": 1.524,
+        "glass_clear_width_m": 1.44,
+        "glass_sill_m": 0.15844000000000003,
+        "glass_head_m": 2.7624000000000004,
+        "privacy_basis": "Opaque modeled fabric covers the visible glazing in closed state; actual product edge-light, mounting and blackout performance unverified."
+      }
+    ]
+  }
+}

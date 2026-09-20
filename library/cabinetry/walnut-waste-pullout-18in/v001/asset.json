@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-waste-pullout-18in",
+  "version": "v001",
+  "name": "Walnut waste pullout 18in",
+  "units": "meters",
+  "dimensions_m": [
+    0.4572000205516815,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.22860001027584076,
+      -0.3365499973297119,
+      0.0
+    ],
+    "max": [
+      0.22860001027584076,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.4572,
+    0.6096,
+    0.87122
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-supported; countertop excluded. Nominal 24-inch depth and 34.3-inch height. Finish front plane Y=-0.3048m; rear Y=+0.3048m. Bronze pulls project a further 31.75mm where used.",
+    "operating_envelope": {
+      "modeled_state": "Closed; components individually editable, not animated",
+      "basis": "Original concept geometry and conservative planning allowance; no manufacturer selected",
+      "host_open_state_checked": false,
+      "reserve_front_operator_depth_m": 0.8,
+      "intended_pullout_travel_m": 0.52,
+      "reserve_front_depth_including_operator_m": 1.32,
+      "bin_count": 2
+    },
+    "service_requirements": [
+      "Host supplies countertop, wall fixing, selected product tolerances and access; these are concept modules, not construction specifications."
+    ]
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-waste-pullout-18in",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "3b4a285256924c5ac2a04c9dea31467d88a7f4411a823101a952465fccec1651",
+    "geometry_signature_sha256": "58adda60aa8f5264f3f1e20d9da0fc44046f48774d2b53454b65a6f4d4a8fe07"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "walnut-waste-pullout-18in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "walnut-waste-pullout-18in | v001"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  }
+}

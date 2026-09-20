@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "openings/roller-blackout-42in-78in",
+  "version": "v001",
+  "name": "Roller blackout 42in 78in | two states",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors geometry; attribution Homes project contributors. Existing woven-oatmeal material retains its original license.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_roller_blinds.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": null,
+  "dependencies": [
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../../materials/woven-oatmeal/v001/woven-oatmeal.blend"
+    }
+  ],
+  "files": {
+    "blender": "roller-blackout-42in-78in.blend",
+    "preview": "preview.png",
+    "closed_preview": "preview-closed.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "roller-blackout-42in-78in open",
+    "states": {
+      "open": "roller-blackout-42in-78in open",
+      "closed": "roller-blackout-42in-78in closed"
+    }
+  },
+  "dimensions_m": [
+    1.054800033569336,
+    0.13049999997019768,
+    0.3450000137090683
+  ],
+  "bounds_m": {
+    "min": [
+      -0.527400016784668,
+      -0.060499999672174454,
+      -0.30000001192092896
+    ],
+    "max": [
+      0.527400016784668,
+      0.07000000029802322,
+      0.04500000178813934
+    ]
+  },
+  "nominal_opening_m": {
+    "width": 1.0668,
+    "drop": 1.9812,
+    "width_basis": "Full framed bay pitch; host visible glazing is pitch minus84mm"
+  },
+  "state_bounds_m": {
+    "open": {
+      "min": [
+        -0.527400016784668,
+        -0.060499999672174454,
+        -0.30000001192092896
+      ],
+      "max": [
+        0.527400016784668,
+        0.07000000029802322,
+        0.04500000178813934
+      ]
+    },
+    "closed": {
+      "min": [
+        -0.527400016784668,
+        -0.060499999672174454,
+        -1.9811999797821045
+      ],
+      "max": [
+        0.527400016784668,
+        0.07000000029802322,
+        0.04500000178813934
+      ]
+    }
+  },
+  "state_dimensions_m": {
+    "open": [
+      1.054800033569336,
+      0.13049999997019768,
+      0.3450000137090683
+    ],
+    "closed": [
+      1.054800033569336,
+      0.13049999997019768,
+      2.026199981570244
+    ]
+  },
+  "placement": {
+    "origin": "Cassette/header center at Z0; closed bottom-rail lower edge is at -nominal drop",
+    "front_direction": "-Y; hanging -Z; width along X",
+    "up": "Z",
+    "allowed_scaling": "Rigid translation and rotation only; use exact dimensioned sibling. Choose one state collection per installed blind."
+  },
+  "installation": {
+    "mounting": "Interior wall/header-mounted concept, with rear tabs. Host supplies blocking, fixing and clear separation from glazing, sash/door motion and handles.",
+    "fixed_envelope_m": {
+      "cassette_width": 1.0548,
+      "cassette_body_depth": 0.11,
+      "cassette_top_z": 0.045,
+      "rear_tab_y_max": 0.07
+    },
+    "fabric_plane_y_m": -0.027,
+    "fabric_thickness_m": 0.0025,
+    "fabric_width_m": 1.0168,
+    "adjacent_bay_fit": {
+      "nominal_width_is_bay_pitch": true,
+      "visible_glass_width_m": 0.9828,
+      "fabric_overlap_each_jamb_m": 0.017,
+      "cassette_gap_between_adjacent_equal_pitch_bays_m": 0.012,
+      "basis": "Host frame has42mm sightline each side. Actual optical edge sealing and host alignment must be checked."
+    },
+    "operating_envelope": {
+      "modeled_states": [
+        "open",
+        "closed"
+      ],
+      "default_state": "open",
+      "open_drop_m": 0.3,
+      "closed_drop_m": 1.9812,
+      "motion": "Two discrete static collection states with different physical fabric lengths and rail elevations; no rig or animation.",
+      "host_open_state_checked": false,
+      "basis": "Original concept geometry sized to nominal opening; no selected manufacturer.",
+      "sweep": "Shade travels vertically within the same fabric and rail depth envelope."
+    },
+    "service_requirements": [
+      "Keep right (+X) end-cap service access available; conceptual 150mm side access is a starting allowance, not a manufacturer specification.",
+      "Cordless/motor-ready appearance only; actual actuation, power, controls, safety, attachments, cleaning and replaceability must be selected by host.",
+      "Opaque fabric geometry alone does not establish edge light sealing, tested blackout, fire performance, acoustic properties or any certification."
+    ]
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Check final header/sill placement, state selection, window operation, handle clearance, edge coverage and privacy from the actual view."
+  },
+  "limitations": "Original generic interior shade concept. Blackout is a design intent in the asset name, not a tested product-performance claim. No commercial product or manufacturer CAD."
+}

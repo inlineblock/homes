@@ -1,0 +1,45 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "relative_dependencies_resolved": true,
+  "geometry_identical_to_parent": true,
+  "geometry_signature_sha256": "71dde1b53f829b2f051fd0220d22a7d313ef5a563a920c6ee9aeaf82558b0b2f",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "floor_contact": true,
+  "wood_meshes_with_meter_uv": 7,
+  "linked_walnut_material": true,
+  "host_installation_checked": false,
+  "operating_state": "Closed or open shelf; no host motion verification",
+  "blend_sha256": "f8f7328d766ca406b21b53ea8980ae4bd95d3dd72e54c3894a8ceab204e55b75",
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key, fill and world"
+  },
+  "preview_rendered": true,
+  "preview_sha256": "9b3859443742f6ad66e7db7c64b175638d3ede4c54aef33ae553893a08666b2a",
+  "dependency_sha256": {
+    "materials/warm-walnut/v001": "2630910fe3f497ce0d53d1b63a15da21a43e2d4f542ffabdbe8701f944d73295",
+    "hardware/bar-pull-satin-bronze/v001": "b8f002f4b5ffc139fad0c3fbaf6b5af41b0b509f22b18d00aac543fabab09147"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png"
+    ],
+    "notes": "Reviewed actual native preview: consistent warm-brown walnut, grain direction aligned with individual boards, intact geometry and hardware, clean base contact.",
+    "host_integration_checked": false
+  }
+}

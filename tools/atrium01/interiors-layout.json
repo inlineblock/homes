@@ -1,0 +1,2813 @@
+{
+  "units": "meters",
+  "placements": [
+    {
+      "name": "Kitchen cooking landing drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          14.859,
+          3.20167
+        ],
+        [
+          14.2494,
+          3.20167
+        ],
+        [
+          14.2494,
+          2.56032
+        ],
+        [
+          14.859,
+          2.56032
+        ]
+      ],
+      "x": 14.554200000000002,
+      "y": 2.86512,
+      "z": 0
+    },
+    {
+      "name": "Kitchen cooking landing drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          16.383,
+          3.20167
+        ],
+        [
+          15.7734,
+          3.20167
+        ],
+        [
+          15.7734,
+          2.56032
+        ],
+        [
+          16.383,
+          2.56032
+        ]
+      ],
+      "x": 16.078200000000002,
+      "y": 2.86512,
+      "z": 0
+    },
+    {
+      "name": "Kitchen open oven housing",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-oven-base-36in",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          15.7734,
+          3.16992
+        ],
+        [
+          14.859,
+          3.16992
+        ],
+        [
+          14.859,
+          2.56032
+        ],
+        [
+          15.7734,
+          2.56032
+        ]
+      ],
+      "x": 15.3162,
+      "y": 2.86512,
+      "z": 0
+    },
+    {
+      "name": "Kitchen oven 30 inch",
+      "kind": "appliances",
+      "asset_id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          15.6972,
+          3.232709
+        ],
+        [
+          14.9352,
+          3.232709
+        ],
+        [
+          14.9352,
+          2.56032
+        ],
+        [
+          15.6972,
+          2.56032
+        ]
+      ],
+      "x": 15.3162,
+      "y": 2.86512,
+      "z": 0.14
+    },
+    {
+      "name": "Kitchen induction 36 inch",
+      "kind": "appliances",
+      "asset_id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          15.7734,
+          3.13182
+        ],
+        [
+          14.859,
+          3.13182
+        ],
+        [
+          14.859,
+          2.59842
+        ],
+        [
+          15.7734,
+          2.59842
+        ]
+      ],
+      "x": 15.3162,
+      "y": 2.86512,
+      "z": 0.9144
+    },
+    {
+      "name": "Kitchen extraction hood 36 inch",
+      "kind": "appliances",
+      "asset_id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          15.7734,
+          3.102915
+        ],
+        [
+          14.859,
+          3.102915
+        ],
+        [
+          14.859,
+          2.54
+        ],
+        [
+          15.7734,
+          2.54
+        ]
+      ],
+      "x": 15.3162,
+      "y": 2.8194000000000004,
+      "z": 1.7
+    },
+    {
+      "name": "Kitchen refrigerator freezer 48 inch",
+      "kind": "appliances",
+      "asset_id": "appliances/walnut-panel-ready-fridge-48in",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          17.86128,
+          3.333902
+        ],
+        [
+          16.64208,
+          3.333902
+        ],
+        [
+          16.64208,
+          2.52984
+        ],
+        [
+          17.86128,
+          2.52984
+        ]
+      ],
+      "x": 17.25168,
+      "y": 2.9108400000000003,
+      "z": 0
+    },
+    {
+      "name": "Kitchen east drawer storage",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.46377,
+          7.7724
+        ],
+        [
+          17.46377,
+          7.1628
+        ],
+        [
+          18.10512,
+          7.1628
+        ],
+        [
+          18.10512,
+          7.7724
+        ]
+      ],
+      "x": 17.80032,
+      "y": 7.4676,
+      "z": 0
+    },
+    {
+      "name": "Kitchen east drawer storage",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.46377,
+          8.382
+        ],
+        [
+          17.46377,
+          7.7724
+        ],
+        [
+          18.10512,
+          7.7724
+        ],
+        [
+          18.10512,
+          8.382
+        ]
+      ],
+      "x": 17.80032,
+      "y": 8.077200000000001,
+      "z": 0
+    },
+    {
+      "name": "Kitchen accessible sink cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-sink-base-36in",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.46377,
+          5.7912
+        ],
+        [
+          17.46377,
+          4.8768
+        ],
+        [
+          18.10512,
+          4.8768
+        ],
+        [
+          18.10512,
+          5.7912
+        ]
+      ],
+      "x": 17.80032,
+      "y": 5.3340000000000005,
+      "z": 0
+    },
+    {
+      "name": "Kitchen integrated dishwasher",
+      "kind": "appliances",
+      "asset_id": "appliances/walnut-panel-ready-dishwasher-24in",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.438522,
+          6.41223
+        ],
+        [
+          17.438522,
+          5.81025
+        ],
+        [
+          18.10512,
+          5.81025
+        ],
+        [
+          18.10512,
+          6.41223
+        ]
+      ],
+      "x": 17.80032,
+      "y": 6.1112400000000004,
+      "z": 0
+    },
+    {
+      "name": "Kitchen waste and recycling",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-waste-pullout-18in",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.46377,
+          6.90372
+        ],
+        [
+          17.46377,
+          6.44652
+        ],
+        [
+          18.10512,
+          6.44652
+        ],
+        [
+          18.10512,
+          6.90372
+        ]
+      ],
+      "x": 17.80032,
+      "y": 6.67512,
+      "z": 0
+    },
+    {
+      "name": "Kitchen real bowl and mixer",
+      "kind": "fixtures",
+      "asset_id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          17.51532,
+          5.6915
+        ],
+        [
+          17.51532,
+          4.9765
+        ],
+        [
+          18.106501,
+          4.9765
+        ],
+        [
+          18.106501,
+          5.6915
+        ]
+      ],
+      "x": 17.770319999999998,
+      "y": 5.3340000000000005,
+      "z": 0.9144
+    },
+    {
+      "name": "Island working drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          15.80235,
+          4.953
+        ],
+        [
+          15.80235,
+          5.5626
+        ],
+        [
+          15.161,
+          5.5626
+        ],
+        [
+          15.161,
+          4.953
+        ]
+      ],
+      "x": 15.465800000000002,
+      "y": 5.2578000000000005,
+      "z": 0
+    },
+    {
+      "name": "Island working drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          15.80235,
+          5.5626
+        ],
+        [
+          15.80235,
+          6.1722
+        ],
+        [
+          15.161,
+          6.1722
+        ],
+        [
+          15.161,
+          5.5626
+        ]
+      ],
+      "x": 15.465800000000002,
+      "y": 5.8674,
+      "z": 0
+    },
+    {
+      "name": "Island working drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          15.80235,
+          6.1722
+        ],
+        [
+          15.80235,
+          6.7818
+        ],
+        [
+          15.161,
+          6.7818
+        ],
+        [
+          15.161,
+          6.1722
+        ]
+      ],
+      "x": 15.465800000000002,
+      "y": 6.477,
+      "z": 0
+    },
+    {
+      "name": "Island working drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          15.80235,
+          6.7818
+        ],
+        [
+          15.80235,
+          7.3914
+        ],
+        [
+          15.161,
+          7.3914
+        ],
+        [
+          15.161,
+          6.7818
+        ]
+      ],
+      "x": 15.465800000000002,
+      "y": 7.086600000000001,
+      "z": 0
+    },
+    {
+      "name": "Courtyard facing walnut counter seat",
+      "kind": "furniture",
+      "asset_id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "rotation_rad": 0,
+      "corners_m": [
+        [
+          13.93604,
+          4.953
+        ],
+        [
+          14.39324,
+          4.953
+        ],
+        [
+          14.39324,
+          5.4102
+        ],
+        [
+          13.93604,
+          5.4102
+        ]
+      ],
+      "x": 14.164640000000002,
+      "y": 5.1816,
+      "z": 0
+    },
+    {
+      "name": "Courtyard facing walnut counter seat",
+      "kind": "furniture",
+      "asset_id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "rotation_rad": 0,
+      "corners_m": [
+        [
+          13.93604,
+          5.715
+        ],
+        [
+          14.39324,
+          5.715
+        ],
+        [
+          14.39324,
+          6.1722
+        ],
+        [
+          13.93604,
+          6.1722
+        ]
+      ],
+      "x": 14.164640000000002,
+      "y": 5.9436,
+      "z": 0
+    },
+    {
+      "name": "Courtyard facing walnut counter seat",
+      "kind": "furniture",
+      "asset_id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "rotation_rad": 0,
+      "corners_m": [
+        [
+          13.93604,
+          6.477
+        ],
+        [
+          14.39324,
+          6.477
+        ],
+        [
+          14.39324,
+          6.9342
+        ],
+        [
+          13.93604,
+          6.9342
+        ]
+      ],
+      "x": 14.164640000000002,
+      "y": 6.7056000000000004,
+      "z": 0
+    },
+    {
+      "name": "Courtyard facing walnut counter seat",
+      "kind": "furniture",
+      "asset_id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "rotation_rad": 0,
+      "corners_m": [
+        [
+          13.93604,
+          7.239
+        ],
+        [
+          14.39324,
+          7.239
+        ],
+        [
+          14.39324,
+          7.6962
+        ],
+        [
+          13.93604,
+          7.6962
+        ]
+      ],
+      "x": 14.164640000000002,
+      "y": 7.467600000000001,
+      "z": 0
+    },
+    {
+      "name": "Pantry dry food shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          13.88364,
+          0.463296
+        ],
+        [
+          13.27404,
+          0.463296
+        ],
+        [
+          13.27404,
+          0.158496
+        ],
+        [
+          13.88364,
+          0.158496
+        ]
+      ],
+      "x": 13.57884,
+      "y": 0.310896,
+      "z": 0
+    },
+    {
+      "name": "Pantry west food shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          12.874752,
+          0.6096
+        ],
+        [
+          12.874752,
+          1.2192
+        ],
+        [
+          12.569952,
+          1.2192
+        ],
+        [
+          12.569952,
+          0.6096
+        ]
+      ],
+      "x": 12.722352,
+      "y": 0.9144000000000001,
+      "z": 0
+    },
+    {
+      "name": "Pantry west food shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          12.874752,
+          1.23444
+        ],
+        [
+          12.874752,
+          1.84404
+        ],
+        [
+          12.569952,
+          1.84404
+        ],
+        [
+          12.569952,
+          1.23444
+        ]
+      ],
+      "x": 12.722352,
+      "y": 1.53924,
+      "z": 0
+    },
+    {
+      "name": "Pantry small appliance drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          14.79804,
+          0.79375
+        ],
+        [
+          14.18844,
+          0.79375
+        ],
+        [
+          14.18844,
+          0.1524
+        ],
+        [
+          14.79804,
+          0.1524
+        ]
+      ],
+      "x": 14.49324,
+      "y": 0.45720000000000005,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 queen bed",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          1.12014,
+          0.554736
+        ],
+        [
+          2.84226,
+          0.554736
+        ],
+        [
+          2.84226,
+          2.78892
+        ],
+        [
+          1.12014,
+          2.78892
+        ]
+      ],
+      "x": 1.9812,
+      "y": 1.6764000000000001,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          1.05156,
+          0.94488
+        ],
+        [
+          0.5334,
+          0.94488
+        ],
+        [
+          0.5334,
+          0.4572
+        ],
+        [
+          1.05156,
+          0.4572
+        ]
+      ],
+      "x": 0.7924800000000001,
+      "y": 0.70104,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          3.429,
+          0.94488
+        ],
+        [
+          2.91084,
+          0.94488
+        ],
+        [
+          2.91084,
+          0.4572
+        ],
+        [
+          3.429,
+          0.4572
+        ]
+      ],
+      "x": 3.1699200000000003,
+      "y": 0.70104,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          4.66344,
+          3.152851
+        ],
+        [
+          4.05384,
+          3.152851
+        ],
+        [
+          4.05384,
+          2.5146
+        ],
+        [
+          4.66344,
+          2.5146
+        ]
+      ],
+      "x": 4.35864,
+      "y": 2.8194000000000004,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          5.30352,
+          3.152851
+        ],
+        [
+          4.69392,
+          3.152851
+        ],
+        [
+          4.69392,
+          2.5146
+        ],
+        [
+          5.30352,
+          2.5146
+        ]
+      ],
+      "x": 4.99872,
+      "y": 2.8194000000000004,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 2 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          5.9436,
+          3.152851
+        ],
+        [
+          5.334,
+          3.152851
+        ],
+        [
+          5.334,
+          2.5146
+        ],
+        [
+          5.9436,
+          2.5146
+        ]
+      ],
+      "x": 5.638800000000001,
+      "y": 2.8194000000000004,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 queen bed",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          1.12014,
+          4.821936
+        ],
+        [
+          2.84226,
+          4.821936
+        ],
+        [
+          2.84226,
+          7.05612
+        ],
+        [
+          1.12014,
+          7.05612
+        ]
+      ],
+      "x": 1.9812,
+      "y": 5.9436,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          1.05156,
+          5.21208
+        ],
+        [
+          0.5334,
+          5.21208
+        ],
+        [
+          0.5334,
+          4.7244
+        ],
+        [
+          1.05156,
+          4.7244
+        ]
+      ],
+      "x": 0.7924800000000001,
+      "y": 4.968240000000001,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          3.429,
+          5.21208
+        ],
+        [
+          2.91084,
+          5.21208
+        ],
+        [
+          2.91084,
+          4.7244
+        ],
+        [
+          3.429,
+          4.7244
+        ]
+      ],
+      "x": 3.1699200000000003,
+      "y": 4.968240000000001,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          4.66344,
+          7.420051
+        ],
+        [
+          4.05384,
+          7.420051
+        ],
+        [
+          4.05384,
+          6.7818
+        ],
+        [
+          4.66344,
+          6.7818
+        ]
+      ],
+      "x": 4.35864,
+      "y": 7.086600000000001,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          5.30352,
+          7.420051
+        ],
+        [
+          4.69392,
+          7.420051
+        ],
+        [
+          4.69392,
+          6.7818
+        ],
+        [
+          5.30352,
+          6.7818
+        ]
+      ],
+      "x": 4.99872,
+      "y": 7.086600000000001,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          5.9436,
+          7.420051
+        ],
+        [
+          5.334,
+          7.420051
+        ],
+        [
+          5.334,
+          6.7818
+        ],
+        [
+          5.9436,
+          6.7818
+        ]
+      ],
+      "x": 5.638800000000001,
+      "y": 7.086600000000001,
+      "z": 0
+    },
+    {
+      "name": "Primary king bed",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.062984,
+          10.4267
+        ],
+        [
+          4.062984,
+          12.55522
+        ],
+        [
+          1.8288,
+          12.55522
+        ],
+        [
+          1.8288,
+          10.4267
+        ]
+      ],
+      "x": 2.94132,
+      "y": 11.490960000000001,
+      "z": 0
+    },
+    {
+      "name": "Primary bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          3.3528,
+          10.39368
+        ],
+        [
+          3.3528,
+          9.87552
+        ],
+        [
+          3.84048,
+          9.87552
+        ],
+        [
+          3.84048,
+          10.39368
+        ]
+      ],
+      "x": 3.5966400000000003,
+      "y": 10.1346,
+      "z": 0
+    },
+    {
+      "name": "Primary bedside table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          3.3528,
+          13.1064
+        ],
+        [
+          3.3528,
+          12.58824
+        ],
+        [
+          3.84048,
+          12.58824
+        ],
+        [
+          3.84048,
+          13.1064
+        ]
+      ],
+      "x": 3.5966400000000003,
+      "y": 12.84732,
+      "z": 0
+    },
+    {
+      "name": "Primary wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          0.79248,
+          9.309811
+        ],
+        [
+          0.18288,
+          9.309811
+        ],
+        [
+          0.18288,
+          8.67156
+        ],
+        [
+          0.79248,
+          8.67156
+        ]
+      ],
+      "x": 0.48768000000000006,
+      "y": 8.97636,
+      "z": 0
+    },
+    {
+      "name": "Primary wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          1.43256,
+          9.309811
+        ],
+        [
+          0.82296,
+          9.309811
+        ],
+        [
+          0.82296,
+          8.67156
+        ],
+        [
+          1.43256,
+          8.67156
+        ]
+      ],
+      "x": 1.12776,
+      "y": 8.97636,
+      "z": 0
+    },
+    {
+      "name": "Primary wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          2.07264,
+          9.309811
+        ],
+        [
+          1.46304,
+          9.309811
+        ],
+        [
+          1.46304,
+          8.67156
+        ],
+        [
+          2.07264,
+          8.67156
+        ]
+      ],
+      "x": 1.76784,
+      "y": 8.97636,
+      "z": 0
+    },
+    {
+      "name": "Primary wardrobe",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          2.71272,
+          9.309811
+        ],
+        [
+          2.10312,
+          9.309811
+        ],
+        [
+          2.10312,
+          8.67156
+        ],
+        [
+          2.71272,
+          8.67156
+        ]
+      ],
+      "x": 2.4079200000000003,
+      "y": 8.97636,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 quiet desk",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          0.92364,
+          6.72
+        ],
+        [
+          0.92364,
+          8.52
+        ],
+        [
+          0.17364,
+          8.52
+        ],
+        [
+          0.17364,
+          6.72
+        ]
+      ],
+      "x": 0.54864,
+      "y": 7.62,
+      "z": 0
+    },
+    {
+      "name": "Bedroom 3 desk chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          0.89154,
+          7.887115
+        ],
+        [
+          0.89154,
+          7.352885
+        ],
+        [
+          1.427982,
+          7.352885
+        ],
+        [
+          1.427982,
+          7.887115
+        ]
+      ],
+      "x": 1.15824,
+      "y": 7.62,
+      "z": 0
+    },
+    {
+      "name": "Ensuite 02 vanity cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.65709,
+          0.188976
+        ],
+        [
+          4.65709,
+          0.798576
+        ],
+        [
+          4.01574,
+          0.798576
+        ],
+        [
+          4.01574,
+          0.188976
+        ]
+      ],
+      "x": 4.32054,
+      "y": 0.49377600000000005,
+      "z": 0
+    },
+    {
+      "name": "Ensuite 02 vanity basin and mirror",
+      "kind": "fixtures",
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.59184,
+          0.218776
+        ],
+        [
+          4.59184,
+          0.768776
+        ],
+        [
+          4.01574,
+          0.768776
+        ],
+        [
+          4.01574,
+          0.218776
+        ]
+      ],
+      "x": 4.36324,
+      "y": 0.49377600000000005,
+      "z": 0.75
+    },
+    {
+      "name": "Ensuite 02 toilet",
+      "kind": "fixtures",
+      "asset_id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          4.280916,
+          1.624584
+        ],
+        [
+          4.680204,
+          1.624584
+        ],
+        [
+          4.680204,
+          2.382012
+        ],
+        [
+          4.280916,
+          2.382012
+        ]
+      ],
+      "x": 4.48056,
+      "y": 2.0010120000000002,
+      "z": 0
+    },
+    {
+      "name": "Ensuite 02 shower",
+      "kind": "fixtures",
+      "asset_id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          5.119744,
+          1.480432
+        ],
+        [
+          6.021744,
+          1.480432
+        ],
+        [
+          6.021744,
+          2.384432
+        ],
+        [
+          5.119744,
+          2.384432
+        ]
+      ],
+      "x": 5.571744000000001,
+      "y": 1.9324320000000001,
+      "z": 0
+    },
+    {
+      "name": "Shared bath vanity cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          8.31469,
+          1.73736
+        ],
+        [
+          8.31469,
+          2.34696
+        ],
+        [
+          7.67334,
+          2.34696
+        ],
+        [
+          7.67334,
+          1.73736
+        ]
+      ],
+      "x": 7.978140000000001,
+      "y": 2.04216,
+      "z": 0
+    },
+    {
+      "name": "Shared bath vanity basin and mirror",
+      "kind": "fixtures",
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          8.24944,
+          1.76716
+        ],
+        [
+          8.24944,
+          2.31716
+        ],
+        [
+          7.67334,
+          2.31716
+        ],
+        [
+          7.67334,
+          1.76716
+        ]
+      ],
+      "x": 8.020840000000002,
+      "y": 2.04216,
+      "z": 0.75
+    },
+    {
+      "name": "Shared bath toilet",
+      "kind": "fixtures",
+      "asset_id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          8.734044,
+          0.912876
+        ],
+        [
+          8.334756,
+          0.912876
+        ],
+        [
+          8.334756,
+          0.155448
+        ],
+        [
+          8.734044,
+          0.155448
+        ]
+      ],
+      "x": 8.5344,
+      "y": 0.536448,
+      "z": 0
+    },
+    {
+      "name": "Shared bath shower",
+      "kind": "fixtures",
+      "asset_id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          9.977,
+          1.0616
+        ],
+        [
+          9.075,
+          1.0616
+        ],
+        [
+          9.075,
+          0.1576
+        ],
+        [
+          9.977,
+          0.1576
+        ]
+      ],
+      "x": 9.525,
+      "y": 0.6096,
+      "z": 0
+    },
+    {
+      "name": "Primary south vanity cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.96189,
+          9.84504
+        ],
+        [
+          4.96189,
+          10.45464
+        ],
+        [
+          4.32054,
+          10.45464
+        ],
+        [
+          4.32054,
+          9.84504
+        ]
+      ],
+      "x": 4.6253400000000005,
+      "y": 10.14984,
+      "z": 0
+    },
+    {
+      "name": "Primary south vanity basin and mirror",
+      "kind": "fixtures",
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.89664,
+          9.87484
+        ],
+        [
+          4.89664,
+          10.42484
+        ],
+        [
+          4.32054,
+          10.42484
+        ],
+        [
+          4.32054,
+          9.87484
+        ]
+      ],
+      "x": 4.66804,
+      "y": 10.14984,
+      "z": 0.75
+    },
+    {
+      "name": "Primary north vanity cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.96189,
+          10.75944
+        ],
+        [
+          4.96189,
+          11.36904
+        ],
+        [
+          4.32054,
+          11.36904
+        ],
+        [
+          4.32054,
+          10.75944
+        ]
+      ],
+      "x": 4.6253400000000005,
+      "y": 11.06424,
+      "z": 0
+    },
+    {
+      "name": "Primary north vanity basin and mirror",
+      "kind": "fixtures",
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          4.89664,
+          10.78924
+        ],
+        [
+          4.89664,
+          11.33924
+        ],
+        [
+          4.32054,
+          11.33924
+        ],
+        [
+          4.32054,
+          10.78924
+        ]
+      ],
+      "x": 4.66804,
+      "y": 11.06424,
+      "z": 0.75
+    },
+    {
+      "name": "Primary separate bathtub",
+      "kind": "fixtures",
+      "asset_id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          5.42544,
+          11.41476
+        ],
+        [
+          5.42544,
+          13.24356
+        ],
+        [
+          4.51104,
+          13.24356
+        ],
+        [
+          4.51104,
+          11.41476
+        ]
+      ],
+      "x": 4.968240000000001,
+      "y": 12.329160000000002,
+      "z": 0
+    },
+    {
+      "name": "Primary generous shower",
+      "kind": "fixtures",
+      "asset_id": "fixtures/shower-tray-screen-1500x1200",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          6.36268,
+          13.2488
+        ],
+        [
+          6.36268,
+          11.7468
+        ],
+        [
+          7.56668,
+          11.7468
+        ],
+        [
+          7.56668,
+          13.2488
+        ]
+      ],
+      "x": 6.96468,
+      "y": 12.4968,
+      "z": 0
+    },
+    {
+      "name": "Primary enclosed toilet",
+      "kind": "fixtures",
+      "asset_id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          6.886956,
+          10.651236
+        ],
+        [
+          7.286244,
+          10.651236
+        ],
+        [
+          7.286244,
+          11.408664
+        ],
+        [
+          6.886956,
+          11.408664
+        ]
+      ],
+      "x": 7.086600000000001,
+      "y": 11.027664,
+      "z": 0
+    },
+    {
+      "name": "Laundry washer",
+      "kind": "appliances",
+      "asset_id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          4.81104,
+          5.17262
+        ],
+        [
+          4.21104,
+          5.17262
+        ],
+        [
+          4.21104,
+          4.45012
+        ],
+        [
+          4.81104,
+          4.45012
+        ]
+      ],
+      "x": 4.51104,
+      "y": 4.77012,
+      "z": 0
+    },
+    {
+      "name": "Laundry heat pump dryer",
+      "kind": "appliances",
+      "asset_id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          5.441976,
+          5.17262
+        ],
+        [
+          4.841976,
+          5.17262
+        ],
+        [
+          4.841976,
+          4.45012
+        ],
+        [
+          5.441976,
+          4.45012
+        ]
+      ],
+      "x": 5.1419760000000005,
+      "y": 4.77012,
+      "z": 0
+    },
+    {
+      "name": "Laundry linen shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          4.14528,
+          6.3246
+        ],
+        [
+          4.75488,
+          6.3246
+        ],
+        [
+          4.75488,
+          6.6294
+        ],
+        [
+          4.14528,
+          6.6294
+        ]
+      ],
+      "x": 4.45008,
+      "y": 6.477,
+      "z": 0
+    },
+    {
+      "name": "Laundry linen shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          4.77012,
+          6.3246
+        ],
+        [
+          5.37972,
+          6.3246
+        ],
+        [
+          5.37972,
+          6.6294
+        ],
+        [
+          4.77012,
+          6.6294
+        ]
+      ],
+      "x": 5.07492,
+      "y": 6.477,
+      "z": 0
+    },
+    {
+      "name": "Gallery cleaning and vacuum cabinet",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-cleaning-cabinet-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          6.81228,
+          0.790651
+        ],
+        [
+          6.20268,
+          0.790651
+        ],
+        [
+          6.20268,
+          0.1524
+        ],
+        [
+          6.81228,
+          0.1524
+        ]
+      ],
+      "x": 6.507480000000001,
+      "y": 0.45720000000000005,
+      "z": 0
+    },
+    {
+      "name": "Gallery spare bedding shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          7.48284,
+          0.463296
+        ],
+        [
+          6.87324,
+          0.463296
+        ],
+        [
+          6.87324,
+          0.158496
+        ],
+        [
+          7.48284,
+          0.158496
+        ]
+      ],
+      "x": 7.17804,
+      "y": 0.310896,
+      "z": 0
+    },
+    {
+      "name": "Foyer coats and shoes",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          11.805209,
+          0.9144
+        ],
+        [
+          11.805209,
+          0.3048
+        ],
+        [
+          12.44346,
+          0.3048
+        ],
+        [
+          12.44346,
+          0.9144
+        ]
+      ],
+      "x": 12.138660000000002,
+      "y": 0.6096,
+      "z": 0
+    },
+    {
+      "name": "Foyer coats and shoes",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          11.805209,
+          1.55448
+        ],
+        [
+          11.805209,
+          0.94488
+        ],
+        [
+          12.44346,
+          0.94488
+        ],
+        [
+          12.44346,
+          1.55448
+        ]
+      ],
+      "x": 12.138660000000002,
+      "y": 1.24968,
+      "z": 0
+    },
+    {
+      "name": "Foyer keys and bag landing",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          11.79576,
+          2.24028
+        ],
+        [
+          11.79576,
+          1.72212
+        ],
+        [
+          12.28344,
+          1.72212
+        ],
+        [
+          12.28344,
+          2.24028
+        ]
+      ],
+      "x": 12.0396,
+      "y": 1.9812,
+      "z": 0
+    },
+    {
+      "name": "Utility household bulk shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          15.6972,
+          0.463296
+        ],
+        [
+          15.0876,
+          0.463296
+        ],
+        [
+          15.0876,
+          0.158496
+        ],
+        [
+          15.6972,
+          0.158496
+        ]
+      ],
+      "x": 15.3924,
+      "y": 0.310896,
+      "z": 0
+    },
+    {
+      "name": "Utility household bulk shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          16.32204,
+          0.463296
+        ],
+        [
+          15.71244,
+          0.463296
+        ],
+        [
+          15.71244,
+          0.158496
+        ],
+        [
+          16.32204,
+          0.158496
+        ]
+      ],
+      "x": 16.01724,
+      "y": 0.310896,
+      "z": 0
+    },
+    {
+      "name": "Utility household bulk shelves",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          16.94688,
+          0.463296
+        ],
+        [
+          16.33728,
+          0.463296
+        ],
+        [
+          16.33728,
+          0.158496
+        ],
+        [
+          16.94688,
+          0.158496
+        ]
+      ],
+      "x": 16.64208,
+      "y": 0.310896,
+      "z": 0
+    },
+    {
+      "name": "Utility seasonal hanging storage",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          15.0876,
+          1.693469
+        ],
+        [
+          15.6972,
+          1.693469
+        ],
+        [
+          15.6972,
+          2.33172
+        ],
+        [
+          15.0876,
+          2.33172
+        ]
+      ],
+      "x": 15.3924,
+      "y": 2.02692,
+      "z": 0
+    },
+    {
+      "name": "Utility seasonal hanging storage",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          15.72768,
+          1.693469
+        ],
+        [
+          16.33728,
+          1.693469
+        ],
+        [
+          16.33728,
+          2.33172
+        ],
+        [
+          15.72768,
+          2.33172
+        ]
+      ],
+      "x": 16.03248,
+      "y": 2.02692,
+      "z": 0
+    },
+    {
+      "name": "Utility maintenance cupboard",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-cleaning-cabinet-2ft",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          16.36776,
+          1.693469
+        ],
+        [
+          16.97736,
+          1.693469
+        ],
+        [
+          16.97736,
+          2.33172
+        ],
+        [
+          16.36776,
+          2.33172
+        ]
+      ],
+      "x": 16.67256,
+      "y": 2.02692,
+      "z": 0
+    },
+    {
+      "name": "Dining table for six",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          10.77468,
+          9.81456
+        ],
+        [
+          10.77468,
+          12.25296
+        ],
+        [
+          9.64692,
+          12.25296
+        ],
+        [
+          9.64692,
+          9.81456
+        ]
+      ],
+      "x": 10.2108,
+      "y": 11.033760000000001,
+      "z": 0
+    },
+    {
+      "name": "Dining west chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          9.50214,
+          10.035125
+        ],
+        [
+          9.50214,
+          10.569355
+        ],
+        [
+          8.965698,
+          10.569355
+        ],
+        [
+          8.965698,
+          10.035125
+        ]
+      ],
+      "x": 9.23544,
+      "y": 10.30224,
+      "z": 0
+    },
+    {
+      "name": "Dining east chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          10.91946,
+          10.569355
+        ],
+        [
+          10.91946,
+          10.035125
+        ],
+        [
+          11.455902,
+          10.035125
+        ],
+        [
+          11.455902,
+          10.569355
+        ]
+      ],
+      "x": 11.186160000000001,
+      "y": 10.30224,
+      "z": 0
+    },
+    {
+      "name": "Dining west chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          9.50214,
+          10.766645
+        ],
+        [
+          9.50214,
+          11.300875
+        ],
+        [
+          8.965698,
+          11.300875
+        ],
+        [
+          8.965698,
+          10.766645
+        ]
+      ],
+      "x": 9.23544,
+      "y": 11.033760000000001,
+      "z": 0
+    },
+    {
+      "name": "Dining east chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          10.91946,
+          11.300875
+        ],
+        [
+          10.91946,
+          10.766645
+        ],
+        [
+          11.455902,
+          10.766645
+        ],
+        [
+          11.455902,
+          11.300875
+        ]
+      ],
+      "x": 11.186160000000001,
+      "y": 11.033760000000001,
+      "z": 0
+    },
+    {
+      "name": "Dining west chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          9.50214,
+          11.498165
+        ],
+        [
+          9.50214,
+          12.032395
+        ],
+        [
+          8.965698,
+          12.032395
+        ],
+        [
+          8.965698,
+          11.498165
+        ]
+      ],
+      "x": 9.23544,
+      "y": 11.76528,
+      "z": 0
+    },
+    {
+      "name": "Dining east chair",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          10.91946,
+          12.032395
+        ],
+        [
+          10.91946,
+          11.498165
+        ],
+        [
+          11.455902,
+          11.498165
+        ],
+        [
+          11.455902,
+          12.032395
+        ]
+      ],
+      "x": 11.186160000000001,
+      "y": 11.76528,
+      "z": 0
+    },
+    {
+      "name": "Living linen sofa",
+      "kind": "furniture",
+      "asset_id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          13.65504,
+          9.0678
+        ],
+        [
+          17.12976,
+          9.0678
+        ],
+        [
+          17.12976,
+          10.211972
+        ],
+        [
+          13.65504,
+          10.211972
+        ]
+      ],
+      "x": 15.3924,
+      "y": 9.6012,
+      "z": 0
+    },
+    {
+      "name": "Living rounded coffee table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "rotation_rad": 0.0,
+      "corners_m": [
+        [
+          14.5542,
+          10.5156
+        ],
+        [
+          16.2306,
+          10.5156
+        ],
+        [
+          16.2306,
+          11.36904
+        ],
+        [
+          14.5542,
+          11.36904
+        ]
+      ],
+      "x": 15.3924,
+      "y": 10.94232,
+      "z": 0
+    },
+    {
+      "name": "Living oak lounge chair",
+      "kind": "furniture",
+      "asset_id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          14.72184,
+          12.67968
+        ],
+        [
+          13.80744,
+          12.67968
+        ],
+        [
+          13.80744,
+          11.70432
+        ],
+        [
+          14.72184,
+          11.70432
+        ]
+      ],
+      "x": 14.26464,
+      "y": 12.192,
+      "z": 0
+    },
+    {
+      "name": "Living oak lounge chair",
+      "kind": "furniture",
+      "asset_id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "rotation_rad": 3.141592653589793,
+      "corners_m": [
+        [
+          16.97736,
+          12.67968
+        ],
+        [
+          16.06296,
+          12.67968
+        ],
+        [
+          16.06296,
+          11.70432
+        ],
+        [
+          16.97736,
+          11.70432
+        ]
+      ],
+      "x": 16.52016,
+      "y": 12.192,
+      "z": 0
+    },
+    {
+      "name": "Living walnut storage drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          12.92225,
+          10.3632
+        ],
+        [
+          12.92225,
+          9.7536
+        ],
+        [
+          13.5636,
+          9.7536
+        ],
+        [
+          13.5636,
+          10.3632
+        ]
+      ],
+      "x": 13.2588,
+      "y": 10.0584,
+      "z": 0
+    },
+    {
+      "name": "Living walnut storage drawers",
+      "kind": "cabinetry",
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "rotation_rad": -1.5707963267948966,
+      "corners_m": [
+        [
+          12.92225,
+          10.98804
+        ],
+        [
+          12.92225,
+          10.37844
+        ],
+        [
+          13.5636,
+          10.37844
+        ],
+        [
+          13.5636,
+          10.98804
+        ]
+      ],
+      "x": 13.2588,
+      "y": 10.68324,
+      "z": 0
+    },
+    {
+      "name": "Living reading side table",
+      "kind": "furniture",
+      "asset_id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "rotation_rad": 1.5707963267948966,
+      "corners_m": [
+        [
+          13.73124,
+          11.93292
+        ],
+        [
+          13.73124,
+          12.45108
+        ],
+        [
+          13.24356,
+          12.45108
+        ],
+        [
+          13.24356,
+          11.93292
+        ]
+      ],
+      "x": 13.487400000000001,
+      "y": 12.192,
+      "z": 0
+    }
+  ],
+  "host_footprints": [
+    {
+      "name": "Kitchen cooking worktop",
+      "kind": "counter",
+      "corners_m": [
+        [
+          14.246352000000002,
+          2.5359360000000004
+        ],
+        [
+          16.41348,
+          2.5359360000000004
+        ],
+        [
+          16.41348,
+          3.2461200000000003
+        ],
+        [
+          14.246352000000002,
+          3.2461200000000003
+        ]
+      ]
+    },
+    {
+      "name": "Kitchen cleanup worktop",
+      "kind": "counter",
+      "corners_m": [
+        [
+          17.46504,
+          4.83108
+        ],
+        [
+          18.129504,
+          4.83108
+        ],
+        [
+          18.129504,
+          8.41248
+        ],
+        [
+          17.46504,
+          8.41248
+        ]
+      ]
+    },
+    {
+      "name": "Island pale stone worktop",
+      "kind": "counter",
+      "corners_m": [
+        [
+          14.530400000000002,
+          4.8006
+        ],
+        [
+          15.825800000000001,
+          4.8006
+        ],
+        [
+          15.825800000000001,
+          7.8486
+        ],
+        [
+          14.530400000000002,
+          7.8486
+        ]
+      ]
+    },
+    {
+      "name": "Pantry appliance landing",
+      "kind": "counter",
+      "corners_m": [
+        [
+          14.167104,
+          0.15849600000000003
+        ],
+        [
+          14.822424000000002,
+          0.15849600000000003
+        ],
+        [
+          14.822424000000002,
+          0.7985760000000001
+        ],
+        [
+          14.167104,
+          0.7985760000000001
+        ]
+      ]
+    },
+    {
+      "name": "Ensuite 02 vanity stone worktop",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          4.68824,
+          0.169776
+        ],
+        [
+          4.68824,
+          0.8177760000000001
+        ],
+        [
+          4.03824,
+          0.8177760000000001
+        ],
+        [
+          4.03824,
+          0.16977600000000007
+        ]
+      ]
+    },
+    {
+      "name": "Shared bath vanity stone worktop",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          8.34584,
+          1.71816
+        ],
+        [
+          8.34584,
+          2.36616
+        ],
+        [
+          7.6958400000000005,
+          2.36616
+        ],
+        [
+          7.6958400000000005,
+          1.71816
+        ]
+      ]
+    },
+    {
+      "name": "Primary south vanity stone worktop",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          4.993040000000001,
+          9.82584
+        ],
+        [
+          4.993040000000001,
+          10.47384
+        ],
+        [
+          4.34304,
+          10.47384
+        ],
+        [
+          4.34304,
+          9.82584
+        ]
+      ]
+    },
+    {
+      "name": "Primary north vanity stone worktop",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          4.993040000000001,
+          10.74024
+        ],
+        [
+          4.993040000000001,
+          11.38824
+        ],
+        [
+          4.34304,
+          11.38824
+        ],
+        [
+          4.34304,
+          10.74024
+        ]
+      ]
+    },
+    {
+      "name": "Primary vanity connecting landing",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          4.32816,
+          10.475976
+        ],
+        [
+          4.980432,
+          10.475976
+        ],
+        [
+          4.980432,
+          10.738104
+        ],
+        [
+          4.32816,
+          10.738104
+        ]
+      ]
+    },
+    {
+      "name": "Laundry folding worktop",
+      "kind": "vanity",
+      "corners_m": [
+        [
+          4.17576,
+          4.40436
+        ],
+        [
+          5.480304,
+          4.40436
+        ],
+        [
+          5.480304,
+          5.187696
+        ],
+        [
+          4.17576,
+          5.187696
+        ]
+      ]
+    },
+    {
+      "name": "Mechanical equipment reservation",
+      "kind": "service-reservation",
+      "corners_m": [
+        [
+          17.3736,
+          0.3048
+        ],
+        [
+          18.10512,
+          0.3048
+        ],
+        [
+          18.10512,
+          1.09728
+        ],
+        [
+          17.3736,
+          1.09728
+        ]
+      ]
+    },
+    {
+      "name": "Hot water equipment reservation",
+      "kind": "service-reservation",
+      "corners_m": [
+        [
+          17.3736,
+          1.40208
+        ],
+        [
+          18.10512,
+          1.40208
+        ],
+        [
+          18.10512,
+          2.19456
+        ],
+        [
+          17.3736,
+          2.19456
+        ]
+      ]
+    },
+    {
+      "name": "Living credenza walnut top",
+      "kind": "storage",
+      "corners_m": [
+        [
+          12.914376,
+          9.735312
+        ],
+        [
+          13.581888000000001,
+          9.735312
+        ],
+        [
+          13.581888000000001,
+          11.006328
+        ],
+        [
+          12.914376,
+          11.006328
+        ]
+      ]
+    }
+  ]
+}

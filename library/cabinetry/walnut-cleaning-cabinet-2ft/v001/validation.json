@@ -1,0 +1,55 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "relative_dependencies_resolved": true,
+  "geometry_identical_to_parent": false,
+  "geometry_signature_sha256": "f32b864776a4b1c22da8a3aa5fa6099dd98c6ad035b3325460b89815a26ff75b",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6382512152194977,
+    2.4384000301361084
+  ],
+  "floor_contact": true,
+  "wood_meshes_with_meter_uv": 8,
+  "linked_walnut_material": true,
+  "host_installation_checked": false,
+  "operating_state": "Closed or open shelf; no host motion verification",
+  "blend_sha256": "100f4b433edf9e399a6bee8f2c00285b6e7bf8367acee164fa3aec3718f8d364",
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key, fill and world"
+  },
+  "cleaning_storage": {
+    "hanging_rail_removed": true,
+    "upper_shelf_retained": true,
+    "clear_lower_storage": "Continuous lower case below retained upper shelf; contents and host integration not verified."
+  },
+  "preview_rendered": true,
+  "preview_sha256": "42e58bc85c7280504881091932adb7672376dd05e510572a90a86c88c4700bd6",
+  "dependency_sha256": {
+    "materials/warm-walnut/v001": "2630910fe3f497ce0d53d1b63a15da21a43e2d4f542ffabdbe8701f944d73295"
+  },
+  "interior_review_preview": {
+    "file": "preview-interior.png",
+    "sha256": "125ad55beabaaac5481dcbd01c7cd10e97d678b6a0b4ae8b567a5b4ec3cbcf0c",
+    "mode": "Front doors and handles hidden for cavity inspection; not modeled open-door operation"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png",
+      "preview-interior.png"
+    ],
+    "notes": "Reviewed actual native preview: consistent warm-brown walnut, grain direction aligned with individual boards, intact geometry and hardware, clean base contact. Reviewed separate interior preview: upper shelf retained and lower cleaning storage clear of hanging rail.",
+    "host_integration_checked": false
+  }
+}

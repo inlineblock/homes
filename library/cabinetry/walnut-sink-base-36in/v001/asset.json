@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-sink-base-36in",
+  "version": "v001",
+  "name": "Walnut sink base 36in",
+  "units": "meters",
+  "dimensions_m": [
+    0.9143999814987183,
+    0.6413500010967255,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.45719999074935913,
+      -0.3365499973297119,
+      0.0
+    ],
+    "max": [
+      0.45719999074935913,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.9144,
+    0.6096,
+    0.87122
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-supported; countertop excluded. Nominal 24-inch depth and 34.3-inch height. Finish front plane Y=-0.3048m; rear Y=+0.3048m. Bronze pulls project a further 31.75mm where used.",
+    "operating_envelope": {
+      "modeled_state": "Closed; components individually editable, not animated",
+      "basis": "Original concept geometry and conservative planning allowance; no manufacturer selected",
+      "host_open_state_checked": false,
+      "reserve_front_operator_depth_m": 0.8,
+      "intended_open_angle_degrees": 100,
+      "reserve_front_door_projection_m": 0.46
+    },
+    "service_requirements": [
+      "Host supplies countertop, wall fixing, selected product tolerances and access; these are concept modules, not construction specifications.",
+      "Open cavity and rear permit drain/trap/supply routing. Keep all pipes accessible after doors open.",
+      "Host must cut the actual countertop opening and check the selected bowl/faucet. No shelf or top panel crosses the bowl."
+    ],
+    "compatible_fixture": {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "mounting_center_m": [
+        0,
+        -0.03,
+        null
+      ],
+      "mounting_z": "Host countertop top; verified at cabinet height plus38.1mm",
+      "recommended_host_cutout_m": [
+        0.664,
+        0.464
+      ],
+      "below_top_bowl_depth_m": 0.218,
+      "fit_basis": "v002 corrects original fixture manifest opening to measured654x454mm outer bowl plus5mm each side. Inspect selected commercial sink separately."
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-sink-base-36in",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c",
+    "geometry_signature_sha256": "8981ddad4233261a9e45d9df6572cdd4156313696cf5cf1f83e3a04982af3d58"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "walnut-sink-base-36in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "walnut-sink-base-36in | v001"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  }
+}

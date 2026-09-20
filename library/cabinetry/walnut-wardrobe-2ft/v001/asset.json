@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-wardrobe-2ft",
+  "version": "v001",
+  "name": "Walnut wardrobe 2ft",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6382512152194977,
+    2.4384000301361084
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.33345121145248413,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "placement": {
+    "origin": "Floor-center of nominal footprint, Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid translation and Z rotation only; no scaling."
+  },
+  "description": "Floor center origin, front toward -Y. Nominal 2 x 2 x 8 feet; handles project 0.094 feet beyond front. Two editable doors, top shelf and hanging rail. Allow door swing and standing clearance in host home.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "walnut-wardrobe-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "blender": {
+    "collection": "walnut-wardrobe-2ft | v001"
+  },
+  "derived_from": {
+    "id": "cabinetry/oak-wardrobe-2ft",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "634c769ae2083b4f8a7a7fccc429e60cfe09efe52603142c838528f063a4fb7a",
+    "geometry_signature_sha256": "b2590cbd240404bb9728cc0ff5065261c7e852d7093916f3d28fc79b29403dcb"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  },
+  "installation": {
+    "mounting": "Floor-supported 2\u00d72\u00d78ft wardrobe; host supplies anti-tip anchorage and access to shelf/rail.",
+    "operating_envelope": {
+      "modeled_state": "Two closed editable hinged doors",
+      "intended_open_angle_degrees": 100,
+      "reserve_front_door_projection_m": 0.3,
+      "reserve_front_depth_including_operator_m": 1.1,
+      "host_open_state_checked": false,
+      "basis": "Original .28956m door leaves with rounded concept operator allowance; hinges not animated."
+    },
+    "service_requirements": [
+      "Preserve standing space, bedroom door operation, accessible rail/shelf and wall-fixing access; no load or accessibility certification."
+    ]
+  }
+}

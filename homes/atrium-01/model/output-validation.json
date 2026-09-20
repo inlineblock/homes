@@ -1,0 +1,174 @@
+{
+  "status": "reviewed and promoted",
+  "source_blend_sha256": "ea9fb6d7b49622bcdfead03564806f0c6c3c813f5a6c44bb317ba8e9d2fb3eda",
+  "native_views": 14,
+  "photographic_studies": 10,
+  "occupied_levels": [
+    "main"
+  ],
+  "render_settings": {
+    "blender": "4.5.14 LTS",
+    "engine": "Cycles",
+    "samples": 64,
+    "resolution": [
+      1600,
+      1100
+    ]
+  },
+  "native_review": "All 14 final views inspected by author and independent visual reviewer; roof seam continuity, gallery framing and circulation corrections accepted.",
+  "photographic_review": "All 10 built-in Imagegen edits compared against their native source; focused corrections restored courtyard paving and removed invented bedroom-side retaining wall. Contextual foliage and textures remain illustrative.",
+  "gallery_check": "tools/common/verify_galleries.py passed all eight current home records.",
+  "outputs": [
+    {
+      "path": "outputs/images/03-exterior.png",
+      "sha256": "92bcc359f09c83c357758ba04f303b130c60989397b27b673c2b11ff7c9e33bc",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/05-rear-terrace.png",
+      "sha256": "f620bcf48c961cdba6f41c0f8f06b0610e7469a73ac18e9e0fb581c449fc40b6",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/06-west-roof-atrium.png",
+      "sha256": "e9e014c010a42c8057897ec416622676768ce2b527c70dce42b914ce652a421f",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/11-sheltered-arrival.png",
+      "sha256": "f6b7089e81e6f22962e11975d964c0ed10d7392ad6087a494e060eb3fc53462e",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/12-entry-gallery.png",
+      "sha256": "84e64f3131c3e9a0d2570b94beb65e382e16a0548b0ec767715d358f9ee61d94",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/01-kitchen.png",
+      "sha256": "160d19aab84ef0a41ea71978138e4f26ccdb62d9b1ae2c0d091fd1227f12e3e2",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/02-kitchen-courtyard.png",
+      "sha256": "eaa6431f802fe5fc1480d741b254fc0db5e9ad98dfcded929d0827ebf840d52f",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/08-living.png",
+      "sha256": "427d0a15738e0567c014fbfa61dadb1271671c3d2c843c9c4f7a7416fde852fc",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/07-open-air-atrium.png",
+      "sha256": "bdf7a947178f5e55b77a13814a5c774030060347622318ea6922c38b4bf5b727",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/09-primary-bedroom.png",
+      "sha256": "122290acc330971921b7ba00212e4c7b92c2f94a1ec5cf04375e6a184a503ebf",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/10-primary-bath.png",
+      "sha256": "be651a55907e76dcd536b4326ff6398ad10a2c2da7d456b01e35ca8c62f2414f",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/13-tub-and-shower.png",
+      "sha256": "d9ca836661f77514db9b27175c512f0afa8fc52a75e1603a339e9d0483411858",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/14-primary-privacy.png",
+      "sha256": "507e5eb10ac1938f491ab994554667ebe0619c07db7857e6ce5baab31ed959ff",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/04-cutaway.png",
+      "sha256": "47c36ddf260b89504ea81caaabb7e48e39f196e273965a05eec768ec6bfe320b",
+      "width": 1600,
+      "height": 1100
+    },
+    {
+      "path": "outputs/images/photo-hero.png",
+      "sha256": "737d7038eaca99179434489d5c21539057997f61d1e590ae4c7732bca78154ea",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-rear.png",
+      "sha256": "1951b5740dc18f7d5d64a923b84a1bbf58b23545b9bc00ec24daca00a3853a23",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-roof.png",
+      "sha256": "fc856f317d28c2bb9b36a4d5ef1e9c2f36d8eddb1522cd1a0df05fb66aa8f8b0",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-atrium.png",
+      "sha256": "3cb911961cf5cbce2cc3ebfae8061c2d77733e3e842e8c9151ad0596138247d4",
+      "width": 1513,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-interior.png",
+      "sha256": "df86c15cee088f20d88cbfade4e1f8b0a5fd847634efba53045a99de581d2524",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-kitchen-courtyard.png",
+      "sha256": "20aaeb05a311b2781d0cb4874bb980837bcc3107bf0099ab2611790a3a9c5517",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-living.png",
+      "sha256": "ea47eb3bbfa0fed821e5488d6c00abcca118d9cea451961c6bad423fe2e251d2",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-primary-bedroom.png",
+      "sha256": "981e16eaa611a4d180cbccc153542da7babc1f0cfdae5b0638b484cd84b6edec",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-primary-bath.png",
+      "sha256": "d09c1c8f2b1e39a172848bb60576a1abe0773d0c94b89f060a959537c1890996",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/images/photo-tub-shower.png",
+      "sha256": "e5f03f0b976b381cacf9167f296e28b83fe20c957dbe5fb1c2ebe7250452559c",
+      "width": 1512,
+      "height": 1040
+    },
+    {
+      "path": "outputs/plans/floor-plan.png",
+      "sha256": "03b41b3e94daa69ed60ac6bc94980695ffff2962692018f4d0822b17eca9b4b6",
+      "width": 1760,
+      "height": 1280
+    }
+  ],
+  "limits": "Visual concept QA only; structural, product, climate/site and regulatory design remain unverified."
+}

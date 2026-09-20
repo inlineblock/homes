@@ -1,17 +1,28 @@
 {
   "schema": "IFC4",
   "counts": {
-    "IfcWall": 67,
-    "IfcMember": 97,
-    "IfcWindow": 50,
-    "IfcDoor": 9,
+    "IfcWall": 124,
+    "IfcMember": 179,
+    "IfcWindow": 42,
+    "IfcDoor": 12,
     "IfcSlab": 4,
-    "IfcRoof": 4,
-    "IfcBeam": 11,
-    "IfcColumn": 4,
-    "IfcFurnishingElement": 5
+    "IfcRoof": 296,
+    "IfcBeam": 24,
+    "IfcColumn": 47,
+    "IfcCovering": 10
   },
-  "spaces": 14,
+  "storeys": [
+    "Ground floor"
+  ],
   "schema_errors": 0,
-  "details": []
+  "errors": [],
+  "source_blend_sha256": "ea9fb6d7b49622bcdfead03564806f0c6c3c813f5a6c44bb317ba8e9d2fb3eda",
+  "ifc_sha256": "9b09cfde362e45c492c67b0831977af4443bd168691af17342e76ba11813f2aa",
+  "exporter": "tools/common/export_scene_ifc.py",
+  "exporter_sha256": "9f8a3948b13a5ace7da92406178a0abca95d8cf4a1ad0b3bd709758054d72422",
+  "blender_version": "4.5.14 LTS",
+  "ifcopenshell_version": "0.8.5",
+  "geometry_units": "meters",
+  "runtime": "Explicit process-local runtime",
+  "limits": "Classified concept geometry and explicitly tagged linked products; no construction, engineering, installation or complete furnishing/BIM certification. Planning-zone labels are documented in the plans rather than exported as measured IFC spaces."
 }

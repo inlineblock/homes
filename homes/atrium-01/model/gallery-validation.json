@@ -1,102 +1,138 @@
 {
-  "scope": "Gallery cameras only; approved geometry, materials, lighting and layout retained.",
-  "blender": "4.5.14 LTS",
-  "non_camera_scene_sha256": "44a0aadc2d56b0aa1df4a4d1c9bbc1807d08af19f42518c7882a5231541bcf1c",
+  "scope": "Fresh read-only camera check of the coordinated architectural revision.",
+  "blender_version": "4.5.14 LTS",
+  "source_blend_sha256": "ea9fb6d7b49622bcdfead03564806f0c6c3c813f5a6c44bb317ba8e9d2fb3eda",
+  "fresh_reopen_cameras_passed": true,
   "cameras": [
-    "01 Kitchen hero",
-    "02 Kitchen courtyard",
-    "03 Atrium exterior",
-    "04 Whole-home cutaway",
-    "05 Rear terrace",
-    "06 West roof and atrium",
-    "07 Open-air atrium"
-  ],
-  "non_camera_scene_unchanged": true,
-  "fresh_reopen_cameras_and_geometry_passed": true,
-  "reviewed_outputs": [
     {
-      "path": "outputs/images/01-kitchen.png",
-      "pixels": [
-        1600,
-        1100
+      "name": "01-kitchen",
+      "location_m": [
+        13.106400489807129,
+        8.229599952697754,
+        1.676400065422058
       ],
-      "new_final_samples": null,
-      "visually_reviewed": true,
-      "sha256": "71ecdf2cf0c820717ea5ae60cd550977d1916b5c7b214b1f425561e07056a4fe"
+      "lens_mm": 25.0
     },
     {
-      "path": "outputs/images/02-kitchen-courtyard.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "02-kitchen-courtyard",
+      "location_m": [
+        17.67840003967285,
+        7.924799919128418,
+        1.676400065422058
       ],
-      "new_final_samples": null,
-      "visually_reviewed": true,
-      "sha256": "a68d0a9080349e69b44143a569bed82e3352f29cbae397f7bdd20c81b5a40d28"
+      "lens_mm": 25.0
     },
     {
-      "path": "outputs/images/03-exterior.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "03-exterior",
+      "location_m": [
+        30.175199508666992,
+        -18.59280014038086,
+        7.010400295257568
       ],
-      "new_final_samples": 96,
-      "visually_reviewed": true,
-      "sha256": "f0ae72a4292a89be5a1fa2f3a3b4cee4645600a2777cd7b40af81d9e2db5a284"
+      "lens_mm": 34.0
     },
     {
-      "path": "outputs/images/04-cutaway.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "04-cutaway",
+      "location_m": [
+        26.82240104675293,
+        -21.945600509643555,
+        32.00400161743164
       ],
-      "new_final_samples": null,
-      "visually_reviewed": true,
-      "sha256": "d839ac9a26fd86553c5ba0e74084bdab1a04a9bff04ce668366d270826151920"
+      "lens_mm": 46.0
     },
     {
-      "path": "outputs/images/05-rear-terrace.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "05-rear-terrace",
+      "location_m": [
+        25.908000946044922,
+        26.82240104675293,
+        6.0960001945495605
       ],
-      "new_final_samples": 96,
-      "visually_reviewed": true,
-      "sha256": "d3e768c51ec7ac3b76bd63aa1b9f4748741ce51cc60ca711ad3b42bafb82a040"
+      "lens_mm": 43.0
     },
     {
-      "path": "outputs/images/06-west-roof-atrium.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "06-west-roof-atrium",
+      "location_m": [
+        -18.59280014038086,
+        -20.421600341796875,
+        22.860000610351562
       ],
-      "new_final_samples": 96,
-      "visually_reviewed": true,
-      "sha256": "3552188e0c86b3ca504d7c7b44054fbf778c3c8fed965245bb4136959c90b011"
+      "lens_mm": 43.0
     },
     {
-      "path": "outputs/images/07-open-air-atrium.png",
-      "pixels": [
-        1800,
-        1238
+      "name": "07-open-air-atrium",
+      "location_m": [
+        8.53439998626709,
+        4.572000026702881,
+        1.676400065422058
       ],
-      "new_final_samples": 96,
-      "visually_reviewed": true,
-      "sha256": "0cdc49c94589fc70e9d52087add2f2de294fd75427e29b4ccff3caf6d86e1e4d"
+      "lens_mm": 23.0
+    },
+    {
+      "name": "08-living",
+      "location_m": [
+        12.801600456237793,
+        8.991600036621094,
+        1.676400065422058
+      ],
+      "lens_mm": 23.0
+    },
+    {
+      "name": "09-primary-bedroom",
+      "location_m": [
+        0.7620000243186951,
+        10.05840015411377,
+        1.676400065422058
+      ],
+      "lens_mm": 24.0
+    },
+    {
+      "name": "10-primary-bath",
+      "location_m": [
+        6.309360504150391,
+        11.734800338745117,
+        1.676400065422058
+      ],
+      "lens_mm": 18.0
+    },
+    {
+      "name": "11-sheltered-arrival",
+      "location_m": [
+        14.630399703979492,
+        -7.619999885559082,
+        1.676400065422058
+      ],
+      "lens_mm": 28.0
+    },
+    {
+      "name": "12-entry-gallery",
+      "location_m": [
+        11.734800338745117,
+        3.169919967651367,
+        1.676400065422058
+      ],
+      "lens_mm": 23.0
+    },
+    {
+      "name": "13-tub-and-shower",
+      "location_m": [
+        5.273039817810059,
+        10.210800170898438,
+        1.676400065422058
+      ],
+      "lens_mm": 20.0
+    },
+    {
+      "name": "14-primary-privacy",
+      "location_m": [
+        0.7620000243186951,
+        10.05840015411377,
+        1.676400065422058
+      ],
+      "lens_mm": 24.0
     }
   ],
-  "existing_single_level_plan_visually_reviewed": true,
-  "drafts_reviewed_before_promotion": true,
-  "complete_building_exterior_views": [
-    "03-exterior",
-    "05-rear-terrace",
-    "06-west-roof-atrium"
-  ],
-  "interior_views": [
-    "01-kitchen",
-    "02-kitchen-courtyard"
-  ],
-  "crowning_feature": "07-open-air-atrium",
-  "limitations": "Camera-only gallery expansion of legacy concept. No parking, site or roof-drainage resolution; no new circulation/code/engineering approval.",
-  "gallery_links_and_eight_unique_image_embeds_per_readme_passed": true
+  "render_state_exceptions": {
+    "04-cutaway": "Roof and principal structure hidden for plan visibility; never saved.",
+    "14-primary-privacy": "Paired opaque bedroom shade collections lowered; never saved."
+  }
 }

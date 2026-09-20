@@ -1,19 +1,2824 @@
 {
+  "status": "passed",
   "blender": "4.5.14 LTS",
-  "reopened_scene_objects": 1131,
-  "gross_enclosed_area_sqft": 2400,
-  "bedrooms": 3,
-  "bathrooms": 3,
+  "failures": [],
+  "checks": {
+    "area_and_heights": {
+      "floor_bounds_m": [
+        [
+          0.0,
+          0.0,
+          18.288000106811523,
+          3.962399959564209
+        ],
+        [
+          0.0,
+          3.962400197982788,
+          7.619999885559082,
+          8.53439998626709
+        ],
+        [
+          12.49679946899414,
+          3.962400197982788,
+          18.288000106811523,
+          8.53439998626709
+        ],
+        [
+          0.0,
+          8.53439998626709,
+          18.288000106811523,
+          13.411200523376465
+        ]
+      ],
+      "ceilings": {
+        "main_beams": {
+          "count": 24,
+          "lowest_m": 2.8956000804901123,
+          "required_m": 2.8956
+        },
+        "ceiling_plane": {
+          "count": 271,
+          "lowest_m": 3.200399875640869,
+          "required_m": 3.2004
+        },
+        "service_ceilings": {
+          "count": 4,
+          "lowest_m": 2.7432000637054443,
+          "required_m": 2.7432000000000003
+        }
+      },
+      "courtyard_hits": []
+    },
+    "program": {
+      "beds": [
+        "Bedroom 2 queen bed",
+        "Bedroom 3 queen bed",
+        "Primary king bed"
+      ],
+      "wardrobes": [
+        "Bedroom 2 wardrobe",
+        "Bedroom 2 wardrobe.001",
+        "Bedroom 2 wardrobe.002",
+        "Bedroom 3 wardrobe",
+        "Bedroom 3 wardrobe.001",
+        "Bedroom 3 wardrobe.002",
+        "Primary wardrobe",
+        "Primary wardrobe.001",
+        "Primary wardrobe.002",
+        "Primary wardrobe.003",
+        "Foyer coats and shoes",
+        "Foyer coats and shoes.001",
+        "Utility seasonal hanging storage",
+        "Utility seasonal hanging storage.001"
+      ],
+      "bathroom_assets": {
+        "primary-bath": [
+          "Primary south vanity cabinet",
+          "Primary south vanity basin and mirror",
+          "Primary north vanity cabinet",
+          "Primary north vanity basin and mirror",
+          "Primary separate bathtub",
+          "Primary generous shower",
+          "Primary enclosed toilet"
+        ],
+        "bath-2": [
+          "Ensuite 02 vanity cabinet",
+          "Ensuite 02 vanity basin and mirror",
+          "Ensuite 02 toilet",
+          "Ensuite 02 shower"
+        ],
+        "bath-3": [
+          "Shared bath vanity cabinet",
+          "Shared bath vanity basin and mirror",
+          "Shared bath toilet",
+          "Shared bath shower"
+        ]
+      },
+      "vanity_rims_m": {
+        "Ensuite 02 vanity basin and mirror": 0.8574420213699341,
+        "Shared bath vanity basin and mirror": 0.8574420213699341,
+        "Primary south vanity basin and mirror": 0.8574420213699341,
+        "Primary north vanity basin and mirror": 0.8574420213699341
+      },
+      "envelope_collisions": []
+    },
+    "kitchen": {
+      "counter_apertures": [
+        {
+          "counter": "Kitchen cooking worktop",
+          "bounds_m": [
+            14.8762,
+            2.61762,
+            15.7562,
+            3.11262
+          ],
+          "top_m": 0.9144
+        },
+        {
+          "counter": "Kitchen cleanup worktop",
+          "bounds_m": [
+            17.53832,
+            5.002000000000001,
+            18.002319999999997,
+            5.666
+          ],
+          "top_m": 0.9144
+        }
+      ],
+      "oven_support_gap_m": 0.004999980330467224,
+      "equipment_operation": {
+        "Kitchen refrigerator freezer 48 inch": {
+          "basis": "Published conservative whole-sweep reservation transformed by actual rigid installation.",
+          "swept_bounds_m": [
+            16.43168067932129,
+            3.250839948654175,
+            0.11599999666213989,
+            18.071680068969727,
+            3.930840015411377,
+            2.1335999965667725
+          ],
+          "operator_depth_m": 0.9002398071481821,
+          "operator_target_m": 0.8,
+          "operator_obstacle": "Kitchen cleanup worktop.003",
+          "closed_service_depth_m": 1.4971772933548664,
+          "published_service_target_m": 1.22
+        },
+        "Kitchen integrated dishwasher": {
+          "basis": "Published conservative whole-sweep reservation transformed by actual rigid installation.",
+          "swept_bounds_m": [
+            16.670320510864258,
+            5.806240081787109,
+            0.03999999910593033,
+            17.51531982421875,
+            6.4162397384643555,
+            0.8650000095367432
+          ],
+          "operator_depth_m": 0.8445204982257906,
+          "operator_target_m": 0.8,
+          "operator_obstacle": "Island pale stone worktop",
+          "closed_service_depth_m": 1.6127223302344476,
+          "published_service_target_m": 1.0
+        },
+        "Kitchen oven 30 inch": {
+          "basis": "Concept 720mm oven-door projection from actual closed outer face; no selected hinge specification.",
+          "swept_bounds_m": null,
+          "operator_depth_m": 0.8478912878656777,
+          "operator_target_m": 0.8,
+          "operator_obstacle": "Island pale stone worktop",
+          "closed_service_depth_m": 0,
+          "published_service_target_m": 0
+        }
+      }
+    },
+    "fixture_storage_access": {
+      "Kitchen cooking landing drawers": {
+        "clear_m": 1.5544799377564686,
+        "required_m": 1.3,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen cooking landing drawers.001": {
+        "clear_m": 1.554480069751662,
+        "required_m": 1.3,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen open oven housing": {
+        "clear_m": 1.5544799377564686,
+        "required_m": 1.52,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen east drawer storage": {
+        "clear_m": 1.6379698505997453,
+        "required_m": 1.3,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen east drawer storage.001": {
+        "clear_m": 1.6379698239533127,
+        "required_m": 1.3,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen accessible sink cabinet": {
+        "clear_m": 1.6379699449833538,
+        "required_m": 1.26,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Kitchen waste and recycling": {
+        "clear_m": 1.6379698852401532,
+        "required_m": 1.32,
+        "nearest_obstacle": "Island pale stone worktop"
+      },
+      "Island working drawers": {
+        "clear_m": 1.637969858382334,
+        "required_m": 1.3,
+        "nearest_obstacle": "Kitchen accessible sink cabinet"
+      },
+      "Island working drawers.001": {
+        "clear_m": 1.6127223115818765,
+        "required_m": 1.3,
+        "nearest_obstacle": "Kitchen integrated dishwasher"
+      },
+      "Island working drawers.002": {
+        "clear_m": 1.6127223115818765,
+        "required_m": 1.3,
+        "nearest_obstacle": "Kitchen integrated dishwasher"
+      },
+      "Island working drawers.003": {
+        "clear_m": 1.6379699505239387,
+        "required_m": 1.3,
+        "nearest_obstacle": "Kitchen east drawer storage"
+      },
+      "Pantry dry food shelves": {
+        "clear_m": 8.604504187470184,
+        "required_m": 0.8,
+        "nearest_obstacle": "Living linen sofa"
+      },
+      "Pantry west food shelves": {
+        "clear_m": 1.292352630092326,
+        "required_m": 0.8,
+        "nearest_obstacle": "Pantry appliance landing"
+      },
+      "Pantry west food shelves.001": {
+        "clear_m": 2.007107728925128,
+        "required_m": 0.8,
+        "nearest_obstacle": "pantry-east solid.001"
+      },
+      "Pantry small appliance drawers": {
+        "clear_m": 1.5864837146821174,
+        "required_m": 1.3,
+        "nearest_obstacle": "service-north solid.001"
+      },
+      "Bedroom 2 wardrobe": {
+        "clear_m": 1.1219683535669276,
+        "required_m": 1.1,
+        "nearest_obstacle": "secondary-divider solid"
+      },
+      "Bedroom 2 wardrobe.001": {
+        "clear_m": 1.1219684095244986,
+        "required_m": 1.1,
+        "nearest_obstacle": "secondary-divider solid"
+      },
+      "Bedroom 2 wardrobe.002": {
+        "clear_m": 1.121968465482098,
+        "required_m": 1.1,
+        "nearest_obstacle": "secondary-divider solid"
+      },
+      "Bedroom 3 wardrobe": {
+        "clear_m": 1.1219685813269678,
+        "required_m": 1.1,
+        "nearest_obstacle": "primary-south solid"
+      },
+      "Bedroom 3 wardrobe.001": {
+        "clear_m": 1.1219686372845388,
+        "required_m": 1.1,
+        "nearest_obstacle": "primary-south solid"
+      },
+      "Bedroom 3 wardrobe.002": {
+        "clear_m": 1.1219686932421382,
+        "required_m": 1.1,
+        "nearest_obstacle": "primary-south solid"
+      },
+      "Primary wardrobe": {
+        "clear_m": 3.948988635051549,
+        "required_m": 1.1,
+        "nearest_obstacle": "north opening 01 sill wall"
+      },
+      "Primary wardrobe.001": {
+        "clear_m": 3.948988691009127,
+        "required_m": 1.1,
+        "nearest_obstacle": "north opening 01 sill wall"
+      },
+      "Primary wardrobe.002": {
+        "clear_m": 1.1626079462860588,
+        "required_m": 1.1,
+        "nearest_obstacle": "Primary king bed"
+      },
+      "Primary wardrobe.003": {
+        "clear_m": 1.1626080022436014,
+        "required_m": 1.1,
+        "nearest_obstacle": "Primary king bed"
+      },
+      "Ensuite 02 vanity cabinet": {
+        "clear_m": 1.3544201617133087,
+        "required_m": 1.105,
+        "nearest_obstacle": "bedroom-gallery solid"
+      },
+      "Ensuite 02 vanity basin and mirror": {
+        "clear_m": 1.3544201617133087,
+        "required_m": 0.8,
+        "nearest_obstacle": "bedroom-gallery solid"
+      },
+      "Ensuite 02 toilet": {
+        "clear_m": 0.8068080544471741,
+        "required_m": 0.8,
+        "nearest_obstacle": "Ensuite 02 vanity stone worktop.001"
+      },
+      "Ensuite 02 shower": {
+        "clear_m": 1.3280321508646011,
+        "required_m": 0.8,
+        "nearest_obstacle": "south solid.001"
+      },
+      "Shared bath vanity cabinet": {
+        "clear_m": 1.6592196507634682,
+        "required_m": 1.105,
+        "nearest_obstacle": "shared-bath-east solid"
+      },
+      "Shared bath vanity basin and mirror": {
+        "clear_m": 1.6592196507634682,
+        "required_m": 0.8,
+        "nearest_obstacle": "shared-bath-east solid"
+      },
+      "Shared bath toilet": {
+        "clear_m": 0.8052840397693899,
+        "required_m": 0.8,
+        "nearest_obstacle": "Shared bath vanity stone worktop"
+      },
+      "Shared bath shower": {
+        "clear_m": 1.3234598603440872,
+        "required_m": 0.8,
+        "nearest_obstacle": "shared-bath-north pocket wall skin"
+      },
+      "Primary south vanity cabinet": {
+        "clear_m": 1.506819705924272,
+        "required_m": 1.105,
+        "nearest_obstacle": "primary-wc-west solid"
+      },
+      "Primary south vanity basin and mirror": {
+        "clear_m": 1.506819705924272,
+        "required_m": 0.8,
+        "nearest_obstacle": "primary-wc-west solid"
+      },
+      "Primary north vanity cabinet": {
+        "clear_m": 1.50681971125357,
+        "required_m": 1.105,
+        "nearest_obstacle": "primary-wc-west solid.001"
+      },
+      "Primary north vanity basin and mirror": {
+        "clear_m": 1.50681971125357,
+        "required_m": 0.8,
+        "nearest_obstacle": "primary-wc-west solid.001"
+      },
+      "Primary generous shower": {
+        "clear_m": 0.9372400840745172,
+        "required_m": 0.9,
+        "nearest_obstacle": "Primary separate bathtub"
+      },
+      "Primary enclosed toilet": {
+        "clear_m": 0.8442964553833008,
+        "required_m": 0.8,
+        "nearest_obstacle": "primary-bath-south solid.001"
+      },
+      "Laundry linen shelves": {
+        "clear_m": 1.136904239654541,
+        "required_m": 0.8,
+        "nearest_obstacle": "Laundry folding worktop"
+      },
+      "Laundry linen shelves.001": {
+        "clear_m": 1.136904239654541,
+        "required_m": 0.8,
+        "nearest_obstacle": "Laundry folding worktop"
+      },
+      "Gallery cleaning and vacuum cabinet": {
+        "clear_m": 7.751368664852578,
+        "required_m": 1.1,
+        "nearest_obstacle": "primary-south solid"
+      },
+      "Gallery spare bedding shelves": {
+        "clear_m": 8.078723776489085,
+        "required_m": 0.8,
+        "nearest_obstacle": "primary-south solid.001"
+      },
+      "Foyer coats and shoes": {
+        "clear_m": 1.6934690197424427,
+        "required_m": 1.1,
+        "nearest_obstacle": "shared-bath-east solid"
+      },
+      "Foyer coats and shoes.001": {
+        "clear_m": 1.6934689917636554,
+        "required_m": 1.1,
+        "nearest_obstacle": "shared-bath-east solid"
+      },
+      "Utility household bulk shelves": {
+        "clear_m": 1.2301727771846345,
+        "required_m": 0.8,
+        "nearest_obstacle": "Utility seasonal hanging storage"
+      },
+      "Utility household bulk shelves.001": {
+        "clear_m": 1.2301727758523384,
+        "required_m": 0.8,
+        "nearest_obstacle": "Utility seasonal hanging storage.001"
+      },
+      "Utility household bulk shelves.002": {
+        "clear_m": 1.230172774520156,
+        "required_m": 0.8,
+        "nearest_obstacle": "Utility maintenance cupboard"
+      },
+      "Utility seasonal hanging storage": {
+        "clear_m": 1.2301727533340454,
+        "required_m": 1.1,
+        "nearest_obstacle": "Utility household bulk shelves"
+      },
+      "Utility seasonal hanging storage.001": {
+        "clear_m": 1.2301727533340454,
+        "required_m": 1.1,
+        "nearest_obstacle": "Utility household bulk shelves.001"
+      },
+      "Utility maintenance cupboard": {
+        "clear_m": 1.2301727533340454,
+        "required_m": 1.1,
+        "nearest_obstacle": "Utility household bulk shelves.002"
+      },
+      "Living walnut storage drawers": {
+        "clear_m": 1.461515385995682,
+        "required_m": 1.3,
+        "nearest_obstacle": "Dining east chair"
+      },
+      "Living walnut storage drawers.001": {
+        "clear_m": 1.461515385995682,
+        "required_m": 1.3,
+        "nearest_obstacle": "Dining east chair"
+      }
+    },
+    "bathroom_fixture_collisions": [],
+    "arrival": {
+      "vehicle_bodies": [
+        [
+          0.8787999749183655,
+          -7.276800155639648,
+          -0.07999998331069946,
+          2.7788000106811523,
+          -2.476799964904785,
+          1.5199999809265137
+        ],
+        [
+          4.536400318145752,
+          -7.276800155639648,
+          -0.07999998331069946,
+          6.436399936676025,
+          -2.476799964904785,
+          1.5199999809265137
+        ]
+      ],
+      "side_door_reserves": [
+        [
+          0.12879997491836548,
+          -7.276800155639648,
+          -0.07999998331069946,
+          0.8787999749183655,
+          -2.476799964904785,
+          1.3199999332427979
+        ],
+        [
+          2.7788000106811523,
+          -7.276800155639648,
+          -0.07999998331069946,
+          3.5288000106811523,
+          -2.476799964904785,
+          1.3199999332427979
+        ],
+        [
+          3.7863998413085938,
+          -7.276800155639648,
+          -0.07999998331069946,
+          4.536399841308594,
+          -2.476799964904785,
+          1.3199999332427979
+        ],
+        [
+          6.436399936676025,
+          -7.276800155639648,
+          -0.07999998331069946,
+          7.186399936676025,
+          -2.476799964904785,
+          1.3199999332427979
+        ]
+      ],
+      "covered_walk": [
+        0.0,
+        -1.5240000486373901,
+        -0.039999961853027344,
+        12.496800422668457,
+        0.0,
+        2.059999942779541
+      ],
+      "collisions": [],
+      "basis": "Editable full-size concept vehicle/access reservations, not selected vehicle meshes or turning-path analysis."
+    },
+    "paired_door_states": [],
+    "architectural_door_states": {
+      "south opening 02": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 15,
+        "collisions": [],
+        "open_bounds_m": [
+          10.378837585449219,
+          0.07028518617153168,
+          0.01750004291534424,
+          10.812322616577148,
+          1.166707992553711,
+          2.5732998847961426
+        ]
+      },
+      "bedroom-gallery opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          5.18563985824585,
+          3.182420015335083,
+          0.01750004291534424,
+          6.0960001945495605,
+          3.2274200916290283,
+          2.4208998680114746
+        ]
+      },
+      "bedroom-gallery opening 02": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          5.18563985824585,
+          5.85561990737915,
+          0.01750004291534424,
+          6.0960001945495605,
+          5.900619983673096,
+          2.4208998680114746
+        ]
+      },
+      "bedroom-gallery opening 03": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          5.18563985824585,
+          7.449619770050049,
+          0.01750004291534424,
+          6.0960001945495605,
+          7.494619846343994,
+          2.4208998680114746
+        ]
+      },
+      "ensuite-2-west opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          3.0520401000976562,
+          1.0488200187683105,
+          0.01750004291534424,
+          3.962399959564209,
+          1.0938200950622559,
+          2.4208998680114746
+        ]
+      },
+      "primary-south opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          7.19674015045166,
+          8.59536075592041,
+          0.01750004291534424,
+          7.2417402267456055,
+          9.566679954528809,
+          2.4208998680114746
+        ]
+      },
+      "primary-east opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          3.417799949645996,
+          8.729780197143555,
+          0.01750004291534424,
+          4.267199993133545,
+          8.7747802734375,
+          2.4208998680114746
+        ]
+      },
+      "primary-bath-south opening 01": {
+        "mode": "Pocket translation sampled in eleven positions",
+        "samples": 11,
+        "collisions": [],
+        "open_bounds_m": [
+          4.353879928588867,
+          9.733599662780762,
+          0.014999985694885254,
+          5.268773555755615,
+          9.773600578308105,
+          2.413400173187256
+        ]
+      },
+      "primary-wc-west opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          6.5532002449035645,
+          9.948980331420898,
+          0.01750004291534424,
+          7.341639995574951,
+          9.993980407714844,
+          2.4208998680114746
+        ]
+      },
+      "shared-bath-north opening 01": {
+        "mode": "Pocket translation sampled in eleven positions",
+        "samples": 11,
+        "collisions": [],
+        "open_bounds_m": [
+          9.01159954071045,
+          2.4184000492095947,
+          0.014999985694885254,
+          9.986960411071777,
+          2.458400011062622,
+          2.413400173187256
+        ]
+      },
+      "pantry-east opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          14.935199737548828,
+          0.7440200448036194,
+          0.01750004291534424,
+          15.845560073852539,
+          0.7890200018882751,
+          2.4208998680114746
+        ]
+      },
+      "service-north opening 01": {
+        "mode": "Actual leaf geometry sampled every five degrees or finer",
+        "samples": 19,
+        "collisions": [],
+        "open_bounds_m": [
+          13.271300315856934,
+          1.5280399322509766,
+          0.01750004291534424,
+          13.316300392150879,
+          2.4384000301361084,
+          2.4208998680114746
+        ]
+      }
+    },
+    "sliding_glazing": {
+      "north opening 03": {
+        "open_width_m": 1.9062004082904747,
+        "translation_m": 1.9812004082904746,
+        "samples": 11,
+        "aperture_rays": 9,
+        "collisions": [],
+        "aperture_hits": [],
+        "limits": "Own guide-track/handle interfaces excluded; concept translation only, not roller or hardware certification."
+      },
+      "atrium-east": {
+        "open_width_m": 1.1441998311121842,
+        "translation_m": 1.219199831112184,
+        "samples": 11,
+        "aperture_rays": 9,
+        "collisions": [],
+        "aperture_hits": [],
+        "limits": "Own guide-track/handle interfaces excluded; concept translation only, not roller or hardware certification."
+      },
+      "atrium-north": {
+        "open_width_m": 1.144200299947853,
+        "translation_m": 1.219200299947853,
+        "samples": 11,
+        "aperture_rays": 9,
+        "collisions": [],
+        "aperture_hits": [],
+        "limits": "Own guide-track/handle interfaces excluded; concept translation only, not roller or hardware certification."
+      }
+    },
+    "bedroom_shades": {
+      "states": {
+        "Bedroom 02 south bay 1 privacy blind": {
+          "open_bounds_m": [
+            0.6155999898910522,
+            0.15619994699954987,
+            2.519399881362915,
+            1.9752000570297241,
+            0.286700040102005,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.6155999898910522,
+            0.15619994699954987,
+            0.838200032711029,
+            1.9752000570297241,
+            0.286700040102005,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.016999974715762978,
+            0.01699994376810121
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Bedroom 02 south bay 2 privacy blind": {
+          "open_bounds_m": [
+            1.9872000217437744,
+            0.15619994699954987,
+            2.519399881362915,
+            3.3468000888824463,
+            0.286700040102005,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            1.9872000217437744,
+            0.15619994699954987,
+            0.838200032711029,
+            3.3468000888824463,
+            0.286700040102005,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.016999974715762978,
+            0.01699994376810121
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Bedroom 02 west bay 1 privacy blind": {
+          "open_bounds_m": [
+            0.15619997680187225,
+            0.9204000234603882,
+            2.519399881362915,
+            0.2867000102996826,
+            1.9752000570297241,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619997680187225,
+            0.9204000234603882,
+            0.838200032711029,
+            0.2867000102996826,
+            1.9752000570297241,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.017000026935362955,
+            0.017000070983125948
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Bedroom 02 west bay 2 privacy blind": {
+          "open_bounds_m": [
+            0.15619997680187225,
+            1.9872000217437744,
+            2.519399881362915,
+            0.2867000102996826,
+            3.0420000553131104,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619997680187225,
+            1.9872000217437744,
+            0.838200032711029,
+            0.2867000102996826,
+            3.0420000553131104,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.016999967330717958,
+            0.016999951856887296
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Bedroom 03 west bay 1 privacy blind": {
+          "open_bounds_m": [
+            0.15619997680187225,
+            5.187600135803223,
+            2.519399881362915,
+            0.2867000102996826,
+            6.242400169372559,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619997680187225,
+            5.187600135803223,
+            0.838200032711029,
+            0.2867000102996826,
+            6.242400169372559,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.01700020574929706,
+            0.017000190275465954
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Bedroom 03 west bay 2 privacy blind": {
+          "open_bounds_m": [
+            0.15619997680187225,
+            6.25439977645874,
+            2.519399881362915,
+            0.2867000102996826,
+            7.309199810028076,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619997680187225,
+            6.25439977645874,
+            0.838200032711029,
+            0.2867000102996826,
+            7.309199810028076,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.016999728912138856,
+            0.01699971343830775
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Primary west bay 1 privacy blind": {
+          "open_bounds_m": [
+            0.15619996190071106,
+            10.369199752807617,
+            2.519399881362915,
+            0.2867000102996826,
+            11.576400756835938,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619996190071106,
+            10.369199752807617,
+            0.09144002199172974,
+            0.2867000102996826,
+            11.576400756835938,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.01700020566624616,
+            0.017000190192415943
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Primary west bay 2 privacy blind": {
+          "open_bounds_m": [
+            0.15619996190071106,
+            11.588399887084961,
+            2.519399881362915,
+            0.2867000102996826,
+            12.795600891113281,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.15619996190071106,
+            11.588399887084961,
+            0.09144002199172974,
+            0.2867000102996826,
+            12.795600891113281,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.01700020566624616,
+            0.017000190192415943
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Primary north bay 1 privacy blind": {
+          "open_bounds_m": [
+            0.615600049495697,
+            13.124500274658203,
+            2.519399881362915,
+            2.1275999546051025,
+            13.255000114440918,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            0.615600049495697,
+            13.124500274658203,
+            0.09144002199172974,
+            2.1275999546051025,
+            13.255000114440918,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.01699995994567871,
+            0.017000198364257812
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        },
+        "Primary north bay 2 privacy blind": {
+          "open_bounds_m": [
+            2.1396000385284424,
+            13.124500274658203,
+            2.519399881362915,
+            3.6516001224517822,
+            13.255000114440918,
+            2.8644001483917236
+          ],
+          "closed_bounds_m": [
+            2.1396000385284424,
+            13.124500274658203,
+            0.09144002199172974,
+            3.6516001224517822,
+            13.255000114440918,
+            2.8644001483917236
+          ],
+          "jamb_overlap_m": [
+            0.01699995994567871,
+            0.01699995994567871
+          ],
+          "beam_clearance_m": 0.031199932098388672,
+          "collisions": [],
+          "opaque_native_material": true,
+          "product_blackout_performance_tested": false
+        }
+      },
+      "neighbor_cassette_gaps": [
+        {
+          "pair": [
+            "Bedroom 02 south bay 2 privacy blind",
+            "Bedroom 02 south bay 1 privacy blind"
+          ],
+          "gap_m": 0.01199996462661801
+        },
+        {
+          "pair": [
+            "Bedroom 02 west bay 1 privacy blind",
+            "Bedroom 02 west bay 2 privacy blind"
+          ],
+          "gap_m": 0.011999960648888752
+        },
+        {
+          "pair": [
+            "Bedroom 02 west bay 2 privacy blind",
+            "Bedroom 03 west bay 1 privacy blind"
+          ],
+          "gap_m": 2.145600076381238
+        },
+        {
+          "pair": [
+            "Bedroom 03 west bay 1 privacy blind",
+            "Bedroom 03 west bay 2 privacy blind"
+          ],
+          "gap_m": 0.01199960297730751
+        },
+        {
+          "pair": [
+            "Bedroom 03 west bay 2 privacy blind",
+            "Primary west bay 1 privacy blind"
+          ],
+          "gap_m": 3.0599999427358275
+        },
+        {
+          "pair": [
+            "Primary west bay 1 privacy blind",
+            "Primary west bay 2 privacy blind"
+          ],
+          "gap_m": 0.011999134270467948
+        },
+        {
+          "pair": [
+            "Primary north bay 1 privacy blind",
+            "Primary north bay 2 privacy blind"
+          ],
+          "gap_m": 0.012000083923339844
+        }
+      ],
+      "limits": "Modeled opaque coverage and rigid endpoint fit only; no tested blackout, edge sealing, motor, fixing or product approval."
+    },
+    "indoor_routes": {
+      "body_diameter_m": 0.6,
+      "grid_m": 0.1,
+      "start_m": [
+        11.05,
+        1.35
+      ],
+      "obstacle_meshes": 1622,
+      "reachable_cells": 7260,
+      "courtyard_excluded": true,
+      "rooms": {
+        "bedroom-2": {
+          "reachable_standing_cells": 463,
+          "sample_point_m": [
+            2.95,
+            3.25
+          ]
+        },
+        "bath-2": {
+          "reachable_standing_cells": 96,
+          "sample_point_m": [
+            5.25,
+            0.55
+          ]
+        },
+        "bedroom-2-entry": {
+          "reachable_standing_cells": 86,
+          "sample_point_m": [
+            5.15,
+            3.5500000000000003
+          ]
+        },
+        "bedroom-3": {
+          "reachable_standing_cells": 266,
+          "sample_point_m": [
+            3.1500000000000004,
+            6.75
+          ]
+        },
+        "laundry": {
+          "reachable_standing_cells": 43,
+          "sample_point_m": [
+            4.8500000000000005,
+            5.8500000000000005
+          ]
+        },
+        "bedroom-3-entry": {
+          "reachable_standing_cells": 72,
+          "sample_point_m": [
+            4.3500000000000005,
+            7.75
+          ]
+        },
+        "gallery": {
+          "reachable_standing_cells": 677,
+          "sample_point_m": [
+            7.15,
+            2.95
+          ]
+        },
+        "primary": {
+          "reachable_standing_cells": 530,
+          "sample_point_m": [
+            1.35,
+            10.15
+          ]
+        },
+        "primary-vestibule": {
+          "reachable_standing_cells": 130,
+          "sample_point_m": [
+            5.050000000000001,
+            9.15
+          ]
+        },
+        "primary-bath": {
+          "reachable_standing_cells": 350,
+          "sample_point_m": [
+            6.25,
+            10.15
+          ]
+        },
+        "primary-wc": {
+          "reachable_standing_cells": 5,
+          "sample_point_m": [
+            7.15,
+            10.350000000000001
+          ]
+        },
+        "bath-3": {
+          "reachable_standing_cells": 173,
+          "sample_point_m": [
+            9.450000000000001,
+            1.55
+          ]
+        },
+        "entry": {
+          "reachable_standing_cells": 142,
+          "sample_point_m": [
+            10.450000000000001,
+            1.9500000000000002
+          ]
+        },
+        "cross-gallery": {
+          "reachable_standing_cells": 413,
+          "sample_point_m": [
+            9.35,
+            3.25
+          ]
+        },
+        "pantry": {
+          "reachable_standing_cells": 137,
+          "sample_point_m": [
+            14.450000000000001,
+            1.25
+          ]
+        },
+        "utility": {
+          "reachable_standing_cells": 89,
+          "sample_point_m": [
+            17.05,
+            1.05
+          ]
+        },
+        "kitchen": {
+          "reachable_standing_cells": 1397,
+          "sample_point_m": [
+            13.25,
+            3.95
+          ]
+        },
+        "dining": {
+          "reachable_standing_cells": 918,
+          "sample_point_m": [
+            11.850000000000001,
+            10.450000000000001
+          ]
+        },
+        "living": {
+          "reachable_standing_cells": 483,
+          "sample_point_m": [
+            17.55,
+            9.950000000000001
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Architectural concept checks, not product selection, engineering, permit or code approval.",
+    "Solid collision checks use evaluated meshes, surface intersections and sampled containment with 0.6mm broad-phase tolerance.",
+    "Legacy appliance and cabinet motion is a published conservative reservation, not an animated native mechanism. Hinged architectural leaves are sampled every five degrees; intermediate continuous collision is not certified.",
+    "Routes use a 600mm diameter body, 100mm grid and actual obstacle footprints; this is a concept reachability check, not accessibility certification.",
+    "Area is gross enclosed floor footprint including wall thickness, excluding courtyard, parking, canopy and terraces; not net usable floor area."
+  ],
+  "native_sha256": "ea9fb6d7b49622bcdfead03564806f0c6c3c813f5a6c44bb317ba8e9d2fb3eda",
+  "native_reopened": true,
   "asset_links": [
+    {
+      "relative_path": "//../../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/landscape/broad-canopy-oak/v001/broad-canopy-oak.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/charcoal-facade-panel/v001/charcoal-facade-panel.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/coastal-outdoor-lounge-chair/v001/coastal-outdoor-lounge-chair.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/hardware/door-lever-matte-black/v001/door-lever-matte-black.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/hardware/flush-pull-matte-black/v001/flush-pull-matte-black.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/front-loading-laundry-600/v001/front-loading-laundry-600.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-linen-king-bed/v001/oak-linen-king-bed.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-linen-queen-bed/v001/oak-linen-queen-bed.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-open-nightstand/v001/oak-open-nightstand.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/oak-writing-desk/v001/oak-writing-desk.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/olive-linen/v001/olive-linen.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/landscape/olive-tree/v001/olive-tree.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/openings/roller-blackout-42in-78in/v001/roller-blackout-42in-78in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/openings/roller-blackout-48in-107p4in/v001/roller-blackout-48in-107p4in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/openings/roller-blackout-54in-78in/v001/roller-blackout-54in-78in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/openings/roller-blackout-60in-107p4in/v001/roller-blackout-60in-107p4in.blend",
+      "resolved": true
+    },
     {
       "relative_path": "//../../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend",
       "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/landscape/sage-shrub/v002/sage-shrub.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/shower-tray-screen-1500x1200/v001/shower-tray-screen-1500x1200.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/shower-tray-screen-900/v001/shower-tray-screen-900.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/smoked-oak/v001/smoked-oak.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/fixtures/vanity-basin-mixer-mirror/v001/vanity-basin-mixer-mirror.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-cleaning-cabinet-2ft/v001/walnut-cleaning-cabinet-2ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-drawer-base-2ft/v001/walnut-drawer-base-2ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-oven-base-36in/v001/walnut-oven-base-36in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/walnut-panel-ready-dishwasher-24in/v001/walnut-panel-ready-dishwasher-24in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/appliances/walnut-panel-ready-fridge-48in/v001/walnut-panel-ready-fridge-48in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-pantry-shelf-2ft/v001/walnut-pantry-shelf-2ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-sink-base-36in/v001/walnut-sink-base-36in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-vanity-base-24in/v001/walnut-vanity-base-24in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-wardrobe-2ft/v001/walnut-wardrobe-2ft.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/cabinetry/walnut-waste-pullout-18in/v001/walnut-waste-pullout-18in.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/warm-walnut/v001/warm-walnut.blend",
+      "resolved": true
+    },
+    {
+      "relative_path": "//../../../library/materials/woven-oatmeal/v001/woven-oatmeal.blend",
+      "resolved": true
     }
   ],
-  "camera": "01 Kitchen hero",
-  "roof_present": true,
-  "render_dimensions": [
-    1600,
-    1100
-  ]
+  "linked_instances": {
+    "Kitchen cooking landing drawers": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          14.24940013885498,
+          2.5603199005126953,
+          0.0
+        ],
+        "max": [
+          14.859000205993652,
+          3.201669931411743,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen cooking landing drawers.001": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          15.773399353027344,
+          2.5603199005126953,
+          0.0
+        ],
+        "max": [
+          16.382999420166016,
+          3.201669931411743,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen open oven housing": {
+      "asset_id": "cabinetry/walnut-oven-base-36in",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          14.859000205993652,
+          2.560319662094116,
+          0.0
+        ],
+        "max": [
+          15.77340030670166,
+          3.169919967651367,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen oven 30 inch": {
+      "asset_id": "appliances/built-in-oven-30in",
+      "parts": 62,
+      "actual_world_bounds_m": {
+        "min": [
+          14.935200691223145,
+          2.5603199005126953,
+          0.13999998569488525
+        ],
+        "max": [
+          15.697199821472168,
+          3.232708692550659,
+          0.8511999845504761
+        ]
+      }
+    },
+    "Kitchen induction 36 inch": {
+      "asset_id": "appliances/induction-cooktop-36in",
+      "parts": 22,
+      "actual_world_bounds_m": {
+        "min": [
+          14.859000205993652,
+          2.5984199047088623,
+          0.8650223612785339
+        ],
+        "max": [
+          15.77340030670166,
+          3.1318199634552,
+          0.9165335297584534
+        ]
+      }
+    },
+    "Kitchen extraction hood 36 inch": {
+      "asset_id": "appliances/wall-hood-36in",
+      "parts": 25,
+      "actual_world_bounds_m": {
+        "min": [
+          14.859000205993652,
+          2.5399999618530273,
+          1.6897891759872437
+        ],
+        "max": [
+          15.77340030670166,
+          3.102914810180664,
+          2.4619998931884766
+        ]
+      }
+    },
+    "Kitchen refrigerator freezer 48 inch": {
+      "asset_id": "appliances/walnut-panel-ready-fridge-48in",
+      "parts": 18,
+      "actual_world_bounds_m": {
+        "min": [
+          16.642080307006836,
+          2.5298399925231934,
+          0.0
+        ],
+        "max": [
+          17.86128044128418,
+          3.333902597427368,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Kitchen east drawer storage": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          17.463769912719727,
+          7.162799835205078,
+          0.0
+        ],
+        "max": [
+          18.105119705200195,
+          7.77239990234375,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen east drawer storage.001": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          17.463769912719727,
+          7.77239990234375,
+          0.0
+        ],
+        "max": [
+          18.105119705200195,
+          8.381999969482422,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen accessible sink cabinet": {
+      "asset_id": "cabinetry/walnut-sink-base-36in",
+      "parts": 20,
+      "actual_world_bounds_m": {
+        "min": [
+          17.463769912719727,
+          4.876800060272217,
+          0.0
+        ],
+        "max": [
+          18.105119705200195,
+          5.791199684143066,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen integrated dishwasher": {
+      "asset_id": "appliances/walnut-panel-ready-dishwasher-24in",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          17.438522338867188,
+          5.8102498054504395,
+          0.0
+        ],
+        "max": [
+          18.105119705200195,
+          6.412230014801025,
+          0.8610600233078003
+        ]
+      }
+    },
+    "Kitchen waste and recycling": {
+      "asset_id": "cabinetry/walnut-waste-pullout-18in",
+      "parts": 26,
+      "actual_world_bounds_m": {
+        "min": [
+          17.463769912719727,
+          6.44651985168457,
+          0.0
+        ],
+        "max": [
+          18.105119705200195,
+          6.903719902038574,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Kitchen real bowl and mixer": {
+      "asset_id": "fixtures/kitchen-sink-mixer-650",
+      "parts": 10,
+      "actual_world_bounds_m": {
+        "min": [
+          17.51531982421875,
+          4.976500034332275,
+          0.696399986743927
+        ],
+        "max": [
+          18.067319869995117,
+          5.691500186920166,
+          1.0643999576568604
+        ]
+      }
+    },
+    "Island working drawers": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          15.16100025177002,
+          4.953000068664551,
+          0.0
+        ],
+        "max": [
+          15.802350044250488,
+          5.562600135803223,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Island working drawers.001": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          15.16100025177002,
+          5.562600135803223,
+          0.0
+        ],
+        "max": [
+          15.802350044250488,
+          6.1722002029418945,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Island working drawers.002": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          15.16100025177002,
+          6.1722002029418945,
+          0.0
+        ],
+        "max": [
+          15.802350044250488,
+          6.781800270080566,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Island working drawers.003": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          15.16100025177002,
+          6.781799793243408,
+          0.0
+        ],
+        "max": [
+          15.802350044250488,
+          7.39139986038208,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Courtyard facing walnut counter seat": {
+      "asset_id": "furniture/walnut-counter-stool",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          13.954328536987305,
+          4.971287727355957,
+          0.02347446233034134
+        ],
+        "max": [
+          14.37495231628418,
+          5.391911506652832,
+          0.649224042892456
+        ]
+      }
+    },
+    "Courtyard facing walnut counter seat.001": {
+      "asset_id": "furniture/walnut-counter-stool",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          13.954328536987305,
+          5.733287811279297,
+          0.02347446233034134
+        ],
+        "max": [
+          14.37495231628418,
+          6.153911590576172,
+          0.649224042892456
+        ]
+      }
+    },
+    "Courtyard facing walnut counter seat.002": {
+      "asset_id": "furniture/walnut-counter-stool",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          13.954328536987305,
+          6.495287895202637,
+          0.02347446233034134
+        ],
+        "max": [
+          14.37495231628418,
+          6.915911674499512,
+          0.649224042892456
+        ]
+      }
+    },
+    "Courtyard facing walnut counter seat.003": {
+      "asset_id": "furniture/walnut-counter-stool",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          13.954328536987305,
+          7.257287979125977,
+          0.02347446233034134
+        ],
+        "max": [
+          14.37495231628418,
+          7.677911758422852,
+          0.649224042892456
+        ]
+      }
+    },
+    "Pantry dry food shelves": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          13.274040222167969,
+          0.1584959775209427,
+          0.0
+        ],
+        "max": [
+          13.88364028930664,
+          0.4632960557937622,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Pantry west food shelves": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          12.569952011108398,
+          0.6096000075340271,
+          0.0
+        ],
+        "max": [
+          12.874752044677734,
+          1.2192000150680542,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Pantry west food shelves.001": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          12.569952011108398,
+          1.2344399690628052,
+          0.0
+        ],
+        "max": [
+          12.874752044677734,
+          1.844040036201477,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Pantry small appliance drawers": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          14.188440322875977,
+          0.1523999571800232,
+          0.0
+        ],
+        "max": [
+          14.798040390014648,
+          0.793749988079071,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Bedroom 2 queen bed": {
+      "asset_id": "furniture/oak-linen-queen-bed",
+      "parts": 11,
+      "actual_world_bounds_m": {
+        "min": [
+          1.1201399564743042,
+          0.5547360181808472,
+          0.0
+        ],
+        "max": [
+          2.8422598838806152,
+          2.7889199256896973,
+          1.1490960121154785
+        ]
+      }
+    },
+    "Bedroom 2 bedside table": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          0.5333999991416931,
+          0.4572000205516815,
+          0.0
+        ],
+        "max": [
+          1.0515600442886353,
+          0.9448800683021545,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Bedroom 2 bedside table.001": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          2.9108400344848633,
+          0.4572000205516815,
+          0.0
+        ],
+        "max": [
+          3.428999900817871,
+          0.9448800683021545,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Bedroom 2 wardrobe": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          4.053840160369873,
+          2.5146000385284424,
+          0.0
+        ],
+        "max": [
+          4.663440227508545,
+          3.1528513431549072,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 2 wardrobe.001": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          4.693920135498047,
+          2.5146000385284424,
+          0.0
+        ],
+        "max": [
+          5.303520202636719,
+          3.1528513431549072,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 2 wardrobe.002": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          5.334000110626221,
+          2.5146000385284424,
+          0.0
+        ],
+        "max": [
+          5.943600177764893,
+          3.1528513431549072,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 3 queen bed": {
+      "asset_id": "furniture/oak-linen-queen-bed",
+      "parts": 11,
+      "actual_world_bounds_m": {
+        "min": [
+          1.1201399564743042,
+          4.821936130523682,
+          0.0
+        ],
+        "max": [
+          2.8422598838806152,
+          7.056119918823242,
+          1.1490960121154785
+        ]
+      }
+    },
+    "Bedroom 3 bedside table": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          0.5333999991416931,
+          4.724399566650391,
+          0.0
+        ],
+        "max": [
+          1.0515600442886353,
+          5.212080001831055,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Bedroom 3 bedside table.001": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          2.9108400344848633,
+          4.724399566650391,
+          0.0
+        ],
+        "max": [
+          3.428999900817871,
+          5.212080001831055,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Bedroom 3 wardrobe": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          4.053840160369873,
+          6.781799793243408,
+          0.0
+        ],
+        "max": [
+          4.663440227508545,
+          7.420051097869873,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 3 wardrobe.001": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          4.693920135498047,
+          6.781799793243408,
+          0.0
+        ],
+        "max": [
+          5.303520202636719,
+          7.420051097869873,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 3 wardrobe.002": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          5.334000110626221,
+          6.781799793243408,
+          0.0
+        ],
+        "max": [
+          5.943600177764893,
+          7.420051097869873,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Primary king bed": {
+      "asset_id": "furniture/oak-linen-king-bed",
+      "parts": 11,
+      "actual_world_bounds_m": {
+        "min": [
+          1.8287999629974365,
+          10.4266996383667,
+          0.0
+        ],
+        "max": [
+          4.062983989715576,
+          12.555220603942871,
+          1.1490960121154785
+        ]
+      }
+    },
+    "Primary bedside table": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          3.352800130844116,
+          9.875519752502441,
+          0.0
+        ],
+        "max": [
+          3.840480089187622,
+          10.39367961883545,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Primary bedside table.001": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          3.352800130844116,
+          12.588239669799805,
+          0.0
+        ],
+        "max": [
+          3.840480089187622,
+          13.106399536132812,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Primary wardrobe": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          0.1828799694776535,
+          8.671560287475586,
+          0.0
+        ],
+        "max": [
+          0.7924799919128418,
+          9.30981159210205,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Primary wardrobe.001": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          0.8229600787162781,
+          8.671560287475586,
+          0.0
+        ],
+        "max": [
+          1.4325600862503052,
+          9.30981159210205,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Primary wardrobe.002": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          1.4630399942398071,
+          8.671560287475586,
+          0.0
+        ],
+        "max": [
+          2.0726401805877686,
+          9.30981159210205,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Primary wardrobe.003": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          2.1031198501586914,
+          8.671560287475586,
+          0.0
+        ],
+        "max": [
+          2.7127199172973633,
+          9.30981159210205,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Bedroom 3 quiet desk": {
+      "asset_id": "furniture/oak-writing-desk",
+      "parts": 4,
+      "actual_world_bounds_m": {
+        "min": [
+          0.17363996803760529,
+          6.71999979019165,
+          0.0
+        ],
+        "max": [
+          0.9236400723457336,
+          8.519999504089355,
+          0.7524999976158142
+        ]
+      }
+    },
+    "Bedroom 3 desk chair": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          0.8915399312973022,
+          7.353300094604492,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          1.4249399900436401,
+          7.886699676513672,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Ensuite 02 vanity cabinet": {
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "parts": 20,
+      "actual_world_bounds_m": {
+        "min": [
+          4.015739917755127,
+          0.1889759749174118,
+          0.0
+        ],
+        "max": [
+          4.657090187072754,
+          0.7985759973526001,
+          0.7200000286102295
+        ]
+      }
+    },
+    "Ensuite 02 vanity basin and mirror": {
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          4.015739917755127,
+          0.21877598762512207,
+          0.75
+        ],
+        "max": [
+          4.591839790344238,
+          0.768775999546051,
+          1.8849999904632568
+        ]
+      }
+    },
+    "Ensuite 02 toilet": {
+      "asset_id": "fixtures/toilet-elongated",
+      "parts": 12,
+      "actual_world_bounds_m": {
+        "min": [
+          4.2809157371521,
+          1.6245840787887573,
+          0.0
+        ],
+        "max": [
+          4.680203914642334,
+          2.382012128829956,
+          0.9899904727935791
+        ]
+      }
+    },
+    "Ensuite 02 shower": {
+      "asset_id": "fixtures/shower-tray-screen-900",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          5.119743824005127,
+          1.480432152748108,
+          0.0
+        ],
+        "max": [
+          6.0217437744140625,
+          2.384432077407837,
+          2.0500001907348633
+        ]
+      }
+    },
+    "Shared bath vanity cabinet": {
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "parts": 20,
+      "actual_world_bounds_m": {
+        "min": [
+          7.67333984375,
+          1.7373600006103516,
+          0.0
+        ],
+        "max": [
+          8.314689636230469,
+          2.3469600677490234,
+          0.7200000286102295
+        ]
+      }
+    },
+    "Shared bath vanity basin and mirror": {
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          7.67333984375,
+          1.7671600580215454,
+          0.75
+        ],
+        "max": [
+          8.249439239501953,
+          2.317160129547119,
+          1.8849999904632568
+        ]
+      }
+    },
+    "Shared bath toilet": {
+      "asset_id": "fixtures/toilet-elongated",
+      "parts": 12,
+      "actual_world_bounds_m": {
+        "min": [
+          8.334755897521973,
+          0.15544797480106354,
+          0.0
+        ],
+        "max": [
+          8.734044075012207,
+          0.9128760099411011,
+          0.9899904727935791
+        ]
+      }
+    },
+    "Shared bath shower": {
+      "asset_id": "fixtures/shower-tray-screen-900",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          9.074999809265137,
+          0.15760000050067902,
+          0.0
+        ],
+        "max": [
+          9.976999282836914,
+          1.0615999698638916,
+          2.0500001907348633
+        ]
+      }
+    },
+    "Primary south vanity cabinet": {
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "parts": 20,
+      "actual_world_bounds_m": {
+        "min": [
+          4.320539951324463,
+          9.845040321350098,
+          0.0
+        ],
+        "max": [
+          4.96189022064209,
+          10.45464038848877,
+          0.7200000286102295
+        ]
+      }
+    },
+    "Primary south vanity basin and mirror": {
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          4.320539951324463,
+          9.87484073638916,
+          0.75
+        ],
+        "max": [
+          4.896639823913574,
+          10.424839973449707,
+          1.8849999904632568
+        ]
+      }
+    },
+    "Primary north vanity cabinet": {
+      "asset_id": "cabinetry/walnut-vanity-base-24in",
+      "parts": 20,
+      "actual_world_bounds_m": {
+        "min": [
+          4.320539951324463,
+          10.759440422058105,
+          0.0
+        ],
+        "max": [
+          4.96189022064209,
+          11.369040489196777,
+          0.7200000286102295
+        ]
+      }
+    },
+    "Primary north vanity basin and mirror": {
+      "asset_id": "fixtures/vanity-basin-mixer-mirror",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          4.320539951324463,
+          10.789240837097168,
+          0.75
+        ],
+        "max": [
+          4.896639823913574,
+          11.339240074157715,
+          1.8849999904632568
+        ]
+      }
+    },
+    "Primary separate bathtub": {
+      "asset_id": "fixtures/freestanding-tub-72in",
+      "parts": 2,
+      "actual_world_bounds_m": {
+        "min": [
+          4.511039733886719,
+          11.414759635925293,
+          0.0
+        ],
+        "max": [
+          5.425439834594727,
+          13.243559837341309,
+          0.6096000075340271
+        ]
+      }
+    },
+    "Primary generous shower": {
+      "asset_id": "fixtures/shower-tray-screen-1500x1200",
+      "parts": 8,
+      "actual_world_bounds_m": {
+        "min": [
+          6.362679958343506,
+          11.746800422668457,
+          0.0
+        ],
+        "max": [
+          7.566679954528809,
+          13.248800277709961,
+          2.0500001907348633
+        ]
+      }
+    },
+    "Primary enclosed toilet": {
+      "asset_id": "fixtures/toilet-elongated",
+      "parts": 12,
+      "actual_world_bounds_m": {
+        "min": [
+          6.886955738067627,
+          10.651236534118652,
+          0.0
+        ],
+        "max": [
+          7.286243915557861,
+          11.408663749694824,
+          0.9899904727935791
+        ]
+      }
+    },
+    "Laundry washer": {
+      "asset_id": "appliances/front-loading-laundry-600",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          4.211040019989014,
+          4.450119972229004,
+          0.0
+        ],
+        "max": [
+          4.81104040145874,
+          5.172619819641113,
+          0.8500000238418579
+        ]
+      }
+    },
+    "Laundry heat pump dryer": {
+      "asset_id": "appliances/front-loading-laundry-600",
+      "parts": 6,
+      "actual_world_bounds_m": {
+        "min": [
+          4.841975688934326,
+          4.450119972229004,
+          0.0
+        ],
+        "max": [
+          5.441976070404053,
+          5.172619819641113,
+          0.8500000238418579
+        ]
+      }
+    },
+    "Laundry linen shelves": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          4.145279884338379,
+          6.3246002197265625,
+          0.0
+        ],
+        "max": [
+          4.754879951477051,
+          6.629400253295898,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Laundry linen shelves.001": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          4.770120143890381,
+          6.3246002197265625,
+          0.0
+        ],
+        "max": [
+          5.379720211029053,
+          6.629400253295898,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Gallery cleaning and vacuum cabinet": {
+      "asset_id": "cabinetry/walnut-cleaning-cabinet-2ft",
+      "parts": 15,
+      "actual_world_bounds_m": {
+        "min": [
+          6.2026801109313965,
+          0.1523999571800232,
+          0.0
+        ],
+        "max": [
+          6.812280178070068,
+          0.7906512022018433,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Gallery spare bedding shelves": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          6.873239994049072,
+          0.1584959775209427,
+          0.0
+        ],
+        "max": [
+          7.482840061187744,
+          0.4632960557937622,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Foyer coats and shoes": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          11.805209159851074,
+          0.30480000376701355,
+          0.0
+        ],
+        "max": [
+          12.443460464477539,
+          0.914400041103363,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Foyer coats and shoes.001": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          11.805209159851074,
+          0.9448800683021545,
+          0.0
+        ],
+        "max": [
+          12.443460464477539,
+          1.5544800758361816,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Foyer keys and bag landing": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          11.795760154724121,
+          1.722119927406311,
+          0.0
+        ],
+        "max": [
+          12.283440589904785,
+          2.2402799129486084,
+          0.5364480018615723
+        ]
+      }
+    },
+    "Utility household bulk shelves": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          15.087599754333496,
+          0.1584959775209427,
+          0.0
+        ],
+        "max": [
+          15.697199821472168,
+          0.4632960557937622,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Utility household bulk shelves.001": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          15.712440490722656,
+          0.1584959775209427,
+          0.0
+        ],
+        "max": [
+          16.322040557861328,
+          0.4632960557937622,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Utility household bulk shelves.002": {
+      "asset_id": "cabinetry/walnut-pantry-shelf-2ft",
+      "parts": 28,
+      "actual_world_bounds_m": {
+        "min": [
+          16.3372802734375,
+          0.1584959775209427,
+          0.0
+        ],
+        "max": [
+          16.946880340576172,
+          0.4632960557937622,
+          2.1335999965667725
+        ]
+      }
+    },
+    "Utility seasonal hanging storage": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          15.087599754333496,
+          1.6934688091278076,
+          0.0
+        ],
+        "max": [
+          15.697199821472168,
+          2.3317201137542725,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Utility seasonal hanging storage.001": {
+      "asset_id": "cabinetry/walnut-wardrobe-2ft",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          15.727680206298828,
+          1.6934688091278076,
+          0.0
+        ],
+        "max": [
+          16.3372802734375,
+          2.3317201137542725,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Utility maintenance cupboard": {
+      "asset_id": "cabinetry/walnut-cleaning-cabinet-2ft",
+      "parts": 15,
+      "actual_world_bounds_m": {
+        "min": [
+          16.367759704589844,
+          1.6934688091278076,
+          0.0
+        ],
+        "max": [
+          16.977359771728516,
+          2.3317201137542725,
+          2.4384000301361084
+        ]
+      }
+    },
+    "Dining table for six": {
+      "asset_id": "furniture/oak-dining-table-8ft",
+      "parts": 4,
+      "actual_world_bounds_m": {
+        "min": [
+          9.646920204162598,
+          9.814559936523438,
+          0.0
+        ],
+        "max": [
+          10.774680137634277,
+          12.252960205078125,
+          0.7620000243186951
+        ]
+      }
+    },
+    "Dining west chair": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          8.968740463256836,
+          10.035540580749512,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          9.502140045166016,
+          10.568940162658691,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Dining east chair": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          10.91946029663086,
+          10.035540580749512,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          11.452859878540039,
+          10.568940162658691,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Dining west chair.001": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          8.968740463256836,
+          10.767060279846191,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          9.502140045166016,
+          11.300459861755371,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Dining east chair.001": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          10.91946029663086,
+          10.767060279846191,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          11.452859878540039,
+          11.300459861755371,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Dining west chair.002": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          8.968740463256836,
+          11.498579978942871,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          9.502140045166016,
+          12.03197956085205,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Dining east chair.002": {
+      "asset_id": "furniture/oak-upholstered-dining-chair",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          10.91946029663086,
+          11.498579978942871,
+          -1.5133991837501526e-09
+        ],
+        "max": [
+          11.452859878540039,
+          12.03197956085205,
+          0.7780860066413879
+        ]
+      }
+    },
+    "Living linen sofa": {
+      "asset_id": "furniture/linen-three-seat-sofa",
+      "parts": 16,
+      "actual_world_bounds_m": {
+        "min": [
+          13.65503978729248,
+          9.067800521850586,
+          0.0
+        ],
+        "max": [
+          17.1297607421875,
+          10.134599685668945,
+          0.8253930807113647
+        ]
+      }
+    },
+    "Living rounded coffee table": {
+      "asset_id": "furniture/oak-rounded-coffee-table",
+      "parts": 3,
+      "actual_world_bounds_m": {
+        "min": [
+          14.554200172424316,
+          10.515600204467773,
+          0.0
+        ],
+        "max": [
+          16.230600357055664,
+          11.369039535522461,
+          0.38709598779678345
+        ]
+      }
+    },
+    "Living oak lounge chair": {
+      "asset_id": "furniture/coastal-outdoor-lounge-chair",
+      "parts": 34,
+      "actual_world_bounds_m": {
+        "min": [
+          13.807439804077148,
+          11.704319953918457,
+          0.0
+        ],
+        "max": [
+          14.721839904785156,
+          12.679680824279785,
+          0.8534400463104248
+        ]
+      }
+    },
+    "Living oak lounge chair.001": {
+      "asset_id": "furniture/coastal-outdoor-lounge-chair",
+      "parts": 34,
+      "actual_world_bounds_m": {
+        "min": [
+          16.06296157836914,
+          11.704319953918457,
+          0.0
+        ],
+        "max": [
+          16.977359771728516,
+          12.679680824279785,
+          0.8534400463104248
+        ]
+      }
+    },
+    "Living walnut storage drawers": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          12.922249794006348,
+          9.753600120544434,
+          0.0
+        ],
+        "max": [
+          13.563599586486816,
+          10.363200187683105,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Living walnut storage drawers.001": {
+      "asset_id": "cabinetry/walnut-drawer-base-2ft",
+      "parts": 43,
+      "actual_world_bounds_m": {
+        "min": [
+          12.922249794006348,
+          10.378439903259277,
+          0.0
+        ],
+        "max": [
+          13.563599586486816,
+          10.98803997039795,
+          0.8712199926376343
+        ]
+      }
+    },
+    "Living reading side table": {
+      "asset_id": "furniture/oak-open-nightstand",
+      "parts": 5,
+      "actual_world_bounds_m": {
+        "min": [
+          13.243559837341309,
+          11.932920455932617,
+          0.0
+        ],
+        "max": [
+          13.731240272521973,
+          12.451080322265625,
+          0.5364480018615723
+        ]
+      }
+    }
+  },
+  "gross_enclosed_area_sqft": 2400.000103126986,
+  "bedrooms": 3,
+  "bathrooms": 3
 }

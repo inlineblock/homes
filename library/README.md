@@ -252,3 +252,17 @@ The original **2.0 × 0.30 × 2.8 m** fixed screen uses 23 solid vertical cedar 
 The **300 × 400 mm hollow U-cover** is nonstructural, with 20 mm concept finish thickness and a separate cavity for host-owned steel. Only its 1 m stock length may scale along its length axis; its section stays fixed. The manifest records installation gaps, open ends and the wood-grain scaling limitation. Steel design, fire protection, fixings and weather performance remain unresolved.
 
 The **24 × 24 × 96-inch linen cabinet** preserves the shared wardrobe's closed doors and replaces the hanging rail with five storage shelves. Its [open-door native preview](cabinetry/oak-linen-cabinet-2ft/v001/open-preview.png) exposes the actual interior. Both assets have fresh native/link checks and inspected CPU previews; host installation remains a separate check in [Twin Gables Courtyard's asset schedule](../homes/eichler-twin-gables/assets/README.md).
+
+## Warm walnut cabinetry
+
+Atrium 01 adopts an original walnut finish and rigid, versioned derivatives of the existing cabinet and appliance families. The original oak and smoked-oak assets remain unchanged. Each new manifest records its source, dimensions, mounting, operating reservations and exact dependencies; actual native previews and fresh-link checks accompany the assets.
+
+| Walnut drawers | Plumbing-ready vanity | Paneled refrigeration |
+| --- | --- | --- |
+| [![Walnut drawer base](cabinetry/walnut-drawer-base-2ft/v001/preview.png)](cabinetry/walnut-drawer-base-2ft/v001/asset.json) | [![Walnut vanity base](cabinetry/walnut-vanity-base-24in/v001/preview.png)](cabinetry/walnut-vanity-base-24in/v001/asset.json) | [![Walnut refrigerator](appliances/walnut-panel-ready-fridge-48in/v001/preview.png)](appliances/walnut-panel-ready-fridge-48in/v001/asset.json) |
+
+The collection includes [warm walnut](materials/warm-walnut/v001/asset.json), [sink base](cabinetry/walnut-sink-base-36in/v001/asset.json), [oven base](cabinetry/walnut-oven-base-36in/v001/asset.json), [waste pullout](cabinetry/walnut-waste-pullout-18in/v001/asset.json), [pantry shelving](cabinetry/walnut-pantry-shelf-2ft/v001/asset.json), [wardrobe](cabinetry/walnut-wardrobe-2ft/v001/asset.json), [cleaning cabinet](cabinetry/walnut-cleaning-cabinet-2ft/v001/asset.json), and [paneled dishwasher](appliances/walnut-panel-ready-dishwasher-24in/v001/asset.json). The 720 mm-high vanity has an open plumbing cavity; the host provides the top, basin mounting and actual service routing. Regenerate with `tools/library/publish_atrium_walnut.py`. See [Atrium's adoption and host checks](../homes/atrium-01/assets/README.md).
+
+### Bedroom roller-blind states
+
+Atrium 01 links four original roller-blind sizes, each with separate open and closed native collections: [42 × 78 in](openings/roller-blackout-42in-78in/v001/asset.json), [54 × 78 in](openings/roller-blackout-54in-78in/v001/asset.json), [48 × 107.4 in](openings/roller-blackout-48in-107p4in/v001/asset.json), and [60 × 107.4 in](openings/roller-blackout-60in-107p4in/v001/asset.json). Dimensions describe the glazing bay pitch and full drop. Cassettes retain a 12 mm neighboring gap; opaque woven panels overlap the specified visible glass by 17 mm at each jamb. Native previews and fresh-link checks cover both states. These are generic privacy concepts, not certified blackout products; hosts verify mounting, obstructions, edge light and service access. Generator: `tools/library/publish_roller_blinds.py`.

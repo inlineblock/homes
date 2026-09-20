@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "appliances/walnut-panel-ready-fridge-48in",
+  "version": "v001",
+  "name": "Walnut panel ready fridge 48in",
+  "units": "meters",
+  "dimensions_m": [
+    1.2192000150680542,
+    0.8040624260902405,
+    2.1335999965667725
+  ],
+  "bounds_m": {
+    "min": [
+      -0.6096000075340271,
+      -0.42306241393089294,
+      0.0
+    ],
+    "max": [
+      0.6096000075340271,
+      0.38100001215934753,
+      2.1335999965667725
+    ]
+  },
+  "blender": {
+    "collection": "walnut-panel-ready-fridge-48in | v001"
+  },
+  "placement": {
+    "origin": "Floor center, local Z=0",
+    "front_direction": "-Y",
+    "up": "+Z",
+    "allowed_scaling": "Rigid translation/rotation only; no appliance scaling"
+  },
+  "nominal_size_inches": [
+    48,
+    30,
+    84
+  ],
+  "installation": {
+    "mounting": "Level floor, host anti-tip restraint and selected manufacturer installation required",
+    "clear_opening_concept_m": [
+      1.2312,
+      0.792,
+      2.146
+    ],
+    "opening_note": "Clear opening excludes projecting pulls; actual selected product determines gaps and ventilation.",
+    "countertop_note": "Refrigerator is a full-height unit.",
+    "operating_envelope": {
+      "modeled_state": "Closed double doors; generic integrated refrigeration envelope",
+      "motion": "Each 0.5913m leaf rotates 110 degrees about its outer vertical hinge; concept only.",
+      "hinges_m": [
+        [
+          -0.593,
+          -0.381,
+          0.116
+        ],
+        [
+          0.593,
+          -0.381,
+          0.116
+        ]
+      ],
+      "door_sweep_bounds_m": {
+        "min": [
+          -0.82,
+          -1.02,
+          0.116
+        ],
+        "max": [
+          0.82,
+          -0.34,
+          2.1336
+        ]
+      },
+      "service_front_clear_m": 1.22,
+      "side_hinge_relief_m_each": 0.22,
+      "basis": "Conservative rounded concept swept volume including pulls; unselected manufacturer may require more.",
+      "host_open_state_checked": false
+    },
+    "services": [
+      "Electrical supply and optional water connection; removable front grille; verify ventilation area and heat release."
+    ],
+    "host_integration_checked": false
+  },
+  "derived_from": {
+    "id": "appliances/smoked-oak-panel-ready-fridge-48in",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "5cdaa612d9fa43c5946ea0c27788359efa0d8a87525fadfaf6401161f14b5fed",
+    "geometry_signature_sha256": "a4632b3021d12cbef4bf0983004a229bdccea19fde7f37a3233e49ac06174cbb"
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    }
+  ],
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original concept geometry and materials by Homes project contributors; retain attribution. No manufacturer model or certified installation claim.",
+  "files": {
+    "blender": "walnut-panel-ready-fridge-48in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "limitations": "Original visualization appliance, closed-state modeled only. Operating envelopes are concept allowances, not manufacturer or code approval; host must verify actual open state and services.",
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  }
+}

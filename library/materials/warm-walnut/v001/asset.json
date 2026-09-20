@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "materials/warm-walnut",
+  "version": "v001",
+  "name": "Warm walnut | natural brown | v001",
+  "units": "meters",
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project contributors material; attribution Homes project contributors",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "shader": "tools/common/timber_materials.py",
+    "software": "4.5.14 LTS"
+  },
+  "derived_from": {
+    "id": "materials/smoked-oak",
+    "version": "v001",
+    "basis": "Existing physical-meter grain algorithm with distinct warm walnut linear-color palette; no claim of an exact natural specimen."
+  },
+  "dependencies": [],
+  "files": {
+    "blender": "warm-walnut.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "material": "Warm walnut | natural brown | v001"
+  },
+  "placement": "Material-only asset; host supplies geometry and Timber meters UV mapping.",
+  "texture_scale": {
+    "uv_map": "Timber meters",
+    "across_grain_m": 0.025,
+    "fiber_width_m": 0.003,
+    "mapping": "common.timber_materials.grain_uv maps physical mesh meters along longest local axis; apply transforms before authoring UVs."
+  },
+  "palette_linear": {
+    "dark": [
+      0.025,
+      0.01,
+      0.004
+    ],
+    "mid": [
+      0.07,
+      0.028,
+      0.012
+    ],
+    "light": [
+      0.16,
+      0.07,
+      0.026
+    ]
+  },
+  "variation": "Per-object seeded grain phase and .72\u20131.24 tone variation; matte finish. No external texture files.",
+  "host_integration": {
+    "checked": false,
+    "required": "Inspect sunny/shaded host views and grain direction on vertical and horizontal members."
+  }
+}

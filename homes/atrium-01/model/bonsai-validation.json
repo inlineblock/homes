@@ -1,6 +1,55 @@
 {
   "bonsai_import": "passed",
   "schema": "IFC4",
-  "imported_mesh_objects": 251,
-  "project": "Atrium 01 | Concept"
+  "imported_mesh_objects": 738,
+  "project": "Atrium 01 | Concept",
+  "source_blend_sha256": "ea9fb6d7b49622bcdfead03564806f0c6c3c813f5a6c44bb317ba8e9d2fb3eda",
+  "ifc_sha256": "9b09cfde362e45c492c67b0831977af4443bd168691af17342e76ba11813f2aa",
+  "blender_version": "4.5.14 LTS",
+  "ifcopenshell_version": "0.8.5",
+  "saved_preferences_unchanged": true,
+  "geometry_units": "meters",
+  "actual_import_geometry": [
+    {
+      "class": "IfcSlab",
+      "name": "Enclosed floor 1",
+      "bounds_m": [
+        0.0,
+        0.0,
+        -0.1599999964237213,
+        18.288000106811523,
+        3.962399959564209,
+        0.0
+      ],
+      "maximum_import_bounds_error_m": 0.0
+    },
+    {
+      "class": "IfcWall",
+      "name": "bedroom-gallery solid",
+      "bounds_m": [
+        6.042660236358643,
+        0.0,
+        0.0,
+        6.1493401527404785,
+        3.169919967651367,
+        3.2004001140594482
+      ],
+      "maximum_import_bounds_error_m": 0.0
+    },
+    {
+      "class": "IfcRoof",
+      "name": "Carport roof",
+      "bounds_m": [
+        0.0,
+        -8.229599952697754,
+        3.2004001140594482,
+        7.315199851989746,
+        -1.5240001678466797,
+        3.400399923324585
+      ],
+      "maximum_import_bounds_error_m": 0.0
+    }
+  ],
+  "runtime": "Explicit process-local runtime",
+  "limits": "Fresh IFC import and selected actual mesh bounds checked; classified concept geometry is not complete semantic BIM or engineered construction documentation."
 }

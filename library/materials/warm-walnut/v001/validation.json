@@ -1,0 +1,30 @@
+{
+  "fresh_native_reopen": true,
+  "physical_meter_grain": true,
+  "external_textures": false,
+  "host_installation_checked": false,
+  "blend_sha256": "2630910fe3f497ce0d53d1b63a15da21a43e2d4f542ffabdbe8701f944d73295",
+  "preview_rendered": true,
+  "preview_sha256": "9bc9538e3790edba664866dddc681e887d019a0bbc3a937cdd4d7311ff3a1e1c",
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key, fill and world"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png"
+    ],
+    "notes": "Reviewed actual neutral-lit native sample: warm-brown walnut, varied grain phase, visible physical-scale grain follows both vertical boards and horizontal member; matte response.",
+    "host_integration_checked": false
+  }
+}

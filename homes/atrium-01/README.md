@@ -1,94 +1,131 @@
 # Atrium 01
 
-![Atrium 01 — Imagegen photographic study](outputs/images/photo-hero.png)
+![Sheltered arrival, continuous low timber roof and separate two-car carport — AI photographic study](outputs/images/photo-hero.png)
 
-*Photorealistic AI study of the design. [Source and prompt](outputs/photo-study.md).*
+*Sheltered arrival, continuous low timber roof and separate two-car carport — AI photographic study.*
 
-A kitchen-led, modern Eichler-inspired concept: three bedrooms, three bathrooms, exposed fir beams, walnut cabinetry, pale stone, and a planted central atrium.
+A low post-and-beam home wrapped around a planted open-air courtyard. A sheltered entrance leads directly to both wings indoors. The walnut-and-sage kitchen has a generous working aisle, with separate pantry and laundry rooms. Three bedrooms have dedicated clothes storage; the primary suite includes a double vanity, separate tub and shower, and enclosed toilet room.
 
-### Kitchen: walnut, stone and sage tile
+**3 bedrooms · 3 full baths · 2,400 sq ft gross enclosed.** The 60 × 44 ft footprint excludes a 16 × 15 ft open court from enclosed area. Walls are included; the separate carport, canopies and terraces are excluded. The finished ceiling is 10 ft 6 in, with 9 ft 6 in beneath main beams and deliberate 9 ft service ceilings.
 
-![Kitchen: walnut, stone and sage tile](outputs/images/01-kitchen.png)
+[Blender model](model/atrium-01.blend) · [Classified concept IFC](model/atrium-01.ifc) · [Design intent](design-intent.md) · [Program](program.md) · [Review](design-review.md) · [Shared assets](assets/README.md)
 
-### Kitchen toward the courtyard
+## Plans and spatial layout
 
-![Kitchen toward the courtyard](outputs/images/02-kitchen-courtyard.png)
+![Dimensioned furnished main-floor concept plan](outputs/plans/floor-plan.png)
 
-### Front arrival and complete building
+*Dimensioned furnished main-floor concept plan.*
 
-![Front arrival and complete building](outputs/images/03-exterior.png)
+[Dimensioned PDF](outputs/plans/floor-plan.pdf) · [Editable SVG](outputs/plans/floor-plan.svg)
 
-### Rear glazing and east terrace
+![Illustrative site: parking, covered approach, terrace and drainage reservations](outputs/plans/site-plan.png)
 
-![Rear glazing and east terrace](outputs/images/05-rear-terrace.png)
+*Illustrative site: parking, covered approach, terrace and drainage reservations.*
 
-### West side, roof and open atrium
+[PDF](outputs/plans/site-plan.pdf) · [SVG](outputs/plans/site-plan.svg)
 
-![West side, roof and open atrium](outputs/images/06-west-roof-atrium.png)
+![Roof-off furnished layout and enclosed circulation around the atrium](outputs/images/04-cutaway.png)
 
-### Crowning feature: the open-air atrium
+*Roof-off furnished layout and enclosed circulation around the atrium.*
 
-![Crowning feature: the open-air atrium](outputs/images/07-open-air-atrium.png)
+## Photographic tour
 
-### Whole-home cutaway
+AI photographic studies derived from the native views. [Prompts and provenance](outputs/photo-study.md).
 
-![Whole-home cutaway](outputs/images/04-cutaway.png)
+![Garden elevation, supported canopy and outdoor living terrace — AI photographic study](outputs/images/photo-rear.png)
 
-### Single-level floor plan
+*Garden elevation, supported canopy and outdoor living terrace — AI photographic study.*
 
-![Single-level floor plan](outputs/plans/floor-plan.png)
+![Roof, open courtyard and parking relationship — AI photographic study](outputs/images/photo-roof.png)
 
-[Dimensioned PDF](outputs/plans/floor-plan.pdf) · [Vector plan](outputs/plans/floor-plan.svg)
+*Roof, open courtyard and parking relationship — AI photographic study.*
 
-**[Browse all current images and plans](outputs/README.md)** — one current set; previous revisions live in Git.
+![Walnut-and-sage kitchen with pale stone island and generous working aisle — AI photographic study](outputs/images/photo-interior.png)
 
-## Open and review
+*Walnut-and-sage kitchen with pale stone island and generous working aisle — AI photographic study.*
 
-- `model/atrium-01.blend`: furnished, editable presentation scene, with seven named cameras and a separately switchable roof collection.
-- `model/atrium-01.ifc`: IFC4 architectural export for Bonsai, with walls, glazing, structure, slabs, roof, selected kitchen elements, and labeled planning zones.
-- `outputs/plans/floor-plan.pdf`: dimensioned concept plan; SVG and PNG versions sit alongside it.
-- `outputs/images/`: two complementary kitchen interiors, front arrival, rear terrace, west roof/site, open-air atrium and whole-home cutaway views, rendered directly from the model.
+![Walnut-and-sage kitchen with pale stone island and generous working aisle](outputs/images/01-kitchen.png)
 
-The 60 × 44 ft outer footprint encloses 2,640 sq ft before subtracting the 16 × 15 ft atrium. The resulting **2,400 sq ft is gross enclosed area including wall thickness**, excluding the open courtyard and exterior terraces. There is no garage. Room dimensions on the plan describe planning zones, not finished clear dimensions or an appraised area schedule.
+*Walnut-and-sage kitchen with pale stone island and generous working aisle.*
 
-The entry leads through the open-air atrium, an intentional part of this concept. A covered circulation alternative can be developed in a later revision.
+![Kitchen looking into the open planted courtyard — AI photographic study](outputs/images/photo-kitchen-courtyard.png)
 
-## Kitchen
+*Kitchen looking into the open planted courtyard — AI photographic study.*
 
-The approximately 10 × 4 ft island seats four and faces the atrium. The south wall combines cooking, original fluted sage tile, and a walnut display shelf. The east run contains the refrigerator, stacked ovens, prep drawers, and an undermount sink. A pantry/laundry room sits beside the entry.
+![Kitchen looking into the open planted courtyard](outputs/images/02-kitchen-courtyard.png)
 
-The tile is linked from `../../library/materials/sage-fluted-tile/v001/`. Keep the repository together when moving it. Other furnishings are currently project-local modeled placeholders; they can be promoted into versioned library assets when reused.
+*Kitchen looking into the open planted courtyard.*
 
-## Software and regeneration
+![Open-air planted atrium with actual sliding-door access — AI photographic study](outputs/images/photo-atrium.png)
 
-Created with Blender **4.5.14 LTS**, Bonsai **0.8.5**, and Cycles using the Mac's Metal GPU. Bonsai is installed as a Blender extension. `project.json` records the model and asset dependencies.
+*Open-air planted atrium with actual sliding-door access — AI photographic study.*
 
-From the repository root, using your Blender executable:
+![Garden-facing living room and dining connection — AI photographic study](outputs/images/photo-living.png)
 
-```sh
-blender --background --python tools/atrium01/build.py -- --render
-blender --background homes/atrium-01/model/atrium-01.blend --python tools/atrium01/export_ifc.py --python tools/atrium01/verify.py --python tools/atrium01/render_views.py
-python3 tools/atrium01/draw_plan.py
-# Camera-only gallery update, preserving an existing furnished model:
-blender --background homes/atrium-01/model/atrium-01.blend --python tools/atrium01/gallery_cameras.py
-blender --background homes/atrium-01/model/atrium-01.blend --python tools/atrium01/gallery_cameras.py -- --verify-gallery
-```
+*Garden-facing living room and dining connection — AI photographic study.*
 
-The drawing tool requires `reportlab`. On this Mac the Blender executable is `/Applications/Blender.app/Contents/MacOS/Blender`; the drawing dependency is available in Codex's bundled Python. Building again overwrites the named model/drawing outputs. The view renderer writes drafts to ignored `outputs/work/`; inspect them before copying to the stable `outputs/images/` filenames. Optional view filenames after `--` select a subset; `ATRIUM_PERCENT` and `ATRIUM_SAMPLES` allow draft settings. The gallery finals use 1,800 × 1,238 pixels and 96 Cycles samples, matching the existing secondary views. Commit or copy any manual edits first. Existing versioned tile library files are reused rather than overwritten.
+![Garden-facing living room and dining connection](outputs/images/08-living.png)
 
-## Verified scope and limits
+*Garden-facing living room and dining connection.*
 
-The presentation scene reopens with relative library links. The exported IFC passes an IFC4 schema check; validation summaries are saved in `model/`. Rendered views and the PDF plan were visually reviewed.
+![Primary bedroom with full-size bed and dedicated wardrobes — AI photographic study](outputs/images/photo-primary-bedroom.png)
 
-The IFC was also imported successfully using the installed Bonsai extension, yielding 251 mesh objects. That receipt is in `model/bonsai-validation.json`.
+*Primary bedroom with full-size bed and dedicated wardrobes — AI photographic study.*
 
-This is an architectural **concept**, not a permit or construction set. Structure, drainage, foundations, insulation assemblies, mechanical systems, electrical/plumbing routes, local code, and site conditions are unresolved. The landscape is illustrative. Appliances and fixtures are schematic, with no manufacturer specification.
+![Primary bedroom with full-size bed and dedicated wardrobes](outputs/images/09-primary-bedroom.png)
 
-The IFC is a classified geometric architectural export, not a fully parametric authoring model: wall segments represent the apertures geometrically, planning spaces are labeled zones without calculated boundaries, and most furniture and detailed materials remain in Blender. It is separate from the presentation scene; edits do not synchronize automatically.
+*Primary bedroom with full-size bed and dedicated wardrobes.*
 
+![Double vanity and freestanding tub in the primary bathing suite — AI photographic study](outputs/images/photo-primary-bath.png)
 
-## Gallery review scope
+*Double vanity and freestanding tub in the primary bathing suite — AI photographic study.*
 
-The gallery expansion changes cameras only. Native reopening and a non-camera scene fingerprint confirm that mesh geometry, object transforms, light settings and material assignments stayed unchanged. The new exterior views retain the full roof and structure; only the explicitly labeled cutaway hides them during rendering. The dedicated atrium view shows the original planted courtyard and surrounding glass. See [gallery validation](model/gallery-validation.json) and [review notes](design-review.md).
+![Double vanity and freestanding tub in the primary bathing suite](outputs/images/10-primary-bath.png)
 
-This older concept has not been redesigned against the newer whole-home program standard. Parking/road access, comprehensive bedroom storage, sheltered atrium circulation and engineered roof drainage remain unresolved; additional photography does not resolve them.
+*Double vanity and freestanding tub in the primary bathing suite.*
+
+![Separate tub and generous shower in the primary bathroom — AI photographic study](outputs/images/photo-tub-shower.png)
+
+*Separate tub and generous shower in the primary bathroom — AI photographic study.*
+
+![Separate tub and generous shower in the primary bathroom](outputs/images/13-tub-and-shower.png)
+
+*Separate tub and generous shower in the primary bathroom.*
+
+## Native model views
+
+Direct renders of the editable model, including the sheltered arrival and courtyard.
+
+![Sheltered arrival, continuous low timber roof and separate two-car carport](outputs/images/03-exterior.png)
+
+*Sheltered arrival, continuous low timber roof and separate two-car carport.*
+
+![Garden elevation, supported canopy and outdoor living terrace](outputs/images/05-rear-terrace.png)
+
+*Garden elevation, supported canopy and outdoor living terrace.*
+
+![Roof, open courtyard and parking relationship](outputs/images/06-west-roof-atrium.png)
+
+*Roof, open courtyard and parking relationship.*
+
+![Human-scale covered entrance and timber door](outputs/images/11-sheltered-arrival.png)
+
+*Human-scale covered entrance and timber door.*
+
+![Foyer with coat storage and direct indoor courtyard gallery](outputs/images/12-entry-gallery.png)
+
+*Foyer with coat storage and direct indoor courtyard gallery.*
+
+![Open-air planted atrium with actual sliding-door access](outputs/images/07-open-air-atrium.png)
+
+*Open-air planted atrium with actual sliding-door access.*
+
+![Primary bedroom with the same opaque roller blinds fully lowered](outputs/images/14-primary-privacy.png)
+
+*Primary bedroom with the same opaque roller blinds fully lowered.*
+
+## Reproduce and review
+
+See the [authoring instructions](../../tools/atrium01/AGENTS.md) and [review record](design-review.md) for tested commands and evidence. Blender 4.5.14 LTS; IFC4 and Bonsai verification are recorded separately.
+
+This is a coordinated architectural concept on illustrative terrain. Site conditions, structural sizing, waterproofing, drainage capacity, products, MEP performance and local approvals require professional development. It is not permit or construction documentation.

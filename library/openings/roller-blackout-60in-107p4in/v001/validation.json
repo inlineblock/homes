@@ -1,0 +1,79 @@
+{
+  "fresh_native_reopen": true,
+  "relative_dependencies_resolved": true,
+  "same_fixed_hardware_both_states": true,
+  "fixed_geometry_signature_sha256": "9593015d52c19f324c12dcf8e298c13e181551a0188be4df64199411fcb37f7c",
+  "state_checks": {
+    "open": {
+      "fresh_link": true,
+      "bounds_m": {
+        "min": [
+          -0.7559999823570251,
+          -0.060499999672174454,
+          -0.30000001192092896
+        ],
+        "max": [
+          0.7559999823570251,
+          0.07000000029802322,
+          0.04500000178813934
+        ]
+      },
+      "physical_opaque_panel": true,
+      "panel_width_m": 1.4739999771118164,
+      "jamb_overlap_for_declared_host_frame_m": 0.01699998855590823,
+      "cassette_gap_at_nominal_pitch_m": 0.012000035285949728,
+      "bottom_rail_bottom_z_m": -0.3,
+      "preview_exists": true,
+      "preview_sha256": "38e62bb3a3be4e5d46cf65acb5a9399a4fcccd72f8ef6c35a8ae7feeb60e6362"
+    },
+    "closed": {
+      "fresh_link": true,
+      "bounds_m": {
+        "min": [
+          -0.7559999823570251,
+          -0.060499999672174454,
+          -2.7279601097106934
+        ],
+        "max": [
+          0.7559999823570251,
+          0.07000000029802322,
+          0.04500000178813934
+        ]
+      },
+      "physical_opaque_panel": true,
+      "panel_width_m": 1.4739999771118164,
+      "jamb_overlap_for_declared_host_frame_m": 0.01699998855590823,
+      "cassette_gap_at_nominal_pitch_m": 0.012000035285949728,
+      "bottom_rail_bottom_z_m": -2.72796,
+      "preview_exists": true,
+      "preview_sha256": "32b8a404a907dc567d2a1c99f0691ab084f499c920f66134ef2d62c801b2757f"
+    }
+  },
+  "blend_sha256": "03a7fd4d87cf3b3ff0cd5fa41f516fe808cce6ea74417c1cf75c7802274acbc5",
+  "fabric_dependency_sha256": "f1831f58b7dd8d568a6e21a12fad49a71ffa78d68b4557f019cbd26a855db47f",
+  "host_installation_checked": false,
+  "blackout_performance_tested": false,
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "threads": 4,
+    "samples": 20,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key/fill and gray backdrop"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png",
+      "preview-closed.png"
+    ],
+    "notes": "Inspected both actual native previews: intact slim cassette/end caps, continuous opaque oatmeal fabric, captured weighted bottom rail, distinct short-open and full-closed geometry. No floating or intersecting parts seen. Header mounting and framed-bay coverage remain host checks.",
+    "host_integration_checked": false
+  }
+}

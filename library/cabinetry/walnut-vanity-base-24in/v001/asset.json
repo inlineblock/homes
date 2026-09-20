@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-vanity-base-24in",
+  "version": "v001",
+  "name": "Walnut vanity base 24in",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6413500010967255,
+    0.7200000286102295
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.3365499973297119,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      0.7200000286102295
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.6096,
+    0.6096,
+    0.72
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-supported 24in-wide,24in-deep,720mm-high vanity base. Host supplies30mm top for750mm top datum and approximately885mm vessel rim.",
+    "operating_envelope": {
+      "modeled_state": "Two closed editable doors",
+      "basis": "Original reduced-width door geometry; unselected hardware",
+      "intended_open_angle_degrees": 100,
+      "reserve_front_door_projection_m": 0.305,
+      "reserve_front_depth_including_operator_m": 1.105,
+      "host_open_state_checked": false
+    },
+    "service_requirements": [
+      "Open interior and rear preserve basin waste, trap and supply access; host must cut waste/faucet holes in top and avoid drawer boxes behind plumbing.",
+      "Host supplies wet-area finish suitability, wall anchorage and actual product coordination."
+    ],
+    "compatible_fixture": {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "mounting_z_m": 0.75,
+      "mounting_center_y_m": -0.0427,
+      "basis": "Fixture mirror rear .3475m behind origin aligns with cabinet rear .3048m; host wall/backing and countertop depth remain coordinated."
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../../hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-sink-base-36in",
+    "version": "v001",
+    "basis": "Existing 36in sink-base geometry narrowed to24in and lowered to720mm by resizing individual case/door boards. Hardware retained rigid; sink cavity and open rear retained. Physical-meter walnut finish added.",
+    "parent_blend_sha256": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c",
+    "parent_geometry_signature_sha256": "8981ddad4233261a9e45d9df6572cdd4156313696cf5cf1f83e3a04982af3d58",
+    "geometry_signature_sha256": "3807ed550be027fddddc39a2082c6674eaefedf0b1489b0195293b5f5aff990d",
+    "removed_objects": []
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "walnut-vanity-base-24in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "interior_preview": "preview-interior.png"
+  },
+  "blender": {
+    "collection": "walnut-vanity-base-24in | v001"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  },
+  "description": "Walnut two-door vanity base with open plumbing cavity; host supplies countertop and vessel basin."
+}

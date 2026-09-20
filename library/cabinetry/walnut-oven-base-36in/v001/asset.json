@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-oven-base-36in",
+  "version": "v001",
+  "name": "Walnut oven base 36in",
+  "units": "meters",
+  "dimensions_m": [
+    0.914400041103363,
+    0.6096000075340271,
+    0.8712199926376343
+  ],
+  "bounds_m": {
+    "min": [
+      -0.4572000205516815,
+      -0.30480000376701355,
+      0.0
+    ],
+    "max": [
+      0.4572000205516815,
+      0.30480000376701355,
+      0.8712199926376343
+    ]
+  },
+  "nominal_carcass_dimensions_m": [
+    0.9144,
+    0.6096,
+    0.87122
+  ],
+  "placement": {
+    "origin": "Floor-center of nominal footprint at Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid placement and Z rotation only; no scaling."
+  },
+  "installation": {
+    "mounting": "Floor-supported; countertop excluded. Nominal 24-inch depth and 34.3-inch height. Finish front plane Y=-0.3048m; rear Y=+0.3048m. Bronze pulls project a further 31.75mm where used.",
+    "operating_envelope": {
+      "modeled_state": "Closed; components individually editable, not animated",
+      "basis": "Original concept geometry and conservative planning allowance; no manufacturer selected",
+      "host_open_state_checked": false,
+      "reserve_front_operator_depth_m": 0.8,
+      "intended_open_angle_degrees": 90,
+      "reserve_front_door_projection_m": 0.72,
+      "reserve_front_depth_including_operator_m": 1.52
+    },
+    "service_requirements": [
+      "Host supplies countertop, wall fixing, selected product tolerances and access; these are concept modules, not construction specifications.",
+      "Do not fill the opening with a solid cabinet or drawer. Confirm support load and product-specific ventilation/heat separation before specification."
+    ],
+    "appliance_opening_m": {
+      "width": 0.774,
+      "front_height": 0.72,
+      "effective_height_under_support_rails": 0.71822,
+      "bottom_z": 0.135,
+      "front_top_z": 0.855,
+      "support_rail_bottom_z": 0.85322,
+      "rear": "Open; service and ventilation space must continue beyond cabinet"
+    },
+    "compatible_fixture": {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "suggested_origin_m": [
+        0,
+        0,
+        0.14
+      ],
+      "front_direction": "-Y"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    }
+  ],
+  "derived_from": {
+    "id": "cabinetry/smoked-oak-oven-base-36in",
+    "version": "v001",
+    "basis": "Identical measured native geometry, interfaces and hardware; wood changed to linked warm-walnut/v001 with physical-meter grain UVs.",
+    "parent_blend_sha256": "57ac289f30e397a465670be279317b7cc6b822d514bd4d6936ec3eac2e05cdce",
+    "geometry_signature_sha256": "189b931f2cfa019f4a37a390be7e44c33a56f484c780516d0b56ddf0996a1215"
+  },
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original Homes project geometry; attribution Homes project contributors",
+  "files": {
+    "blender": "walnut-oven-base-36in.blend",
+    "preview": "preview.png",
+    "validation": "validation.json"
+  },
+  "blender": {
+    "collection": "walnut-oven-base-36in | v001"
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  }
+}

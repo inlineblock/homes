@@ -1,0 +1,659 @@
+{
+  "home": "atrium-01",
+  "failures": [],
+  "native_model_reopened": true,
+  "relative_libraries": 53,
+  "measured_enclosed_floor_sqft": 2400.0,
+  "modeled_beds": 3,
+  "asset_use_schedule": "homes/atrium-01/assets/README.md",
+  "asset_adoption": {
+    "home": "atrium-01",
+    "native_library_pins_match_manifest": true,
+    "asset_versions": 53,
+    "assets": [
+      {
+        "id": "appliances/built-in-oven-30in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen oven 30 inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/front-loading-laundry-600",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Laundry washer",
+          "Laundry heat pump dryer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/induction-cooktop-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen induction 36 inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/wall-hood-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen extraction hood 36 inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/walnut-panel-ready-dishwasher-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen integrated dishwasher"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "appliances/walnut-panel-ready-fridge-48in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen refrigerator freezer 48 inch"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-cleaning-cabinet-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Gallery cleaning and vacuum cabinet",
+          "Utility maintenance cupboard"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-drawer-base-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 11,
+        "examples": [
+          "Kitchen cooking landing drawers",
+          "Kitchen cooking landing drawers.001",
+          "Kitchen east drawer storage",
+          "Kitchen east drawer storage.001",
+          "Island working drawers",
+          "Island working drawers.001",
+          "Island working drawers.002",
+          "Island working drawers.003"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-oven-base-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen open oven housing"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-pantry-shelf-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 9,
+        "examples": [
+          "Pantry dry food shelves",
+          "Pantry west food shelves",
+          "Pantry west food shelves.001",
+          "Laundry linen shelves",
+          "Laundry linen shelves.001",
+          "Gallery spare bedding shelves",
+          "Utility household bulk shelves",
+          "Utility household bulk shelves.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-sink-base-36in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen accessible sink cabinet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-vanity-base-24in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Ensuite 02 vanity cabinet",
+          "Shared bath vanity cabinet",
+          "Primary south vanity cabinet",
+          "Primary north vanity cabinet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-wardrobe-2ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 14,
+        "examples": [
+          "Bedroom 2 wardrobe",
+          "Bedroom 2 wardrobe.001",
+          "Bedroom 2 wardrobe.002",
+          "Bedroom 3 wardrobe",
+          "Bedroom 3 wardrobe.001",
+          "Bedroom 3 wardrobe.002",
+          "Primary wardrobe",
+          "Primary wardrobe.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "cabinetry/walnut-waste-pullout-18in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen waste and recycling"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/freestanding-tub-72in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary separate bathtub"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/kitchen-sink-mixer-650",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Kitchen real bowl and mixer"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/lighting-recessed-downlight-3in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 14,
+        "examples": [
+          "Entry recessed light",
+          "Cross gallery recessed light",
+          "Bedroom 02 recessed light",
+          "Bedroom 03 recessed light",
+          "Primary bedroom recessed light",
+          "Ensuite 02 recessed light",
+          "Shared bath recessed light",
+          "Laundry recessed light"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/opal-globe-pendant",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 6,
+        "examples": [
+          "Island opal globe",
+          "Island opal globe.001",
+          "Island opal globe.002",
+          "Dining opal globe",
+          "Dining opal globe.001",
+          "Living reading globe"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-1500x1200",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary generous shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/shower-tray-screen-900",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Ensuite 02 shower",
+          "Shared bath shower"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/toilet-elongated",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 3,
+        "examples": [
+          "Ensuite 02 toilet",
+          "Shared bath toilet",
+          "Primary enclosed toilet"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "fixtures/vanity-basin-mixer-mirror",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Ensuite 02 vanity basin and mirror",
+          "Shared bath vanity basin and mirror",
+          "Primary south vanity basin and mirror",
+          "Primary north vanity basin and mirror"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/coastal-outdoor-lounge-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Living oak lounge chair",
+          "Living oak lounge chair.001"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/linen-three-seat-sofa",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living linen sofa"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-dining-table-8ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Dining table for six"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-king-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Primary king bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-linen-queen-bed",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "Bedroom 2 queen bed",
+          "Bedroom 3 queen bed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-open-nightstand",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 8,
+        "examples": [
+          "Bedroom 2 bedside table",
+          "Bedroom 2 bedside table.001",
+          "Bedroom 3 bedside table",
+          "Bedroom 3 bedside table.001",
+          "Primary bedside table",
+          "Primary bedside table.001",
+          "Foyer keys and bag landing",
+          "Living reading side table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-rounded-coffee-table",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Living rounded coffee table"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-upholstered-dining-chair",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 7,
+        "examples": [
+          "Bedroom 3 desk chair",
+          "Dining west chair",
+          "Dining east chair",
+          "Dining west chair.001",
+          "Dining east chair.001",
+          "Dining west chair.002",
+          "Dining east chair.002"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/oak-writing-desk",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 1,
+        "examples": [
+          "Bedroom 3 quiet desk"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "furniture/walnut-counter-stool",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Courtyard facing walnut counter seat",
+          "Courtyard facing walnut counter seat.001",
+          "Courtyard facing walnut counter seat.002",
+          "Courtyard facing walnut counter seat.003"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "hardware/bar-pull-satin-bronze",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "cabinetry/walnut-drawer-base-2ft",
+          "cabinetry/walnut-sink-base-36in",
+          "cabinetry/walnut-vanity-base-24in",
+          "cabinetry/walnut-waste-pullout-18in"
+        ]
+      },
+      {
+        "id": "hardware/door-lever-matte-black",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 20,
+        "examples": [
+          "south opening 02 lever -1",
+          "south opening 02 lever +1",
+          "bedroom-gallery opening 01 lever -1",
+          "bedroom-gallery opening 01 lever +1",
+          "bedroom-gallery opening 02 lever -1",
+          "bedroom-gallery opening 02 lever +1",
+          "bedroom-gallery opening 03 lever -1",
+          "bedroom-gallery opening 03 lever +1"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "hardware/flush-pull-matte-black",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 2,
+        "examples": [
+          "primary-bath-south opening 01 pocket pull",
+          "shared-bath-north opening 01 pocket pull"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/broad-canopy-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 7,
+        "examples": [
+          "Garden canopy 1",
+          "Garden canopy 2",
+          "Garden canopy 3",
+          "Garden canopy 4",
+          "Garden canopy 5",
+          "Garden canopy 6",
+          "Garden canopy 7"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/olive-tree",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 5,
+        "examples": [
+          "Courtyard olive specimen",
+          "Garden olive 1",
+          "Garden olive 2",
+          "Garden olive 3",
+          "Garden olive 4"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/ornamental-grass-clump",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 31,
+        "examples": [
+          "Court grass",
+          "Court grass.001",
+          "Court grass.002",
+          "Layered garden planting 2",
+          "Layered garden planting 3",
+          "Layered garden planting 5",
+          "Layered garden planting 6",
+          "Layered garden planting 8"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "landscape/sage-shrub",
+        "version": "v002",
+        "direct_placements_or_material_assignments": 15,
+        "examples": [
+          "Layered garden planting 1",
+          "Layered garden planting 4",
+          "Layered garden planting 7",
+          "Layered garden planting 10",
+          "Layered garden planting 13",
+          "Layered garden planting 16",
+          "Layered garden planting 19",
+          "Layered garden planting 22"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/charcoal-facade-panel",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 268,
+        "examples": [
+          "south opening 01 bay 01 jamb (material)",
+          "south opening 01 bay 01 jamb.001 (material)",
+          "south opening 01 bay 01 rail (material)",
+          "south opening 01 bay 01 rail.001 (material)",
+          "south opening 01 bay 02 jamb (material)",
+          "south opening 01 bay 02 jamb.001 (material)",
+          "south opening 01 bay 02 rail (material)",
+          "south opening 01 bay 02 rail.001 (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-honed-limestone",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 46,
+        "examples": [
+          "Enclosed floor 1 (material)",
+          "Enclosed floor 2 (material)",
+          "Enclosed floor 3 (material)",
+          "Enclosed floor 4 (material)",
+          "Courtyard pale gravel and paving base (material)",
+          "Two car parking pad (material)",
+          "Drive approach (material)",
+          "Covered arrival walkway (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/coastal-white-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/linen-three-seat-sofa",
+          "furniture/oak-dining-table-8ft",
+          "furniture/oak-linen-king-bed",
+          "furniture/oak-linen-queen-bed",
+          "furniture/oak-open-nightstand",
+          "furniture/oak-rounded-coffee-table",
+          "furniture/oak-upholstered-dining-chair",
+          "furniture/oak-writing-desk"
+        ]
+      },
+      {
+        "id": "materials/olive-linen",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair"
+        ]
+      },
+      {
+        "id": "materials/sage-fluted-tile",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 112,
+        "examples": [
+          "Sage fluted cooking tile",
+          "Sage fluted cooking tile.001",
+          "Sage fluted cooking tile.002",
+          "Sage fluted cooking tile.003",
+          "Sage fluted cooking tile.004",
+          "Sage fluted cooking tile.005",
+          "Sage fluted cooking tile.006",
+          "Sage fluted cooking tile.007"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/smoked-oak",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair"
+        ]
+      },
+      {
+        "id": "materials/warm-limestone-plaster",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 366,
+        "examples": [
+          "south solid (material)",
+          "south opening 01 sill wall (material)",
+          "south opening 01 header wall (material)",
+          "south solid.001 (material)",
+          "south opening 02 header wall (material)",
+          "south solid.002 (material)",
+          "south opening 03 sill wall (material)",
+          "south opening 03 header wall (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/warm-walnut",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 119,
+        "examples": [
+          "south opening 02 walnut door leaf (material)",
+          "south opening 02 timber jamb (material)",
+          "south opening 02 timber jamb.001 (material)",
+          "south opening 02 timber head (material)",
+          "bedroom-gallery opening 01 walnut door leaf (material)",
+          "bedroom-gallery opening 01 timber jamb (material)",
+          "bedroom-gallery opening 01 timber jamb.001 (material)",
+          "bedroom-gallery opening 01 timber head (material)"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "materials/woven-oatmeal",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 0,
+        "examples": [],
+        "adopted_parent_dependencies": [
+          "furniture/coastal-outdoor-lounge-chair",
+          "openings/roller-blackout-42in-78in",
+          "openings/roller-blackout-48in-107p4in",
+          "openings/roller-blackout-54in-78in",
+          "openings/roller-blackout-60in-107p4in"
+        ]
+      },
+      {
+        "id": "openings/roller-blackout-42in-78in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 8,
+        "examples": [
+          "Bedroom 02 west bay 1 privacy blind open",
+          "Bedroom 02 west bay 1 privacy blind closed",
+          "Bedroom 02 west bay 2 privacy blind open",
+          "Bedroom 02 west bay 2 privacy blind closed",
+          "Bedroom 03 west bay 1 privacy blind open",
+          "Bedroom 03 west bay 1 privacy blind closed",
+          "Bedroom 03 west bay 2 privacy blind open",
+          "Bedroom 03 west bay 2 privacy blind closed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "openings/roller-blackout-48in-107p4in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Primary west bay 1 privacy blind open",
+          "Primary west bay 1 privacy blind closed",
+          "Primary west bay 2 privacy blind open",
+          "Primary west bay 2 privacy blind closed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "openings/roller-blackout-54in-78in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Bedroom 02 south bay 1 privacy blind open",
+          "Bedroom 02 south bay 1 privacy blind closed",
+          "Bedroom 02 south bay 2 privacy blind open",
+          "Bedroom 02 south bay 2 privacy blind closed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "openings/roller-blackout-60in-107p4in",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 4,
+        "examples": [
+          "Primary north bay 1 privacy blind open",
+          "Primary north bay 1 privacy blind closed",
+          "Primary north bay 2 privacy blind open",
+          "Primary north bay 2 privacy blind closed"
+        ],
+        "adopted_parent_dependencies": []
+      },
+      {
+        "id": "surfaces/honed-limestone-paver-4ft",
+        "version": "v001",
+        "direct_placements_or_material_assignments": 32,
+        "examples": [
+          "Court south paver 0",
+          "Court south paver 1",
+          "Court south paver 2",
+          "Court south paver 3",
+          "Court east paver 0",
+          "Court east paver 1",
+          "Arrival shared paver 0",
+          "Arrival shared paver 1"
+        ],
+        "adopted_parent_dependencies": []
+      }
+    ]
+  }
+}

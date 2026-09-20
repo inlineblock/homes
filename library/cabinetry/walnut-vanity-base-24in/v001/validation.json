@@ -1,0 +1,51 @@
+{
+  "fresh_native_reopen": true,
+  "fresh_link": true,
+  "relative_dependencies_resolved": true,
+  "geometry_identical_to_parent": false,
+  "geometry_signature_sha256": "3807ed550be027fddddc39a2082c6674eaefedf0b1489b0195293b5f5aff990d",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6413500010967255,
+    0.7200000286102295
+  ],
+  "floor_contact": true,
+  "wood_meshes_with_meter_uv": 8,
+  "linked_walnut_material": true,
+  "host_installation_checked": false,
+  "operating_state": "Closed or open shelf; no host motion verification",
+  "blend_sha256": "556cd6bf6ce6e35154e24e81281b51281530dbee8310adf3c5de656f41b4d430",
+  "preview_settings": {
+    "renderer": "Cycles CPU",
+    "samples": 24,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "AgX",
+    "look": "Medium High Contrast",
+    "exposure": 0,
+    "lights": "Neutral key, fill and world"
+  },
+  "preview_rendered": true,
+  "preview_sha256": "7a283327ba112916a52cbeaf8c1ed0e2a43ea4934a6ee19c66acd6124da825e4",
+  "dependency_sha256": {
+    "materials/warm-walnut/v001": "2630910fe3f497ce0d53d1b63a15da21a43e2d4f542ffabdbe8701f944d73295",
+    "hardware/bar-pull-satin-bronze/v001": "b8f002f4b5ffc139fad0c3fbaf6b5af41b0b509f22b18d00aac543fabab09147"
+  },
+  "interior_review_preview": {
+    "file": "preview-interior.png",
+    "sha256": "f93eb6acd544afceae89052d3f38ac96f771b5b1c3f736c85a43380ae2336061",
+    "mode": "Front doors and handles hidden for cavity inspection; not modeled open-door operation"
+  },
+  "visual_review": {
+    "status": "accepted_as_reusable_concept_asset",
+    "reviewer": "atrium_site_assets_review",
+    "reviewed_files": [
+      "preview.png",
+      "preview-interior.png"
+    ],
+    "notes": "Reviewed actual native preview: consistent warm-brown walnut, grain direction aligned with individual boards, intact geometry and hardware, clean base contact. Reviewed separate interior preview: open plumbing cavity and rear service access; no concealed drawers.",
+    "host_integration_checked": false
+  }
+}

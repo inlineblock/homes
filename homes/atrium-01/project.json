@@ -7,37 +7,313 @@
   "display_units": "feet-inches",
   "target_area_sqft": 2400,
   "gross_enclosed_area_sqft": 2400,
-  "area_basis": "60 x 44 - 16 x 15 = 2400 sqft; includes walls, excludes atrium",
+  "area_basis": "60 x 44 - 16 x 15 = 2400 sqft; gross including walls; excludes open atrium, carport, canopy and terraces",
   "bedrooms": 3,
   "bathrooms": 3,
+  "storeys": [
+    {
+      "name": "Ground floor",
+      "elevation_m": 0
+    }
+  ],
   "software": {
-    "blender": "4.5.14 LTS",
-    "bonsai": "0.8.5"
+    "blender": "4.5.14 LTS"
+  },
+  "ceiling_heights_m": {
+    "finished_ceiling_plane": 3.2004,
+    "lowest_main_beam": 2.8956,
+    "service_ceiling": 2.7432000000000003
   },
   "asset_dependencies": [
+    {
+      "id": "appliances/built-in-oven-30in",
+      "version": "v001",
+      "path": "../../library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend"
+    },
+    {
+      "id": "appliances/front-loading-laundry-600",
+      "version": "v001",
+      "path": "../../library/appliances/front-loading-laundry-600/v001/front-loading-laundry-600.blend"
+    },
+    {
+      "id": "appliances/induction-cooktop-36in",
+      "version": "v001",
+      "path": "../../library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend"
+    },
+    {
+      "id": "appliances/wall-hood-36in",
+      "version": "v001",
+      "path": "../../library/appliances/wall-hood-36in/v001/wall-hood-36in.blend"
+    },
+    {
+      "id": "appliances/walnut-panel-ready-dishwasher-24in",
+      "version": "v001",
+      "path": "../../library/appliances/walnut-panel-ready-dishwasher-24in/v001/walnut-panel-ready-dishwasher-24in.blend"
+    },
+    {
+      "id": "appliances/walnut-panel-ready-fridge-48in",
+      "version": "v001",
+      "path": "../../library/appliances/walnut-panel-ready-fridge-48in/v001/walnut-panel-ready-fridge-48in.blend"
+    },
+    {
+      "id": "cabinetry/walnut-cleaning-cabinet-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-cleaning-cabinet-2ft/v001/walnut-cleaning-cabinet-2ft.blend"
+    },
+    {
+      "id": "cabinetry/walnut-drawer-base-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-drawer-base-2ft/v001/walnut-drawer-base-2ft.blend"
+    },
+    {
+      "id": "cabinetry/walnut-oven-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-oven-base-36in/v001/walnut-oven-base-36in.blend"
+    },
+    {
+      "id": "cabinetry/walnut-pantry-shelf-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-pantry-shelf-2ft/v001/walnut-pantry-shelf-2ft.blend"
+    },
+    {
+      "id": "cabinetry/walnut-sink-base-36in",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-sink-base-36in/v001/walnut-sink-base-36in.blend"
+    },
+    {
+      "id": "cabinetry/walnut-vanity-base-24in",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-vanity-base-24in/v001/walnut-vanity-base-24in.blend"
+    },
+    {
+      "id": "cabinetry/walnut-wardrobe-2ft",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-wardrobe-2ft/v001/walnut-wardrobe-2ft.blend"
+    },
+    {
+      "id": "cabinetry/walnut-waste-pullout-18in",
+      "version": "v001",
+      "path": "../../library/cabinetry/walnut-waste-pullout-18in/v001/walnut-waste-pullout-18in.blend"
+    },
+    {
+      "id": "fixtures/freestanding-tub-72in",
+      "version": "v001",
+      "path": "../../library/fixtures/freestanding-tub-72in/v001/freestanding-tub-72in.blend"
+    },
+    {
+      "id": "fixtures/kitchen-sink-mixer-650",
+      "version": "v002",
+      "path": "../../library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend"
+    },
+    {
+      "id": "fixtures/lighting-recessed-downlight-3in",
+      "version": "v001",
+      "path": "../../library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend"
+    },
+    {
+      "id": "fixtures/opal-globe-pendant",
+      "version": "v001",
+      "path": "../../library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-1500x1200",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-1500x1200/v001/shower-tray-screen-1500x1200.blend"
+    },
+    {
+      "id": "fixtures/shower-tray-screen-900",
+      "version": "v001",
+      "path": "../../library/fixtures/shower-tray-screen-900/v001/shower-tray-screen-900.blend"
+    },
+    {
+      "id": "fixtures/toilet-elongated",
+      "version": "v001",
+      "path": "../../library/fixtures/toilet-elongated/v001/toilet-elongated.blend"
+    },
+    {
+      "id": "fixtures/vanity-basin-mixer-mirror",
+      "version": "v001",
+      "path": "../../library/fixtures/vanity-basin-mixer-mirror/v001/vanity-basin-mixer-mirror.blend"
+    },
+    {
+      "id": "furniture/coastal-outdoor-lounge-chair",
+      "version": "v001",
+      "path": "../../library/furniture/coastal-outdoor-lounge-chair/v001/coastal-outdoor-lounge-chair.blend"
+    },
+    {
+      "id": "furniture/linen-three-seat-sofa",
+      "version": "v001",
+      "path": "../../library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend"
+    },
+    {
+      "id": "furniture/oak-dining-table-8ft",
+      "version": "v001",
+      "path": "../../library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend"
+    },
+    {
+      "id": "furniture/oak-linen-king-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-king-bed/v001/oak-linen-king-bed.blend"
+    },
+    {
+      "id": "furniture/oak-linen-queen-bed",
+      "version": "v001",
+      "path": "../../library/furniture/oak-linen-queen-bed/v001/oak-linen-queen-bed.blend"
+    },
+    {
+      "id": "furniture/oak-open-nightstand",
+      "version": "v001",
+      "path": "../../library/furniture/oak-open-nightstand/v001/oak-open-nightstand.blend"
+    },
+    {
+      "id": "furniture/oak-rounded-coffee-table",
+      "version": "v001",
+      "path": "../../library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend"
+    },
+    {
+      "id": "furniture/oak-upholstered-dining-chair",
+      "version": "v001",
+      "path": "../../library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend"
+    },
+    {
+      "id": "furniture/oak-writing-desk",
+      "version": "v001",
+      "path": "../../library/furniture/oak-writing-desk/v001/oak-writing-desk.blend"
+    },
+    {
+      "id": "furniture/walnut-counter-stool",
+      "version": "v001",
+      "path": "../../library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend"
+    },
+    {
+      "id": "hardware/bar-pull-satin-bronze",
+      "version": "v001",
+      "path": "../../library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend"
+    },
+    {
+      "id": "hardware/door-lever-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/door-lever-matte-black/v001/door-lever-matte-black.blend"
+    },
+    {
+      "id": "hardware/flush-pull-matte-black",
+      "version": "v001",
+      "path": "../../library/hardware/flush-pull-matte-black/v001/flush-pull-matte-black.blend"
+    },
+    {
+      "id": "landscape/broad-canopy-oak",
+      "version": "v001",
+      "path": "../../library/landscape/broad-canopy-oak/v001/broad-canopy-oak.blend"
+    },
+    {
+      "id": "landscape/olive-tree",
+      "version": "v001",
+      "path": "../../library/landscape/olive-tree/v001/olive-tree.blend"
+    },
+    {
+      "id": "landscape/ornamental-grass-clump",
+      "version": "v002",
+      "path": "../../library/landscape/ornamental-grass-clump/v002/ornamental-grass-clump.blend"
+    },
+    {
+      "id": "landscape/sage-shrub",
+      "version": "v002",
+      "path": "../../library/landscape/sage-shrub/v002/sage-shrub.blend"
+    },
+    {
+      "id": "materials/charcoal-facade-panel",
+      "version": "v001",
+      "path": "../../library/materials/charcoal-facade-panel/v001/charcoal-facade-panel.blend"
+    },
+    {
+      "id": "materials/coastal-honed-limestone",
+      "version": "v001",
+      "path": "../../library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend"
+    },
+    {
+      "id": "materials/coastal-white-oak",
+      "version": "v001",
+      "path": "../../library/materials/coastal-white-oak/v001/coastal-white-oak.blend"
+    },
+    {
+      "id": "materials/olive-linen",
+      "version": "v001",
+      "path": "../../library/materials/olive-linen/v001/olive-linen.blend"
+    },
     {
       "id": "materials/sage-fluted-tile",
       "version": "v001",
       "path": "../../library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend"
+    },
+    {
+      "id": "materials/smoked-oak",
+      "version": "v001",
+      "path": "../../library/materials/smoked-oak/v001/smoked-oak.blend"
+    },
+    {
+      "id": "materials/warm-limestone-plaster",
+      "version": "v001",
+      "path": "../../library/materials/warm-limestone-plaster/v001/warm-limestone-plaster.blend"
+    },
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../library/materials/warm-walnut/v001/warm-walnut.blend"
+    },
+    {
+      "id": "materials/woven-oatmeal",
+      "version": "v001",
+      "path": "../../library/materials/woven-oatmeal/v001/woven-oatmeal.blend"
+    },
+    {
+      "id": "openings/roller-blackout-42in-78in",
+      "version": "v001",
+      "path": "../../library/openings/roller-blackout-42in-78in/v001/roller-blackout-42in-78in.blend"
+    },
+    {
+      "id": "openings/roller-blackout-48in-107p4in",
+      "version": "v001",
+      "path": "../../library/openings/roller-blackout-48in-107p4in/v001/roller-blackout-48in-107p4in.blend"
+    },
+    {
+      "id": "openings/roller-blackout-54in-78in",
+      "version": "v001",
+      "path": "../../library/openings/roller-blackout-54in-78in/v001/roller-blackout-54in-78in.blend"
+    },
+    {
+      "id": "openings/roller-blackout-60in-107p4in",
+      "version": "v001",
+      "path": "../../library/openings/roller-blackout-60in-107p4in/v001/roller-blackout-60in-107p4in.blend"
+    },
+    {
+      "id": "surfaces/honed-limestone-paver-4ft",
+      "version": "v001",
+      "path": "../../library/surfaces/honed-limestone-paver-4ft/v001/honed-limestone-paver-4ft.blend"
     }
   ],
   "deliverables": {
     "presentation_model": "model/atrium-01.blend",
     "architectural_model": "model/atrium-01.ifc",
     "floor_plan": "outputs/plans/floor-plan.svg",
-    "primary_render": "outputs/images/01-kitchen.png",
+    "floor_plan_pdf": "outputs/plans/floor-plan.pdf",
+    "floor_plan_preview": "outputs/plans/floor-plan.png",
+    "primary_render": "outputs/images/03-exterior.png",
     "render_gallery": "outputs/README.md",
     "renders": [
       "outputs/images/01-kitchen.png",
       "outputs/images/02-kitchen-courtyard.png",
       "outputs/images/03-exterior.png",
+      "outputs/images/04-cutaway.png",
       "outputs/images/05-rear-terrace.png",
       "outputs/images/06-west-roof-atrium.png",
       "outputs/images/07-open-air-atrium.png",
-      "outputs/images/04-cutaway.png"
-    ],
-    "floor_plan_pdf": "outputs/plans/floor-plan.pdf",
-    "floor_plan_preview": "outputs/plans/floor-plan.png",
-    "gallery_validation": "model/gallery-validation.json"
+      "outputs/images/08-living.png",
+      "outputs/images/09-primary-bedroom.png",
+      "outputs/images/10-primary-bath.png",
+      "outputs/images/11-sheltered-arrival.png",
+      "outputs/images/12-entry-gallery.png",
+      "outputs/images/13-tub-and-shower.png",
+      "outputs/images/14-primary-privacy.png"
+    ]
   }
 }

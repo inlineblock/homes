@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "cabinetry/walnut-cleaning-cabinet-2ft",
+  "version": "v001",
+  "name": "Walnut cleaning cabinet 2ft",
+  "units": "meters",
+  "dimensions_m": [
+    0.6096000075340271,
+    0.6382512152194977,
+    2.4384000301361084
+  ],
+  "bounds_m": {
+    "min": [
+      -0.30480000376701355,
+      -0.33345121145248413,
+      0.0
+    ],
+    "max": [
+      0.30480000376701355,
+      0.30480000376701355,
+      2.4384000301361084
+    ]
+  },
+  "placement": {
+    "origin": "Floor-center of nominal footprint, Z=0",
+    "front_direction": "-Y",
+    "up": "Z",
+    "allowed_scaling": "Rigid translation and Z rotation only; no scaling."
+  },
+  "description": "Walnut cleaning cupboard with upper shelf and clear lower volume for tall tools; no clothing rail.",
+  "source": {
+    "kind": "original",
+    "generator": "tools/library/publish_atrium_walnut.py",
+    "software": "4.5.14 LTS"
+  },
+  "license": "CC-BY-4.0",
+  "rights": "Original project geometry; attribution: Homes project contributors",
+  "files": {
+    "blender": "walnut-cleaning-cabinet-2ft.blend",
+    "preview": "preview.png",
+    "validation": "validation.json",
+    "interior_preview": "preview-interior.png"
+  },
+  "dependencies": [
+    {
+      "id": "materials/warm-walnut",
+      "version": "v001",
+      "path": "../../../materials/warm-walnut/v001/warm-walnut.blend"
+    }
+  ],
+  "software": {
+    "blender": "4.5.14 LTS"
+  },
+  "blender": {
+    "collection": "walnut-cleaning-cabinet-2ft | v001"
+  },
+  "derived_from": {
+    "id": "cabinetry/oak-wardrobe-2ft",
+    "version": "v001",
+    "basis": "Upper shelf, doors and case retained; hanging rail removed for tall cleaning tools. Warm-walnut/v001 finish and physical-meter UVs added.",
+    "parent_blend_sha256": "634c769ae2083b4f8a7a7fccc429e60cfe09efe52603142c838528f063a4fb7a",
+    "parent_geometry_signature_sha256": "b2590cbd240404bb9728cc0ff5065261c7e852d7093916f3d28fc79b29403dcb",
+    "geometry_signature_sha256": "f32b864776a4b1c22da8a3aa5fa6099dd98c6ad035b3325460b89815a26ff75b",
+    "removed_objects": [
+      "Wardrobe hanging rail"
+    ]
+  },
+  "host_integration": {
+    "checked": false,
+    "required": "Adopting home must check installation, service space and operating envelopes."
+  },
+  "installation": {
+    "mounting": "Floor-supported 2\u00d72\u00d78ft cleaning cupboard; host supplies anti-tip anchorage and accessible opening. Lower storage is clear of hanging rail.",
+    "operating_envelope": {
+      "modeled_state": "Two closed editable hinged doors",
+      "intended_open_angle_degrees": 100,
+      "reserve_front_door_projection_m": 0.3,
+      "reserve_front_depth_including_operator_m": 1.1,
+      "host_open_state_checked": false,
+      "basis": "Original .28956m door leaves with rounded concept operator allowance; hinges not animated."
+    },
+    "service_requirements": [
+      "Preserve standing space and door operation; coordinate child-safe cleaning-product storage, ventilation and leak containment with selected contents. No load or accessibility certification."
+    ]
+  }
+}

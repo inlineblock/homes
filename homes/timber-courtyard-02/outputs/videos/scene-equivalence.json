@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "different_properties": [],
+  "source_files_unchanged": true,
+  "checker_sha256": "62be49289511371387ce898c07854f91f2dd290e1322bd7a248044059158c942",
+  "software": "4.5.14 LTS",
+  "method": "Fresh Blender reopen of render-work and published-resave scenes. Compare all evaluated mesh-instance local vertices, polygon topology, material assignments, world matrices and render visibility at each scene start frame; collection membership/visibility; material node inputs/links and external image hashes; lights and world nodes; camera transforms/lenses throughout each actual scene frame range; shared-library content hashes; selected render/color settings. Normalize dependency paths to hashes; binary resave bytes need not match.",
+  "limitations": "Only the stated properties are compared, not every Blender field. Non-camera animation is not sampled beyond scene start-frame geometry. Unsupported node attributes, packed images and compositor properties are not exhaustive. This establishes scoped presentation-resave consistency, not regenerated frames, construction validation or arbitrary binary equivalence.",
+  "scenes": [
+    {
+      "scene": "outputs/work/walkthrough/timber-walkthrough.blend",
+      "sha256": "84f47536c97274dd231a953ecb2098f9b12f0d6a8566347d23ff647b04507752",
+      "signature": {
+        "geometry": "b6da946ebd7f2df68ffc15b1b4067d6fe515bee39d04e55e2d420d62ce67bfd8",
+        "mesh_instance_count": 3500,
+        "camera_animation": "6ab02a461395acecd895187b1b4182d60d970f2599f4dfa4a81aa8b712d9963e",
+        "camera_frame_range": [
+          1,
+          721
+        ],
+        "camera_pose_count": 721,
+        "materials": "be6cb41780d6bb3b912ce46d442d34b5a00f6c8be718cbc8f29d66129829be4c",
+        "lights": "d2924882a6deba603048ba9d3f528c675b0acd4d9b43fbee6fb43d199c7fb0dc",
+        "world": "8627342dc617f58c2a56e42396ddcdfb12e788a65d20eb7ddeb84512b41f326a",
+        "collections": "26558306af65f505307556fcb197fb7fedffab08f73f2350a3e518327b0416d6",
+        "linked_asset_sha256": {
+          "library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend": "b8f002f4b5ffc139fad0c3fbaf6b5af41b0b509f22b18d00aac543fabab09147",
+          "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend": "4eb8322faac8c525989c955670cc1b6acf208aa0cf207fc047d3810c58f41935",
+          "library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend": "8ad79c9b63ab397f945a6ca6173f8ea3d7db13d5a14f9e91f830b386c4ce6f93",
+          "library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend": "d48d36f0e76c274334346f0f133cd256676242c72200f0d5c826a49d51874162",
+          "library/materials/coastal-white-oak/v001/coastal-white-oak.blend": "6ee0e89f44d0befb4d0721aa455c1b900f9f0033a69fa5d73cc37f53562eb6b5",
+          "library/fixtures/duplex-power-outlet-bronze/v001/duplex-power-outlet-bronze.blend": "5fa9c1108e9e12eaf298009983266c2c6f23589d4d6980389add1b1da9e5e379",
+          "library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend": "7d21dd9ab4d086e30b783027c6f7426fe43f7823e90805780a3e481296d87e3a",
+          "library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend": "3335b5ed6ae652446300e01555328d2e21d6ae81b7f4471f79f941bffde28f20",
+          "library/fixtures/lighting-linear-pendant-4ft/v001/lighting-linear-pendant-4ft.blend": "9e4b06f5ba8c56f280d922b89fd02e9de576381e5ed0ad8594b7c438b3b89406",
+          "library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend": "6dc13157472109ec534b33bed53bff58456485fce4183d2ae18889feeb675e25",
+          "library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend": "7c04b4320d3538c3aab2fd908cae1b733136a4868d891681754a84dd6f291738",
+          "library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend": "c73a04577bca8baa0fa589dba31cb0abc052b3c206938ffb151ce92d88f56d47",
+          "library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend": "ae1ea50fce66217e66bdfc995996f361e5362c5616eb630c66238bfa998cc929",
+          "library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend": "ce9c973cfa586d41dcefbd6de99cde72a76e8f17c3c17d4f02ef63556a2fb3ac",
+          "library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend": "63508ff52ab2591cad1cbcb864a028b4d81794125bd937dccbabaf000ce2a453",
+          "library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend": "fb7ec897c6bed9f74414c21826166c099da999546a260daaed52fda8ef5c8944",
+          "library/cabinetry/smoked-oak-drawer-base-2ft/v001/smoked-oak-drawer-base-2ft.blend": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb",
+          "library/cabinetry/smoked-oak-oven-base-36in/v001/smoked-oak-oven-base-36in.blend": "57ac289f30e397a465670be279317b7cc6b822d514bd4d6936ec3eac2e05cdce",
+          "library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/smoked-oak-panel-ready-dishwasher-24in.blend": "5263065a4cf6b4cf06f1ccd40e35e7d7a9ae4de2e6af41e8fd0dfd7ba9d5ff69",
+          "library/appliances/smoked-oak-panel-ready-fridge-48in/v001/smoked-oak-panel-ready-fridge-48in.blend": "5cdaa612d9fa43c5946ea0c27788359efa0d8a87525fadfaf6401161f14b5fed",
+          "library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/smoked-oak-pantry-shelf-2ft.blend": "c53aec5c8139696bcdcdde32d92d9b13182e3f498685042651ce7eb55746ea3e",
+          "library/cabinetry/smoked-oak-sink-base-36in/v001/smoked-oak-sink-base-36in.blend": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c",
+          "library/cabinetry/smoked-oak-waste-pullout-18in/v001/smoked-oak-waste-pullout-18in.blend": "3b4a285256924c5ac2a04c9dea31467d88a7f4411a823101a952465fccec1651",
+          "library/materials/smoked-oak/v001/smoked-oak.blend": "2ef1a4667c2c6f672ef5b7269a529a9624b6ea82f24fd4647a3b9bc4b1972ce5",
+          "library/appliances/wall-hood-36in/v001/wall-hood-36in.blend": "61a6861085f22f311d32fbe8ba3619473178b6b4ff00122944440f22ae1ca9c2",
+          "library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend": "6da3981eaf1b6a6465163f581c51772704d7358d3fb808a9e0706761421d71f4",
+          "library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend": "8ba2be7610914913dc7e3e41420f331853ee33dbc750eb895f5ab3a38bfece81"
+        },
+        "render": {
+          "engine": "CYCLES",
+          "resolution": [
+            1280,
+            720,
+            100
+          ],
+          "fps": 24,
+          "samples": 24,
+          "seed": 0,
+          "animated_seed": false,
+          "view_transform": "AgX",
+          "exposure": 0.15000000596046448
+        }
+      }
+    },
+    {
+      "scene": "model/timber-walkthrough.blend",
+      "sha256": "4f9091c27d82926f0bc19b98c4087f999b2c624e6419e84e6647c05a9fdd416a",
+      "signature": {
+        "geometry": "b6da946ebd7f2df68ffc15b1b4067d6fe515bee39d04e55e2d420d62ce67bfd8",
+        "mesh_instance_count": 3500,
+        "camera_animation": "6ab02a461395acecd895187b1b4182d60d970f2599f4dfa4a81aa8b712d9963e",
+        "camera_frame_range": [
+          1,
+          721
+        ],
+        "camera_pose_count": 721,
+        "materials": "be6cb41780d6bb3b912ce46d442d34b5a00f6c8be718cbc8f29d66129829be4c",
+        "lights": "d2924882a6deba603048ba9d3f528c675b0acd4d9b43fbee6fb43d199c7fb0dc",
+        "world": "8627342dc617f58c2a56e42396ddcdfb12e788a65d20eb7ddeb84512b41f326a",
+        "collections": "26558306af65f505307556fcb197fb7fedffab08f73f2350a3e518327b0416d6",
+        "linked_asset_sha256": {
+          "library/hardware/bar-pull-satin-bronze/v001/bar-pull-satin-bronze.blend": "b8f002f4b5ffc139fad0c3fbaf6b5af41b0b509f22b18d00aac543fabab09147",
+          "library/appliances/built-in-oven-30in/v001/built-in-oven-30in.blend": "4eb8322faac8c525989c955670cc1b6acf208aa0cf207fc047d3810c58f41935",
+          "library/materials/charcoal-standing-seam/v001/charcoal-standing-seam.blend": "8ad79c9b63ab397f945a6ca6173f8ea3d7db13d5a14f9e91f830b386c4ce6f93",
+          "library/materials/coastal-honed-limestone/v001/coastal-honed-limestone.blend": "d48d36f0e76c274334346f0f133cd256676242c72200f0d5c826a49d51874162",
+          "library/materials/coastal-white-oak/v001/coastal-white-oak.blend": "6ee0e89f44d0befb4d0721aa455c1b900f9f0033a69fa5d73cc37f53562eb6b5",
+          "library/fixtures/duplex-power-outlet-bronze/v001/duplex-power-outlet-bronze.blend": "5fa9c1108e9e12eaf298009983266c2c6f23589d4d6980389add1b1da9e5e379",
+          "library/appliances/induction-cooktop-36in/v001/induction-cooktop-36in.blend": "7d21dd9ab4d086e30b783027c6f7426fe43f7823e90805780a3e481296d87e3a",
+          "library/fixtures/kitchen-sink-mixer-650/v002/kitchen-sink-mixer-650.blend": "3335b5ed6ae652446300e01555328d2e21d6ae81b7f4471f79f941bffde28f20",
+          "library/fixtures/lighting-linear-pendant-4ft/v001/lighting-linear-pendant-4ft.blend": "9e4b06f5ba8c56f280d922b89fd02e9de576381e5ed0ad8594b7c438b3b89406",
+          "library/fixtures/lighting-recessed-downlight-3in/v001/lighting-recessed-downlight-3in.blend": "6dc13157472109ec534b33bed53bff58456485fce4183d2ae18889feeb675e25",
+          "library/furniture/linen-three-seat-sofa/v001/linen-three-seat-sofa.blend": "7c04b4320d3538c3aab2fd908cae1b733136a4868d891681754a84dd6f291738",
+          "library/furniture/oak-dining-table-8ft/v001/oak-dining-table-8ft.blend": "c73a04577bca8baa0fa589dba31cb0abc052b3c206938ffb151ce92d88f56d47",
+          "library/furniture/oak-rounded-coffee-table/v001/oak-rounded-coffee-table.blend": "ae1ea50fce66217e66bdfc995996f361e5362c5616eb630c66238bfa998cc929",
+          "library/furniture/oak-upholstered-dining-chair/v001/oak-upholstered-dining-chair.blend": "ce9c973cfa586d41dcefbd6de99cde72a76e8f17c3c17d4f02ef63556a2fb3ac",
+          "library/fixtures/opal-globe-pendant/v001/opal-globe-pendant.blend": "63508ff52ab2591cad1cbcb864a028b4d81794125bd937dccbabaf000ce2a453",
+          "library/materials/sage-fluted-tile/v001/sage-fluted-tile.blend": "fb7ec897c6bed9f74414c21826166c099da999546a260daaed52fda8ef5c8944",
+          "library/cabinetry/smoked-oak-drawer-base-2ft/v001/smoked-oak-drawer-base-2ft.blend": "eddd78e4535c53861a608968f8c777d1fa08cc5b45a8af79557d2315089459cb",
+          "library/cabinetry/smoked-oak-oven-base-36in/v001/smoked-oak-oven-base-36in.blend": "57ac289f30e397a465670be279317b7cc6b822d514bd4d6936ec3eac2e05cdce",
+          "library/appliances/smoked-oak-panel-ready-dishwasher-24in/v001/smoked-oak-panel-ready-dishwasher-24in.blend": "5263065a4cf6b4cf06f1ccd40e35e7d7a9ae4de2e6af41e8fd0dfd7ba9d5ff69",
+          "library/appliances/smoked-oak-panel-ready-fridge-48in/v001/smoked-oak-panel-ready-fridge-48in.blend": "5cdaa612d9fa43c5946ea0c27788359efa0d8a87525fadfaf6401161f14b5fed",
+          "library/cabinetry/smoked-oak-pantry-shelf-2ft/v001/smoked-oak-pantry-shelf-2ft.blend": "c53aec5c8139696bcdcdde32d92d9b13182e3f498685042651ce7eb55746ea3e",
+          "library/cabinetry/smoked-oak-sink-base-36in/v001/smoked-oak-sink-base-36in.blend": "6212cec1dec95e15cd20512b4391b9a6115ed177c25594416a6c14ef8adbbc6c",
+          "library/cabinetry/smoked-oak-waste-pullout-18in/v001/smoked-oak-waste-pullout-18in.blend": "3b4a285256924c5ac2a04c9dea31467d88a7f4411a823101a952465fccec1651",
+          "library/materials/smoked-oak/v001/smoked-oak.blend": "2ef1a4667c2c6f672ef5b7269a529a9624b6ea82f24fd4647a3b9bc4b1972ce5",
+          "library/appliances/wall-hood-36in/v001/wall-hood-36in.blend": "61a6861085f22f311d32fbe8ba3619473178b6b4ff00122944440f22ae1ca9c2",
+          "library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend": "6da3981eaf1b6a6465163f581c51772704d7358d3fb808a9e0706761421d71f4",
+          "library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend": "8ba2be7610914913dc7e3e41420f331853ee33dbc750eb895f5ab3a38bfece81"
+        },
+        "render": {
+          "engine": "CYCLES",
+          "resolution": [
+            1280,
+            720,
+            100
+          ],
+          "fps": 24,
+          "samples": 24,
+          "seed": 0,
+          "animated_seed": false,
+          "view_transform": "AgX",
+          "exposure": 0.15000000596046448
+        }
+      }
+    }
+  ]
+}

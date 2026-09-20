@@ -99,6 +99,15 @@ def promote(review_note):
     bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/timber-walkthrough.blend'),compress=True)
     bpy.ops.file.make_paths_relative()
     bpy.ops.wm.save_as_mainfile(filepath=str(HOME/'model/timber-walkthrough.blend'),compress=True)
+    # The render-work scene and relocatable published resave have distinct bytes.
+    # Preserve the historical generating hashes; never relabel them as current.
+    record['render_source_scene']='outputs/work/walkthrough/timber-walkthrough.blend'
+    record['render_source_scene_sha256']=record['presentation_source_sha256']
+    record['generation_authoring_script_sha256']=record['authoring_script_sha256']
+    record['published_presentation_scene']='model/timber-walkthrough.blend'
+    record['published_presentation_scene_sha256']=hashlib.sha256((HOME/'model/timber-walkthrough.blend').read_bytes()).hexdigest()
+    record['promotion_authoring_script_sha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    record['provenance_note']='presentation_source_sha256 and authoring_script_sha256 retain their historical render-generation meanings. Published resave bytes differ after relative-path relocation. The native frame cache requires a rebuild if the current authoring script differs from the generating hash.'
     record['native_visual_review']=review_note
     (HOME/'outputs/videos/camera-route.json').write_text(json.dumps(record,indent=2)+'\n')
     print('WALKTHROUGH_PROMOTED',flush=True)

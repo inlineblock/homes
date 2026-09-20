@@ -9548,7 +9548,7 @@
     }
   ],
   "scope": "Continuous presentation camera and three open sliding leaves; canonical source untouched. Coordinated kitchen and shared living furniture; other legacy interior rooms remain schematic. Not a door hardware or architectural approval.",
-  "native_visual_review": "Eight high-sample keyframes, fifteen reference checkpoints and sixty-one half-second sequence samples inspected. Full 721-frame MP4 decoded without errors; 700mm fixed-geometry body sweep passed. No native camera wall/furniture crossings seen. GUI playback was unavailable because the Mac was locked. Remaining legacy whole-home limitations are separate; this is a native geometry base, not photographic finishing.",
+  "native_visual_review": "Eight high-sample keyframes, fifteen reference checkpoints and sixty-one half-second sequence samples inspected; all721frames decoded. Conservative fixed-geometry body sweep passed. In-app browser playback smoke test showed advancing courtyard playback and reached the kitchen endpoint without media errors; it is not evidence of visually watching every frame. Walking-surface support and threshold limitations are separately recorded.",
   "presentation_source_sha256": "84f47536c97274dd231a953ecb2098f9b12f0d6a8566347d23ff647b04507752",
   "authoring_script_sha256": "6b8b393c41ce100feb8069b917d0082a9aef5ab950512bef0b59973949136a2b",
   "linked_asset_sha256": {
@@ -9579,5 +9579,14 @@
     "library/appliances/wall-hood-36in/v001/wall-hood-36in.blend": "61a6861085f22f311d32fbe8ba3619473178b6b4ff00122944440f22ae1ca9c2",
     "library/furniture/walnut-counter-stool/v001/walnut-counter-stool.blend": "6da3981eaf1b6a6465163f581c51772704d7358d3fb808a9e0706761421d71f4",
     "library/materials/warm-vertical-cedar/v001/warm-vertical-cedar.blend": "8ba2be7610914913dc7e3e41420f331853ee33dbc750eb895f5ab3a38bfece81"
-  }
+  },
+  "render_source_scene": "outputs/work/walkthrough/timber-walkthrough.blend",
+  "render_source_scene_sha256": "84f47536c97274dd231a953ecb2098f9b12f0d6a8566347d23ff647b04507752",
+  "generation_authoring_script_sha256": "6b8b393c41ce100feb8069b917d0082a9aef5ab950512bef0b59973949136a2b",
+  "published_presentation_scene": "model/timber-walkthrough.blend",
+  "published_presentation_scene_sha256": "4f9091c27d82926f0bc19b98c4087f999b2c624e6419e84e6647c05a9fdd416a",
+  "current_authoring_script_sha256": "4b30a572d40de9c16694308a9be60c4bf647a09afd105e94a72c979715d41edb",
+  "promotion_authoring_script_sha256": "ce1313e907deaff5ed9077e296793c9909cd0c519aa8df8db0e62a3b7a335e58",
+  "provenance_note": "presentation_source_sha256 and authoring_script_sha256 retain their historical native render-generation meanings. Published resave bytes differ after relative-path relocation. The promotion-time script differed from the generating script only by requiring an explicit truthful visual-review note; historical generating source was reconstructed byte-for-byte and matched its recorded hash. Current script additionally records explicit provenance fields. Native render cache requires a rebuild under the current script; this record does not certify reuse against the current script hash.",
+  "scene_equivalence_receipt": "scene-equivalence.json"
 }

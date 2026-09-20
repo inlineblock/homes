@@ -1,0 +1,872 @@
+{
+  "native_file": "/Users/dennis/code/homes/homes/timber-courtyard-02/model/timber-walkthrough.blend",
+  "native_sha256": "4f9091c27d82926f0bc19b98c4087f999b2c624e6419e84e6647c05a9fdd416a",
+  "route_file": "/Users/dennis/code/homes/homes/timber-courtyard-02/outputs/videos/camera-route.json",
+  "route_file_sha256": "b8f49220ef91d1a862c37938ae08c6f05f4c9bdf1d83e408e26b788a04e057ff",
+  "model_unchanged": true,
+  "software": "4.5.14 LTS",
+  "frame_pose_count": 721,
+  "total_sampled_positions": 1505,
+  "intermediate_sample_count": 784,
+  "maximum_connecting_sample_spacing_m": 0.02,
+  "max_camera_pose_error_m": 0.0,
+  "body_footprint_diameter_m": 0.7,
+  "footprint_samples_per_position": 33,
+  "support_ray_count": 49665,
+  "support_meshes": [
+    {
+      "name": "Enclosed floor",
+      "bounds_m": [
+        [
+          0.0,
+          0.0,
+          -0.13411200046539307
+        ],
+        [
+          18.897600173950195,
+          2.4384000301361084,
+          0.0
+        ]
+      ],
+      "materials": [
+        "Honed warm concrete"
+      ]
+    },
+    {
+      "name": "Enclosed floor.003",
+      "bounds_m": [
+        [
+          0.0,
+          9.753600120544434,
+          -0.13411200046539307
+        ],
+        [
+          18.897600173950195,
+          14.630400657653809,
+          0.0
+        ]
+      ],
+      "materials": [
+        "Honed warm concrete"
+      ]
+    },
+    {
+      "name": "Landscape ground",
+      "bounds_m": [
+        [
+          -27.127201080322266,
+          -32.00400161743164,
+          -0.3962399959564209
+        ],
+        [
+          46.02479934692383,
+          41.14799880981445,
+          -0.09143999218940735
+        ]
+      ],
+      "materials": [
+        "Fine dark bark mulch"
+      ]
+    },
+    {
+      "name": "Courtyard paving",
+      "bounds_m": [
+        [
+          5.821680068969727,
+          2.4688801765441895,
+          -0.08686800301074982
+        ],
+        [
+          13.075920104980469,
+          9.723119735717773,
+          -0.010667998343706131
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.001",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          -7.04088020324707,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          -5.760720252990723,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.002",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          -5.516880035400391,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          -4.236720085144043,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.003",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          -3.992879867553711,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          -2.7127199172973633,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.004",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          -2.4688799381256104,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          -1.1887199878692627,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.005",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          2.7127199172973633,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          3.992879867553711,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.006",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          4.236720085144043,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          5.516880035400391,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.007",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          5.760720252990723,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          7.04088020324707,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    },
+    {
+      "name": "Large limestone stepping slab.008",
+      "bounds_m": [
+        [
+          8.305800437927246,
+          7.284719944000244,
+          -0.07315199822187424
+        ],
+        [
+          10.59179973602295,
+          8.56488037109375,
+          0.012192001566290855
+        ]
+      ],
+      "materials": [
+        "Warm ivory limestone"
+      ]
+    }
+  ],
+  "support_hit_counts": {
+    "Large limestone stepping slab.001": 2222,
+    "Landscape ground": 4419,
+    "Large limestone stepping slab.002": 2451,
+    "Large limestone stepping slab.003": 2677,
+    "Large limestone stepping slab.004": 2478,
+    "Enclosed floor": 4897,
+    "Courtyard paving": 4419,
+    "Large limestone stepping slab.005": 2715,
+    "Large limestone stepping slab.006": 2175,
+    "Large limestone stepping slab.007": 2595,
+    "Large limestone stepping slab.008": 2713,
+    "Enclosed floor.003": 15904
+  },
+  "missing_support_ray_count": 0,
+  "missing_support_examples": [],
+  "center_support_intervals": [
+    {
+      "surface": "Large limestone stepping slab.001",
+      "first_frame": 1,
+      "last_frame": 36.666666666666664,
+      "start_xy_m": [
+        10.05840015411377,
+        -6.705600261688232
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -5.768826484680176
+      ],
+      "min_z_m": 0.011506631970405579,
+      "max_z_m": 0.012191995978355408
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 37.0,
+      "last_frame": 41.666666666666664,
+      "start_xy_m": [
+        10.05840015411377,
+        -5.7530999183654785
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -5.521575927734375
+      ],
+      "min_z_m": -0.09144002199172974,
+      "max_z_m": -0.09143999218940735
+    },
+    {
+      "surface": "Large limestone stepping slab.002",
+      "first_frame": 42.0,
+      "last_frame": 63.75,
+      "start_xy_m": [
+        10.05840015411377,
+        -5.50446081161499
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -4.2417216300964355
+      ],
+      "min_z_m": 0.010427281260490417,
+      "max_z_m": 0.012191995978355408
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 64.0,
+      "last_frame": 67.5,
+      "start_xy_m": [
+        10.05840015411377,
+        -4.226123332977295
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -4.0061540603637695
+      ],
+      "min_z_m": -0.09143999218940735,
+      "max_z_m": -0.09143999218940735
+    },
+    {
+      "surface": "Large limestone stepping slab.003",
+      "first_frame": 67.75,
+      "last_frame": 88.0,
+      "start_xy_m": [
+        10.05840015411377,
+        -3.9903717041015625
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -2.7188804149627686
+      ],
+      "min_z_m": 0.007933884859085083,
+      "max_z_m": 0.012192010879516602
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 88.25,
+      "last_frame": 92.0,
+      "start_xy_m": [
+        10.05840015411377,
+        -2.7037413120269775
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -2.4791059494018555
+      ],
+      "min_z_m": -0.09144002199172974,
+      "max_z_m": -0.09143999218940735
+    },
+    {
+      "surface": "Large limestone stepping slab.004",
+      "first_frame": 92.33333333333333,
+      "last_frame": 117.5,
+      "start_xy_m": [
+        10.05840015411377,
+        -2.4594922065734863
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -1.1917915344238281
+      ],
+      "min_z_m": 0.008497267961502075,
+      "max_z_m": 0.012192010879516602
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 118.0,
+      "last_frame": 165.0,
+      "start_xy_m": [
+        10.05840015411377,
+        -1.1721702814102173
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        -0.005957994144409895
+      ],
+      "min_z_m": -0.09144002199172974,
+      "max_z_m": -0.09143996238708496
+    },
+    {
+      "surface": "Enclosed floor",
+      "first_frame": 165.33333333333334,
+      "last_frame": 207.5,
+      "start_xy_m": [
+        10.05840015411377,
+        0.012145578861236572
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        2.438011646270752
+      ],
+      "min_z_m": -0.00312042236328125,
+      "max_z_m": 1.4901161193847656e-08
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 208.0,
+      "last_frame": 208.5,
+      "start_xy_m": [
+        10.05840015411377,
+        2.4532828330993652
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        2.467164993286133
+      ],
+      "min_z_m": -0.09143999218940735,
+      "max_z_m": -0.09143999218940735
+    },
+    {
+      "surface": "Courtyard paving",
+      "first_frame": 209.0,
+      "last_frame": 228.0,
+      "start_xy_m": [
+        10.05840015411377,
+        2.4810469150543213
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        2.7026162147521973
+      ],
+      "min_z_m": -0.010668009519577026,
+      "max_z_m": -0.010667979717254639
+    },
+    {
+      "surface": "Large limestone stepping slab.005",
+      "first_frame": 228.5,
+      "last_frame": 260.0,
+      "start_xy_m": [
+        10.05840015411377,
+        2.7128496170043945
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        3.9759294986724854
+      ],
+      "min_z_m": 0.0020087510347366333,
+      "max_z_m": 0.012192010879516602
+    },
+    {
+      "surface": "Courtyard paving",
+      "first_frame": 260.3333333333333,
+      "last_frame": 264.6666666666667,
+      "start_xy_m": [
+        10.05840015411377,
+        3.9941253662109375
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        4.234958648681641
+      ],
+      "min_z_m": -0.010668009519577026,
+      "max_z_m": -0.010668009519577026
+    },
+    {
+      "surface": "Large limestone stepping slab.006",
+      "first_frame": 265.0,
+      "last_frame": 286.3333333333333,
+      "start_xy_m": [
+        10.05840015411377,
+        4.253788471221924
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        5.49970006942749
+      ],
+      "min_z_m": 0.012191981077194214,
+      "max_z_m": 0.012191995978355408
+    },
+    {
+      "surface": "Courtyard paving",
+      "first_frame": 286.6666666666667,
+      "last_frame": 290.6666666666667,
+      "start_xy_m": [
+        10.05840015411377,
+        5.518890857696533
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        5.746078014373779
+      ],
+      "min_z_m": -0.010668039321899414,
+      "max_z_m": -0.010668009519577026
+    },
+    {
+      "surface": "Large limestone stepping slab.007",
+      "first_frame": 291.0,
+      "last_frame": 319.0,
+      "start_xy_m": [
+        10.05840015411377,
+        5.764766216278076
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        7.028192520141602
+      ],
+      "min_z_m": 0.009471684694290161,
+      "max_z_m": 0.012191995978355408
+    },
+    {
+      "surface": "Courtyard paving",
+      "first_frame": 319.5,
+      "last_frame": 331.0,
+      "start_xy_m": [
+        10.05840015411377,
+        7.042904376983643
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        7.280948162078857
+      ],
+      "min_z_m": -0.010668039321899414,
+      "max_z_m": -0.010668009519577026
+    },
+    {
+      "surface": "Large limestone stepping slab.008",
+      "first_frame": 332.0,
+      "last_frame": 368.5,
+      "start_xy_m": [
+        10.05840015411377,
+        7.291276931762695
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        8.554993629455566
+      ],
+      "min_z_m": 0.011092126369476318,
+      "max_z_m": 0.012192010879516602
+    },
+    {
+      "surface": "Courtyard paving",
+      "first_frame": 368.75,
+      "last_frame": 387.6666666666667,
+      "start_xy_m": [
+        10.05840015411377,
+        8.570619583129883
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        9.718847274780273
+      ],
+      "min_z_m": -0.011155843734741211,
+      "max_z_m": -0.010668009519577026
+    },
+    {
+      "surface": "Landscape ground",
+      "first_frame": 388.0,
+      "last_frame": 388.0,
+      "start_xy_m": [
+        10.05840015411377,
+        9.736578941345215
+      ],
+      "end_xy_m": [
+        10.05840015411377,
+        9.736578941345215
+      ],
+      "min_z_m": -0.09143999218940735,
+      "max_z_m": -0.09143999218940735
+    },
+    {
+      "surface": "Enclosed floor.003",
+      "first_frame": 388.3333333333333,
+      "last_frame": 721.0,
+      "start_xy_m": [
+        10.05840015411377,
+        9.753820419311523
+      ],
+      "end_xy_m": [
+        11.887200355529785,
+        10.515600204467773
+      ],
+      "min_z_m": -0.003749281167984009,
+      "max_z_m": 0.0
+    }
+  ],
+  "center_surface_changes_over_12_7mm": [
+    {
+      "from_frame": 36.666666666666664,
+      "to_frame": 37.0,
+      "height_change_m": -0.10294662415981293,
+      "from_surface": "Large limestone stepping slab.001",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 41.666666666666664,
+      "to_frame": 42.0,
+      "height_change_m": 0.10363197326660156,
+      "from_surface": "Landscape ground",
+      "to_surface": "Large limestone stepping slab.002"
+    },
+    {
+      "from_frame": 63.75,
+      "to_frame": 64.0,
+      "height_change_m": -0.10186727344989777,
+      "from_surface": "Large limestone stepping slab.002",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 67.5,
+      "to_frame": 67.75,
+      "height_change_m": 0.09937387704849243,
+      "from_surface": "Landscape ground",
+      "to_surface": "Large limestone stepping slab.003"
+    },
+    {
+      "from_frame": 88.0,
+      "to_frame": 88.25,
+      "height_change_m": -0.10242600739002228,
+      "from_surface": "Large limestone stepping slab.003",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 92.0,
+      "to_frame": 92.33333333333333,
+      "height_change_m": 0.10328944027423859,
+      "from_surface": "Landscape ground",
+      "to_surface": "Large limestone stepping slab.004"
+    },
+    {
+      "from_frame": 117.5,
+      "to_frame": 118.0,
+      "height_change_m": -0.09993728995323181,
+      "from_surface": "Large limestone stepping slab.004",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 165.0,
+      "to_frame": 165.33333333333334,
+      "height_change_m": 0.09144003689289093,
+      "from_surface": "Landscape ground",
+      "to_surface": "Enclosed floor"
+    },
+    {
+      "from_frame": 207.5,
+      "to_frame": 208.0,
+      "height_change_m": -0.0883195698261261,
+      "from_surface": "Enclosed floor",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 208.5,
+      "to_frame": 209.0,
+      "height_change_m": 0.08077201247215271,
+      "from_surface": "Landscape ground",
+      "to_surface": "Courtyard paving"
+    },
+    {
+      "from_frame": 260.0,
+      "to_frame": 260.3333333333333,
+      "height_change_m": -0.02285999059677124,
+      "from_surface": "Large limestone stepping slab.005",
+      "to_surface": "Courtyard paving"
+    },
+    {
+      "from_frame": 264.6666666666667,
+      "to_frame": 265.0,
+      "height_change_m": 0.02285999059677124,
+      "from_surface": "Courtyard paving",
+      "to_surface": "Large limestone stepping slab.006"
+    },
+    {
+      "from_frame": 286.3333333333333,
+      "to_frame": 286.6666666666667,
+      "height_change_m": -0.022860005497932434,
+      "from_surface": "Large limestone stepping slab.006",
+      "to_surface": "Courtyard paving"
+    },
+    {
+      "from_frame": 290.6666666666667,
+      "to_frame": 291.0,
+      "height_change_m": 0.020139724016189575,
+      "from_surface": "Courtyard paving",
+      "to_surface": "Large limestone stepping slab.007"
+    },
+    {
+      "from_frame": 319.0,
+      "to_frame": 319.5,
+      "height_change_m": -0.02285999059677124,
+      "from_surface": "Large limestone stepping slab.007",
+      "to_surface": "Courtyard paving"
+    },
+    {
+      "from_frame": 331.0,
+      "to_frame": 332.0,
+      "height_change_m": 0.021760165691375732,
+      "from_surface": "Courtyard paving",
+      "to_surface": "Large limestone stepping slab.008"
+    },
+    {
+      "from_frame": 368.5,
+      "to_frame": 368.75,
+      "height_change_m": -0.022650808095932007,
+      "from_surface": "Large limestone stepping slab.008",
+      "to_surface": "Courtyard paving"
+    },
+    {
+      "from_frame": 387.6666666666667,
+      "to_frame": 388.0,
+      "height_change_m": -0.08028414845466614,
+      "from_surface": "Courtyard paving",
+      "to_surface": "Landscape ground"
+    },
+    {
+      "from_frame": 388.0,
+      "to_frame": 388.3333333333333,
+      "height_change_m": 0.08769071102142334,
+      "from_surface": "Landscape ground",
+      "to_surface": "Enclosed floor.003"
+    }
+  ],
+  "max_sampled_center_height_change_m": 0.10363197326660156,
+  "mixed_height_footprint_count": 569,
+  "max_cross_footprint_height_range_m": 0.10363204777240753,
+  "mixed_height_examples": [
+    {
+      "frame": 1,
+      "cross_footprint_height_range_m": 0.10363198816776276,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 2.0,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 3.0,
+      "cross_footprint_height_range_m": 0.10363204777240753,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 4.0,
+      "cross_footprint_height_range_m": 0.10363204777240753,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 5.0,
+      "cross_footprint_height_range_m": 0.10363198816776276,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 29.0,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 29.333333333333332,
+      "cross_footprint_height_range_m": 0.10363198816776276,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 29.666666666666668,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 30.0,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 30.333333333333332,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 30.666666666666668,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    },
+    {
+      "frame": 31.0,
+      "cross_footprint_height_range_m": 0.10363201797008514,
+      "surfaces": [
+        "Landscape ground",
+        "Large limestone stepping slab.001"
+      ]
+    }
+  ],
+  "low_fixed_crossings": [
+    {
+      "object": "Front glazed entry rail",
+      "first_frame": 166.0,
+      "last_frame": 166.33333333333334,
+      "y_m": 0.048352718353271484,
+      "max_top_z_m": 0.04876795411109924,
+      "max_rise_over_support_m": 0.04876795411109924
+    },
+    {
+      "object": "Front courtyard threshold rail",
+      "first_frame": 207.0,
+      "last_frame": 208.0,
+      "y_m": 2.4227406978607178,
+      "max_top_z_m": 0.04876798391342163,
+      "max_rise_over_support_m": 0.13965114951133728
+    },
+    {
+      "object": "Rear glazed gable rail",
+      "first_frame": 388.0,
+      "last_frame": 388.6666666666667,
+      "y_m": 9.736578941345215,
+      "max_top_z_m": 0.04876796901226044,
+      "max_rise_over_support_m": 0.13799512386322021
+    },
+    {
+      "object": "Living rug",
+      "first_frame": 466.0,
+      "last_frame": 572.0,
+      "y_m": 10.904449462890625,
+      "max_top_z_m": 0.015240028500556946,
+      "max_rise_over_support_m": 0.015240028500556946
+    }
+  ],
+  "minimum_support_normal_z": 0.25842538475990295,
+  "excluded_nearby_landscape_objects": 39,
+  "landscape_ground_ray_count": 4419,
+  "camera_height_above_support_range_m": [
+    1.6642080545425415,
+    1.7678400874137878
+  ],
+  "camera_height_above_highest_low_fixed_mesh_range_m": [
+    1.6276320815086365,
+    1.7678400874137878
+  ],
+  "measured_geometric_gaps_m": {
+    "front_stepping_slab_gaps_y": [
+      0.24384021759033203,
+      0.24384021759033203,
+      0.24383997917175293
+    ],
+    "last_front_slab_to_enclosed_floor_y": 1.1887199878692627,
+    "courtyard_paving_front_to_floor_y": 0.030480146408081055,
+    "courtyard_paving_rear_to_floor_y": 0.030480384826660156,
+    "basis": "Evaluated surface object bounds. Lower landscape mesh can support a gap; a hardscape gap does not by itself mean an unsupported void."
+  },
+  "scope_conclusion": "Modeled support exists at every tested point",
+  "walking_surface_conclusion": "Measured surface discontinuities or raised low crossings are present; this is not evidence of a continuous level or step-free route.",
+  "method": "Fresh CPU Blender reopen; actual camera locations at all recorded frames. Linear connecting samples at no more than 20 mm spacing. The center plus 16 points on each of the 175 mm and 350 mm rings sample a 700 mm circular body footprint. Downward rays run from Z = 250 mm to \u2212750 mm through evaluated named support meshes. A separate fixed low-mesh tree retains threshold rails and rug.",
+  "limitations": [
+    "Finite rays do not verify the unsampled surface between them. Connecting samples use linear segments between frame poses, not every animation subframe.",
+    "Support classification is specific to Timber's named local floor/ground/paving/slab meshes. Linked furniture and vegetation are not walking support.",
+    "Landscape ground is a soil/mulch visualization mesh, not verified pavement, engineered substrate, bearing capacity, survey grade or slip resistance.",
+    "No footfall gait or locomotion animation is tested. Camera height over measured surfaces is reported separately from its nominal world height.",
+    "Low rails are measured fixed geometry, not a manufacturer-tested threshold. This review does not approve real walking safety, code or accessibility.",
+    "No scene save, rendering or GPU use. This receipt alone does not promote a video or change the home's review status."
+  ],
+  "adopted_route_poses_sha256": "0d774a7d30149e93ef16b9f09689cfa667120b1aa072ffc01b37f25ef1f2c532",
+  "route_metadata_update_note": "route_file_sha256 identifies the exact historical receipt examined by the checker. Subsequent clarification changed provenance/review metadata only; all721poses and presentation model bytes remain unchanged. adopted_route_poses_sha256 binds those retained poses."
+}

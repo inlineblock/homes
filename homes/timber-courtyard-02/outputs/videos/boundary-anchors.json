@@ -1,0 +1,15 @@
+{
+  "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "scope": "Reviewed AI-derived boundary used to start the edited kitchen shot; not an ImageGen photograph.",
+  "anchors": [
+    {
+      "frame": 577,
+      "image": "references/kitchen-approach-ai-boundary.png",
+      "sha256": "a09243c63267598864a4a51a00321808afd6fe5bb5edfd2331b9e98dde0d99b2",
+      "origin": "Decoded final frame97 from current-model LTX segment05. Its mid-turn frames were rejected; this sharp endpoint was independently reviewed against native577 and supplies the accepted segment06 first-image condition.",
+      "derived_from_video_sha256": "b3cb62e21a62ea3f40c13034f6456dfd2d149044c554e33fd02cb82bf81a3ee1",
+      "native_reference": "references/kitchen-turn-native.png",
+      "review": "Kitchen geometry, hood, oven, cooktop, paneled refrigeration and fitted pantry retained; fine materials/foliage illustrative."
+    }
+  ]
+}

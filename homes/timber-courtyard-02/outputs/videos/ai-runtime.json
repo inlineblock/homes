@@ -155,6 +155,7 @@
       ]
     }
   ],
-  "test_status": "pending_refreshed_native_source",
-  "current_source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574"
+  "test_status": "current_source_first_test_and_edited_full_film_reviewed",
+  "current_source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "final_video_sha256": "b2b5ce89710b2664da4c4dacf2c4c96d62c4481b99345c7e3fcdc6278e000157"
 }

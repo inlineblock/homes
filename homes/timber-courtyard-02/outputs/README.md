@@ -14,7 +14,7 @@ Current selected deliverables use stable filenames. Git retains previous revisio
 
 [Walkthrough, photographic reference frames and current video status](videos/README.md)
 
-The route travels from the front approach through the courtyard into the living room and revised kitchen. **The current 30-second Blender walkthrough is reviewed and available in the video index**, along with fifteen paired photographic reference checkpoints. All 721 frames decode, and the camera route clears the modeled fixed furniture and architecture. The photographic AI film is still being generated; it has not yet been promoted.
+The route travels from the front approach through the courtyard into the living room and revised kitchen. **[Watch the reviewed AI-finished walkthrough](videos/timber-courtyard-ai.mp4)**: 26 seconds of moving-camera footage with one deliberate cut from the living-room pause to the kitchen approach. The **[continuous 30-second Blender version](videos/timber-courtyard-native.mp4)** preserves the full route. Both passed decoding and browser playback checks; the video index records visual review, fifteen photographic reference checkpoints and the exact edit. The AI film is an architectural concept visualization, not footage of a built house.
 
 ## Arrival and courtyard
 

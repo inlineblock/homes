@@ -77,8 +77,14 @@ def main():
     parser.add_argument('--ffmpeg', default='ffmpeg')
     parser.add_argument('--frames', type=int, default=97)
     parser.add_argument('--continue-tour', action='store_true', help='Continue a visually accepted 97-frame test through the complete route')
+    parser.add_argument('--edited-tour', action='store_true', help='Assemble with one disclosed living-to-kitchen cut, omitting the rejected fast-turn segment')
+    parser.add_argument('--retimed-turn-span', choices=['test', 'a', 'b', 'c', 'd'], help='Generate a review-only native-controlled turn span slowed three times; test peak motion first')
+    parser.add_argument('--turn-control-mode', choices=['raw', 'clean'], default='raw', help='Optional turn-only smoothing before edge detection; other clips remain unchanged')
     parser.add_argument('--segment-limit', type=int, choices=range(1,9), default=8, help='Stop after this many segments for intermediate review')
     args = parser.parse_args()
+    if args.retimed_turn_span:
+        retimed_turn_span(args)
+        return
     if args.continue_tour:
         continue_tour(args)
         return
@@ -113,6 +119,102 @@ def main():
     receipt['status'] = 'rendered_requires_visual_review'
     (WORK / 'ai-test-request.json').write_text(json.dumps(receipt, indent=2) + '\n')
 
+
+def retimed_turn_span(args):
+    """Test the peak yaw, then replace only the fast turn using real native frames.
+
+    Repeat ordered control frames three times; the video model synthesizes the
+    slower motion. No photographic slide interpolation, zoom or source redesign.
+    This writes ignored candidates only. Review the test before the full spans.
+    """
+    reference_record = validate_references()
+    folder = WORK / ('ai-turn-retimed-clean' if args.turn_control_mode == 'clean' else 'ai-turn-retimed')
+    folder.mkdir(exist_ok=True)
+    control_filter = (('scale=768:448:force_original_aspect_ratio=increase,crop=768:448,'
+                       'gblur=sigma=3,edgedetect=low=0.1:high=0.2,format=yuv420p')
+                      if args.turn_control_mode == 'clean' else CONTROL_FILTER)
+    records = json.loads((WORK / 'ai-segments/segments.json').read_text())
+    original = next(record for record in records if record['segment'] == 5)
+    if 'prompt' not in original:
+        # Edited reproduction omits the rejected turn. Its optional diagnostic
+        # still needs the historical attempted request, never an invented recipe.
+        request_path = WORK / 'ai-segments/segment-05-request.json'
+        assert request_path.is_file(), 'Retimed diagnostics require a prior rejected turn request.'
+        request = json.loads(request_path.read_text())
+        command = request['command']
+        original = {'prompt': command[command.index('--prompt') + 1],
+                    'input_fingerprint': request['input_fingerprint']}
+    spans = {'test': (505, 521), 'a': (481, 505), 'b': (505, 529),
+             'c': (529, 553), 'd': (553, 577)}
+    label = args.retimed_turn_span
+    start, end = spans[label]
+    count = (end - start) * 3 + 1
+    frame_map = [start + index // 3 for index in range(count)]
+    images = []
+    if label == 'test':
+        images.append((HOME / 'outputs/videos/references/turn-living-photo.png', 0))
+    elif label == 'a':
+        images.append((WORK / 'ai-segments/boundary-05.png', 0))
+    else:
+        previous = folder / f'span-{chr(ord(label)-1)}.mp4'
+        assert previous.is_file(), 'Generate and review the preceding span first.'
+        shared = folder / f'shared-frame-{start}.png'
+        subprocess.run([args.ffmpeg, '-hide_banner', '-loglevel', 'error', '-y',
+                        '-i', str(previous), '-vf', 'select=eq(n\\,72)',
+                        '-frames:v', '1', str(shared)], check=True)
+        images.append((shared, 0))
+    for view in reference_record['views']:
+        if start < view['frame'] <= end:
+            path = (WORK / 'ai-segments/boundary-06.png' if view['frame'] == 577
+                    else HOME / 'outputs/videos' / view['image'])
+            images.append((path, (view['frame'] - start) * 3))
+    prompt = original['prompt'] + ' Turn slowly and steadily. Keep every black window mullion perfectly straight and every countertop rigid, with sharp stable material detail.'
+    base_fingerprint = input_fingerprint(start, end - start + 1, prompt, images, args)
+    fingerprint = sha256(json.dumps({'base_fingerprint': base_fingerprint,
+                                    'source_frame_map': frame_map, 'fps': 24,
+                                    'actual_control_filter': control_filter},
+                                   sort_keys=True).encode()).hexdigest()
+    video = folder / f'span-{label}.mp4'
+    receipt_path = folder / f'span-{label}-request.json'
+    if matching_receipt(receipt_path, fingerprint, video):
+        print('RETIMED_TURN_CACHED_REQUIRES_REVIEW', video, flush=True)
+        return
+    control_frames = folder / f'control-frames-{label}'
+    control_frames.mkdir(exist_ok=True)
+    for index, native_frame in enumerate(frame_map, 1):
+        path = control_frames / f'frame-{index:04}.png'
+        path.unlink(missing_ok=True)
+        path.symlink_to(WORK / 'frames' / f'frame-{native_frame:04}.png')
+    control = folder / f'control-{label}.mp4'
+    subprocess.run([args.ffmpeg, '-hide_banner', '-loglevel', 'error', '-y',
+                    '-framerate', '24', '-i', str(control_frames / 'frame-%04d.png'),
+                    '-frames:v', str(count), '-vf', control_filter,
+                    '-c:v', 'libx264', '-crf', '16', str(control)], check=True)
+    command = [str(args.runtime), 'ic-lora', '--model', str(args.models / 'model'),
+               '--gemma', str(args.models / 'gemma'), '--lora',
+               str(args.models / 'control/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors'), '1.0',
+               '--video-conditioning', str(control), '1.0']
+    for path, frame in images:
+        command += ['--image', str(path), str(frame), '1.0']
+    command += ['--prompt', prompt, '--frame-rate', '24', '--frames', str(count),
+                '--width', '768', '--height', '448', '--single-stage', '--low-ram',
+                '--seed', '42', '--output', str(video)]
+    receipt = {'status': 'candidate_requested_not_reviewed', 'source_frames': [start, end],
+               'output_frame_count': count, 'source_frame_map': frame_map,
+               'retiming': 'Threefold slower true native camera trajectory; repeated ordered control frames, synthesized AI motion.',
+               'input_fingerprint': fingerprint, 'base_fingerprint': base_fingerprint,
+               'original_segment_input_fingerprint': original['input_fingerprint'],
+               'prompt': prompt, 'control_filter': control_filter,
+               'images': [{'path': str(path.relative_to(HOME)), 'frame': frame,
+                           'sha256': digest(path)} for path, frame in images], 'command': command}
+    receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
+    subprocess.run(command, check=True)
+    receipt['output_sha256'] = digest(video)
+    receipt['status'] = 'rendered_requires_visual_review'
+    receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
+    print('RETIMED_TURN_CANDIDATE_REQUIRES_REVIEW', video, flush=True)
+
+
 def continue_tour(args):
     """Carry the previous boundary frame into each following control-guided segment."""
     parts = WORK / 'ai-segments'
@@ -145,6 +247,8 @@ def continue_tour(args):
             path = HOME/'outputs/videos'/item['image']
             assert sha256(path.read_bytes()).hexdigest() == item['sha256']
             fixed_boundaries[item['frame']-1] = path
+    if args.edited_tour:
+        assert 576 in fixed_boundaries, 'Edited reproduction requires the reviewed AI-derived native-frame577 boundary in boundary-anchors.json.'
     actions = [
         'Walk forward toward the open front entrance.',
         'Walk under the canopy and through the open glazed front entrance.',
@@ -176,6 +280,11 @@ def continue_tour(args):
             return
         if (WORK / 'STOP-AI-TOUR').exists():
             raise RuntimeError('Stopped between segments for visual review.')
+        if args.edited_tour and index == 5:
+            records.append({'segment': 5, 'source_frames': [481, 577],
+                            'excluded_from_edited_tour': True,
+                            'reason': 'Rejected fast turn; reviewed frame577 boundary starts the kitchen shot.'})
+            continue
         count = min(97, 721 - start)
         video = parts / f'segment-{index:02}.mp4'
         if index == 0:
@@ -227,20 +336,43 @@ def continue_tour(args):
         previous = video
         (parts/'segments.json').write_text(json.dumps(records,indent=2)+'\n')
         print('AI_SEGMENT_READY', index, str(video), flush=True)
-    # Remove each repeated boundary frame, retain actual camera motion and omit AI audio.
-    sequence = parts/'assembled-frames';sequence.mkdir(exist_ok=True)
+    # Remove overlapping boundary frames, retain camera travel and omit AI audio.
+    # A purposeful editorial cut can omit a visually rejected turn; it is recorded
+    # explicitly and never described as a continuous uncut AI take.
+    selected = [0, 1, 2, 3, 4, 6, 7] if args.edited_tour else list(range(8))
+    sequence = parts/('edited-frames' if args.edited_tour else 'assembled-frames')
+    sequence.mkdir(exist_ok=True)
     next_frame = 1
-    for index, start in enumerate(range(0,720,96)):
+    source_frame_map = []
+    shots = []
+    previous_index = None
+    for index in selected:
+        start = index * 96
+        drop_overlap = previous_index is not None and index == previous_index + 1
+        count = min(97,721-start) - int(drop_overlap)
         command = [args.ffmpeg, '-hide_banner', '-loglevel', 'error', '-y', '-i',str(parts/f'segment-{index:02}.mp4')]
-        if index:command += ['-vf', 'select=gt(n\\,0)']
+        if drop_overlap:command += ['-vf', 'select=gt(n\\,0)']
         command += ['-fps_mode','vfr','-start_number',str(next_frame),str(sequence/'frame-%04d.png')]
         subprocess.run(command,check=True)
-        next_frame += min(97,721-start) - int(index>0)
-    assert next_frame == 722
-    candidate = WORK/'timber-courtyard-ai-candidate.mp4'
+        first_source = start + 1 + int(drop_overlap)
+        source_frame_map.extend(range(first_source, first_source + count))
+        shots.append({'segment': index, 'output_frames': [next_frame, next_frame + count - 1],
+                      'source_frames': [first_source, first_source + count - 1],
+                      'transition': 'start' if previous_index is None else ('continuous' if drop_overlap else 'editorial_cut')})
+        next_frame += count
+        previous_index = index
+    frame_count = next_frame - 1
+    assert frame_count == (626 if args.edited_tour else 721)
+    candidate = WORK/('timber-courtyard-ai-edited-candidate.mp4' if args.edited_tour else 'timber-courtyard-ai-candidate.mp4')
     subprocess.run([args.ffmpeg,'-hide_banner','-loglevel','error','-y','-framerate','24',
-                    '-i',str(sequence/'frame-%04d.png'),'-frames:v','721','-c:v','libx264',
+                    '-i',str(sequence/'frame-%04d.png'),'-frames:v',str(frame_count),'-c:v','libx264',
                     '-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(candidate)],check=True)
+    assembly = {'status': 'candidate_requires_visual_review', 'fps': 24, 'frame_count': frame_count,
+                'duration_seconds': frame_count / 24, 'silent': True, 'shots': shots,
+                'source_frame_map': source_frame_map, 'output_sha256': digest(candidate),
+                'excluded_source_frames': [482, 576] if args.edited_tour else None,
+                'editorial_note': 'One clean cut from the living pause to kitchen approach replaces a rejected AI turn. All retained shots use native camera movement; no slideshow, zoom or synthetic photo pan.' if args.edited_tour else 'Continuous route candidate; review every join before promotion.'}
+    (WORK / ('edited-assembly.json' if args.edited_tour else 'continuous-assembly.json')).write_text(json.dumps(assembly, indent=2)+'\n')
     print('AI_TOUR_CANDIDATE_REQUIRES_VISUAL_REVIEW',candidate,flush=True)
 
 if __name__ == '__main__':

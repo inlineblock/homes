@@ -74,8 +74,12 @@ OUT = HOME / 'outputs/videos'
 record = json.loads((OUT / 'camera-route.json').read_text())
 source = HOME / record['source']
 assert hashlib.sha256(source.read_bytes()).hexdigest() == record['source_sha256']
+published_scene = HOME / record.get('published_presentation_scene', 'model/timber-walkthrough.blend')
+published_scene_hash = hashlib.sha256(published_scene.read_bytes()).hexdigest()
+if 'published_presentation_scene_sha256' in record:
+    assert published_scene_hash == record['published_presentation_scene_sha256'], 'Published presentation scene changed.'
 
-bpy.ops.wm.open_mainfile(filepath=str(HOME / 'model/timber-walkthrough.blend'), use_scripts=False)
+bpy.ops.wm.open_mainfile(filepath=str(published_scene), use_scripts=False)
 scene = bpy.context.scene
 camera = scene.camera
 assert camera.name == 'Timber continuous walkthrough'
@@ -113,6 +117,8 @@ report = {
     'native_reopened': True,
     'route_clearance': clearance,
     'canonical_source_sha256_unchanged': record['source_sha256'],
+    'published_presentation_scene_sha256': published_scene_hash,
+    'historical_render_source_scene_sha256': record.get('render_source_scene_sha256', record['presentation_source_sha256']),
     'camera_poses_verified': len(record['poses']),
     'fixed_lens_mm': camera.data.lens,
     'eye_height_m': record['eye_height_m'],

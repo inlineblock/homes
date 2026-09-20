@@ -1,0 +1,184 @@
+{
+  "canonical_source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "historical_work_route_sha256": "1427d9a2bef013bc319f0da11da2e79e4fab96081a672b01628fd98ce84f7802",
+  "current_reproduction_script_sha256": "6d9622a1f8ed1616be11a21e35f035961609189a5ebd1d18dac097e1b351812a",
+  "settings": {
+    "width": 768,
+    "height": 448,
+    "fps": 24,
+    "seed": 42,
+    "single_stage": true,
+    "low_ram": true,
+    "conditioning_strength": 1.0,
+    "control_filter": "scale=768:448:force_original_aspect_ratio=increase,crop=768:448,edgedetect=low=0.08:high=0.2,format=yuv420p",
+    "aspect_note": "Native16:9 controls/references center-cropped to768x448; geometry/camera trajectory retained within that crop."
+  },
+  "selected_segments": [
+    {
+      "segment": 0,
+      "source_frames": [
+        1,
+        97
+      ],
+      "reused_test_sha256": "a56aae8bd9490229bb0198b40226a1e1bb0105ed78e1d27cc37bf78d68cbc937",
+      "output_sha256": "a56aae8bd9490229bb0198b40226a1e1bb0105ed78e1d27cc37bf78d68cbc937",
+      "prompt": "A continuous photoreal architectural walking tour of this exact timber courtyard home. The camera smoothly walks forward at eye level along the pale stone entry path toward the open glazed entrance. Match the camera trajectory, parallax, roof lines, window mullions, cedar posts and all geometry in the control video. Preserve the exact house and warm honey cedar, dark standing seam roof, pale limestone paving and red Japanese maple shown in the photographic reference. Natural fine wood grain, physically realistic glass reflections, soft warm afternoon daylight and botanically realistic foliage. Quiet stabilized architectural cinematography, fixed focal length, no cuts, no zoom, no people, no text, no music or narration. Do not redesign or morph the building.",
+      "input_fingerprint": "5454454242de9ec6e9b0e3e10b8dfe56c6540e923d72e0208f5e3ffee50b0ddc",
+      "imagegen_anchors": [
+        {
+          "reference": "arrival",
+          "local_frame_index": 0,
+          "image": "references/arrival-photo.png",
+          "sha256": "06b48cc863e00240fbab6a777a7558f494739053d8201195aca051a2d2a8641e"
+        }
+      ]
+    },
+    {
+      "segment": 1,
+      "source_frames": [
+        97,
+        193
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Walk under the canopy and through the open glazed front entrance.",
+      "previous_boundary": "boundary-01.png",
+      "boundary_image_sha256": "65e00122dd1b8612d8fcbde937dab6aab38e256341017339b873189fe551e684",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "threshold",
+          "local_frame_index": 96,
+          "image": "references/threshold-photo.png",
+          "sha256": "b0a5e47b574d41a3df5172f4e225522a7b83ad6ce5ff19ce1db51acd9e15f028"
+        }
+      ],
+      "input_fingerprint": "9a2003222d7764f6222bb1675b115dd493431a0c1c79d8c96609ac57a975d25e",
+      "output_sha256": "e2ea987c9b18b0d810ab0b7519ccfc60bddb4db66165c347b30e6aad1103e839"
+    },
+    {
+      "segment": 2,
+      "source_frames": [
+        193,
+        289
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Walk through the open garden threshold along the stone courtyard path.",
+      "previous_boundary": "boundary-02.png",
+      "boundary_image_sha256": "c65d812d6127c93d20cd9279ad97d019ebb3405cf69a4c4475ee76dc7fa3c8d6",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "courtyard",
+          "local_frame_index": 24,
+          "image": "references/courtyard-photo.png",
+          "sha256": "a5dbd5766f76511438ce4267dcdaab7cd984903353f554f17aaf155b027192f4"
+        },
+        {
+          "reference": "courtyard-advance",
+          "local_frame_index": 96,
+          "image": "references/courtyard-advance-photo.png",
+          "sha256": "011e101b6caf1aca3db1b4bc20e3120249ea464e09a1561eca81e222dc850c47"
+        }
+      ],
+      "input_fingerprint": "a2c6dd0fde798a101f23fd20786f172e258f6d8dd7c1ac83c711d8bc19e196f9",
+      "output_sha256": "d9980b647200c9f07b50a1ef3f288d07fbce39c5235ab1d07da65bf70da38972"
+    },
+    {
+      "segment": 3,
+      "source_frames": [
+        289,
+        385
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Walk toward the open rear glazed gable, passing right of its central cedar post.",
+      "previous_boundary": "boundary-03.png",
+      "boundary_image_sha256": "1c0475a0486a00358f3f7188dfe7b6094d23ac8cad1368a83d7967fb78e1835c",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "living-entry",
+          "local_frame_index": 96,
+          "image": "references/living-entry-photo.png",
+          "sha256": "638a44ea4e40da6427c2b00d8a2f2492ec2bf624cd30e91d6286a79424c974a8"
+        }
+      ],
+      "input_fingerprint": "7979dba6a69b722a0bbefc8d09d869aa02774d02265ac81eeb390c7adbe2358c",
+      "output_sha256": "5092b9e72c41dd08d9c9f4e2d2bd476dad1821c5b84a1fb4456d16d4bcd22077"
+    },
+    {
+      "segment": 4,
+      "source_frames": [
+        385,
+        481
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Enter the living room through the open glazing and turn left toward the cream sofa.",
+      "previous_boundary": "boundary-04.png",
+      "boundary_image_sha256": "68b634d1625481c5fbfd58d176e8f3c87b13e39ed585b20cd20985a04307480e",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "living",
+          "local_frame_index": 24,
+          "image": "references/living-photo.png",
+          "sha256": "9a492bbcc3eb2dbe482cc630991487e2c7f90b0f5d5e50ea695d459aee11d603"
+        },
+        {
+          "reference": "living-close",
+          "local_frame_index": 96,
+          "image": "references/living-close-photo.png",
+          "sha256": "193fa2355feb48722d3ce5e3bc0c2bdc83c18fa1ff238170beb462961e8a14d1"
+        }
+      ],
+      "input_fingerprint": "3be196abe721f97fa21ee1e4da8d2203b7e4aa3628675b5868324508f76bf4c3",
+      "output_sha256": "1d7cfd2c868b325c66209757d3897611648858370ba9adba41004a35a0879c5f"
+    },
+    {
+      "segment": 6,
+      "source_frames": [
+        577,
+        673
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Walk along the clear aisle beside the dining table toward the kitchen island.",
+      "previous_boundary": "boundary-06.png",
+      "boundary_image_sha256": "a09243c63267598864a4a51a00321808afd6fe5bb5edfd2331b9e98dde0d99b2",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "kitchen-approach",
+          "local_frame_index": 96,
+          "image": "references/kitchen-approach-photo.png",
+          "sha256": "b901b2ba36af3c48835e878ba7acc43de323d4f5d64312cacf4fa2ea89600183"
+        }
+      ],
+      "input_fingerprint": "781083948ec16e7dfe14aef795d52c5e03957ee16823528fe3e118ab1b9390d7",
+      "output_sha256": "ac1c5c921d01d704e7f01539b820ae65ef93083b621cbb87243337e63dc99ba8"
+    },
+    {
+      "segment": 7,
+      "source_frames": [
+        673,
+        721
+      ],
+      "prompt": "A continuous photoreal architectural walking tour of the exact same timber courtyard home. Follow the camera movement, parallax, framing and geometry of the control video precisely. Preserve all walls, glazing mullions, cedar posts, roof slopes, openings and furniture positions. Match the reference images: honey cedar, black glazing frames, cream plaster and upholstery, pale limestone, pale oak dining furniture, smoked-oak kitchen cabinets and sage green tile. Where visible, retain the exact stainless hood, induction hob, built-in oven, sink, cabinet doors and fitted pantry shelves; never remove, replace or relocate them. The peaked ceiling and upper walls behind the rear gable glazing are solid honey cedar, never sky or transparent surfaces. Keep their exact boundaries from the reference. Natural material texture, realistic glass reflections and soft warm afternoon light. Fixed lens, stable eye height, no cuts, no zoom, no people, no new architecture, no furniture changes, no text or narration. Slow to a stop beside the kitchen island and look across the kitchen.",
+      "previous_boundary": "boundary-07.png",
+      "boundary_image_sha256": "74f86cf847358c06013123c819e076a7fec5826e117f91b63ae1cf80a592477e",
+      "fixed_shared_boundary": null,
+      "imagegen_anchors": [
+        {
+          "reference": "kitchen",
+          "local_frame_index": 24,
+          "image": "references/kitchen-photo.png",
+          "sha256": "5f6f79a36186f80c18386dab0a1a85031839cfb3e844bbbcd2239c40b4a2f91e"
+        },
+        {
+          "reference": "kitchen-end",
+          "local_frame_index": 48,
+          "image": "references/kitchen-end-photo.png",
+          "sha256": "5f6f79a36186f80c18386dab0a1a85031839cfb3e844bbbcd2239c40b4a2f91e"
+        }
+      ],
+      "input_fingerprint": "a1eb5047a547aa893bf7d009e74f28e4a03afd1b1770ece9933ff95116d47d9b",
+      "output_sha256": "7927548bfa0eb436977792ad1cc99c56cd3223eb760e5f2f2990c56269f0bdba"
+    }
+  ],
+  "assembly": "ai-edit-map.json",
+  "boundary_provenance": "boundary-anchors.json",
+  "note": "The script hash identifies the current reproduction implementation, not a retrospective claim about the historical generating script. Exact prompts, input fingerprints, reference/boundary hashes and output hashes identify actual clip generation. Only accepted original-speed moving shots are included. Retimed/clean-control diagnostic clips failed review and are not in the final film."
+}

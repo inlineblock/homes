@@ -20,6 +20,8 @@
     "limitations": "Fixed presentation state only; excludes vegetation/landscape collection and floor contact below50mm. Does not verify walking surface support, trip hazards, hardware operations, code or accessibility."
   },
   "canonical_source_sha256_unchanged": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
+  "published_presentation_scene_sha256": "4f9091c27d82926f0bc19b98c4087f999b2c624e6419e84e6647c05a9fdd416a",
+  "historical_render_source_scene_sha256": "84f47536c97274dd231a953ecb2098f9b12f0d6a8566347d23ff647b04507752",
   "camera_poses_verified": 721,
   "fixed_lens_mm": 25.0,
   "eye_height_m": 1.6764000000000001,

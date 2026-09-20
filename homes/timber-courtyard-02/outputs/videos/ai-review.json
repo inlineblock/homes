@@ -1,10 +1,371 @@
 {
-  "status": "pending_current_model_ai_generation_and_review",
+  "status": "reviewed_current_edited_walkthrough",
   "source_sha256": "b8309bcfcf9475b40cdfb621abf22c6b5a37627c0dc0912864749ea369cd4574",
   "native_video_sha256": "52bf5644d47bd392826b0cfef06c8856a4e297c6c426662f17611a0ee30eb481",
   "reference_provenance_sha256": "137a01aa6ae694af761df13e1743d8ebb6767407752ef141537df89fc47fbdbd",
   "reference_checkpoints": 15,
   "distinct_imagegen_studies": 14,
-  "candidate_location": "outputs/work/walkthrough/",
-  "note": "All prior AI candidates and derived boundaries are obsolete after the coordinated kitchen revision. Current native animation and paired references are reviewed; a current full AI film has not yet been promoted."
+  "video": "timber-courtyard-ai.mp4",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 768,
+        "height": 448,
+        "r_frame_rate": "24/1",
+        "nb_frames": "626"
+      }
+    ],
+    "format": {
+      "duration": "26.083008",
+      "size": "16025110"
+    },
+    "sha256": "b2b5ce89710b2664da4c4dacf2c4c96d62c4481b99345c7e3fcdc6278e000157",
+    "decode_all_frames": "passed"
+  },
+  "browser_playback_smoke_test": {
+    "status": "passed",
+    "reviewer": "independent parent agent",
+    "surface": "Codex in-app browser local MP4",
+    "observations": {
+      "autoplay_reached_end": true,
+      "current_time": 26.083008,
+      "ended": true,
+      "error": null,
+      "visible_area": "kitchen endpoint"
+    },
+    "scope": "Playback smoke test plus separate ordered-frame visual review. Not a claim that every frame was watched at real-time speed."
+  },
+  "edit_map": "ai-edit-map.json",
+  "generation": "ai-generation.json",
+  "accepted_segment_reviews": [
+    {
+      "segment": 0,
+      "source_frame_range": [
+        1,
+        97
+      ],
+      "output_sha256": "a56aae8bd9490229bb0198b40226a1e1bb0105ed78e1d27cc37bf78d68cbc937",
+      "visual_review": "13 ordered samples at every 8 frames, plus full-size frames 1,49,97; independent second reviewer also compared endpoint to native. Forward parallax and main geometry retained, fine foliage/reflections illustrative; no blocker observed."
+    },
+    {
+      "segment": 1,
+      "source_frame_range": [
+        97,
+        193
+      ],
+      "output_sha256": "e2ea987c9b18b0d810ab0b7519ccfc60bddb4db66165c347b30e6aad1103e839",
+      "visual_review": "25 ordered samples at every 4 frames, plus full-size endpoint; independent second reviewer inspected both contact sheets. Entrance frame exits plausibly with forward movement, rear gable remains solid cedar, path/posts consistent; no blocker observed."
+    },
+    {
+      "segment": 2,
+      "source_frame_range": [
+        193,
+        289
+      ],
+      "output_sha256": "d9980b647200c9f07b50a1ef3f288d07fbce39c5235ab1d07da65bf70da38972",
+      "visual_review": "Full decode passed. 25 ordered samples every four frames plus fifteen consecutive frames local9\u201323 across courtyard threshold and sixteen consecutive assembled-order frames across join193 inspected. Forward parallax along courtyard path; solid cedar rear gable and living/dining layout retained. Fine foliage/reflections remain interpretive. No blocking discontinuity seen."
+    },
+    {
+      "segment": 3,
+      "source_frame_range": [
+        289,
+        385
+      ],
+      "output_sha256": "5092b9e72c41dd08d9c9f4e2d2bd476dad1821c5b84a1fb4456d16d4bcd22077",
+      "visual_review": "Full decode passed.25ordered samples every4frames plus16consecutive assembled-order join289frames inspected. Continuous approach to rear glazed opening, plausible parallax of cedar post and surrounding vegetation, stable solid cedar ceiling and living/dining furniture. No blocking motion or geometry discontinuity seen; fine foliage/reflection detail interpreted."
+    },
+    {
+      "segment": 4,
+      "source_frame_range": [
+        385,
+        481
+      ],
+      "output_sha256": "1d7cfd2c868b325c66209757d3897611648858370ba9adba41004a35a0879c5f",
+      "visual_review": "Full decode passed. 25 ordered samples every four frames, 16 consecutive assembled-order join frames and 12 consecutive rear-threshold frames inspected. Cedar post exits left plausibly; camera enters beside dining table and looks toward cream sofa. Ceiling, glazing and furniture retain continuity. No blocking discontinuity seen."
+    },
+    {
+      "segment": 6,
+      "source_frame_range": [
+        577,
+        673
+      ],
+      "output_sha256": "ac1c5c921d01d704e7f01539b820ae65ef93083b621cbb87243337e63dc99ba8",
+      "visual_review": "Full decode passed. 25 ordered samples every four frames, full-size endpoint and 16 consecutive old-turn-to-approach join frames inspected. Kitchen hood, induction hob, built-in oven, wide integrated refrigerator, sink, cabinet storage and fitted pantry remain readable when in view. No blocking geometry drift seen. The subsequent final editorial cut into this shot was reviewed in consecutive encoded frames474\u2013489 and accepted; no replacement-turn join remains pending."
+    },
+    {
+      "segment": 7,
+      "source_frame_range": [
+        673,
+        721
+      ],
+      "output_sha256": "7927548bfa0eb436977792ad1cc99c56cd3223eb760e5f2f2990c56269f0bdba",
+      "visual_review": "Full decode passed. 25 ordered samples every two frames and all16consecutive assembled-order frames around join673 inspected. Stable kitchen hood, induction cooktop, built-in oven, wide paneled fridge and storage. Final camera eases to the native held pose. No blocking visual discontinuity seen."
+    }
+  ],
+  "dense_join_reviews": [
+    {
+      "join_global_frame": 97,
+      "inspected_global_frames": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "method": "Every frame in assembled order; next overlapping local frame 1 omitted. Contact sheet 16 sequential frames.",
+      "verdict": "Continuous forward camera and stable glazing, cedar and courtyard path; fine reflection/foliage variation remains illustrative."
+    },
+    {
+      "join_global_frame": 193,
+      "inspected_global_frames": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "method": "Every frame in assembled order, overlap local1 omitted",
+      "verdict": "Forward motion and major architecture remain continuous."
+    },
+    {
+      "join_global_frame": 289,
+      "inspected_global_frames": [
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ],
+      "method": "Every frame in assembled order, overlap local1 omitted",
+      "verdict": "Forward parallax and major architecture remain continuous."
+    },
+    {
+      "join_global_frame": 385,
+      "inspected_global_frames": [
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393
+      ],
+      "method": "Every frame in assembled order, overlap local1 omitted",
+      "verdict": "Post exits left plausibly; stable living furniture and glazing."
+    },
+    {
+      "join_source_frame": 673,
+      "join_edited_output_frame": 578,
+      "inspected_source_frames": [
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681
+      ],
+      "method": "Every consecutive frame in assembled order, overlap local1 omitted",
+      "verdict": "Kitchen equipment, cabinet edges and island remain stable."
+    }
+  ],
+  "doorway_reviews": [
+    {
+      "global_crossing_frame": 166,
+      "inspected_global_frames": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "verdict": "Every frame inspected across front entrance. Door frame exits field plausibly with forward movement; no abrupt wall crossing."
+    },
+    {
+      "global_crossing_frame": 208,
+      "inspected_global_frames": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "verdict": "Every frame inspected, plausible continuous forward movement along the open courtyard threshold."
+    },
+    {
+      "global_crossing_frame": 388,
+      "inspected_global_frames": [
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
+      ],
+      "verdict": "Consecutive frames reviewed across join and first12segment frames. Camera enters beside dining table without passing through furniture or wall."
+    }
+  ],
+  "final_visual_review": {
+    "whole_film": "54 ordered final encoded-frame samples at half-second intervals plus endpoint inspected. Source moving clips reviewed at13samples for first4sec,25samples for each subsequent accepted clip; dense consecutive frames at all retained joins and all three doorway crossings. Final26sec film has one explicit cut.",
+    "editorial_cut": {
+      "output_frame": 482,
+      "time_seconds": 20.041666666666668,
+      "source_frames_before_after": [
+        481,
+        577
+      ],
+      "reviewed_output_frames": [
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489
+      ],
+      "verdict": "Clean intentional cut from living pause to kitchen approach; stable cabinet/hood/oven/fridge/pantry geometry in subsequent moving shot."
+    },
+    "final_kitchen": "Hood, cooktop and oven retained; wide paneled fridge, sink and storage shown, fitted pantry visible earlier in kitchen approach. Final native camera pose holds briefly."
+  },
+  "rejected_turn": [
+    {
+      "segment": 5,
+      "source_frames": [
+        481,
+        577
+      ],
+      "output_sha256": "b3cb62e21a62ea3f40c13034f6456dfd2d149044c554e33fd02cb82bf81a3ee1",
+      "review": "49samples at every2frames and full-size local29/41/57/97 inspected. Mid-turn local25\u201347 shows conspicuously wavy glazing, soft distorted counter/table edges and texture smearing. Rejected for final promotion; resolved by the reviewed editorial cut after both short repair diagnostics failed. Endpoints and kitchen equipment otherwise readable."
+    }
+  ],
+  "diagnostics": [
+    {
+      "kind": "Threefold slower peak native505\u2013521 with raw edge control",
+      "result": "Rejected: wavy mullions and texture smearing persist.",
+      "output_sha256": "3fa355b478b2896db827667350e73875054afa3e1c301fabe2973c9b981cda88"
+    },
+    {
+      "kind": "Same slow peak with smoothed edge map",
+      "result": "Rejected: smoothing did not resolve defects.",
+      "output_sha256": "678c5e8b51a0aad8cb48afafe30e295fd73e4f09a7d360e6d0af01fa4d7a674f"
+    }
+  ],
+  "limitations": "AI photographic concept film, not built-home footage or exact geometric evidence. Fine leaves, shadows/reflections and material details remain interpretive. One disclosed editorial cut omits failed fast turn; full native30.04sec route remains available. See native receipts for physical-route/threshold and legacy whole-home limits.",
+  "scene_cut_scan": {
+    "tool": "FFmpeg scdet",
+    "threshold": 8,
+    "events": 1,
+    "event_seconds": [
+      20.041667
+    ],
+    "result": "Only the intentional editorial cut detected."
+  },
+  "reproduction_check": {
+    "accepted_segments_reused": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "rejected_turn_skipped": true,
+    "gpu_generation_invoked": false,
+    "candidate_sha256": "b2b5ce89710b2664da4c4dacf2c4c96d62c4481b99345c7e3fcdc6278e000157",
+    "matches_published_sha256": true
+  }
 }

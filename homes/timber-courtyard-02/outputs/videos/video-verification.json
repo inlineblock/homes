@@ -19,7 +19,6 @@
   "ffmpeg_version": "8.0.1",
   "decode_all_frames": "passed",
   "native_visual_review": "Eight high-sample keyframes, fifteen reference checkpoints and sixty-one half-second native sequence samples visually inspected. Camera movement and material/geometry continuity reviewed through the sequence. No visible architecture or furniture crossings.",
-  "gui_playback": "Not repeated for the revised design because the Mac was locked; earlier old-design playback is not evidence for this revision.",
   "route_clearance": {
     "passed": true,
     "body_width_m": 0.7,
@@ -44,5 +43,31 @@
     "tool": "FFmpeg scdet",
     "threshold": 8,
     "events": 0
-  }
+  },
+  "browser_playback_smoke_test": {
+    "status": "passed",
+    "reviewer": "independent parent agent",
+    "surface": "Codex in-app browser, local MP4 served from ignored work",
+    "observations": [
+      {
+        "current_time": 20.956,
+        "paused": false,
+        "ready_state": 4,
+        "error": null,
+        "visible_area": "courtyard"
+      },
+      {
+        "current_time": 30.041667,
+        "ended": true,
+        "error": null,
+        "visible_area": "kitchen endpoint"
+      }
+    ],
+    "scope": "Advancing playback and clean endpoint verified. Does not claim every frame was watched at real-time speed."
+  },
+  "render_source_scene_sha256": "84f47536c97274dd231a953ecb2098f9b12f0d6a8566347d23ff647b04507752",
+  "published_presentation_scene_sha256": "4f9091c27d82926f0bc19b98c4087f999b2c624e6419e84e6647c05a9fdd416a",
+  "scene_equivalence_receipt": "scene-equivalence.json",
+  "walking_surface_receipt": "route-support-review.json",
+  "walking_surface_summary": "721 actual frame positions plus784 intermediate samples (1505total),49665rays over700mm footprint found support. This is not a level or step-free route: approach stepstone/ground difference103.63mm, glazing rails48.77\u201359.44mm above adjoining surfaces, roughly30.5mm end gaps and15.24mm rug. Camera eye height is fixed, not simulated gait. No accessibility or construction approval."
 }
